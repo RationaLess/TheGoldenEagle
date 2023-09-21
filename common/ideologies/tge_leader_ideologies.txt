@@ -1,0 +1,474 @@
+﻿ideology_moderate = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_no_ideology.dds"
+	
+	show_in_list = no
+	
+	character_ideology = yes
+	
+	possible = {
+		always = yes
+		
+		scope:interest_group = {
+			NOR = {
+				has_variable = communist_ig_var
+				has_variable = chose_vanguardism
+				has_variable = chose_fascism
+				has_variable = chose_conservatism
+				has_variable = chose_ethno_nationalism
+			}
+		}
+	}
+	
+	leader_weight = {
+		value = 100	
+		# angry IG's more likely to have opinions
+		if = {
+			limit = {
+				scope:interest_group = {
+					ig_approval < -5
+				}
+			}
+			add = -75
+		}
+		# what makes a man turn neutral? lust for gold? power? or were you just born with a heart full of neutrality?
+		if = {
+			limit = {
+				scope:interest_group = {
+					ig_approval = 0
+				}
+			}
+			add = 1
+		}
+	}
+}
+
+ideology_leader_statist = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/unused/ideology_leader_meritocratic.dds"
+	
+	character_ideology = yes
+	
+	
+	lawgroup_distribution_of_power = {
+			law_dynastic = strongly_disapprove
+			law_meritocratic = approve
+			law_feudal = approve
+			law_elective = disapprove
+		}
+	lawgroup_land_organization = {
+			law_calpulli_system = approve
+			law_religious_tithes = neutral 
+			law_state_control = strongly_approve
+			law_imperial_land = disapprove
+			law_royal_domains = strongly_disapprove
+		}
+	lawgroup_institutionalization = {
+		law_informal_government = neutral 
+		law_assembly_government = neutral
+		law_court_government = neutral
+		law_dedicated_government = approve
+		law_bureaucratic_government = strongly_approve
+	}
+	lawgroup_development = {
+		law_decentralized_settlements = disapprove 
+		law_urban_centers = disapprove 
+		law_great_projects = neutral
+		law_central_development = strongly_approve
+	}
+	
+	
+	
+	possible = {
+		owner = {
+			has_technology_researched = politics
+		}
+		scope:interest_group = {
+			OR = {
+				is_interest_group_type = ig_aristocracy
+				is_interest_group_type = ig_ancillaries
+				is_interest_group_type = ig_pochteca
+				is_interest_group_type = ig_scholars
+			}
+		}
+		
+		}
+	
+	leader_weight = {
+		value = 100
+		
+		
+		#Happy IGs are more likely to go along with more govt power
+		if = {
+			limit = {
+				scope:interest_group = {
+					ig_approval > 5
+				}
+			}
+			add = 50
+		}
+		
+		}
+	
+	}
+	
+	
+ideology_leader_populist = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/unused/ideology_leader_agrarian.dds"
+	
+	character_ideology = yes
+	
+	
+	lawgroup_distribution_of_power = {
+			law_dynastic = strongly_disapprove
+			law_meritocratic = neutral
+			law_feudal = disapprove
+			law_elective = approve
+		}
+	lawgroup_land_organization = {
+			law_calpulli_system = strongly_approve
+			law_religious_tithes = neutral 
+			law_state_control = neutral
+			law_imperial_land = disapprove
+			law_royal_domains = strongly_disapprove
+		}
+	lawgroup_institutionalization = {
+		law_informal_government = neutral 
+		law_assembly_government = neutral
+		law_court_government = strongly_approve
+		law_dedicated_government = neutral
+		law_bureaucratic_government = disapprove
+	}
+	
+	
+	
+	possible = {
+		owner = {
+			has_technology_researched = property
+		}
+		scope:interest_group = {
+			OR = {
+				is_interest_group_type = ig_traditionalists
+				is_interest_group_type = ig_ancillaries
+				is_interest_group_type = ig_pochteca
+				is_interest_group_type = ig_scholars
+			}
+		}
+		
+		}
+	
+	leader_weight = {
+		value = 100
+		
+		#Unhappy IGs are more likely to go embrace populism
+		if = {
+			limit = {
+				scope:interest_group = {
+					ig_approval < 0
+				}
+			}
+			add = 50
+		}
+		
+		
+		}
+	
+	}
+	
+
+	
+	
+ideology_leader_empathetic = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_humanitarianism.dds"
+	
+	character_ideology = yes
+	
+	
+	lawgroup_cultural_acceptance = {
+			law_encomiendas = strongly_disapprove
+			law_cultural_supremacy = disapprove
+			law_cultural_primacy = neutral
+			law_broad_acceptance = strongly_approve
+		}
+	lawgroup_human_sacrifice = {
+		law_human_sacrifice_banned  = strongly_approve
+		law_human_sacrifice = strongly_disapprove
+		}
+	lawgroup_religious_assimilation = {
+		law_forced_conversion = disapprove
+		law_organized_worship = neutral
+		law_communal_worship = approve
+		}
+	lawgroup_slavery = {
+		law_slavery_banned = approve
+		law_debt_slavery = strongly_disapprove
+		}
+	
+	
+	
+	
+	possible = {
+		owner = {
+			has_technology_researched = property
+		}
+		scope:interest_group = {
+			NOT = {
+				is_interest_group_type = ig_warrior_guilds
+			}
+		}
+		
+		}
+	
+	leader_weight = {
+		value = 0
+		
+		#Laws they oppose should make them more likely
+		if = {
+			limit = {
+				has_law = law_type:law_debt_slavery
+			}
+		
+		add = 50
+		}
+		if = {
+			limit = {
+				OR = {
+					has_law = law_type:law_cultural_supremacy
+					has_law = law_type:law_encomiendas
+					}
+			}
+		
+		add = 25
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_human_sacrifice
+			}
+		
+		add = 50
+		}
+		if = {
+			limit = {
+				has_law = law_type:law_forced_conversion
+			}
+		
+		add = 25
+			}
+		#Agtators should be extra likely to have this
+		if = {
+			limit = {
+			has_role = agitator
+			}
+		add = 100
+		}
+		
+		
+	
+		}
+	
+	}
+	
+
+ideology_leader_imperialist = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_ethno_nationalist.dds"
+	
+	character_ideology = yes
+	
+	
+	lawgroup_governance_principles = {
+		law_city_state = disapprove 
+		law_alliance = disapprove
+		law_council = approve
+		law_monarchy = strongly_approve
+		}
+	lawgroup_diplomatic_stance = {
+			law_neutral = disapprove 
+			law_appeasing = strongly_disapprove 
+			law_mercantile = disapprove
+			law_bellicose = strongly_approve 
+		}
+	lawgroup_conquest_doctrine = {
+			law_ritual_warfare = strongly_disapprove
+			law_local_hegemon = disapprove 
+			law_tributary_empire = neutral
+			law_territory_integration = strongly_approve
+		}
+	lawgroup_land_organization = {
+			law_royal_domains = approve 
+			law_state_control = approve
+			law_religious_tithes = neutral 
+			law_imperial_land = strongly_approve 
+			law_calpulli_system = disapprove 
+		}
+	
+	
+	
+	possible = {
+		scope:interest_group = {
+			OR = {
+				is_interest_group_type = ig_aristocracy
+				is_interest_group_type = ig_ancillaries
+				is_interest_group_type = ig_warrior_guilds
+				is_interest_group_type = ig_pochteca
+				is_interest_group_type = ig_scholars
+			}
+		}
+		
+		}
+	
+	leader_weight = {
+		value = 25
+		
+		#Warrior guilds REALLY like this stuff
+		if = {
+			limit = {
+			scope:interest_group = {
+					is_interest_group_type = ig_warrior_guilds
+				}
+			}
+		add = 175
+		}
+		#Aristocrats are more likely to be into building an empire
+		if = {
+			limit = {
+			scope:interest_group = {
+					is_interest_group_type = ig_aristocracy
+				}
+			}
+		add = 50
+		}
+		#Powerful Warrior Guilds help the Imperial cause
+		if = {
+			limit = {
+				owner = {
+					exists = ig:ig_warrior_guilds
+					ig:ig_warrior_guilds = {
+						is_powerful = yes
+					}
+				}
+			}
+			add = 50
+		}
+		# Bellicose foreign policy makes it more likely
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_bellicose
+				}
+			}
+			add = 50
+		}
+		#Only IGs which are happy will go imperialist
+		if = {
+			limit = {
+				scope:interest_group = {
+					ig_approval > 5
+				}
+			}
+			add = 50
+		}
+		#Only IGs which are happy will go imperialist
+		if = {
+			limit = {
+				scope:interest_group = {
+					ig_approval > 5
+				}
+			}
+			add = 50
+		}
+		# More likely for GP's
+		if = {
+			limit = {
+				owner = {
+					country_rank = rank_value:great_power
+				}
+			}
+			add = 25
+		}
+	
+	}
+
+}
+
+
+
+ideology_leader_confederate = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_social_democrat.dds"
+	
+	character_ideology = yes
+	
+	
+	lawgroup_diplomatic_stance = {
+			law_neutral = approve 
+			law_appeasing = strongly_approve 
+			law_mercantile = approve
+			law_bellicose = strongly_disapprove 
+		}
+	lawgroup_conquest_doctrine = {
+			law_ritual_warfare = neutral
+			law_local_hegemon = approve 
+			law_tributary_empire = neutral
+			law_territory_integration = neutral
+		}
+	lawgroup_governance_principles = {
+		law_city_state = disapprove 
+		law_alliance = strongly_approve
+		law_council = neutral
+		law_monarchy = strongly_disapprove
+		}
+	
+	
+	
+	possible = {
+		owner = {
+			has_technology_researched = alliances
+		}
+		scope:interest_group = {
+			OR = {
+				is_interest_group_type = ig_aristocracy
+				is_interest_group_type = ig_ancillaries
+				is_interest_group_type = ig_pochteca
+				is_interest_group_type = ig_freemen
+				is_interest_group_type = ig_scholars
+			}
+		}
+		
+		}
+	
+	leader_weight = {
+		value = 25
+		
+		#Ancillaries should aim to establish confederations
+		if = {
+			limit = {
+			scope:interest_group = {
+					is_interest_group_type = ig_ancillaries
+				}
+			}
+		add = 175
+		}
+		# Low prestige counties are likely to go for confederations
+		if = {
+			limit = {
+				owner = {
+					prestige <= 100
+				}
+			}
+			add = 100
+		}
+		# REALLY low prestige counties are more likely to go for confederations
+		if = {
+			limit = {
+				owner = {
+					prestige <= 50
+				}
+			}
+			add = 100
+		}
+	
+	}
+
+}
+<<<<<<< HEAD
+	
+=======
+	
+>>>>>>> parent of 1c71f10 (merge conflict or smthn)

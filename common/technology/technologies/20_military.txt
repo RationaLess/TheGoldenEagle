@@ -1,0 +1,215 @@
+﻿warrior_bands = {
+	# Unlocks Barracks building
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+}
+
+raiding = {
+	# Unlocks Barracks building
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+}
+
+basic_weapons = {
+	# Unlocks Barracks building
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+}
+
+blunt_weapons = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		basic_weapons
+	}
+}
+
+bladed_weapons = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		basic_weapons
+	}
+}
+
+macuahuitl = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		bladed_weapons
+		military_artisans
+	}
+}
+
+quauhololli  = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		blunt_weapons
+		military_artisans
+	}
+}
+
+bows  = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		bladed_weapons
+	}
+}
+
+atlatl  = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		bows
+	}
+}
+
+tepoztopilli  = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		atlatl
+	}
+}
+
+military_training  = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		warrior_guilds
+	}
+}
+
+military_artisans  = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		basic_weapons
+	}
+}
+
+defensive_attire  = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		military_artisans
+	}
+}
+
+shields  = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		defensive_attire
+	}
+}
+
+decorated_shields  = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		shields
+	}
+}
+
+ichacahuipilli   = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		shields
+	}
+}
+
+tributaries  = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		warrior_bands
+		raiding
+	}
+}
+
+vassalage  = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		warrior_bands
+	}
+}
+
+military_education  = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		military_training
+	}
+}
+
+honorary_titles  = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		military_education
+		shields
+	}
+}
+
+warrior_societies  = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		honorary_titles
+	}
+}
+
+officer_training  = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		military_academies
+	}
+}
+
+flower_wars  = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		honorary_titles
+		ritual_warfare
+	}
+}
+
+ritual_warfare = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		vassalage
+	}
+}

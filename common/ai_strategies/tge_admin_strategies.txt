@@ -1,0 +1,164 @@
+﻿ai_strategy_noble_appeasement = {
+	icon = "gfx/interface/icons/ai_strategy_icons/conservative_agenda.dds"
+	
+	type = administrative
+
+	wanted_construction_ratio = 200000 # 1 level of construction sector per 2 million incorporated population
+
+	building_group_weights = {
+		bg_agriculture = 2.0
+		bg_fishing = 1.5
+		bg_mining = 0.5
+		bg_bg_light_industry = 0.5
+	}
+	
+	goods_stances = {
+		maize = { stance = wants_export }
+		fish = { stance = wants_export }
+		faith = { stance = wants_high_supply }
+		pottery = { stance = wants_high_supply }
+		jewelry = { stance = wants_high_supply }
+		cocoa = { stance = wants_high_supply }
+	}
+
+	possible = {
+		always = yes
+	}
+	
+	weight = {
+		value = 10		
+		
+				
+
+		if = {
+			limit = { 
+				exists = ig:ig_aristocracy
+				ig:ig_aristocracy = { is_powerful = yes } 
+			}
+			multiply = 1.5
+		}		
+	}
+}
+
+ai_strategy_rapid_urbanization = {
+	icon = "gfx/interface/icons/ai_strategy_icons/resource_expansion.dds"
+	
+	type = administrative	
+
+	wanted_construction_ratio = 100000 # 1 level of construction sector per 1.5 million incorporated population
+	
+	building_group_weights = {
+		bg_mining = 2.0
+		bg_logging = 2.0
+		bg_light_industry = 1.5
+	}
+	
+	subsidies = {
+		building_mudbrick_furnace = wants_to_have
+		building_limestone_mine = wants_to_have
+	}
+	
+	goods_stances = {
+		tools = { stance = wants_high_supply }
+		furniture = { stance = wants_high_supply }
+		limestone = { stance = wants_export }
+		obsidian = { stance = wants_export }
+		mudbrick = { stance = wants_export }
+		wood = { stance = wants_export }
+		hardwood = { stance = wants_export }		
+	}
+
+
+	possible = {
+		always = yes
+	}
+	
+	weight = {
+		value = 10		
+		
+		if = {
+			limit = { is_country_type = unrecognized }
+			multiply = 0.5
+		}		
+
+		if = {
+			limit = { 
+				exists = ig:ig_elites
+				ig:ig_elites = { is_powerful = yes } 
+			}
+			multiply = 1.5
+		}
+
+		if = {
+			limit = {
+				has_law = law_type:law_central_development
+			}
+			multiply = 2.0
+		}
+		
+	}
+}
+
+ai_strategy_artisan_economy = {
+	icon = "gfx/interface/icons/ai_strategy_icons/industrial_expansion.dds"
+	
+	type = administrative	
+
+	wanted_construction_ratio = 150000 # 1 level of construction sector per 1.5 million incorporated population
+	
+	building_group_weights = {
+		bg_mining = 2.0
+		bg_logging = 2.0
+		bg_light_industry = 1.5
+	}
+	
+	subsidies = {
+		building_mudbrick_furnace = wants_to_have
+		building_limestone_mine = wants_to_have
+	}
+	
+	goods_stances = {
+		luxury_clothing = { stance = wants_export }
+		jewelry = { stance = wants_export }
+		pottery = { stance = wants_export }
+
+		obsidian = { stance = wants_high_supply }
+		tools = { stance = wants_high_supply }
+		rare_gems = { stance = wants_high_supply }
+		animal_skin = { stance = wants_high_supply }
+		feathers = { stance = wants_high_supply }	
+	}
+
+
+	possible = {
+		always = yes
+	}
+	
+	weight = {
+		value = 10		
+		
+		if = {
+			limit = { is_country_type = unrecognized }
+			multiply = 0.5
+		}		
+
+		if = {
+			limit = { 
+				exists = ig:ig_merchant_guilds
+				ig:ig_merchant_guilds = { is_powerful = yes } 
+			}
+			multiply = 1.5
+		}
+
+		if = {
+			limit = {
+				OR = {
+				has_law = law_type:law_regulated_commerce
+				has_law = law_type:law_standardized_coin
+				}
+			}
+			multiply = 2.0
+		}
+		
+	}
+}

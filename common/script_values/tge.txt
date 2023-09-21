@@ -1,0 +1,161 @@
+﻿settlement_amount = {
+		
+		value = state_population
+		divide = 5000
+		}
+
+subjects_population = {
+	value = 0
+	
+	every_country = {
+		if = {
+			limit = {
+				is_subject_of = root
+			}
+			add = total_population
+		}
+	}
+}
+
+country_and_subjects_states = {
+	value = 0  
+	
+	every_state = {
+		if = {
+			limit = {
+				OR = {
+					owner = {
+						is_subject_of = root
+						}
+					owner = root
+					}
+				
+			}
+			add = 1
+		}
+	}
+}
+
+#Empire Sprawl
+empire_sprawl_value = {
+	if = {
+		limit = {
+			exists = var:var_empire_sprawl
+		}
+	value = var:var_empire_sprawl
+	}
+	else = {
+		value = 0
+	}
+}
+
+sprawl_capacity_value = {
+	if = {
+		limit = {
+			exists = var:var_empire_sprawl_capacity
+		}
+	value = var:var_empire_sprawl_capacity
+	}
+	else = {
+		value = 0
+	}
+}
+
+sprawl_load_value = {
+	if = {
+		limit = {
+			exists = var:var_empire_sprawl_load
+		}
+	value = var:var_empire_sprawl_load
+	}
+	else = {
+		value = 0
+	}
+}
+
+sprawl_get_base_value = {
+	value = country_and_subjects_population
+	
+	subtract = capital.state_population
+	
+	
+	divide = 1000
+}
+
+sprawl_get_vassal_value = {
+	value = subjects_population
+	
+	divide = 1000
+	
+	multiply = modifier:country_empire_sprawl_load_subject_penalty
+}
+
+sprawl_get_multiplier = {
+	value = country_and_subjects_states
+	
+	divide = 20
+	
+	add = 1
+
+}
+
+empire_sprawl_deficit = {
+	value = sprawl_capacity_value
+	
+	subtract = sprawl_load_value
+	
+	
+	divide = sprawl_load_value
+	
+	multiply = -1
+	
+	min = 0
+	max = 1
+	
+	}
+	
+empire_sprawl_surplus = {
+	value = sprawl_load_value
+	
+	subtract = sprawl_capacity_value
+	
+	
+	divide = sprawl_capacity_value
+	
+	multiply = -1
+	
+	min = 0
+	max = 1
+	
+	
+	}
+	
+empire_sprawl_deficit_mod = {
+
+value = empire_sprawl_deficit
+
+add = 1
+
+}
+
+empire_sprawl_surplus_mod = {
+
+value = empire_sprawl_surplus
+
+add = 1
+
+}
+
+empire_sprawl_bonus_or_malus = {
+
+value = no
+
+if = {
+	limit = {
+		empire_sprawl_value < 0	
+		}
+		value = yes
+	}
+
+}
+

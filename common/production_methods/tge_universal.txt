@@ -1,0 +1,167 @@
+﻿pm_org_informal = {
+	texture = "gfx/interface/icons/production_method_icons/homesteading.dds"
+	
+
+
+	building_modifiers = {
+		workforce_scaled = {
+		
+		}
+
+		level_scaled = {
+			building_employment_chiefs_add = 50
+			building_employment_nobles_add = 50
+		}
+		unscaled = {
+			building_chiefs_shares_add = 5
+			building_nobles_shares_add = 5
+		}
+	}
+}
+
+pm_org_city = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
+	
+	is_default = yes
+
+
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+			building_employment_nobles_add = 50
+			building_employment_priests_add = 50
+		}
+		unscaled = {
+			building_nobles_shares_add = 6
+			building_priests_shares_add = 2
+			building_workforce_shares_add = 2
+			
+			building_throughput_mult = 0.05
+		}
+	}
+}
+
+pm_org_calpulli = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+	
+	
+	unlocking_laws = {
+		law_calpulli_system
+	}
+
+
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+			building_employment_nobles_add = 50
+			building_employment_freemen_add = 50
+		}
+		unscaled = {
+			building_workforce_shares_add = 4
+			building_nobles_shares_add = 6
+			
+			building_throughput_mult = 0.1
+		}
+	}
+}
+
+pm_org_dynasty = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_aristocrats.dds"
+	
+	unlocking_laws = {
+		law_royal_domains
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+			building_employment_nobles_add = 100
+		}
+		unscaled = {
+			building_nobles_shares_add = 8
+			
+			building_throughput_mult = 0.15
+		}
+	}
+}
+
+pm_org_religious = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_clergy.dds"
+	
+	unlocking_laws = {
+		law_religious_tithes
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+			building_employment_nobles_add = 50
+			building_employment_priests_add = 50
+		}
+		unscaled = {
+			building_nobles_shares_add = 8
+			building_priests_shares_add = 4
+			
+			building_throughput_mult = 0.15
+		}
+	}
+}
+
+pm_org_imperial = {
+	texture = "gfx/interface/icons/production_method_icons/professional_bureaucrats.dds"
+	
+	unlocking_laws = {
+		law_imperial_land
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+			building_employment_nobles_add = 50
+			building_employment_officers_add = 50
+		}
+		unscaled = {
+			building_nobles_shares_add = 6
+			building_officers_shares_add = 4
+			
+			building_throughput_mult = 0.15
+		}
+	}
+}
+
+
+pm_org_state = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_academics.dds"
+	
+	
+	unlocking_laws = {
+		law_state_control
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+			building_employment_nobles_add = 50
+			building_employment_bureaucrats_add = 50
+		}
+		unscaled = {
+			building_government_shares_add = 6
+			building_bureaucrats_shares_add = 4
+			building_nobles_shares_add = 2
+			
+			building_throughput_mult = 0.25
+		}
+	}
+}

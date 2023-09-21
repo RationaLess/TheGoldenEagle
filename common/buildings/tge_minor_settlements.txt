@@ -1,0 +1,23 @@
+﻿############# SUBSISTENCE
+
+building_minor_settlements = {
+	building_group = bg_settlement
+	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
+
+	production_method_groups = {
+		pmg_minor_nobles
+		pmg_minor_home_workshops
+		pmg_minor_informal_farms
+	}
+	
+	
+	has_max_level = yes
+	buildable = no
+	expandable = no
+	downsizeable = no
+	
+	
+	
+	min_raise_to_hire = 0.30
+	slaves_role = peasants
+}

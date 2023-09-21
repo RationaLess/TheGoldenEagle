@@ -1,0 +1,186 @@
+POPS = {
+	s:STATE_XAYMACA = {
+		region_state:XAY = {
+			create_pop = {
+				culture = ciboney
+				size = 55000 # I found only one thing that gave me a concrete-ish number at 60000 for 1492, so don't come at me
+				}
+		 }
+	}
+	s:STATE_LUCAYA = {
+		region_state:LUC = {
+			create_pop = {
+				culture = ciboney
+				size = 33000 # Rough estimate
+				}
+				
+			create_pop = {
+				culture = ayiti
+				size = 2000 # Rough estimate
+				}
+		 }
+	}
+	
+	# Everything here is based on how the island is divided into fifths, so each of the nations get a fifth
+	
+	s:STATE_BORIKEN = {
+		region_state:BRK = {
+			create_pop = {
+				culture = ayiti
+				size = 45000
+				}
+		 }
+	}
+	s:STATE_HIGUEY = {
+		region_state:HGY = {
+			create_pop = {
+				culture = ayiti
+				size = 93000
+				}
+			create_pop = {
+				culture = macorix
+				size = 47000
+				}
+		 }
+	}
+	s:STATE_MAGUA = {
+		region_state:MGA = {
+			create_pop = {
+				culture = ayiti
+				size = 42000
+				}
+			create_pop = {
+				culture = macorix
+				size = 85000
+				}
+			create_pop = {
+				culture = ciguayo
+				size = 13000
+				}
+		 }
+	}
+	s:STATE_MAGUANA = {
+		region_state:MGN = {
+			create_pop = {
+				culture = ayiti
+				size = 140000
+				}
+		    }
+	}
+	s:STATE_MARIEN = {
+		region_state:MRI = {
+			create_pop = {
+				culture = ayiti
+				size = 130000
+				}
+			create_pop = {
+				culture = ciboney
+				size = 10000
+			  }
+		 }
+	}
+	
+	s:STATE_JARAGUA = {
+		region_state:JRG = {
+			create_pop = {
+				culture = ayiti
+				size = 100000
+				}
+			create_pop = {
+				culture = ciboney
+				size = 30000
+				}
+			create_pop = {
+				culture = macorix
+				size = 10000
+				}
+		 }
+	}
+	
+	# Random estimates here we go!!!!!!
+	
+	s:STATE_TUKUSI = {
+		region_state:YAO = {
+			create_pop = {
+				culture = kalina
+				size = 10000 
+			}
+		}
+		region_state:SBY = {
+			create_pop = {
+				culture = kalina
+				size = 10000 
+			}
+		}
+		region_state:KRI = {
+			create_pop = {
+				culture = kalina
+				size = 5000
+			}
+		}
+	}
+	
+	s:STATE_CAMAJUYA = {
+		region_state:INI = {
+			create_pop = {
+				culture = kalinago
+				size = 10025 
+			}
+		}
+		region_state:KRI = {
+			create_pop = {
+				culture = kalinago
+				size = 2500
+			}
+			create_pop = {
+				culture = kalina
+				size = 2500
+			}
+		}
+	}
+	
+	s:STATE_KARUKERA = {
+		region_state:INI = {
+			create_pop = {
+				culture = kalinago
+				size = 17500 
+			}
+		}
+	}
+	
+	s:STATE_WADADLI = {
+		region_state:BRK = {
+			create_pop = {
+				culture = kalinago
+				size = 2500 
+			}
+			create_pop = {
+				culture = ayiti
+				size = 12500 
+			}
+		}
+	}
+	
+	s:STATE_GUANAHATABEY
+		region_state:GGNO = {
+			create_pop = {
+				culture = guanahatabey
+				size = 5000
+			}
+		}	
+		
+		region_state:GNE = {
+			create_pop = {
+				culture = guanahatabey
+				size = 22500
+			}
+		}	
+	
+		region_state:MRIN = {
+			create_pop = {
+				culture = guanahatabey
+				size = 22500
+			}
+		}
+	}	
+					

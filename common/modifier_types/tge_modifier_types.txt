@@ -1,0 +1,190 @@
+﻿state_building_temple_max_level_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+state_building_market_max_level_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+state_building_minor_settlements_max_level_add = {
+	neutral = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_aristocracy_approval_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_aristocracy_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_aristocracy_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+}
+
+interest_group_ig_ancillaries_approval_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_ancillaries_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_ancillaries_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+}
+
+interest_group_ig_wise_men_approval_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_wise_men_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_wise_men_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+}
+
+interest_group_ig_tlatelolco_approval_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_tlatelolco_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_tlatelolco_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+}
+
+interest_group_ig_merchant_guilds_approval_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_merchant_guilds_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_merchant_guilds_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+}
+
+interest_group_ig_warrior_guilds_approval_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_warrior_guilds_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_warrior_guilds_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+}
+
+interest_group_ig_traditionalists_approval_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_traditionalists_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_traditionalists_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+}
+
+
+interest_group_ig_scholars_approval_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_scholars__pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_scholars_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+}
+
+
+
+interest_group_ig_freemen_approval_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_freemen_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_freemen_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+}
+
+interest_group_ig_elites_approval_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_elites_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_elites_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+}

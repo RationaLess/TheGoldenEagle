@@ -1,0 +1,9 @@
+﻿# If you add religions, and use those tags, do not change them without changing everywhere they are used.
+
+animist = {
+	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+	traits = {
+		
+	}
+	color = { 0.8 0.6 0.4 }
+}

@@ -1,0 +1,136 @@
+﻿STATES = {
+
+s:STATE_XAYMACA = {
+  create_state = {
+      country = c:XAY
+      owned_provinces = { xC05622 x6D5F0D x5C6414 x73742C x87CA25 x3C8425 xA49900 xA83A1F xD25711 xEE6929 xA09827 xFAD130 xC77020 xCA4117 x3A7E13 x5A7A2E x8B392E x517C12 xAD8103 x60A228 x8A6A24 x704B05 xDA540D }
+     }
+     add_homeland = ciboney
+ }
+ 
+s:STATE_LUCAYA = {
+  create_state = {
+      country = c:LUC
+      owned_provinces = { x7AD715 x82C80C x4B8F0C x5D7F2E x58DA05 x3C5E23 xB8830C xC08123 x676C0E xEE5510 xCB5526 xB9531C x45EC2A x5CD903 xD9DA2A x77FA24 x9B532B x84511F x78D806 xB48B26 x3DD50A x46C225 x45F822 x9D9F1A x6AA918 xF96109 x86E405 x919F2A }
+     }
+     add_homeland = ciboney
+ }
+
+s:STATE_BORIKEN = {
+  create_state = {
+      country = c:BRK
+      owned_provinces = { xDCFC32 xEDF300 xAAEA26 x55911D xCD5E13 xAAF80C x3D360D xA6CD20 x69361E xE0B22E xA64C0F xE85D27 xCEA92E x3F5F28 x717713 x55FC28 xEB6510 }
+     }
+     add_homeland = ayiti
+ }
+ 
+s:STATE_HIGUEY = {
+  create_state = {
+      country = c:HGY
+      owned_provinces = { xF43407 x797E31 x76FE2C xBAE216 x78F31C x557A14 x4AC717 x668D09 x4C5D30 x4DA628 x398D18 x81372F x4AC717 x3EE82D xBBF709 x9D670B xCB3A1A xC63504 xDFD21B x9BEC31 xA4E82E xBC981A x4ADC32 x7ED100 x3F3800 xA79F0C x68FF13 x87D10D xEFDD31 xC4580B x9C704B xD1642B }
+     }
+     add_homeland = ayiti
+     add_homeland = macorix
+ }
+ 
+ s:STATE_MAGUA = {
+  create_state = {
+      country = c:MGA
+      owned_provinces = { xDC822C x6F9A0F xEBA40F x948115 x883B02 x6F411D xAAE62C x755902 x77E130 xD2890B x48AA2A xDF851B x47D015 x89581A xC6EF20 x9CD521 xF8B60F xA57409 x767D0F xB3FF0C xA5B50E xE99A22 x33E30F xB4C505 x49CA0E xA0F42F x788220 x975C20 }
+     }
+     add_homeland = ayiti
+     add_homeland = macorix
+     add_homeland = ciguayo
+ }
+ 
+  s:STATE_MAGUANA = {
+  create_state = {
+      country = c:MGN
+      owned_provinces = { xC19A01 xD8AC31 xCDA113 x5BC820 x487C2F x78D223 x81922B xC0F11C xE5922E x79F032 x3A562E xAE442D xE3DE28 x7F6E08 x8DC832 xE09822 xA56616 x4A8723 x4A3D26 x74B922 x505A14 x7FCB0A x465F2D x924204 xA8FE07 x5CF11C x789905  xE1D11C x789A25 xD45222 }
+     }
+     add_homeland = ayiti
+ }
+ 
+  s:STATE_MARIEN = {
+  create_state = {
+      country = c:MRI
+      owned_provinces = { xECB21C xFCA916 x7C9532 x833506 xA43F32 xD46E13 x7DF11B x655700 x33F702 xDF6F30 xC5C329 xF4ED1B x9D770D x32BC0B x3A7F03 xC96719 xAE7F03 xC0CD2F x909618 xF7B323 x77B815 xE1D11C x40F902 xF98607 xF07B18 xC57003 }
+     }
+     add_homeland = ayiti
+     add_homeland = ciboney
+ }
+ 
+  s:STATE_JARAGUA = {
+  create_state = {
+      country = c:JRG
+      owned_provinces = { x6E5A04 x62DB1E x438B0E xE7A525 xABB924 x7A770E xCE5F06 x6DD40D xDE9727 x6EB320 x8BE514 xDE9727 x9ADB09 x96F32B x78F11F xFF720C x938601 xC5EC2A x9DD20E x6FBC22 x89D013 xDCC20A x774B0D x6EDF27 xDDDF07 x3EFA13 x854205 x3CA005 x98DF25 xADC220 xC9D605 x97A828 x646D10 x5DFB2F xFD8512 xACB914 xE9F929 xCBE730 x99DF2B xC34316 xC0C817 xBA5C16 x8D3D18 xEADF2F x51D210 x4E8D02 x48D521 x90B617 xD0D414 x4F561E x345829 xA0C114 }
+     }
+     add_homeland = ayiti
+     add_homeland = ciboney
+     add_homeland = macorix
+ }
+
+ s:STATE_TUKUSI = {
+	create_state = {
+		country = c:SBY
+			owned_provinces = { x986D0C xBDB60E xADB204 x709811 }
+		}
+
+	create_state = {
+		country = c:YAO
+			owned_provinces = { xC7B22F xF16328 xEFF913 x35BA2A }
+		}
+	create_state = {
+		country = c:KRI
+			owned_provinces = { x6E6D27 }
+		}
+	     add_homeland = kalina
+}
+
+s:STATE_CAMAJUYA = {
+	create_state = {
+		country = c:KRI
+			owned_provinces = { xBDC22E }
+		}
+	create_state = {
+		country = c:INI
+			owned_provinces = { x414D0D x73B929 xD8972F }
+		}
+	   add_homeland = kalina
+	   add_homeland = kalinago
+}
+
+s:STATE_KARUKERA = {
+	create_state = {
+		country = c:INI
+		owned_provinces = { xDD911A xF04E18 xF2492A xECD506 }
+		}
+	add_homeland = kalinago
+}
+ 
+s:STATE_WADADLI = {
+	create_state = {
+		country = c:BRK
+		owned_provinces = { xB8EE25 xAAE424 x595D16 }
+	}
+	add_homeland = ayiti
+	add_homeland = kalinago
+}
+
+s:STATE_GUANAHATABEY = {
+	create_state = {
+		country = c:GGNO
+		owned_provinces = { xD94506 }
+	}
+	create_state = {
+		country = c:GNE
+		owned_provinces = { x67C932 x4FF91D x595332 xFADC2F xFCC21B x59831B xF05611 x6E991C xA4FC31 x935A21 x5A642C xF9F829 }
+	}
+	create_state = {
+		country = c:MRIN
+		owned_provinces = { x829513 x358D02 xA73209 xEB562C x9A9829 xD6CE10 xE18813 x53E60E xC74F0F x873832 x5E602C xCBC820 }
+	}
+	add_homeland = guanahatabey
+	}
+}
+

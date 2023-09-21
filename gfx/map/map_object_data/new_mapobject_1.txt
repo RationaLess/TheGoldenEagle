@@ -1,0 +1,21 @@
+﻿object={
+	name="lake_tenochtitlan"
+	clamp_to_water_level=yes
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	pdxmesh="lake_mesh"
+	count=2
+	transform="3334.874512 0.000000 6528.511230 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+2269.032471 0.000000 7201.865234 0.000000 0.662569 0.000000 0.749001 51.487938 51.487938 51.487938
+"}
+object={
+	name="new_mapobject_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="cities"
+	pdxmesh="TGE_Wonder_Teotihuacan.mesh"
+	count=1
+	transform="3386.221924 0.000000 6578.232422 0.000000 0.000000 0.000000 1.000000 14.878426 14.878426 14.878426
+"}

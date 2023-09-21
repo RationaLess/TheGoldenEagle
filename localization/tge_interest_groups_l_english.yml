@@ -1,0 +1,61 @@
+﻿l_english:
+ ig_aristocracy:0 "Aristocracy"
+ ig_aristocracy_only_icon:0 "@landowners!"
+ ig_aristocracy_desc:0 "Nobility of the primary culture seeking to put themselves on top of the hierarchy."
+ 
+ ig_ancillaries:0 "Ancillaries"
+ ig_ancillaries_only_icon:0 "@petty_bourgeoise!"
+ ig_ancillaries_desc:0 "Lesser cities or junior members in an alliance representing the interest of the common man."
+ 
+ ig_traditionalists:0 "Traditionalists"
+ ig_traditionalists_only_icon:0 "@devout!"
+ ig_traditionalists_desc:0 "Prominent members of society seeking to keep the ambitions of individuals at bay and preserve social traditions."
+ 
+ ig_wise_men:0 "Wise Men"
+ ig_wise_men_only_icon:0 "@devout!"
+ ig_wise_men_desc:0 "The educated as well as the clergy."
+ 
+ ig_scholars:0 "Scholars"
+ ig_scholars_only_icon:0 "@intelligensia!"
+ ig_scholars_desc:0 "The educated as well as the clergy."
+ 
+ ig_merchant_guilds:0 "Merchant Guilds"
+ ig_merchant_guilds_only_icon:0 "@industrialists!"
+ ig_merchant_guilds_desc:0 "Guilds comprised of freemen working in commerce, be it those who carry goods between cities, those who produce them or those who sell them in local markets."
+ 
+ ig_warrior_guilds:0 "Warrior Guilds"
+ ig_warrior_guilds_only_icon:0 "@armed_forces!"
+ ig_warrior_guilds_desc:0 "Guilds comprised of warriors, leaders and those who align closely to martial interests."
+ 
+ ig_freemen:0 "Freemen"
+ ig_freemen_only_icon:0 "@rural_folk!"
+ ig_freemen_desc:0 "Working citizens of our empire, and those aligned with populist interests."
+ 
+ ig_elites:0 "Elites"
+ ig_elites_only_icon:0 "@trade_unionists!"
+ ig_elites_desc:0 "Government-adjcent men of wealth and status who are unrelated to noble families and seek to strengthen and entrench their positions."
+ 
+ ig_tlatelolco:0 "Tlatelolco"
+ ig_tlatelolco_only_icon:0 "@industrialists!"
+ ig_tlatelolco_desc:0 "Being the 'sister city' of Tenochtitlan, Tlatelolco enjoys a relative level of independence, possessing its own government and influencing politics of the alliance."
+
+#localized IGs
+ ig_mexica_nobles:0 "Mexica Nobles"
+ ig_mexica_nobles_only_icon:0 "@landowners!"
+ ig_mexica_nobles_desc:0 "Gathered on the isle of Tenochtitlan by visions granted by the supreme god Huitzilopochtli, the Mexica are fierce, indomitable peoples."
+ 
+ ig_triple_alliance:0 "Triple Alliance"
+ ig_triple_alliance_only_icon:0 "@petty_bourgeoisie!"
+ ig_triple_alliance_desc:0 "Officials and Nobles from member states of the Triple Alliance. United in the war against Azcapotzalco, the three city-states have confederated into an alliance each responsible for an equal part of conquered territories."
+ 
+ ig_teopixqui:0 "Teopixqui"
+ ig_teopixqui_only_icon:0 "@devout!"
+ ig_teopixqui_desc:0 "The old order commited to carrying out the will of the war god Huitzilopochtli, the mighty one who surely favors the Mexica."
+ 
+ ig_pochteca:0 "Pochteca"
+ ig_pochteca_only_icon:0 "@industrialists!"
+ ig_pochteca_desc:0 "Long-distance porters and traders, as well as artisans and merchants organized into complex commercial hierarchies."
+ 
+ ig_eagle_warriors:0 "Eagle Warriors"
+ ig_eagle_warriors_only_icon:0 "@armed_forces!"
+ ig_eagle_warriors_desc:0 "Guilds comprised of warriors, leaders and those who align closely to martial interests."

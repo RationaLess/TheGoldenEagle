@@ -1,0 +1,27 @@
+﻿#Sprawl
+
+empire_sprawl_malus = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+   	unit_army_offense_mult = -0.5
+	unit_army_defense_mult = -0.5
+	country_law_enactment_time_mult = 1
+}
+
+empire_sprawl_bonus = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    country_legitimacy_base_add = 20
+    country_bureaucracy_investment_cost_factor_mult = -0.75
+}
+
+#Minor Settlements
+state_minor_settlement_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_building_minor_settlements_max_level_add = 1
+}
+
+
+
+test_mod = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    country_construction_add = -5
+}

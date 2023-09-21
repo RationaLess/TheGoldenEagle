@@ -1,0 +1,18 @@
+﻿CHARACTERS = {
+	c:ATA = {
+		create_character = {
+			# Itzcoatl
+			name = Itzcoatl
+			ruler = yes
+			ig_leader = yes
+			birth_date = 1380.5.5
+			
+			culture = cu:mexica
+			
+			interest_group = ig_aristocracy
+			traits = {
+				imperious
+			}
+		}
+	}
+}

@@ -1,0 +1,108 @@
+﻿building_maize_farm = {
+	building_group = bg_maize_farms
+	
+	texture = "gfx/interface/icons/building_icons/maize_farm.dds"
+	
+	required_construction = 1000
+	
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		farming
+	}
+	
+	production_method_groups = {
+		pmg_base_maize_farm
+		pmg_organization
+	}
+
+	
+	terrain_manipulator = farmland_maize
+}
+
+building_cotton_farm = {
+	building_group = bg_cotton_farms
+	texture = "gfx/interface/icons/building_icons/cotton_plantation.dds"
+	
+	required_construction = 1000
+
+	unlocking_technologies = {
+		cotton_farming
+	}
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_cotton_farm
+		pmg_organization
+	}
+}
+
+building_chinampa = {
+	building_group = bg_chinampas
+	
+	texture = "gfx/interface/icons/building_icons/maize_farm.dds"
+	
+	
+	required_construction = 2500
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		chiapas
+	}
+	
+	production_method_groups = {
+		pmg_base_chinampa
+		pmg_organization
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_maize
+}
+
+############# PLANTATIONS
+
+building_cocoa_harvestry = {
+	building_group = bg_cocoa
+	texture = "gfx/interface/icons/building_icons/coffee_plantation.dds"
+	
+	required_construction = 1000
+
+	unlocking_technologies = {
+		irrigation
+		
+	}
+
+	city_type = farm
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_base_cocoa
+		pmg_organization
+	}
+}
+
+building_rubber_harvestry = {
+	building_group = bg_rubber
+	texture = "gfx/interface/icons/building_icons/rubber_lodge.dds"
+	
+	required_construction = 1000
+
+	unlocking_technologies = {
+		irrigation
+		
+	}
+
+	city_type = farm
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_base_rubber
+		pmg_organization
+	}
+}

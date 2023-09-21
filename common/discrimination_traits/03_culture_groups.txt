@@ -1,0 +1,9 @@
+﻿###### EXAMPLE ######
+
+#example_culture_group={ #Works same as cultural_descriptive traits.
+#}
+
+#####################
+
+uto_aztecan_culture_group={
+}

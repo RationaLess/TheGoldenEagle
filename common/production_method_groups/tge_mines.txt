@@ -1,0 +1,42 @@
+pmg_logging = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_logging
+	}
+}
+
+pmg_obsidian_mining = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_obsidian_mining
+	}
+}
+
+pmg_limestone_mining = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_limestone_mining
+	}
+}
+
+pmg_gold_mining = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_gold_mining
+		}
+}
+
+pmg_turquoise_mining = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_turquoise_mining
+		}
+}
+
+
+pmg_mudbrick_furnacing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_mudbrick_furnacing
+		}
+}

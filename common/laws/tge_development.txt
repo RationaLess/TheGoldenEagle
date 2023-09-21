@@ -1,0 +1,167 @@
+﻿# group = this is the law_group a law belongs to
+# icon = graphical icon shown in-game
+# modifier = {} modifier on country for having adopted this law
+
+law_decentralized_settlements = {
+	group = lawgroup_development
+	
+	icon = "gfx/interface/icons/law_icons/landed_voting.dds"
+	
+	progressiveness = -50
+	
+	unlocking_technologies = {
+	}
+		
+	on_activate = {		
+		custom_tooltip = {
+			text = enact_law_radical_leftist_economy_warning_desc
+		}	
+	}
+	
+	modifier = {
+		
+	country_empire_sprawl_load_mult = 0.5
+	state_construction_mult = -1
+	country_minor_settlements_per_thousand = 1
+	
+	}
+
+	
+
+	
+	possible_political_movements = {
+	}
+	
+	pop_support = {
+		value = 0
+	}
+	
+	# AI should never switch back to traditionalism
+	ai_will_do = {
+		always = no
+	}
+
+}
+
+
+law_urban_centers = {
+	group = lawgroup_development
+	
+	icon = "gfx/interface/icons/law_icons/colonial_resettlement.dds"
+	
+	progressiveness = 0
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+		
+	
+	
+	modifier = {
+		
+	country_empire_sprawl_load_mult = 0.25
+	country_authority_add = 50
+	country_minor_settlements_per_thousand = 0.5
+	
+	
+	}
+
+	
+
+	
+	possible_political_movements = {
+	}
+	
+	pop_support = {
+		value = 0
+	}
+	
+	# AI should never switch back to traditionalism
+	ai_will_do = {
+		always = no
+	}
+
+}
+
+
+law_great_projects = {
+	group = lawgroup_development
+	
+	icon = "gfx/interface/icons/law_icons/laissez_faire.dds"
+	
+	progressiveness = 50
+	
+	unlocking_technologies = {
+		architecture
+	}
+		
+	on_activate = {		
+		
+	}
+	
+	modifier = {
+		
+	country_empire_sprawl_load_mult = 0.1
+	state_construction_mult = 0.25
+	country_authority_add = 100
+	country_minor_settlements_per_thousand = 0.25
+		
+	}
+
+	
+
+	
+	possible_political_movements = {
+	}
+	
+	pop_support = {
+		value = 0
+	}
+	
+	# AI should never switch back to traditionalism
+	ai_will_do = {
+		always = no
+	}
+
+}
+
+
+law_central_development = {
+	group = lawgroup_development
+	
+	icon = "gfx/interface/icons/law_icons/command_economy.dds"
+	
+	progressiveness = 100
+	
+	unlocking_technologies = {
+		architecture
+		specialized_knowledge
+	}
+		
+	on_activate = {	
+	}
+	
+	modifier = {
+	country_authority_add = 200
+	state_construction_mult = 0.5
+	country_minor_settlements_per_thousand = 0
+	
+	
+	}
+
+	
+
+	
+	possible_political_movements = {
+	}
+	
+	pop_support = {
+		value = 0
+	}
+	
+	# AI should never switch back to traditionalism
+	ai_will_do = {
+		always = no
+	}
+
+}

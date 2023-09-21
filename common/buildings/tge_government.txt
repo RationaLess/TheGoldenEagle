@@ -1,0 +1,127 @@
+building_temple = {
+	building_group = bg_faith
+	city_type = city
+	
+	
+	levels_per_mesh = 10
+
+	unlocking_technologies = {
+		temple_districts
+	}
+
+	production_method_groups = {
+		pmg_temple_base
+	}
+
+	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
+
+	required_construction = 2000
+}
+
+building_ball_court = {
+	building_group = bg_utility
+	city_type = city
+	
+	
+	levels_per_mesh = 10
+
+	unlocking_technologies = {
+		ballgame
+	}
+
+	production_method_groups = {
+		pmg_ball_court
+	}
+
+	texture = "gfx/interface/icons/building_icons/white_house.dds"
+	
+	urbanization = 100
+	
+	required_construction = 1000
+}
+
+building_royal_palace = {
+	building_group = bg_utility
+	city_type = city
+	
+	
+	levels_per_mesh = 10
+
+	unlocking_technologies = {
+		luxury_construction
+	} 
+
+	production_method_groups = {
+		pmg_royal_palace
+	}
+
+	texture = "gfx/interface/icons/building_icons/vatican_city.dds"
+	
+	urbanization = 100
+	
+	required_construction = 1000
+}
+
+
+
+building_market = {
+	building_group = bg_public_infrastructure
+	city_type = city
+	
+	
+	
+	levels_per_mesh = 10
+
+	unlocking_technologies = {
+		markets
+	}
+
+	production_method_groups = {
+		pmg_market_base
+	}
+
+	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
+
+	required_construction = 500
+}
+
+building_trading_post = {
+	building_group = bg_public_infrastructure
+	city_type = city
+	
+	
+	
+	levels_per_mesh = 10
+
+	unlocking_technologies = {
+		trade_routes
+	}
+
+	production_method_groups = {
+		pmg_trading_post
+	}
+
+	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
+
+	required_construction = 500
+}
+
+
+building_government_administration = {
+	building_group = bg_bureaucracy
+	city_type = city
+
+	levels_per_mesh = 10
+
+	unlocking_technologies = {
+		record_keeping
+	}
+
+	production_method_groups = {
+		pmg_admin_base
+	}
+
+	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
+
+	required_construction = 500
+}

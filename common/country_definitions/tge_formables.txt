@@ -1,0 +1,98 @@
+﻿#Anahuac Formables
+
+AZT = { #Aztec Empire
+
+color = rgb { 204 20 42 }
+
+tier = empire
+
+country_type = recognized
+
+cultures = { mexica }
+
+capital = STATE_TENOCHTITLAN
+}
+
+NEOTO = { #Neo-Toltec Empire (Otomi)
+
+color = rgb { 203 59 225 }
+
+tier = empire
+
+country_type = recognized
+
+cultures = { otomi }
+
+capital = STATE_TOLLAN
+}
+
+
+TEOTI = { #Teotihuacan
+
+color = rgb { 219 83 122 }
+
+tier = kingdom
+
+country_type = recognized
+
+cultures = { nahua }
+
+capital = STATE_TEOTIHUACAN
+}
+
+TEPA = { #Tepanec Empire
+
+color = rgb { 255 158 66 }
+
+tier = empire
+
+country_type = recognized
+
+cultures = { tepanec }
+
+capital = STATE_AZCAPOTZALCO
+}
+
+TEXN = { #North Texcoco Alliance
+
+color = rgb { 255 158 66 }
+
+tier = empire
+
+country_type = recognized
+
+cultures = { tepanec }
+
+capital = STATE_AZCAPOTZALCO
+}
+
+TEXS = { #South Texcoco Alliance
+
+color = rgb { 238 107 255 }
+
+tier = empire
+
+country_type = recognized
+
+cultures = { nahua }
+
+capital = STATE_CHALCO
+}
+
+
+#Michoacan Formables
+TEOA = { #Teoatl
+
+color = rgb { 25 186 225 }
+
+tier = kingdom
+
+country_type = recognized
+
+cultures = { nahua }
+
+capital = STATE_TEPELCATEPEC
+}
+
+
+

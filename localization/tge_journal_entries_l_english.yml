@@ -1,0 +1,30 @@
+﻿l_english:
+  
+ je_golden_eagle:"The Golden Eagle"
+ je_golden_eagle_reason:"Ever since we ventured from Aztlan, we faced strife and hardship. To secure our future as well as our place in the sun, we need to reorganize ourselves into a great empire."
+   
+   
+ je_consolidate_lake_texcoco:0 "Consolidate Lake Texcoco"
+ je_consolidate_lake_texcoco_reason:0 "The kingdoms of Lake Texcoco have been stuck in a dance of politics and intrigue before being tamed by the Tepaneca. It is our turn to assert ourselves over the lesser altepetl."
+ 
+ je_secure_obsidian:0 "Secure a Source of Obsidian"
+ je_secure_obsidian_reason:0 "Every great empire in mesoamerica has used the black glass, be it to intimidate to impress. We ought to have a source of obsidian within our territories if we want to hope to achieve military dominance."
+
+
+  #Nation Specific
+ je_tepaneca_war:"Tepaneca War"
+ je_tepaneca_war_reason:"After being subjugated, we've been forced to fight under the Azcapotzalco banner for many years. But through an union with other vassalized atlepetl, we finally have an opportunity to earn our freedom."
+ 
+ 
+ je_struggle_for_texcoco:"Struggle for Texcoco"
+ je_struggle_for_texcoco_reason:"With the defeat of Azcapotzalco, a power vacuum has emerged in the Texcoco basin. Though the lake atlepetl are now independent, it is clear that very soon a new opportunistic power will try to consolidate the various polities."
+ 
+ 
+ #Confederation
+ je_forging_alliances:"Forging Alliances"
+ je_forging_alliances_reason:"We should create a tight-knit alliance with our neighbours by confederating with them."
+ 
+ #Other
+ je_urbanization_efforts:0 "Urbanization Efforts"
+ je_urbanization_efforts_reason:1 "Large urban centers spread their influence through trade, art, commodities and wealth. If we manage to turn our capital into such a metropolis, the old guard will have no choice but to endorse this kind of innovation."
+ je_urbanization_efforts_goal:0 "Increase Capital Urban Center level by 10"

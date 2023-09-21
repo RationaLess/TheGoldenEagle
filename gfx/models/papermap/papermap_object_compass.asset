@@ -1,0 +1,39 @@
+pdxmesh = {
+	name = "papermap_object_compass_mesh"
+	file = "papermap_object_compass.mesh"
+
+	meshsettings = {
+		name = "papermap_object_compass|g_body|g_bodyShape"
+		index = 0
+		texture_diffuse = "papermap_objects_01_diffuse.dds"
+		texture_normal = "papermap_objects_01_normal.dds"
+		texture_specular = "noproperties.dds"
+		additional_shader_defines = { "FLATLIGHT" }
+		shader = "standard"
+	}
+
+	meshsettings = {
+		name = "papermap_object_compass|g_body|g_bodyShape"
+		index = 1
+		texture_diffuse = "papermap_objects_01_diffuse.dds"
+		texture_normal = "papermap_objects_01_normal.dds"
+		texture_specular = "papermap_objects_01_properties.dds"
+		additional_shader_defines = { "FLATLIGHT" }
+		shader = "standard_alpha_blend"
+	}
+
+	meshsettings = {
+		name = "papermap_object_compass|g_body_decal|g_body_decalShape"
+		index = 0
+		texture_diffuse = "papermap_objects_01_decal_diffuse.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "noproperties.dds"
+		additional_shader_defines = { "FLATLIGHT" }
+		shader = "standard_alpha_blend"
+	}
+}
+
+entity = {
+	name = "papermap_object_compass_entity"
+	pdxmesh = "papermap_object_compass_mesh"
+}

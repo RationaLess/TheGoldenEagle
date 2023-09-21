@@ -1,0 +1,1 @@
+﻿#Removing all cultures leads to a ton of clothing errors.

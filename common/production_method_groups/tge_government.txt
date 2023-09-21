@@ -1,0 +1,46 @@
+pmg_temple_base = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_temple_no_sacrifices
+		pm_temple_human_sacrifice 
+	}
+}
+
+pmg_ball_court = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_ball_court
+	}
+}
+
+pmg_royal_palace = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_royal_palace
+	}
+}
+
+pmg_market_base = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_market
+	}
+}
+
+pmg_trading_post = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_trading_post
+	}
+}
+
+pmg_admin_base = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_admin_basic
+		pm_admin_advanced
+		pm_admin_dedicated
+	}
+}
+
+

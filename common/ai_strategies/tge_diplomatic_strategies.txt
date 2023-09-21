@@ -1,0 +1,243 @@
+﻿ai_strategy_form_confederation = {
+	icon = "gfx/interface/icons/ai_strategy_icons/unused/protect_region.dds"
+	
+	type = diplomatic
+	
+	undesirable_infamy_level = {
+		value = 0
+	}
+	
+	unacceptable_infamy_level = {
+		value = 50
+	}
+	
+	ideological_opinion_effect_mult = {
+		value = -0.5
+	}
+	
+	wargoal_maneuvers_fraction = {
+		value = -0.1
+	}	
+	
+	diplomatic_play_neutrality = {
+		value = 0
+	}
+	
+	diplomatic_play_boldness = {
+		value = -25
+	}
+	
+	recklessness = {
+		value = -0.5
+	}
+	
+	aggression = {
+		value = -0.75
+
+		if = {
+			limit = { 
+				NOT = { is_country_type = unrecognized }
+				scope:target_country = { is_country_type = unrecognized } 
+			}
+			add = 0.25
+			
+			if = {
+				limit = { has_technology_researched = civilizing_mission }
+				add = 0.5
+			}			
+		}
+
+		# Less aggressive against countries we're just antagonistic against, rather than belligerent/domineering
+		if = {
+			limit = {
+				has_attitude = {
+					who = scope:target_country
+					attitude = antagonistic
+				}					
+			}
+			multiply = 0.1
+		}
+
+		# More aggressive against ideological enemies, a bit less aggressive against ideological allies
+		if = {
+			limit = {
+				"ai_ideological_opinion(scope:target_country)" < 0
+			}
+			
+			multiply = {
+				value = "ai_ideological_opinion(scope:target_country)"
+				multiply = -0.2
+				add = 1
+				max = 4.0
+			}				
+		}	
+		else = {
+			multiply = {
+				value = "ai_ideological_opinion(scope:target_country)"
+				multiply = -0.05
+				add = 1
+				min = 0.5
+			}			
+		}		
+	}
+	 
+	building_group_weights = {
+		bg_technology = 1.25
+	}
+	
+	secret_goal_weights = {
+		protect = 1.5
+		dominate = 1.5
+		reconcile = 1.5
+	}
+	
+	secret_goal_scores = {
+	
+		befriend = {
+			value = -300
+			if = {
+				limit = {	
+					scope:target_country = {
+						is_adjacent_to_country = root
+					}
+				}
+			
+			add = 1200
+			}
+		}
+
+	}
+
+	possible = {
+		has_technology_researched = confederation
+		has_journal_entry = je_forging_alliances
+		
+		OR = {
+			has_law = law_type:law_alliance
+			has_law = law_type:law_city_state
+		}
+		NOT = {
+			has_law = law_type:law_bellicose
+		}
+
+	}
+	
+	weight = {
+		value = 50
+		
+		if = {
+			limit = { country_rank < rank_value:major_power }
+			add = 100
+		}
+
+	
+	}
+}
+
+
+ai_strategy_imperial_ambitions = {
+	icon = "gfx/interface/icons/ai_strategy_icons/territorial_expansion.dds"
+	
+	type = diplomatic
+	
+	undesirable_infamy_level = {
+		value = 500
+	}
+	
+	unacceptable_infamy_level = {
+		value = 999
+	}
+	
+	ideological_opinion_effect_mult = {
+		value = 0.75
+	}
+	
+	wargoal_maneuvers_fraction = {
+		value = 0.8
+	}		
+	
+	diplomatic_play_neutrality = {
+		value = 0
+	}
+	
+	diplomatic_play_boldness = {
+		value = 25
+	}
+	
+	recklessness = {
+		value = 0.75
+	}
+	
+	aggression = {
+		value = 2
+		
+		if = {
+			limit = { 
+				NOT = { is_country_type = unrecognized }
+				scope:target_country = { is_country_type = unrecognized } 
+			}
+			add = 1
+		}	
+
+		# Less aggressive against countries we're just antagonistic against, rather than belligerent/domineering
+		if = {
+			limit = {
+				has_attitude = {
+					who = scope:target_country
+					attitude = antagonistic
+				}					
+			}
+			multiply = 0.25
+		}	
+
+		# More aggressive against ideological enemies, a bit less aggressive against ideological allies
+		if = {
+			limit = {
+				"ai_ideological_opinion(scope:target_country)" < 0
+			}
+			
+			multiply = {
+				value = "ai_ideological_opinion(scope:target_country)"
+				multiply = -0.2
+				add = 1
+				max = 4.0
+			}				
+		}	
+		else = {
+			multiply = {
+				value = "ai_ideological_opinion(scope:target_country)"
+				multiply = -0.05
+				add = 1
+				min = 0.5
+			}			
+		}			
+	}
+
+	building_group_weights = {
+		bg_army = 1.5
+	}
+	
+	secret_goal_weights = {
+		#protect = 0.5
+		conquer = 4
+	}
+
+	wargoal_weights = {
+		conquer_state = 4
+		return_state = 4
+	}	
+		
+	possible = {
+		always = yes
+	}
+
+	weight = {
+		value = 10
+			
+		if = {
+			limit = { ig:ig_warrior_guilds = { is_powerful = yes } }
+			multiply = 1.5
+		}			
+			
+	}
+}

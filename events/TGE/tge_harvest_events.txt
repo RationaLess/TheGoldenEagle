@@ -1,0 +1,133 @@
+﻿namespace = harvest_events
+
+
+#Good Harvest
+harvest_events.1 = {
+	type = country_event
+	placement = scope:harvest_state
+
+	title = harvest_events.1.t
+	desc = harvest_events.1.d
+	flavor = harvest_events.1.f
+
+	duration = 3
+
+	event_image = {
+		#TODO
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		any_state = {
+			owner = ROOT
+			OR = {
+					has_building = building_maize_farm
+					has_building = building_chinampa
+					}
+		}
+	}
+
+	immediate = {
+		random_state = {
+			limit = {
+				owner = ROOT
+				OR = {
+					has_building = building_maize_farm
+					has_building = building_chinampa
+					}
+			}
+			save_scope_as = harvest_state
+		}
+	}
+
+	option = {
+			name = harvest_events.1.a
+			default_option = yes
+			scope:harvest_state = {
+				add_modifier = {
+					name = bountiful_harvests
+					months = 48
+					is_decaying = yes
+				}
+			}
+		}
+}
+
+#Drought
+harvest_events.2 = {
+	type = country_event
+	placement = scope:drought_state
+
+	title = harvest_events.2.t
+	desc = harvest_events.2.d
+	flavor = harvest_events.2.f
+
+	duration = 3
+
+	event_image = {
+		#TODO
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+		any_state = {
+			owner = ROOT
+			OR = {
+					has_building = building_maize_farm
+					has_building = building_chinampa
+				}
+		}
+	}
+
+	immediate = {
+		random_state = {
+			limit = {
+				owner = ROOT
+				OR = {
+					has_building = building_maize_farm
+					has_building = building_chinampa
+					}
+			}
+			save_scope_as = drought_state
+		}
+	}
+
+	option = {
+			name = harvest_events.2.a
+			default_option = yes
+			scope:drought_state = {
+				add_modifier = {
+					name = drought
+					months = 48
+					is_decaying = yes
+				}
+			}
+		}
+		
+	option = {
+			name = harvest_events.2.b
+			
+			trigger = {
+				has_technology_researched = aqueducts
+			}
+			
+			add_modifier = {
+					name = funding_aqueduct_network
+					months = 48
+					is_decaying = yes
+				}
+			
+			scope:drought_state = {
+				add_loyalists_in_state = {
+					value = 0.5
+					pop_type = farmers
+					}
+			}
+	}
+}

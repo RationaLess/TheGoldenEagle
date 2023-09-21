@@ -1,0 +1,45 @@
+﻿l_english:
+ 
+ #test event
+ tenochtitlan.1.t:0 "Tolteca"
+ tenochtitlan.1.d:0 "The Toltecs Are Among Us"
+ tenochtitlan.1.f:0 "adsffdjksnjk"
+ tenochtitlan.1.1:0 "This truly is epic."
+ 
+ 
+ #Journal Entries
+ tepaneca_war.1.t:0 "Mexica Victory"
+ tepaneca_war.1.d:0 "The [GetCountry.GetName] has achieved total victory over their former overlords."
+ tepaneca_war.1.f:0 "The Azcapotzalco palace once bolstered by the riches of tribute now sees a puny king swearing fealty to the Mexica, surrounded by the very Eagle Warriors who managed to siege his seemingly untouchable city. The Tepanec Empire has become fractured, and Tlatoani all across the region see this upheaval as both a relief and an opportunity."
+ tepaneca_war.1.1:0 "The beginning of a new era."
+ 
+ tepaneca_war.2.t:0 "Struggle for Texcoco"
+ tepaneca_war.2.d:0 "The [SCOPE.sCountry('owner_country_scope').GetName] has conquered Azcapotzalco, freeing us from a state of vassalage."
+ tepaneca_war.2.f:0 "Echoing all across Mesoamerica is the tale of three atlepetl who united to free themselves from their overlord. Free and unbound, the alliance now finds itself as a promising power in a rich and prosperous region - only time will tell whether they will become the new hegemony in the valley."
+ tepaneca_war.2.1:0 "A great opportunity."
+
+ urbanization_efforts.1.t:"The [SCOPE.sState('capital_state').GetName] Project"
+ urbanization_efforts.1.d:"Represenatives of [SCOPE.gsInterestGroup('urbanist_one_ig').GetName] have met with [SCOPE.gsInterestGroup('urbanist_two_ig').GetName] in order to discuss possible urbanization projects in [SCOPE.sState('capital_state').GetName]."
+ urbanization_efforts.1.f:"The [SCOPE.gsInterestGroup('anti_urbanist_ig').GetName] have long thought we should look to the past to learn how we should be. But they forgot about the very thing that led the Toltecs to achieve greatness we can only reminisce about -- ambition."
+ urbanization_efforts.1.a:"The [SCOPE.gsInterestGroup('urbanist_one_ig').GetName] will lead the way."
+ urbanization_efforts.1.b:"Greatness is inevitable, but there is no reason to be hasty."
+ 
+ urbanization_efforts.2.t:"The [SCOPE.sState('capital_state').GetName] Failure"
+ urbanization_efforts.2.d:"The urbanization efforts pushed by the [SCOPE.gsInterestGroup('urbanist_one_ig').GetName] have come to nothing long years after proposal. This will likely reinforce [SCOPE.gsInterestGroup('anti_urbanist_ig').GetName] sentiment."
+ urbanization_efforts.2.f:"'The enthusiasm burned bright but was short lived. [SCOPE.sState('capital_state').GetName] remains unremarkable and unknown; it will never come close to the likes of Chichen Itza or Tula. We were foolish to even think we could come close.'"
+ urbanization_efforts.2.a:"Deeply unfortunate."
+ 
+ urbanization_efforts.3.t:"The [SCOPE.sState('capital_state').GetName] Success"
+ urbanization_efforts.3.d:"The urbanization efforts pushed by the [SCOPE.gsInterestGroup('urbanist_one_ig').GetName] have come to fruition. This is sure to greately boost their clout, to the dismay of [SCOPE.gsInterestGroup('anti_urbanist_ig').GetName] sceptics."
+ urbanization_efforts.3.f:"'A mixtec man and mayab woman are bartering over fine local pottery - a common occurence in the [SCOPE.sState('capital_state').GetName] market. Poets sing their ballads, traders peddle their goods, scholars come to share knowledge and inspect local codices. It is impossibly lively compared to twenty years ago.'"
+ urbanization_efforts.3.a:"Our cultural dominance is nigh."
+
+ forging_alliances.1.t:"Forging Alliances"
+ forging_alliances.1.d:"There is a growing sentiment in (Country) to establish a close alliance with neighboring states."
+ forging_alliances.1.f:"Warmongers all around us are subjugating cities en masse, wishing they could become the next great empire. We may not be able to do much about them alone, but thankfully we aren't the only ones facing this predicament."
+ forging_alliances.1.a:"Perhaps its time for a different strategy."
+ confederations_unlocked:"For as long as this [Concept('concept_journal_entry','$concept_journal_entry$')] is active, you may ask neighboring states to confederate."
+ 
+ #[SCOPE.sState('capital_state').GetName]
+ #[SCOPE.gsInterestGroup('urbanist_one_ig').GetName]
+ #[SCOPE.gsInterestGroup('urbanist_two_ig').GetName]

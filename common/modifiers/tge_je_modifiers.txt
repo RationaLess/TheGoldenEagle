@@ -1,0 +1,58 @@
+imperial_potential = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+    country_radicals_from_conquest_mult	= -0.2
+	country_military_goods_cost_mult = -0.2
+	interest_group_ig_warrior_guilds_pop_attraction_mult = 0.25
+}
+
+strong_urban_sentiment = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	
+	interest_group_ig_elites_pop_attraction_mult = 5
+	state_expected_sol_mult = 0.2
+}
+
+moderate_urban_sentiment = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	
+	interest_group_ig_elites_pop_attraction_mult = 2.5
+}
+
+
+renowned_capital = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	
+	country_prestige_add = 50
+	interest_group_ig_elites_pop_attraction_mult = 1
+}
+
+unsuccessful_urbanization = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	
+	state_migration_pull_mult = -0.1
+	interest_group_ig_elites_approval_add = -5
+	interest_group_ig_scholars_approval_add = -5
+	interest_group_ig_traditionalists_pol_str_mult = 0.5
+	interest_group_ig_traditionalists_pop_attraction_mult = 0.5
+}
+
+successful_urbanization = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	
+	
+	state_migration_pull_mult = 0.1
+	interest_group_ig_elites_approval_add = 5
+	interest_group_ig_scholars_approval_add = 5
+	interest_group_ig_elites_pol_str_mult = 1.5
+	interest_group_ig_scholars_pol_str_mult = 0.5
+	interest_group_ig_traditionalists_pop_attraction_mult = -0.5
+}
+
+
+confederate_sentiment = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	
+	country_improve_relations_speed_mult = 0.5
+	interest_group_ig_aristocracy_approval_add = -3
+	interest_group_ig_ancillaries_pop_attraction_mult = 1
+}

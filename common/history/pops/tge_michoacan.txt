@@ -1,0 +1,249 @@
+POPS = {
+	
+	
+	#Purepecha
+	s:STATE_TZINTZUNTZAN = {
+		region_state:TARA = {
+			create_pop = {
+				culture = purepecha
+				size = 80000
+				}
+		}
+	}
+	s:STATE_CUITEZO = {
+		region_state:TARA = {
+			create_pop = {
+				culture = purepecha
+				size = 20000
+				}
+			create_pop = {
+				culture = nahua
+				size = 30000
+				}
+		}
+	}
+	s:STATE_ZITAHURAO = {
+		region_state:TARA = {
+			create_pop = {
+				culture = purepecha
+				size = 15000
+				}
+			create_pop = {
+				culture = matlatzinca
+				size = 35000
+				}
+		}
+	}
+	s:STATE_AYOTAC = {
+		region_state:TARA = {
+			create_pop = {
+				culture = purepecha
+				size = 8000
+				}
+			create_pop = {
+				culture = cuitlatec
+				size = 16000
+				}
+		}
+		region_state:AYOT = {
+			create_pop = {
+				culture = cuitlatec
+				size = 48000
+				}
+		}
+	}
+	
+	#Matlatzinca Minors
+	s:STATE_TOLUCA = {
+		region_state:TOLU = {
+			create_pop = {
+				culture = matlatzinca
+				size = 32000
+				}
+			create_pop = {
+				culture = tepanec
+				size = 5000
+				}
+		}
+	}
+	s:STATE_CAIXTLAHUACA = {
+		region_state:CAIX = {
+			create_pop = {
+				culture = matlatzinca
+				size = 35000
+				}
+			create_pop = {
+				culture = tepanec
+				size = 5000
+				}
+		}
+	}
+	s:STATE_TAXIMAROA = {
+		region_state:TAXI = {
+			create_pop = {
+				culture = matlatzinca
+				size = 30000
+				}
+			create_pop = {
+				culture = purepecha
+				size = 2000
+				}
+		}
+	}
+	
+	s:STATE_CUTZAMALA = {
+		region_state:CUTZ = {
+			create_pop = {
+				culture = matlatzinca
+				size = 30000
+				}
+		}
+	}
+	
+	
+	#Cuitlatec
+	
+	s:STATE_NOCHISTLAN = {
+		region_state:NCHI = {
+			create_pop = {
+				culture = cuitlatec
+				size = 45000
+				}
+		}
+	}
+	s:STATE_IXTAPA = {
+		region_state:IXTP = {
+			create_pop = {
+				culture = cuitlatec
+				size = 65000
+				}
+		}
+	}
+	s:STATE_TIXTLA = {
+		region_state:TXTL = {
+			create_pop = {
+				culture = cuitlatec
+				size = 42000
+				}
+		}
+	}
+	s:STATE_ACAPOLCO = {
+		region_state:ACPC = {
+			create_pop = {
+				culture = cuitlatec
+				size = 40000
+				}
+			create_pop = {
+				culture = tlapanec
+				size = 10000
+				}
+		}
+	}
+	
+	
+	#Micho nahuas
+	s:STATE_TECOMAN = {
+		region_state:TECO = {
+			create_pop = {
+				culture = nahua
+				size = 65000
+				}
+		}
+	}
+	s:STATE_TEPELCATEPEC = {
+		region_state:TECO = {
+			create_pop = {
+				culture = nahua
+				size = 60000
+				}
+		}
+	}
+	s:STATE_COAHUAYUTLA = {
+		region_state:COAH = {
+			create_pop = {
+				culture = nahua
+				size = 62500
+				}
+		}
+	}
+	s:STATE_TANCITARO = {
+		region_state:TANC = {
+			create_pop = {
+				culture = nahua
+				size = 42500
+				}
+		}
+	}
+	s:STATE_TACATZUCARO = {
+		region_state:TCTZ = {
+			create_pop = {
+				culture = nahua
+				size = 32500
+				}
+		}
+	}
+	s:STATE_URUAPAN = {
+		region_state:URUA = {
+			create_pop = {
+				culture = nahua
+				size = 29000
+				}
+		}
+	}
+	s:STATE_HUANIMARO = {
+		region_state:HUAN = {
+			create_pop = {
+				culture = nahua
+				size = 31000
+				}
+		}
+	}
+	s:STATE_MARAVATIO = {
+		region_state:MARA = {
+			create_pop = {
+				culture = nahua
+				size = 37000
+				}
+		}
+	}
+	s:STATE_NOCHTEPEC = {
+		region_state:NOCH = {
+			create_pop = {
+				culture = nahua
+				size = 7000
+				}
+			create_pop = {
+				culture = matlatzinca
+				size = 30000
+				}
+		}
+	}
+	s:STATE_TLACOTEPEC = {
+		region_state:TLTP = {
+			create_pop = {
+				culture = nahua
+				size = 25000
+				}
+			create_pop = {
+				culture = matlatzinca
+				size = 5000
+				}
+		}
+	}
+	s:STATE_COPAYATONAC = {
+		region_state:TPCC = {
+			create_pop = {
+				culture = nahua
+				size = 10000
+				}
+			create_pop = {
+				culture = cuitlatec
+				size = 29000
+				}
+		}
+	}
+	
+	
+	
+	
+	}

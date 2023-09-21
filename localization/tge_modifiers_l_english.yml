@@ -1,0 +1,77 @@
+﻿l_english:
+  
+  modifier_state_building_temple_max_level_add:0 "$building_temple$ Max Level"
+  modifier_state_building_temple_max_level_add_desc:0 "A bonus or penalty to the maximum level of $building_temple$ buildings."
+  
+  
+  
+  #Loc
+  modifier_interest_group_ig_aristocracy_pop_attraction_mult:1 "$ig_variant_aristocracy$ Pop Attraction"
+  modifier_interest_group_ig_aristocracy_pop_attraction_mult_desc:1 "A bonus or penalty to the how attracted Pops are to the $ig_variant_aristocracy$ [concept_interest_group]"
+  modifier_interest_group_ig_aristocracy_pol_str_mult:2 "$ig_variant_aristocracy$ [concept_political_strength]"
+  modifier_interest_group_ig_aristocracy_pol_str_mult_desc:2 "A bonus or penalty to the total [concept_political_strength] of the $ig_variant_aristocracy$ [concept_interest_group]"
+  modifier_interest_group_ig_aristocracy_approval_add:2 "$ig_variant_aristocracy$ [concept_approval]"
+  modifier_interest_group_ig_aristocracy_approval_add_desc:2 "A bonus or penalty to the total [concept_approval] of the $ig_variant_aristocracy$ [concept_interest_group]"
+  
+  modifier_interest_group_ig_traditionalists_pop_attraction_mult:1 "$ig_variant_traditionalists$ Pop Attraction"
+  modifier_interest_group_ig_traditionalists_pop_attraction_mult_desc:1 "A bonus or penalty to the how attracted Pops are to the $ig_variant_traditionalists$ [concept_interest_group]"
+  modifier_interest_group_ig_traditionalists_pol_str_mult:2 "$ig_variant_traditionalists$ [concept_political_strength]"
+  modifier_interest_group_ig_traditionalists_pol_str_mult_desc:2 "A bonus or penalty to the total [concept_political_strength] of the $ig_variant_traditionalists$ [concept_interest_group]"
+  modifier_interest_group_ig_traditionalists_approval_add:2 "$ig_variant_traditionalists$ [concept_approval]"
+  modifier_interest_group_ig_traditionalists_approval_add_desc:2 "A bonus or penalty to the total [concept_approval] of the $ig_variant_traditionalists$ [concept_interest_group]"
+  
+  modifier_interest_group_ig_ancillaries_pop_attraction_mult:1 "$ig_variant_ancillaries$ Pop Attraction"
+  modifier_interest_group_ig_ancillaries_pop_attraction_mult_desc:1 "A bonus or penalty to the how attracted Pops are to the $ig_variant_ancillaries$ [concept_interest_group]"
+  modifier_interest_group_ig_ancillaries_pol_str_mult:2 "$ig_variant_ancillaries$ [concept_political_strength]"
+  modifier_interest_group_ig_ancillaries_pol_str_mult_desc:2 "A bonus or penalty to the total [concept_political_strength] of the $ig_variant_ancillaries$ [concept_interest_group]"
+  modifier_interest_group_ig_ancillaries_approval_add:2 "$ig_variant_ancillaries$ [concept_approval]"
+  modifier_interest_group_ig_ancillaries_approval_add_desc:2 "A bonus or penalty to the total [concept_approval] of the $ig_variant_ancillaries$ [concept_interest_group]"
+  
+  modifier_interest_group_ig_scholars_pop_attraction_mult:1 "$ig_variant_scholars$ Pop Attraction"
+  modifier_interest_group_ig_scholars_pop_attraction_mult_desc:1 "A bonus or penalty to the how attracted Pops are to the $ig_variant_scholars$ [concept_interest_group]"
+  modifier_interest_group_ig_scholars_pol_str_mult:2 "$ig_variant_scholars$ [concept_political_strength]"
+  modifier_interest_group_ig_scholars_pol_str_mult_desc:2 "A bonus or penalty to the total [concept_political_strength] of the $ig_variant_scholars$ [concept_interest_group]"
+  modifier_interest_group_ig_scholars_approval_add:2 "$ig_variant_scholars$ [concept_approval]"
+  modifier_interest_group_ig_scholars_approval_add_desc:2 "A bonus or penalty to the total [concept_approval] of the $ig_variant_scholars$ [concept_interest_group]"
+  
+  modifier_interest_group_ig_elites_pop_attraction_mult:1 "$ig_variant_elites$ Pop Attraction"
+  modifier_interest_group_ig_elites_pop_attraction_mult_desc:1 "A bonus or penalty to the how attracted Pops are to the $ig_variant_elites$ [concept_interest_group]"
+  modifier_interest_group_ig_elites_pol_str_mult:2 "$ig_variant_elites$ [concept_political_strength]"
+  modifier_interest_group_ig_elites_pol_str_mult_desc:2 "A bonus or penalty to the total [concept_political_strength] of the $ig_variant_elites$ [concept_interest_group]"
+  modifier_interest_group_ig_elites_approval_add:2 "$ig_variant_elites$ [concept_approval]"
+  modifier_interest_group_ig_elites_approval_add_desc:2 "A bonus or penalty to the total [concept_approval] of the $ig_variant_elites$ [concept_interest_group]"
+  
+  
+  
+  #JE
+  
+  imperial_potential:0 "Imperial Potential"
+  imperial_potential_desc:0 ""
+  
+  
+  #Mechanics
+  concept_empire_sprawl:"Empire Sprawl"
+  concept_empire_sprawl_desc:"Empire Sprawl is a value representing the cohesion of your [Concept('concept_country','$concept_country$')].\n\nYour Empire Sprawl is considered healthy when your [Concept('concept_sprawl_capacity','$concept_sprawl_capacity$')] is greater than [Concept('concept_sprawl_load','$concept_sprawl_load$')].\n\n"
+  concept_sprawl_capacity:"Sprawl Capacity"
+  concept_sprawl_capacity_desc:"Sprawl Capacity is a positive value representing how well a country is able to handle its [Concept('concept_empire_sprawl','$concept_empire_sprawl$')]. Its primarily earned through military buildings and [Concept('concept_law','$concept_law$')]s. \n\nIf Sprawl Capacity is greater than [Concept('concept_sprawl_load','$concept_sprawl_load$')], you will gain a positive modifier to your [Concept('concept_legitimacy','$concept_legitimacy$')].
+  concept_sprawl_load:"Sprawl Load"
+  concept_sprawl_load_desc:"Sprawl Load represents how strained your country's institutions are due to its size, and acts as the negative factor affecting [Concept('concept_empire_sprawl','$concept_empire_sprawl$')]. Sprawl Load scales with the population of you and your subjects, and is multipled by the amount of owned states.  \n\nIf Sprawl Load is greater than [Concept('concept_sprawl_capacity','$concept_sprawl_capacity$')], you will gain a negative modifier to [Concept('concept_offense','$concept_offense$')], [Concept('concept_defense','$concept_defense$')] as well as other things."
+  concept_minor_settlements:"Minor Settlements"
+  concept_minor_settlements_desc:"Minor Settlements are informal buildings within a [Concept('concept_state','$concept_state$')]. \n\nThey are created automatically based on a state's population and act as backup employment for less urbanized countries. The amount of Minor Settlements can be changed or removed entirely through the 'Development' laws."
+  
+  modifier_country_empire_sprawl_capacity_add:"[Concept('concept_sprawl_capacity','$concept_sprawl_capacity$')]"
+  modifier_country_empire_sprawl_capacity_add_desc:"How much [Concept('concept_sprawl_capacity','$concept_sprawl_capacity$')] a country has."
+  modifier_country_empire_sprawl_capacity_mult:"Bonus [Concept('concept_sprawl_capacity','$concept_sprawl_capacity$')]"
+  modifier_country_empire_sprawl_capacity_mult:"Bonus Sprawl Capacity"
+  modifier_country_empire_sprawl_load_mult:"Malus [Concept('concept_sprawl_load','$concept_sprawl_load$')]"
+  modifier_country_empire_sprawl_load_mult_desc:"Additional [Concept('concept_sprawl_capacity','$concept_sprawl_load$')] given by modifiers."
+  modifier_country_empire_sprawl_load_mult:"Malus [Concept('concept_sprawl_load','$concept_sprawl_load$')]"
+  modifier_country_empire_sprawl_load_mult_desc:"Additional [Concept('concept_sprawl_capacity','$concept_sprawl_load$')] given by modifiers."
+  
+  
+  modifier_country_empire_sprawl_load_subject_penalty:"[Concept('concept_sprawl_load','$concept_sprawl_load$')] Subject Population Modifier"
+  modifier_country_empire_sprawl_load_subject_penalty_desc:"Changes the amount of [Concept('concept_sprawl_load','$concept_sprawl_load$')] obtained from Subject population."
+  
+  
+ modifier_country_minor_settlements_per_thousand:"[Concept('concept_minor_settlements','$concept_minor_settlements$')] per 5000 people"
+ modifier_country_minor_settlements_per_thousand_desc:"Determines the amount of [Concept('concept_minor_settlements','$concept_minor_settlements$')] created."

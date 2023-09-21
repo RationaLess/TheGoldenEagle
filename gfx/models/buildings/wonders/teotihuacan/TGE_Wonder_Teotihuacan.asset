@@ -1,0 +1,74 @@
+pdxmesh = {
+	name = "TGE_Wonder_Teotihuacan.mesh"
+	file = "TGE_Wonder_Teotihuacan.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 8.0 }
+		lod = { index = 2 percent = 4.0 }
+	}
+
+	meshsettings = {
+		name = "TEO_Mesh_LOD0"
+		index = 0
+		texture_diffuse = "TGE_BLD_WND_Teotihuacan_Diffuse.dds"
+		texture_normal = "TGE_BLD_WND_Teotihuacan_Normal.dds"
+		texture_specular = "TGE_BLD_WND_Teotihuacan_Properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "TEO_Decal_LOD0"
+		index = 0
+		texture_diffuse = "TGE_BLD_WND_Teotihuacan_Diffuse.dds"
+		texture_normal = "TGE_BLD_WND_Teotihuacan_Normal.dds"
+		texture_specular = "TGE_BLD_WND_Teotihuacan_Properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "TEO_Mesh_LOD1"
+		index = 0
+		texture_diffuse = "TGE_BLD_WND_Teotihuacan_Diffuse.dds"
+		texture_normal = "TGE_BLD_WND_Teotihuacan_Normal.dds"
+		texture_specular = "TGE_BLD_WND_Teotihuacan_Properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "TEO_Decal_LOD1"
+		index = 0
+		texture_diffuse = "TGE_BLD_WND_Teotihuacan_Diffuse.dds"
+		texture_normal = "TGE_BLD_WND_Teotihuacan_Normal.dds"
+		texture_specular = "TGE_BLD_WND_Teotihuacan_Properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	
+		meshsettings = {
+		name = "TEO_Mesh_LOD2"
+		index = 0
+		texture_diffuse = "TGE_BLD_WND_Teotihuacan_Diffuse.dds"
+		texture_normal = "TGE_BLD_WND_Teotihuacan_Normal.dds"
+		texture_specular = "TGE_BLD_WND_Teotihuacan_Properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "TEO_Decal_LOD2"
+		index = 0
+		texture_diffuse = "TGE_BLD_WND_Teotihuacan_Diffuse.dds"
+		texture_normal = "TGE_BLD_WND_Teotihuacan_Normal.dds"
+		texture_specular = "TGE_BLD_WND_Teotihuacan_Properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "TGE_Wonder_Teotihuacan_entity"
+	pdxmesh = "TGE_Wonder_Teotihuacan_mesh"
+}

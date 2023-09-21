@@ -1,0 +1,61 @@
+﻿pm_minor_nobles = {
+	texture = "gfx/interface/icons/production_method_icons/home_workshops.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 51
+			goods_output_services_add = 0.2
+			goods_output_worship_add = 0.5
+		}
+		
+		level_scaled = {
+			building_employment_aristocrats_add = 50
+			building_employment_chiefs_add = 50
+		}
+		
+		unscaled = {
+		building_aristocrats_shares_add = 2
+		building_chiefs_shares_add = 1
+		}
+	}
+}
+
+pm_minor_home_workshops = {
+	texture = "gfx/interface/icons/production_method_icons/home_workshops.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 51
+			goods_output_tools_add = 1.5
+			goods_output_clothes_add = 0.5
+		}
+		
+		level_scaled = {
+			building_employment_freemen_add = 200
+		}
+		
+	}
+}
+
+pm_minor_informal_farms = {
+	texture = "gfx/interface/icons/production_method_icons/home_workshops.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 51
+			
+			goods_input_tools_add = 1
+			goods_output_maize_add = 5
+		}
+		
+		level_scaled = {
+			building_employment_farmers_add = 700
+		}
+		
+	}
+}
+
+

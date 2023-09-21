@@ -1,0 +1,19 @@
+﻿era_1 = { #Archaic
+	technology_cost = 5000 # for progress bonuses, use an approximate third: 1650
+}
+
+era_2 = { #Preclassic
+	technology_cost = 7500 # for progress bonuses, use a third: 2500
+}
+
+era_3 = { #Classic
+	technology_cost = 10000 # for progress bonuses, use an approximate third: 3000
+}
+
+era_4 = { #Postclassic
+	technology_cost = 12500 # for progress bonuses, use an approximate third: 4000
+}
+
+era_5 = { #Colonial
+	technology_cost = 15000 # for progress bonuses, use a third: 5000
+}

@@ -1,0 +1,86 @@
+﻿
+STATE_ACAPOLCO = {
+    id = 88
+    provinces = { "x33E524" "x41D81E" "x51D81A" "x734800" "x765828" "x86761A" "x95B429" "x9C7124" "xAC5A2F" "xB47014" "xBC9614" "xBFF423" "xDCAD1E" "xEACA1B" "xF53F29" }
+}
+STATE_TIXTLA = {
+    id = 89
+    provinces = { "x44890A" "x52582A" "x5B591C" "x5DAD18" "x62D130" "x664D28" "x7EE904" "x965D09" "x9D8309" "xB0D925" "xC19025" "xC9660E" "xCF5005" "xDDEC1E" "xE36307" "xF0A42B" "xF8E52E" }
+}
+STATE_TLACOTEPEC = {
+    id = 90
+    provinces = { "x3BC930" "x3DA520" "x4DD913" "x4EBE13" "x50EF25" "x5F3922" "x66B530" "x8E5132" "x97E71D" "x9A7419" "xAA6821" "xC7A632" "xECFC0C" "xEF8105" "xF1E623" }
+}
+STATE_NOCHTEPEC = {
+    id = 91
+    provinces = { "x464701" "x4F7907" "x52341C" "x52500E" "x608720" "x69912E" "x9B6A0E" "xA1EA32" "xA47525" "xBBEA09" "xBF8925" "xD7EE11" "xE55608" "xE9960F" "xEB7207" "xFA902B" }
+}
+STATE_CUTZAMALA = {
+    id = 92
+    provinces = { "x37941F" "x38E31D" "x424B02" "x546403" "x61CC2B" "x71472F" "x818515" "x84682A" "x88660B" "x95AF32" "x95D025" "x9E8518" "xA64E1B" "xA66110" "xD06A2B" "xD1C012" "xD2EF31" "xD44E1C" "xF37A02" "xF64815" "xFCA604" }
+}
+STATE_ZITAHURAO = {
+    id = 93
+    provinces = { "x379F01" "x42E014" "x44B416" "x558B08" "x71E307" "x76F011" "x87B810" "x9D6525" "xAB6226" "xAC3A1B" "xBA5412" "xBA7C07" "xBAFF0B" "xFA6101" }
+}
+STATE_MARAVATIO = {
+    id = 94
+    provinces = { "x32F526" "x4EB511" "x90F708" "x9AF824" "xA7A112" "xB17E31" "xBCDD31" "xE7F725" "xE98718" }
+}
+STATE_HUANIMARO = {
+    id = 95
+    provinces = { "x45A31B" "x508027" "x57B10F" "x5BA804" "x5F8C24" "x644814" "x6B8C13" "x6F4C2F" "x735106" "x8C9904" "xA59B0C" "xD9F719" }
+}
+STATE_CUITEZO = {
+    id = 96
+    provinces = { "x36652F" "x42E015" "x59321D" "x73CB16" "x74FB07" "x90E70D" "x90FC15" "xA45525" "xC8A528" "xE4860A" "xF8B017" "xF9432B" "xFA821B" }
+}
+STATE_TZINTZUNTZAN = {
+    id = 97
+	subsistence_building = "building_gathering_grounds_feathers"
+    provinces = { "x4A611E" "x5CFE0B" "x6EDD1A" "x759121" "x9C8E0E" "xA1B82E" "xC5E612" "xD08B20" "xD4960A" "xF88307" }
+}
+STATE_IXTAPA = {
+    id = 99
+	subsistence_building = "building_gathering_grounds_animal_skin"
+    provinces = { "x34C603" "x393432" "x3EC528" "x424927" "x4BF30B" "x4E6E1F" "x51A719" "x55B02B" "x5BE328" "x6DCB04" "x747128" "x80E51E" "x9C702F" "x9D8A29" "xB45923" "xD4CC12" "xEFB02F" "xF76623" "xFFF531" }
+}
+STATE_COAHUAYUTLA = {
+    id = 100
+	subsistence_building = "building_gathering_grounds_animal_skin"
+    provinces = { "x35DA05" "x3DDE30" "x4FD910" "x52F719" "x565D31" "x5B671C" "x5CA423" "x68C528" "x6F500F" "x73AC16" "x758608" "x8D5A0E" "x936B19" "x9CB91D" "x9DC025" "xA09407" "xA9642E" "xAF9F07" "xBE4832" "xC3ED2A" "xCCBF0B" "xD14611" "xDC9615" "xE83F1D" "xE8410D" "xF0661F" "xF2A831" }
+}
+STATE_TEPELCATEPEC = {
+    id = 101
+    provinces = { "x33460F" "x339905" "x36B12A" "x485427" "x4CD125" "x536303" "x6A890C" "x6AE709" "x6C4B12" "x6D7718" "x77EA05" "x807F1C" "x82352B" "x899225" "x8E4232" "x8E4928" "x8E651B" "x906C2C" "x90A60D" "x923700" "x95CC1F" "xC85A01" "xD1E904" "xDCA00E" "xDFBD30" "xED6705" "xF7720E" }
+}
+STATE_TECOMAN = {
+    id = 102
+	subsistence_building = "building_gathering_grounds_animal_skin"
+    provinces = { "x0C71AE" "x33C911" "x648217" "x72B104" "x785A1D" "x7D3A29" "x8DD312" "x909B1F" "x9F330B" "xA04C06" "xB29218" "xB5E503" "xC09E0F" "xD13D09" "xD44F1D" "xE1880E" "xFA9B2B" }
+}
+STATE_TANCITARO = {
+    id = 103
+    provinces = { "x353C2E" "x3C8A1E" "x3E9504" "x487C23" "x536C27" "x5CAE19" "x90E71D" "x9F4211" "xA3FD1A" "xA63E1B" "xBEDD0C" "xD7EB27" "xD7F10B" "xDE6018" "xE1E12F" "xE49D1E" "xF29F25" }
+
+}
+STATE_URUAPAN = {
+    id = 104
+    provinces = { "x34F809" "x36B00A" "x4C5112" "x564429" "x56F319" "x664F2B" "x70DF26" "x73C031" "x7CAE24" "x81BB25" "x998D1D" "x9AAB01" "xA07325" "xA26329" "xA57E0F" "xA5CC2A" "xA8F213" "xADAE1E" "xAF5819" "xC0EB20" "xC2D805" "xC6D425" "xD17131" "xD2AD07" "xDB9B15" "xE1F81E" "xEBF104" "xF1CB1E" "xF6E500" "xF8AB13" "xFE7D0C" }
+}
+STATE_TACATZUCARO = {
+    id = 105
+    provinces = { "x34EC01" "x373910" "x3FE132" "x41442A" "x463429" "x4E7821" "x4FB323" "x66610D" "x66BF2B" "x7D6918" "x89B604" "x99BE03" "xA94A0D" "xAE9A02" "xB1E830" "xB99309" "xD4A510" "xDFBE22" "xE69A04" "xFD332E" "xFF5301" }
+}
+STATE_NOCHISTLAN = {
+    id = 106
+    provinces = { "x35981A" "x42D01D" "x43FE1B" "x446228" "x47662E" "x4DCD32" "x4FDF2C" "x51652A" "x6CE305" "x82E722" "x83B319" "x83B819" "x87BA12" "x89412D" "x8B9822" "x90C605" "x98A324" "x99D818" "x9DE710" "x9F451F" "xA35D21" "xB8F412" "xC1E000" "xC54C01" "xC6D82F" "xDC4C1D" "xF1FD21" "xF6AE30" }
+}
+STATE_TEPELCATEPEC = {
+    id = 107
+    provinces = {}
+}
+STATE_AYOTAC = {
+    id = 108
+    provinces = { "x36F829" "x39EB1A" "x3A6F00" "x3B920B" "x447817" "x45BB10" "x497209" "x4EA722" "x569721" "x5C3C2B" "x6EDD06" "x6EFD11" "x6F8003" "x719213" "x745706" "x75A806" "x77C612" "x83A815" "x89950E" "x8D7528" "x8E3723" "x91DF0D" "x94B930" "x95902A" "x963E27" "x964822" "x96D10D" "x97A116" "x9F4208" "xA0900D" "xA1920C" "xA5C313" "xAAA60F" "xB27020" "xB5620C" "xB5CC21" "xBD8228" "xC2DE22" "xC3BC14" "xCDE821" "xD73F2D" "xDA5B1F" "xDB470B" "xDE5A14" "xDF9F0A" "xE8A828" "xF03B1B" "xF0B605" "xF4B029" "xF55819" "xFAB81F" }
+}

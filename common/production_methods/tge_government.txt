@@ -1,0 +1,279 @@
+
+
+pm_temple_no_sacrifices = {
+	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	disallowing_laws = {
+	}
+	
+	state_modifiers = {
+		level_scaled = {
+		country_weekly_innovation_add = 1
+		}
+		unscaled = {
+		state_education_access_add = 0.05
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_output_worship_add = 2
+		}
+		
+		level_scaled = {
+			building_employment_priests_add = 100
+		}
+		
+		unscaled = {
+		building_priests_shares_add = 1
+		}
+	}
+}
+pm_temple_human_sacrifice = {
+	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	disallowing_laws = {
+	human_sacrifice_banned
+	}
+	
+	state_modifiers = {
+		level_scaled = {
+		country_weekly_innovation_add = 1
+		}
+		unscaled = {
+		state_education_access_add = 0.05
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_output_worship_add = 6 
+		}
+		
+		level_scaled = {
+			building_employment_priests_add = 100
+			building_employment_freemen_add = 100
+		}
+		
+		unscaled = {
+		state_loyalists_from_sol_change_accepted_religion_mult = 0.2
+		building_clergymen_shares_add = 1
+		building_laborers_mortality_mult = 0.25
+		building_slaves_mortality_mult = 0.25
+		}
+	}
+}
+
+pm_market = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	disallowing_laws = {
+	}
+	state_modifiers = {
+		workforce_scaled = {
+				state_infrastructure_add = 25
+			}
+		}
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_transportation_add = 1
+		}
+		
+		level_scaled = {
+			building_employment_merchants_add = 100
+		}
+		
+		unscaled = {
+		building_merchants_shares_add = 1
+		}
+	}
+}
+
+pm_trading_post = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	disallowing_laws = {
+	}
+	country_modifiers = {
+		workforce_scaled = {
+				country_empire_sprawl_capacity_add = 50
+			}
+		}
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_output_transportation_add = 3
+			
+		}
+		
+		level_scaled = {
+			building_employment_bureaucrats_add = 10
+			building_employment_porters_add = 90
+		}
+		
+		unscaled = {
+		building_bureaucrats_shares_add = 1
+		}
+	}
+}
+
+pm_ball_court = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	disallowing_laws = {
+	}
+	
+	country_modifiers = {
+			level_scaled = {
+			country_influence_add = 10
+			}
+		}
+	
+	state_modifiers = {
+			unscaled = {
+				state_radicals_from_sol_change_mult = -0.2
+				state_standard_of_living_add = 1
+			}
+			
+			workforce_scaled = {
+				state_standard_of_living_add = 0.5
+			}
+		}
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_output_services_add = 1
+		}
+		
+		level_scaled = {
+			building_employment_freemen_add = 25
+			building_employment_priests_add = 25
+		}
+		
+		unscaled = {
+			building_freemen_shares_add = 1
+			building_priests_shares_add = 1
+		}
+	}
+}
+
+pm_royal_palace = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	disallowing_laws = {
+	}
+	
+	country_modifiers = {
+		}
+	
+	state_modifiers = {
+			workforce_scaled = {
+				state_rich_standard_of_living_add = 2
+				state_loyalists_from_sol_change_accepted_culture_mult = 0.5
+			}
+		}
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_fine_art_add = 1
+			goods_input_pottery_add = 2
+			goods_input_services_add = 5
+		}
+		
+		level_scaled = {
+			building_employment_freemen_add = 100
+		}
+		
+		unscaled = {
+		}
+	}
+}
+
+
+
+##Admin
+
+pm_admin_basic = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	
+	
+	
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 10
+
+		}
+	}	
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 5
+		}		
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+		
+		}
+
+		level_scaled = {
+			building_employment_scholars_add = 100
+		}
+	}
+}
+pm_admin_advanced = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	
+	unlocking_technologies = {
+		politics
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 20
+
+		}
+	}	
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 10
+		}		
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+		
+		}
+
+		level_scaled = {
+			building_employment_scholars_add = 50
+			building_employment_bureaucrats_add = 50
+		}
+	}
+}
+pm_admin_dedicated = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	
+	unlocking_technologies = {
+		state_bureaucracy
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 30
+
+		}
+	}	
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 20
+		}		
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+		
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 100
+		}
+	}
+}

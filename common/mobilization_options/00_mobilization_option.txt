@@ -1,0 +1,100 @@
+﻿mobilization_option_basic_supplies = {
+	texture = "gfx/interface/icons/production_method_icons/potatoes.dds"
+	can_be_turned_off = {
+		custom_tooltip = {
+		    text = mobilization_option_basic_supplies_can_be_turned_off_tt
+			error_check = {
+				severity = fail
+				always = no
+			}
+		}
+	}
+	upkeep_modifier = {
+		goods_input_maize_add = 0.5
+	}
+	unit_modifier = {
+		# empty on purpose - this is the minimum mobilization cost
+	}
+	ai_value = 0 # can't turn off anyway
+}
+
+mobilization_option_basic_armor = {
+	texture = "gfx/interface/icons/production_method_icons/nan.dds"
+	unlocking_technologies = {
+		defensive_attire
+	}
+	upkeep_modifier = {
+		goods_input_clothes_add = 1
+	}
+	unit_modifier = {
+		unit_defense_mult = 0.1
+	}
+	ai_value = 1
+}
+mobilization_option_ichacahuipilli = {
+	texture = "gfx/interface/icons/production_method_icons/nan.dds"
+	unlocking_technologies = {
+		ichacahuipilli
+	}
+	upkeep_modifier = {
+		goods_input_luxury_clothes_add = 1
+	}
+	unit_modifier = {
+		unit_defense_mult = 0.1
+	}
+	ai_value = 1
+}
+mobilization_option_shields = {
+	texture = "gfx/interface/icons/production_method_icons/nan.dds"
+	unlocking_technologies = {
+		shields
+	}
+	upkeep_modifier = {
+		goods_input_weapons_add = 0.5
+	}
+	unit_modifier = {
+		unit_defense_mult = 0.1
+	}
+	ai_value = 1
+}
+mobilization_option_decorated_shields = {
+	texture = "gfx/interface/icons/production_method_icons/nan.dds"
+	unlocking_technologies = {
+		decorated_shields
+	}
+	upkeep_modifier = {
+		goods_input_luxury_clothes_add = 0.5
+		goods_input_weapons_add = 0.5
+	}
+	unit_modifier = {
+		unit_defense_mult = 0.1
+		unit_morale_loss_mult = -0.1
+	}
+	ai_value = 1
+}
+mobilization_option_porters = {
+	texture = "gfx/interface/icons/production_method_icons/skirmish_infantry.dds"
+	possible = {
+	}
+	upkeep_modifier = {
+		goods_input_transportation_add = 0.5
+	}
+	unit_modifier = {
+		military_formation_travel_speed_mult = 0.1
+		unit_mobilization_speed_mult = 0.25
+	}
+	ai_value = 1
+}
+mobilization_option_horses = {
+	texture = "gfx/interface/icons/production_method_icons/skirmish_infantry.dds"
+	possible = {
+	}
+	upkeep_modifier = {
+		goods_input_horses_add = 0.25
+	}
+	unit_modifier = {
+		military_formation_travel_speed_mult = 0.1
+		unit_mobilization_speed_mult = 1
+	}
+	ai_value = 1
+}

@@ -1,0 +1,23 @@
+﻿l_english:
+ 
+ #Good Harvest
+ harvest_events.1.t:0 "Bountiful Harvests"
+ harvest_events.1.d:0 "[SCOPE.sState('harvest_state').GetName] has been seeing a large amount of rain in recent months, which is sure to boost the local harvests."
+ harvest_events.1.f:0 "Agriculture is the backbone of every great civilization. The fact that ours is thriving is surely a testament to our divine favor!"
+ 
+ harvest_events.1.a:"Praise Tlaloc!"
+ #Bad Harvest
+ harvest_events.2.t:0 "Drought"
+ harvest_events.2.d:0 "[SCOPE.sState('drought_state').GetName] has been seeing very little rainfall, leading to poorer quality crops."
+ harvest_events.2.f:0 "Even soldiers far away from home can't help but be anxious about poor crop yields. Just how long will this last?"
+ 
+ harvest_events.2.a:"There is nothing we can do."
+ harvest_events.2.b:"Irrigation could help here!"
+ 
+ 
+ #Human Sacrifice
+ flavor_events.1.t:0 "Sacrificial Festival"
+ flavor_events.1.d:0 "A [SCOPE.sBuilding('sacrifice_building').GetName] in [SCOPE.sState('sacrifice_state').GetName] has recently held an elaborate ceremony involving Human Sacrifice."
+ flavor_events.1.f:0 "The crowd erupts into a sacred song and dance as the head priest raises the victims still-beating heart for all to see. Their lifeless body topples down the pyramid stairs, but their soul ascends to sustain the cosmic cycle."
+ 
+ flavor_events.1.a:0 "Blood for the Blood God!"

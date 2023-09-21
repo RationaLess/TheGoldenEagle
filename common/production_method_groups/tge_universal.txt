@@ -1,0 +1,14 @@
+﻿pmg_organization = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		#pm_org_informal
+		#pm_org_city
+		pm_org_dynasty
+		pm_org_calpulli
+		pm_org_religious
+		pm_org_imperial
+		pm_org_state
+	}
+}

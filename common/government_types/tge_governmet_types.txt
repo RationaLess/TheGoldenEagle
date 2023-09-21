@@ -1,0 +1,52 @@
+﻿aztec_empire = {
+	transfer_of_power = hereditary
+	male_ruler = "RULER_TITLE_HUEY_TLATOANI"
+	female_ruler = "RULER_TITLE_HUEY_TLATOANI"
+
+	male_heir = "RULER_TITLE_PRINCE" # Empty on purpose
+	female_heir = "RULER_TITLE_PRINCESS" # Empty on purpose
+	
+	
+	
+	possible = {
+		has_law = law_type:law_empire
+		
+		exists = c:ATA
+		c:ATA = ROOT
+	}
+}
+
+aztec_confederation = {
+	transfer_of_power = hereditary
+	male_ruler = "RULER_TITLE_HUEY_TLATOANI"
+	female_ruler = "RULER_TITLE_HUEY_TLATOANI"
+
+	male_heir = "RULER_TITLE_PRINCE" # Empty on purpose
+	female_heir = "RULER_TITLE_PRINCESS" # Empty on purpose
+	
+	
+	
+	possible = {
+		has_law = law_type:law_confederate
+		has_law = law_type:law_council 
+		
+		exists = c:ATA
+		c:ATA = ROOT
+	}
+}
+
+#I assume this is the default 
+nahua_city_state = { #Altepetl
+	transfer_of_power = hereditary
+	male_ruler = "RULER_TITLE_HUEY_TLATOANI"
+	female_ruler = "RULER_TITLE_HUEY_TLATOANI"
+
+	male_heir = "RULER_TITLE_PRINCE" # Empty on purpose
+	female_heir = "RULER_TITLE_PRINCESS" # Empty on purpose
+	
+	
+	
+	possible = {
+	}
+}
+

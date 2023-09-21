@@ -1,0 +1,35 @@
+pmg_base_maize_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_maize_farm
+	}
+}
+
+pmg_base_cotton_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_cotton_farm
+	}
+}
+
+pmg_base_chinampa = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_chinampa
+	}
+}
+
+pmg_base_cocoa = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_cocoa
+	}
+}
+
+pmg_base_rubber = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_rubber
+	}
+}
+

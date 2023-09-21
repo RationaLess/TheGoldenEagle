@@ -1,0 +1,57 @@
+﻿namespace = flavor_events
+
+
+#Good Harvest
+flavor_events.1 = {
+	type = country_event
+	placement = scope:harvest_state
+
+	title = flavor_events.1.t
+	desc = flavor_events.1.d
+	flavor = flavor_events.1.f
+
+	duration = 3
+
+	event_image = {
+		#TODO
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+		any_scope_building = {
+			is_building_type = building_temple
+			has_active_production_method = pm_temple_human_sacrifice
+		}
+	}
+
+	immediate = {
+		random_scope_building = {
+			limit = {
+				is_building_type = building_temple
+				has_active_production_method = pm_temple_human_sacrifice
+				}
+			save_scope_as = sacrifice_building
+			state = {
+				save_scope_as = sacrifice_state
+				}
+		}
+	}
+
+	option = {
+			name = flavor_events.1.a
+			default_option = yes
+			scope:sacrifice_state = {
+					add_loyalists = {
+						value = 0.1
+						}
+					add_loyalists = {
+						value = 0.2
+						interest_group = ig_traditionalists
+						}
+					
+				}
+		}
+}

@@ -1,0 +1,184 @@
+﻿# base_enactment_days = the length of the enactment cycle (in days) prior to taking Legitimacy into account. If not specified, this value will be dictated by the LAW_ENACTMENT_DEFAULT_BASE_DAYS define. If specified, this overrides the define.
+# enactment_approval_mult = multiplier to the approval effects changing this law has on IGs, default 1.0
+
+# enable = {} trigger for whether laws in this group should be possible at all
+
+lawgroup_governance_principles = {
+	law_group_category = power_structure
+	base_enactment_days = 360
+	enactment_approval_mult = 2.0
+	
+	progressive_movement_chance = 1.5
+	regressive_movement_chance = 2.5
+	
+	change_allowed_trigger = {
+		NAND = {
+			is_subject = yes
+			OR = {
+				is_subject_type = subject_type_personal_union
+				has_government_type = gov_chartered_company
+			}			
+		}
+	}
+}
+
+lawgroup_distribution_of_power = {
+	law_group_category = power_structure
+	enactment_approval_mult = 1.5
+	
+	progressive_movement_chance = 1.5
+	regressive_movement_chance = 1.5
+}
+
+
+	
+lawgroup_institutionalization = {
+	law_group_category = power_structure
+	
+	progressive_movement_chance = 0
+	regressive_movement_chance = 0.5
+}
+
+
+#lawgroup_citizenship = {
+#	law_group_category = power_structure
+#	
+#	progressive_movement_chance = 2
+#	regressive_movement_chance = 0.25
+#}
+
+#lawgroup_administration = {
+#	law_group_category = power_structure
+#	
+#	progressive_movement_chance =  0.5
+#	regressive_movement_chance = 0.5
+#}
+
+lawgroup_diplomatic_stance = {
+	law_group_category = power_structure
+	
+	progressive_movement_chance = 0
+	regressive_movement_chance = 0
+}
+
+lawgroup_military_reforms = {
+	law_group_category = power_structure
+	
+	progressive_movement_chance = 1.5
+	regressive_movement_chance = 0.1
+}
+
+
+lawgroup_land_organization = {
+	law_group_category = economy
+	enactment_approval_mult = 1.5
+	
+	progressive_movement_chance = 1.5
+	regressive_movement_chance = 0.15
+}
+
+lawgroup_development = {
+	law_group_category = economy
+	
+	progressive_movement_chance = 1
+	regressive_movement_chance = 1
+}
+
+
+
+lawgroup_currency = {
+	law_group_category = economy
+	
+	progressive_movement_chance = 1.5
+	regressive_movement_chance = 0.15
+}
+
+lawgroup_conquest_doctrine = {
+	law_group_category = economy
+	
+	progressive_movement_chance = 1
+	regressive_movement_chance = 1
+}
+
+
+
+#lawgroup_taxation = {
+#	law_group_category = economy
+#	
+#	progressive_movement_chance = 1.5
+#	regressive_movement_chance = 0.15
+#}
+
+lawgroup_colonization = {
+	law_group_category = economy
+	
+	progressive_movement_chance = 1.5
+	regressive_movement_chance = 0.05
+}
+
+#lawgroup_mercantile_reforms = {
+#	law_group_category = economy
+#	
+#	progressive_movement_chance = 1
+#	regressive_movement_chance = 0.5	
+#}
+
+
+
+lawgroup_cultural_acceptance = {
+	law_group_category = human_rights
+	
+}
+
+lawgroup_innovation = {
+	law_group_category = human_rights
+	
+	progressive_movement_chance = 2.5
+	regressive_movement_chance = 0.25	
+}
+
+lawgroup_human_sacrifice = {
+	law_group_category = human_rights
+	enactment_approval_mult = 2
+	
+	progressive_movement_chance = 1
+	regressive_movement_chance = 1.5
+}
+
+lawgroup_religious_assimilation = {
+	law_group_category = human_rights
+	
+	progressive_movement_chance = 0.25
+	regressive_movement_chance = 2
+}
+
+lawgroup_slavery = {
+	law_group_category = human_rights
+	enactment_approval_mult = 2.0
+	
+	progressive_movement_chance = 5
+	regressive_movement_chance = 0.25
+	
+	change_allowed_trigger = {
+		NOT = {
+			has_modifier = forced_slavery_ban
+		}
+	}	
+}
+
+
+#lawgroup_rights_of_women = {
+#	law_group_category = human_rights
+#	
+#	progressive_movement_chance = 2.5
+#	regressive_movement_chance = 0.25	
+#}
+
+#lawgroup_migration = {
+#	law_group_category = human_rights
+#	
+#	progressive_movement_chance = 1
+#	regressive_movement_chance = 0.255
+#}
+
+

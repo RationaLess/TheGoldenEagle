@@ -1,0 +1,173 @@
+ATA = { # Triple Alliance
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_ata.dds"
+	}
+}
+
+AZT = { # Aztec Empire
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_ata.dds"
+	}
+}
+
+AZC = { # Azcapotzalco
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_azc.dds"
+	}
+}
+
+TEXN = { # North Texcoco
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_azc.dds"
+	}
+}
+
+
+TEPA = { # Tepanec Empire
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_azc.dds"
+	}
+}
+
+XOC = { # Xochimilco
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_xoc.dds"
+	}
+}
+
+CHA = { # Chalco
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_cha.dds"
+	}
+}
+
+TEXS = { # South Texcoco
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_cha.dds"
+	}
+}
+
+TLX = { # Tlaxcala
+	pattern = "pattern_solid.tga"
+	color1 = rgb{ 255 255 205 }
+	
+	textured_emblem = {
+		texture = "te_coa_tlx.dds"
+	}
+}
+
+CHN = { # Cuauhnahuac
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_chn.dds"
+	}
+}
+
+MTT = { # Metztitlan
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_mtt.dds"
+	}
+}
+
+METZ = { # Metztitlan
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_mtt.dds"
+	}
+}
+
+ACT = { # Acatlan
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_act.dds"
+	}
+}
+
+TLC = { # Tulancingo
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_tlc.dds"
+	}
+}
+
+CHI = { # Chietlan
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_chi.dds"
+	}
+}
+
+HGY = { # Higuey
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_hgy.dds"
+	}
+}
+
+TARA = { # Tarascan
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_tara.dds"
+	}
+}
+
+ACPC = { # Acapulco			# Aztec-type glyph, not sure if it actually existed, but looks decent enough to include.
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	textured_emblem = {
+		texture = "te_coa_acpc.dds"
+	}
+}
+
+TOLU = { # Toluca
+	pattern = "pattern_solid.tga"
+	color1 = rgb{ 212 0 38 }
+	
+	textured_emblem = {
+		texture = "te_coa_tolu.dds"
+	}
+}
+
+

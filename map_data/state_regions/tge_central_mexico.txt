@@ -1,0 +1,778 @@
+﻿
+STATE_TENOCHTITLAN = {
+    id = 1
+    provinces = { "x874607" }
+	subsistence_building = "building_gathering_grounds_marine_goods"
+
+    city = "x874607"
+
+    arable_land = 20
+    arable_resources = { "bg_chinampas" }
+    capped_resources = {
+        bg_mudbrick_furnacing = 6
+    }
+}
+
+STATE_TLACOPAN = {
+    id = 2
+    provinces = { "x8C8415" }
+	subsistence_building = "building_gathering_grounds_marine_goods"
+
+    arable_land = 18
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_mudbrick_furnacing = 6
+    }
+
+    city = "x8C8415"
+}
+
+STATE_TEXCOCO = {
+    id = 3
+    provinces = { "x4C9612" "x86C325" "xA4ED1F" "xDF5609" "xECD00B" "xEEC231" "xF2AE14" }
+	subsistence_building = "building_gathering_grounds_marine_goods"
+
+    city = "x86C325"
+
+    arable_land = 26
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_TEOTIHUACAN = {
+    id = 4
+    provinces = { "x3DEA10" "x52BC2D" "x798032" "xFEB62C" }
+
+    arable_land = 24
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_AZCAPOTZALCO = {
+    id = 5
+    provinces = { "x884100" "x94EC2A" "xAE4C07" "xB27C22" "xB79A14" "xF0392E" "xF5FF2D" }
+	subsistence_building = "building_gathering_grounds_marine_goods"
+
+    arable_land = 25
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_CULHUACAN = {
+    id = 6
+    provinces = { "x53980B" "x86EF26" "xC36421" "xF93B22" }
+	subsistence_building = "building_gathering_grounds_marine_goods"
+
+    arable_land = 16
+    arable_resources = { "bg_chinampas" }
+    capped_resources = {
+        bg_mudbrick_furnacing = 2
+    }
+}
+
+STATE_XOCHIMILCO = {
+    id = 7
+    provinces = { "x50CF18" "x55D609" "x57F111" "x5C850A" "x715907" "x783721" "xB8AD05" "xD58020" "xE06C00" }
+	subsistence_building = "building_gathering_grounds_marine_goods"
+
+    arable_land = 22
+    arable_resources = { "bg_chinampas" }
+    capped_resources = {
+        bg_mudbrick_furnacing = 3
+    }
+}
+
+STATE_CHALCO = {
+    id = 8
+    provinces = { "x3FF61E" "x4AC832" "x6C7802" "x78740D" "x934826" "x98420A" "xA75C1C" "xBAFB12" "xF6CA1A" }
+	subsistence_building = "building_gathering_grounds_marine_goods"
+
+    capped_resources = {
+        bg_obsidian_mining = 3
+    }
+
+    arable_land = 27
+    arable_resources = { "bg_chinampas" }
+    capped_resources = {
+        bg_mudbrick_furnacing = 3
+        bg_limestone_mining = 2
+    }
+}
+
+STATE_CUAUTITLAN = {
+    id = 9
+    provinces = { "x7CF603" "xCCE416" "xDB7C13" "xF1C320" }
+    arable_land = 18
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_obsidian_mining = 2
+    }
+}
+
+STATE_TZOMPANCO = {
+    id = 10
+    provinces = { "x32F006" "x58E11A" "xC5DF0E" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_XALTOCAN = {
+    id = 11
+	subsistence_building = "building_gathering_grounds_animal_skin"
+    provinces = { "x82571C" "x91520A" "x91601D" "xBB5B20" "xF3BD0E" }
+    arable_land = 12
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_OTOMPAN = {
+    id = 12
+    provinces = { "x39DD0E" "x73BB2B" "x84C904" "xB4EC03" "xB5F326" }
+	subsistence_building = "building_gathering_grounds_animal_skin"
+	
+	
+    arable_land = 10
+
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_TEAYO = {
+    id = 13
+    provinces = { "x6B5725" "x6C7216" "x749326" "x825813" "xC6E72A" "xF6E213" }
+
+    arable_land = 11
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" "bg_cocoa" }
+}
+
+STATE_TAJIN = {
+    id = 14
+	subsistence_building = "building_gathering_grounds_feathers"
+    provinces = { "x51D21F" "x64902F" "x66982D" "x674F2E" "x685008" "x6AA306" "xA3EA20" "xC3752F" "xCEBB15" "xEFB930" "xF19424" }
+
+    arable_land = 15
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" "bg_cocoa" }
+    capped_resources = {
+        bg_limestone_mining = 2
+    }
+}
+
+STATE_XALAPA = {
+    id = 15
+    provinces = { "x72B820" "x8F5929" "x99921C" "x9DEC27" "xF64406" "xFEAB28" }
+
+    arable_land = 12
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" "bg_cocoa" }
+}
+
+STATE_CEMPOALA = {
+    id = 16
+	subsistence_building = "building_gathering_grounds_animal_skin"
+    provinces = { "x523A20" "x7EDF1A" "x81970C" "x82DE15" "x8A9B04" "x96851F" "x9A4401" "x9EC81A" "xB86514" "xD27D08" "xD48F13" "xDBCB10" "xDDD518" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_YOHUALICHAN = {
+    id = 17
+    provinces = { "x7CD800" "x888120" "x9D8C02" "xB95D04" "xBEB40F" "xCCDD31" "xEE9A13" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" "bg_cocoa" }
+}
+
+STATE_TEPETICPAC = {
+    id = 18
+    provinces = { "x39B41F" "x66C50D" "xB36501" "xCCE428" "xEDC123" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    arable_land = 13
+}
+
+STATE_OCOTELOLCO = {
+    id = 19
+    provinces = { "x3D8E20" "x686F18" "x7C7E32" "x845827" "x8D3223" "xC4980D" "xD73D28" "xDFF105" "xEFB51B" }
+	subsistence_building = "building_gathering_grounds_animal_skin"
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_limestone_mining = 3
+    }
+}
+
+STATE_TIZATLAN = {
+    id = 20
+    provinces = { "x88DF02" "xA7A40D" "xC2412A" "xC3662D" "xD0522D" "xE33922" "xE56614" "xE6FB1D" "xF14D19" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    cappred_resources = {
+        bg_obsidian_mining = 2
+    }
+}
+
+STATE_QUIAHUIZTLAN = {
+    id = 21
+    provinces = { "x35C309" "x4EAB04" "x5B4B0C" "xA44C0F" "xDEC502" "xEAC702" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    arable_land = 12
+}
+
+STATE_CUAHNAHUAC = {
+    id = 22
+    provinces = { "x3CEF1D" "x4E780C" "x63B716" "x72602C" "x8F452C" "xB7C102" "xDB6F13" "xEC5111" "xEFFC23" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_HUEXOTZINGO = {
+    id = 23
+    provinces = { "x326120" "x41A50F" "x466128" "x63552F" "x76A51E" "x9EC819" "xA7B30A" "xD2CB26" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+
+    capped_resources = {
+        bg_obsidian_mining = 3
+        bg_limestone_mining = 2
+    }
+
+}
+
+STATE_CHOLULA = {
+    id = 24
+    provinces = {}
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_TOLLAN = {
+    id = 25
+    provinces = { "x33EC10" "x5F331E" "x974F1F" "x9EBC22" "xC97123" "xEBD101" "xF7600F" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_XILOTEPEC = {
+    id = 26
+    provinces = { "x3FAB32" "x615102" "x91B52C" "x91DD21" "x98512C" "xA8AA29" "xA9621C" "xACCE14" "xC9912A" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_TALXCO = {
+    id = 27
+    provinces = { "x42920A" "x735B13" "x8C6D12" "x934120" "xBAC631" "xCE4822" "xD0C314" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_HUAUCHINANGO = {
+    id = 28
+    provinces = { "x473C2C" "x488010" "x57F302" "x92C40D" "xA45A1A" "xD64928" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_limestone_mining = 3
+    }
+}
+
+STATE_TULANCINGO = {
+    id = 29
+    provinces = { "x33BA19" "x493C26" "x5D9725" "xC74015" "xD05F1C" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+
+STATE_HUAXTEPEC = {
+    id = 30
+    provinces = { "x4C7506" "x653317" "x657B29" "x67831F" "x6ED707" "xAEC70E" "xAEDB1E" "xB6EB2A" "xD8D904" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_TLALTIZAPAN = {
+    id = 31
+	subsistence_building = "building_gathering_grounds_animal_skin"
+    provinces = { "x428209" "x459E14" "x4A642E" "x588809" "x786630" "x7DA109" "x969A24" "xAA6E29" "xDC330D" "xE2812C" "xE67231" "xF7582A" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_CHOLLOLAN = {
+    id = 32
+    provinces = { "x495431" "x603404" "x67430E" "x689B0C" "x69752F" "x6D8709" "x7ACE09" "xAD6420" "xBFD618" "xE48A19" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_TETENANCO = {
+    id = 33
+	subsistence_building = "building_gathering_grounds_feathers"
+    provinces = { "x37D62E" "x3CD80B" "x44A818" "x4E6A0A" "x68A725" "x77AF26" "x91C017" "xB6752C" "xDFCC2F" "xE3630C" "xF13C28" "xFBC225" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+
+    capped_resources = {
+        bg_limestone_mining = 3
+    }
+}
+
+STATE_COATEPEC = {
+    id = 34
+    provinces = { "x61B12D" "x644E21" "x8C9427" "xB9510A" "xB9DA1B" "xCEA12D" "xD9781A" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" "bg_cocoa" }
+    capped_resources = {
+        bg_limestone_mining = 2
+        bg_obsidian_mining = 2
+    }
+}
+
+STATE_HUATUSCO = {
+    id = 35
+    provinces = { "x45F623" "x49B228" "x53BA19" "x556B2D" "x566401" "x80F917" "x8DD724" "x93E22B" "xA96B31" "xB3C910" "xBA4E23" "xC9C31E" "xDC8B13" "xE0EF13" "xEECD0B" "xF03E21" "xFB521F" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" "bg_cocoa" "bg_rubber" }
+}
+
+STATE_PUCTLAN = {
+    id = 36
+	subsistence_building = "building_gathering_grounds_feathers"
+    provinces = { "x37E929" "x415425" "x415427" "x53EA2B" "x64D210" "x6B7020" "x6C352E" "x91E82A" "x92C41C" "x9B4127" "xB2B41C" "xBB8614" "xC4B020" "xC7AD29" "xD7D029" "xDAF802" "xE1F70A" "xF3401C" "xF4A127" "xF67028" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" "bg_rubber" }
+}
+
+STATE_COATZACOALCO = {
+    id = 37
+    provinces = { "x3FEB27" "x418720" "x48C109" "x4EA132" "x785C29" "x9C9914" "xA0FE2C" "xA6391F" "xAA9500" "xB6A30D" "xBEDB1B" "xC23613" "xD36730" "xD44309" "xEB971B" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_CHIETLAN = {
+    id = 38
+    provinces = { "x42960E" "x4B7D2C" "x4D8401" "x70D20B" "x82A008" "xA35B11" "xB0FE0B" "xEBCA0A" "xF3E42A" "xF54310" "xF83D2B" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_TECALCO = {
+    id = 39
+    provinces = { "x39571B" "x3FE810" "x46FB29" "x577B23" "x593806" "x6A5D27" "x89B01D" "xBF4424" "xCDDD2E" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_CHIAUHTLAN = {
+    id = 40
+	subsistence_building = "building_gathering_grounds_feathers"
+    provinces = { "x4CDB02" "x8BC12D" "x95C409" "x967B21" "x9EE825" "xB3C421" "xB8D324" "xB96630" "xC35A24" "xC9C416" "xE2C931" "xF4D925" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_TECAMACHALCO = {
+    id = 41
+    provinces = { "x32F217" "x3BA212" "x407E16" "x4DA71C" "x705018" "x94BA2A" "x953E26" "xA0F719" "xD67C11" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_TEHUIPANCO = {
+    id = 42
+	
+	subsistence_building = "building_gathering_grounds_animal_skin"
+    provinces = { "x3A531B" "x58EA12" "x626D19" "x73DE1E" "x74581D" "x898020" "x955126" "xCC5A2F" "xCC8228" "xE0E805" "xE96724" "xF1AC2A" "xFE5018" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_limestone_mining = 3
+    }
+}
+
+STATE_NDACHJIAN = {
+    id = 43
+    provinces = { "x3F7B1C" "x40C410" "x504A09" "x517B2D" "x70381F" "x845212" "x903631" "xA3692E" "xA7CD0E" "xBD550B" "xCAAC20" "xE2F61A" "xEE7B27" "xFFBD15" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_TEOTITLAN = {
+    id = 44
+    provinces = { "x3DCE15" "x3F7019" "x436D1B" "x4AD31F" "x539600" "x83A702" "xA1D001" "xBF8818" "xD35603" "xE2990B" "xE5B612" "xFD3C28" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_limestone_mining = 3
+    }
+}
+
+STATE_TOCHTEPEC = {
+    id = 45
+	subsistence_building = "building_gathering_grounds_feathers"
+    provinces = { "x48AD13" "x4BFC1B" "x764C15" "x83AE14" "x89D91F" "x8AE52F" "x8DEF1B" "xA5E917" "xA88715" "xD89D0B" "xED7013" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_ICHCATLAN = {
+    id = 46
+    provinces = { "x3EA022" "x3F482B" "x483900" "x4D4A2D" "x56D51C" "x86CD07" "x87721A" "x8EEE26" "xA7EA24" "xAB4532" "xD2B61D" "xEA321E" "xEAAB26" "xFCB30D" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" "bg_rubber" }
+}
+
+STATE_AYOTZINTEPEC = {
+    id = 47
+    provinces = { "x6FC420" "x74A104" "x86351C" "xA19000" "xB17720" "xF07D19" "xFB690B" "xFF5815" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" "bg_rubber" }
+}
+
+STATE_POPULOCAS = {
+    id = 48
+    provinces = { "x447409" "x4D8D2B" "x5F3624" "x6C9C19" "x92FF2C" "xC1C41A" "xDF4A1C" "xDFC727" "xFCA103" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_YOPITZINCO = {
+    id = 49
+	subsistence_building = "building_gathering_grounds_animal_skin"
+    provinces = { "x45661C" "x476530" "x50620F" "x589710" "x5B6C09" "x718A0E" "x78F632" "x8C3720" "xAE670B" "xB7D81B" "xDEF810" "xE34608" "xF2FC2A" "xF4CD29" "xF7BE2B" "xF9BE02" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_JUXTLAHUACA = {
+    id = 50
+	subsistence_building = "building_gathering_grounds_animal_skin"
+    provinces = { "x373619" "x459A0F" "x7E7A14" "x91A806" "x9AF50F" "xA9ED06" "xAB8729" "xAF3A16" "xB18314" "xBB5114" "xC0AF1F" "xD5D118" "xECDE2D" "xF97213" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_limestone_mining = 2
+    }
+}
+
+STATE_TLAPAN = {
+    id = 51
+    provinces = { "x3FE901" "x4A6F22" "x676C28" "x89C122" "x8D5519" "xAE9307" "xB4EE02" "xB8BE1F" "xD09C32" "xD73528" "xE44319" "xEFA80C" "xF8AF00" }
+
+    arable_land = 15
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_turquoise_mining = 1
+
+    }
+}
+
+STATE_ACHTIULA = {
+    id = 52
+    provinces = { "x3FCA07" "x404A14" "x40DA31" "x457004" "x49FE08" "x4AE726" "x6AE531" "x6D7006" "x726421" "x7B7930" "x86D013" "x89A526" "xA28020" "xBABD18" "xC4650B" "xCC3C17" "xD16A03" "xDE580B" "xDEDA0F" "xE44F03" "xEBAF2F" "xF56A17" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_turquoise_mining = 1
+    }
+}
+
+STATE_HUAMELULPAN = {
+    id = 53
+	subsistence_building = "building_gathering_grounds_animal_skin"
+    provinces = { "x376419" "x379510" "x3EF81A" "x538515" "x62DA0E" "x6B3B20" "x7A3E05" "x8AEC28" "xA6C11F" "xA7AE0D" "xB2A417" "xC19120" "xD5B70B" "xE0EE00" "xFEF308" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_TILANTONGO = {
+    id = 54
+    provinces = { "x33910D" "x34901B" "x43490B" "x58382D" "x708410" "x7CE417" "x8AF805" "xACFF09" "xAD3C1D" "xB6FB0F" "xB8AA05" "xB99804" "xDCDE10" "xFB390A" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+	subsistence_building = "building_gathering_grounds_animal_skin"
+
+    capped_resources = {
+        bg_gold_mining = 2
+    }
+}
+
+STATE_TLAXIACO = {
+    id = 55
+	subsistence_building = "building_gathering_grounds_animal_skin"
+    provinces = { "x328A1C" "x34AF21" "x36F818" "x4CAC1A" "x4E8108" "x4F7326" "x5D5C23" "x91CE19" "x938720" "x999C2B" "xAFD207" "xB74617" "xBEB22F" "xE4D30D" "xE69213" "xF4932D" }
+
+    arable_land = 24
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_limestone_mining = 3
+        bg_turquoise_mining = 1
+    }
+}
+
+STATE_TUTUTEPEC = {
+    id = 56
+    provinces = { "x3CC12A" "x45E607" "x538C1B" "x5AC011" "x5CF024" "x714019" "xA5D82C" "xA6B82E" "xA9840B" "xC1F408" "xCAF72E" "xCFC524" "xDE3606" "xECAC2E" "xECC80A" }
+
+    arable_land = 26
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_turquoise_mining = 2
+    }
+}
+
+STATE_ZAACHILA = {
+    id = 57
+    provinces = { "x3EC902" "x439824" "x469226" "x48C728" "x52372B" "x705C1C" "x71A821" "x788F00" "x789700" "x848B31" "x8BB51A" "x9A7F09" "xA3D818" "xBD6A2E" "xC89932" "xD6B500" "xD6C71D" }
+
+    arable_land = 24
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+
+    capped_resources = {
+        bg_gold_mining = 2
+    }
+}
+
+STATE_HUATULCO = {
+    id = 58
+    provinces = { "x4AF80C" "x4D3B2A" "x4E4D23" "x50C618" "x53E326" "x609C1E" "x71B314" "x84970C" "xA36F31" "xAB8A1A" "xBA6C0E" "xF58D04" "xFC3219" "xFD652A" }
+
+    arable_land = 22
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_gold_mining = 2
+    }
+}
+
+STATE_TEHUANTEPEC = {
+    id = 59
+	subsistence_building = "building_gathering_grounds_animal_skin"
+    provinces = { "x32972E" "x369125" "x406A03" "x576A0F" "x64732A" "x75D21C" "x89F30B" "x8EA720" "x919013" "x993B28" "x9A3908" "xB3CE19" "xBAA821" "xC17010" "xD4C132" "xE2E22A" "xF44A2F" "xFAE11C" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_ALOTEPEC = {
+    id = 60
+    provinces = { "x4E3501" "x4E3927" "x503619" "x503C16" "x634F12" "x70DF13" "x7BE314" "xA38702" "xAB861A" "xCE9820" "xE1350E" "xE8A600" "xF06305" "xF0FE0F" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_COATLICAMAC = {
+    id = 61
+    provinces = { "x37EE1E" "x4AD223" "x524B2F" "x52F010" "x80A602" "x839416" "xBF4632" "xBFDA13" "xC2C41D" "xC8781E" "xD27310" "xD9AD1B" "xDEDF13" "xE45611" "xE8C609" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_COPAYATONAC = {
+    id = 62
+    provinces = { "x3F8209" "x40891C" "x4C7322" "x4CFE1C" "x70971F" "x72B02F" "x73790C" "x815E2E" "x858B11" "x87B80A" "xCFE012" "xD26A17" "xF59A1E" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_YUKU_CHATUTA = {
+    id = 63
+    provinces = { "x483D2E" "x63B91D" "x63CB11" "x63EF22" "x92D81B" "x936824" "x99A11C" "xA76927" "xB46531" "xCC7B1F" "xFD3B1F" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+	subsistence_building = "building_gathering_grounds_animal_skin"
+}
+
+STATE_CASANDOO = {
+    id = 64
+    provinces = { "x3EAD2D" "x41DD1D" "x4A9B07" "x70DB2B" "xB2F707" "xB4BB18" "xDF382D" }
+
+    arable_land = 16
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_PINOTEPA = {
+    id = 65
+    provinces = { "x4CA025" "x84421A" "x9F362C" "xBF7B2F" "xD45A0F" "xD4D00E" "xDE4427" "xF13F22" "xF49C15" "xF79E05" "xFDF222" }
+
+    arable_land = 24
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_limestone_mining = 2
+        bg_gold_mining = 3
+    }
+}
+
+STATE_DIQUIYU = {
+    id = 66
+    provinces = { "x344205" "x3B6E1C" "x518706" "x53E212" "x56E82B" "x86702E" "x985731" "xC95806" "xD74A1A" "xD9F80F" "xE55C17" "xEAFF1B" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_limestone_mining = 3
+    }
+}
+
+STATE_COIXTLAHUACA = {
+    id = 67
+	subsistence_building = "building_gathering_grounds_feathers"
+    provinces = { "x3B5209" "x4CD412" "x8E4812" "xA6E601" "xD9BC12" "xDB380B" "xDCEB30" "xF4FE2A" "xFC3C21" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_limestone_mining = 3
+    }
+}
+
+STATE_TLAHUITOLTEPEC = {
+    id = 68
+	subsistence_building = "building_gathering_grounds_feathers"
+    provinces = { "x33FC0E" "x7AE206" "x96F10B" "xA1CA0E" "xBE7822" "xC0A514" "xC0D50B" "xD4890E" "xD4B010" "xE3AE13" "xE7B010" "xFBEC21" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_limestone_mining = 2
+    }
+}
+
+STATE_LAMBITYECO = {
+    id = 69
+    provinces = { "x46C204" "x61FC22" "x738506" "x7DEE18" "x84CE10" "x8ABA06" "x8CDF28" "x98431A" "x98F420" "xA05B2D" "xC2441B" "xC8A90E" "xDE6C03" }
+
+    arable_land = 23
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+
+    capped_resources = {
+        bg_limestone_mining = 3
+        bg_turquoise_mining = 1
+    }
+}
+
+STATE_TOTONTEPEC = {
+    id = 70
+    provinces = { "x609F06" "x62920D" "x765D18" "x796932" "x7B560D" "x83732C" "x8ACA0E" "x8EBF1A" "x9E5D02" "xCDC00A" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_GUICHICOVI = {
+    id = 71
+    provinces = { "x37EF1E" "x43FA15" "x49E40C" "x5C6526" "x9F8504" "xA7C010" "xC4E511" "xC79609" "xDBED08" "xDF8C0E" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_MITLA = {
+    id = 72
+    provinces = { "x335830" "x36500F" "x41F222" "x44AF32" "x4A9B0F" "x4B7D21" "x4E7731" "x6F4A1C" "x703520" "x845404" "x919831" "x933C2F" "x975C19" "xAEEF08" "xC1BE29" "xC5352A" "xCB4016" "xE7370C" "xF2F718" }
+	subsistence_building = "building_gathering_grounds_animal_skin"
+
+    arable_land = 22
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_POCHOTL = {
+    id = 73
+    arable_land = 19
+    provinces = { "x32BB1F" "x4AB02D" "x5B451A" "x5C821A" "x78F32E" "x7E6525" "xB5781A" "xB83328" "xBB4B03" "xC3AD14" "xD5F115" "xE28800" "xE5BD05" "xEF5721" "xFAF91A" "xFF6C10" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+
+    capped_resources = {
+        bg_gold_mining = 3
+    }
+}
+STATE_TUXTEPEC = {
+    id = 74
+    provinces = { "x52E014" "x73E931" "x8E6A04" "x9A4B20" "xC05608" "xD4DF28" "xDE3807" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" "bg_rubber" }
+}
+
+STATE_UNUSED_ABABABABBABAB = {
+    id = 75
+    provinces = {}
+}
+
+STATE_TOLUCA = {
+    id = 76
+    provinces = { "x61B328" "x704617" "x8CB41C" "x8EE90B" "x92361D" "xB1D217" "xB4AF28" "xB7D20A" "xC0B310" "xD25216" "xEC350F" "xEFA312" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_TAXIMAROA = {
+    id = 78
+    provinces = { "x5F551D" "x709E18" "x747122" "x804E1A" "x824916" "x86602F" "x973312" "xA8AB07" "xB7C10D" "xC2A220" "xDB9827" "xF4F228" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_CAIXTLAHUACA = {
+    id = 79
+    provinces = { "x52ED0D" "x6B3508" "x916B07" "x93362D" "xA6962A" "xAB9110" "xC4A501" "xD49028" "xDF9215" "xEE3511" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_XILAPAN = {
+    id = 80
+	subsistence_building = "building_gathering_grounds_feathers"
+    provinces = { "x39A828" "x3CF009" "x3D6C15" "x715403" "x885D00" "xB18D21" "xB4FF06" "xB7DA21" "xC1C230" "xCA432A" "xF0D303" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_METZTITLAN = {
+    id = 81
+	subsistence_building = "building_gathering_grounds_animal_skin"
+    provinces = { "x33A617" "x485B1F" "x56A031" "x637508" "x69E60E" "x6CE70E" "x737832" "x7C5B10" "x81EE08" "x855F21" "xB14416" "xB1F613" "xB23F04" "xBDBA14" "xBF7B19" "xF8DF20" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_TLACHICHILCO = {
+    id = 82
+    provinces = { "x35CF28" "x494904" "x4B6103" "x5BF728" "x5D992D" "x637B18" "x6ABA1B" "x73BD04" "x77DD08" "xA24307" "xA5FF04" "xB19F04" "xC74208" "xE16D12" "xF3D61D" "xF44204" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_TUXPAN = {
+    id = 83
+	subsistence_building = "building_gathering_grounds_animal_skin"
+    provinces = { "x445B17" "x55B313" "x664015" "x72F914" "x793A2C" "x7BC310" "xA5B716" "xA66F0B" "xA83904" "xAA5C27" "xACAC29" "xB84904" "xB9CA1F" "xBAC008" "xBEE81E" "xCC600E" "xDDCE08" "xE17522" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_IXACTEPEC = {
+    id = 84
+	subsistence_building = "building_gathering_grounds_animal_skin"
+    provinces = { "x6CCC1C" "x7EEA0B" "x7F7C29" "x92FB1E" "x97FF2F" "xA09F28" "xAA4A02" "xB3B112" "xCC8C2F" "xD0FE2F" "xD2C805" "xD4CE22" "xD66330" "xE6E119" "xE93A17" "xF14307" "xFA3513" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_OLUZUAMA = {
+    id = 85
+    provinces = { "x3D4722" "x426721" "x43DA27" "x49E70F" "x4C7D09" "x4DFF1F" "x575F1C" "x5CD931" "x677025" "x6B9F1E" "x77CC12" "x784A04" "x80B617" "x82BC14" "x8FD629" "x9DEE1E" "xB5E100" "xC28426" "xC7531D" "xC8B602" "xCBD207" "xD28001" "xDB3308" "xDE432F" "xE96931" "xEFD322" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_SABITINO = {
+    id = 86
+    provinces = { "x33C10E" "x37B52D" "x3C5A27" "x3DC80D" "x443D32" "x459A2C" "x75320B" "x76710D" "x857723" "x868D04" "x89E32C" "x93A429" "x977E05" "x9D672A" "xB28F01" "xB39724" "xB5E810" "xB76408" "xBEC008" "xCA9B25" "xCBD419" "xD69C21" "xE7880B" "xEE652C" "xEF5515" "xF45417" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_BALCON_DE_MOCTEZUMA = {
+    id = 87
+    provinces = { "x3B4A20" "x449F14" "x456B29" "x4FFD2F" "x52752E" "x55A31E" "x59DA09" "x5D6900" "x5D6A03" "x62E407" "x69A21A" "x6F930D" "x77731A" "x823B0C" "x82D512" "x84A40E" "x8AAE21" "x8BBB1D" "x92551E" "x99D002" "x9CB503" "xACBE17" "xB79428" "xC69415" "xE0472A" "xE6851D" "xEE810C" "xF06A0B" "xF0D911" "xFBAB1D" "xFC7C02" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_CHIAPAS = {
+    id = 150
+    provinces = { "x337112" "x34A015" "x34F11E" "x35932F" "x35FE2B" "x37F419" "x385F05" "x3A5703" "x3CF322" "x3EED10" "x3F5818" "x3FE51B" "x41ED1F" "x449830" "x4C9727" "x54FD18" "x5F8524" "x62400D" "x634E07" "x643222" "x64FC09" "x677732" "x684620" "x693803" "x6BBD04" "x6C992E" "x706613" "x70C914" "x753916" "x757C21" "x7DA012" "x7FC21F" "x7FD809" "x813315" "x813C27" "x818329" "x824020" "x82B72B" "x897520" "x8A6531" "x8AC92B" "x8BC303" "x8CBB2D" "x8EF81D" "x916524" "x916B30" "x965929" "x979B0F" "x97A013" "x9A892B" "x9B4D24" "x9D3B17" "xA6A610" "xA86409" "xA89A28" "xA9F211" "xAA8E22" "xABBA2D" "xAC7A26" "xB7580C" "xB7B400" "xB9C90B" "xC04A20" "xC0B51D" "xC5DE1D" "xC86923" "xC9A30B" "xCAB517" "xCE6A04" "xD9911B" "xDD5319" "xE17C22" "xE1B30B" "xE2D000" "xEB991E" "xECD305" "xED9329" "xEE5113" "xEEAA14" "xF3E707" "xF6D00D" "xF78D2B" "xF88527" "xF9EF27" "xFDC006" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_SOCONUSCO = {
+    id = 151
+    provinces = { "x33E522" "x353900" "x37961F" "x389A09" "x3DD812" "x41BE16" "x45931E" "x4A8717" "x4C8C22" "x4D6E2A" "x4DB21E" "x4E7C04" "x50B52E" "x51F91C" "x569C22" "x58330E" "x59D121" "x5CE91B" "x5D682B" "x5FD723" "x639A29" "x643532" "x645D10" "x67F22E" "x6DE610" "x6E4614" "x706A19" "x715004" "x72F309" "x753316" "x75C002" "x7C6E1B" "x83F701" "x854501" "x87902F" "x884A2D" "x8BA823" "x92D427" "x95FD19" "x9CB105" "xA59209" "xA79717" "xA9961D" "xACC505" "xAE481C" "xAEEB2F" "xAFF91E" "xB1F804" "xB2C131" "xB2C411" "xB2D313" "xB2F60A" "xB7A10F" "xBB4519" "xBD8D29" "xC2FB2B" "xC39B01" "xC55720" "xC5A724" "xC5B90D" "xC5D41C" "xC9E72F" "xD0B108" "xD0CA0E" "xD56917" "xD64E08" "xD85F1F" "xDED428" "xDFED0C" "xE28C0A" "xE2CA27" "xE3F225" "xE85D1D" "xE9E825" "xEB4E20" "xEC4E14" "xECBD21" "xEE761B" "xF5D104" "xF84C31" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_CUAUHTEMALLAN = {
+    id = 152
+    provinces = { "x337813" "x33981E" "x34E722" "x34F10D" "x358D2A" "x359E23" "x35CA12" "x37441E" "x37FD23" "x38BC1F" "x3AF820" "x3DD809" "x404419" "x408E2F" "x40BC03" "x40F009" "x40F108" "x415730" "x41E20F" "x429D19" "x47322A" "x475D25" "x48621E" "x4AAB29" "x4AD403" "x4DD30A" "x4E501C" "x4EDB2B" "x50342E" "x50BB20" "x527402" "x537226" "x54CC0B" "x54D70D" "x54EA17" "x564819" "x56B131" "x56CF1D" "x574925" "x595225" "x5A6E0F" "x5C3525" "x5C5728" "x5C6426" "x5CAF03" "x5D3A25" "x5D5126" "x5E681B" "x5E8802" "x5FAC26" "x605717" "x62372B" "x62A32B" "x649330" "x64A925" "x66B72A" "x677E11" "x696F06" "x69C51C" "x69F305" "x6C321C" "x6C5D00" "x6DEA1B" "x6E6727" "x74C011" "x754C13" "x75E118" "x76540C" "x78DF13" "x795A0C" "x796724" "x79D20F" "x7A6A17" "x7A6E07" "x7B6A11" "x7C402D" "x7C6112" "x7C7A0F" "x7C7C2C" "x7CED2E" "x7DAF1F" "x7EDD32" "x7FA722" "x816723" "x819C13" "x82391D" "x84C41A" "x85D713" "x86430E" "x86CE29" "x87A427" "x889F22" "x89D716" "x8BF532" "x8C8728" "x8CB01B" "x8F9A00" "x8FE011" "x90E016" "x918519" "x954729" "x975B0E" "x98D504" "x98F01F" "x9AD01D" "x9BFD29" "x9C3F10" "x9CDF2B" "x9E5A1A" "x9EC501" "x9F7E07" "x9F961E" "xA05732" "xA09D00" "xA0C11F" "xA1E81B" "xA34B20" "xA5BE13" "xA66919" "xA7A62C" "xA8E726" "xA9E50F" "xAABB26" "xAAFE2E" "xAB3221" "xAC4F2E" "xAEDF31" "xB0D921" "xB6D027" "xB79923" "xBC6B19" "xBCB101" "xBDE716" "xBE821C" "xBE920A" "xBF4A01" "xBFCA06" "xBFDC2E" "xC24A08" "xC2BA1C" "xC2EF10" "xC36505" "xC5591D" "xC65A02" "xC6A725" "xC83423" "xC8F232" "xC9AF0B" "xCD4A12" "xCDEA0E" "xCFBF2C" "xD0A81B" "xD0F52E" "xD16509" "xD1BC29" "xD39C1B" "xD5F818" "xD77230" "xD88520" "xD8D631" "xD9E008" "xD9FF04" "xDAC91B" "xDAD20F" "xDB881D" "xDC5226" "xE13802" "xE26D1D" "xE35F21" "xE38024" "xE5A531" "xE5EC30" "xE65618" "xE83B31" "xE84B11" "xE8862B" "xE8A916" "xE95E01" "xEA6A1E" "xEAEB06" "xEBD507" "xECC100" "xED3D02" "xED8607" "xEDDF13" "xEE471E" "xEF5C32" "xEF6F1B" "xEFAC13" "xF06515" "xF0832A" "xF15B03" "xF1A410" "xF45712" "xF4E91A" "xF5831A" "xF68C0F" "xF6E105" "xF74F1D" "xF79609" "xF8B806" "xFA760D" "xFDBB1F" "xFDC619" "xFF9932" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_MIXISTLAN = {
+    id = 153
+    provinces = { "x354F08" "x35DB1C" "x38941E" "x39DF32" "x39EB14" "x3ADD21" "x3F941E" "x408029" "x46FB1A" "x47450B" "x47542B" "x4C7615" "x4EAF29" "x53ED1C" "x555606" "x55841A" "x60A326" "x626515" "x63B530" "x6DC832" "x754D2E" "x75CB18" "x78DF2F" "x7B8A16" "x7DE31A" "x818C26" "x843E1A" "x86AD21" "x88CD10" "x8E3E12" "x93AA09" "x93D002" "x986D2F" "x98A82E" "x9A532F" "x9A5C2B" "x9C4232" "x9DAD17" "xA48226" "xA5EB27" "xA64611" "xA7BD25" "xA7D714" "xAF361C" "xAFAE2C" "xB2A429" "xB45F05" "xBB5311" "xBBE528" "xCA6012" "xCAEB13" "xD4A21B" "xD96919" "xDA5913" "xDBB214" "xE6C407" "xF2FD07" "xF64D04" "xF67D21" "xFD5F29" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_XICALANGO = {
+    id = 154
+    provinces = { "x378001" "x3A7113" "x40E202" "x483C13" "x4F8D27" "x51B115" "x565A2E" "x588F28" "x607101" "x623A15" "x693310" "x6EA00A" "x76EC26" "x7D490D" "x7E9104" "x858012" "x8CC318" "x94371F" "x97EF29" "x986E1B" "x9D5D04" "x9EB028" "xA33402" "xA54027" "xB6A717" "xBD7D2B" "xC2D222" "xC3B82D" "xC59F2E" "xCD8F04" "xCDB322" "xD3FC30" "xD58824" "xD78A29" "xD96E09" "xD97907" "xE0840C" "xE5AE1F" "xE7BE2B" "xE85922" "xE8671E" "xEBAD24" "xEF7D23" "xF17D05" "xF24917" "xF9EA25" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_PALENQUE = {
+    id = 155
+    provinces = { "x32B82E" "x34FD1A" "x3A6F21" "x3E3718" "x435009" "x435517" "x437B07" "x45E02D" "x50A932" "x51CC30" "x51D028" "x51EC22" "x52AB17" "x52E40F" "x52E815" "x52EF01" "x56DA11" "x5B5F10" "x5BF31D" "x678F16" "x6A8B13" "x6CE301" "x6E3808" "x73370F" "x7FBF07" "x829406" "x834607" "x86AB1D" "x8E6425" "x8EE131" "x903217" "x90D923" "x913C27" "x913D18" "x9E8906" "xA0BA0C" "xA3F704" "xA5EC2B" "xA7E224" "xAC5907" "xAD7219" "xAD860A" "xAE4001" "xB89C18" "xB94220" "xB9712B" "xBF4D0E" "xBFE10B" "xC08611" "xC2C81E" "xC3D417" "xC4731E" "xC5BD29" "xC5C10D" "xCD511D" "xCE6D2F" "xCFEE26" "xD65403" "xDBB823" "xDF3D29" "xEEDF0C" "xF0F02C" "xF37823" "xF47909" "xF77B29" "xF7C212" "xF9E417" "xFB4003" "xFB4B1D" "xFB5003" "xFBBF14" "xFC5606" "xFE6E11" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_PETEN = {
+    id = 156
+    provinces = { "x343B1E" "x348D05" "x358324" "x37F210" "x38CE31" "x38F915" "x39711D" "x3CC307" "x3DA10E" "x3EEB07" "x3FD113" "x459F11" "x46EC0A" "x47BE2B" "x4A4903" "x4B371E" "x555423" "x57990E" "x58ED10" "x59C932" "x59EB10" "x5C8122" "x5E4608" "x605425" "x60A211" "x617B06" "x617E0C" "x62CE20" "x643907" "x68B52F" "x6B5603" "x6C3521" "x6CF406" "x709407" "x70D218" "x763702" "x7AC82B" "x7AFE23" "x7B8820" "x7F541B" "x806908" "x81BF0B" "x828703" "x82D228" "x84A608" "x865F2C" "x89580B" "x89C11D" "x8B4D1E" "x8B6E05" "x8CCF28" "x8E720B" "x8E9722" "x914920" "x93A924" "x94430F" "x964509" "x969829" "x97992C" "x987021" "x987E2C" "x9D4005" "x9F6F2B" "xA17806" "xA3E126" "xA47116" "xA4CC0C" "xAA5232" "xAAF015" "xADBB07" "xAE3D23" "xAFBA1A" "xB26F2C" "xB2B116" "xB44002" "xB4D11F" "xB73E02" "xB8AE30" "xB9AC03" "xBA9F0F" "xBAE716" "xBBC42F" "xBCF424" "xBDB326" "xBE9302" "xBF9521" "xBFA101" "xC0A728" "xC13F30" "xC2D719" "xC3BA2B" "xC57E2C" "xC75C01" "xCB981A" "xD0A229" "xD15A19" "xD1B506" "xD3DA0D" "xD3F508" "xD5AC0D" "xDA4114" "xDC8506" "xDC8601" "xDF3306" "xE09326" "xE1EE07" "xE27206" "xE35F05" "xEB9505" "xEF8D05" "xF03C07" "xF05D22" "xF0FD20" "xF38426" "xF8AB27" "xF8C913" "xF8EB0A" "xF9FB15" "xFC9801" "xFDEC1F" "xFFAF11" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_BELIZE = {
+    id = 157
+    provinces = { "x398632" "x3AD413" "x3DDB2C" "x438726" "x44AB14" "x45430A" "x466D32" "x46FB01" "x48D10A" "x4C3814" "x4C4C0E" "x4E3C05" "x4E970C" "x50F703" "x514314" "x51BB2B" "x54DB0E" "x56C81B" "x57E324" "x5AB007" "x5DBD0B" "x5E5805" "x634703" "x635B25" "x657C0D" "x67560C" "x6BD415" "x727101" "x74CE00" "x76F125" "x77F32F" "x784503" "x787A21" "x79CA24" "x7A620D" "x7AF61F" "x7D5A2C" "x81990F" "x82C112" "x889412" "x90CE1A" "x91D908" "x99C310" "x9C3203" "x9CE91F" "x9E5913" "xA24F17" "xA3B519" "xA53E11" "xA6BB2C" "xA8C12B" "xAF6221" "xB17B27" "xB29D19" "xB37304" "xB5FE18" "xB99113" "xBAB518" "xBB8C30" "xBF4509" "xC0E21F" "xC24123" "xC24B0B" "xC3881E" "xCAAD01" "xCC7B06" "xCD6016" "xD3460A" "xD55205" "xD7320F" "xD9E91F" "xE06304" "xE1631A" "xE1E00B" "xE65217" "xE9CA28" "xE9CB1D" "xF0D01A" "xF67432" "xF75927" "xFEF72D" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_CAMPECHE = {
+    id = 158
+    provinces = { "x379D1F" "x38BB0F" "x3A9E2C" "x445F22" "x448A31" "x47E51D" "x498B16" "x49B512" "x517908" "x53AB1F" "x54391A" "x57F425" "x58B22F" "x5ABC29" "x5C8301" "x5DE52C" "x5EBB0A" "x6EB523" "x6ECA13" "x718821" "x72CD32" "x739223" "x74460F" "x753C22" "x766330" "x76E613" "x77992A" "x799C29" "x873B02" "x885A32" "x8AA015" "x8DC122" "x8DD728" "x977302" "x977F0B" "x97C30F" "x97F71A" "x98B513" "x9B6E1D" "x9C3921" "xA13B06" "xA1552F" "xA19E06" "xA34808" "xA38822" "xA4640B" "xA94B2A" "xA9E60A" "xB07232" "xB74828" "xB96330" "xBA5C22" "xBDB205" "xC05D0F" "xC27C11" "xC3A811" "xC5A329" "xC6802D" "xC7C509" "xCD8118" "xCF6D06" "xD4D60C" "xE7C314" "xE8E30C" "xE96C25" "xEDF628" "xF15218" "xFE8A30" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_UAYMIL = {
+    id = 159
+    provinces = { "x338103" "x33BC14" "x33ED32" "x344807" "x396C2B" "x3CB817" "x3D4916" "x3D6A0C" "x3FAB31" "x40AC0D" "x40D905" "x43DB12" "x477F32" "x4C4315" "x4FEA2A" "x514F0B" "x51A12B" "x52471E" "x5B6412" "x5B8423" "x5CE622" "x5F8506" "x607D32" "x60C51A" "x61F42B" "x626706" "x62810E" "x63DC0D" "x65C92A" "x67C70A" "x696C17" "x6BC204" "x71A123" "x71C424" "x733724" "x758D1F" "x7A4227" "x7CA223" "x7D5309" "x7DF428" "x7ED41B" "x7F8532" "x7FEC1F" "x82DC20" "x83B006" "x83C422" "x865331" "x86992F" "x86B61D" "x88AE2B" "x89CD02" "x8C4A1B" "x8EB21A" "x8EC210" "x90E507" "x97D213" "x97D613" "x97D828" "x987B08" "x99F205" "x9B3211" "x9C6A27" "x9D3C0F" "x9DBC0E" "x9E371D" "xA13D18" "xA15D29" "xA1BB17" "xA1F512" "xA3C41E" "xA5E52B" "xA5F524" "xA7630D" "xAB421F" "xB03F29" "xB09106" "xB16A00" "xB64519" "xB9E22E" "xBDBE04" "xBF5C26" "xBF9F05" "xBFB120" "xC3E009" "xC3EB19" "xC8A307" "xCB5732" "xCD4300" "xCE3B25" "xCFB232" "xCFC10E" "xD15415" "xD16612" "xD17D00" "xD2EB06" "xD6C108" "xD98213" "xD99318" "xDB432F" "xDC3807" "xDEFB25" "xDF9408" "xE38511" "xE3ED13" "xE5E40B" "xE99905" "xEE4D30" "xF03A28" "xF25C1D" "xFBE112" "xFC7003" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+STATE_YUCATAN = {
+    id = 160
+    provinces = { "x325032" "x34B71E" "x36CD03" "x386C1D" "x39430A" "x396316" "x423F05" "x426A09" "x44A92E" "x466D0C" "x46C12E" "x4B9D1D" "x4DB70C" "x549101" "x557A16" "x5AF329" "x5DA702" "x5EB20B" "x67660D" "x683F2D" "x69FD2B" "x6DBF31" "x6DFE26" "x6FA428" "x783703" "x7ED414" "x815027" "x81A706" "x81F414" "x829111" "x83C026" "x875F0A" "x8AD014" "x93461D" "x93580F" "x94D02D" "x963300" "x966D0A" "x9AA511" "x9B6823" "x9DD512" "x9F6E29" "xA1A51C" "xA25309" "xA4952C" "xA5880E" "xA6B00B" "xA76126" "xA7EB06" "xACB926" "xACCD12" "xADC320" "xAFE816" "xB37D03" "xB4A01B" "xB6DC26" "xBA7F02" "xBC4D2F" "xC08928" "xC14507" "xC25D24" "xC2D42D" "xC7DA1B" "xCCFE15" "xCDF81A" "xCEB905" "xD2331B" "xD43F32" "xD5641E" "xD65130" "xD7352E" "xDE4804" "xDEE51B" "xE2DD22" "xE5FE28" "xE7D108" "xEAC429" "xEBB921" "xEBC21D" "xECD70B" "xEDFF1D" "xF0B201" "xF36924" "xF43824" "xF5CA31" "xF66B17" "xF84C2A" "xFAB631" "xFC4626" "xFD4E26" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+}
+
+
+
+

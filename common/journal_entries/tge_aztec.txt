@@ -1,0 +1,51 @@
+﻿je_tepaneca_war = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	complete = {
+		owns_entire_state_region = STATE_AZCAPOTZALCO
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = tepaneca_war.1
+		}
+	}
+	
+	is_shown_when_inactive = {
+		always = no
+	}
+
+	possible = {
+		exists = c:ATA
+       		 THIS = c:ATA
+	}
+
+	weight = 10000
+	should_be_pinned_by_default = yes
+}
+
+je_struggle_for_texcoco = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	
+	
+	modifiers_while_active = {
+		imperial_potential
+	}
+	
+	complete = {
+		country_or_subject_owns_entire_state_region = STATE_TENOCHTITLAN
+		country_or_subject_owns_entire_state_region = STATE_TEXCOCO
+		country_or_subject_owns_entire_state_region = STATE_TLACOPAN
+		country_or_subject_owns_entire_state_region = STATE_XALTOCAN
+		country_or_subject_owns_entire_state_region = STATE_TEOTIHUACAN
+		country_or_subject_owns_entire_state_region = STATE_TZOMPANCO
+		country_or_subject_owns_entire_state_region = STATE_CUAUTITLAN
+		country_or_subject_owns_entire_state_region = STATE_XOCHIMILCO
+		country_or_subject_owns_entire_state_region = STATE_AZCAPOTZALCO
+	}
+	
+	
+	weight = 5000
+	should_be_pinned_by_default = yes
+
+}

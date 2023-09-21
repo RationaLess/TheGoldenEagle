@@ -1,0 +1,60 @@
+﻿MaterialSetter={
+	Samples={
+		Sample={
+			Name="Sample from 2576, 2580"
+			Materials={
+				Material={
+					MaterialId="cliff_granite_01"
+					Value=255
+				}
+
+			}
+		}
+
+		Sample={
+			Name="Sample from 2520, 2562"
+			Materials={
+				Material={
+					MaterialId="cliff_granite_01"
+					Value=255
+				}
+
+			}
+		}
+
+		Sample={
+			Name="Sample from 2617, 2539"
+			Materials={
+				Material={
+					MaterialId="cliff_granite_01"
+					Value=255
+				}
+
+			}
+		}
+
+		Sample={
+			Name="Sample from 2653, 2605"
+			Materials={
+				Material={
+					MaterialId="cliff_granite_01"
+					Value=255
+				}
+
+			}
+		}
+
+		Sample={
+			Name="Sample from 2299, 2309"
+			Materials={
+				Material={
+					MaterialId="cliff_granite_01"
+					Value=255
+				}
+
+			}
+		}
+
+	}
+}
+

@@ -1,0 +1,8 @@
+﻿concept_empire_sprawl = {}
+
+concept_sprawl_load = {}
+
+concept_sprawl_capacity = {}
+
+concept_minor_settlements = {}
+

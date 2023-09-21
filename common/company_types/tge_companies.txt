@@ -1,0 +1,71 @@
+﻿##Uniques
+
+company_tlatelolco = {
+	texture = "gfx/interface/icons/company_icons/basic_agriculture.dds"
+	
+	building_types = {  
+		building_market
+		building_tooling_workshop
+	}
+	
+	prosperity_modifier = {
+		interest_group_ig_ancillaries_approval_add = 1
+		country_construction_add = 15
+	}	
+}
+company_calquetzqui_guild = {
+	texture = "gfx/interface/icons/company_icons/basic_agriculture.dds"
+	
+	building_types = {  
+		building_mudbrick_furnace 
+		building_chinampa
+	}
+	
+	prosperity_modifier = {
+		country_architects_pol_str_mult	= 0.25
+	}	
+}
+company_clothing_guild = {
+	texture = "gfx/interface/icons/company_icons/basic_agriculture.dds"
+	
+	building_types = {  
+		building_clothing_workshop
+		building_cotton_farm
+	}
+	
+	prosperity_modifier = {
+		interest_group_ig_merchant_guilds_approval_add = 1
+		interest_group_ig_freemen_approval_add = 1
+	}	
+}
+company_jeweling_guild = {
+	texture = "gfx/interface/icons/company_icons/basic_agriculture.dds"
+	
+	building_types = {  
+		building_jewelry
+		building_gold_mine 
+		building_turquoise_mine  
+	}
+	
+	prosperity_modifier = {
+		interest_group_ig_merchant_guilds_approval_add = 1
+		interest_group_ig_aristocracy_approval_add = 1
+	}	
+}
+company_tolteca_guild = {
+	texture = "gfx/interface/icons/company_icons/basic_agriculture.dds"
+	
+	building_types = {  
+		building_obsidian_mine
+		building_tooling_workshop
+	}
+	
+	prosperity_modifier = {
+		interest_group_ig_merchant_guilds_approval_add = 1
+		interest_group_ig_scholars_approval_add = 1
+		country_artisans_pol_str_mult = 0.25
+	}	
+}
+
+
+#Generics

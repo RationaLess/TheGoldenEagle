@@ -1,0 +1,3 @@
+SHADER = shader = "flatmap_alpha_blend_no_borders"
+NORMAL = texture_normal = "nonormal.dds"
+PROPERTIES = texture_specular = "noproperties.dds"

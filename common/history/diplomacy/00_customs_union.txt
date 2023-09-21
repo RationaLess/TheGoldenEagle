@@ -1,0 +1,7 @@
+﻿DIPLOMACY = {
+	c:AUS = {	
+		create_diplomatic_pact = {
+			country = c:MOD
+			type = customs_union
+		}
+}

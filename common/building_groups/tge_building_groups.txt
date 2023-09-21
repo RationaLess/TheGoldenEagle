@@ -1,0 +1,199 @@
+﻿
+
+#Automatic
+bg_settlement = {
+	category = development
+	
+	default_building = building_minor_settlements
+	
+	always_possible = yes
+	
+	hires_unemployed_only = yes
+	
+	can_use_slaves = yes
+	
+	auto_place_buildings = yes
+	
+	lens = infrastructure
+	
+	urbanization = 0
+	infrastructure_usage_per_level = 0
+	
+	cash_reserves_max = 5000
+}
+
+
+bg_light_industry = {
+	parent_group = bg_manufacturing
+
+	lens = light_industry
+	
+	urbanization = 45
+	infrastructure_usage_per_level = 2
+	
+	cash_reserves_max = 5000
+}
+
+bg_service = {
+	category = urban
+	
+	land_usage = urban
+	
+	is_government_funded = yes
+	
+	always_possible = yes	
+	
+	auto_place_buildings = yes	
+	
+	economy_of_scale = yes
+	
+	default_building = building_urban_center
+	
+	cash_reserves_max = 25000
+}
+
+#AGRI
+
+bg_agriculture = {
+	category = rural
+
+	land_usage = rural
+	
+	lens = agriculture
+	
+	economy_of_scale = yes
+	
+	can_use_slaves = yes
+	
+	urbanization = 5
+	infrastructure_usage_per_level = 9
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+	
+	economy_of_scale_ai_factor = 2.0
+}
+
+
+bg_cotton_farms = {
+	parent_group = bg_agriculture
+	
+	default_building = building_cotton_farm
+	
+	cash_reserves_max = 5000
+}
+
+bg_chinampas = {
+	parent_group = bg_agriculture
+	
+	default_building = building_chinampa
+	
+	cash_reserves_max = 5000
+}
+
+bg_cocoa = {
+	parent_group = bg_agriculture
+	default_building = building_cocoa_harvestry
+	
+	cash_reserves_max = 5000
+}
+
+bg_rubber = {
+	parent_group = bg_agriculture
+	default_building = building_rubber_harvestry
+	
+	cash_reserves_max = 5000
+}
+
+
+bg_faith = {
+	parent_group = bg_government
+	
+	cash_reserves_max = 5000
+	
+	can_use_slaves = yes
+
+	urbanization = 100
+}
+
+bg_utility = {
+	parent_group = bg_government
+	
+	urbanization = 100
+}
+
+#Mining
+
+
+bg_mining = {
+	category = rural
+
+	economy_of_scale = yes
+	
+	capped_by_resources = yes
+	
+	lens = mine
+	
+	cash_reserves_max = 25000
+	
+	urbanization = 10
+	infrastructure_usage_per_level = 12
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+	
+	economy_of_scale_ai_factor = 3.0
+}
+
+
+bg_obsidian_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_obsidian_mine
+
+	can_use_slaves = yes
+	
+	cash_reserves_max = 5000
+}
+
+bg_limestone_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_limestone_mine
+
+	can_use_slaves = yes
+	
+	cash_reserves_max = 5000
+}
+
+bg_turquoise_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_turquoise_mine
+
+	can_use_slaves = yes
+	
+	cash_reserves_max = 5000
+}
+
+bg_gold_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_gold_mine
+
+	can_use_slaves = yes
+	
+	cash_reserves_max = 5000
+}
+
+bg_mudbrick_furnacing = {
+	parent_group = bg_mining
+	
+	default_building = building_mudbrick_furnace
+
+	can_use_slaves = yes
+	
+	cash_reserves_max = 5000
+}

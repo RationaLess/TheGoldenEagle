@@ -1,0 +1,37 @@
+﻿
+#We are Toltecs
+tenochtitlan.1 = {
+	type = state_event # can be country_event, character_event, or state_event
+	placement = root
+	title = tenochtitlan.1.t
+	desc = tenochtitlan.1.d
+	flavor = tenochtitlan.1.f
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+	
+	duration = 3
+	
+	immediate = {
+		
+    }
+    
+    trigger = {
+        always = no
+	}
+
+	event_image = {
+		texture = "gfx/event_pictures/tenochtitlan.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = ""
+
+	option = {
+		name = tenochtitlan.1.1
+		default_option = yes
+		
+		add_loyalists = {
+			value = 0.1
+			pop_type = artisans
+			}
+    }
+}

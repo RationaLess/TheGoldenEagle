@@ -1,0 +1,41 @@
+pmg_base_clothing_workshop = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_clothing_rudimentary
+		pm_base_clothing_advanced
+		pm_base_clothing_luxury
+	}
+}
+
+pmg_base_furniture_workshop = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_furniture_rudimentary
+	}
+}
+
+pmg_base_tooling_workshop = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_tooling_wood
+		pm_base_tooling_obsidian
+	}
+}
+
+pmg_base_pottery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_pottery_basic
+		pm_base_pottery_painted
+		pm_base_pottery_decorated
+	}
+}
+
+pmg_base_jewelry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_wooden_jewelry
+		pm_base_obsidian_jewelry
+		pm_base_turquoise_jewelry
+		pm_base_golden_jewelry
+	}

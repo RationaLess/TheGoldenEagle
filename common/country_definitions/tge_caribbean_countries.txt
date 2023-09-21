@@ -1,0 +1,275 @@
+AYI = { # Ayiti
+color = { 169 126 207 }
+
+tier = empire
+
+country_type = recognized
+
+cultures = { ayiti }
+
+capital = STATE_HIGUEY
+
+}
+
+CBY = { # Ciboney/Cubao/Cubana
+color = { 181 230 29 }
+
+tier = empire
+
+country_type = recognized
+
+cultures = { ciboney }
+
+capital = STATE_CAMAGUEY
+
+}
+
+CGY = { # Ciguayo
+
+color = { 239 41 51 }
+
+tier = grand_principality
+
+country_type = recognized
+
+cultures = { ciguayo }
+
+capital = STATE_MAGUA
+
+}
+
+MCX = { # Macorix
+
+color = { 255 210 225 }
+
+tier = grand_principality
+
+country_type = recognized
+
+cultures = { macorix }
+
+capital = STATE_MAGUA
+
+}
+
+HGY = { # Higuey
+color = { 227 34 27 }
+
+tier = grand_principality
+
+country_type = recognized
+
+cultures = { ayiti }
+
+capital = STATE_HIGUEY
+
+}
+
+MGA = { # Magua
+color = { 148 170 211 }
+
+tier = grand_principality
+
+country_type = recognized
+
+cultures = { ayiti macorix }
+
+capital = STATE_MAGUA
+
+}
+
+MRI = { # Marien (Haitian)
+color = { 232 140 145 }
+
+tier = grand_principality
+
+country_type = recognized
+
+cultures = { ayiti }
+
+capital = STATE_MARIEN
+
+}
+
+MGN = { # Maguana
+color = { 224 191 88 }
+
+tier = grand_principality
+
+country_type = recognized
+
+cultures = { ayiti }
+
+capital = STATE_MAGUANA
+
+}
+
+JRG = { # Jaragua
+color = { 127 105 4 }
+
+tier = grand_principality
+
+country_type = recognized
+
+cultures = { ayiti }
+
+capital = STATE_JARAGUA
+
+}
+
+XAY = { # Xaymaca (pre-colonial Jamaica, no caciques found so it gets one nation)
+
+color = hsv360{ 88  87  33 }
+
+tier = grand_principality
+
+country_type = recognized
+
+cultures = { ciboney }
+
+capital = STATE_XAYMACA
+
+}
+
+BRK = { # Boriken
+ 
+color = { 104  92  87 }
+
+tier = grand_principality
+
+country_type = recognized
+
+cultures = { ayiti }
+
+capital = STATE_BORIKEN
+
+}
+
+LUC = { # Lucaya
+
+color = hsv360{ 189  100  55 }
+
+tier = grand_principality
+
+country_type = recognized
+
+cultures = { ciboney }
+
+capital = STATE_LUCAYA
+
+}
+
+ORN = { # Orinoco (cultural revolter from base game, will deal with later)
+	color = hsv{ 0.28 0.79 0.47 }
+	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { kalina }
+	
+	capital = STATE_MIRANDA
+} 
+
+KRI = { # Karina
+
+color = { 255 127 39 }
+
+tier = grand_principality
+
+country_type = recognized
+
+cultures = { kalina }
+
+capital = STATE_TUKUSI
+
+}
+
+YAO = { # Yao
+
+color = { 255 242 0 }
+
+tier = grand_principality
+
+country_type = recognized
+
+cultures = { kalina }
+
+capital = STATE_TUKUSI
+
+}
+
+SBY = { # Shebaya
+
+color = { 0 162 232 }
+
+tier = grand_principality
+
+country_type = recognized
+
+cultures = { kalina }
+
+capital = STATE_TUKUSI
+
+}
+
+INI = { # Iñeri
+
+color = { 163 73 164 }
+
+tier = grand_principality
+
+country_type = recognized
+
+cultures = { kalinago }
+
+capital = STATE_KARUKERA
+
+}
+
+GNA = { # Guanahacabibe
+
+color = { 74 170 217 }
+
+tier = grand_principality
+	
+country_type = recognized
+	
+cultures = { guanahatabey }
+
+capital = STATE_GUANAHATABEY
+
+}
+
+GGNO = { # Guaniguanico
+
+color = { 103 124 85 }
+
+tier = principality
+	
+country_type = recognized
+
+cultures = { guanahatabey }
+
+capital = STATE_GUANAHATABEY
+
+}
+
+MRIN = { # Marien (Cuba)
+
+color = { 255 201 13 }
+
+tier = principality
+	
+country_type = recognized
+
+cultures = { guanahatabey }
+
+capital = STATE_GUANAHATABEY
+
+}
+
+
+
+
+

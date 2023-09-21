@@ -1,0 +1,341 @@
+﻿### ERA 1
+
+tool_usage = {
+	# Unlocks Tooling Workshops
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+}
+
+irrigated_farming = {
+	# Unlocks Mercantilism Law
+	# Unlocks Food Industry, Textile Mills, Furniture Manufacturies, Glassworks, Tooling Workshops, Paper Mills
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+}
+
+maize_cultivation = {
+	#
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		irrigated_farming
+	}
+}
+
+cotton_cultivation = {
+	#
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		irrigated_farming
+	}
+}
+
+urban_planning = {
+	# Unlocks Urban Centers building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = production
+	
+	modifier = {
+		state_building_construction_sector_max_level_add = 1
+		}
+	
+	unlocking_technologies = {
+		wooden_construction
+	}
+}
+
+ullamaliztli = {
+	# Unlocks Urban Centers building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = production
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+}
+
+markets = {
+	# Unlocks Urban Centers building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = production
+	
+	modifier = {
+		state_building_market_max_level_add = 1
+		}
+	
+	unlocking_technologies = {
+	urban_planning
+	}
+}
+
+central_market = {
+	# Unlocks Urban Centers building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = production
+	
+	modifier = {
+		country_institution_trade_infrastructure_max_investment_add = 1
+		}
+	
+	unlocking_technologies = {
+	markets
+	}
+}
+
+textile_production = {
+	#
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		cotton_cultivation
+	}
+}
+
+pottery = {
+	# Clay and Pottery Building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		tool_usage
+	}
+}
+
+metallurgy = {
+	#
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		obsidian_working
+	}
+}
+
+wooden_construction = {
+	#
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+	
+	modifier = {
+		state_building_construction_sector_max_level_add = 1
+		}
+	
+	unlocking_technologies = {
+		tool_usage
+		urban_planning
+	}
+}
+
+mudbrick_construction = {
+	#
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	
+	modifier = {
+		state_building_construction_sector_max_level_add = 1
+		}
+
+	unlocking_technologies = {
+		urban_planning
+		irrigated_farming
+	}
+}
+
+
+limestone_construction = {
+	#
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+	
+	
+	modifier = {
+		state_building_construction_sector_max_level_add = 1
+		}
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+}
+
+long_distance_trade = {
+	#
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+	
+	modifier = {
+		country_institution_trade_infrastructure_max_investment_add = 1
+		country_trade_route_quantity_mult = 0.1
+		}
+	
+	unlocking_technologies = {
+		markets
+	}
+}
+
+advanced_engineering = {
+	#
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+	
+	modifier = {
+		state_infrastructure_add = 5
+		state_building_construction_sector_max_level_add = 1
+		}
+	
+	unlocking_technologies = {
+		mudbrick_construction
+		limestone_construction 
+	}
+}
+
+aqueducts = {
+	#
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		advanced_engineering
+	}
+}
+
+bathhouses = {
+	#
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		aqueducts
+	}
+}
+
+dam_building = {
+	#
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		aqueducts
+	}
+}
+
+terracing = {
+	#
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		advanced_engineering
+	}
+}
+
+chinampas = {
+	#
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		advanced_engineering
+	}
+}
+
+
+obsidian_working = {
+	# Unlocks Obsidian Extraction, Obsidian Weapons and Obsidian Tools
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		tool_usage
+	}
+}
+
+obsidian_laboratories = {
+	#
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		obsidian_working
+		pottery
+	}
+}
+
+great_projects = {
+	#
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	modifier = {
+		state_building_construction_sector_max_level_add = 1
+		}
+	
+	unlocking_technologies = {
+		advanced_engineering
+	}
+}
+
+great_temples = {
+	#
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	modifier = {
+		state_building_temple_max_level_add = 3
+		}
+	
+	unlocking_technologies = {
+		great_projects
+	}
+}
+
+botanical_gardens = {
+	#
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		great_projects
+	}
+}
+
+zoo = {
+	#
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		great_projects
+	}
+}

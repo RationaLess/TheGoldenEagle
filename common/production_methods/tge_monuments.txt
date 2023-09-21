@@ -1,0 +1,20 @@
+﻿pm_base_teotihuacan = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 100
+			
+			goods_output_worship_add = 25
+		}
+	}
+
+	building_modifiers = {
+		#workforce_scaled = {
+		#}
+
+		level_scaled = {
+			building_employment_priests_add = 100
+		}
+	}
+}

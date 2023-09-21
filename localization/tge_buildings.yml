@@ -1,0 +1,13 @@
+﻿l_english:
+ 
+ #Urban
+ building_temple:"Temple"
+ building_temple_lens_option:"Expand $building_temple$"
+ building_clothing_workshop:"Clothing Workshop"
+ building_clothing_workshop_lens_option:"Expand $building_clothing_workshop$"
+ building_furniture_workshop:"Furniture Workshop"
+ building_furniture_workshop_lens_option:"Expand $building_furniture_workshop$"
+ building_tooling_workshop:"Tooling Workshop"
+ building_tooling_workshop_lens_option:"Expand $building_tooling_workshop$"
+ building_pottery:"Pottery"
+ building_pottery_lens_option:"Expand $building_pottery$"

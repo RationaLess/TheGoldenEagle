@@ -1,0 +1,51 @@
+﻿# group = this is the law_group a law belongs to
+# icon = graphical icon shown in-game
+# modifier = {} modifier on country for having adopted this law
+
+law_human_sacrifice_banned = {
+	group = lawgroup_human_sacrifice
+	
+	icon = "gfx/interface/icons/law_icons/slavery_banned.dds"
+	
+	progressiveness = 0
+	
+	modifier = {	
+	}
+	
+	possible_political_movements = {
+		law_human_sacrifice
+	}
+	
+	pop_support = {
+		value = 0
+	}
+
+}
+
+law_human_sacrifice = {
+	group = lawgroup_human_sacrifice
+	
+	icon = "gfx/interface/icons/law_icons/outlawed_dissent.dds"
+	
+	progressiveness = -50
+	
+	unlocking_technologies = {
+		sacrifices
+	}
+	
+	disallowing_laws = {
+	}
+	
+	modifier = {
+	}
+
+	possible_political_movements = {
+		law_human_sacrifice_banned
+	}
+
+	pop_support = {
+		value = 0
+	}
+	
+	
+}

@@ -1,0 +1,56 @@
+je_the_golden_eagle = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = the_golden_eagle.2
+		}
+	}
+
+	current_value = {
+		value = var:golden_eagle_var
+	}
+
+	goal_add_value = {
+		add = 5
+	}
+
+	progressbar = yes
+
+	weight = 10000
+	should_be_pinned_by_default = yes
+}
+
+je_consolidate_lake_texcoco = {
+	
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	complete = {
+		country_or_subject_owns_entire_state_region = STATE_CULHUACAN
+		country_or_subject_owns_entire_state_region = STATE_CHALCO
+		country_or_subject_owns_entire_state_region = STATE_XOCHIMILCO
+		country_or_subject_owns_entire_state_region = STATE_TLACOPAN
+		country_or_subject_owns_entire_state_region = STATE_TENOCHTITLAN
+		country_or_subject_owns_entire_state_region = STATE_AZCAPOTALZCO
+		country_or_subject_owns_entire_state_region = STATE_CUAUTITLAN
+		country_or_subject_owns_entire_state_region = STATE_TZOMPANCO
+		country_or_subject_owns_entire_state_region = STATE_TEOTIHUACAN
+		country_or_subject_owns_entire_state_region = STATE_TEXCOCO
+	}
+	
+	on_complete = {
+		trigger_event = { id = consolidate_lake_texcoco.1 }
+		
+		change_variable = {
+				name = golden_eagle_var
+				add = 1
+			}
+	}
+	
+	weight = 100
+}

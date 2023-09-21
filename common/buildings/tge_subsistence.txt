@@ -1,0 +1,68 @@
+﻿############# SUBSISTENCE
+
+building_gathering_grounds = {
+	building_group = bg_subsistence_agriculture
+	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
+
+	production_method_groups = {
+		pmg_subsistence_gathering
+		pmg_subsistence_hunting
+	}
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
+	min_raise_to_hire = 0.30
+	#slaves_role = freemen
+}
+
+building_gathering_grounds_marine_goods = {
+	building_group = bg_subsistence_agriculture
+	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
+
+	production_method_groups = {
+		pmg_subsistence_gathering
+		pmg_subsistence_hunting
+		pmg_subsistence_marine_goods
+	}
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
+	min_raise_to_hire = 0.30
+	#slaves_role = freemen
+}
+
+building_gathering_grounds_animal_skin = {
+	building_group = bg_subsistence_agriculture
+	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
+
+	production_method_groups = {
+		pmg_subsistence_gathering
+		pmg_subsistence_hunting
+		pmg_subsistence_animal_skin
+	}
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
+	min_raise_to_hire = 0.30
+	#slaves_role = freemen
+}
+
+building_gathering_grounds_feathers = {
+	building_group = bg_subsistence_agriculture
+	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
+
+	production_method_groups = {
+		pmg_subsistence_gathering
+		pmg_subsistence_hunting
+		pmg_subsistence_feathers
+	}
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
+	min_raise_to_hire = 0.30
+	#slaves_role = freemen
+}

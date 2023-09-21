@@ -1,0 +1,193 @@
+﻿
+#Mixtec Nations
+
+YDZ = { #YUCU DZAA
+color = rgb { 14 181 178 }
+tier = empire
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+
+
+YCH = { #YUCU CHATUTA
+color = rgb { 100 209 195 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_YUKU_CHATUTA
+}
+
+DIQ = { #DIQUIYU
+color = rgb { 61 226 245 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_DIQUIYU
+}
+
+TIL = { #TILANTONGO
+color = rgb { 61 202 245 }
+tier = kingdom
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TILANTONGO
+}
+
+TIL = { #TILANTONGO
+color = rgb { 61 202 245 }
+tier = kingdom
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TILANTONGO
+}
+
+COX = { #COIXTLAHUACA
+color = rgb { 28 182 230 }
+tier = kingdom
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_COIXTLAHUACA
+}
+
+NOX = { #NOXCHITLAN
+color = rgb { 45 116 138 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_HUAMELULPAN
+}
+
+JUXT = { #JUXTLAHUACA
+color = rgb { 51 80 89 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_JUXTLAHUACA
+}
+
+
+
+#Zapotec Minors
+
+ZAA = { #ZA'ACHILA
+color = rgb { 58 99 31 }
+tier = empire
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_ZAACHILA
+} 
+
+LAM = { #Lambityeco
+color = rgb { 82 156 34 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_LAMBITYECO
+} 
+
+ALO = { #ALOTEPEC
+color = rgb { 96 135 70 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_ALOTEPEC
+} 
+
+TEH = { #TEHUANTEPEC
+color = rgb { 74 143 40 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TEHUANTEPEC
+} 
+
+TEOT = { #TEOTITLAN
+color = rgb { 92 204 118 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TEOTITLAN
+} 
+
+###MIXE MINORS 
+
+TLAT = { #TLAHUITOLTEPEC
+color = rgb { 145 145 145 }
+tier = duchy
+country_type = recognized
+cultures = { mixe }
+capital = STATE_TLAHUITOLTEPEC
+} 
+COAT = { #COATLICAMAC
+color = rgb { 186 184 185 }
+tier = duchy
+country_type = recognized
+cultures = { mixe }
+capital = STATE_COATLICAMAC
+} 
+TOTO = { #TOTONTEPEC
+color = rgb { 138 138 138 }
+tier = duchy
+country_type = recognized
+cultures = { mixe }
+capital = STATE_TOTONTEPEC
+} 
+GUIC = { #GUICHICOVI
+color = rgb { 128 128 128 }
+tier = duchy
+country_type = recognized
+cultures = { mixe }
+capital = STATE_GUICHICOVI
+} 
+
+#Triqui
+TRIQ = { #TRIQUI
+color = rgb { 99 76 105 }
+tier = duchy
+country_type = recognized
+cultures = { triqui	 }
+capital = STATE_ACHTIULA
+} 
+NDC = { #NDAC
+color = rgb { 157 199 184 }
+tier = duchy
+country_type = recognized
+cultures = { popoloca }
+capital = STATE_NDACHJIAN
+}
+YOPI = { #YOPITZINCO
+color = rgb { 171 140 0 }
+tier = kingdom
+country_type = recognized
+cultures = { tlapanec }
+capital = STATE_YOPITZINCO
+}
+TLAP = { #TLAPAN
+color = rgb { 187 207 109 }
+tier = duchy
+country_type = recognized
+cultures = { tlapanec }
+capital = STATE_TLAPAN
+}
+AMUZ = { #AMUZGO
+color = rgb { 196 0 46 }
+tier = duchy
+country_type = recognized
+cultures = { amuzgo }
+capital = STATE_CASANDOO
+}
+HUAV = { #HUAVE
+color = rgb { 33 45 156 }
+tier = duchy
+country_type = recognized
+cultures = { huave }
+capital = STATE_HUATULCO
+}
+POCH = { #POCHUTEC
+color = rgb { 219 230 76 }
+tier = duchy
+country_type = recognized
+cultures = { pochutec }
+capital = STATE_HUATULCO
+}

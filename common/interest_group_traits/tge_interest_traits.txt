@@ -1,0 +1,343 @@
+﻿#Aristocracy
+
+ig_trait_royalist_state = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = in_government
+
+	min_approval = loyal
+	
+	modifier = {
+		tax_dividends_add = 0.15
+	}
+}
+
+ig_trait_dynastic_outreach = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = happy
+
+	min_approval = happy
+	
+	modifier = {
+		country_improve_relations_speed_mult = 0.33
+	}
+}
+
+ig_trait_elitism = {
+	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
+
+	# type is for display order
+	type = unhappy
+
+	max_approval = unhappy
+	
+	modifier = {
+		state_assimilation_mult = -0.2
+		state_radicals_from_discrimination_mult = 1.0
+	}
+}
+
+#Ancillaries
+
+ig_trait_strong_and_united = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = in_government
+
+	min_approval = loyal
+	
+	modifier = {
+		country_legitimacy_ideological_incoherence_mult = -0.15
+	}
+}
+
+ig_trait_diplomatic_outreach = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = happy
+
+	min_approval = happy
+	
+	modifier = {
+		country_infamy_decay_mult = 0.33
+	}
+}
+
+ig_trait_exercising_autonomy = {
+	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
+
+	# type is for display order
+	type = unhappy
+
+	max_approval = unhappy
+	
+	modifier = {
+		state_construction_mult = -0.15
+	}
+}
+
+#Traditionalists
+
+ig_trait_religious_fervor = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = in_government
+
+	min_approval = loyal
+	
+	modifier = {
+		unit_morale_loss_mult = -0.33
+		state_conversion_mult = 0.2
+	}
+}
+
+ig_trait_uniting_sermons = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = happy
+
+	min_approval = happy
+	
+	modifier = {
+		state_loyalists_from_sol_change_mult = 0.2
+		country_opposition_ig_approval_add = 1
+	}
+}
+
+ig_trait_violated_traditions = {
+	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
+
+	# type is for display order
+	type = unhappy
+
+	max_approval = unhappy
+	
+	modifier = {
+		country_legitimacy_base_add = -10
+	}
+}
+
+#Scholars
+
+ig_trait_beacon_of_knowledge = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = in_government
+
+	min_approval = loyal
+	
+	modifier = {
+		state_education_access_add = 0.1
+		technology_invention_cost_mult = -0.05
+	}
+}
+
+ig_trait_building_civilization = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = happy
+
+	min_approval = happy
+	
+	modifier = {
+		state_pop_qualifications_mult = 0.2
+	}
+}
+
+ig_trait_academic_indifference = {
+	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
+
+	# type is for display order
+	type = unhappy
+
+	max_approval = unhappy
+	
+	modifier = {
+		country_society_weekly_innovation_mult = -0.33
+		country_weekly_innovation_mult = -0.1
+	}
+}
+
+
+
+#Merchants
+
+ig_trait_great_works = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = in_government
+
+	min_approval = loyal
+	
+	modifier = {
+		state_construction_mult = 0.25
+		state_migration_pull_mult = 0.1
+	}
+}
+
+ig_trait_connected_markets = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = happy
+
+	min_approval = happy
+	
+	modifier = {
+		state_infrastructure_mult = 0.2
+		state_dependent_wage_mult = 0.1
+	}
+}
+
+ig_trait_withheld_advancements = {
+	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
+
+	# type is for display order
+	type = unhappy
+
+	max_approval = unhappy
+	
+	modifier = {
+		country_production_weekly_innovation_mult = -0.33
+		building_input_mult = 0.05
+	}
+}
+
+
+#Warriors
+ig_trait_effective_occupation = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = in_government
+
+	min_approval = loyal
+	
+	modifier = {
+		country_radicals_from_conquest_mult = -0.33
+	}
+}
+
+ig_trait_efficient_organization = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = happy
+
+	min_approval = happy
+	
+	modifier = {
+		country_military_goods_cost_mult = -0.15
+	}
+}
+
+ig_trait_martial_disrespect = {
+	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
+
+	# type is for display order
+	type = unhappy
+
+	max_approval = unhappy
+	
+	modifier = {
+		country_military_weekly_innovation_mult = -0.33
+		country_infamy_generation_mult = 0.25
+	}
+}
+
+
+#Elites
+ig_trait_indomitable_bureaucracy = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = in_government
+
+	min_approval = loyal
+	
+	modifier = {
+		country_bureaucracy_mult = 0.2
+	}
+}
+
+ig_trait_strong_institutions = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = happy
+
+	min_approval = happy
+	
+	modifier = {
+		country_law_enactment_time_mult = -0.25
+	}
+}
+
+ig_trait_exercising_authority = {
+	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
+
+	# type is for display order
+	type = unhappy
+
+	max_approval = unhappy
+	
+	modifier = {
+		country_decree_cost_mult = 0.25
+		country_government_wages_mult = 0.33
+	}
+}
+
+
+#Freemen
+ig_trait_freedom_and_community = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = in_government
+
+	min_approval = loyal
+	
+	modifier = {
+		state_accepted_birth_rate_mult = 0.2
+		state_poor_standard_of_living_add = 1
+	}
+}
+
+ig_trait_peoples_approval = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = happy
+
+	min_approval = happy
+	
+	modifier = {
+		state_loyalists_from_sol_change_accepted_culture_mult = 0.5
+		country_legitimacy_base_add = 5
+	}
+}
+
+ig_trait_local_resistance = {
+	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
+
+	# type is for display order
+	type = unhappy
+
+	max_approval = unhappy
+	
+	modifier = {
+		state_construction_mult = -0.2
+		state_working_adult_ratio_add = -0.05
+		state_expected_sol_mult = 0.33
+	}
+}

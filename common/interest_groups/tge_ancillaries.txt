@@ -1,0 +1,157 @@
+﻿ig_ancillaries = {
+	color = hsv{ 0.65 0.54 0.52 }
+	texture = "gfx/interface/icons/ig_icons/petty_bourgeoisie.dds"
+	
+	ideologies = {
+		
+		ideology_confederation_builders
+		ideology_lesser_lords
+		ideology_inclusionary
+	}
+
+	enable = {
+		always = yes
+	}
+	
+	traits = {
+		ig_trait_strong_and_united
+		ig_trait_diplomatic_outreach
+		ig_trait_exercising_autonomy
+	}	
+	
+	on_enable = {
+		
+		ig:ig_ancillaries = {
+					set_ig_trait = ig_trait:ig_trait_strong_and_united
+					set_ig_trait = ig_trait:ig_trait_diplomatic_outreach
+					set_ig_trait = ig_trait:ig_trait_exercising_autonomy
+				}
+
+		}
+	on_disable = {}	
+	on_character_ig_membership = {}
+	
+	pop_potential = {
+		
+	OR = {
+		pop_has_primary_culture = no
+		religion_accepted = no
+		standard_of_living <= 20
+		}
+		
+		
+	}
+	
+	pop_weight = {
+		value = 100
+		
+		add = {
+			desc = "POOR_STRATA"
+			if = {
+				limit = {
+					strata = poor
+				}
+				value = 300
+			}
+		}
+		
+		add = {
+			desc = "POP_NOBLES"
+			if = {
+				limit = { 
+					is_pop_type = nobles
+				}
+				value = 50
+			}
+		}
+		
+		 
+
+
+		multiply = {
+			desc = "LEADER_POPULARITY"
+			scope:interest_group = {
+				leader = {
+					value = popularity
+					multiply = 0.0025
+					add = 1
+					max = 1.25
+					min = 0.75
+				}
+			}
+		}		
+		
+	}
+
+	monarch_weight = {
+		value = 0
+	}	
+	
+	commander_weight = {
+		value = 1.0
+	}	
+	
+	noble_chance = {
+		value = 0.1
+	}
+	
+	female_commander_chance = {	
+		value = 0.0
+	}
+	
+	female_politician_chance = {
+		value = 0.0
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_own_property
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_in_the_workplace
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_womens_suffrage
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+	}
+	
+	# The chance that a commander belonging to this IG takes over leadership when it changes
+	# scope:character is the most popular commander in the IG
+	commander_leader_chance = {
+		value = 0.25
+		if = {
+			limit = {
+				exists = scope:character
+			}
+			multiply = {
+				value = 1
+				add = scope:character.popularity
+				min = 0
+			}
+		}
+	}
+}

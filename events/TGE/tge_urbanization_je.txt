@@ -1,0 +1,157 @@
+﻿namespace = urbanization_efforts
+
+
+#A new Project
+urbanization_efforts.1 = {
+	type = country_event
+	placement = capital
+
+	title = urbanization_efforts.1.t
+	desc = urbanization_efforts.1.d
+	flavor = urbanization_efforts.1.f
+
+	duration = 3
+
+	event_image = {
+		#TODO
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		
+	}
+
+	immediate = {
+		capital = {
+			save_scope_as = capital_state
+		}
+		
+		ig:ig_elites = {
+			save_scope_as = urbanist_one_ig
+		}
+		ig:ig_scholars = {
+			save_scope_as = urbanist_two_ig
+		}
+		ig:ig_traditionalists = {
+			save_scope_as = anti_urbanist_ig
+		}
+	}
+
+	option = {
+			name = urbanization_efforts.1.a
+			default_option = yes
+				add_modifier = {
+					name = strong_urban_sentiment
+					months = 120
+					is_decaying = yes
+				}
+			
+		}
+	option = {
+			name = urbanization_efforts.1.b
+			default_option = yes
+				add_modifier = {
+					name = moderate_urban_sentiment
+					months = 60
+					is_decaying = yes
+				}
+			
+		}
+}
+
+#Failure
+urbanization_efforts.2 = {
+	type = country_event
+	placement = capital
+
+	title = urbanization_efforts.2.t
+	desc = urbanization_efforts.2.d
+	flavor = urbanization_efforts.2.f
+
+	duration = 3
+
+	event_image = {
+		#TODO
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		
+	}
+
+	immediate = {
+		capital = {
+			save_scope_as = capital_state
+		}
+		
+		ig:ig_elites = {
+			save_scope_as = urbanist_one_ig
+		}
+		ig:ig_scholars = {
+			save_scope_as = urbanist_two_ig
+		}
+		ig:ig_traditionalists = {
+			save_scope_as = anti_urbanist_ig
+		}
+	}
+
+	option = {
+			name = urbanization_efforts.2.a
+			default_option = yes
+		}
+}
+
+#Success
+urbanization_efforts.3 = {
+	type = country_event
+	placement = capital
+
+	title = urbanization_efforts.3.t
+	desc = urbanization_efforts.3.d
+	flavor = urbanization_efforts.3.f
+
+	duration = 3
+
+	event_image = {
+		#TODO
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		
+	}
+
+	immediate = {
+		capital = {
+			save_scope_as = capital_state
+		}
+		
+		ig:ig_elites = {
+			save_scope_as = urbanist_one_ig
+		}
+		ig:ig_scholars = {
+			save_scope_as = urbanist_two_ig
+		}
+		ig:ig_traditionalists = {
+			save_scope_as = anti_urbanist_ig
+		}
+	}
+
+	
+	option = {
+			name = urbanization_efforts.3.a
+				add_modifier = {
+					name = renowned_capital
+				}
+			
+		}
+}

@@ -1,0 +1,21 @@
+bountiful_harvests = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
+	
+	building_output_maize_mult = 0.5
+	state_birth_rate_mult = 0.25
+	
+	}
+	
+drought = {
+	
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_migration_pull_add = -5
+	building_output_maize_mult = -0.25
+	state_birth_rate_mult = -0.2
+	}
+	
+
+funding_aqueduct_network = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 500
+	}

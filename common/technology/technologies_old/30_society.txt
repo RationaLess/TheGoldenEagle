@@ -1,0 +1,359 @@
+﻿### ERA 1
+
+city_state = {
+	# Unlocks Urban Centers building
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+	state_infrastructure_add = 5
+	}
+}
+
+
+
+
+record_keeping = {
+	# Unlocks Urban Centers building
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		country_institution_record_keeping_max_investment_add = 1	
+		country_weekly_innovation_max_add = 10
+		}
+	
+	unlocking_technologies = {
+	}
+}
+
+
+
+callendar_system = {
+	# Unlocks Urban Centers building
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		country_institution_record_keeping_max_investment_add = 1	
+		}
+	
+	unlocking_technologies = {
+	record_keeping
+	}
+}
+
+writing_system = {
+	# Unlocks Urban Centers building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		country_institution_record_keeping_max_investment_add = 1	
+		}
+	
+	unlocking_technologies = {
+	record_keeping
+	}
+
+}
+
+science = {
+	# Unlocks Urban Centers building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		country_weekly_innovation_max_add = 10
+		}
+	
+	unlocking_technologies = {
+	writing_system
+	}
+
+}
+
+organized_worship = {
+	# Unlocks Urban Centers building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		state_building_temple_max_level_add = 1
+		}
+	
+	unlocking_technologies = {
+	city_state
+	}
+}
+
+community_holdings = {
+	# Unlocks Urban Centers building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+	politics
+	}
+}
+
+elaborate_festivals = {
+	# Unlocks Urban Centers building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		state_building_temple_max_level_add = 1
+		}
+	
+	unlocking_technologies = {
+	organized_worship
+	}
+}
+
+merchant_holdings = {
+	# Unlocks Urban Centers building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		country_institution_trade_infrastructure_max_investment_add = 1
+		}
+	
+	unlocking_technologies = {
+	community_holdings
+	}
+}
+
+spy_traders = {
+	# Unlocks Urban Centers building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		country_tech_spread_mult = 0.33
+		country_institution_trade_infrastructure_max_investment_add = 1
+		}
+	
+	unlocking_technologies = {
+		merchant_holdings
+	}
+}
+
+self_governed_merchants = {
+	# Unlocks Urban Centers building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+	merchant_holdings
+	}
+}
+
+dedicated_bureaucracy = {
+	# Unlocks Urban Centers building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+	statecraft
+	}
+}
+
+feudal_organization = {
+	# Unlocks Urban Centers building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+	dedicated_bureaucracy
+	}
+}
+
+qualifications = {
+	# Unlocks Urban Centers building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+	organized_worship
+	statecraft
+	}
+}
+
+court_system = {
+	# Unlocks Urban Centers building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		country_bureaucracy_mult = 0.05
+		}
+	
+	unlocking_technologies = {
+	writing_system
+	}
+}
+
+royal_education = {
+	# Unlocks Urban Centers building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		country_weekly_innovation_max_add = 10
+		}
+	
+	unlocking_technologies = {
+		qualifications
+		science
+	}
+}
+
+universal_education = {
+	# Unlocks Urban Centers building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		country_institution_record_keeping_max_investment_add = 1
+		country_weekly_innovation_max_add = 20
+		state_assimilation_mult = 0.05
+		}
+	
+	unlocking_technologies = {
+	royal_education
+	}
+}
+
+contracts = {
+	# Unlocks Urban Centers building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		country_institution_record_keeping_max_investment_add = 1
+		country_institution_trade_infrastructure_max_investment_add = 1
+		state_building_market_max_level_add = 1
+		}
+	
+	unlocking_technologies = {
+	court_system
+	markets
+	}
+}
+
+
+
+central_court = {
+	# Unlocks Urban Centers building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		country_bureaucracy_mult = 0.1
+		}
+	
+	unlocking_technologies = {
+	court_system
+	}
+}
+
+politics = {
+	# Unlocks Urban Centers building
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		country_legitimacy_base_add = 5
+		}
+	
+	unlocking_technologies = {
+	city_state
+	record_keeping
+	}
+}
+
+statecraft = {
+	# Unlocks Urban Centers building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		country_prestige_mult = 0.2
+		}
+	
+	unlocking_technologies = {
+	politics
+	}
+}
+
+elective_system = {
+	# Unlocks Urban Centers building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		state_poor_expected_sol = 0.5
+		}
+	
+	unlocking_technologies = {
+	politics
+	}
+}
+
+confederation = {
+	# Unlocks Urban Centers building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+	statecraft
+	}
+}
+

@@ -1,0 +1,44 @@
+﻿pm_no_tribute = {
+	texture = "gfx/interface/icons/production_method_icons/unused/disabled.dds"
+	
+		disallowing_laws = {
+		law_goods_as_currency
+		law_corvee_labor
+		}
+
+
+	building_modifiers = {
+		workforce_scaled = { # 51
+		}
+		
+		level_scaled = {
+		}
+		
+		unscaled = {
+		}
+	}
+}
+
+pm_tribute = {
+	texture = "gfx/interface/icons/production_method_icons/unused/guns.dds"
+	
+	disallowing_laws = {
+		law_barter_economy
+		law_regulated_commerce
+		law_standardized_coins
+		}
+	
+	building_modifiers = {
+		workforce_scaled = {
+		}
+		
+		level_scaled = {
+		building_employment_nobles_add = 15
+		building_employment_merchants_add = -15	
+		}
+		
+		unscaled = {
+			building_aristocrats_shares_add = 5
+		}
+	}
+}

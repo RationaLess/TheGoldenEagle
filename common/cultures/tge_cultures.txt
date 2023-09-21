@@ -1,0 +1,1176 @@
+mexica={
+	color= { 230 94 171 }
+	religion = animist
+	traits = { native_heritage nahuatl_speaking anahuac }
+	male_common_first_names={
+		Antonio
+		Carlos
+		Diego
+		Emiliano
+		Emilio
+		Felipe
+		Fernando
+		Francisco
+		Gaspar
+		Hernando
+		Hilario
+		Ignacio
+		Isaac
+		Jacinto
+		Jesus
+		Jose
+		Juan
+		Julio
+		Lorenzo
+		Manuel
+		Marcial
+		Mario
+		Martin_2
+		Natalio
+		Oliverio
+		Pedro
+		Roberto
+		Rodolfo
+		Santiago
+		Victor_2
+	}
+	female_common_first_names = {
+		Antonia
+		Celsa
+		Cleofas
+		Eva
+		Jovita
+		Laureana
+		Margarita
+		Maria
+		Marta
+		Matilde
+		Modesta
+		Ramona
+	}	
+	noble_last_names = {
+		Altamirano
+		Cortes
+		Gonzalez
+		Moyotlan
+		Neri
+		Palafox
+		Salazar
+		Zapata
+	}
+	common_last_names={
+		Ahuactzin
+		Atlanteco
+		Badiano
+		Bernardino
+		Coaguila
+		Coyotl
+		Cuautlaxahue
+		Gutierrez
+		Hernandez
+		Huanitzin
+		Itzel
+		Ixtlilxochitl
+		Jimenez
+		Matlacuahuac
+		Mayahuel
+		Moxo
+		Munoz
+		Nahui
+		Ocelotl
+		Panecatl
+		Tlaxca
+		Tletla
+		Tzehe
+		Valeriano
+		Xaxalpa
+		Xochitl
+		Zapotitla
+		Zicotencatl
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+nahua={
+	color= { 195 133 120 }
+	religion = animist
+	traits = {  native_heritage nahuatl_speaking }
+	male_common_first_names={
+		Antonio
+		Carlos
+		Diego
+		Emiliano
+		Emilio
+		Felipe
+		Fernando
+		Francisco
+		Gaspar
+		Hernando
+		Hilario
+		Ignacio
+		Isaac
+		Jacinto
+		Jesus
+		Jose
+		Juan
+		Julio
+		Lorenzo
+		Manuel
+		Marcial
+		Mario
+		Martin_2
+		Natalio
+		Oliverio
+		Pedro
+		Roberto
+		Rodolfo
+		Santiago
+		Victor_2
+	}
+	female_common_first_names = {
+		Antonia
+		Celsa
+		Cleofas
+		Eva
+		Jovita
+		Laureana
+		Margarita
+		Maria
+		Marta
+		Matilde
+		Modesta
+		Ramona
+	}	
+	noble_last_names = {
+		Altamirano
+		Cortes
+		Gonzalez
+		Moyotlan
+		Neri
+		Palafox
+		Salazar
+		Zapata
+	}
+	common_last_names={
+		Ahuactzin
+		Atlanteco
+		Badiano
+		Bernardino
+		Coaguila
+		Coyotl
+		Cuautlaxahue
+		Gutierrez
+		Hernandez
+		Huanitzin
+		Itzel
+		Ixtlilxochitl
+		Jimenez
+		Matlacuahuac
+		Mayahuel
+		Moxo
+		Munoz
+		Nahui
+		Ocelotl
+		Panecatl
+		Tlaxca
+		Tletla
+		Tzehe
+		Valeriano
+		Xaxalpa
+		Xochitl
+		Zapotitla
+		Zicotencatl
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+acolhua ={
+	color= { 67 73 145 }
+	religion = animist
+	traits = { native_heritage nahuatl_speaking anahuac }
+	male_common_first_names={
+		Antonio
+		Carlos
+		Diego
+		Emiliano
+		Emilio
+		Felipe
+		Fernando
+		Francisco
+		Gaspar
+		Hernando
+		Hilario
+		Ignacio
+		Isaac
+		Jacinto
+		Jesus
+		Jose
+		Juan
+		Julio
+		Lorenzo
+		Manuel
+		Marcial
+		Mario
+		Martin_2
+		Natalio
+		Oliverio
+		Pedro
+		Roberto
+		Rodolfo
+		Santiago
+		Victor_2
+	}
+	female_common_first_names = {
+		Antonia
+		Celsa
+		Cleofas
+		Eva
+		Jovita
+		Laureana
+		Margarita
+		Maria
+		Marta
+		Matilde
+		Modesta
+		Ramona
+	}	
+	noble_last_names = {
+		Altamirano
+		Cortes
+		Gonzalez
+		Moyotlan
+		Neri
+		Palafox
+		Salazar
+		Zapata
+	}
+	common_last_names={
+		Ahuactzin
+		Atlanteco
+		Badiano
+		Bernardino
+		Coaguila
+		Coyotl
+		Cuautlaxahue
+		Gutierrez
+		Hernandez
+		Huanitzin
+		Itzel
+		Ixtlilxochitl
+		Jimenez
+		Matlacuahuac
+		Mayahuel
+		Moxo
+		Munoz
+		Nahui
+		Ocelotl
+		Panecatl
+		Tlaxca
+		Tletla
+		Tzehe
+		Valeriano
+		Xaxalpa
+		Xochitl
+		Zapotitla
+		Zicotencatl
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+
+tepanec ={
+	color= { 153 142 18 }
+	religion = animist
+	traits = { native_heritage nahuatl_speaking anahuac }
+	male_common_first_names={
+		Antonio
+		Carlos
+		Diego
+		Emiliano
+		Emilio
+		Felipe
+		Fernando
+		Francisco
+		Gaspar
+		Hernando
+		Hilario
+		Ignacio
+		Isaac
+		Jacinto
+		Jesus
+		Jose
+		Juan
+		Julio
+		Lorenzo
+		Manuel
+		Marcial
+		Mario
+		Martin_2
+		Natalio
+		Oliverio
+		Pedro
+		Roberto
+		Rodolfo
+		Santiago
+		Victor_2
+	}
+	female_common_first_names = {
+		Antonia
+		Celsa
+		Cleofas
+		Eva
+		Jovita
+		Laureana
+		Margarita
+		Maria
+		Marta
+		Matilde
+		Modesta
+		Ramona
+	}	
+	noble_last_names = {
+		Altamirano
+		Cortes
+		Gonzalez
+		Moyotlan
+		Neri
+		Palafox
+		Salazar
+		Zapata
+	}
+	common_last_names={
+		Ahuactzin
+		Atlanteco
+		Badiano
+		Bernardino
+		Coaguila
+		Coyotl
+		Cuautlaxahue
+		Gutierrez
+		Hernandez
+		Huanitzin
+		Itzel
+		Ixtlilxochitl
+		Jimenez
+		Matlacuahuac
+		Mayahuel
+		Moxo
+		Munoz
+		Nahui
+		Ocelotl
+		Panecatl
+		Tlaxca
+		Tletla
+		Tzehe
+		Valeriano
+		Xaxalpa
+		Xochitl
+		Zapotitla
+		Zicotencatl
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+otomi ={
+	color= { 18 124 153 }
+	religion = animist
+	traits = { native_heritage oto_manguean anahuac}
+	male_common_first_names={
+		Antonio
+		Carlos
+		Diego
+		Emiliano
+		Emilio
+		Felipe
+		Fernando
+		Francisco
+		Gaspar
+		Hernando
+		Hilario
+		Ignacio
+		Isaac
+		Jacinto
+		Jesus
+		Jose
+		Juan
+		Julio
+		Lorenzo
+		Manuel
+		Marcial
+		Mario
+		Martin_2
+		Natalio
+		Oliverio
+		Pedro
+		Roberto
+		Rodolfo
+		Santiago
+		Victor_2
+	}
+	female_common_first_names = {
+		Antonia
+		Celsa
+		Cleofas
+		Eva
+		Jovita
+		Laureana
+		Margarita
+		Maria
+		Marta
+		Matilde
+		Modesta
+		Ramona
+	}	
+	noble_last_names = {
+		Altamirano
+		Cortes
+		Gonzalez
+		Moyotlan
+		Neri
+		Palafox
+		Salazar
+		Zapata
+	}
+	common_last_names={
+		Ahuactzin
+		Atlanteco
+		Badiano
+		Bernardino
+		Coaguila
+		Coyotl
+		Cuautlaxahue
+		Gutierrez
+		Hernandez
+		Huanitzin
+		Itzel
+		Ixtlilxochitl
+		Jimenez
+		Matlacuahuac
+		Mayahuel
+		Moxo
+		Munoz
+		Nahui
+		Ocelotl
+		Panecatl
+		Tlaxca
+		Tletla
+		Tzehe
+		Valeriano
+		Xaxalpa
+		Xochitl
+		Zapotitla
+		Zicotencatl
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+totonac={
+	color= { 107 145 207 }
+	religion = animist
+	traits = { north_coast }
+	male_common_first_names={
+		Antonio
+		Carlos
+		Diego
+		Emiliano
+		Emilio
+		Felipe
+		Fernando
+		Francisco
+		Gaspar
+		Hernando
+		Hilario
+		Ignacio
+		Isaac
+		Jacinto
+		Jesus
+		Jose
+		Juan
+		Julio
+		Lorenzo
+		Manuel
+		Marcial
+		Mario
+		Martin_2
+		Natalio
+		Oliverio
+		Pedro
+		Roberto
+		Rodolfo
+		Santiago
+		Victor_2
+	}
+	female_common_first_names = {
+		Antonia
+		Celsa
+		Cleofas
+		Eva
+		Jovita
+		Laureana
+		Margarita
+		Maria
+		Marta
+		Matilde
+		Modesta
+		Ramona
+	}	
+	noble_last_names = {
+		Altamirano
+		Cortes
+		Gonzalez
+		Moyotlan
+		Neri
+		Palafox
+		Salazar
+		Zapata
+	}
+	common_last_names={
+		Ahuactzin
+		Atlanteco
+		Badiano
+		Bernardino
+		Coaguila
+		Coyotl
+		Cuautlaxahue
+		Gutierrez
+		Hernandez
+		Huanitzin
+		Itzel
+		Ixtlilxochitl
+		Jimenez
+		Matlacuahuac
+		Mayahuel
+		Moxo
+		Munoz
+		Nahui
+		Ocelotl
+		Panecatl
+		Tlaxca
+		Tletla
+		Tzehe
+		Valeriano
+		Xaxalpa
+		Xochitl
+		Zapotitla
+		Zicotencatl
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+
+mixtec={
+	color= { 56 101 224 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+zapotec={
+	color= { 127 199 86 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+tlahuica={
+	color= { 66 245 167 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+nonoalca = {
+	color= { 98 57 128 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+mazahua = {
+	color= { 204 128 61 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+
+chinantec = {
+	color= { 98 174 189 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+mazatec = {
+	color= { 98 122 189 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+popoloca = {
+	color= { 176 129 84 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+tepehua = {
+	color= { 156 65 119 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+tlaxcaltec = {
+	color= { 253 255 150 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+mixe = {
+	color= { 110 126 133 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+triqui = {
+	color= { 82 45 128 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+tlapanec = {
+	color= { 164 194 43 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+amuzgo = {
+	color= { 153 20 51 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+huave = {
+	color= { 27 35 107 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+pochutec = {
+	color= { 146 196 84 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+huastec = {
+	color= { 49 135 15 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+matlatzinca = {
+	color= { 136 115 222 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+purepecha = {
+	color= { 20 117 27 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+cuitlatec = {
+	color= { 92 94 189 }
+	religion = animist
+	traits = { oaxaca }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+
+
+
+ciboney = {
+	color= { 181 230 29 }
+	religion = animist
+	traits = { taino caribbean }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+ayiti = {
+	color= { 169 126 207 }
+	religion = animist
+	traits = { taino caribbean }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+kalina = {
+	color = { 52 120 25 }
+	religion = animist
+	traits = { cariban caribbean }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+kalinago = {
+	color = { 163 73 164 }
+	religion = animist
+	traits = { cariban caribbean }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+ciguayo = {
+	color = { 239 41 51 }
+	religion = animist
+	traits = { waroid caribbean }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+macorix = {
+	color = { 255 210 225 }
+	religion = animist
+	traits = { waroid caribbean }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+guanahatabey = {
+	color = { 136 0 21 }
+	religion = animist
+	traits = { waroid caribbean }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+

@@ -1,0 +1,116 @@
+﻿STATE_XAYMACA = {
+    id = 109
+    provinces = { "x3A7E13" "x3C8425" "x517C12" "x5A7A2E" "x5C6414" "x60A228" "x6D5F0D" "x704B05" "x73742C" "x87CA25" "x8A6A24" "x8B392E" "xA09827" "xA49900" "xA83A1F" "xAD8103" "xC05622" "xC77020" "xCA4117" "xD25711" "xDA540D" "xEE6929" "xFAD130" }
+
+    city = "xAD8103"
+
+    arable_land = 60
+}
+
+STATE_LUCAYA = {
+    id = 110
+    provinces = { "x3C5E23" "x3DD50A" "x45EC2A" "x45F822" "x46C225" "x4B8F0C" "x58DA05" "x5CD903" "x5D7F2E" "x676C0E" "x6AA918" "x77FA24" "x78D806" "x7AD715" "x82C80C" "x84511F" "x86E405" "x919F2A" "x9B532B" "x9D9F1A" "xB48B26" "xB8830C" "xB9531C" "xC08123" "xCB5526" "xD9DA2A" "xEE5510" "xF96109" }
+
+    city = "xB9531C"
+
+    arable_land = 40
+}
+
+STATE_BORIKEN = {
+    id = 111
+    provinces = { "x3D360D" "x3F5F28" "x55911D" "x55FC28" "x69361E" "x717713" "xA64C0F" "xA6CD20" "xAAEA26" "xAAF80C" "xCD5E13" "xCEA92E" "xDCFC32" "xE0B22E" "xE85D27" "xEB6510" "xEDF300" }
+
+    city = "xCD5E13"
+
+    arable_land = 50
+}
+
+STATE_HIGUEY = {
+    id = 112
+    provinces = { "x398D18" "x3EE82D" "x3F3800" "x4AC717" "x4AC717" "x4ADC32" "x4C5D30" "x4DA628" "x557A14" "x668D09" "x68FF13" "x76FE2C" "x78F31C" "x797E31" "x7ED100" "x81372F" "x87D10D" "x9BEC31" "x9C704B" "x9D670B" "xA4E82E" "xA79F0C" "xBAE216" "xBBF709" "xBC981A" "xC4580B" "xC63504" "xCB3A1A" "xD1642B" "xDFD21B" "xEFDD31" "xF43407" }
+
+    city = "xBAE216"
+
+    arable_land = 80
+}
+
+STATE_MAGUA = {
+    id = 113
+    provinces = { "x33E30F" "x47D015" "x48AA2A" "x49CA0E" "x6F411D" "x6F9A0F" "x755902" "x767D0F" "x77E130" "x788220" "x883B02" "x89581A" "x948115" "x975C20" "x9CD521" "xA0F42F" "xA57409" "xA5B50E" "xAAE62C" "xB3FF0C" "xB4C505" "xC6EF20" "xD2890B" "xDC822C" "xDF851B" "xE99A22" "xEBA40F" "xF8B60F" }
+
+    city = "x89581A"
+
+    arable_land = 80
+}
+
+STATE_MAGUANA = {
+    id = 114
+    provinces = { "x3A562E" "x465F2D" "x487C2F" "x4A3D26" "x4A8723" "x505A14" "x5BC820" "x5CF11C" "x74B922" "x789905" "x789A25" "x78D223" "x79F032" "x7F6E08" "x7FCB0A" "x81922B" "x8DC832" "x924204" "xA56616" "xA8FE07" "xAE442D" "xC0F11C" "xC19A01" "xCDA113" "xD45222" "xD8AC31" "xE09822" "xE1D11C" "xE3DE28" "xE5922E" }
+
+    city = "x465F2D"
+
+    arable_land = 80
+}
+
+STATE_MARIEN = {
+    id = 115
+    provinces = { "x32BC0B" "x33F702" "x3A7F03" "x40F902" "x655700" "x77B815" "x7C9532" "x7DF11B" "x833506" "x909618" "x9D770D" "xA43F32" "xAE7F03" "xC0CD2F" "xC57003" "xC5C329" "xC96719" "xD46E13" "xDF6F30" "xE1D11C" "xECB21C" "xF07B18" "xF4ED1B" "xF7B323" "xF98607" "xFCA916" }
+
+    city = "x33F702"
+
+    arable_land = 80
+}
+
+STATE_JARAGUA = {
+    id = 116
+    provinces = { "x345829" "x3CA005" "x3EFA13" "x438B0E" "x48D521" "x4E8D02" "x4F561E" "x51D210" "x5DFB2F" "x62DB1E" "x646D10" "x6DD40D" "x6E5A04" "x6EB320" "x6EDF27" "x6FBC22" "x774B0D" "x78F11F" "x7A770E" "x854205" "x89D013" "x8BE514" "x8D3D18" "x90B617" "x938601" "x96F32B" "x97A828" "x98DF25" "x99DF2B" "x9ADB09" "x9DD20E" "xA0C114" "xABB924" "xACB914" "xADC220" "xBA5C16" "xC0C817" "xC34316" "xC5EC2A" "xC9D605" "xCBE730" "xCE5F06" "xD0D414" "xDCC20A" "xDDDF07" "xDE9727" "xDE9727" "xE7A525" "xE9F929" "xEADF2F" "xFD8512" "xFF720C" }
+
+    city = "xDCC20A"
+
+    arable_land = 80
+}
+
+STATE_TUKUSI = {
+    id = 117
+    provinces = { "x35BA2A" "x6E6D27" "x709811" "x986D0C" "xADB204" "xBDB60E" "xC7B22F" "xEFF913" "xF16328" }
+
+    city = "xADB204"
+
+    arable_land = 30
+}
+
+STATE_CAMAJUYA = {
+    id = 118
+    provinces = { "x414D0D" "x73B929" "xBDC22E" "xD8972F" }
+
+    city = "xBDC22E"
+
+    arable_land = 15
+}
+
+STATE_KARUKERA = {
+    id = 119
+    provinces = { "xDD911A" "xECD506" "xF04E18" "xF2492A" }
+
+    city = "xDD911A"
+
+    arable_land = 15
+}
+
+STATE_WADADLI = {
+    id = 120
+    provinces = { "x595D16" "xAAE424" "xB8EE25" }
+
+    city = "xB8EE25"
+
+    arable_land = 15
+}
+
+STATE_GUANAHATABEY = {
+    id = 167
+    provinces = { "xD94506" "x67C932" "x4FF91D" "x595332" "xFADC2F" "xFCC21B" "x59831B" "xF05611" "x6E991C" "xA4FC31" "x935A21" "x5A642C" "xF9F829" "x829513" "x358D02" "xA73209" "xEB562C" "x9A9829" "xD6CE10" "xE18813" "x53E60E" "xC74F0F" "x873832" "x5E602C" "xCBC820" }
+
+    city = "xF05611"
+
+    arable_land = 55
+}

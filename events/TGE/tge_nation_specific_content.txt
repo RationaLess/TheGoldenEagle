@@ -1,0 +1,71 @@
+﻿namespace = tepaneca_war
+
+#Aztec Victory
+tepaneca_war.1 = {
+	type = country_event # can be country_event, character_event, or state_event
+	placement = root
+	title = tepaneca_war.1.t
+	desc = tepaneca_war.1.d
+	flavor = tepaneca_war.1.f
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+	
+	duration = 3
+	
+	immediate = {
+	
+		c:CUA = {
+			make_independent = yes
+			trigger_event = {
+				id = tepaneca_war.2W
+				}
+			}
+		c:CUL = {
+			make_independent = yes
+			trigger_event = {
+				id = tepaneca_war.2
+				}
+			}	
+		c:TZO = {
+			make_independent = yes
+			trigger_event = {
+				id = tepaneca_war.2
+				}
+			}	
+		c:XAL = {
+			make_independent = yes
+			trigger_event = {
+				id = tepaneca_war.2
+				}
+			}
+		c:XOC = {
+			make_independent = yes
+			trigger_event = {
+				id = tepaneca_war.2
+				}
+			}
+	
+    }
+    
+	  trigger = {
+		this = c:ATA
+		}
+
+	event_image = {
+		texture = "gfx/event_pictures/texcoco.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = ""
+
+	option = {
+		name = tepaneca_war.1.1
+		default_option = yes
+		
+		add_journal_entry = { type = je_struggle_for_texcoco }
+			
+		
+		add_loyalists = {
+			value = 0.2
+			}
+    }
+}

@@ -1,0 +1,124 @@
+﻿NGame = {
+	START_DATE = "1428.1.1" 
+	END_DATE = "1600.1.1" 
+	SAVE_VERSION = 0
+	MP_LAG_TICKS_BOUNDS = 28 # Host will advance up to a week ahead of players ( 7 * 4 )
+	DEAD_OBJ_UNDESTROYED_DAYS = 0	# number of days "killed"/removed objects will persist in memory before ultimately destroyed as they are referenced by events etc
+	DEFAULT_INCREMENT_DECREMENT_MAGNITUDE = 1
+	DEFAULT_INCREMENT_DECREMENT_MAGNITUDE_SHIFT = 10
+	DEFAULT_INCREMENT_DECREMENT_MAGNITUDE_CONTROL = 100
+	MAX_NUMBER_OF_AUTOSAVES = 5 	# The game will only keep the MAX_NUMBER_OF_AUTOSAVES latest autosaves.
+}
+
+NJominiMap = {
+	WORLD_EXTENTS_X = 8192
+	WORLD_EXTENTS_Y = 19					#This determines the max height of the world. Original settings = 25.5
+	WORLD_EXTENTS_Z = 13440
+	WATERLEVEL = 1.6						#Original Settings 3.7
+}
+
+NEconomy = {
+
+	MAX_WAGE_STEP_CHANGE = 0.5
+
+	BUILDING_RAISE_WAGES_MIN_RELEVANT_POP_SIZE = 0 # Pops with less workforce than this are ignored when checking whether a profitable building should raise wages because of radicalizing workers
+	BUILDING_RAISE_WAGES_DISCRIMINATION_FACTOR = 0.66 # Profitable buildings only care to raise wages for discriminated pops if their wealth to expected SoL ratio is less than this
+	BUILDING_LOWER_WAGES_TARGET_WEALTH_MULT = 3 # Buildings will consider lowering wages if all significant pops working in them have this * the target wealth to expected SoL ratio
+	BUILDING_PROFIT_TARGET_TO_RAISE_WAGES = 0.15	# Required profit margin to consider raising wages for SoL or employment reasons, with BUILDING_WEEKS_BETWEEN_PAY_CHANGES weeks cooldown
+	BUILDING_PROFIT_TARGET_TO_LOWER_WAGES = 0.05	# If profit margin is this or below, consider lowering wages for SoL or employment reasons, with BUILDING_WEEKS_BETWEEN_PAY_CHANGES weeks cooldown
+	BUILDING_MAX_EMPLOYMENT_FRACTION_TO_RAISE_WAGES = 1 # If the employment fraction of a building is above this, don't raise wages just to try and snipe employees from other buildings
+	
+	
+	EMPLOYMENT_PROPORTIONALITY_LIMIT = 0.5
+
+
+}
+
+
+NCountry = {
+
+	DEFAULT_SUBSISTENCE_BUILDING = "building_gathering_grounds"
+	URBAN_CENTER_BUILDING = "building_calpulli"
+
+}
+
+NDiplomacy = {
+
+	DEFAULT_TRUCE_MONTHS = 12
+
+
+
+}
+
+NPolitics = {
+	
+	MAX_INSTITUTION_INVESTMENT = 8
+	
+	STATE_BUREAUCRACY_POP_MULTIPLE = 10000	# Number of people BUR cost is based on
+	MINIMUM_INVESTMENT_COST = 30
+	
+	}
+
+#other
+
+NPops = {
+	NUM_WEALTH_LEVELS = 50
+	LOYALTIES_GAIN_GRACE_PERIOD = "1440.1.1"	# Until this date, only a scaling part of the Radicals and Loyalists gained from SOL changes will be applied
+	
+	DEFAULT_POP_TYPE = "freemen"
+
+	ECONOMIC_MIGRATION_STATE_POPULATION_THRESHOLD = 10000				# States with less pops than this have reduced economic emigration numbers to avoid total depopulation
+}
+
+NBattle = {
+	SURVIVAL_RATE = 0.95
+	}
+
+NMilitary = {
+	USE_TRAVEL_NETWORK = no
+	}
+
+NWar = {
+
+	STATE_CONQUEST_HOMELAND_AND_CLAIM_RADICALIZATION = 0.01
+	STATE_CONQUEST_HOMELAND_OR_CLAIM_RADICALIZATION = 0.02
+	STATE_CONQUEST_DEFAULT_RADICALIZATION = 0.04
+
+}
+
+
+### Pop Growth Constants
+@min_birthrate = 0.0030
+@max_birthrate = 0.0080
+@min_mortality = 0.0010
+@max_mortality = 0.0070
+@pop_growth_sol_equilibrium = 5							# Equilibrium is where (with no birthrate/death-rate mods) growth is stagnant
+@pop_growth_sol_delta_cap = 30							# SoL Delta Cap is where net growth stops increasing with rising SoL, i.e. both drop at the same pace
+@pop_growth_sol_cap = 40								# SoL Cap is where they birthrate/death-rate stop dropping
+
+@mortality_at_equilibrium = @[max_birthrate-(pop_growth_sol_equilibrium*(max_birthrate-min_birthrate)/pop_growth_sol_cap)]
+@birthrate_at_delta_cap = @[max_birthrate-(pop_growth_sol_delta_cap*(max_birthrate-min_birthrate)/pop_growth_sol_cap)]
+@improving_slope = @[(birthrate_at_delta_cap-min_birthrate-min_mortality-mortality_at_equilibrium)/(pop_growth_sol_delta_cap-pop_growth_sol_equilibrium)]
+@improving_intercept = @[-1*improving_slope*pop_growth_sol_equilibrium+mortality_at_equilibrium]
+@mortality_at_delta_cap = @[improving_slope*pop_growth_sol_delta_cap+improving_intercept]
+@fixed_delta_slope = @[(min_mortality-mortality_at_delta_cap)/(pop_growth_sol_cap-pop_growth_sol_delta_cap)]
+		
+NPops = {
+	POP_GROWTH_BIRTHRATE_REDUCTION_PER_SOL = @[(max_birthrate-min_birthrate)/pop_growth_sol_cap]
+	POP_GROWTH_MORTALITY_AT_EQUILIBRIUM = @mortality_at_equilibrium
+	POP_GROWTH_STARVING_SLOPE = @[(mortality_at_equilibrium-max_mortality)/pop_growth_sol_equilibrium]
+	POP_GROWTH_BIRTHRATE_AT_DELTA_CAP = @birthrate_at_delta_cap
+	POP_GROWTH_IMPROVING_SLOPE = @improving_slope
+	POP_GROWTH_IMPROVING_INTERCEPT = @improving_intercept
+	POP_GROWTH_FIXED_DELTA_SLOPE = @fixed_delta_slope
+	POP_GROWTH_FIXED_DELTA_INTERCEPT = @[-1*fixed_delta_slope*pop_growth_sol_cap+min_mortality]
+	
+	POP_GROWTH_MIN_BIRTHRATE = @min_birthrate					# Minimum base birthrate per month (at SOL_POP_GROWTH_CAP)
+	POP_GROWTH_MAX_BIRTHRATE = @max_birthrate					# Maximum base birthrate per month (at SOL = 0)
+	POP_GROWTH_MIN_MORTALITY = @min_mortality					# Maximum base mortality per month (at SOL_POP_GROWTH_CAP)
+	POP_GROWTH_MAX_MORTALITY = @max_mortality					# Maximum base mortality per month (at SOL = 0)
+	POP_GROWTH_SOL_DELTA_CAP = @pop_growth_sol_delta_cap		# Birthrate and Mortality retains its delta beyond this SoL
+	POP_GROWTH_SOL_CAP = @pop_growth_sol_cap					# Birthrate and Mortality reaches its minimum values and does not drop beyond this SoL
+	POP_GROWTH_SOL_EQUILIBRIUM = @pop_growth_sol_equilibrium	# The Standard of Living where Birthrate and Mortality correspond, after which Mortality diminishes slower
+}
+### End Pop Growth Constant defines

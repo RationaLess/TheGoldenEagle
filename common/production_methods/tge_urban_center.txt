@@ -1,0 +1,281 @@
+﻿
+
+
+
+
+
+
+
+
+pm_basic_administration = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	country_modifiers = {
+	
+		workforce_scaled = {
+		country_bureaucracy_add = 20
+		}
+	
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+		
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 25
+			building_employment_freemen_add = 75
+		}
+		
+		unscaled = {
+		}
+	}
+}	
+pm_urban_poets = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	country_modifiers = {
+	
+	
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			goods_output_services_add = 0.5
+			goods_output_fine_art_add = 1
+		}
+
+		level_scaled = {
+			building_employment_artisans_add = 100
+		}
+		
+		unscaled = {
+		}
+	}
+}	
+pm_basic_learning = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_weekly_innovation_add = 10
+		}
+	
+	
+	}
+	
+	building_modifiers = { 
+		
+
+		level_scaled = {
+			building_employment_scholars_add = 50
+		}
+		
+		unscaled = {
+		}
+	}
+}	
+
+
+
+
+
+
+#######
+
+pm_communal_center = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	building_modifiers = { 
+		workforce_scaled = {
+		goods_output_worship_add = 1
+		goods_output_services_add = 1
+		}
+
+		level_scaled = {
+		}
+		
+		unscaled = {
+		}
+	}
+}		
+
+pm_ball_courts = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	unlocking_technologies = {
+		ullamaliztli
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			goods_input_rubber_add = 0.5
+			
+			goods_output_worship_add = 1
+			goods_output_services_add = 3
+		}
+
+		level_scaled = {
+			building_employment_freemen_add = 50
+		}
+		
+		unscaled = {
+			building_clerks_shares_add = 1
+		}
+	}
+}		
+
+######
+
+pm_no_schooling = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	building_modifiers = { 
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+		}
+		
+		unscaled = {
+		}
+	}
+}	
+
+pm_calmecac = {
+	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	
+	unlocking_technologies = { 
+	royal_education
+	}
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 1
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.03 
+			state_education_access_wealth_add = 0.002
+		}	
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+		building_employment_priests_add = 10
+		building_employment_scholars_add = 10
+		}
+		
+		unscaled = {
+		building_academics_shares_add = 1
+		building_clerks_shares_add = 1 
+		}
+	}
+}	
+
+pm_telpochcalli = {
+	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	
+	unlocking_technologies = { 
+	universal_education
+	}
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 2
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_education_access_wealth_add = 0.002
+			state_education_access_add = 0.01
+			state_pop_qualifications_mult = 0.05
+		}	
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+		building_employment_scholars_add = 20
+		}
+		
+		unscaled = {
+		building_academics_shares_add = 2
+		}
+	}
+}	
+
+	
+
+#######
+
+pm_luxury_housing = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	unlocking_technologies = { 
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_education_access_add = 0.01
+			state_standard_of_living_add = 0.2
+			state_migration_pull_add = 0.2
+		}		
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			goods_input_furniture_add = 1
+			
+			#goods_output_services_add = 2
+		}
+
+		level_scaled = {
+		#building_employment_bureaucrats_add = 10
+		}
+		
+		unscaled = {
+		}
+	}
+}
+
+######
+
+pm_home_workshops = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	unlocking_technologies = { 
+	}
+	
+	state_modifiers = {
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			goods_output_tools_add = 0.5
+			goods_output_clothes_add = 1
+		}
+
+		level_scaled = {
+		building_employment_artisans_add = 50
+		
+		}
+		
+		unscaled = {
+		building_artisans_shares_add = 1
+		}
+	}
+}
+
+####
+
+

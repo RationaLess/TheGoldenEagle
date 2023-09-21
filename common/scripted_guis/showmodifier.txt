@@ -1,0 +1,17 @@
+﻿showmodifier_empire_sprawl_bonus = {
+	effect = {
+		add_modifier = {
+			name = empire_sprawl_bonus
+			multiplier = empire_sprawl_surplus
+		}
+	}
+}
+
+showmodifier_empire_sprawl_malus = {
+	effect = {
+		add_modifier = {
+			name = empire_sprawl_malus
+			multiplier = empire_sprawl_deficit
+		}
+	}
+}

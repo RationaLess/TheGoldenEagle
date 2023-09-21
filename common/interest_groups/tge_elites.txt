@@ -1,0 +1,185 @@
+﻿ig_elites = {
+	color = hsv{ 0 0.56 0.58 }
+	texture = "gfx/interface/icons/ig_icons/trade_unions.dds"
+	
+	ideologies = {
+		ideology_statecraft
+		ideology_meritocratic
+	}
+	
+	enable = { 
+		always = yes
+		
+		
+	}
+	
+	traits = {
+		ig_trait_indomitable_bureaucracy
+		ig_trait_strong_institutions
+		ig_trait_exercising_authority
+	}	
+	
+	on_enable = {
+		
+		ig:ig_elites = {
+					set_ig_trait = ig_trait:ig_trait_indomitable_bureaucracy
+					set_ig_trait = ig_trait:ig_trait_strong_institutions
+					set_ig_trait = ig_trait:ig_trait_exercising_authority
+				}
+
+		}
+	on_disable = {}
+	on_character_ig_membership = {}
+	
+	
+	pop_potential = {
+	
+		OR = {
+				is_pop_type = administrators
+				is_pop_type = bureaucrats
+				is_pop_type = officers
+				is_pop_type = architects
+            }  
+	
+            
+    } 
+
+	pop_weight = {
+		value = 100
+		
+		
+		
+		add = {
+			desc = "POP_ARCHITECTS"
+			if = {
+				limit = { 
+					is_pop_type = architects
+				}
+				value = 100
+			}
+		}
+		
+		add = {
+			desc = "POP_OFFICERS"
+			if = {
+				limit = { 
+					is_pop_type = officers
+				}
+				value = 100
+			}
+		}
+		
+		add = {
+			desc = "POP_BUREAUCRATS"
+			if = {
+				limit = { 
+					is_pop_type = bureaucrats
+				}
+				value = 200
+			}
+		}
+		
+		add = {
+			desc = "POP_ADMINISTRATORS"
+			if = {
+				limit = { 
+					is_pop_type = administrators
+				}
+				value = 300
+			}
+		}
+		
+			
+		
+		multiply = {
+			desc = "LEADER_POPULARITY"
+			scope:interest_group = {
+				leader = {
+					value = popularity
+					multiply = 0.0025
+					add = 1
+					max = 1.25
+					min = 0.75
+				}
+			}
+		}	
+	}
+	
+	
+	
+
+	
+
+	
+	monarch_weight = {
+		value = 0.5
+	}	
+	
+	commander_weight = {
+		value = 0.5
+	}	
+	
+	noble_chance = {
+		value = 0.3
+	}
+	
+	female_commander_chance = {	
+		value = 0.0
+	}
+	
+	female_politician_chance = {
+		value = 0.0
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_own_property
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_in_the_workplace
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_womens_suffrage
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+	}
+	
+	# The chance that a commander belonging to this IG takes over leadership when it changes
+	# scope:character is the most popular commander in the IG
+	commander_leader_chance = {
+		value = 0.25
+		if = {
+			limit = {
+				exists = scope:character
+			}
+			multiply = {
+				value = 1
+				add = scope:character.popularity
+				min = 0
+			}
+		}
+	}
+}

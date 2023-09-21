@@ -1,0 +1,110 @@
+﻿law_priest_scholars = {
+	group = lawgroup_innovation
+	
+	icon = "gfx/interface/icons/law_icons/no_schools.dds"
+	
+	progressiveness = 0
+
+	disallowing_laws = {
+	}
+	
+	
+	modifier = {
+			country_priests_pol_str_mult = 0.25
+		}
+	
+	institution = institution_schools
+	institution_modifier = {
+	state_education_access_add = 0.025
+	}
+	
+	pop_support = {
+		value = 0
+	}
+
+}
+
+law_infrastructure_investment = {
+	group = lawgroup_innovation
+	
+	icon = "gfx/interface/icons/law_icons/no_schools.dds"
+	
+	progressiveness = 0
+
+	disallowing_laws = {
+	}
+	
+	
+	modifier = {
+			country_architects_pol_str_mult = 0.25
+		}
+	
+	institution = institution_schools
+	institution_modifier = {
+	state_education_access_add = 0.025
+	country_production_weekly_innovation_mult = 0.05
+	country_weekly_innovation_max_add = 5
+	}
+	
+	pop_support = {
+		value = 0
+	}
+
+}
+
+law_origin_myth = {
+	group = lawgroup_innovation
+	
+	icon = "gfx/interface/icons/law_icons/no_schools.dds"
+	
+	progressiveness = 0
+
+	disallowing_laws = {
+	}
+	
+	
+	modifier = {
+			country_officers_pol_str_mult = 0.25
+		}
+	
+	institution = institution_schools
+	institution_modifier = {
+	state_education_access_add = 0.02
+	country_military_weekly_innovation_mult = 0.05
+	country_weekly_innovation_max_add = 2.5
+	
+	}
+	
+	pop_support = {
+		value = 0
+	}
+
+}
+
+law_scholar_societies = {
+	group = lawgroup_innovation
+	
+	icon = "gfx/interface/icons/law_icons/no_schools.dds"
+	
+	progressiveness = 0
+
+	disallowing_laws = {
+	}
+	
+	
+	modifier = {
+			country_scholars_pol_str_mult = 0.25
+		}
+	
+	institution = institution_schools
+	institution_modifier = {
+	state_education_access_add = 0.03
+	country_society_weekly_innovation_mult = 0.05
+	country_weekly_innovation_max_add = 7.5
+	}
+	
+	pop_support = {
+		value = 0
+	}
+
+}

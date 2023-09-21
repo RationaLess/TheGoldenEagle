@@ -1,0 +1,11 @@
+﻿###### EXAMPLE ######
+
+#example_heritage = {
+#	heritage = yes
+#}
+
+#####################
+
+native_heritage = {
+	heritage = yes
+}

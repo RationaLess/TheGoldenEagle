@@ -1,0 +1,334 @@
+pm_barracks = {
+	texture = "gfx/interface/icons/production_method_icons/irregular_infantry.dds"
+	is_default = yes
+	building_modifiers = {
+
+		level_scaled = {
+			building_employment_warriors_add = 450
+			building_employment_officers_add = 50
+			building_training_rate_add = 10
+		}
+
+		throughput_scaled = {
+		}
+
+		unscaled = {
+		}
+	}
+	country_modifiers = {
+	}
+}
+
+pm_maces = {
+	texture = "gfx/interface/icons/production_method_icons/irregular_infantry.dds"
+	is_default = yes
+	building_modifiers = {
+		workforce_scaled = {
+		goods_input_wood_add = 1
+		}
+
+		level_scaled = {
+			building_employment_warriors_add = 125
+			building_employment_officers_add = 25
+			building_training_rate_add = 10
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 8
+			unit_defense_add = 5
+		}
+
+		unscaled = {
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 1
+		}
+	}
+}
+pm_cuauhololli = {
+	texture = "gfx/interface/icons/production_method_icons/irregular_infantry.dds"
+	
+	unlocking_technologies = {
+		cuauhololli
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+		goods_input_weapons_add = 1
+		}
+
+		level_scaled = {
+			building_employment_warriors_add = 125
+			building_employment_officers_add = 25
+			building_training_rate_add = 10
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 12
+			unit_defense_add = 5
+		}
+
+		unscaled = {
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 2
+		}
+	}
+}
+pm_macuahuitl = {
+	texture = "gfx/interface/icons/production_method_icons/irregular_infantry.dds"
+	
+	unlocking_technologies = {
+		macuahuitl
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+		goods_input_weapons_add = 2
+		}
+
+		level_scaled = {
+			building_employment_warriors_add = 125
+			building_employment_officers_add = 25
+			building_training_rate_add = 10
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 20
+			unit_defense_add = 5
+		}
+
+		unscaled = {
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 3
+		}
+	}
+}
+
+####
+pm_spears = {
+	texture = "gfx/interface/icons/production_method_icons/irregular_infantry.dds"
+	is_default = yes
+	building_modifiers = {
+		workforce_scaled = {
+		goods_input_wood_add = 0.5
+		}
+
+		level_scaled = {
+			building_employment_warriors_add = 50
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 5
+			unit_defense_add = 5
+		}
+
+		unscaled = {
+		unit_morale_damage_mult = 0.1
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 1
+		}
+	}
+}
+pm_atlatl = {
+	texture = "gfx/interface/icons/production_method_icons/irregular_infantry.dds"
+	
+	unlocking_technologies = {
+		atlatl
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+		goods_input_wood_add = 1
+		goods_input_weapons_add = 0.5
+		}
+
+		level_scaled = {
+			building_employment_warriors_add = 50
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 5
+			unit_defense_add = 10
+		}
+
+		unscaled = {
+		unit_morale_damage_mult = 0.2
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 1.5
+		}
+	}
+}
+pm_bows = {
+	texture = "gfx/interface/icons/production_method_icons/irregular_infantry.dds"
+	
+	unlocking_technologies = {
+		bows
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+		goods_input_wood_add = 1
+		goods_input_weapons_add = 1
+		}
+
+		level_scaled = {
+			building_employment_warriors_add = 50
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 10
+			unit_defense_add = 10
+		}
+
+		unscaled = {
+		unit_morale_damage_mult = 0.2
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 2
+		}
+	}
+}
+pm_tepoztopilli = {
+	texture = "gfx/interface/icons/production_method_icons/irregular_infantry.dds"
+	
+	unlocking_technologies = {
+		tepoztopilli
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+		goods_input_weapons_add = 2
+		}
+
+		level_scaled = {
+			building_employment_warriors_add = 50
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 15
+			unit_defense_add = 15
+		}
+
+		unscaled = {
+		unit_morale_damage_mult = 0.3
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 3
+		}
+	}
+}
+
+####
+
+pm_no_armor = {
+	texture = "gfx/interface/icons/production_method_icons/irregular_infantry.dds"
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 0
+			unit_defense_add = 0
+		}
+
+		unscaled = {
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 0
+		}
+	}
+}
+pm_shields = {
+	texture = "gfx/interface/icons/production_method_icons/irregular_infantry.dds"
+	
+	unlocking_technologies = {
+		shields
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+		goods_input_hardwood_add = 0.5
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 0
+			unit_defense_add = 5
+		}
+
+		unscaled = {
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 0.5
+		}
+	}
+}
+pm_ichacahuipilli = {
+	texture = "gfx/interface/icons/production_method_icons/irregular_infantry.dds"
+	
+	unlocking_technologies = {
+		ichacahuipilli
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+		goods_input_hardwood_add = 0.5
+		goods_input_cotton_add = 1
+		}
+
+		throughput_scaled = {
+			unit_offense_add = 0
+			unit_defense_add = 10
+		}
+
+		unscaled = {
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_army_power_projection_add = 1
+		}
+	}
+}
+
+#####
+
+
+pm_porters = {
+	texture = "gfx/interface/icons/production_method_icons/irregular_infantry.dds"
+	
+	country_modifiers = {
+		
+	}
+	
+	building_modifiers = {
+		
+		level_scaled = {
+			building_employment_porters_add = 100
+		}
+
+		unscaled = {
+		}
+	}
+}

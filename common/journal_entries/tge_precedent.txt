@@ -1,0 +1,202 @@
+﻿
+je_urbanization_efforts = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+is_shown_when_inactive = {
+		
+		always = yes
+		
+	}
+
+
+possible = {
+		has_technology_researched = architecture
+		is_at_war = no
+		ig:ig_traditionalists = {
+			has_ideology = ideology:ideology_classic_precedent 
+		}
+		
+		game_date >= 1430.1.1
+	}
+
+
+immediate = {
+	trigger_event = {
+			id = urbanization_efforts.1
+			days = 0
+			popup = yes
+			}
+	}
+
+complete = {
+	scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	
+	
+	capital = {
+			any_scope_building = {
+					is_building_type = building_royal_palace
+					level >= 1
+				}
+			any_scope_building = {
+					is_building_type = building_ball_court
+					level >= 2
+				}
+			any_scope_building = {
+					is_building_type = building_market
+					level >= 5
+				}
+		}
+
+		
+	}
+	
+	
+	progressbar = yes
+	
+current_value = {
+		
+		root.capital = {
+		
+			every_scope_building = {
+                limit = {
+                    is_building_type = building_urban_center
+                }
+                value = level
+            }
+		}
+	}
+	
+	goal_add_value = {
+		
+		root.capital = {
+		
+			every_scope_building = {
+                limit = {
+                    is_building_type = building_urban_center
+                }
+                value = level
+            }
+		}
+		
+		add = 10
+	}
+
+on_complete = {
+
+		
+	trigger_event = {
+			id = urbanization_efforts.3
+			days = 0
+			popup = yes
+			}
+		
+		ig:ig_traditionalists = {
+			remove_ideology = ideology_classic_precedent
+			add_ideology = ideology_postclassic_precedent
+		}
+		add_modifier = {
+			name = successful_urbanization
+			months = 600
+			is_decaying = yes
+		}
+	}
+
+#Timeout
+
+timeout = 9125
+
+on_timeout = {
+	
+	
+	trigger_event = {
+			id = urbanization_efforts.2
+			days = 0
+			popup = yes
+			}
+	
+		add_modifier = {
+			name = unsuccessful_urbanization
+			months = 600
+			is_decaying = yes
+		}
+
+}
+
+
+}
+
+je_metropolis = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+is_shown_when_inactive = {
+		
+		always = yes
+		
+	}
+
+
+possible = {
+		
+		game_date >= 1455.1.1
+		
+		capital = {
+			any_scope_building = {
+						is_building_type = building_urban_center
+						level >= 20
+					}
+			}
+		
+		
+	}
+
+
+immediate = {
+	}
+
+complete = {
+	
+	
+
+		
+	}
+	
+	
+	progressbar = yes
+	
+current_value = {
+		
+		root.capital = {
+		
+			every_scope_building = {
+                limit = {
+                    is_building_type = building_urban_center
+                }
+                value = level
+            }
+		}
+	}
+	
+	goal_add_value = {
+		
+		root.capital = {
+		
+			every_scope_building = {
+                limit = {
+                    is_building_type = building_urban_center
+                }
+                value = level
+            }
+		}
+		
+		multiply = 3
+	}
+
+on_complete = {
+	}
+
+
+
+
+}

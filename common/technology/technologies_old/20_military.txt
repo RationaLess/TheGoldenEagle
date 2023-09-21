@@ -1,0 +1,319 @@
+﻿### ERA 1
+
+warrior_bands = {
+	# Unlocks Barracks building
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+}
+
+raiding = {
+	# Unlocks Barracks building
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	modifier = {
+		state_building_barracks_max_level_add = 3
+		}
+}
+
+tribute_collection = {
+	# Unlocks Barracks building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	unlocking_technologies = {
+		raiding
+	}
+}
+
+vassalage = {
+	# Unlocks Barracks building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	unlocking_technologies = {
+		tribute_collection
+	}
+	
+}
+
+basic_organization = {
+	# Unlocks Barracks building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	modifier = {
+		country_military_tech_spread_mult = 0.2
+	}
+	
+	unlocking_technologies = {
+		warrior_bands
+	}
+}
+
+command_structure = {
+	# Unlocks Barracks building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	modifier = {
+		country_military_wages_mult = 0.1
+	}
+	
+	unlocking_technologies = {
+		basic_organization
+		tribute_collection
+	}
+}
+
+military_bureaucracy = {
+	# Unlocks Barracks building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	modifier = {
+		state_bureaucracy_population_base_cost_factor_mult = 0.1
+		country_army_power_projection_mult = 0.1
+		}
+	
+	unlocking_technologies = {
+		basic_organization
+	}
+}
+
+imperial_ambitions = {
+	# Unlocks Barracks building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	modifier = {
+		interest_group_ig_warrior_guilds_pop_attraction_mult = 0.25
+		}
+	
+	unlocking_technologies = {
+		command_structure
+		direct_conquest
+	}
+}
+
+commoner_batallions = {
+	# Unlocks Barracks building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	modifier = {
+		state_building_conscription_center_max_level_add = 3
+		}
+	
+	unlocking_technologies = {
+		levied_warriors
+	}
+}
+
+responsive_army = {
+	# Unlocks Barracks building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	modifier = {
+		country_military_goods_cost_mult = 0.05
+		country_authority_add = 50
+		}
+	
+	unlocking_technologies = {
+		command_structure
+		military_bureaucracy
+	}
+}
+
+city_occupation = {
+	# Unlocks Barracks building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	unlocking_technologies = {
+		patrols
+	}
+}
+
+
+levied_warriors = {
+	# Unlocks Barracks building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	unlocking_technologies = {
+		warrior_bands
+	}
+}
+
+military_education = {
+	# Unlocks Barracks building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	
+	modifier = {
+		state_building_barracks_max_level_add = 5
+		interest_group_ig_warrior_guilds_pop_attraction_mult = 0.25
+		}
+	
+	unlocking_technologies = {
+		basic_organization
+	}
+}
+
+
+honorary_titles = {
+	# Unlocks Barracks building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	modifier = {
+		state_building_conscription_center_max_level_add = 3
+		unit_morale_loss_mult = -0.05
+		interest_group_ig_warrior_guilds_pop_attraction_mult = 0.25
+		}
+	
+	unlocking_technologies = {
+		command_structure
+		commoner_batallions
+	}
+}
+
+warrior_societies = {
+	# Unlocks Barracks building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	
+	modifier = {
+		interest_group_ig_warrior_guilds_pop_attraction_mult = 0.25
+		}
+	
+	unlocking_technologies = {
+		honorary_titles
+		military_education
+	}
+}
+
+
+
+
+
+mesoamerican_warfare = {
+	# Unlocks Barracks building
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+}
+
+maces = {
+	# Unlocks Barracks building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	unlocking_technologies = {
+		mesoamerican_warfare
+	}
+}
+
+atlatl = {
+	# Unlocks Barracks building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	unlocking_technologies = {
+		mesoamerican_warfare
+	}
+}
+
+shields = {
+	# Unlocks Barracks building
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	unlocking_technologies = {
+		mesoamerican_warfare
+	}
+}
+
+
+
+bows = {
+	# Unlocks Barracks building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	unlocking_technologies = {
+		atlatl
+	}
+}
+
+ichacahuipilli = {
+	# Unlocks Barracks building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	unlocking_technologies = {
+		shields
+	}
+}
+
+tepoztopilli = {
+	# Unlocks Barracks building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	unlocking_technologies = {
+		atlatl
+	}
+}
+
+quauhololli = {
+	# Unlocks Barracks building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	unlocking_technologies = {
+		maces
+	}
+}
+
+
+macuahuitl = {
+	# Unlocks Barracks building
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	unlocking_technologies = {
+		maces
+	}
+}
+
+
+

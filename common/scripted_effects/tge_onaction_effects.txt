@@ -1,0 +1,107 @@
+﻿
+onaction_empire_sprawl_calc = {
+
+	#Sprawl capcity
+	set_variable = {
+		name = var_empire_sprawl_capacity
+		value = {
+			add = modifier:country_empire_sprawl_capacity_add
+			multiply = {
+				add = 1
+				add = modifier:country_empire_sprawl_capacity_mult
+				}
+			}
+		}
+		
+		
+	#Sprawl Load
+	set_variable = {
+		name = var_empire_sprawl_load
+		value = {
+			add = sprawl_get_base_value
+			add = sprawl_get_vassal_value
+			
+			multiply = {
+				add = 1
+				add = modifier:country_empire_sprawl_load_mult
+				}
+			multiply = {
+				add = sprawl_get_multiplier
+				}
+			
+			}
+		}
+		
+		
+	#Empire Sprawl
+	set_variable = {
+		name = var_empire_sprawl
+		value = {
+			add = var:var_empire_sprawl_capacity
+			subtract = var:var_empire_sprawl_load
+		}
+	}
+	
+	
+	#Applying the actual bonus
+	if = {
+		limit = {
+		has_modifier = empire_sprawl_bonus
+		}
+		remove_modifier = empire_sprawl_bonus
+	}	
+	if = {
+		limit = {
+		has_modifier = empire_sprawl_malus
+		}
+		remove_modifier = empire_sprawl_malus
+	}	
+	
+	IF = {
+		limit = {
+			var:var_empire_sprawl > 0
+		}
+		add_modifier = {
+			name = empire_sprawl_bonus
+			multiplier = empire_sprawl_surplus
+		}
+	}
+	ELSE_IF = {
+		limit = {
+			var:var_empire_sprawl < 0
+		}
+		
+	
+		add_modifier = {
+			name = empire_sprawl_malus
+			multiplier = empire_sprawl_deficit
+		}
+	}
+
+
+	}
+	
+	
+	
+#Onaction Minor settlement spawn
+onaction_minor_settlement_spawn = {
+	
+	
+	if = {
+		limit = {
+		has_modifier = state_minor_settlement_modifier
+		}
+		remove_modifier = state_minor_settlement_modifier
+	}
+	
+	add_modifier = {
+		name = state_minor_settlement_modifier
+		multiplier = settlement_amount
+		}
+	
+	
+	
+	
+	
+
+	}

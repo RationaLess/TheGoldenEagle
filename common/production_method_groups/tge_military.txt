@@ -1,0 +1,49 @@
+pmg_barracks = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_military.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_barracks
+	}
+}
+
+pmg_primary_weapons = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_military.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_maces
+		pm_cuauhololli
+		pm_macuahuitl
+	}
+}
+
+pmg_secondary_weapons = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_military.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_spears
+		pm_atlatl
+		pm_bows
+		pm_tepoztopilli
+	}
+}
+pmg_armor = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_military.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_armor
+		pm_shields
+		pm_ichacahuipilli
+	}
+}
+pmg_supply = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_military.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_porters
+	}
+}

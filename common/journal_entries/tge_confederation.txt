@@ -1,0 +1,132 @@
+﻿je_forging_alliances = {
+	should_be_pinned_by_default = yes
+
+is_shown_when_inactive = {
+		
+		NOT = {
+			has_variable = confederations_num
+			}
+		
+	
+	}
+
+possible = { 
+		is_subject = no
+		has_technology_researched = confederation
+		OR = {
+			any_interest_group = {
+				is_powerful = yes
+				is_in_government = yes
+				OR = {
+					is_interest_group_type = ig_ancillaries
+					leader = {
+						OR = {
+							has_ideology = ideology:ideology_leader_confederate
+						}
+					}
+				}
+			}
+		AND = {
+			has_law = law_type:law_alliance
+				NOT = {
+					has_law = law_type:law_bellicose
+				}
+			}
+		}
+
+		NOT = {
+			infamy > 25
+			has_law = law_type:law_council
+			has_law = law_type:law_monarchy
+			has_law = law_type:law_bellicose
+		}
+	
+	}
+
+invalidated = {
+	is_subject = yes 
+	}
+
+immediate = {
+	set_strategy = ai_strategy_form_confederation
+
+	set_variable = {
+			name = confederations_num
+			value = 0
+		}
+	
+	trigger_event = {
+			id = forging_alliances.1
+			popup = yes
+			}
+	}
+
+
+modifiers_while_active = {
+		confederate_sentiment
+	}
+
+complete = {
+		always = no
+		#prestige > 100
+		#confederations_num >= 2
+		
+	}
+
+on_complete = {
+	#	trigger_event = {
+	#		id = test_event.10
+	#		days = 0
+	#	}
+	}
+
+}
+
+
+
+je_awaiting_confederation = {
+	should_be_pinned_by_default = yes
+
+	
+
+	possible = {
+			is_subject = yes
+		}
+
+	invalidated = {
+		#NOT = {
+		#	has_diplomatic_pact = {
+		#			type = confederation
+		#		}
+		#	}
+		}
+
+	immediate = {
+		}
+
+
+	modifiers_while_active = {
+			confederate_sentiment
+		}
+
+	timeout = 720
+
+	on_timeout = {
+		overlord = {
+			annex = root
+			activate_law = law_type:law_alliance
+			change_variable = {
+						name = confederations_num
+						add = 1
+					}
+			}
+		}
+
+	complete = {
+			always = no
+			
+		}
+
+
+
+}

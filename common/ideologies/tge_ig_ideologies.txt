@@ -1,0 +1,426 @@
+﻿ideology_royalist = {
+	icon = "gfx/interface/icons/ideology_icons/unused/royalist.dds"
+	
+	lawgroup_governance_principles = {
+		law_monarchy = strongly_approve
+		law_city_state = approve
+		law_council = neutral
+		law_alliance = disapprove
+	}
+	lawgroup_distribution_of_power = {
+		law_dynastic = strongly_approve
+		law_feudal = approve 
+		law_meritocratic = neutral
+		law_elective = strongly_disapprove
+	}
+	lawgroup_institutionalization = {
+		law_informal_government = disapprove
+		law_assembly_government = neutral
+		law_bureaucratic_government = strongly_disapprove
+		law_court_government = strongly_approve
+		law_dedicated_government = approve
+	}
+	
+	lawgroup_land_organization = {
+		law_royal_domains = strongly_approve
+		law_imperial_land = neutral
+		law_religious_tithes = approve 
+		law_calpulli_system = strongly_disapprove
+		law_state_control = disapprove 
+	}
+
+}
+
+ideology_lesser_lords = {
+	icon = "gfx/interface/icons/ideology_icons/moralist.dds"
+	
+	lawgroup_land_organization = {
+		law_royal_domains = strongly_disapprove
+		law_imperial_land = neutral
+		law_religious_tithes = disapprove 
+		law_calpulli_system = strongly_approve
+		law_state_control = approve 
+	}
+	
+}
+
+ideology_confederation_builders = {
+	icon = "gfx/interface/icons/ideology_icons/unused/communist.dds"
+	
+	lawgroup_governance_principles = {
+		law_city_state = neutral
+		law_monarchy = strongly_disapprove 
+		law_council = disapprove
+		law_alliance = strongly_approve
+	}
+	lawgroup_distribution_of_power = {
+		law_dynastic = strongly_disapprove
+		law_feudal = neutral 
+		law_meritocratic = approve
+		law_elective = strongly_approve
+	}
+	lawgroup_diplomatic_stance = {
+		law_neutral = neutral 
+		law_appeasing = strongly_approve 
+		law_mercantile = approve 
+		law_bellicose = strongly_disapprove
+	}
+}
+
+ideology_supremacist = {
+	icon = "gfx/interface/icons/ideology_icons/unused/fascist.dds"
+	
+	lawgroup_diplomatic_stance = {
+		law_neutral = disapprove
+		law_appeasing = neutral
+		law_mercantile = approve
+		law_bellicose = strongly_approve
+		}
+	
+	lawgroup_cultural_acceptance = {
+		law_cultural_supremacy = strongly_approve
+		law_cultural_primacy = neutral
+		law_broad_acceptance = disapprove
+		law_encomiendas = approve
+		}	
+		
+	
+	lawgroup_conquest_doctrine = {
+		law_ritual_warfare = approve
+		law_local_hegemon = strongly_approve
+		law_tributary_empire = neutral
+		law_territory_integration = strongly_disapprove
+		}	
+	
+}
+
+ideology_scientific = {
+	icon = "gfx/interface/icons/ideology_icons/unused/atheist.dds"
+	
+
+	lawgroup_innovation = {
+		law_priest_scholars = disapprove
+		law_infrastructure_investment = neutral
+		law_origin_myth = strongly_disapprove 
+		law_scholar_societies = strongly_approve
+	}
+}
+
+ideology_warmonger = {
+	icon = "gfx/interface/icons/ideology_icons/unused/fascist.dds"
+	
+	lawgroup_diplomatic_stance = {
+		law_neutral = neutral
+		law_appeasing = disapprove
+		law_mercantile = neutral
+		law_bellicose = strongly_approve
+		}
+	
+	lawgroup_land_organization = {
+		law_royal_domains = approve
+		law_imperial_land = strongly_approve
+		law_religious_tithes = neutral
+		law_calpulli_system = disapprove
+		law_state_control = strongly_disapprove
+		}
+	
+	lawgroup_conquest_doctrine = {
+		law_ritual_warfare = strongly_disapprove 
+		law_local_hegemon = neutral 
+		law_tributary_empire = strongly_approve
+		law_territory_integration = approve
+	}
+	
+	lawgroup_military_reforms = {
+		law_no_standing_army = strongly_disapprove
+		law_warrior_guilds = neutral 
+		law_military_education = approve 
+		law_honorary_titles = strongly_approve
+	}
+
+
+}
+
+
+ideology_communal = {
+	icon = "gfx/interface/icons/ideology_icons/agrarian.dds"
+	
+	priority = 100
+	
+	lawgroup_land_organization = {
+		law_royal_domains = strongly_disapprove
+		law_religious_tithes = neutral
+		law_imperial_land = disapprove 
+		law_state_control = neutral
+		law_calpulli_system = strongly_approve 
+		}
+	
+	lawgroup_currency = {
+		law_barter_economy = approve
+		law_goods_as_currency = strongly_approve
+		law_corvee_labor = neutral 
+		law_regulated_commerce = disapprove
+		law_standardized_coins = disapprove
+	}
+	
+	lawgroup_distribution_of_power = {
+		law_elective = strongly_approve 
+		law_meritocratic = neutral 
+		law_feudal = disapprove 
+		law_dynastic = disapprove
+	
+	}
+}
+
+
+
+
+
+
+ideology_inclusionary = {
+	icon = "gfx/interface/icons/ideology_icons/liberal.dds"
+	
+	lawgroup_religious_assimilation = {
+		law_forced_conversion = strongly_disapprove
+		law_organized_worship = approve
+		law_communal_worship = strongly_approve
+	}
+	
+	lawgroup_cultural_acceptance = {
+		law_cultural_supremacy = disapprove
+		law_cultural_primacy = approve
+		law_broad_acceptance = strongly_approve 
+		law_encomiendas = strongly_disapprove
+	}	
+}
+
+ideology_mercantile = {
+	icon = "gfx/interface/icons/ideology_icons/laissez_faire.dds"
+	
+	lawgroup_diplomatic_stance = {
+		law_bellicose = disapprove
+		law_neutral = neutral
+		law_appeasing = approve
+		law_mercantile = strongly_approve
+	}
+	#lawgroup_mercantile_reforms = {
+	#	law_basic_markets = disapprove
+	#	law_trader_accomodations = neutral
+	#	law_merchant_guilds = approve
+	#	law_independent_merchants = strongly_approve
+	#}
+	lawgroup_currency = {
+		law_barter_economy = strongly_disapprove
+		law_corvee_labor = strongly_disapprove
+		law_goods_as_currency = neutral
+		law_regulated_commerce = approve
+		law_standardized_coins = strongly_approve
+	}
+}
+
+
+ideology_opportunistic = {
+	icon = "gfx/interface/icons/ideology_icons/unused/pacifist.dds"
+	
+	lawgroup_diplomatic_stance = {
+		law_neutral = strongly_approve
+		law_appeasing = approve
+		law_bellicose = disapprove
+		law_mercantile = approve
+		}
+	
+}
+
+
+
+ideology_statecraft = {
+	icon = "gfx/interface/icons/ideology_icons/meritocratic.dds"
+	
+	lawgroup_institutionalization = {
+		law_informal_government = strongly_disapprove
+		law_assembly_government = disapprove 
+		law_court_government = disapprove
+		law_dedicated_government = approve 
+		law_bureaucratic_government = strongly_approve
+	}
+	
+	lawgroup_land_organization = {
+		law_royal_domains = strongly_disapprove
+		law_calpulli_system = neutral 
+		law_religious_tithes = neutral
+		law_imperial_land = approve
+		law_state_control = strongly_approve
+	}
+	
+	lawgroup_development = {
+		law_decentralized_settlements = strongly_disapprove
+		law_urban_centers = disapprove
+		law_great_projects = approve
+		law_central_development = strongly_approve
+	}
+	
+	lawgroup_innovation = {
+		law_priest_scholars = disapprove
+		law_infrastructure_investment = strongly_approve
+		law_origin_myth = disapprove
+		law_scholar_societies = approve
+	}
+	
+	
+}
+
+ideology_meritocratic = {
+	icon = "gfx/interface/icons/ideology_icons/unused/atheist.dds"
+	
+	
+	lawgroup_distribution_of_power = {
+		law_dynastic = neutral
+		law_feudal = approve
+		law_meritocratic = strongly_approve
+		law_elective = approve
+	}
+	lawgroup_cultural_acceptance = {
+		law_encomiendas = strongly_disapprove
+		law_cultural_supremacy = disapprove 
+		law_cultural_primacy = approve 
+		law_broad_acceptance = approve
+	}
+}
+
+
+ideology_faith_and_culture = {
+	icon = "gfx/interface/icons/ideology_icons/pious.dds"
+	
+	lawgroup_religious_assimilation = {
+		law_forced_conversion = approve 
+		law_organized_worship = approve
+		law_communal_worship = disapprove
+	}
+	
+	lawgroup_cultural_acceptance = {
+		law_cultural_supremacy = strongly_approve
+		law_cultural_primacy = neutral
+		law_broad_acceptance = disapprove
+		law_encomiendas = strongly_disapprove
+	}	
+	
+	
+	lawgroup_land_organization = {
+		law_royal_domains = neutral
+		law_imperial_land = neutral
+		law_religious_tithes = strongly_approve
+		law_calpulli_system = strongly_disapprove
+		law_state_control = disapprove
+		}
+		
+	lawgroup_conquest_doctrine = {
+		law_ritual_warfare = strongly_approve
+		law_local_hegemon = approve
+		law_tributary_empire = disapprove
+		law_territory_integration = strongly_disapprove
+		}
+	
+	lawgroup_innovation = {
+		law_priest_scholars = strongly_approve
+		law_infrastructure_investment = neutral
+		law_origin_myth = approve
+		law_scholar_societies = disapprove
+	}
+	
+}
+
+#Time period
+
+ideology_classic_precedent = {
+	icon = "gfx/interface/icons/ideology_icons/unused/traditionalist.dds"
+	
+	lawgroup_institutionalization = {
+		law_informal_government = strongly_disapprove
+		law_assembly_government = disapprove
+		law_court_government = strongly_approve
+		law_dedicated_government = disapprove
+		law_bureaucratic_government = strongly_disapprove
+	}
+	
+	lawgroup_currency = {
+		law_barter_economy = strongly_disapprove
+		law_corvee_labor = neutral 
+		law_goods_as_currency = approve
+		law_regulated_commerce = disapprove
+		law_standardized_coins = strongly_disapprove
+	}
+	
+	lawgroup_development = {
+		law_decentralized_settlements = disapprove
+		law_urban_centers = approve
+		law_great_projects = neutral 
+		law_central_development = disapprove
+	}
+	
+}
+
+ideology_postclassic_precedent = {
+	icon = "gfx/interface/icons/ideology_icons/unused/traditionalist.dds"
+	
+	lawgroup_institutionalization = {
+		law_informal_government = strongly_disapprove
+		law_assembly_government = disapprove
+		law_court_government = neutral
+		law_dedicated_government = approve
+		law_bureaucratic_government = neutral
+	}
+	
+	lawgroup_currency = {
+		law_barter_economy = strongly_disapprove
+		law_corvee_labor = approve 
+		law_goods_as_currency = approve
+		law_regulated_commerce = strongly_approve
+		law_standardized_coins = neutral
+	}
+	
+	lawgroup_development = {
+		law_decentralized_settlements = disapprove
+		law_urban_centers = approve
+		law_great_projects = strongly_approve 
+		law_central_development = neutral
+	}
+	
+}
+
+
+#UNIQUES
+ideology_mesoamerican_traditions = {
+	icon = "gfx/interface/icons/ideology_icons/moralist.dds"
+	
+	lawgroup_human_sacrifice = {
+	law_human_sacrifice = strongly_approve
+	law_human_sacrifice_banned = strongly_disapprove
+	}
+	
+	lawgroup_cultural_acceptance = {
+	law_cultural_primacy = strongly_approve
+	law_cultural_supremacy = approve
+	law_broad_acceptance = disapprove
+	law_encomiendas = strongly_disapprove
+	}
+	
+	lawgroup_military_reforms = {
+	law_no_standing_army = strongly_approve
+	law_warrior_guilds = approve
+	law_military_education = disapprove 
+	law_honorary_titles = disapprove
+	}
+	
+	lawgroup_distribution_of_power = {
+	law_dynastic = approve 
+	law_feudal = neutral
+	law_elective = neutral
+	law_meritocratic = disapprove 
+	}
+}
+
+ideology_toltec_precedent = {
+	icon = "gfx/interface/icons/ideology_icons/unused/traditionalist.dds"
+	
+	
+}

@@ -1,0 +1,307 @@
+
+#Clothing
+
+pm_base_clothing_rudimentary = {
+	texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_cotton_add = 2
+			goods_input_tools_add = 1
+			
+			goods_output_clothes_add = 5
+		}
+		
+		level_scaled = {
+			building_employment_artisans_add = 100
+		}
+		
+		unscaled = {
+		}
+	}
+}
+
+pm_base_clothing_advanced = {
+	texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_cotton_add = 3
+			goods_input_animal_skin_add = 1
+			goods_input_tools_add = 1
+			
+			goods_output_clothes_add = 5
+			goods_output_luxury_clothes_add = 2
+		}
+		
+		level_scaled = {
+			building_employment_artisans_add = 100
+		}
+		
+		unscaled = {
+		}
+	}
+}
+
+pm_base_clothing_luxury = {
+	texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_cotton_add = 4
+			goods_input_animal_skin_add = 2
+			goods_input_feathers_add = 1
+			goods_input_tools_add = 1
+			
+			goods_output_clothes_add = 5
+			goods_output_luxury_clothes_add = 4
+		}
+		
+		level_scaled = {
+			building_employment_artisans_add = 100
+		}
+		
+		unscaled = {
+		}
+	}
+}
+
+#Furniture
+
+pm_base_furniture_rudimentary = {
+	texture = "gfx/interface/icons/production_method_icons/furniture_handicraft.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_hardwood_add = 2
+			goods_input_tools_add = 1
+			
+			goods_output_furniture_add = 10
+		}
+		
+		level_scaled = {
+			building_employment_artisans_add = 100
+		}
+		
+		unscaled = {
+		}
+	}
+}
+
+#Tooling
+
+pm_base_tooling_wood = {
+	texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_wood_add = 5
+			
+			goods_output_weapons_add = 3 
+			goods_output_tools_add = 3
+		}
+		
+		level_scaled = {
+			building_employment_artisans_add = 100
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_base_tooling_obsidian = {
+	texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
+	disallowing_laws = {
+	}
+	
+	unlocking_technologies = {
+	obsidian_working
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_wood_add = 3
+			goods_input_obsidian_add = 2
+			
+			goods_output_weapons_add = 6 
+			goods_output_tools_add = 6
+		}
+		
+		level_scaled = {
+			building_employment_artisans_add = 100
+		}
+		
+		unscaled = {
+		}
+	}
+}
+
+#Pottery
+
+pm_base_pottery_basic = {
+	texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 1			
+
+			
+			goods_output_pottery_add = 3
+		}
+		
+		level_scaled = {
+			building_employment_artisans_add = 100
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_base_pottery_painted = {
+	texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 1	
+			goods_input_dye_add = 2
+
+			
+			goods_output_pottery_add = 6
+		}
+		
+		level_scaled = {
+			building_employment_artisans_add = 100
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_base_pottery_decorated = {
+	texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 2	
+			goods_input_dye_add = 2
+			goods_input_rare_gems_add = 1
+
+			
+			goods_output_pottery_add = 12
+		}
+		
+		level_scaled = {
+			building_employment_artisans_add = 100
+		}
+		
+		unscaled = {
+		}
+	}
+}
+
+
+#jewelry
+pm_base_wooden_jewelry = {
+	texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 1	
+			goods_input_wood_add = 1
+
+			
+			goods_output_jewelry_add = 2
+		}
+		
+		level_scaled = {
+			building_employment_artisans_add = 100
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_base_obsidian_jewelry = {
+	texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 1	
+			goods_input_obsidian_add = 1
+
+			
+			goods_output_jewelry_add = 4
+		}
+		
+		level_scaled = {
+			building_employment_artisans_add = 100
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_base_turquoise_jewelry = {
+	texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 1	
+			goods_input_turquoise_add = 1
+
+			
+			goods_output_jewelry_add = 6
+		}
+		
+		level_scaled = {
+			building_employment_artisans_add = 100
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_base_golden_jewelry = {
+	texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 1	
+			goods_input_rare_gems_add = 1
+
+			
+			goods_output_jewelry_add = 8
+		}
+		
+		level_scaled = {
+			building_employment_artisans_add = 100
+		}
+		
+		unscaled = {
+		}
+	}
+}

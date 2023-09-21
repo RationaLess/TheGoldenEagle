@@ -1,0 +1,26 @@
+﻿country_empire_sprawl_capacity_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+country_empire_sprawl_capacity_mult = {
+	good = yes
+	percent = yes
+	num_decimals = 0
+}
+country_empire_sprawl_load_mult = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+
+country_empire_sprawl_load_subject_penalty = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+country_minor_settlements_per_thousand = {
+	neutral = yes
+	num_decimals = 2
+}
