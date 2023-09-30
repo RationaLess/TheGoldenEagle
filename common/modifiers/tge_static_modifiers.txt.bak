@@ -69,12 +69,6 @@ base_values = {
 	
 }
 
-prestige_ranking = {
-	country_company_throughput_bonus_add = 0.05
-	country_company_construction_efficiency_bonus_add = 0.05
-}
-
-
 capital_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	state_pop_pol_str_mult = 0.5

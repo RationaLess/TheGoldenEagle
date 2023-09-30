@@ -3,18 +3,24 @@
 	#Aztec Triple Alliance
 
 	s:STATE_TENOCHTITLAN = {
+		add_homeland = mexica
+		
 		create_state = {
 			country = c:ATA
 			owned_provinces = { "x874607" }
 		}
 	}
 	s:STATE_TEXCOCO = {
+		add_homeland = acolhua
+	
 		create_state = {
 			country = c:ATA
 			owned_provinces = { "x4C9612" "x86C325" "xA4ED1F" "xDF5609" "xECD00B" "xEEC231" "xF2AE14" }
 		}
 	}
 	s:STATE_TLACOPAN = {
+		add_homeland = tepanec
+	
 		create_state = {
 			country = c:ATA
 			owned_provinces = { "x8C8415" }
@@ -23,6 +29,7 @@
 	
 	#Tlaxcala
 	s:STATE_TEPETICPAC = {
+	
 		create_state = {
 			country = c:TLX
 			owned_provinces = { "x39B41F" "x66C50D" "xB36501" "xCCE428" "xEDC123" }

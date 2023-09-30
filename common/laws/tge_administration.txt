@@ -34,7 +34,7 @@ law_religious_administration = {
 	
 	
 	unlocking_technologies = {
-	#	organized_religion
+		#
 	}
 	
 	

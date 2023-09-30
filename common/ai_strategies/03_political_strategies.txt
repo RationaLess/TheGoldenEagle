@@ -1,7 +1,7 @@
-﻿ai_default_admin = {
+﻿ai_default_polit = {
 	icon = "gfx/interface/icons/ai_strategy_icons/agricultural_expansion.dds"
 	
-	type = administrative
+	type = political
 
 
 	possible = {

@@ -1,25 +1,4 @@
-﻿pm_logging = {
-	texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
-	disallowing_laws = {
-	}
-	
-	building_modifiers = {
-		workforce_scaled = { # 51
-			goods_input_tools_add = 2
-			
-			
-			goods_output_wood_add = 4
-			goods_output_hardwood_add = 2
-		}
-		
-		level_scaled = {
-			building_employment_freemen_add = 900
-		}
-		
-		unscaled = {
-		}
-	}
-}
+﻿
 
 pm_obsidian_mining = {
 	texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"

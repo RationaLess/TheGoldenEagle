@@ -73,7 +73,6 @@ pm_market = {
 		}
 	building_modifiers = {
 		workforce_scaled = { 
-			goods_input_transportation_add = 1
 		}
 		
 		level_scaled = {

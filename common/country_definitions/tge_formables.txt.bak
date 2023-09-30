@@ -96,28 +96,3 @@ capital = STATE_TEPELCATEPEC
 
 
 
-#Cultural Formables
-MIXT = { #Mixtecapan
-
-color = rgb { 61 177 255 }
-
-tier = empire
-
-country_type = recognized
-
-cultures = { mixtec }
-
-capital = STATE_TUTUTEPEC
-}
-ZAPO = { #Zapotecapan
-
-color = rgb { 47 133 16 }
-
-tier = empire
-
-country_type = recognized
-
-cultures = { zapotec }
-
-capital = STATE_ZAACHILA
-}

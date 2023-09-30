@@ -13,9 +13,9 @@ law_decentralized_settlements = {
 	}
 		
 	on_activate = {		
-		#custom_tooltip = {
-		#	text = enact_law_radical_leftist_economy_warning_desc
-		#}	
+		custom_tooltip = {
+			text = enact_law_radical_leftist_economy_warning_desc
+		}	
 	}
 	
 	modifier = {
