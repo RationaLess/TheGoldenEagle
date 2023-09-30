@@ -61,8 +61,7 @@ ai_strategy_default = {
 	# Added to base boldness in diplomatic plays	
 	# Using this value in other strategies will function additively
 	diplomatic_play_boldness = {
-		value = 50	
-
+		value = 50
 		
 	} 
 		
@@ -291,7 +290,7 @@ ai_strategy_default = {
 	# Using this value in other strategies will function additively
 	# root and scope:overlord is the AI doing the evaluation, scope:subject is prospective subject
 	subject_value = {
-		value = 50 #0
+		value = 0
 
 		add = {
 			if = {
@@ -553,13 +552,13 @@ ai_strategy_default = {
 			limit = {
 				has_journal_entry = je_imperial_fervor
 			}
-			add = 25
+			add = 100
 		}
 		if = {
 			limit = {
 				has_law = law_type:law_bellicose
 			}
-			add = 50
+			add = 100
 		}
 		
 	}
