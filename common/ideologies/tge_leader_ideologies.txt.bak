@@ -374,7 +374,7 @@ ideology_leader_imperialist = {
 			}
 			add = 50
 		}
-		#Boosted by Imperial Fervor
+		#Only IGs which are happy will go imperialist
 		if = {
 			limit = {
 				has_journal_entry = je_imperial_fervor

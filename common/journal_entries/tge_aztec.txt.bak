@@ -89,10 +89,7 @@ je_matters_of_texcoco = {
 	}
 	
 	on_complete = {
-		add_modifier = {
-			name = safeguarded_independence
-			months = 600
-		}
+	
 	}
 	
 	

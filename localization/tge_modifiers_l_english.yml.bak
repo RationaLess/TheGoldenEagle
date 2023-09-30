@@ -48,7 +48,7 @@
   imperial_potential:0 "Imperial Potential"
   imperial_potential_desc:0 ""
   
-  safeguarded_independence:0 "Safeguarded Independence"
+  modifier_safeguarded_independence:0 "Safeguarded Independence"
   safeguarded_independence_desc:0 ""
   
   

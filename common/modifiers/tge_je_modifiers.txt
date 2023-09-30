@@ -56,3 +56,11 @@ confederate_sentiment = {
 	interest_group_ig_aristocracy_approval_add = -3
 	interest_group_ig_ancillaries_pop_attraction_mult = 1
 }
+
+
+safeguarded_independence = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	
+	country_prestige_add = 25
+	interest_group_approval_add = 2
+}

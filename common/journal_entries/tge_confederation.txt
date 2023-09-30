@@ -10,6 +10,14 @@ is_shown_when_inactive = {
 	
 	}
 
+status_desc = {
+		first_valid = {
+			triggered_desc = { 
+				desc = je_forging_alliances_status
+			}
+		}
+	}
+
 possible = { 
 		is_subject = no
 		has_technology_researched = confederation

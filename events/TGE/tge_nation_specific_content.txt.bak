@@ -15,18 +15,33 @@ tepaneca_war.1 = {
 	
 		c:CUA = {
 			make_independent = yes
+			trigger_event = {
+				id = tepaneca_war.2W
+				}
 			}
 		c:CUL = {
 			make_independent = yes
+			trigger_event = {
+				id = tepaneca_war.2
+				}
 			}	
 		c:TZO = {
 			make_independent = yes
+			trigger_event = {
+				id = tepaneca_war.2
+				}
 			}	
 		c:XAL = {
 			make_independent = yes
+			trigger_event = {
+				id = tepaneca_war.2
+				}
 			}
 		c:XOC = {
 			make_independent = yes
+			trigger_event = {
+				id = tepaneca_war.2
+				}
 			}
 	
     }
@@ -46,7 +61,7 @@ tepaneca_war.1 = {
 		name = tepaneca_war.1.1
 		default_option = yes
 		
-		
+		add_journal_entry = { type = je_struggle_for_texcoco }
 			
 		
 		add_loyalists = {

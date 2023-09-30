@@ -41,7 +41,7 @@
 				}
 			create_building={
 				building="building_barracks"
-				level=20
+				level=5
 				}
 			}
 		}

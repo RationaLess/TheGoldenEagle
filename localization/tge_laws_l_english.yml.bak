@@ -124,10 +124,6 @@
  lawgroup_military_reforms:0 "Military Reforms"
  lawgroup_military_reforms_desc:0 "This law group determines the organization of the military."
  
- 
- law_honorary_titles:0 "Honorary Titles"
- law_honorary_titles_desc:0 "The best performing warriors will receive various honorary titles and accolades, and will be able to enter prestigious warrior societies. Combat is no longer simply about the utility to the state - it's about the prestige of battle."
- 
  #Economic Group
  
  lawgroup_currency:0 "Currency"

@@ -35,7 +35,7 @@
  urbanization_efforts.3.a:"Our cultural dominance is nigh."
 
  forging_alliances.1.t:"Forging Alliances"
- forging_alliances.1.d:"There is a growing sentiment in [ROOT.GetCountry.GetName] to establish a close alliance with neighboring states."
+ forging_alliances.1.d:"There is a growing sentiment in (Country) to establish a close alliance with neighboring states."
  forging_alliances.1.f:"Warmongers all around us are subjugating cities en masse, wishing they could become the next great empire. We may not be able to do much about them alone, but thankfully we aren't the only ones facing this predicament."
  forging_alliances.1.a:"Perhaps its time for a different strategy."
  confederations_unlocked:"For as long as this [Concept('concept_journal_entry','$concept_journal_entry$')] is active, you may ask neighboring states to confederate."

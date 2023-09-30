@@ -30,7 +30,7 @@
  #Confederation
  je_forging_alliances:"Forging Alliances"
  je_forging_alliances_reason:"We should create a tight-knit alliance with our neighbours by confederating with them."
- je_forging_alliances_status:"We may ask neighboring countries to #b Confederate#! with us."
+ je_forging_alliances_status:"We may ask neighboring countries to "#b Confederate#! with us."
 
  
  #Other
