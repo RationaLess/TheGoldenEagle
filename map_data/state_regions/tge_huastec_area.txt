@@ -37,17 +37,17 @@ STATE_CUITEZO = {
 }
 STATE_TZINTZUNTZAN = {
     id = 97
-	subsistence_building = "building_gathering_grounds_feathers"
+    subsistence_building = "building_gathering_grounds_feathers"
     provinces = { "x4A611E" "x5CFE0B" "x6EDD1A" "x759121" "x9C8E0E" "xA1B82E" "xC5E612" "xD08B20" "xD4960A" "xF88307" }
 }
 STATE_IXTAPA = {
     id = 99
-	subsistence_building = "building_gathering_grounds_animal_skin"
+    subsistence_building = "building_gathering_grounds_animal_skin"
     provinces = { "x34C603" "x393432" "x3EC528" "x424927" "x4BF30B" "x4E6E1F" "x51A719" "x55B02B" "x5BE328" "x6DCB04" "x747128" "x80E51E" "x9C702F" "x9D8A29" "xB45923" "xD4CC12" "xEFB02F" "xF76623" "xFFF531" }
 }
 STATE_COAHUAYUTLA = {
     id = 100
-	subsistence_building = "building_gathering_grounds_animal_skin"
+    subsistence_building = "building_gathering_grounds_animal_skin"
     provinces = { "x35DA05" "x3DDE30" "x4FD910" "x52F719" "x565D31" "x5B671C" "x5CA423" "x68C528" "x6F500F" "x73AC16" "x758608" "x8D5A0E" "x936B19" "x9CB91D" "x9DC025" "xA09407" "xA9642E" "xAF9F07" "xBE4832" "xC3ED2A" "xCCBF0B" "xD14611" "xDC9615" "xE83F1D" "xE8410D" "xF0661F" "xF2A831" }
 }
 STATE_TEPELCATEPEC = {
@@ -56,7 +56,7 @@ STATE_TEPELCATEPEC = {
 }
 STATE_TECOMAN = {
     id = 102
-	subsistence_building = "building_gathering_grounds_animal_skin"
+    subsistence_building = "building_gathering_grounds_animal_skin"
     provinces = { "x0C71AE" "x33C911" "x648217" "x72B104" "x785A1D" "x7D3A29" "x8DD312" "x909B1F" "x9F330B" "xA04C06" "xB29218" "xB5E503" "xC09E0F" "xD13D09" "xD44F1D" "xE1880E" "xFA9B2B" }
 }
 STATE_TANCITARO = {

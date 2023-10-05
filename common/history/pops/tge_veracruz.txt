@@ -4,6 +4,30 @@
 
 
 	s:STATE_YOHUALICHAN = {
+	}
+
+
+	s:STATE_HUAYACOCOTLA = {
+		region_state:TEA = {
+			create_pop = {
+				culture = totonac
+				size = 15000
+				}
+			create_pop = {
+				culture = huastec				
+				size = 11000
+				}
+		}
+		region_state:TJN = {
+			create_pop = {
+				culture = totonac
+				size = 36000
+				}
+			create_pop = {
+				culture = tepehua				
+				size = 1000
+				}
+		}
 		region_state:YHL = {
 			create_pop = {
 				culture = totonac
@@ -15,41 +39,13 @@
 				}
 		}
 	}
-
-
-	s:STATE_TEAYO = {
-		region_state:TEA = {
-			create_pop = {
-				culture = totonac
-				size = 15000
-				}
-			create_pop = {
-				culture = huastec				
-				size = 11000
-				}
-		}
-	}
-	s:STATE_TAJIN = {
-		region_state:TJN = {
-			create_pop = {
-				culture = totonac
-				size = 36000
-				}
-			create_pop = {
-				culture = tepehua				
-				size = 1000
-				}
-		}
-	}
-	s:STATE_CEMPOALA = {
+	s:STATE_TOTONACAPAN = {
 		region_state:CPL = {
 			create_pop = {
 				culture = totonac
 				size = 100000
 				}
 		}
-	}
-	s:STATE_XALAPA = {
 		region_state:XLP = {
 			create_pop = {
 				culture = totonac
@@ -60,8 +56,6 @@
 				size = 1000
 				}
 		}
-	}
-	s:STATE_COATEPEC = {
 		region_state:COT = {
 			create_pop = {
 				culture = totonac
@@ -72,8 +66,6 @@
 				size = 3000
 				}
 		}
-	}
-	s:STATE_HUATUSCO = {
 		region_state:HUT = {
 			create_pop = {
 				culture = totonac
@@ -101,8 +93,6 @@
 				size = 9000
 				}
 		}
-	}
-	s:STATE_AYOTZINTEPEC = {
 		region_state:AYO = {
 			create_pop = {
 				culture = popoloca
@@ -111,22 +101,6 @@
 			create_pop = {
 				culture = chinantec
 				size = 6000
-				}
-		}
-	}
-	s:STATE_ICHCATLAN = {
-		region_state:ICH = {
-			create_pop = {
-				culture = popoloca
-				size = 12000
-				}
-			create_pop = {
-				culture = totonac
-				size = 2500
-				}
-			create_pop = {
-				culture = mazatec
-				size = 2500
 				}
 		}
 	}
@@ -166,7 +140,21 @@
 	}
 	
 	#Mazatec
-	s:STATE_TOCHTEPEC = {
+	s:STATE_PAPALOAPAN = {
+		region_state:THP = {
+			create_pop = {
+				culture = mazatec
+				size = 18000
+				}
+			create_pop = {
+				culture = popoloca
+				size = 2000
+				}
+			create_pop = {
+				culture = nonoalca
+				size = 1000
+				}
+		}
 		region_state:TTP = {
 			create_pop = {
 				culture = mazatec
@@ -183,22 +171,6 @@
 			create_pop = {
 				culture = zapotec
 				size = 500
-				}
-		}
-	}
-	s:STATE_TEHUIPANCO = {
-		region_state:THP = {
-			create_pop = {
-				culture = mazatec
-				size = 18000
-				}
-			create_pop = {
-				culture = popoloca
-				size = 2000
-				}
-			create_pop = {
-				culture = nonoalca
-				size = 1000
 				}
 		}
 	}

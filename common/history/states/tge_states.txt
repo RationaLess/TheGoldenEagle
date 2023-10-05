@@ -10,20 +10,28 @@
 			owned_provinces = { "x874607" }
 		}
 	}
-	s:STATE_TEXCOCO = {
+	s:STATE_EAST_TEXCOCO = {
 		add_homeland = acolhua
 	
 		create_state = {
 			country = c:ATA
 			owned_provinces = { "x4C9612" "x86C325" "xA4ED1F" "xDF5609" "xECD00B" "xEEC231" "xF2AE14" }
 		}
+		create_state = {
+			country = c:CUL
+			owned_provinces = { "x53980B" "x86EF26" "xC36421" "xF93B22" }
+		}
 	}
-	s:STATE_TLACOPAN = {
+	s:STATE_WEST_TEXCOCO = {
 		add_homeland = tepanec
 	
 		create_state = {
 			country = c:ATA
 			owned_provinces = { "x8C8415" }
+		}
+		create_state = {
+			country = c:AZC
+			owned_provinces = { "x884100" "x94EC2A" "xAE4C07" "xB27C22" "xB79A14" "xF0392E" "xF5FF2D" }
 		}
 	}
 	
@@ -56,15 +64,19 @@
 	
 	#Azcapotzalco & Subjects
 	s:STATE_AZCAPOTZALCO = {
-		create_state = {
-			country = c:AZC
-			owned_provinces = { "x884100" "x94EC2A" "xAE4C07" "xB27C22" "xB79A14" "xF0392E" "xF5FF2D" }
-		}
 	}
-	s:STATE_CUAUTITLAN = {
+	s:STATE_NORTH_TEXCOCO = {
 		create_state = {
 			country = c:CUA
 			owned_provinces = { "x7CF603" "xCCE416" "xDB7C13" "xF1C320" }
+		}
+		create_state = {
+			country = c:XAL
+			owned_provinces = { "x82571C" "x91520A" "x91601D" "xBB5B20" "xF3BD0E" }
+		}
+		create_state = {
+			country = c:TZO
+			owned_provinces = {"x32F006" "x58E11A" "xC5DF0E" }
 		}
 	}
 	s:STATE_XOCHIMILCO = {
@@ -73,28 +85,10 @@
 			owned_provinces = { "x50CF18" "x55D609" "x57F111" "x5C850A" "x715907" "x783721" "xB8AD05" "xD58020" "xE06C00" }
 		}
 	}
-	s:STATE_TZOMPANCO = {
-		create_state = {
-			country = c:TZO
-			owned_provinces = {"x32F006" "x58E11A" "xC5DF0E" }
-		}
-	}
-	s:STATE_XALTOCAN = {
-		create_state = {
-			country = c:XAL
-			owned_provinces = { "x82571C" "x91520A" "x91601D" "xBB5B20" "xF3BD0E" }
-		}
-	}
 	s:STATE_TEOTIHUACAN = {
 		create_state = {
 			country = c:XAL
 			owned_provinces = { "x3DEA10" "x52BC2D" "x798032" "xFEB62C" }
-		}
-	}
-	s:STATE_CULHUACAN  = {
-		create_state = {
-			country = c:CUL
-			owned_provinces = { "x53980B" "x86EF26" "xC36421" "xF93B22" }
 		}
 	}
 	s:STATE_CHALCO  = {
@@ -123,14 +117,10 @@
 			country = c:TLC
 			owned_provinces = { "x33BA19" "x493C26" "x5D9725" "xC74015" "xD05F1C" }
 		}
-	}
-	s:STATE_TALXCO = {
 		create_state = {
 			country = c:TLA
 			owned_provinces = { "x42920A" "x735B13" "x8C6D12" "x934120" "xBAC631" "xCE4822" "xD0C314" }
 		}
-	}
-	s:STATE_HUAUCHINANGO = {
 		create_state = {
 			country = c:HCH
 			owned_provinces = { "x473C2C" "x488010" "x57F302" "x92C40D" "xA45A1A" "xD64928" }
@@ -138,46 +128,37 @@
 	}
 	
 	#TOTONAC
-	s:STATE_YOHUALICHAN = {
-		create_state = {
-			country = c:YHL
-			owned_provinces = { "x7CD800" "x888120" "x9D8C02" "xB95D04" "xBEB40F" "xCCDD31" "xEE9A13" }
-		}
-	}
-	s:STATE_XALAPA = {
+	s:STATE_TOTONACAPAN = {
 		create_state = {
 			country = c:XLP
 			owned_provinces = { "x72B820" "x8F5929" "x99921C" "x9DEC27" "xF64406" "xFEAB28" }
 		}
-	}
-	s:STATE_CEMPOALA = {
+		create_state = {
+			country = c:COT
+			owned_provinces = { "x61B12D" "x644E21" "x8C9427" "xB9510A" "xB9DA1B" "xCEA12D" "xD9781A" }
+		}
+		create_state = {
+			country = c:HUT
+			owned_provinces = { "x45F623" "x49B228" "x53BA19" "x556B2D" "x566401" "x80F917" "x8DD724" "x93E22B" "xA96B31" "xB3C910" "xBA4E23" "xC9C31E" "xDC8B13" "xE0EF13" "xEECD0B" "xF03E21" "xFB521F" }
+		}
 		create_state = {
 			country = c:CPL
 			owned_provinces = { "x523A20" "x7EDF1A" "x81970C" "x82DE15" "x8A9B04" "x96851F" "x9A4401" "x9EC81A" "xB86514" "xD27D08" "xD48F13" "xDBCB10" "xDDD518" }
 		}
 	}
-	s:STATE_TAJIN = {
+	
+	s:STATE_HUAYACOCOTLA = {
+		create_state = {
+			country = c:YHL
+			owned_provinces = { "x7CD800" "x888120" "x9D8C02" "xB95D04" "xBEB40F" "xCCDD31" "xEE9A13" }
+		}
 		create_state = {
 			country = c:TJN
 			owned_provinces = { "x51D21F" "x64902F" "x66982D" "x674F2E" "x685008" "x6AA306" "xA3EA20" "xC3752F" "xCEBB15" "xEFB930" "xF19424" }
 		}
-	}
-	s:STATE_TEAYO = {
 		create_state = {
 			country = c:TEA
 			owned_provinces = { "x6B5725" "x6C7216" "x749326" "x825813" "xC6E72A" "xF6E213" }
-		}
-	}
-	s:STATE_COATEPEC = {
-		create_state = {
-			country = c:COT
-			owned_provinces = { "x61B12D" "x644E21" "x8C9427" "xB9510A" "xB9DA1B" "xCEA12D" "xD9781A" }
-		}
-	}
-	s:STATE_HUATUSCO = {
-		create_state = {
-			country = c:HUT
-			owned_provinces = { "x45F623" "x49B228" "x53BA19" "x556B2D" "x566401" "x80F917" "x8DD724" "x93E22B" "xA96B31" "xB3C910" "xBA4E23" "xC9C31E" "xDC8B13" "xE0EF13" "xEECD0B" "xF03E21" "xFB521F" }
 		}
 	}
 	
@@ -188,29 +169,23 @@
 			country = c:PUC
 			owned_provinces = { "x37E929" "x415425" "x415427" "x53EA2B" "x64D210" "x6B7020" "x6C352E" "x91E82A" "x92C41C" "x9B4127" "xB2B41C" "xBB8614" "xC4B020" "xC7AD29" "xD7D029" "xDAF802" "xE1F70A" "xF3401C" "xF4A127" "xF67028" }
 		}
-	}
-	s:STATE_ICHCATLAN = {
-		create_state = {
-			country = c:ICH
-			owned_provinces = { "x3EA022" "x3F482B" "x483900" "x4D4A2D" "x56D51C" "x86CD07" "x87721A" "x8EEE26" "xA7EA24" "xAB4532" "xD2B61D" "xEA321E" "xEAAB26" "xFCB30D" }
-		}
-	}
-	s:STATE_AYOTZINTEPEC = {
 		create_state = {
 			country = c:AYO
 			owned_provinces = { "x52E014" "x6FC420" "x73E931" "x74A104" "x86351C" "x8E6A04" "x9A4B20" "xA19000" "xB17720" "xC05608" "xD4DF28" "xF07D19" "xFB690B" "xFF5815" }
 		}
 	}
-	s:STATE_TETENANCO = {
-		create_state = {
-			country = c:TTN
-			owned_provinces = { "x37D62E" "x3CD80B" "x44A818" "x4E6A0A" "x68A725" "x77AF26" "x91C017" "xB6752C" "xDFCC2F" "xE3630C" "xF13C28" "xFBC225" }
-		}
-	}
-	s:STATE_TECALCO = {
+	s:STATE_TEPEACA = {
 		create_state = {
 			country = c:TCL
 			owned_provinces = { "x39571B" "x3FE810" "x46FB29" "x577B23" "x593806" "x6A5D27" "x89B01D" "xBF4424" "xCDDD2E" }
+		}
+		create_state = {
+			country = c:ICH
+			owned_provinces = { "x3EA022" "x3F482B" "x483900" "x4D4A2D" "x56D51C" "x86CD07" "x87721A" "x8EEE26" "xA7EA24" "xAB4532" "xD2B61D" "xEA321E" "xEAAB26" "xFCB30D" }
+		}
+		create_state = {
+			country = c:TTN
+			owned_provinces = { "x37D62E" "x3CD80B" "x44A818" "x4E6A0A" "x68A725" "x77AF26" "x91C017" "xB6752C" "xDFCC2F" "xE3630C" "xF13C28" "xFBC225" }
 		}
 	}
 	#s:STATE_NDACHIJAN = {
@@ -221,13 +196,11 @@
 	#}
 	
 	###MAZATEC
-	s:STATE_TOCHTEPEC = {
+	s:STATE_PAPALOAPAN = {
 		create_state = {
 			country = c:TTP
 			owned_provinces = { "x48AD13" "x4BFC1B" "x764C15" "x83AE14" "x89D91F" "x8AE52F" "x8DEF1B" "xA5E917" "xA88715" "xD89D0B" "xED7013" }
 		}
-	}
-	s:STATE_TEHUIPANCO = {
 		create_state = {
 			country = c:THP
 			owned_provinces = { "x3A531B" "x58EA12" "x626D19" "x73DE1E" "x74581D" "x898020" "x955126" "xCC5A2F" "xCC8228" "xE0E805" "xE96724" "xF1AC2A" "xFE5018" }
@@ -429,19 +402,15 @@
 			owned_provinces = { "x37941F" "x38E31D" "x424B02" "x546403" "x61CC2B" "x71472F" "x818515" "x84682A" "x88660B" "x95AF32" "x95D025" "x9E8518" "xA64E1B" "xA66110" "xD06A2B" "xD1C012" "xD2EF31" "xD44E1C" "xF37A02" "xF64815" "xFCA604" }
 		}
 	}
-	s:STATE_TOLUCA = {
+	s:STATE_TOLUCA_VALLEY = {
 		create_state = {
 			country = c:TOLU
 			owned_provinces = { "x61B328" "x704617" "x8CB41C" "x8EE90B" "x92361D" "xB1D217" "xB4AF28" "xB7D20A" "xC0B310" "xD25216" "xEC350F" "xEFA312" }
 		}
-	}
-	s:STATE_TAXIMAROA = {
 		create_state = {
 			country = c:TAXI
 			owned_provinces = { "x5F551D" "x709E18" "x747122" "x804E1A" "x824916" "x86602F" "x973312" "xA8AB07" "xB7C10D" "xC2A220" "xDB9827" "xF4F228" }
 		}
-	}
-	s:STATE_CAIXTLAHUACA = {
 		create_state = {
 			country = c:CAIX
 			owned_provinces = { "x52ED0D" "x6B3508" "x916B07" "x93362D" "xA6962A" "xAB9110" "xC4A501" "xD49028" "xDF9215" "xEE3511" }

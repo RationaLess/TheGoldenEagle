@@ -54,7 +54,7 @@ POPS = {
 	}
 	
 	#Matlatzinca Minors
-	s:STATE_TOLUCA = {
+	s:STATE_TOLUCA_VALLEY = {
 		region_state:TOLU = {
 			create_pop = {
 				culture = matlatzinca
@@ -65,8 +65,6 @@ POPS = {
 				size = 5000
 				}
 		}
-	}
-	s:STATE_CAIXTLAHUACA = {
 		region_state:CAIX = {
 			create_pop = {
 				culture = matlatzinca
@@ -77,8 +75,6 @@ POPS = {
 				size = 5000
 				}
 		}
-	}
-	s:STATE_TAXIMAROA = {
 		region_state:TAXI = {
 			create_pop = {
 				culture = matlatzinca

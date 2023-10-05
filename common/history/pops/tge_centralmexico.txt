@@ -15,7 +15,7 @@
 				}
 		}
 	}
-	s:STATE_TEXCOCO = {
+	s:STATE_WEST_TEXCOCO = {
 		region_state:ATA = {
 			create_pop = {
 				culture = acolhua
@@ -26,22 +26,24 @@
 				size = 7500
 				}
 		}
-	}
-	s:STATE_TLACOPAN = {
-		region_state:ATA = {
+		region_state:CUL = {
 			create_pop = {
 				culture = tepanec
-				size = 25000
+				size = 8500
 				}
 			create_pop = {
-				culture = mexica
-				size = 2500
+				culture = nahua
+				size = 10000
+				}
+			create_pop = {
+				culture = otomi
+				size = 1000
 				}
 		}
 	}
 	
 	###Azcapotzalco n Vassals
-	s:STATE_AZCAPOTZALCO = {
+	s:STATE_WEST_TEXCOCO = {
 		region_state:AZC = {
 			create_pop = {
 				culture = tepanec
@@ -54,6 +56,16 @@
 			create_pop = {
 				culture = mexica
 				size = 1000
+				}
+		}
+		region_state:ATA = {
+			create_pop = {
+				culture = tepanec
+				size = 25000
+				}
+			create_pop = {
+				culture = mexica
+				size = 2500
 				}
 		}
 	}
@@ -74,7 +86,7 @@
 				}
 		}
 	}
-	s:STATE_XALTOCAN = {
+	s:STATE_NORTH_TEXCOCO = {
 		region_state:XAL = {
 			create_pop = {
 				culture = acolhua
@@ -89,8 +101,6 @@
 				size = 5500
 				}
 		}
-	}
-	s:STATE_TZOMPANCO = {
 		region_state:TZO = {
 			create_pop = {
 				culture = tepanec
@@ -101,8 +111,6 @@
 				size = 2000
 				}
 		}
-	}
-	s:STATE_CUAUTITLAN = {
 		region_state:CUA = {
 			create_pop = {
 				culture = tepanec
@@ -127,22 +135,6 @@
 			create_pop = {
 				culture = otomi
 				size = 3000
-				}
-		}
-	}
-	s:STATE_CULHUACAN = {
-		region_state:CUL = {
-			create_pop = {
-				culture = tepanec
-				size = 8500
-				}
-			create_pop = {
-				culture = nahua
-				size = 10000
-				}
-			create_pop = {
-				culture = otomi
-				size = 1000
 				}
 		}
 	}
@@ -323,8 +315,6 @@
 				size = 9000
 				}
 		}
-	}
-	s:STATE_TALXCO = {
 		region_state:TLA = {
 			create_pop = {
 				culture = tepehua
@@ -335,8 +325,6 @@
 				size = 9000
 				}
 		}
-	}
-	s:STATE_HUAUCHINANGO = {
 		region_state:HCH = {
 			create_pop = {
 				culture = tepehua
@@ -430,7 +418,31 @@
 	}
 	
 	#Popoloca minors
-	s:STATE_TECALCO = {
+	s:STATE_TEPEACA = {
+		region_state:TTN = {
+			create_pop = {
+				culture = popoloca
+				size = 48000
+				}
+			create_pop = {
+				culture = totonac
+				size = 4000
+				}
+		}
+		region_state:ICH = {
+			create_pop = {
+				culture = popoloca
+				size = 12000
+				}
+			create_pop = {
+				culture = totonac
+				size = 2500
+				}
+			create_pop = {
+				culture = mazatec
+				size = 2500
+				}
+		}
 		region_state:TCL = {
 			create_pop = {
 				culture = popoloca
@@ -443,18 +455,6 @@
 			create_pop = {
 				culture = nonoalca
 				size = 3000
-				}
-		}
-	}
-	s:STATE_TETENANCO = {
-		region_state:TTN = {
-			create_pop = {
-				culture = popoloca
-				size = 48000
-				}
-			create_pop = {
-				culture = totonac
-				size = 4000
 				}
 		}
 	}

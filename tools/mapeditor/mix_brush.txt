@@ -7,10 +7,8 @@
 					MaterialId="cliff_granite_01"
 					Value=255
 				}
-
 			}
 		}
-
 		Sample={
 			Name="Sample from 2520, 2562"
 			Materials={
@@ -18,10 +16,8 @@
 					MaterialId="cliff_granite_01"
 					Value=255
 				}
-
 			}
 		}
-
 		Sample={
 			Name="Sample from 2617, 2539"
 			Materials={
@@ -29,10 +25,8 @@
 					MaterialId="cliff_granite_01"
 					Value=255
 				}
-
 			}
 		}
-
 		Sample={
 			Name="Sample from 2653, 2605"
 			Materials={
@@ -40,10 +34,8 @@
 					MaterialId="cliff_granite_01"
 					Value=255
 				}
-
 			}
 		}
-
 		Sample={
 			Name="Sample from 2299, 2309"
 			Materials={
@@ -51,10 +43,7 @@
 					MaterialId="cliff_granite_01"
 					Value=255
 				}
-
 			}
 		}
-
 	}
 }
-
