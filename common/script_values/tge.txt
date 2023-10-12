@@ -105,7 +105,15 @@ empire_sprawl_deficit = {
 	subtract = sprawl_load_value
 	
 	
-	divide = sprawl_load_value
+	IF = {
+		limit = {
+			NOT = {
+				sprawl_load_value = 0
+			}
+		}
+		divide = sprawl_load_value
+	}
+	
 	
 	multiply = -1
 	
@@ -120,7 +128,14 @@ empire_sprawl_surplus = {
 	subtract = sprawl_capacity_value
 	
 	
-	divide = sprawl_capacity_value
+	IF = {
+		limit = {
+			NOT = {
+				sprawl_capacity_value = 0
+			}
+		}
+		divide = sprawl_capacity_value
+	}
 	
 	multiply = -1
 	

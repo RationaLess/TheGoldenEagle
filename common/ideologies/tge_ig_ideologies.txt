@@ -218,6 +218,24 @@ ideology_mercantile = {
 	}
 }
 
+ideology_urbanist = {
+	icon = "gfx/interface/icons/ideology_icons/proletarian.dds"
+	
+	lawgroup_development = {
+		law_decentralized_settlements = strongly_disapprove
+		law_urban_centers = neutral
+		law_great_projects = approve
+		law_central_development = approve
+	}
+	lawgroup_institutionalization = {
+		law_informal_government = strongly_disapprove
+		law_assembly_government = disapprove 
+		law_court_government = disapprove
+		law_dedicated_government = approve 
+		law_bureaucratic_government = approve
+	}
+}
+
 
 ideology_opportunistic = {
 	icon = "gfx/interface/icons/ideology_icons/unused/pacifist.dds"

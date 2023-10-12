@@ -11,27 +11,27 @@
 		region_state:TEA = {
 			create_pop = {
 				culture = totonac
-				size = 15000
+				size = 40000
 				}
 			create_pop = {
 				culture = huastec				
-				size = 11000
+				size = 15000
 				}
 		}
 		region_state:TJN = {
 			create_pop = {
 				culture = totonac
-				size = 36000
+				size = 66000
 				}
 			create_pop = {
 				culture = tepehua				
-				size = 1000
+				size = 10000
 				}
 		}
 		region_state:YHL = {
 			create_pop = {
 				culture = totonac
-				size = 19000
+				size = 28000
 				}
 			create_pop = {
 				culture = tepehua				

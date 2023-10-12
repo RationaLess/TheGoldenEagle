@@ -4,6 +4,7 @@
 	
 	ideologies = {
 		ideology_mercantile
+		ideology_urbanist
 	}
 	
 	enable = { 

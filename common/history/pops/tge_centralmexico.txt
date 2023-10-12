@@ -15,7 +15,7 @@
 				}
 		}
 	}
-	s:STATE_WEST_TEXCOCO = {
+	s:STATE_EAST_TEXCOCO = {
 		region_state:ATA = {
 			create_pop = {
 				culture = acolhua

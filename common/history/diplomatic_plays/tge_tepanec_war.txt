@@ -3,7 +3,7 @@
 		create_diplomatic_play = {
 			name = tepanec_war
 		
-			target_state = s:STATE_AZCAPOTZALCO.region_state:AZC
+			target_state = s:STATE_WEST_TEXCOCO.region_state:AZC
 			
 			war = yes
 			
@@ -14,7 +14,7 @@
 			add_war_goal = {
 				holder = c:AZC
 				type = conquer_state
-				target_state = s:STATE_TLACOPAN.region_state:ATA
+				target_state = s:STATE_WEST_TEXCOCO.region_state:ATA
 			}	
 			add_war_goal = {
 				holder = c:AZC
@@ -24,7 +24,7 @@
 			add_war_goal = {
 				holder = c:AZC
 				type = conquer_state
-				target_state = s:STATE_TEXCOCO.region_state:ATA
+				target_state = s:STATE_EAST_TEXCOCO.region_state:ATA
 			}			
 		}	
 	}

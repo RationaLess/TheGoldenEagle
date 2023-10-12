@@ -28,6 +28,12 @@ tepaneca_war.1 = {
 		c:XOC = {
 			make_independent = yes
 			}
+		c:TULA = {
+			make_independent = yes
+			}
+		c:CNH = {
+			make_independent = yes
+			}
 	
     }
     

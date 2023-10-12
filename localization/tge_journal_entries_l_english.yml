@@ -38,4 +38,6 @@
  je_urbanization_efforts_reason:1 "Large urban centers spread their influence through trade, art, commodities and wealth. If we manage to turn our capital into such a metropolis, the old guard will have no choice but to endorse this kind of innovation."
  je_urbanization_efforts_goal:0 "Increase Capital Urban Center level by 10"
  
- 
+ #Formalize
+ je_formalize_the_realm:"Formalize the Realm"
+ je_formalize_the_realm_reason:"The ever increasing duties associated with running a modern empire will strech our leaders thin. We must create a reliable form of government if we want to further our agenda."

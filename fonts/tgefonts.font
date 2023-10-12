@@ -1,0 +1,55 @@
+
+font = {
+	name = "AutourOne"
+	always_load = yes
+	fontstyle = {
+		style = regular
+		fontfiles = "AutourOne-Regular"
+	}
+}
+
+### Open Sans (override cw font to support more languages)
+fontfiles = {
+    name = "AutourOne"
+    always_load = yes
+
+    group = {
+        languages = { "l_english" "l_braz_por" "l_french" "l_german" "l_polish" "l_russian" "l_spanish" "l_turkish" }
+        files = {
+            "fonts/AutourOne/AutourOne-Regular.ttf"
+        }
+    }
+    
+    group = {
+        languages = { "l_japanese" }
+        files = {
+            "fonts/NotoSans/NotoSansJP-Regular.otf"
+            "fonts/Open_Sans/OpenSans-Regular.ttf"
+            "fonts/NotoSans/NotoSansKR-Regular.otf"
+            "fonts/NotoSans/NotoSansSC-Regular.otf"
+            "fonts/NotoSans/NotoSans-Regular.ttf"
+        }
+    }
+
+    group = {
+        languages = { "l_korean" }
+        files = {
+            "fonts/NotoSans/NotoSansKR-Regular.otf"
+            "fonts/Open_Sans/OpenSans-Regular.ttf"
+            "fonts/NotoSans/NotoSansJP-Regular.otf"
+            "fonts/NotoSans/NotoSansSC-Regular.otf"
+            "fonts/NotoSans/NotoSans-Regular.ttf"
+        }
+    }
+    
+    group = {
+        languages = { "l_simp_chinese" }
+        files = {
+            "fonts/NotoSans/NotoSansSC-Regular.otf"
+            "fonts/Open_Sans/OpenSans-Regular.ttf"
+            "fonts/NotoSans/NotoSansJP-Regular.otf"
+            "fonts/NotoSans/NotoSansKR-Regular.otf"
+            "fonts/NotoSans/NotoSans-Regular.ttf"
+        }
+    }
+}

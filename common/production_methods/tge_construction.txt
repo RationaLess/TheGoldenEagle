@@ -13,7 +13,7 @@
 		workforce_scaled = {
 			goods_input_furniture_add = 4
 			goods_input_tools_add = 6
-			goods_input_hardwood_add = 8
+			goods_input_wood_add = 8
 		}
 
 		level_scaled = {

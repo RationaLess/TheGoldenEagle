@@ -121,3 +121,18 @@ cultures = { zapotec }
 
 capital = STATE_ZAACHILA
 }
+
+
+TRHR = { #Three Hearts
+
+color = rgb { 81 152 214 }
+
+tier = empire
+
+country_type = recognized
+
+cultures = { totonac }
+
+capital = STATE_TOTONACAPAN
+}
+

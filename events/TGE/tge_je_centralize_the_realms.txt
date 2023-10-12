@@ -1,0 +1,80 @@
+﻿namespace = formalize_the_realm
+
+
+#A new Project
+formalize_the_realm.1 = {
+	type = country_event
+	placement = capital
+
+	title = formalize_the_realm.1.t
+	desc = formalize_the_realm.1.d
+	flavor = formalize_the_realm.1.f
+
+	duration = 3
+
+	event_image = {
+		#TODO
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		
+	}
+
+	immediate = {
+		ig:ig_scholars = {
+			save_scope_as = innovation_ig
+		}
+	}
+
+	option = {
+			name = formalize_the_realm.1.a
+			default_option = yes
+				add_modifier = {
+					name = desire_for_progress
+					months = 120
+				}
+			
+		}
+}
+
+#Success
+formalize_the_realm.2 = {
+	type = country_event
+	placement = capital
+
+	title = formalize_the_realm.2.t
+	desc = formalize_the_realm.2.d
+	flavor = formalize_the_realm.2.f
+
+	duration = 3
+
+	event_image = {
+		#TODO
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		
+	}
+
+	immediate = {
+	
+	}
+
+	
+	option = {
+			name = formalize_the_realm.2.a
+				add_modifier = {
+					name = successfuly_formalized
+					months = 120
+				}
+			
+		}
+}

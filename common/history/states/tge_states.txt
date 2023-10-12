@@ -129,6 +129,8 @@
 	
 	#TOTONAC
 	s:STATE_TOTONACAPAN = {
+		add_homeland = totonac
+	
 		create_state = {
 			country = c:XLP
 			owned_provinces = { "x72B820" "x8F5929" "x99921C" "x9DEC27" "xF64406" "xFEAB28" }
@@ -148,6 +150,8 @@
 	}
 	
 	s:STATE_HUAYACOCOTLA = {
+		add_homeland = totonac
+	
 		create_state = {
 			country = c:YHL
 			owned_provinces = { "x7CD800" "x888120" "x9D8C02" "xB95D04" "xBEB40F" "xCCDD31" "xEE9A13" }

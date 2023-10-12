@@ -1,6 +1,6 @@
 ﻿l_english:
- ATA:0 "Triple Alliance"
- ATA_ADJ:0 "Triple Alliance"
+ ATA:0 "Tenochtitlan"
+ ATA_ADJ:0 "Tenochca"
  TLX:0 "Tlaxcala Republic"
  TLX_ADJ:0 "Tlaxcala"
  OTP:0 "Otompan"
@@ -29,6 +29,8 @@
  HXZ_ADJ:0 "Huexotzinco"
  CHL:0 "Cholula"
  CHL_ADJ:0 "Cholula"
+ TIL:"Tilantongo"
+ TIL_ADJ:"Tilantongo"
  THC:0 "Tehuacan"
  THC_ADJ:0 "Tehuacan"
  CXH:0 "Coixtlahuaca"
@@ -253,6 +255,9 @@
   AYI_ADJ:"Ayitian"
   CBY:"Ciboney"
   CBY_ADJ:"Ciboney"
+  TRHR:"Three Hearts"
+  TRHR_ADJ:"Totonac"
+  
  
  
   # Dynamic countries

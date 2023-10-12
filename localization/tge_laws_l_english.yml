@@ -124,7 +124,7 @@
  lawgroup_military_reforms:0 "Military Reforms"
  lawgroup_military_reforms_desc:0 "This law group determines the organization of the military."
  
- 
+ law_warrior_guilds:0 "Warrior Guilds"
  law_honorary_titles:0 "Honorary Titles"
  law_honorary_titles_desc:0 "The best performing warriors will receive various honorary titles and accolades, and will be able to enter prestigious warrior societies. Combat is no longer simply about the utility to the state - it's about the prestige of battle."
  
@@ -231,6 +231,7 @@
 
  lawgroup_innovation:0 "Innovation"
  lawgroup_innovation_desc:0 "Our principles regarding research and the sciences."
+ law_scholar_societies:"Scholar Societies"
  law_origin_myth:"Origin Myth"
  law_origin_myth_desc:"We will construct a syncretic story which combines our historical roots with mythical origins in order to assert our place in the cosmic order...\n\n...Of course, this can't be done without burning a few books."
   

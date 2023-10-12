@@ -110,7 +110,7 @@ tier = kingdom
 
 country_type = recognized
 
-cultures = { tlaxcaltec }
+cultures = { nahua }
 
 capital = STATE_TEPETICPAC
 }
@@ -293,7 +293,7 @@ tier = kingdom
 country_type = recognized
 cultures = { totonac }
 capital = STATE_TAJIN
-} 
+}  
 CPL = { #CEMPOALA
 color = rgb { 53 204 179 }
 tier = kingdom

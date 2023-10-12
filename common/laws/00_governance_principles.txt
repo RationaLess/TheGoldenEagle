@@ -60,6 +60,7 @@ law_alliance = {
 	
 	
 	modifier = {
+		country_prestige_add = 10
 		country_legitimacy_govt_size_add = 1
 		country_legitimacy_ideological_incoherence_mult = -0.2
 	}
@@ -102,9 +103,13 @@ law_council = {
 	}
 	
 	disallowing_laws = {
+		law_informal_government 
+		law_assembly_government 
+		law_court_government
 	}
 
 	modifier = {
+		country_prestige_add = 25
 		country_legitimacy_govt_size_add = 1
 		country_authority_add = 100
 	}
@@ -147,9 +152,13 @@ law_monarchy = {
 	}
 	
 	disallowing_laws = {
+		law_informal_government 
+		law_assembly_government 
+		law_court_government
 	}
 
 	modifier = {
+		country_prestige_add = 25
 		country_legitimacy_headofstate_add = 30
 		country_authority_add = 200
 	}

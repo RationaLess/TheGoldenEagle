@@ -40,6 +40,17 @@
  forging_alliances.1.a:"Perhaps its time for a different strategy."
  confederations_unlocked:"For as long as this [Concept('concept_journal_entry','$concept_journal_entry$')] is active, you may ask neighboring states to confederate."
  
+ formalize_the_realm.1.t:"Duty of a Nation"
+ formalize_the_realm.1.d:"It is becoming increasingly clear that our system of governance is outdated and inefficient. The [SCOPE.gsInterestGroup('innovation_ig').GetName] have proposed several reforms in that regard."
+ formalize_the_realm.1.f:"At this point, the king struggles to remember which one of his assistants was supposed to be managing taxes, and which tribute. The palace has turned from a place of rest and comfort to one of stress and bureaucracy."
+ formalize_the_realm.1.a:"We'll see what we can do."
+ formalize_the_realm.2.t:"A new government"
+ formalize_the_realm.2.d:"Thanks to our new approach to the [GetLawGroup('lawgroup_institutionalization').GetName] [concept_law], [ROOT.GetCountry.GetName] turned from an unremarkable province into a proper nation."
+ formalize_the_realm.2.f:"The new code of laws was adopted in [ROOT.GetCountry.GetNameNoFormatting] will now be rigorously enforced by a brand new class of judges, administrators and tribute collectors. Of course, our leadership is free to amend these laws as they wish, but that is the nature of rule."
+ formalize_the_realm.2.a:"This was long overdue."
+ 
+ 
+ 
  #[SCOPE.sState('capital_state').GetName]
  #[SCOPE.gsInterestGroup('urbanist_one_ig').GetName]
  #[SCOPE.gsInterestGroup('urbanist_two_ig').GetName]

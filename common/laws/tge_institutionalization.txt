@@ -78,7 +78,8 @@ law_dedicated_government = {
 		country_legitimacy_headofstate_add = 10
 	
 	
-	
+		
+		country_prestige_add = 50
 		country_bureaucracy_mult = 0.25
 		country_law_enactment_time_mult = 0.25
 		country_nobles_pol_str_mult = 0.25
@@ -103,7 +104,7 @@ law_bureaucratic_government = {
 	modifier = {
 		country_legitimacy_govt_total_clout_add = 30
 	
-	
+		country_prestige_add = 50
 		country_bureaucracy_mult = 0.5
 		country_law_enactment_time_mult = 0.5
 		country_bureaucrats_pol_str_mult = 0.25

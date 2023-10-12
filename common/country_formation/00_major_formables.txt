@@ -1,4 +1,24 @@
-﻿MIXT = {
+﻿TOTO = {
+	use_culture_states = yes
+	
+	is_major_formation = yes
+	
+	unification_play = dp_unify_totonacapan
+	leadership_play = dp_leadership_totonacapan
+
+	required_states_fraction = 1
+
+	ai_will_do = { has_technology_researched = nationalism }
+
+	possible = {
+		OR = {
+			country_has_primary_culture = cu:totonac
+		}
+		has_technology_researched = politics
+	}
+}
+
+MIXT = {
 	use_culture_states = yes
 	
 	is_major_formation = yes

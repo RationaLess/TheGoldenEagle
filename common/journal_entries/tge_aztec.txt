@@ -2,7 +2,7 @@
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
 	complete = {
-		owns_entire_state_region = STATE_AZCAPOTZALCO
+		owns_entire_state_region = STATE_WEST_TEXCOCO
 	}
 
 	on_complete = {
@@ -30,14 +30,11 @@ je_matters_of_texcoco = {
 	is_shown_when_inactive = {
 		OR = {
 			has_state_in_state_region = STATE_TENOCHTITLAN
-			has_state_in_state_region = STATE_TEXCOCO
-			has_state_in_state_region = STATE_TLACOPAN
-			has_state_in_state_region = STATE_XALTOCAN
+			has_state_in_state_region = STATE_WEST_TEXCOCO
+			has_state_in_state_region = STATE_EAST_TEXCOCO
+			has_state_in_state_region = STATE_NORTH_TEXCOCO
 			has_state_in_state_region = STATE_TEOTIHUACAN
-			has_state_in_state_region = STATE_TZOMPANCO
-			has_state_in_state_region = STATE_CUAUTITLAN
 			has_state_in_state_region = STATE_XOCHIMILCO
-			has_state_in_state_region = STATE_AZCAPOTZALCO
 			has_state_in_state_region = STATE_CHALCO
 		}
 	}
@@ -56,17 +53,13 @@ je_matters_of_texcoco = {
 	
 	complete = {
 		OR = {
-			calc_true_if = {
-				amount >= 5
+			AND = {
 				country_or_subject_owns_entire_state_region = STATE_TENOCHTITLAN
-				country_or_subject_owns_entire_state_region = STATE_TEXCOCO
-				country_or_subject_owns_entire_state_region = STATE_TLACOPAN
-				country_or_subject_owns_entire_state_region = STATE_XALTOCAN
+				country_or_subject_owns_entire_state_region = STATE_WEST_TEXCOCO
+				country_or_subject_owns_entire_state_region = STATE_EAST_TEXCOCO
+				country_or_subject_owns_entire_state_region = STATE_NORTH_TEXCOCO
 				country_or_subject_owns_entire_state_region = STATE_TEOTIHUACAN
-				country_or_subject_owns_entire_state_region = STATE_TZOMPANCO
-				country_or_subject_owns_entire_state_region = STATE_CUAUTITLAN
 				country_or_subject_owns_entire_state_region = STATE_XOCHIMILCO
-				country_or_subject_owns_entire_state_region = STATE_AZCAPOTZALCO
 				country_or_subject_owns_entire_state_region = STATE_CHALCO
 			}
 			c:TLX = {

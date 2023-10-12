@@ -22,6 +22,7 @@ is_shown_when_inactive = {
 	}
 
 possible = {
+		prestige > 100
 		is_subject = no
 		is_at_war = no
 		has_law = law_type:law_bellicose
@@ -129,7 +130,7 @@ is_shown_when_inactive = {
 	}
 
 possible = {
-		has_law = law_type:law_tributaries
+		#has_law = law_type:law_tributaries
 	}
 
 immediate = {

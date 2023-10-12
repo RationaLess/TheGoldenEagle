@@ -1,0 +1,42 @@
+je_the_three_hearts = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	complete = {
+			NOT = {
+				any_state = {
+				 filter = {
+					 culture_percent_state = {
+					   target = cu:totonac 
+					   value >= 0.5
+						}
+					}
+				 culture_percent_state = {
+				   target = cu:totonac 
+				   value >= 0.5
+					}
+				NOT = {
+					owner = ROOT
+					}
+				
+				}
+			}
+	}
+
+	on_complete = {
+		change_tag = TRHR
+	
+	}
+	
+	is_shown_when_inactive = {
+		country_has_primary_culture = cu:totonac
+	}
+
+	possible = {
+		prestige >= 100
+		has_technology_researched = politics
+		country_has_primary_culture = cu:totonac
+	}
+
+	weight = 10000
+	should_be_pinned_by_default = yes
+}

@@ -14,7 +14,7 @@
 			goods_input_tools_add = 2
 			
 			
-			goods_output_wood_add = 4
+			goods_output_wood_add = 10
 		}
 		
 		level_scaled = {

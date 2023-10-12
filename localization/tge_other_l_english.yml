@@ -7,3 +7,50 @@
  
  
  #Mechanics
+ 
+ 
+ #Rules
+ rule_difficulty:0 "Difficulty"
+ setting_difficulty_easy:1 "Axolotl (Easy)"
+ setting_difficulty_easy_desc:0 "AI Nations get various military-related debuffs."
+ setting_difficulty_normal:1 "Coyotl (Normal)"
+ setting_difficulty_normal_desc:0 "Player and AI Nations are on an equal playing field."
+ setting_difficulty_hard:1 "Ocelotl (Hard)"
+ setting_difficulty_hard_desc:0 "AI Nations get various military-related buffs."
+ setting_difficulty_very_hard:1 "Coatl (Very Hard)"
+ setting_difficulty_very_hard_desc:0 "AI Nations get various military-related and economic buffs."
+ 
+ 
+ #Select Text
+  GENERIC_FLAVOR_TEXT:0 "The Postclassic period is an age of opportunity, advancement, and warfare. What new challenges will the times bring?"
+  ATA_FLAVOR_TEXT:0 "The Tenochtitlan-led Triple Alliance fights for its survival in the Texcoco basin. Will you manage to assert yourself as the new ruler of Anahuac?"
+  AZC_FLAVOR_TEXT:0 "Azcapotzalco's position as the de facto hegemon of the Texcoco basin is treathened. Will you reassert yourself as the dominant empire of Anahuac?"
+  TARA_FLAVOR_TEXT:0 "After consolidating city-states around Lake Pátzcuaro, the Purepecha have began carrying out their imperial ambitions. Will your empire be able to contend with the Eagle of the East?"
+  TLX_FLAVOR_TEXT:0 "Despite existing for less than a century, the Tlaxcala Republic has managed to gain great renown in Anahuac. Will you be able to keep up with the bloodthirst of warmongers around you?"
+  CHA_FLAVOR_TEXT:"As the only independent state around Texcoco, Chalco may use its circumstances to rise to unseen prominence. Will you be able to achieve greatness?"
+  CHO_FLAVOR_TEXT:"Being an important trading settlement, Chollolan has an opportunity to leverage its wealth in order to rise. Will you reform into a greater power?"
+  
+  
+  AZC_TRIB_FLAVOR_TEXT:0 "While currently a tributary to Azcapotzalco, this altepetl may seize the opportunity created by the Tenochca and grow to become something greater."
+  XOC_FLAVOR_TEXT:"$AZC_TRIB_FLAVOR_TEXT$"
+  CUL_FLAVOR_TEXT:"$AZC_TRIB_FLAVOR_TEXT$"
+  CUA_FLAVOR_TEXT:"$AZC_TRIB_FLAVOR_TEXT$"
+  TULA_FLAVOR_TEXT:"$AZC_TRIB_FLAVOR_TEXT$"
+  CNH_FLAVOR_TEXT:"$AZC_TRIB_FLAVOR_TEXT$"
+  TZO_FLAVOR_TEXT:"$AZC_TRIB_FLAVOR_TEXT$"
+  XAL_FLAVOR_TEXT:"$AZC_TRIB_FLAVOR_TEXT$"
+  
+  
+    #Totonac 
+    TOTONAC_FLAVOR_TEXT:"The Totonac are master builders and great warriors. Will you be able to unite the disparate states and resist incursions from both land and sea?"
+    TEA_FLAVOR_TEXT:"$TOTONAC_FLAVOR_TEXT$"
+    TJN_FLAVOR_TEXT:"$TOTONAC_FLAVOR_TEXT$"
+    YHL_FLAVOR_TEXT:"$TOTONAC_FLAVOR_TEXT$"
+    XLP_FLAVOR_TEXT:"$TOTONAC_FLAVOR_TEXT$"
+    CPL_FLAVOR_TEXT:"$TOTONAC_FLAVOR_TEXT$"
+    COT_FLAVOR_TEXT:"$TOTONAC_FLAVOR_TEXT$"
+    HUT_FLAVOR_TEXT:"$TOTONAC_FLAVOR_TEXT$"
+    
+  YDZ_FLAVOR_TEXT:"Yucu Dzaa is an influential Mixteca kingdom known for turquoise exports. Will you overcome the threat of the Zapotecs and extent your influence across all of Huaxyacac?"
+  ZAA_FLAVOR_TEXT:"Za'Chila is a great Zapotec kingdom engaged in bitter conflict with the Mixtecs to the west. Will you overcome the Mixtec threat and unite the Zapotec?"
+    

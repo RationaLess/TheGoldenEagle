@@ -1,0 +1,52 @@
+﻿########## DEFAULT ##########
+gui_skin_base = {
+	category = ui_skin_theme
+
+	ui_skin = "default"
+}
+
+papermap_base = {
+	category = papermap_theme
+
+	papermap_textures_file = "gfx/map/textures/maptextures.settings"
+
+	map_object = {
+		pdxmesh = "papermap_extension_top_mesh"
+		locator = "papermap_extension_top_locator"
+	}
+
+	map_object = {
+		pdxmesh = "papermap_extension_bottom_mesh"
+		locator = "papermap_extension_bottom_locator"
+	}
+}
+
+table_base = {
+	category = table_top_theme
+
+	
+}
+
+papermap_object_divider = {
+	category = table_asset_1_theme
+
+	
+}
+
+papermap_object_compass = {
+	category = table_asset_2_theme
+
+	
+}
+
+papermap_cigarbox = {
+	category = table_asset_3_theme
+
+	
+}
+
+papermap_letter = {
+	category = table_asset_4_theme
+
+	
+}

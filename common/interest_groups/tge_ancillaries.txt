@@ -64,6 +64,15 @@
 				value = 50
 			}
 		}
+		add = {
+			desc = "MINORITY_CULTURE"
+			if = {
+				limit = {
+					pop_has_primary_culture = no
+				}
+			}
+			value = 100
+		}
 		
 		 
 
