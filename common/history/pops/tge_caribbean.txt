@@ -169,7 +169,7 @@ POPS = {
 			}
 		}	
 		
-		region_state:GNE = {
+		region_state:GNA = {
 			create_pop = {
 				culture = guanahatabey
 				size = 22500
