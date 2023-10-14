@@ -1,7 +1,27 @@
 ﻿l_english:
- 
-ATA_FLAVOR_TEXT:"Before becoming the last great empire of mesoamerica, the Tenochca were a vassal of a neighboring hegemonic power. In 1428, Tenochtitlan formed a Triple Alliance with other subjgated altepetl, fighting to overcome their previous overlord. Can you overcome your overlord, complete your imperial reforms and let the Aztec eagle cast its shadow over all of Mesoamerica?"
 
-AZC_FLAVOR_TEXT:"Being the defacto hegemon of Anahuac, Azcapotzalco spent the past decades subjugating altepetl and enriching themselves through tribute. In 1428, they are facing a rebellion from the Triple Alliance and her allies. Will you overcome history and cement the Tepanec as the dominant power of Mesoamerica?"
+GENERIC_FLAVOR_TEXT: "The Pre-Columbian Era is one of drastic change between many powers. One of the arrival of foreigners, of exploitation and conquest, of faith and contact. What new challenges will the times bring?"
+
+REV_GENERIC_FLAVOR_TEXT: "Dissatisfied with the direction that the so-called organized government was taking, these revolutionaries have decided to take up arms to overthrow it. Will they succeed in seizing power or will they be crushed like so many forgotten revolutions of the past?"
+
+DECENTRALIZED_FLAVOR_TEXT: "Honestly, I'm not sure what's supposed to go here right now."
+
+ATA_FLAVOR_TEXT:"Before becoming the last great empire of Mesoamerica, the Tenochca were a vassal of a neighboring hegemonic power. In 1428, Tenochtitlan formed a Triple Alliance with other subjgated altepetl, fighting to overcome their previous overlord. Can you overcome your overlord, complete your imperial reforms and let the Aztec eagle cast its shadow over all of Mesoamerica?"
+
+AZC_FLAVOR_TEXT:"Being the de facto hegemon of Anahuac, Azcapotzalco spent the past decades subjugating altepetl and enriching themselves through tribute. In 1428, they are facing a rebellion from the Triple Alliance and her allies. Will you overcome history and cement the Tepanec as the dominant power of Mesoamerica?"
 
 TARA_FLAVOR_TEXT:"While the Purépecha inhabited Michoacán for a long time, it was only a hundred years ago when the great Tariácuri transformed Tzintzuntzan from a mere city-state to a regional power. Despite that, the empire is still too informal and disunified to reach it's true potential. Will you be able to reform the empire to support both its people and conquests?"
+
+TLX_FLAVOR_TEXT:"East of the chaos found in Texcoco is the organized confederacy of Tlaxcala, formed a hundred years ago from four Tlaxcaltec atlepel states that had moved and integrated to the area. With rising powers in Texcoco eyeing Tlaxcala up, conflict is brewing. Will Tlaxcala keep their confederate and republican state free from the claws of warmongering eagles?"
+
+ZAA_FLAVOR_TEXT:"After Mitla, Za'achila has become the premier city and capital for the Zapotec people. However, as the Nahua up north rage on, growing power-hungry, and distrust growing in their Mixtec neighbors, how will Za'achila prevail in these changing times?"
+
+YDZ_FLAVOR_TEXT:"Known as Tututepec to the Nahua up north, Yucu Dzaa is the premier Mixtec city, ruling over a vast area and having a large zone of influence. With the raging conflict up north however, and distrust growing in their Zapotec neighbors, how will Yucu Dzaa prevail in these changing times?"
+
+MGN_FLAVOR_TEXT:"In Ayiti, the principal Taino cacique of course is the one found in the center, Maguana. While things seem rather simple for the Taino, things will change drastically for them, and with conflict already brewing in the east against the Kalinago and with tensions rising in Ayiti itself, Maguana must step up to truly be the principal cacique and lead the way for the Taino... will they fulfill that role?"
+
+BRK_FLAVOR_TEXT:"Unlike the other Taino caciques, Boriken is one that consists of smaller caciques inside of it, one that may even be described as a structure of realms inside the realm. Boriken of course, isn't so organized because of this, but never the less it holds steady. However, with conflict brewing against the Kalinago in the east, especially over the islands in the north between their homes, Boriken cannot be at peace. Will Boriken triumph over the Kalinago and prove their dominance in the Antilles?"
+
+INI_FLAVOR_TEXT:"Igneri is of the island Caribs, or the Kalinago, and their desire to spread is prevelant. Up north, conflict brews between them and the Taino of Boriken, and while their home of Karukera has remained out of their grasp, it is only a matter of time that if they don't fight back, the Taino will fight them there. Because of that, Igneri cannot sit idly by. Will Igneri triumph over the Taino and prove their dominance in the Antilles?"
+
+

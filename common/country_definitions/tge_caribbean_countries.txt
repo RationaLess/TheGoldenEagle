@@ -117,7 +117,7 @@ capital = STATE_JARAGUA
 
 }
 
-XAY = { # Xaymaca (pre-colonial Jamaica, no caciques found so it gets one nation)
+XAY = { # Xaymaca (pre-colonial Jamaica, one cacique found so it gets one nation)
 
 color = hsv360{ 88  87  33 }
 
