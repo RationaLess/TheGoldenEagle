@@ -131,7 +131,6 @@ s:STATE_GUANAHATABEY = {
 		owned_provinces = { x829513 x358D02 xA73209 xEB562C x9A9829 xD6CE10 xE18813 x53E60E xC74F0F x873832 x5E602C xCBC820 }
 	}
 	add_homeland = guanahatabey
-	}
 }
 
 s:STATE_HABANA = {
