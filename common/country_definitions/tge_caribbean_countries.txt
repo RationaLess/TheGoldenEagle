@@ -117,7 +117,7 @@ capital = STATE_JARAGUA
 
 }
 
-XAY = { # Xaymaca (pre-colonial Jamaica, no caciques found so it gets one nation)
+XAY = { # Xaymaca (pre-colonial Jamaica, one cacique found so it gets one nation)
 
 color = hsv360{ 88  87  33 }
 
@@ -269,6 +269,33 @@ capital = STATE_GUANAHATABEY
 
 }
 
+HAB = { # Habana 
+
+color = { 27 79 142 }
+
+tier = principality
+	
+country_type = recognized
+
+cultures = { ciboney }
+
+capital = STATE_HABANA
+
+}
+
+HNBN = { # Hanabana
+
+color = { 206 128 85 }
+
+tier = principality
+	
+country_type = recognized
+
+cultures = { ciboney }
+
+capital = STATE_HABANA
+
+}
 
 
 
