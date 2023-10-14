@@ -216,8 +216,8 @@
  XAY_ADJ:"Xaymacan"
  BRK:"Boriken"
  BRK_ADJ:"Boriken"
- LUC:"Lucaya"
- LUC_ADJ:"Lukku-Cairi" # Lucayan in Taino, no clue on Lucaya itself.
+ LUC:"Lukku-Cairi"
+ LUC_ADJ:"Lukku-Cairi" 
  YAO:"Yao"
  YAO_ADJ:"Yao"
  SBY:"Shebaya"
@@ -232,11 +232,11 @@
  MCX_ADJ:"Macorix"
  GGNO:"Guaniguanico"
  GGNO_ADJ:"Guaniguanico"
- GNE:"Guanahacabibes"
- GNE_ADJ:"Guanahacabibes"
+ GNA:"Guanahacabibes"
+ GNA_ADJ:"Guanahacabibes"
  MRIN:"Marien"
  MRIN_ADJ:"Marien"
- 
+ # more cubans to come
  
   # Formables
   AZT:"Aztec Empire"
