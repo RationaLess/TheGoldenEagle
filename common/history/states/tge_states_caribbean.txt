@@ -123,7 +123,7 @@ s:STATE_GUANAHATABEY = {
 		owned_provinces = { xD94506 }
 	}
 	create_state = {
-		country = c:GNE
+		country = c:GNA
 		owned_provinces = { x67C932 x4FF91D x595332 xFADC2F xFCC21B x59831B xF05611 x6E991C xA4FC31 x935A21 x5A642C xF9F829 }
 	}
 	create_state = {
