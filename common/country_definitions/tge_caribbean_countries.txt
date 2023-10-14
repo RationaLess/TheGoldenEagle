@@ -269,6 +269,33 @@ capital = STATE_GUANAHATABEY
 
 }
 
+HAB = { # Habana 
+
+color = { 27 79 142 }
+
+tier = principality
+	
+country_type = recognized
+
+cultures = { ciboney }
+
+capital = STATE_HABANA
+
+}
+
+HNBN = { # Hanabana
+
+color = { 206 128 85 }
+
+tier = principality
+	
+country_type = recognized
+
+cultures = { ciboney }
+
+capital = STATE_HABANA
+
+}
 
 
 

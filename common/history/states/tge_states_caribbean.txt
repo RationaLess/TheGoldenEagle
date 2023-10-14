@@ -134,3 +134,15 @@ s:STATE_GUANAHATABEY = {
 	}
 }
 
+s:STATE_HABANA = {
+	create_state = {
+		country = c:HAB
+		owned_provinces = { xDDE518 x4AD82C x6A3B2C xF9E318 xCC391D xB29B2D x859A02 xA4AD21 x74E818 x46AB00 xCCD413 xF0ED2B x50BE2D x7B992F }
+	}
+	create_state = {
+		country = c:HNBN
+		owned_provinces = { x877218 xBE4510 xC97C08 xC5421C xB3870F xC97C08 xF75E01 x61EA1B xAC722A x905013 }
+        }
+	add_homeland = ciboney
+	}
+}

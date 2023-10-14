@@ -161,7 +161,7 @@ POPS = {
 		}
 	}
 	
-	s:STATE_GUANAHATABEY
+	s:STATE_GUANAHATABEY = {
 		region_state:GGNO = {
 			create_pop = {
 				culture = guanahatabey
@@ -182,5 +182,20 @@ POPS = {
 				size = 22500
 			}
 		}
-	}	
-					
+	}
+	
+	s:STATE_HABANA = {
+		region_state:HAB = {
+			create_pop = {
+				culture = ciboney
+				size = 32000
+			}
+		}	
+		
+		region_state:HNBN = {
+			create_pop = {
+				culture = ciboney
+				size = 18000
+			}
+		}	
+	}				
