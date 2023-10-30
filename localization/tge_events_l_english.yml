@@ -9,7 +9,7 @@
  
  #Journal Entries
  tepaneca_war.1.t:0 "Mexica Victory"
- tepaneca_war.1.d:0 "The [GetCountry.GetName] has achieved total victory over their former overlords."
+ tepaneca_war.1.d:0 "The [ROOT.GetCountry.GetName] has achieved total victory over their former overlords."
  tepaneca_war.1.f:0 "The Azcapotzalco palace once bolstered by the riches of tribute now sees a puny king swearing fealty to the Mexica, surrounded by the very Eagle Warriors who managed to siege his seemingly untouchable city. The Tepanec Empire has become fractured, and Tlatoani all across the region see this upheaval as both a relief and an opportunity."
  tepaneca_war.1.1:0 "The beginning of a new era."
  
@@ -34,11 +34,34 @@
  urbanization_efforts.3.f:"'A mixtec man and mayab woman are bartering over fine local pottery - a common occurence in the [SCOPE.sState('capital_state').GetName] market. Poets sing their ballads, traders peddle their goods, scholars come to share knowledge and inspect local codices. It is impossibly lively compared to twenty years ago.'"
  urbanization_efforts.3.a:"Our cultural dominance is nigh."
 
+ #Confederations
+    
  forging_alliances.1.t:"Forging Alliances"
- forging_alliances.1.d:"There is a growing sentiment in [ROOT.GetCountry.GetName] to establish a close alliance with neighboring states."
+ forging_alliances.1.d:"There is a growing sentiment in [ROOT.GetCountry.GetName] to establish a close [GetLawType('law_alliance').GetName] with neighboring states."
  forging_alliances.1.f:"Warmongers all around us are subjugating cities en masse, wishing they could become the next great empire. We may not be able to do much about them alone, but thankfully we aren't the only ones facing this predicament."
  forging_alliances.1.a:"Perhaps its time for a different strategy."
  confederations_unlocked:"For as long as this [Concept('concept_journal_entry','$concept_journal_entry$')] is active, you may ask neighboring states to confederate."
+ 
+ forging_alliances.2.t:"Stronger United"
+ forging_alliances.2.d:"Our loose confederation has been transformed into a proper [GetLawType('law_council').GetName], formalizing the ties between the members as well as providing a base for future growth."
+ forging_alliances.2.f:"That night, all uncertainities and worries have faded leaving just the celebratory spirit - against all adversity we united and created a place of opportunity and growth for all. Whatever happens next, we'll tackle it together."
+ forging_alliances.2.a:"Tonight, we celebrate!"
+ forging_alliances.2.b:"The [ROOT.GetCountry.GetName] project has just began."
+ forging_alliances.2.c:"Could this perhaps be a birth of a new empire?"
+ 
+ forging_alliances.3.t:"Confederation with [SCOPE.sCountry('confederating_with').GetName]"
+ forging_alliances.3.d:"We began the process of confederation with [SCOPE.sCountry('confederating_with').GetName]. They are preparing to join [ROOT.GetCountry.GetName] in an [GetLawType('law_alliance').GetName]."
+ forging_alliances.3.f:"To unify is the reconcile - be it religious rituals, or ambitions of the noble-blooded. Hopefully in a few years time those minute differences will be nothing but a memory."
+ forging_alliances.3.a:"We will eagerly await."
+ 
+ forging_alliances.4.t:"Confederation Complete!"
+ forging_alliances.4.d:"Two years ago [SCOPE.sCountry('confederating_with').GetName] has agreed to confederate with us. With the preparations complete, they are ready to join us."
+ forging_alliances.4.f:"\"Have you heard? The [ROOT.GetCountry.GetAdjectiveNoFormatting] alliance actually bore fruit.\"\n\"I've seen my fair share of alliances, boy, and let me tell you - the hard part is still ahead of them.\""
+ forging_alliances.4.a:"Praise Quetzalcoatl!"
+ 
+ 
+ 
+ 
  
  formalize_the_realm.1.t:"Duty of a Nation"
  formalize_the_realm.1.d:"It is becoming increasingly clear that our system of governance is outdated and inefficient. The [SCOPE.gsInterestGroup('innovation_ig').GetName] have proposed several reforms in that regard."
@@ -49,7 +72,39 @@
  formalize_the_realm.2.f:"The new code of laws was adopted in [ROOT.GetCountry.GetNameNoFormatting] will now be rigorously enforced by a brand new class of judges, administrators and tribute collectors. Of course, our leadership is free to amend these laws as they wish, but that is the nature of rule."
  formalize_the_realm.2.a:"This was long overdue."
  
+ subject_management.1.t:"The matters of [SCOPE.sCountry('protectorate_to_change').GetName]"
+ subject_management.1.d:"Our domination over [SCOPE.sCountry('protectorate_to_change').GetName] leaves an important question at hand - what are we to do with the now subjugated nation?"
+ subject_management.1.f:"The military advisors gathered to discuss the matters of the realm. The fate of thousands is in their hands."
  
+ subject_management.1.a:"Their cities shall be sacked."
+ subject_management.1.b:"We will install [SCOPE.sCulture('culture_to_gain').GetName] nobles on their throne!"
+ subject_management.1.b.tooltip:"[SCOPE.sCulture('culture_to_gain').GetName] settlers will move into [SCOPE.sCountry('protectorate_to_change').GetName], and a big chunk of the local population will convert to our customs."
+ subject_management.1.c:"This is a great opportunity to acquire slaves."
+ subject_management.1.dd:"They will be graciously allowed to join our tributary network."
+ subject_management.1.e:"This land will be taken care of by the governors."
+ subject_management.1.cultural_unifier:"The [SCOPE.sCulture('culture_to_gain').GetName] empire grows ever greater!"
+ 
+ #Matters of Texcoco
+ matters_of_texcoco.1.t:"Matters of Texcoco"
+ matters_of_texcoco.1.d:"As an independent atlepetl on the shore of Lake Texcoco, [ROOT.GetCountry.GetName] finds itself in a situation requiring careful maneuvering."
+ matters_of_texcoco.1.f:"In the heart of Anahuac lays a lake with which facilitated wealth and trade throughout the classic period. Connecting much of Mesoamerica, residing in it is as desirable as it is dangerous."
+ 
+ matters_of_texcoco.1.a:"[ROOT.GetCountry.GetName] an empire, and [ROOT.GetCountry.GetRuler.GetFirstName] an emperor!"
+ matters_of_texcoco.1.b:"Forging alliances is the way to go forward."
+ matters_of_texcoco.1.c:"We will remain pragmatic in this time."
+ 
+ matters_of_texcoco.2.t:"Friendly Correspondence"
+ matters_of_texcoco.2.d:"A friendly envoy from [SCOPE.sCountry('their_country').GetName] has extended their best wishes to [ROOT.GetCountry.GetRuler.GetFirstName], our [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]."
+ matters_of_texcoco.2.f:"Among the usual two dozen traders and scribes moving between [ROOT.GetCountry.GetName] and [SCOPE.sCountry('their_country').GetName], a royal envoy has come before us from the court of [SCOPE.sCountry('their_country').GetRuler.GetFirstName], bearing gifts and songs of praise."
+ matters_of_texcoco.2.a:"A sign of friendlier times, I suppose."
+ matters_of_texcoco.2.b:"Now is not a good time to make friends."
+ matters_of_texcoco.2.c:"How nice of them to bring us a sacrifice."
+ 
+ matters_of_texcoco.3.t:"Fisherman harrassment"
+ matters_of_texcoco.3.d:"Our fishermen have been harrassed by [SCOPE.sCountry('their_country').GetName] canoes, despite sticking to our waters."
+ matters_of_texcoco.3.f:"Furious at the thought of inaction, our warriors clamor for vengeance. One renowned fighter has inspired a chant - \"If [SCOPE.sCountry('their_country').GetRuler.GetFirstName] seeks a fight, [SCOPE.sCountry('their_country').GetRuler.GetSheHe] can get one in [SCOPE.sCountry('their_country').GetRuler.GetHerHis] Court!.\""
+ matters_of_texcoco.3.a:"We will have our revenge."
+ matters_of_texcoco.3.b:"Just who is this fighter, exactly?"
  
  #[SCOPE.sState('capital_state').GetName]
  #[SCOPE.gsInterestGroup('urbanist_one_ig').GetName]

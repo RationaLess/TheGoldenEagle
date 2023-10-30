@@ -31,9 +31,9 @@
  ig_freemen_only_icon:0 "@rural_folk!"
  ig_freemen_desc:0 "Working citizens of our empire, and those aligned with populist interests."
  
- ig_elites:0 "Elites"
- ig_elites_only_icon:0 "@trade_unionists!"
- ig_elites_desc:0 "Government-adjcent men of wealth and status who are unrelated to noble families and seek to strengthen and entrench their positions."
+ ig_governors:0 "Governors"
+ ig_governors_only_icon:0 "@trade_unionists!"
+ ig_governors_desc:0 "Government-adjcent men of wealth and status who are unrelated to noble families and seek to strengthen and entrench their positions."
  
  ig_tlatelolco:0 "Tlatelolco"
  ig_tlatelolco_only_icon:0 "@industrialists!"

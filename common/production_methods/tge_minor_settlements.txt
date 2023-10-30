@@ -47,7 +47,7 @@ pm_minor_informal_farms = {
 	building_modifiers = {
 		workforce_scaled = { # 51
 			
-			goods_input_tools_add = 1
+			goods_input_tools_add = 0.25
 			goods_output_maize_add = 5
 		}
 		

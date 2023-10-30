@@ -83,8 +83,8 @@ ai_strategy_rapid_urbanization = {
 
 		if = {
 			limit = { 
-				exists = ig:ig_elites
-				ig:ig_elites = { is_powerful = yes } 
+				exists = ig:ig_governors
+				ig:ig_governors = { is_powerful = yes } 
 			}
 			multiply = 1.5
 		}

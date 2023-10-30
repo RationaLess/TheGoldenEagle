@@ -17,6 +17,14 @@ on_yearly_pulse_country = {
 	}
 
 
+on_protectorate = {
+
+	}
+
+
+
+
+
 #Empire Sprawl pog
 
 
@@ -25,6 +33,8 @@ on_battle_won = {
 	#texan_war_of_independence.3
 	#}
 }
+
+
 
 
 

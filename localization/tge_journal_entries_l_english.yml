@@ -21,6 +21,11 @@
  je_matters_of_texcoco_confederate:"[ROOT.GetCountry.GetName] has confederated with another country"
  
  
+ je_the_three_hearts:"The Three Hearts"
+ je_the_three_hearts_reason:"If we manage to unify the majority of Totonac people under one banner, we will be able to proclaim Totonacapan."
+ je_the_three_hearts_goal:"As cultural unifiers, we may annex other Totonac [GetLawType('law_city_state').GetName]s during [Concept('concept_invasion','$concept_invasions$')]."
+ 
+ 
  #Imperial
  je_imperial_fervor:"Imperial Fervor"
  je_imperial_fervor_reason:"The sentiment among our people is clear - our nation is to spread its wings and emerge as a power to be respected and feared. This newfound resolve may not burn forever, but it will surely carry us towards new heights.
@@ -31,6 +36,8 @@
  je_forging_alliances:"Forging Alliances"
  je_forging_alliances_reason:"We should create a tight-knit alliance with our neighbours by confederating with them."
  je_forging_alliances_status:"We may ask neighboring countries to #b Confederate#! with us."
+ confederation_establish_council_button:"Establish Council"
+ confederation_establish_council_button_desc:"If we consider our alliance to be mature enough, we may transition it into a council-government with the member states electing the leader."
 
  
  #Other

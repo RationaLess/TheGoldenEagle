@@ -1,6 +1,21 @@
 je_the_three_hearts = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	
+	status_desc = {
+		first_valid = {
+			triggered_desc = { 
+				desc = je_the_three_hearts_goal
+			}
+		}
+	}
+	
+	immediate = {
 
+		set_variable = {
+				name = cultural_unifier
+			}
+		}
+	
 	complete = {
 			NOT = {
 				any_state = {

@@ -13,14 +13,20 @@ pm_basic_administration = {
 	country_modifiers = {
 	
 		workforce_scaled = {
-		country_bureaucracy_add = 20
+		country_empire_sprawl_capacity_add = 10
 		}
 	
 	}
 	
+	state_modifiers = {
+		level_scaled = {
+		state_minor_settlement_modifier = -1
+		}
+	}
+	
 	building_modifiers = { 
 		workforce_scaled = {
-		
+			
 		}
 
 		level_scaled = {

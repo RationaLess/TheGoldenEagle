@@ -1,0 +1,242 @@
+﻿namespace = subject_management
+
+#Choose what to do with protectorate
+subject_management.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = subject_management.1.t
+	desc = subject_management.1.d
+	flavor = subject_management.1.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/tension_meso.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+		any_country = {
+			is_subject_of = root
+			is_subject_type = subject_type_protectorate 
+		}
+	}
+
+	immediate = {
+	
+		save_scope_as = variable_scope
+		
+		set_variable = {
+			name = settler_amount 
+			value = {
+				value = ROOT.capital.state_population
+				
+				multiply = 0.05
+				}
+			}
+	
+		random_primary_culture = {
+							save_scope_as = culture_to_gain
+						}
+		
+		random_country = {
+			limit = {
+				is_subject_of = root
+				is_subject_type = subject_type_protectorate 
+				}
+			save_scope_as = protectorate_to_change
+			random_primary_culture = {
+							save_scope_as = culture_to_lose
+					}
+				}
+	}
+
+	option = { #Sacking
+			name = subject_management.1.a
+			default_option = yes
+			scope:protectorate_to_change = {
+					kill_population_percent = {
+						percent = 0.1
+						}
+					capital = {
+						state_region = {
+						add_modifier = {
+							name = recently_sacked
+							months = 120
+							decaying = yes
+							}
+						add_devastation = 40
+						}
+					}
+					make_independent = yes
+				}
+			add_treasury = {
+				value = scope:protectorate_to_change.gold_reserves
+					
+				}
+			change_infamy = 10
+			
+			add_modifier = {
+				name = spoils_of_war
+				months = 120
+				}
+			
+			
+			ai_chance = {
+				base = 10
+				}	
+		}
+		
+	option = { #Installing Nobles
+			name = subject_management.1.b
+			trigger = {
+				
+				scope:culture_to_lose = { NOT = { scope:culture_to_gain = this } }
+				OR = {
+						has_law = law_type:law_cultural_supremacy
+						has_law = law_type:law_cultural_primacy
+						}
+				
+				
+				}	
+			
+				scope:protectorate_to_change = {
+						custom_tooltip = {
+							text = subject_management.1.b.tooltip
+							every_scope_pop = {
+							change_pop_culture = {
+								target = scope:culture_to_gain
+								value = 0.25 
+								}
+							}
+						}
+						change_relations = {
+							country = ROOT
+							value = 15
+							}
+						remove_primary_culture = scope:culture_to_lose
+						add_primary_culture = scope:culture_to_gain 
+						make_independent = yes
+						
+						
+					}
+				
+			
+				
+				change_infamy = 5
+			
+				add_modifier = {
+					name = spread_dynasty
+					months = 120
+				}
+			
+			ai_chance = {
+				base = 20
+				}	
+			}
+			
+	
+		
+	option = { #Capturing Slaves
+			name = subject_management.1.c
+			trigger = {
+	
+				}	
+			
+				scope:protectorate_to_change = {
+						
+						every_scope_pop = {
+								limit = {
+								is_pop_type = warriors
+								}
+							change_pop_type = slaves 
+							move_pop = root.capital
+						}
+							
+						make_independent = yes
+					}
+					
+			change_infamy = 5	
+			
+			add_modifier = {
+					name = captured_slaves
+					months = 120
+				}
+			
+			ai_chance = {
+				base = 10
+				}	
+			}
+			
+	option = { #Tributary
+			name = subject_management.1.dd
+			trigger = {
+					has_law = law_type:law_tributary_empire
+				}	
+			
+				scope:protectorate_to_change = {
+						
+						change_subject_type = subject_type_tributary
+					}
+					
+			add_modifier = {
+					name = acquired_tributary
+					months = 120
+				}
+			
+			ai_chance = {
+				base = 100
+				}	
+			}
+			
+		option = { #Cultural Unifier
+			name = subject_management.1.cultural_unifier
+			
+			trigger = {
+					
+					
+					scope:culture_to_lose = scope:culture_to_gain
+					
+					
+					
+					has_variable = cultural_unifier
+					
+				
+				}
+			annex = scope:protectorate_to_change
+			
+			add_loyalists = {
+				value = 0.1
+				culture = scope:culture_to_gain
+				}
+			
+			ai_chance = {
+				base = 100
+				}	
+			}
+	
+		option = { #Direct Ownership
+			name = subject_management.1.e
+			trigger = {
+					has_law = law_type:law_territory_integration
+				}	
+				annex = scope:protectorate_to_change
+			
+			add_modifier = {
+					name = expanded_borders
+					months = 120
+				}
+			
+			ai_chance = {
+				base = 100
+				}	
+			}
+
+	
+
+}
+

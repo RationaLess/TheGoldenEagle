@@ -55,6 +55,9 @@ invalidated = {
 	is_subject = yes 
 	}
 
+
+scripted_button = confederation_establish_council_button
+
 immediate = {
 	set_strategy = ai_strategy_form_confederation
 
@@ -75,10 +78,22 @@ modifiers_while_active = {
 	}
 
 complete = {
-		always = no
-		#prestige > 100
-		#confederations_num >= 2
-		
+		OR = {
+			AND = {
+				prestige > 200
+				NOT = {
+					has_law = law_type:law_alliance
+					}
+				}
+			has_law = law_type:law_council
+			}
+	}
+
+fail = {
+		OR = {
+			infamy > 25
+			has_law = law_type:law_bellicose
+			}
 	}
 
 on_complete = {
@@ -110,6 +125,10 @@ je_awaiting_confederation = {
 		}
 
 	immediate = {
+			set_variable = awaiting_confederation_a
+			overlord = {
+				trigger_event = forging_alliances.3
+			}
 		}
 
 
@@ -120,13 +139,10 @@ je_awaiting_confederation = {
 	timeout = 720
 
 	on_timeout = {
-		overlord = {
-			annex = root
-			activate_law = law_type:law_alliance
-			change_variable = {
-						name = confederations_num
-						add = 1
-					}
+			set_variable = awaiting_confederation_b
+			overlord = {
+				trigger_event = forging_alliances.4
+
 			}
 		}
 

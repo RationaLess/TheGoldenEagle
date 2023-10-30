@@ -74,10 +74,10 @@ sprawl_load_value = {
 }
 
 sprawl_get_base_value = {
-	value = country_and_subjects_population
-	
-	subtract = capital.state_population
-	
+	value = total_population
+
+
+	multiply = 1
 	
 	divide = 1000
 }

@@ -223,31 +223,39 @@ ideology_leader_empathetic = {
 		#Laws they oppose should make them more likely
 		if = {
 			limit = {
+				owner = {
 				has_law = law_type:law_debt_slavery
+				}
 			}
 		
 		add = 50
 		}
 		if = {
 			limit = {
-				OR = {
-					has_law = law_type:law_cultural_supremacy
-					has_law = law_type:law_encomiendas
-					}
+				owner = {
+					OR = {
+						has_law = law_type:law_cultural_supremacy
+						has_law = law_type:law_encomiendas
+						}
+				}
 			}
 		
 		add = 25
 		}
 		if = {
 			limit = {
+				owner = {
 				has_law = law_type:law_human_sacrifice
+				}
 			}
 		
 		add = 50
 		}
 		if = {
 			limit = {
+				owner = {
 				has_law = law_type:law_forced_conversion
+				}
 			}
 		
 		add = 25
@@ -377,7 +385,9 @@ ideology_leader_imperialist = {
 		#Boosted by Imperial Fervor
 		if = {
 			limit = {
+				owner = {
 				has_journal_entry = je_imperial_fervor
+				}
 			}
 			add = 50
 		}

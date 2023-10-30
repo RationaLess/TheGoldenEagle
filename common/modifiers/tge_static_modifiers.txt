@@ -16,6 +16,7 @@ base_values = {
 	country_bureaucracy_add = 100
 	country_authority_add = 100
 	country_influence_add = 100
+	country_empire_sprawl_capacity_add = 100
 
 	country_secession_progress_add = 0.1
 	
@@ -66,6 +67,7 @@ base_values = {
 	
 	country_disallow_migration = no
 	
+	state_conscription_rate_add = 0.2
 	
 }
 

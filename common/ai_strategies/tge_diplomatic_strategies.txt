@@ -227,19 +227,32 @@ ai_strategy_imperial_ambitions = {
 		return_state = 4
 	}	
 		
+	
 	possible = {
-		always = yes
-	}
+		
+		OR = {
+			ig:ig_warrior_guilds = { is_powerful = yes }
+			has_law = law_type:law_bellicose
+		}
+		NOT = {
+			has_law = law_type:law_appeasing
+		}
 
+	}
+	
 	weight = {
-		value = 10
+		value = 20
 			
 		if = {
-			limit = { ig:ig_warrior_guilds = { is_powerful = yes } }
-			multiply = 5
-		}
-		if = {
 			limit = { has_law = law_type:law_bellicose }
+			multiply = 2
+		}	
+		if = {
+			limit = { 
+			OR = {
+				has_law = law_type:law_council
+				has_law = law_type:law_monarchy
+				}
 			multiply = 2
 		}			
 			

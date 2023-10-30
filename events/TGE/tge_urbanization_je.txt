@@ -29,7 +29,7 @@ urbanization_efforts.1 = {
 			save_scope_as = capital_state
 		}
 		
-		ig:ig_elites = {
+		ig:ig_governors = {
 			save_scope_as = urbanist_one_ig
 		}
 		ig:ig_scholars = {
@@ -90,7 +90,7 @@ urbanization_efforts.2 = {
 			save_scope_as = capital_state
 		}
 		
-		ig:ig_elites = {
+		ig:ig_governors = {
 			save_scope_as = urbanist_one_ig
 		}
 		ig:ig_scholars = {
@@ -135,7 +135,7 @@ urbanization_efforts.3 = {
 			save_scope_as = capital_state
 		}
 		
-		ig:ig_elites = {
+		ig:ig_governors = {
 			save_scope_as = urbanist_one_ig
 		}
 		ig:ig_scholars = {

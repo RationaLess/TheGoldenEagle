@@ -5,6 +5,7 @@
 	ideologies = {
 		ideology_meritocratic
 		ideology_scientific
+		ideology_urbanist
 		
 	}
 	

@@ -3,6 +3,10 @@
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
 	category = military
+	
+		modifier = {
+		state_conscription_rate_add = 0.1
+		}
 }
 
 raiding = {
@@ -11,6 +15,21 @@ raiding = {
 	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
 	category = military
 	
+}
+
+standing_army = {
+	# Unlocks Barracks building
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	unlocking_technologies = {
+		military_artisans
+	}
+	
+	modifier = {
+		state_building_barracks_max_level_add = 25
+	}
 }
 
 basic_weapons = {
@@ -164,6 +183,7 @@ military_education  = {
 	category = military
 	unlocking_technologies = {
 		military_training
+		standing_army
 	}
 }
 
@@ -177,12 +197,43 @@ honorary_titles  = {
 	}
 }
 
+urban_levies  = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		military_education
+	}
+	modifier = {
+		state_conscription_rate_add = 0.1
+		}
+}
+
+proffesional_army  = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		military_education
+	}
+}
+
 warrior_societies  = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
 	category = military
 	unlocking_technologies = {
 		honorary_titles
+		urban_levies
+	}
+}
+
+empire_building  = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		vassalage
 	}
 }
 
@@ -191,7 +242,7 @@ officer_training  = {
 	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
 	category = military
 	unlocking_technologies = {
-		military_academies
+		proffesional_army
 	}
 }
 

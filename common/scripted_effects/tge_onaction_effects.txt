@@ -1,4 +1,19 @@
-﻿
+﻿onaction_protectorate_check = {
+	
+	trigger_event = { id = subject_management.1 popup = yes }
+	any_country = {
+			limit = {
+			is_subject_of = ROOT
+			is_subject_type = subject_type_protectorate 
+			}
+			save_scope_as = protectorate_to_change
+		}
+
+
+
+	}
+
+
 onaction_empire_sprawl_calc = {
 
 	#Sprawl capcity

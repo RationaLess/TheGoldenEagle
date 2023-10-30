@@ -1,0 +1,87 @@
+﻿###
+### Keep "unit tiers" per group in ascending order; the system will determine the default unit type for a country
+### by the last defined unit type that it can build
+###
+
+### ARMY
+
+### Warriors
+
+combat_unit_type_spearmen = {
+    group = combat_unit_group_warriors
+
+    battle_modifier = {
+        unit_offense_add = 10
+        unit_defense_add = 15
+        unit_morale_loss_add = 15
+    }
+	
+    upkeep_modifier = {
+    }
+
+    # scope = country
+    # both this and "can_build" needs to be true to build conscripts
+    can_build_conscript = {
+        always = yes
+    }
+    
+    combat_unit_image = {
+        texture = "gfx/unit_illustrations/infantry_decentralised_americas_irregular.dds"
+    }
+	
+	upgrades = {
+	}
+}
+
+### Artillery
+
+combat_unit_group_spear_throwers = {
+    group = combat_unit_group_rangers
+
+    upkeep_modifier = {
+        goods_input_weapons_add = 0.5
+    }
+    
+    battle_modifier = {
+        unit_offense_add = 20
+        unit_defense_add = 10
+        unit_kill_rate_add = 0.1
+    }
+
+	unlocking_technologies = {  }
+
+    combat_unit_image = {
+        texture = "gfx/unit_illustrations/unit_illustration_placeholder.dds"
+    }
+
+
+    upgrades = {
+    }
+}
+
+### Specialized
+
+combat_unit_type_eagle_warriors = {
+    group = combat_unit_group_specialized
+    
+    upkeep_modifier = {
+        goods_input_weapons_add = 1
+        goods_input_tools_add = 0.5
+    }
+
+    battle_modifier = {
+        unit_offense_add = 25
+        unit_defense_add = 25
+        unit_morale_loss_add = 10
+    }
+
+	unlocking_technologies = {  }
+
+    combat_unit_image = {
+        texture = "gfx/unit_illustrations/unit_illustration_placeholder.dds"
+    }
+
+
+    upgrades = {
+    }
+}

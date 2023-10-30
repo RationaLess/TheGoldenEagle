@@ -55,7 +55,7 @@ law_court_government = {
 		country_legitimacy_govt_total_clout_add = 10
 		country_legitimacy_headofstate_add = 20
 	
-		
+		country_bureaucracy_add = 100
 		country_law_enactment_time_mult = -0.25
 		state_tax_waste_add = 0.2
 		country_priests_pol_str_mult = 0.25
@@ -78,7 +78,7 @@ law_dedicated_government = {
 		country_legitimacy_headofstate_add = 10
 	
 	
-		
+		country_bureaucracy_add = 200
 		country_prestige_add = 50
 		country_bureaucracy_mult = 0.25
 		country_law_enactment_time_mult = 0.25
@@ -103,7 +103,8 @@ law_bureaucratic_government = {
 	
 	modifier = {
 		country_legitimacy_govt_total_clout_add = 30
-	
+		
+		country_bureaucracy_add = 300
 		country_prestige_add = 50
 		country_bureaucracy_mult = 0.5
 		country_law_enactment_time_mult = 0.5

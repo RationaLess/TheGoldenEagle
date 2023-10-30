@@ -34,12 +34,12 @@
   modifier_interest_group_ig_scholars_approval_add:2 "$ig_variant_scholars$ [concept_approval]"
   modifier_interest_group_ig_scholars_approval_add_desc:2 "A bonus or penalty to the total [concept_approval] of the $ig_variant_scholars$ [concept_interest_group]"
   
-  modifier_interest_group_ig_elites_pop_attraction_mult:1 "$ig_variant_elites$ Pop Attraction"
-  modifier_interest_group_ig_elites_pop_attraction_mult_desc:1 "A bonus or penalty to the how attracted Pops are to the $ig_variant_elites$ [concept_interest_group]"
-  modifier_interest_group_ig_elites_pol_str_mult:2 "$ig_variant_elites$ [concept_political_strength]"
-  modifier_interest_group_ig_elites_pol_str_mult_desc:2 "A bonus or penalty to the total [concept_political_strength] of the $ig_variant_elites$ [concept_interest_group]"
-  modifier_interest_group_ig_elites_approval_add:2 "$ig_variant_elites$ [concept_approval]"
-  modifier_interest_group_ig_elites_approval_add_desc:2 "A bonus or penalty to the total [concept_approval] of the $ig_variant_elites$ [concept_interest_group]"
+  modifier_interest_group_ig_governors_pop_attraction_mult:1 "$ig_variant_elites$ Pop Attraction"
+  modifier_interest_group_ig_governors_pop_attraction_mult_desc:1 "A bonus or penalty to the how attracted Pops are to the $ig_variant_elites$ [concept_interest_group]"
+  modifier_interest_group_ig_governors_pol_str_mult:2 "$ig_variant_elites$ [concept_political_strength]"
+  modifier_interest_group_ig_governors_pol_str_mult_desc:2 "A bonus or penalty to the total [concept_political_strength] of the $ig_variant_elites$ [concept_interest_group]"
+  modifier_interest_group_ig_governors_approval_add:2 "$ig_variant_elites$ [concept_approval]"
+  modifier_interest_group_ig_governors_approval_add_desc:2 "A bonus or penalty to the total [concept_approval] of the $ig_variant_elites$ [concept_interest_group]"
   
   
   
@@ -75,6 +75,9 @@
   modifier_country_empire_sprawl_load_subject_penalty:"[Concept('concept_sprawl_load','$concept_sprawl_load$')] Subject Population Modifier"
   modifier_country_empire_sprawl_load_subject_penalty_desc:"Changes the amount of [Concept('concept_sprawl_load','$concept_sprawl_load$')] obtained from Subject population."
   
+  concept_invasion:"Invasion"
+  concept_invasions:"Invasions"
+  concept_invasion_desc:"Invasion is a [Concept('concept_diplomatic_play','$concept_diplomatic_play$')] which offers us several options upon completion.\n\nThese effects are powerful but are restricted to less centralized targets such as [GetLawType('law_city_state').GetName]s.\n\nYou may use the play to Capture Slaves, Sack Cities or spread your culture (assuming you have [GetLawType('law_cultural_supremacy').GetName] or [GetLawType('law_cultural_primacy').GetName]).\n\n[GetLawType('law_tributary_empire').GetName] countries may acquire new tributaries this way, and [GetLawType('law_territory_integration').GetName] countries get a free annexation option.\n\nAdditionally, certain unification [Concept('concept_journal_entry',$'Journal Entries'$)] can give the option to annex same-culture city states, gaining Primary Culture [Concept('concept_loyalist',$'Loyalists'$)] in the process."
   
  modifier_country_minor_settlements_per_thousand:"[Concept('concept_minor_settlements','$concept_minor_settlements$')] per 5000 people"
  modifier_country_minor_settlements_per_thousand_desc:"Determines the amount of [Concept('concept_minor_settlements','$concept_minor_settlements$')] created."

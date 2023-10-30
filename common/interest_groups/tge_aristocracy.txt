@@ -50,16 +50,7 @@
 				value = 400
 			}
 		}
-		
-		add = {
-			desc = "POP_OFFICERS"
-			if = {
-				limit = { 
-					is_pop_type = officers
-				}
-				value = 100
-			}
-		}		
+			
 		
 		add = {
 			desc = "POP_FARMERS"

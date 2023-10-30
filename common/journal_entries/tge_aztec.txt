@@ -38,6 +38,10 @@ je_matters_of_texcoco = {
 			has_state_in_state_region = STATE_CHALCO
 		}
 	}
+	
+	immediate = {
+		trigger_event = matters_of_texcoco.1
+	}
 
 	possible = {
 		is_subject = no
@@ -48,6 +52,14 @@ je_matters_of_texcoco = {
 		is_subject = yes
 	}
 	
+	on_monthly_pulse = {
+		random_events = {
+			50 = 0
+			10 = matters_of_texcoco.2
+			5 = matters_of_texcoco.3
+		}
+	}
+
 	modifiers_while_active = {
 	}
 	
@@ -72,7 +84,7 @@ je_matters_of_texcoco = {
 				text = je_matters_of_texcoco_confederate
 				AND = {
 					has_variable = confederations_num
-					var:confederations_num = 1
+					var:confederations_num >= 1
 					NOT = {
 						has_law = law_type:law_bellicose
 						}

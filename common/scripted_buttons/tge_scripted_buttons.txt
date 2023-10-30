@@ -1,0 +1,39 @@
+confederation_establish_council_button = {
+	name = "confederation_establish_council_button"
+	desc = "confederation_establish_council_button_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		bureaucracy > 0
+		legitimacy > 75
+		ig:ig_ancillaries = {
+			is_in_government = yes
+		}
+		
+		has_law = law_type:law_alliance
+		NOT = {
+			any_subject_or_below = {
+				is_subject_type = subject_type_confederation_candidate 
+			}
+		}
+		
+		custom_tooltip = {
+				text = je_matters_of_texcoco_confederate
+				AND = {
+					has_variable = confederations_num
+					var:confederations_num >= 1
+					NOT = {
+						has_law = law_type:law_bellicose
+						}
+					}
+				}
+	}
+
+	effect = {
+		activate_law = law_type:law_council
+		trigger_event = { id = forging_alliances.2 days = 0 popup = yes }
+		
+		
+	}
+}

@@ -25,18 +25,16 @@ building_barracks = {
 	required_construction = construction_cost_very_low
 }
 
+
+
 building_conscription_center = {
 	building_group = bg_conscription
 	buildable = no
 	expandable = no
 	downsizeable = no
 	
-	unlocking_technologies = {
-		levied_warriors
-	}
-	
 	has_max_level = yes	
-	
+
 	levels_per_mesh = 0
 	residence_points_per_level = 0
 	city_type = none
@@ -45,10 +43,7 @@ building_conscription_center = {
 	texture = "gfx/interface/icons/building_icons/building_conscription_center.dds"
 
 	production_method_groups = {
-		#pmg_primary_weapons
-		#pmg_secondary_weapons
-		#pmg_armor
-		#pmg_supply
+		pmg_barracks
 	}
 }
 

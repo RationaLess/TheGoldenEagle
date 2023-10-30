@@ -106,7 +106,7 @@ law_bureaucratic_administration = {
 	modifier = {
 		state_bureaucracy_population_base_cost_factor_mult = -0.25
 		country_bureaucrats_pol_str_mult = 0.25
-		interest_group_ig_elites_pop_attraction_mult = 0.25
+		interest_group_ig_governors_pop_attraction_mult = 0.25
 	}
 	
 	possible_political_movements = {

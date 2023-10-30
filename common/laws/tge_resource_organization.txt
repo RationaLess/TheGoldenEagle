@@ -157,7 +157,7 @@ law_state_control = {
 	country_authority_add = 200
 		
 	country_bureaucrats_pol_str_mult = 0.5
-	interest_group_ig_elites_pop_attraction_mult = 0.5
+	interest_group_ig_governors_pop_attraction_mult = 0.5
 		
 	}
 	

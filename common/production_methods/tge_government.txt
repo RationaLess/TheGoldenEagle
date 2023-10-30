@@ -72,8 +72,8 @@ pm_temple_human_sacrifice = {
 		unscaled = {
 		state_loyalists_from_sol_change_accepted_religion_mult = 0.2
 		building_clergymen_shares_add = 1
-		building_freemen_mortality_mult = 0.5
-		building_slaves_mortality_mult = 0.5
+		building_freemen_mortality_mult = 5
+		building_slaves_mortality_mult = 5
 		}
 	}
 }

@@ -13,7 +13,7 @@ forging_alliances.1 = {
 	duration = 3
 
 	event_image = {
-		#TODO
+		texture = "gfx/event_pictures/tension_meso.dds"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -36,6 +36,205 @@ forging_alliances.1 = {
 			
 		custom_tooltip = {
 			text = confederations_unlocked
+			}
+		}
+}
+
+forging_alliances.2 = {
+	type = country_event
+	placement = capital
+
+	title = forging_alliances.2.t
+	desc = forging_alliances.2.d
+	flavor = forging_alliances.2.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/tension_meso.dds"
+	}
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		
+	}
+
+	immediate = {
+		capital = {
+			save_scope_as = capital_state
+		}
+	}
+
+	option = {
+			name = forging_alliances.2.a
+			default_option = yes
+		
+		add_loyalists = {
+			value = 0.1
+			strata = poor
+			}		
+			
+			ai_chance = {
+			base = 10
+			}
+		}
+	option = {
+		name = forging_alliances.2.b
+		
+		add_loyalists = {
+			value = 0.25
+			
+			}
+		
+		add_loyalists = {
+			value = 0.1
+			strata = middle
+			}	
+		
+		ig:ig_ancillaries = {
+			leader = {
+				set_ideology = ideology:ideology_leader_statist
+				}
+			}
+		
+			ai_chance = {
+			base = 50
+			}
+			
+		}
+	option = {
+		name = forging_alliances.2.c
+		
+		ig:ig_ancillaries = {
+			leader = {
+				set_ideology = ideology:ideology_leader_imperialist
+				}
+			}
+			
+			add_loyalists = {
+			value = 0.1
+			strata = rich
+			}	
+			
+			ai_chance = {
+			base = 40
+			}
+		}
+}
+
+forging_alliances.3 = {
+	type = country_event
+	placement = capital
+
+	title = forging_alliances.3.t
+	desc = forging_alliances.3.d
+	flavor = forging_alliances.3.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/diplomacy_meso.dds"
+	}
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+				is_subject_type = subject_type_confederation_candidate
+				has_variable = awaiting_confederation_a
+			}
+		
+		save_scope_as = confederating_with
+		}
+		
+		scope:confederating_with = {
+			remove_variable = awaiting_confederation_a
+		}
+	}
+
+	option = {
+			name = forging_alliances.3.a
+			default_option = yes
+		
+			add_modifier = {
+						name = began_confederating
+						months = 24
+					}
+			
+		ai_chance = {
+			base = 10
+			}
+		}
+}
+
+forging_alliances.4 = {
+	type = country_event
+	placement = capital
+
+	title = forging_alliances.4.t
+	desc = forging_alliances.4.d
+	flavor = forging_alliances.4.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/diplomacy_meso.dds"
+	}
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		
+	}
+
+	immediate = {
+		
+		random_country = {
+			limit = {
+				is_subject_type = subject_type_confederation_candidate
+				has_variable = awaiting_confederation_b
+			}
+		
+		save_scope_as = confederating_with
+		}
+		
+		scope:confederating_with = {
+			remove_variable = awaiting_confederation_b
+		}
+		
+	}
+
+	option = {
+			name = forging_alliances.4.a
+			default_option = yes
+		
+			add_modifier = {
+						name = recently_confederated
+						months = 120
+						decaying = yes
+					}
+			
+			annex = scope:confederating_with
+			activate_law = law_type:law_alliance
+			change_variable = {
+						name = confederations_num
+						add = 1
+					}
+			
+		ai_chance = {
+			base = 10
 			}
 		}
 }

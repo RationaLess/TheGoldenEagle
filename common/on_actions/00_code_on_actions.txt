@@ -15,6 +15,7 @@ on_monthly_pulse_country = {
 	}
 	effect = {
 		onaction_empire_sprawl_calc = yes
+		onaction_protectorate_check = yes
 	}
 	# Election Events
 	random_events = {

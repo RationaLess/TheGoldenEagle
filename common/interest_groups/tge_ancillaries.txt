@@ -36,24 +36,18 @@
 	OR = {
 		pop_has_primary_culture = no
 		religion_accepted = no
-		standard_of_living <= 20
+		standard_of_living <= 25
 		}
-		
+	NOT = {
+		is_pop_type = scholars
+		is_pop_type = officers
+	}
 		
 	}
 	
 	pop_weight = {
 		value = 100
 		
-		add = {
-			desc = "POOR_STRATA"
-			if = {
-				limit = {
-					strata = poor
-				}
-				value = 300
-			}
-		}
 		
 		add = {
 			desc = "POP_NOBLES"
@@ -61,7 +55,7 @@
 				limit = { 
 					is_pop_type = nobles
 				}
-				value = 50
+				value = 100
 			}
 		}
 		add = {
@@ -71,7 +65,7 @@
 					pop_has_primary_culture = no
 				}
 			}
-			value = 100
+			value = 200
 		}
 		
 		 

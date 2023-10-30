@@ -1,0 +1,307 @@
+﻿namespace = matters_of_texcoco
+
+#Start of JE
+matters_of_texcoco.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = matters_of_texcoco.1.t
+	desc = matters_of_texcoco.1.d
+	flavor = matters_of_texcoco.1.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/tension_meso.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+	ig:ig_aristocracy = {
+			save_scope_as = nobles
+			leader = {
+				save_scope_as = noble_leader
+			}
+		}
+	}
+
+	option = { #set_ideology
+			name = matters_of_texcoco.1.a
+			default_option = yes
+			
+			scope:noble_leader = {
+					set_ideology = ideology:ideology_leader_imperialist 
+				}
+			activate_law = law_type:law_bellicose
+			activate_law = law_type:law_tributary_empire
+			
+			ai_chance = {
+				base = 10
+				
+				modifier = {
+					trigger = {
+						this = c:ATA
+						}
+				add = 1000
+				}
+				
+				}	
+		}
+	option = { #set_ideology
+			name = matters_of_texcoco.1.b
+			default_option = yes
+			
+			scope:noble_leader = {
+					set_ideology = ideology:ideology_leader_confederate 
+				}
+			activate_law = law_type:law_appeasing
+			
+			ai_chance = {
+				base = 10
+				}	
+		}
+	option = { #set_ideology
+			name = matters_of_texcoco.1.c
+			default_option = yes
+			
+			scope:noble_leader = {
+					add_modifier = {
+						name = stalwart 
+					}					
+				}
+			
+			ai_chance = {
+				base = 10
+				}	
+		}
+
+}
+
+
+
+#Fishing Vessels Attacked
+matters_of_texcoco.3 = {
+	type = country_event
+	placement = ROOT
+
+	title = matters_of_texcoco.3.t
+	desc = matters_of_texcoco.3.d
+	flavor = matters_of_texcoco.3.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/warfare_meso.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+		
+		NOT = {
+			has_variable = texcoco_special_general
+			}
+		
+		any_country = {
+			has_journal_entry = je_matters_of_texcoco 
+			has_law = law_type:law_bellicose
+			NOT = { this = root }
+			NOT = {
+				has_war_with = ROOT
+			}
+		}
+	
+	}
+
+	immediate = {
+	
+		random_country = {
+					limit = {
+					has_journal_entry = je_matters_of_texcoco 
+					has_law = law_type:law_bellicose
+					NOT = { this = root }
+					NOT = {
+						has_war_with = ROOT
+						}
+					}
+				save_scope_as = their_country 
+			}
+	
+	}
+
+	option = { #curse them
+			name = matters_of_texcoco.3.a
+			default_option = yes
+			
+			add_radicals = {
+				value = 0.1
+				pop_type = warriors
+				}
+			
+			change_relations = {
+				country = scope:their_country
+				value = -30
+				}
+			
+			ai_chance = {
+				base = 25
+				}	
+		}
+	option = { #invite new warrior
+			name = matters_of_texcoco.3.b
+			
+			
+			add_radicals = {
+				value = 0.05
+				pop_type = warriors
+				}
+			set_variable = texcoco_special_general
+			create_character = {
+				age = 25
+				ideology = ideology_leader_confederate
+				interest_group = ig:ig_warrior_guilds
+				
+				
+				on_created = {
+						add_trait = basic_offensive_planner 
+						add_trait = imposing
+						add_character_role = general
+					}
+				
+				}
+			
+			
+			ai_chance = {
+				base = 75
+				}	
+		}
+
+}
+
+
+#Friendly Correspondence
+matters_of_texcoco.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = matters_of_texcoco.2.t
+	desc = matters_of_texcoco.2.d
+	flavor = matters_of_texcoco.2.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/diplomacy_meso.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+	
+		any_country = {
+			has_journal_entry = je_matters_of_texcoco 
+			NOT = { this = root }
+			NOT = {
+				has_law = law_type:law_bellicose
+				has_war_with = ROOT
+			}
+		}
+	
+	}
+
+	immediate = {
+	
+	random_country = {
+				limit = {
+				has_journal_entry = je_matters_of_texcoco 
+				NOT = { this = root }
+				NOT = {
+					has_law = law_type:law_bellicose
+					has_war_with = ROOT
+					}
+				}
+			save_scope_as = their_country 
+			ig:ig_aristocracy = {
+				save_scope_as = their_nobles
+				leader = {
+					save_scope_as = their_noble_leader
+				}
+			}
+		}
+	
+		ig:ig_aristocracy = {
+				save_scope_as = our_nobles
+				leader = {
+					save_scope_as = our_noble_leader
+				}
+			}
+	}
+
+	option = { #accept
+			name = matters_of_texcoco.2.a
+			default_option = yes
+			
+			
+			
+			change_relations = {
+				country =  scope:their_country
+				value = 20
+				}
+			
+			ai_chance = {
+				base = 25
+				}	
+		}
+	option = { #deny
+			name = matters_of_texcoco.2.b
+			default_option = yes
+			
+			
+			
+			
+			
+			ai_chance = {
+				base = 25
+				}	
+		}
+	option = { #sacrifice lmao
+			name = matters_of_texcoco.2.c
+			default_option = yes
+			
+			
+			add_modifier = {
+				name = blood_for_the_blood_god
+				months = 120
+				}
+			change_relations = {
+				country = scope:their_country
+				value = -30
+				}
+			create_incident = {
+				country = scope:their_country
+				value = 5
+				}
+			
+			ai_chance = {
+				base = 0
+				
+				modifier = {
+					trigger = {
+						has_law = law_type:law_bellicose
+						}
+					add = 100
+					}
+				}	
+		}
+
+}

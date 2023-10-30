@@ -6,3 +6,4 @@ concept_sprawl_capacity = {}
 
 concept_minor_settlements = {}
 
+concept_invasion = {}

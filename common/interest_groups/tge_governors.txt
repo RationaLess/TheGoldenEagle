@@ -1,4 +1,4 @@
-﻿ig_elites = {
+﻿ig_governors = {
 	color = hsv{ 0 0.56 0.58 }
 	texture = "gfx/interface/icons/ig_icons/trade_unions.dds"
 	
@@ -21,7 +21,7 @@
 	
 	on_enable = {
 		
-		ig:ig_elites = {
+		ig:ig_governors = {
 					set_ig_trait = ig_trait:ig_trait_indomitable_bureaucracy
 					set_ig_trait = ig_trait:ig_trait_strong_institutions
 					set_ig_trait = ig_trait:ig_trait_exercising_authority
@@ -59,15 +59,6 @@
 			}
 		}
 		
-		add = {
-			desc = "POP_OFFICERS"
-			if = {
-				limit = { 
-					is_pop_type = officers
-				}
-				value = 100
-			}
-		}
 		
 		add = {
 			desc = "POP_BUREAUCRATS"
