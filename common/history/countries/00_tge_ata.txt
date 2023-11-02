@@ -46,6 +46,24 @@
 			set_interest_group_name = ig_pochteca
 			}
 	}
+	c:TTLC = {
+		effect_starting_technology_mesoamerica_advanced = yes
+		
+		
+		effect_starting_laws_mesoamerica_citystate = yes
+
+		activate_law = law_type:law_warrior_guilds
+		activate_law = law_type:law_bellicose
+		activate_law = law_type:law_religious_tithes
+		activate_law = law_type:law_great_projects
+		
+		ig:ig_aristocracy = { 
+			add_ruling_interest_group = yes
+			set_interest_group_name = ig_mexica_nobles
+			
+		}
+		
+	}
 	c:AZC = {
 		ai_imperial_ambitions = ai_imperial_ambitions
 		
@@ -292,4 +310,208 @@
 		effect_starting_technology_mesoamerica_basic = yes
 		effect_starting_laws_mesoamerica_citystate = yes
 		}
+		
+	c:HUT = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+		
+	#Oaxaca
+	c:TRIQ = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:YCH = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:DIQ = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:NOX = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:COX = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:TLAT = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:COAT = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:GUIC = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:TOTO = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:ALO = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:TEH = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:TIL = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:HUT = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:AMUZ = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:POCH = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:HUAV = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:TLAP = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:YOPI = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:JUXT = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	#Yucu Dzaa
+	c:YDZ = {
+		effect_starting_technology_mesoamerica_advanced = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_warrior_guilds
+		activate_law = law_type:law_dedicated_government
+		activate_law = law_type:law_scholar_societies
+		activate_law = law_type:law_cultural_supremacy
+		
+		ig:ig_ancillaries = { 
+			remove_ideology = ideology_confederation_builders
+			add_ideology = ideology_pragmatic
+			}	
+		}
+	c:ZAA = {
+		effect_starting_technology_mesoamerica_advanced = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_warrior_guilds
+		activate_law = law_type:law_dedicated_government
+		activate_law = law_type:law_scholar_societies
+		activate_law = law_type:law_cultural_supremacy
+		
+		ig:ig_ancillaries = { 
+			remove_ideology = ideology_confederation_builders
+			add_ideology = ideology_pragmatic
+			}	
+		}
+	
+	
+	#Michauocan
+	c:CAIX = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:TAXI = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:TOLU = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:NOCH = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:TLTP = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:JUXT = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:TPCC = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:TXTL = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:IXTP = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:NCHI = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:AYOT = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:COAH = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:TECO = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:TANC = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:URUA = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:HUAN = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:MARA = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:TARA = {
+		
+		
+		set_strategy = ai_imperial_ambitions
+
+		effect_starting_technology_mesoamerica_advanced = yes
+		
+		
+		effect_starting_laws_mesoamerica_citystate = yes
+
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_bureaucratic_government
+		activate_law = law_type:law_infrastructure_investment
+		activate_law = law_type:law_territory_integration
+		activate_law = law_type:law_central_development
+		activate_law = law_type:law_bellicose
+		activate_law = law_type:law_warrior_guilds
+		}
+	
 }

@@ -113,8 +113,11 @@ onaction_minor_settlement_spawn = {
 		name = state_minor_settlement_modifier
 		multiplier = settlement_amount
 		}
-	
-	
+	create_building = {
+			building = building_barracks
+			level = 1
+			}
+
 	
 	
 	

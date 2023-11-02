@@ -3,7 +3,7 @@
 		region_state:ATA = {
 			create_pop = {
 				culture = mexica
-				size = 40000
+				size = 45000
 				}
 			create_pop = {
 				culture = tepanec				
@@ -12,6 +12,12 @@
 			create_pop = {
 				culture = acolhua			
 				size = 8000
+				}
+		}
+		region_state:TTLC = {
+			create_pop = {
+				culture = mexica
+				size = 40000
 				}
 		}
 	}
@@ -342,7 +348,24 @@
 	}
 	
 	#tlahuica
-	s:STATE_TLALTIZAPAN = {
+	
+	
+	#Nonoalca minors
+	s:STATE_PUEBLA = {
+		region_state:CHI = {
+			create_pop = {
+				culture = nonoalca
+				size = 9000
+				}
+			create_pop = {
+				culture = mazahua
+				size = 1000
+				}
+			create_pop = {
+				culture = nahua
+				size = 1000
+				}
+		}
 		region_state:THI = {
 			create_pop = {
 				culture = tlahuica
@@ -357,22 +380,6 @@
 				size = 500
 				}
 		}
-	}
-	
-	#Nonoalca minors
-	s:STATE_CHIAUHTLAN = {
-		region_state:CIU = {
-			create_pop = {
-				culture = nonoalca
-				size = 15000
-				}
-			create_pop = {
-				culture = triqui
-				size = 5000
-				}
-		}
-	}
-	s:STATE_TECAMACHALCO = {
 		region_state:TCM = {
 			create_pop = {
 				culture = nonoalca
@@ -383,36 +390,14 @@
 				size = 1500
 				}
 		}
-	}
-	s:STATE_CHIETLAN = {
-		region_state:CHI = {
+		region_state:CIU = {
 			create_pop = {
 				culture = nonoalca
-				size = 9000
+				size = 15000
 				}
 			create_pop = {
-				culture = mazahua
-				size = 1000
-				}
-			create_pop = {
-				culture = nahua
-				size = 1000
-				}
-		}
-	}
-	s:STATE_CHIETLAN = {
-		region_state:CHI = {
-			create_pop = {
-				culture = nonoalca
-				size = 9000
-				}
-			create_pop = {
-				culture = mazahua
-				size = 1000
-				}
-			create_pop = {
-				culture = nahua
-				size = 1000
+				culture = triqui
+				size = 5000
 				}
 		}
 	}

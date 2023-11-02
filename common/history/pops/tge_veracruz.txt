@@ -104,26 +104,6 @@
 				}
 		}
 	}
-	s:STATE_NDACHJIAN = {
-		region_state:NDC = {
-			create_pop = {
-				culture = popoloca
-				size = 15000
-				}
-			create_pop = {
-				culture = triqui
-				size = 1000
-				}
-			create_pop = {
-				culture = nonoalca
-				size = 1000
-				}
-			create_pop = {
-				culture = zapotec
-				size = 500
-				}
-		}
-	}
 	
 	#Chinantec
 	s:STATE_TUXTEPEC = {
@@ -171,6 +151,24 @@
 			create_pop = {
 				culture = zapotec
 				size = 500
+				}
+		}		
+		region_state:TEOT = {
+			create_pop = {
+				culture = zapotec
+				size = 30000
+				}
+			create_pop = {
+				culture = popoloca				
+				size = 1500
+				}
+			create_pop = {
+				culture = mazatec				
+				size = 1500
+				}
+			create_pop = {
+				culture = mixtec				
+				size = 1000
 				}
 		}
 	}

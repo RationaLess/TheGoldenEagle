@@ -226,18 +226,6 @@ POPS = {
 				}
 		}
 	}
-	s:STATE_COPAYATONAC = {
-		region_state:TPCC = {
-			create_pop = {
-				culture = nahua
-				size = 10000
-				}
-			create_pop = {
-				culture = cuitlatec
-				size = 29000
-				}
-		}
-	}
 	
 	
 	

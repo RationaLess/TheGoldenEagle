@@ -18,6 +18,7 @@ law_city_state = {
 		country_legitimacy_ideological_incoherence_mult = 0.20
 		country_authority_add = 50
 		country_legitimacy_headofstate_add = 20
+		country_empire_sprawl_load_mult = 0.5
 	}
 	
 	possible_political_movements = {
@@ -63,6 +64,7 @@ law_alliance = {
 		country_prestige_add = 10
 		country_legitimacy_govt_size_add = 1
 		country_legitimacy_ideological_incoherence_mult = -0.2
+		country_empire_sprawl_load_mult = 0.5
 	}
 	
 	possible_political_movements = {

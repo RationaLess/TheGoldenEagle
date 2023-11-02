@@ -21,3 +21,11 @@
  flavor_events.1.f:0 "The crowd erupts into a sacred song and dance as the head priest raises the victims still-beating heart for all to see. Their lifeless body topples down the pyramid stairs, but their soul ascends to sustain the cosmic cycle."
  
  flavor_events.1.a:0 "Blood for the Blood God!"
+ 
+ 
+ 
+ #interest_group_change
+ interest_group_change.1.t:"A New Role"
+ interest_group_change.1.d:"As [ROOT.GetCountry.GetName] has grown in size, it's become clear that [GetIdeology('ideology_confederation_builders').GetName] will not see their ambitious through."
+ interest_group_change.1.f:"The discourse has shifted too far from the idea of any kind of confederation or unification. The state has become an organism of its own - with bureaucrats as its limbs and laws as its blood. It is no longer a question of confederation - it's a question of tribute or vassalage, lest they be absorbed into the [ROOT.GetCountry.GetName] structure."
+ interest_group_change.1.a:"A more [GetIdeology('ideology_pragmatic').GetName] approach is long due."

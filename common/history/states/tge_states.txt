@@ -9,6 +9,10 @@
 			country = c:ATA
 			owned_provinces = { "x874607" }
 		}
+		create_state = {
+			country = c:TTLC
+			owned_provinces = { "xFEF904" }
+		}
 	}
 	s:STATE_EAST_TEXCOCO = {
 		add_homeland = acolhua
@@ -209,6 +213,10 @@
 			country = c:THP
 			owned_provinces = { "x3A531B" "x58EA12" "x626D19" "x73DE1E" "x74581D" "x898020" "x955126" "xCC5A2F" "xCC8228" "xE0E805" "xE96724" "xF1AC2A" "xFE5018" }
 		}
+		create_state = {
+			country = c:TEOT
+			owned_provinces = { "x3DCE15" "x3F7019" "x436D1B" "x4AD31F" "x539600" "x83A702" "xA1D001" "xBF8818" "xD35603" "xE2990B" "xE5B612" "xFD3C28" }
+		}
 	}
 	###CHINANTEC
 	s:STATE_TUXTEPEC = {
@@ -239,32 +247,25 @@
 	}
 	
 	###Nonoalca
-	s:STATE_CHIETLAN = {
+	s:STATE_PUEBLA = {
 		create_state = {
 			country = c:CHI
 			owned_provinces = { "x42960E" "x4B7D2C" "x4D8401" "x70D20B" "x82A008" "xA35B11" "xB0FE0B" "xEBCA0A" "xF3E42A" "xF54310" "xF83D2B" }
 		}
-	}
-	s:STATE_TECAMACHALCO = {
 		create_state = {
 			country = c:TCM
 			owned_provinces = { "x32F217" "x3BA212" "x407E16" "x4DA71C" "x705018" "x94BA2A" "x953E26" "xA0F719" "xD67C11" }
 		}
-	}
-	s:STATE_CHIAUHTLAN = {
 		create_state = {
 			country = c:CIU
 			owned_provinces = { "x4CDB02" "x8BC12D" "x95C409" "x967B21" "x9EE825" "xB3C421" "xB8D324" "xB96630" "xC35A24" "xC9C416" "xE2C931" "xF4D925" }
 		}
-	}
-	
-	#Tlahuica
-	s:STATE_TLALTIZAPAN = {
 		create_state = {
 			country = c:THI
 			owned_provinces = { "x428209" "x459E14" "x4A642E" "x588809" "x786630" "x7DA109" "x969A24" "xAA6E29" "xDC330D" "xE2812C" "xE67231" "xF7582A" }
 		}
 	}
+	
 	
 	
 	#Tarascan
@@ -322,12 +323,6 @@
 		create_state = {
 			country = c:NOCH
 			owned_provinces = { "x464701" "x4F7907" "x52341C" "x52500E" "x608720" "x69912E" "x9B6A0E" "xA1EA32" "xA47525" "xBBEA09" "xBF8925" "xD7EE11" "xE55608" "xE9960F" "xEB7207" "xFA902B" }
-		}
-	}
-	s:STATE_COPAYATONAC = {
-		create_state = {
-			country = c:TPCC
-			owned_provinces = { "x3F8209" "x40891C" "x4C7322" "x4CFE1C" "x70971F" "x72B02F" "x73790C" "x815E2E" "x858B11" "x87B80A" "xCFE012" "xD26A17" "xF59A1E" }
 		}
 	}
 	s:STATE_HUANIMARO = {

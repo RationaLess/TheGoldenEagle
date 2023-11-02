@@ -5,6 +5,9 @@ on_yearly_pulse_country = {
 	random_events = {
 		150 = 0
 		
+		#politikz
+		50 = interest_group_change.1
+
 		#Acts of God
 		30 = harvest_events.1
 		30 = harvest_events.2

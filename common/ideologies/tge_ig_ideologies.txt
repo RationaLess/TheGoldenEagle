@@ -41,23 +41,24 @@ ideology_lesser_lords = {
 		law_calpulli_system = strongly_approve
 		law_state_control = approve 
 	}
+	lawgroup_governance_principles = {
+		law_city_state = neutral
+		law_monarchy = strongly_disapprove 
+		law_council = strongly_approve
+		law_alliance = approve
+	}
 	
 }
 
 ideology_confederation_builders = {
 	icon = "gfx/interface/icons/ideology_icons/unused/communist.dds"
 	
-	lawgroup_governance_principles = {
-		law_city_state = neutral
-		law_monarchy = strongly_disapprove 
-		law_council = disapprove
-		law_alliance = strongly_approve
-	}
+	
 	lawgroup_distribution_of_power = {
-		law_dynastic = strongly_disapprove
+		law_dynastic = approve
 		law_feudal = neutral 
-		law_meritocratic = approve
-		law_elective = strongly_approve
+		law_meritocratic = disapprove
+		law_elective = disapprove
 	}
 	lawgroup_diplomatic_stance = {
 		law_neutral = neutral 
@@ -66,6 +67,42 @@ ideology_confederation_builders = {
 		law_bellicose = strongly_disapprove
 	}
 }
+
+ideology_pragmatic = {
+	
+	
+	lawgroup_institutionalization = {
+		law_informal_government = strongly_disapprove
+		law_assembly_government = strongly_disapprove 
+		law_court_government = disapprove
+		law_dedicated_government = approve 
+		law_bureaucratic_government = approve
+	}
+	
+	lawgroup_distribution_of_power = {
+		law_dynastic = disapprove
+		law_feudal = approve 
+		law_meritocratic = neutral
+		law_elective = strongly_approve
+	}
+	
+	lawgroup_development = {
+		law_decentralized_settlements = strongly_disapprove
+		law_urban_centers = strongly_disapprove
+		law_great_projects = strongly_approve
+		law_central_development = strongly_approve
+	}
+	
+	lawgroup_innovation = {
+		law_origin_myth = strongly_disapprove
+		law_priest_scholars = disapprove
+		law_infrastructure_investment = approve
+		law_scholar_societies = approve
+	}
+
+
+	}
+
 
 ideology_supremacist = {
 	icon = "gfx/interface/icons/ideology_icons/unused/fascist.dds"
@@ -93,6 +130,7 @@ ideology_supremacist = {
 		}	
 	
 }
+
 
 ideology_scientific = {
 	icon = "gfx/interface/icons/ideology_icons/unused/atheist.dds"

@@ -24,6 +24,9 @@
  ideology_confederation_builders:0 "Confederation Builders"
  ideology_confederation_builders_desc:0 "#lore This group wishes to forge strong bonds between cities that comprise our realm.#!"
  
+ ideology_pragmatic:0 "Pragmatic"
+ ideology_pragmatic_desc:"#lore This group will work within the political system of our polity to represent minority interests.#!
+ 
  ideology_meritocratic:0 "Meritocratic"
  ideology_meritocratic_desc:0 "#lore This group wants to organize society based on skill rather than heritage.#!"
  

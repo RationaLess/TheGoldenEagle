@@ -1,6 +1,8 @@
 ﻿l_english:
  ATA:0 "Tenochtitlan"
  ATA_ADJ:0 "Tenochca"
+ TTLC:"Tlatelolco"
+ TTLC_ADJ:"Tlatelolca"
  TLX:0 "Tlaxcala Republic"
  TLX_ADJ:0 "Tlaxcala"
  OTP:0 "Otompan"

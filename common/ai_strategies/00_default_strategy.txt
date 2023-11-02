@@ -540,6 +540,21 @@ ai_strategy_default = {
 	recklessness = {
 		value = 2
 		
+	# Bellicose countries should be far more brave
+		if = {
+			limit = {
+				has_law = law_type:law_city_state
+			}
+			add = 3
+		}
+	# City states should go for stupid plays to make the world more interesting
+		if = {
+			limit = {
+				has_law = law_type:law_city_state
+			}
+			add = 6
+		}
+		
 	}
 	
 	# How likely is the AI to start a diplomatic play against another country if their attitude allows for it
@@ -547,7 +562,7 @@ ai_strategy_default = {
 	aggression = {
 		value = 50
 		
-			# Opium wars aggressor should be very, very aggressive against target if they're banning opium
+		
 		if = {
 			limit = {
 				has_journal_entry = je_imperial_fervor
@@ -558,7 +573,19 @@ ai_strategy_default = {
 			limit = {
 				has_law = law_type:law_bellicose
 			}
-			add = 100
+			add = 25
+		}
+		
+		
+		#Totonac Infighting
+		if = {
+			limit = {
+				country_has_primary_culture = cu:totonac
+				scope:target_country = {
+					country_has_primary_culture = cu:totonac
+				}
+			}
+			add = 50
 		}
 		
 	}

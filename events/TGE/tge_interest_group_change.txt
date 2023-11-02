@@ -1,0 +1,46 @@
+﻿namespace = interest_group_change
+
+
+#Ancillaries
+interest_group_change.1 = {
+	type = country_event
+	placement = scope:harvest_state
+
+	title = interest_group_change.1.t
+	desc = interest_group_change.1.d
+	flavor = interest_group_change.1.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/diplomacy_meso.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		ig:ig_ancillaries = {
+			has_ideology = ideology_confederation_builders
+		}
+		OR = {
+			has_law = law_type:law_council
+			has_law = law_type:law_monarchy
+			has_law = law_type:law_bureaucratic_government
+			has_law = law_type:law_dedicated_government
+			}
+	}
+
+	immediate = {
+	}
+
+	option = {
+			name = interest_group_change.1.a
+			default_option = yes
+			ig:ig_ancillaries = {
+				remove_ideology = ideology_confederation_builders
+				add_ideology = ideology_pragmatic
+			}
+		}
+}

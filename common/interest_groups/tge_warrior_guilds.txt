@@ -4,6 +4,7 @@
 	
 	ideologies = {
 		ideology_warmonger
+		ideology_urbanist
 	}
 	
 	enable = { 
@@ -34,6 +35,7 @@
             
 			
 			OR = {
+				is_pop_type = nobles
 				is_pop_type = warriors
                 is_pop_type = officers
 				is_pop_type = porters
@@ -43,7 +45,27 @@
 
 	pop_weight = {
 		value = 100
-	
+		
+		
+		
+		#Scaling Imperialism
+		add = {
+			desc = "POP_NOBLES_IMPERIALISM"
+			if = {
+				limit = { 
+					is_pop_type = nobles
+				}
+				value = {
+					value = owner.prestige
+					
+					multiply = 0.1
+					
+					max = 100
+				}
+			}
+		}
+		
+		
 		add = {
 			desc = "POP_WARRIORS"
 			if = {

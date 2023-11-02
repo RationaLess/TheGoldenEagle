@@ -47,7 +47,6 @@ je_the_three_hearts = {
 	}
 
 	possible = {
-		prestige >= 100
 		has_technology_researched = politics
 		country_has_primary_culture = cu:totonac
 	}

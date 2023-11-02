@@ -8,9 +8,20 @@ country_type = recognized
 
 cultures = { mexica }
 
-capital = STATE_TENOCHTITLAn
+capital = STATE_TENOCHTITLAN
 
+}
+TTLC = { #Tlatelolco
 
+color = rgb { 153 214 109 }
+
+tier = principality
+
+country_type = recognized
+
+cultures = { mexica }
+
+capital = STATE_TENOCHTITLAN
 
 }
 ### AZCAPOTZALCO AND THEIR VASSAL STATES

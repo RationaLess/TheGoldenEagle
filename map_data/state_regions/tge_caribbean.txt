@@ -116,11 +116,11 @@ STATE_GUANAHATABEY = {
 }
 
 STATE_HABANA = {
-   id = 168
-   provinces = { "xDDE518" "x4AD82C" "x6A3B2C" "xF9E318" "xCC391D" "xB29B2D" "x859A02" "xA4AD21" "x74E818" "x46AB00" "xCCD413" "xF0ED2B" "x50BE2D" "x7B992F" "x877218" "xBE4510" "xC97C08" "xC5421C" "xB3870F" "xC97C08" "xF75E01" "x61EA1B" "xAC722A" "x905013" }
-	
-   city = "xB29B2D"
+    id = 168
+    provinces = { "x46AB00" "x4AD82C" "x50BE2D" "x61EA1B" "x6A3B2C" "x74E818" "x7B992F" "x859A02" "x877218" "x905013" "xA4AD21" "xAC722A" "xB29B2D" "xB3870F" "xBE4510" "xC5421C" "xC97C08" "xC97C08" "xCC391D" "xCCD413" "xDDE518" "xF0ED2B" "xF75E01" "xF9E318" }
 
-   arable_land = 55
+    city = "xB29B2D"
+
+    arable_land = 55
 
 }

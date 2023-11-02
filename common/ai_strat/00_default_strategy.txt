@@ -189,6 +189,14 @@ ai_strategy_default = {
 			add = 1
 		}		
 		
+		# City states may be stupid
+		if = {
+			limit = {
+				has_law = law_type:law_city_state			
+			}
+			add = 2
+		}	
+		
 		# Braver against own overlord in general
 		if = {
 			limit = {
@@ -233,6 +241,19 @@ ai_strategy_default = {
 			}
 			add = 25
 		}		
+		
+		# Very high aggression against pariah countries by Great Powers
+		if = {
+			limit = {
+				country_rank = rank_value:great_power
+				scope:target_country = {
+					infamy >= infamy_threshold:pariah
+					is_diplomatic_play_committed_participant = no
+					is_at_war = no
+				}
+			}
+			add = 25
+		}
 		
 	}
 	

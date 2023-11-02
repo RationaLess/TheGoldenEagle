@@ -36,4 +36,8 @@ confederation_establish_council_button = {
 		
 		
 	}
+
+	ai_chance = {
+		base = 100
+	}
 }

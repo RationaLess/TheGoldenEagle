@@ -17,22 +17,6 @@
 				}
 		}
 	}
-	s:STATE_PINOTEPA = {
-		region_state:YDZ = {
-			create_pop = {
-				culture = mixtec
-				size = 125000
-				}
-			create_pop = {
-				culture = amuzgo				
-				size = 2000
-				}
-			create_pop = {
-				culture = tlapanec				
-				size = 10000
-				}
-		}
-	}
 	s:STATE_TLAXIACO = {
 		region_state:YDZ = {
 			create_pop = {
@@ -57,6 +41,63 @@
 				}
 		}
 	}
+	
+	
+	s:STATE_COASTAL_MIXTECA = {
+		region_state:YDZ = {
+			create_pop = {
+				culture = mixtec
+				size = 125000
+				}
+			create_pop = {
+				culture = amuzgo				
+				size = 2000
+				}
+			create_pop = {
+				culture = tlapanec				
+				size = 10000
+				}
+		}
+		region_state:YOPI = {
+			create_pop = {
+				culture = tlapanec
+				size = 20000
+				}
+			create_pop = {
+				culture = mixtec				
+				size = 10000
+				}
+		}
+		region_state:AMUZ = {
+			create_pop = {
+				culture = amuzgo
+				size = 24500
+				}
+			create_pop = {
+				culture = mixtec				
+				size = 500
+				}
+			create_pop = {
+				culture = tlapanec				
+				size = 1500
+				}
+		}
+		region_state:TLAP = {
+			create_pop = {
+				culture = tlapanec
+				size = 27000
+				}
+			create_pop = {
+				culture = mixtec				
+				size = 500
+				}
+			create_pop = {
+				culture = amuzgo				
+				size = 1000
+				}
+		}
+	}
+	
 	
 	#Za'Achila
 	s:STATE_ZAACHILA = {
@@ -110,120 +151,6 @@
 				size = 10000
 				}
 		}
-	}
-	
-	
-	#Zapotec Minors
-	s:STATE_TEHUANTEPEC = {
-		region_state:TEH = {
-			create_pop = {
-				culture = zapotec
-				size = 45000
-				}
-			create_pop = {
-				culture = mixe				
-				size = 3000
-				}
-		}
-	}
-	s:STATE_ALOTEPEC = {
-		region_state:ALO = {
-			create_pop = {
-				culture = zapotec
-				size = 39000
-				}
-			create_pop = {
-				culture = mixe				
-				size = 14500
-				}
-		}
-	}
-	s:STATE_TEOTITLAN = {
-		region_state:TEOT = {
-			create_pop = {
-				culture = zapotec
-				size = 30000
-				}
-			create_pop = {
-				culture = popoloca				
-				size = 1500
-				}
-			create_pop = {
-				culture = mazatec				
-				size = 1500
-				}
-			create_pop = {
-				culture = mixtec				
-				size = 1000
-				}
-		}
-	}
-	
-	#Mixe Minors
-	
-	s:STATE_TLAHUITOLTEPEC = {
-		region_state:TLAT = {
-			create_pop = {
-				culture = mixe
-				size = 50000
-				}
-			create_pop = {
-				culture = chinantec				
-				size = 1500
-				}
-			create_pop = {
-				culture = zapotec				
-				size = 1000
-				}
-			create_pop = {
-				culture = mixtec				
-				size = 500
-				}
-		}
-	}
-	s:STATE_COATLICAMAC = {
-		region_state:COAT = {
-			create_pop = {
-				culture = mixe
-				size = 39500
-				}
-			create_pop = {
-				culture = chinantec				
-				size = 1500
-				}
-			create_pop = {
-				culture = zapotec				
-				size = 500
-				}
-		}
-	}
-	s:STATE_TOTONTEPEC = {
-		region_state:TOTO = {
-			create_pop = {
-				culture = mixe
-				size = 24000
-				}
-			create_pop = {
-				culture = zapotec				
-				size = 3000
-				}
-		}
-	}
-	s:STATE_GUICHICOVI = {
-		region_state:GUIC = {
-			create_pop = {
-				culture = mixe
-				size = 18500
-				}
-			create_pop = {
-				culture = zapotec				
-				size = 1000
-				}
-		}
-	}
-	
-	#Huave/Pochutec
-	s:STATE_HUATULCO = {
 		region_state:POCH = {
 			create_pop = {
 				culture = pochutec
@@ -254,86 +181,90 @@
 		}
 	}
 	
-	#Amuzgo
 	
-	s:STATE_CASANDOO = {
-		region_state:AMUZ = {
+	#Zapotec Minors
+	s:STATE_TEHUANTEPEC = {
+		region_state:TEH = {
 			create_pop = {
-				culture = amuzgo
-				size = 24500
+				culture = zapotec
+				size = 45000
 				}
 			create_pop = {
-				culture = mixtec				
-				size = 500
+				culture = mixe				
+				size = 3000
+				}
+		}
+		region_state:ALO = {
+			create_pop = {
+				culture = zapotec
+				size = 39000
 				}
 			create_pop = {
-				culture = tlapanec				
-				size = 1500
+				culture = mixe				
+				size = 14500
+				}
+		}
+		region_state:TOTO = {
+			create_pop = {
+				culture = mixe
+				size = 24000
+				}
+			create_pop = {
+				culture = zapotec				
+				size = 3000
 				}
 		}
 	}
+
+
 	
-	#Tlapanec Minors
-	s:STATE_TLAPAN = {
-		region_state:TLAP = {
+	#Mixe Minors
+	
+
+	s:STATE_COATLICAMAC = {
+		region_state:COAT = {
 			create_pop = {
-				culture = tlapanec
-				size = 27000
+				culture = mixe
+				size = 39500
 				}
 			create_pop = {
-				culture = mixtec				
+				culture = chinantec				
+				size = 1500
+				}
+			create_pop = {
+				culture = zapotec				
 				size = 500
 				}
+		}
+	}
+
+	s:STATE_GUICHICOVI = {
+		region_state:GUIC = {
 			create_pop = {
-				culture = amuzgo				
+				culture = mixe
+				size = 18500
+				}
+			create_pop = {
+				culture = zapotec				
 				size = 1000
 				}
 		}
 	}
-	s:STATE_YOPITZINCO = {
-		region_state:YOPI = {
-			create_pop = {
-				culture = tlapanec
-				size = 20000
-				}
-			create_pop = {
-				culture = mixtec				
-				size = 10000
-				}
-		}
-	}
+	
+	#Huave/Pochutec
+
+	
+	#Amuzgo
+	
+
+	
+	
 	
 	
 	#Mixtec Minors 
-	s:STATE_TILANTONGO = {
-		region_state:TIL = {
-			create_pop = {
-				culture = mixtec
-				size = 54000
-				}
-			create_pop = {
-				culture = zapotec				
-				size = 4000
-				}
-		}
-	}
-	s:STATE_COIXTLAHUACA = {
-		region_state:COX = {
-			create_pop = {
-				culture = mixtec
-				size = 46000
-				}
-			create_pop = {
-				culture = zapotec				
-				size = 2500
-				}
-			create_pop = {
-				culture = popoloca				
-				size = 1000
-				}
-		}
-	}
-	s:STATE_HUAMELULPAN = {
+
+
+	s:STATE_MIXTECA_BAJA = {
 		region_state:NOX = {
 			create_pop = {
 				culture = mixtec
@@ -348,36 +279,92 @@
 				size = 1500
 				}
 		}
-	}
-	s:STATE_DIQUIYU = {
-		region_state:DIQ = {
+		region_state:NDC = {
+			create_pop = {
+				culture = popoloca
+				size = 15000
+				}
+			create_pop = {
+				culture = triqui
+				size = 1000
+				}
+			create_pop = {
+				culture = nonoalca
+				size = 1000
+				}
+			create_pop = {
+				culture = zapotec
+				size = 500
+				}
+		}
+		region_state:TIL = {
 			create_pop = {
 				culture = mixtec
-				size = 63000
+				size = 54000
 				}
 			create_pop = {
-				culture = triqui				
-				size = 3500
+				culture = zapotec				
+				size = 4000
+				}
+		}
+		region_state:COX = {
+			create_pop = {
+				culture = mixtec
+				size = 46000
 				}
 			create_pop = {
-				culture = tlapanec				
+				culture = zapotec				
+				size = 2500
+				}
+			create_pop = {
+				culture = popoloca				
+				size = 1000
+				}
+		}
+		region_state:TLAT = {
+			create_pop = {
+				culture = mixe
+				size = 50000
+				}
+			create_pop = {
+				culture = chinantec				
+				size = 1500
+				}
+			create_pop = {
+				culture = zapotec				
+				size = 1000
+				}
+			create_pop = {
+				culture = mixtec				
 				size = 500
 				}
 		}
 	}
-	s:STATE_YUKU_CHATUTA = {
-		region_state:YCH = {
+	s:STATE_MIXTECA_ALTA = {
+		region_state:TRIQ = {
 			create_pop = {
-				culture = mixtec
+				culture = triqui
 				size = 48000
 				}
 			create_pop = {
-				culture = tlapanec				
-				size = 1500
+				culture = mixtec				
+				size = 9000
+				}
+			create_pop = {
+				culture = nonoalca				
+				size = 2000
 				}
 		}
-	}
-	s:STATE_JUXTLAHUACA = {
+		region_state:TPCC = {
+			create_pop = {
+				culture = nahua
+				size = 10000
+				}
+			create_pop = {
+				culture = cuitlatec
+				size = 29000
+				}
+		}
 		region_state:JUXT = {
 			create_pop = {
 				culture = mixtec
@@ -392,20 +379,28 @@
 				size = 1000
 				}
 		}
-	}
-	s:STATE_ACHTIULA = {
-		region_state:TRIQ = {
+		region_state:YCH = {
 			create_pop = {
-				culture = triqui
+				culture = mixtec
 				size = 48000
 				}
 			create_pop = {
-				culture = mixtec				
-				size = 9000
+				culture = tlapanec				
+				size = 1500
+				}
+		}
+		region_state:DIQ = {
+			create_pop = {
+				culture = mixtec
+				size = 63000
 				}
 			create_pop = {
-				culture = nonoalca				
-				size = 2000
+				culture = triqui				
+				size = 3500
+				}
+			create_pop = {
+				culture = tlapanec				
+				size = 500
 				}
 		}
 	}
