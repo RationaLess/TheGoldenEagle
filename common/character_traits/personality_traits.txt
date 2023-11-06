@@ -728,6 +728,50 @@ brave = {
 	value = 3
 }
 
+melancholic = {
+	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/lunatic.dds"
+
+	character_modifier = {
+		character_health_add = -0.05
+		character_popularity_add = -10
+	}
+
+	command_modifier = {
+	}
+
+	country_modifier = {
+		country_prestige_mult = -0.1
+	}
+
+	agitator_modifier = {
+	}
+
+	interest_group_modifier = {
+		interest_group_pop_attraction_mult = -0.05
+	}
+
+	possible = {
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+	weight = {
+		value = 1
+		if = {
+			limit = {
+				has_role = agitator
+			}
+			multiply = 1.5
+		}
+	}
+
+	replace = {
+		trait_child
+	}
+
+	value = 3
+}
+
 innovative = {
 	type = personality
 	texture = "gfx/interface/icons/character_trait_icons/innovative.dds"

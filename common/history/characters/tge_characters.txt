@@ -1,17 +1,69 @@
 ﻿CHARACTERS = {
 	c:ATA = {
+		#Leader of Tenochtitlan
 		create_character = {
 			# Itzcoatl
 			name = Itzcoatl
 			ruler = yes
 			ig_leader = yes
+			historical = yes
 			birth_date = 1380.5.5
 			
 			culture = cu:mexica
 			
+			ideology = ideology_imperialist
 			interest_group = ig_aristocracy
 			traits = {
+				imposing
 				imperious
+				cruel
+				expert_political_operator
+			}
+		}
+		#Leader Of Texcoco
+		create_character = {
+			# nezahualcoyotl
+			name = Nezahualcoyotl
+			historical = yes
+			ig_leader = yes
+			is_general = yes
+			birth_date = 1402.1.1
+			
+			on_created = {
+				set_variable = nezahualcoyotl
+				}
+			
+			culture = cu:acolhua
+			
+			ideology = ideology_statist
+			interest_group = ig_scholars
+			traits = {
+				imperious
+				innovative
+				melancholic
+				masterful_diplomat
+				expert_offensive_planner
+				poet
+				polymath
+			}
+		}
+		#Leader of Tlacopan
+		create_character = {
+			# nezahualcoyotl
+			name = Totoquihuaztli
+			historical = yes
+			ig_leader = yes
+			birth_date = 1405.1.1
+			
+			
+			culture = cu:tepanec
+			
+			ideology = ideology_moderate
+			interest_group = ig_ancillaries
+			traits = {
+				direct
+				tactful
+				basic_diplomat
 			}
 		}
 	}

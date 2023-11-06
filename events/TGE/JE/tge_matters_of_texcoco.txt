@@ -305,3 +305,53 @@ matters_of_texcoco.2 = {
 		}
 
 }
+
+
+matters_of_texcoco.4 = { #Tepaneca War
+	type = country_event
+	placement = root
+
+	gui_window = event_window_1char_tabloid
+	left_icon = scope:nezahua
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	title = matters_of_texcoco.4.t
+	desc = matters_of_texcoco.4.d
+	flavor = matters_of_texcoco.4.f
+
+	duration = 3
+
+
+	trigger = {
+		
+	}
+
+	immediate = {
+		random_character = {
+			limit = {
+				has_variable = nezahualcoyotl
+			}
+			save_scope_as = nezahua
+		}
+		
+		c:ATA = {
+			save_scope_as = aztec 
+			}
+		c:TLX = {
+			save_scope_as = tlaxcala
+			}
+		c:AZC = {
+			save_scope_as = azcapotzalco
+		}
+		
+	}
+
+	option = {
+		name = matters_of_texcoco.4.a
+		default_option = yes
+	}
+}

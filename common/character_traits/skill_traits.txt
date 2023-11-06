@@ -1778,28 +1778,28 @@ engineer = {
 	value = 3
 }
 
-master_bureaucrat = {
+polymath = {
 	type = skill
-	texture = "gfx/interface/icons/character_trait_icons/master_bureaucrat.dds"
+	texture = "gfx/interface/icons/character_trait_icons/erudite.dds"
 
 	character_modifier = {
+		character_popularity_add = 30
 	}
 
 	country_modifier = {
-		country_bureaucracy_mult = 0.1
-		country_bureaucrats_pol_str_mult = 0.10
+		country_society_weekly_innovation_mult = 0.2
+		country_prestige_mult = 0.15
 	}
 
 	agitator_modifier = {
-		interest_group_pol_str_mult = 0.05
+		interest_group_pol_str_mult = 0.15
 	}
 
 	command_modifier = {
-		character_supply_route_cost_mult = -0.25
 	}
 
-	interest_group_modifier = { # not colorful, but capable
-		interest_group_pop_attraction_mult = -0.05
+	interest_group_modifier = {
+		interest_group_pop_attraction_mult = 0.1
 		interest_group_pol_str_mult = 0.05
 	}
 
@@ -1807,15 +1807,70 @@ master_bureaucrat = {
 		value = 1
 		if = {
 			limit = {
-				has_trait = meticulous
+				has_trait = innovative
 			}
 			multiply = 3
 		}
 		if = {
 			limit = {
-				has_role = agitator
+				has_trait = poet
+			}
+			multiply = 3
+		}
+		if = {
+			limit = {
 				interest_group = {
-					is_interest_group_type = ig_petty_bourgeoisie
+					is_interest_group_type = ig_scholars
+				}
+			}
+			multiply = 3
+		}
+	}
+
+	possible = {
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+	replace = {
+	}
+}
+
+poet  = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/literary.dds"
+
+	character_modifier = {
+		character_popularity_add = 30
+	}
+
+	country_modifier = {
+		country_weekly_innovation_add = 10
+		country_prestige_mult = 0.1
+	}
+
+	agitator_modifier = {
+		interest_group_pol_str_mult = 0.3
+	}
+
+	command_modifier = {
+	}
+
+	interest_group_modifier = { 
+		interest_group_pol_str_mult = 0.1
+	}
+
+	weight = {
+		value = 1
+		if = {
+			limit = {
+				has_trait = melancholic
+			}
+			multiply = 3
+		}
+		if = {
+			limit = {
+				interest_group = {
+					is_interest_group_type = ig_scholars
 				}
 			}
 			multiply = 3

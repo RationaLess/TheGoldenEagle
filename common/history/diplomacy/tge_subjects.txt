@@ -1,4 +1,10 @@
 DIPLOMACY = {
+	c:ATA = {
+		create_diplomatic_pact = {
+			country = c:TTLC
+			type = vassal
+		}
+	}
 	c:AZC = {
 		create_diplomatic_pact = {
 			country = c:CUA

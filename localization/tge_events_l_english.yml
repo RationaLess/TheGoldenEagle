@@ -106,6 +106,11 @@
  matters_of_texcoco.3.a:"We will have our revenge."
  matters_of_texcoco.3.b:"Just who is this fighter, exactly?"
  
+ matters_of_texcoco.4.t:"The Tepaneca War"
+ matters_of_texcoco.4.d:"The [SCOPE.sStrategicRegion('region_anahuac').GetName] situation has escalated to a war between the [SCOPE.sCountry('azcapotzalco').GetName] against a newly formed [SCOPE.sCountry('aztec').GetName] and her allies."
+ matters_of_texcoco.4.f:"The polymath, philosopher, and general extraordinaire [SCOPE.sCharacter('nezahua').GetFullName] has managed to persuade many city-states to his cause, including the famed [SCOPE.sCountry('tlaxcala').GetName]. With the coalition at the ready, he is to lead the siege to restore the throne of Texcoco to its rightful dynasty, carve a future for the [SCOPE.sCountry('aztec').GetName], and avenge his father Ixtlilxochitl the first in the process."
+ matters_of_texcoco.4.a:"\"Annochipa tlalticpac. Zan achica ye nican.\""
+ 
  #[SCOPE.sState('capital_state').GetName]
  #[SCOPE.gsInterestGroup('urbanist_one_ig').GetName]
  #[SCOPE.gsInterestGroup('urbanist_two_ig').GetName]

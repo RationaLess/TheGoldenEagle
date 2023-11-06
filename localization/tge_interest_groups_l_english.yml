@@ -33,7 +33,7 @@
  
  ig_governors:0 "Governors"
  ig_governors_only_icon:0 "@trade_unionists!"
- ig_governors_desc:0 "Government-adjcent men of wealth and status who are unrelated to noble families and seek to strengthen and entrench their positions."
+ ig_governors_desc:0 "Bureaucrats, administrators, and other men whose interest aligns with the state government."
  
  ig_tlatelolco:0 "Tlatelolco"
  ig_tlatelolco_only_icon:0 "@industrialists!"
@@ -51,6 +51,22 @@
  ig_teopixqui:0 "Teopixqui"
  ig_teopixqui_only_icon:0 "@devout!"
  ig_teopixqui_desc:0 "The old order commited to carrying out the will of the war god Huitzilopochtli, the mighty one who surely favors the Mexica."
+ 
+ ig_teopixqui:0 "Teopixqui"
+ ig_teopixqui_only_icon:0 "@devout!"
+ ig_teopixqui_desc:0 "The old order commited to carrying out the will of the war god Huitzilopochtli, the mighty one who surely favors the Mexica."
+ 
+ ig_tlamatinime:"Tlamatinime"
+ ig_tlamatinime_only_icon:"@intelligensia!"
+ ig_tlamatinime_desc:"Scholars, codex painters, philosophers, and artists who are politically engaged."
+ 
+ ig_macehualtin:"Macehualtin"
+ ig_macehualtin_only_icon:"@rural_folk!"
+ ig_macehualtin_desc:"Freemen, Farmers, and other lower class folk of the empire.
+ 
+ ig_cuauhtlatoani:"Cuauhtlatoani"
+ ig_cuauhtlatoani_only_icon:"@trade_unionists!"
+ ig_cuauhtlatoani_desc:"Appointed administrators of the Aztec Empire, overseeing provinces whose leaders were supplanted."
  
  ig_pochteca:0 "Pochteca"
  ig_pochteca_only_icon:0 "@industrialists!"

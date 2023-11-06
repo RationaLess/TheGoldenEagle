@@ -103,7 +103,13 @@ subject_management.1 = {
 				
 				
 				}	
-			
+				
+				
+				add_loyalists = {
+				value = 0.1
+				interest_group = ig:ig_aristocracy 
+				}
+				
 				scope:protectorate_to_change = {
 						custom_tooltip = {
 							text = subject_management.1.b.tooltip
@@ -146,7 +152,12 @@ subject_management.1 = {
 			trigger = {
 	
 				}	
-			
+				
+				add_loyalists = {
+				value = 0.1
+				interest_group = ig:ig_freemen
+				}
+				
 				scope:protectorate_to_change = {
 						
 						every_scope_pop = {
@@ -177,6 +188,11 @@ subject_management.1 = {
 			trigger = {
 					has_law = law_type:law_tributary_empire
 				}	
+			
+				add_loyalists = {
+					value = 0.1
+					interest_group = ig:ig_warrior_guilds
+				}
 			
 				scope:protectorate_to_change = {
 						
@@ -225,6 +241,11 @@ subject_management.1 = {
 					has_law = law_type:law_territory_integration
 				}	
 				annex = scope:protectorate_to_change
+			
+			add_loyalists = {
+				value = 0.1
+				interest_group = ig:ig_governors
+				}
 			
 			add_modifier = {
 					name = expanded_borders

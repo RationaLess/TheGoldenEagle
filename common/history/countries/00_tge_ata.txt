@@ -23,6 +23,14 @@
 		
 		add_journal_entry = { type = je_tepaneca_war }
 		
+		effect = {
+			every_country = {
+					limit = {
+					has_interest_marker_in_region = region_anahuac
+					}
+				trigger_event = { id = matters_of_texcoco.4 }
+			}
+		}
 		
 		
 		
@@ -44,6 +52,21 @@
 		
 		ig:ig_merchant_guilds = { 
 			set_interest_group_name = ig_pochteca
+			}
+		
+		ig:ig_warrior_guilds = { 
+			set_interest_group_name = ig_eagle_warriors
+			}
+		
+		ig:ig_governors = { 
+			set_interest_group_name = ig_cuauhtlatoani
+			}
+		
+		ig:ig_scholars = { 
+			set_interest_group_name = ig_tlamatinime
+			}
+		ig:ig_freemen = { 
+			set_interest_group_name = ig_macehualtin
 			}
 	}
 	c:TTLC = {
