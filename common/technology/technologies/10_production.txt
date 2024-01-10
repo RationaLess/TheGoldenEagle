@@ -296,7 +296,11 @@ trader_accomodations = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
 	category = production
-
+	
+	modifier = {
+		country_empire_sprawl_capacity_mult = 0.1
+		}
+	
 	unlocking_technologies = {
 		basic_roads
 	}
@@ -323,6 +327,10 @@ basic_roads = {
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
 	category = production
 
+	modifier = {
+		country_empire_sprawl_capacity_mult = 0.1
+		}
+
 	unlocking_technologies = {
 		infrastructure
 	}
@@ -345,7 +353,11 @@ stone_roads = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
 	category = production
-
+	
+	modifier = {
+		country_empire_sprawl_capacity_mult = 0.1
+		}
+	
 	unlocking_technologies = {
 		basic_roads
 	}

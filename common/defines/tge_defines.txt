@@ -89,12 +89,12 @@ NWar = {
 
 ### Pop Growth Constants
 @min_birthrate = 0.0030
-@max_birthrate = 0.0080
+@max_birthrate = 0.0120 #0.0080
 @min_mortality = 0.0010
 @max_mortality = 0.0070
 @pop_growth_sol_equilibrium = 5							# Equilibrium is where (with no birthrate/death-rate mods) growth is stagnant
-@pop_growth_sol_delta_cap = 30							# SoL Delta Cap is where net growth stops increasing with rising SoL, i.e. both drop at the same pace
-@pop_growth_sol_cap = 40								# SoL Cap is where they birthrate/death-rate stop dropping
+@pop_growth_sol_delta_cap = 60							# SoL Delta Cap is where net growth stops increasing with rising SoL, i.e. both drop at the same pace
+@pop_growth_sol_cap = 80								# SoL Cap is where they birthrate/death-rate stop dropping
 
 @mortality_at_equilibrium = @[max_birthrate-(pop_growth_sol_equilibrium*(max_birthrate-min_birthrate)/pop_growth_sol_cap)]
 @birthrate_at_delta_cap = @[max_birthrate-(pop_growth_sol_delta_cap*(max_birthrate-min_birthrate)/pop_growth_sol_cap)]

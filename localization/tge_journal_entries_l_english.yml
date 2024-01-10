@@ -48,3 +48,12 @@
  #Formalize
  je_formalize_the_realm:"Formalize the Realm"
  je_formalize_the_realm_reason:"The ever increasing duties associated with running a modern empire will strech our leaders thin. We must create a reliable form of government if we want to further our agenda."
+ 
+ 
+ #Revolt
+ je_revolt:"Revolt!"
+ je_revolt_reason:"A provincial revolt is upon us."
+ je_revolt_max_tension:"The revolt is very likely to escalate."
+ je_revolt_high_tension:"The revolt is likely to escalate."
+ je_revolt_mid_tension:"The revolt may escalate."
+ je_revolt_low_tension:"The revolt will not escalate."

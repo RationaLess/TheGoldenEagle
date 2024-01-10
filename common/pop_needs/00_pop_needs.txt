@@ -110,15 +110,8 @@ popneed_standard_clothing = {
 
 
 popneed_regular_items = {
-	default = clothes
+	default = furniture
 	
-	entry = {
-		goods = clothes
-		
-		weight = 1
-		max_weight = 3.0 # Maxes out at 80% of supply share
-		min_weight = 0.0
-	}
 	entry = {
 		goods = furniture
 		

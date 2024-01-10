@@ -62,7 +62,9 @@
  law_alliance:0 "Alliance"
  law_alliance_desc:0 "This polity is structured as an assembly of member states, each one having near-equal representation in the affairs of the larger realm."
  law_monarchy:0 "Monarchy"
- law_monarchy_desc:0 "Monarchies are highly centralized governing bodies where the leader weilds nigh-absolute power."
+ law_monarchy_desc:0 "Monarchies are highly centralized countries where governance revolves around the central figure of the king."
+ law_dictatorship:0 "Dictatorship"
+ law_dictatorship_desc:0 "This law represents a sole individuals de-facto assumed control over the country's entire political system."
  
  
  law_empire:0 "Empire"

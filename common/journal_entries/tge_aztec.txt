@@ -1,6 +1,8 @@
 ﻿je_tepaneca_war = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-
+	
+	group = je_group_historical_content
+	
 	complete = {
 		owns_entire_state_region = STATE_WEST_TEXCOCO
 	}
@@ -51,6 +53,9 @@
 
 je_matters_of_texcoco = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	
+	group = je_group_foreign_affairs
+	
 	
 	is_shown_when_inactive = {
 		OR = {

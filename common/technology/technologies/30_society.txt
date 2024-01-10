@@ -681,6 +681,7 @@ state_bureaucracy = {
 	
 	modifier = {
 		country_institution_courts_max_investment_add = 1
+		country_empire_sprawl_capacity_mult = 0.2
 		}
 	
 	unlocking_technologies = {

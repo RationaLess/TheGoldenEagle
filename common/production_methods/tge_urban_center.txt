@@ -240,7 +240,7 @@ pm_luxury_housing = {
 	
 	building_modifiers = { 
 		workforce_scaled = {
-			goods_input_furniture_add = 1
+			#goods_input_furniture_add = 1
 			
 			#goods_output_services_add = 2
 		}

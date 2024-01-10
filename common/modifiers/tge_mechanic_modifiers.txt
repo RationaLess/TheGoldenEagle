@@ -2,15 +2,17 @@
 
 empire_sprawl_malus = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
-   	unit_army_offense_mult = -0.5
-	unit_army_defense_mult = -0.5
-	country_law_enactment_time_mult = 1
+	
+	
+	state_market_access_price_impact = -0.25
+	unit_morale_loss_mult = 1
 }
 
 empire_sprawl_bonus = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-    country_legitimacy_base_add = 20
-    country_bureaucracy_investment_cost_factor_mult = -0.75
+	
+	country_authority_mult = 0.5
+	state_market_access_price_impact = 0.25
 }
 
 #Minor Settlements

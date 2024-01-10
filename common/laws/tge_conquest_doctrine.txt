@@ -46,6 +46,7 @@ law_local_hegemon = {
 	progressiveness = 0
 	
 	unlocking_technologies = {
+		vassalage
 	}
 		
 	on_activate = {
@@ -81,6 +82,7 @@ law_tributary_empire = {
 	progressiveness = 0
 	
 	unlocking_technologies = {
+		tributaries
 	}
 		
 	on_activate = {
@@ -116,6 +118,7 @@ law_territory_integration = {
 	progressiveness = 0
 	
 	unlocking_technologies = {
+		imperial_holdings
 	}
 		
 	on_activate = {

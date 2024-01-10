@@ -17,6 +17,8 @@ possible = {
 		}
 		
 		game_date >= 1430.1.1
+		
+		always = no
 	}
 
 
@@ -84,7 +86,9 @@ current_value = {
 	}
 
 on_complete = {
-
+	
+	
+	
 		
 	trigger_event = {
 			id = urbanization_efforts.3
@@ -148,6 +152,7 @@ possible = {
 					}
 			}
 		
+		always = no
 		
 	}
 

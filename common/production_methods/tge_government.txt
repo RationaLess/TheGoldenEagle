@@ -82,6 +82,13 @@ pm_market = {
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
 	disallowing_laws = {
 	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+				country_empire_sprawl_capacity_add = 25
+			}
+		}
+	
 	state_modifiers = {
 		workforce_scaled = {
 				state_infrastructure_add = 25

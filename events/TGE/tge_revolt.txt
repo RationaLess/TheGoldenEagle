@@ -1,0 +1,51 @@
+﻿namespace = revolt
+
+
+#A new Project
+revolt.1 = {
+	type = country_event
+	placement = capital
+
+	title = revolt.1.t
+	desc = revolt.1.d
+	flavor = revolt.1.f
+
+	duration = 3
+
+	event_image = {
+		#TODO
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/critical_meso.dds"
+
+	trigger = {
+		
+	}
+
+	immediate = {
+	
+	}
+
+	option = {
+			name = revolt.1.a
+			default_option = yes
+				add_modifier = {
+					name = strong_urban_sentiment
+					months = 120
+					is_decaying = yes
+				}
+			
+		}
+	option = {
+			name = revolt.1.b
+			default_option = yes
+				add_modifier = {
+					name = moderate_urban_sentiment
+					months = 60
+					is_decaying = yes
+				}
+			
+		}
+}

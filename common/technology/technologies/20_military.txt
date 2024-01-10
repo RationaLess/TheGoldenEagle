@@ -19,12 +19,12 @@ raiding = {
 
 standing_army = {
 	# Unlocks Barracks building
-	era = era_1
+	era = era_2
 	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
 	category = military
 	
 	unlocking_technologies = {
-		military_artisans
+		warrior_bands
 	}
 	
 	modifier = {
@@ -109,7 +109,21 @@ military_training  = {
 	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
 	category = military
 	unlocking_technologies = {
-		warrior_guilds
+		military_artisans
+		tributaries
+	}
+}
+
+porters  = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		basic_weapons
+	}
+	
+	modifier = {
+		country_empire_sprawl_capacity_mult = 0.2
 	}
 }
 
@@ -173,7 +187,21 @@ vassalage  = {
 	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
 	category = military
 	unlocking_technologies = {
-		warrior_bands
+		tributaries
+	}
+}
+
+
+outposts = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		vassalage
+	}
+	
+	modifier = {
+		country_empire_sprawl_capacity_mult = 0.2
 	}
 }
 
@@ -228,12 +256,17 @@ warrior_societies  = {
 	}
 }
 
-empire_building  = {
+imperial_holdings = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
 	category = military
 	unlocking_technologies = {
 		vassalage
+		warrior_societies
+	}
+	
+	modifier = {
+		country_empire_sprawl_capacity_mult = 0.2
 	}
 }
 

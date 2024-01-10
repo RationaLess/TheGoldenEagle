@@ -37,7 +37,9 @@ law_warrior_guilds = {
 	
 	progressiveness = 0
 	
-	unlocking_technologies = {  }
+	unlocking_technologies = { 
+		standing_army
+	 }
 	
 	modifier = {
 		unit_morale_loss_mult = -0.1
@@ -64,7 +66,9 @@ law_military_education = {
 	
 	progressiveness = 0
 	
-	unlocking_technologies = {  }
+	unlocking_technologies = { 
+		military_education
+	 }
 	
 	modifier = {
 		unit_morale_loss_mult = -0.2
@@ -93,7 +97,9 @@ law_honorary_titles = {
 	
 	progressiveness = 50
 	
-	unlocking_technologies = {  }
+	unlocking_technologies = { 
+		honorary_titles
+	 }
 	
 	modifier = {
 		unit_morale_loss_mult = -0.3

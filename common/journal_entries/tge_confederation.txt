@@ -1,6 +1,8 @@
 ﻿je_forging_alliances = {
 	should_be_pinned_by_default = yes
-
+	
+	group = je_group_foreign_affairs
+	
 is_shown_when_inactive = {
 		
 		NOT = {
@@ -110,7 +112,7 @@ on_complete = {
 je_awaiting_confederation = {
 	should_be_pinned_by_default = yes
 
-	
+	group = je_group_foreign_affairs
 
 	possible = {
 			is_subject = yes

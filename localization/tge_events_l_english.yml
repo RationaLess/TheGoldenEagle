@@ -59,6 +59,12 @@
  forging_alliances.4.f:"\"Have you heard? The [ROOT.GetCountry.GetAdjectiveNoFormatting] alliance actually bore fruit.\"\n\"I've seen my fair share of alliances, boy, and let me tell you - the hard part is still ahead of them.\""
  forging_alliances.4.a:"Praise Quetzalcoatl!"
  
+ #Revolt!
+ revolt.1.t:"Revolt!"
+ revolt.2.d:"[SCOPE.sCountry('revolter_country').GetName] has declared itself independent from [ROOT.GetCountry.GetName], inciting a [concept_revolt]."
+ revolt.2.f:"\"They could crush our armies, our hopes, dreams, and ambitions -- but they cannot crush our hearts. And so long as my heart beats, I will oppose [ROOT.GetCountry.GetRuler.GetFirstName] with all my might.\""
+ revolt.1.a:"The army will take care of this."
+ revolt.1.b:"We might need all the help we can get."
  
  
  
