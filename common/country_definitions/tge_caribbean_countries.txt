@@ -297,6 +297,121 @@ capital = STATE_HABANA
 
 }
 
+MISI = { # Maisi
+
+color = { 53 136 10 }
+
+tier = principality
+
+country_type = recognized
+	
+cultures = { ayiti }
+
+capital = STATE_BAYAQUITIRI
+
+}
+
+BRCO = { # Baracoa
+
+color = { 104 238 34 }
+
+tier = principality
+
+country_type = recognized
+	
+cultures = { ayiti }
+
+capital = STATE_BAYAQUITIRI
+
+}
+
+BYQT = { # Bayaquitiri
+
+color = { 92 250 25 }
+
+tier = principality
+
+country_type = recognized
+	
+cultures = { ciboney }
+
+capital = STATE_BAYAQUITIRI
+
+}
+
+SAGU = { # Sagua
+
+color = { 73 240 23 }
+
+tier = principality
+
+country_type = recognized
+	
+cultures = { ciboney }
+
+capital = STATE_BAYAQUITIRI
+
+}
+
+BRJG = { # Barajagua
+
+color = { 73 240 23 }
+
+tier = principality
+
+country_type = recognized
+	
+cultures = { ciboney }
+
+capital = STATE_BAYAQUITIRI
+
+}
+
+MIYE = { # Maiye
+
+color = { 97 188 50 }
+
+tier = principality
+
+country_type = recognized
+	
+cultures = { ciboney }
+
+capital = STATE_BAYAQUITIRI
+
+}
+
+GMYA = { # Guaimaya
+
+color = { 73 151 43 }
+
+tier = principality
+
+country_type = recognized
+	
+cultures = { ciboney }
+
+capital = STATE_BAYAQUITIRI
+
+}
+
+MGNS = { # Maguanos
+
+color = { 147 249 48 }
+
+tier = principality
+
+country_type = recognized
+	
+cultures = { ciboney }
+
+capital = STATE_BAYAQUITIRI
+
+}
+
+
+
+
 
 
 

@@ -124,3 +124,14 @@ STATE_HABANA = {
     arable_land = 55
 
 }
+
+STATE_BAYAQUITIRI = {
+    id = 169
+    provinces = { "xB0CA13" "x44612E" "x61BC32" "x8D7005" "x49972B" "x93F930" "xD3691A" "xA9C91D" "x715230" "x4DEC2D" "x957716" "x77981D" "x95A918" "xB73E05" "x5CFA19" "x5A952A" "x837C0B" "x53E41E" "xDF8526" "x49F017" "x49D42B" "xF0ED2B" "xB5AA22" "xCCE307" "xD76A2A" "xFA8A19" "x968113" "x38BD12" "xDF732F" "x61E51B" "x568F05" "x35880A" "x68EE22" "x434513" "x53D717" "xDAEE0F" "xDAE51B" "x43471A" "x995A08" "xA7BF2E" }
+	
+    city = "xFA8A19"
+
+    arable_land = 65
+
+}
+	

@@ -120,11 +120,11 @@ s:STATE_WADADLI = {
 s:STATE_GUANAHATABEY = {
 	create_state = {
 		country = c:GGNO
-		owned_provinces = { xD94506 }
+		owned_provinces = { xD94506 x67C932 }
 	}
 	create_state = {
 		country = c:GNA
-		owned_provinces = { x67C932 x4FF91D x595332 xFADC2F xFCC21B x59831B xF05611 x6E991C xA4FC31 x935A21 x5A642C xF9F829 }
+		owned_provinces = { x4FF91D x595332 xFADC2F xFCC21B x59831B xF05611 x6E991C xA4FC31 x935A21 x5A642C xF9F829 }
 	}
 	create_state = {
 		country = c:MRIN
@@ -143,5 +143,44 @@ s:STATE_HABANA = {
 		owned_provinces = { x877218 xBE4510 xC97C08 xC5421C xB3870F xC97C08 xF75E01 x61EA1B xAC722A x905013 }
         }
 	add_homeland = ciboney
+}
+
+s:STATE_BAYAQUITIRI = {
+	create_state = {
+		country = c:MISI
+		owned_provinces = { xA7BF2E x995A08 x43471A xDAEE0F x53D717 x35880A x568F05 }
+	}
+	create_state = {
+		country = c:BRCO
+		owned_provinces = { xDAE51B x68EE22 x434513 }
+        }
+	create_state = {
+		country = c:BYQT
+		owned_provinces = { xB0CA13 x44612E xA9C91D x715230 xB73E05 x95A918 x5CFA19 x5A952A xDF8526 x49D42B xB5AA22 x38BD12 x968113 xFA8A19 }
+        }
+	create_state = {
+		country = c:SAGU
+		owned_provinces = { xDF732F xCCE307 x61E51B xD76A2A x53E41E x49F017 }
+        }
+	create_state = {
+		country = c:BRJG
+		owned_provinces = { xD3691A x957716 x4DEC2D x77981D x837C0B }
+        }
+	create_state = {
+		country = c:MIYE
+		owned_provinces = { x61BC32 }
+        }
+	create_state = {
+		country = c:GMYA
+		owned_provinces = { x8D7005 }
+        }
+	
+	create_state = {
+		country = c:MGNS
+		owned_provinces = { x49972B x49972B }
+        }
+	add_homeland = ayiti
+	add_homeland = ciboney
+
 	}
 }
