@@ -15,7 +15,7 @@ building_temple = {
 
 	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
 
-	required_construction = 2000
+	required_construction = 12000
 }
 
 building_ball_court = {
@@ -37,7 +37,7 @@ building_ball_court = {
 	
 	urbanization = 100
 	
-	required_construction = 1000
+	required_construction = 8000
 }
 
 building_royal_palace = {
@@ -59,7 +59,7 @@ building_royal_palace = {
 	
 	urbanization = 100
 	
-	required_construction = 1000
+	required_construction = 8000
 }
 
 
@@ -82,7 +82,7 @@ building_market = {
 
 	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
 
-	required_construction = 500
+	required_construction = 1000
 }
 
 building_trading_post = {
@@ -103,7 +103,7 @@ building_trading_post = {
 
 	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
 
-	required_construction = 500
+	required_construction = 1000
 }
 
 
@@ -123,5 +123,5 @@ building_government_administration = {
 
 	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
 
-	required_construction = 500
+	required_construction = 1000
 }

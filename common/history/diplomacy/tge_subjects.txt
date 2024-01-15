@@ -8,35 +8,35 @@ DIPLOMACY = {
 	c:AZC = {
 		create_diplomatic_pact = {
 			country = c:CUA
-			type = puppet
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:TZO
-			type = puppet
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:XAL
-			type = puppet
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:CUL
-			type = puppet
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:XOC
-			type = puppet
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:XOC
-			type = puppet
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:TULA
-			type = puppet
+			type = tributary
 		}
 		create_diplomatic_pact = {
 			country = c:CNH
-			type = puppet
+			type = tributary
 		}
 		
 	}

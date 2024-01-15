@@ -67,6 +67,7 @@ law_goods_as_currency = {
 		state_artisans_investment_pool_contribution_add = 0.25
 		
 		tax_consumption_add = 0.2
+		country_gold_reserve_limit_mult = 2
 		
 	}
 	
@@ -162,6 +163,8 @@ law_regulated_commerce = {
 		tax_dividents_add = 0.05
 		
 		country_authority_add = 50
+
+		country_gold_reserve_limit_mult = 4
 		
 	}
 	
@@ -205,6 +208,8 @@ law_standardized_coins = {
 		country_loan_interest_rate_mult = -0.5
 		
 		country_authority_add = 100
+
+		country_gold_reserve_limit_mult = 8
 		
 	}
 	

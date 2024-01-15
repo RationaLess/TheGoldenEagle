@@ -46,6 +46,10 @@ blunt_weapons = {
 	unlocking_technologies = {
 		basic_weapons
 	}
+	
+	modifier = {
+        unit_kill_rate_add = 0.05
+	}
 }
 
 bladed_weapons = {
@@ -54,6 +58,18 @@ bladed_weapons = {
 	category = military
 	unlocking_technologies = {
 		basic_weapons
+	}
+}
+
+imperial_core = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = {
+		vassalage
+	}
+	ai_weight = { #Content
+		value = 10
 	}
 }
 
@@ -231,6 +247,7 @@ urban_levies  = {
 	category = military
 	unlocking_technologies = {
 		military_education
+		imperial_core
 	}
 	modifier = {
 		state_conscription_rate_add = 0.1

@@ -15,3 +15,44 @@ showmodifier_empire_sprawl_malus = {
 		}
 	}
 }
+
+
+showmodifier_cultural_influence_insignificant = {
+	effect = {
+		add_modifier = {
+			name = cultural_influence_insignificant
+		}
+	}
+}
+
+showmodifier_cultural_influence_weak = {
+	effect = {
+		add_modifier = {
+			name = cultural_influence_weak
+		}
+	}
+}
+
+showmodifier_cultural_influence_notable = {
+	effect = {
+		add_modifier = {
+			name = cultural_influence_notable
+		}
+	}
+}
+
+showmodifier_cultural_influence_regional = {
+	effect = {
+		add_modifier = {
+			name = cultural_influence_regional
+		}
+	}
+}
+
+showmodifier_cultural_influence_legendary = {
+	effect = {
+		add_modifier = {
+			name = cultural_influence_legendary
+		}
+	}
+}

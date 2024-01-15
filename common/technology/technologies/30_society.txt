@@ -131,6 +131,7 @@ record_keeping = {
 	
 	modifier = {
 		country_institution_schools_max_investment_add = 1	
+		country_cultural_influence = 0.05
 		}
 	
 	unlocking_technologies = {
@@ -285,6 +286,7 @@ festivals = {
 	
 	
 	modifier = {
+		country_cultural_influence = 0.05
 		}
 	
 	unlocking_technologies = {
@@ -579,6 +581,7 @@ historiography = {
 	
 	
 	modifier = {
+		country_cultural_influence = 0.05
 		}
 	
 	unlocking_technologies = {

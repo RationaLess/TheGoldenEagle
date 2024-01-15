@@ -85,7 +85,7 @@ pm_market = {
 	
 	country_modifiers = {
 		workforce_scaled = {
-				country_empire_sprawl_capacity_add = 25
+				country_empire_sprawl_capacity_add = 100
 			}
 		}
 	
@@ -96,6 +96,7 @@ pm_market = {
 		}
 	building_modifiers = {
 		workforce_scaled = { 
+			goods_input_tools_add = 1
 		}
 		
 		level_scaled = {
@@ -218,7 +219,7 @@ pm_admin_basic = {
 	
 	country_modifiers = {
 		workforce_scaled = {
-			country_bureaucracy_add = 10
+			country_bureaucracy_add = 25
 
 		}
 	}	
@@ -249,7 +250,7 @@ pm_admin_advanced = {
 	
 	country_modifiers = {
 		workforce_scaled = {
-			country_bureaucracy_add = 20
+			country_bureaucracy_add = 50
 
 		}
 	}	
@@ -281,7 +282,7 @@ pm_admin_dedicated = {
 	
 	country_modifiers = {
 		workforce_scaled = {
-			country_bureaucracy_add = 30
+			country_bureaucracy_add = 100
 
 		}
 	}	

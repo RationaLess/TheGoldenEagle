@@ -6,9 +6,17 @@
 # MILITARY #
 ############
 
-weapons = {
+wooden_weapons = {
 	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
-	cost = 50
+	cost = 40
+	category = military
+	
+	prestige_factor = 5
+}
+
+obsidian_weapons = {
+	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
+	cost = 75
 	category = military
 	
 	prestige_factor = 5

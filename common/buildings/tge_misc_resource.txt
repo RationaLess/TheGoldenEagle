@@ -1,16 +1,4 @@
-﻿building_logging_camp = {
-	building_group = bg_logging
-	texture = "gfx/interface/icons/building_icons/logging_camp.dds"
-	city_type = wood
-	required_construction = 500
-	terrain_manipulator = forestry
-	levels_per_mesh = 5
-
-	production_method_groups = {
-		pmg_logging
-		pmg_organization
-	}
-}
+﻿
 
 building_fishing_wharf = {
 	building_group = bg_fishing

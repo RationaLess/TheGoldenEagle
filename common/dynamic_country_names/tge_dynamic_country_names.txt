@@ -1,0 +1,161 @@
+﻿DEFAULT = {
+	
+	#Empires
+	#dynamic_country_name = {
+	#	name = generic_empire
+	#	adjective = generic_empire_adj
+	#
+	#	priority = 500
+	#	
+	#	# Scripted trigger, country-scope
+	#	trigger = {
+	#		exists = scope:actor
+	#		scope:actor = {
+	#			has_variable = empire_title
+	#		}
+	#	}
+	#}
+	
+	#Unique Alliances
+	
+	
+	dynamic_country_name = {
+		name = north_texcoco_confederation
+		adjective = north_texcoco_confederation_adj
+
+		priority = 200
+		
+		# Scripted trigger, country-scope
+		trigger = {
+			exists = scope:actor
+				scope:actor = {
+					has_variable = confederations_num
+					var:confederations_num > 0
+					has_law = law_type:law_alliance
+					capital = { state_region = s:STATE_NORTH_TEXCOCO }
+				}
+		}
+	}
+	dynamic_country_name = {
+		name = south_texcoco_confederation
+		adjective = north_texcoco_confederation_adj
+		
+		priority = 200
+		
+		# Scripted trigger, country-scope
+		trigger = {
+			exists = scope:actor
+				scope:actor = {
+					has_variable = confederations_num
+					var:confederations_num > 0
+					has_law = law_type:law_alliance
+					OR = {
+						capital = { state_region = s:STATE_CHALCO }
+						capital = { state_region = s:STATE_XOCHIMILCO }
+						}
+				}
+		}
+	}
+	
+	#Generic Alliances
+	dynamic_country_name = {
+		name = generic_alliance_two_members
+		adjective = generic_alliance_two_members_adj
+
+		priority = 110
+		
+		# Scripted trigger, country-scope
+		trigger = {
+			exists = scope:actor
+				scope:actor = {
+					has_variable = confederations_num
+					var:confederations_num = 1
+					has_law = law_type:law_alliance
+				}
+		}
+	}	
+	dynamic_country_name = {
+		name = generic_alliance_three_members
+		adjective = generic_alliance_three_members_adj
+
+		priority = 120
+		
+		# Scripted trigger, country-scope
+		trigger = {
+			exists = scope:actor
+				scope:actor = {
+					has_variable = confederations_num
+					var:confederations_num = 2
+					has_law = law_type:law_alliance
+				}
+		}
+	}	
+	dynamic_country_name = {
+		name = generic_alliance_four_members
+		adjective = generic_alliance_four_members_adj
+
+		priority = 130
+		
+		# Scripted trigger, country-scope
+		trigger = {
+			exists = scope:actor
+				scope:actor = {
+					has_variable = confederations_num
+					var:confederations_num = 3
+					has_law = law_type:law_alliance
+				}
+		}
+	}	
+	dynamic_country_name = {
+		name = generic_alliance_five_members
+		adjective = generic_alliance_five_members_adj
+
+		priority = 140
+		
+		# Scripted trigger, country-scope
+		trigger = {
+			exists = scope:actor
+				scope:actor = {
+					has_variable = confederations_num
+					var:confederations_num = 4
+					has_law = law_type:law_alliance
+				}
+		}
+	}
+	dynamic_country_name = {
+		name = generic_alliance_more_members
+		adjective = generic_alliance_more_members_adj
+
+		priority = 150
+		
+		# Scripted trigger, country-scope
+		trigger = {
+			exists = scope:actor
+				scope:actor = {
+					has_variable = confederations_num
+					var:confederations_num > 4
+					has_law = law_type:law_alliance
+				}
+		}
+	}
+}
+
+
+
+#Aztecs
+ATA = {
+	dynamic_country_name = {
+		name = dyn_c_aztec_empire
+		adjective = dyn_c_aztec_empire_adj
+		
+		is_main_tag_only = yes
+		priority = 300
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_variable = empire_title
+			}
+		}
+	}
+}

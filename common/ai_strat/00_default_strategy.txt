@@ -268,7 +268,7 @@ ai_strategy_default = {
 	}
 	
 	goods_stances = {
-		weapons = {
+		obsidian_weapons = {
 			stance = wants_high_supply
 			trigger = {
 				always = yes

@@ -24,3 +24,12 @@ country_minor_settlements_per_thousand = {
 	neutral = yes
 	num_decimals = 2
 }
+
+country_cultural_influence = {
+	good = yes
+	percent = yes
+	}
+	
+building_urban_center_throughput_add = {
+	good = yes
+	}

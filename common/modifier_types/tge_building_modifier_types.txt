@@ -23,15 +23,24 @@ goods_input_cotton_add = {
 	percent = no
 }
 
-goods_output_weapons_add = {
+goods_output_wooden_weapons_add = {
 	good = yes
 	percent = no
 } 
-
-goods_input_weapons_add = {
+goods_input_wooden_weapons_add = {
 	good = no
 	percent = no
 }
+
+goods_output_obsidian_weapons_add = {
+	good = yes
+	percent = no
+} 
+goods_input_obsidian_weapons_add = {
+	good = no
+	percent = no
+}
+
 
 goods_output_services_add = {
 	good = yes
@@ -79,6 +88,26 @@ goods_output_pottery_add = {
 } 
 
 goods_input_pottery_add = {
+	good = no
+	percent = no
+}
+
+goods_output_clothes_add = {
+	good = yes
+	percent = no
+} 
+
+goods_input_clothes_add = {
+	good = no
+	percent = no
+}
+
+goods_output_luxury_clothes_add = {
+	good = yes
+	percent = no
+} 
+
+goods_input_luxury_clothes_add = {
 	good = no
 	percent = no
 }

@@ -1,0 +1,53 @@
+﻿namespace = kindling_the_empire
+
+
+#A new Project
+kindling_the_empire.1 = {
+	type = country_event
+	placement = capital
+
+	title = kindling_the_empire.1.t
+	desc = kindling_the_empire.1.d
+	flavor = kindling_the_empire.1.f
+
+	duration = 3
+
+	event_image = {
+		#TODO
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		
+	}
+
+	immediate = {
+	
+		random_interest_group = {
+			limit = {
+				is_powerful = yes
+				is_in_government = yes
+				OR = {
+					is_interest_group_type = ig_warrior_guilds
+					leader = {
+						OR = {
+							has_ideology = ideology:ideology_leader_imperialist
+							}
+						}
+					}
+				}
+			save_scope_as = imperial_ig
+			set_variable = og_imperial_ig
+			}
+
+	}
+
+	option = {
+			name = kindling_the_empire.1.a
+			default_option = yes
+			
+		}
+}

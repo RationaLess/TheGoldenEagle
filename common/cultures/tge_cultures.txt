@@ -1174,3 +1174,48 @@ guanahatabey = {
 }
 
 
+putun = {
+	color = { 75 128 106 }
+	religion = animist
+	traits = { native_heritage maya_speaking }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+yucatec = {
+	color = { 34 120 28 }
+	religion = animist
+	traits = { native_heritage maya_speaking }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+

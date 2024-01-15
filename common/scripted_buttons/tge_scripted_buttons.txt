@@ -5,7 +5,12 @@ confederation_establish_council_button = {
 	visible = { always = yes }
 
 	possible = {
-		bureaucracy > 0
+		
+		OR = {
+			has_law = law_type:law_dedicated_government
+			has_law = law_type:law_bureaucratic_government
+		}
+	
 		legitimacy > 75
 		ig:ig_ancillaries = {
 			is_in_government = yes

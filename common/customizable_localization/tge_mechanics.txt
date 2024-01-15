@@ -1,0 +1,36 @@
+cultural_influence_level_loc = {
+	type = country
+	text = {
+		trigger = {
+			cultural_influence_value < 0.20
+		}
+		localization_key = "INSIGNIFICANT_INFLUENCE"
+	}
+	text = {
+		trigger = {
+			cultural_influence_value >= 0.20
+			cultural_influence_value < 0.40
+		}
+		localization_key = "WEAK_INFLUENCE"
+	}
+	text = {
+		trigger = {
+			cultural_influence_value >= 0.40
+			cultural_influence_value < 0.60
+		}
+		localization_key = "NOTABLE_INFLUENCE"
+	}
+	text = {
+		trigger = {
+			cultural_influence_value >= 0.60
+			cultural_influence_value < 0.80
+		}
+		localization_key = "REGIONAL_INFLUENCE"
+	}
+	text = {
+		trigger = {
+			cultural_influence_value >= 0.80
+		}
+		localization_key = "LEGENDARY_INFLUENCE"
+	}
+}

@@ -156,7 +156,6 @@ dp_annex_subject = {
 	texture = "gfx/interface/icons/war_goals/annex_country.dds"
 	
 	possible = {
-		has_law = law_type:law_territory_integration
 		
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes

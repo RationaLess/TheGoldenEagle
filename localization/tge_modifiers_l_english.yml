@@ -1,5 +1,8 @@
 ﻿l_english:
   
+   DURATION_FOREVER:0 "#variable indefinitely#!"
+  
+  
   modifier_state_building_temple_max_level_add:0 "$building_temple$ Max Level"
   modifier_state_building_temple_max_level_add_desc:0 "A bonus or penalty to the maximum level of $building_temple$ buildings."
   
@@ -75,9 +78,18 @@
   modifier_country_empire_sprawl_load_subject_penalty:"[Concept('concept_sprawl_load','$concept_sprawl_load$')] Subject Population Modifier"
   modifier_country_empire_sprawl_load_subject_penalty_desc:"Changes the amount of [Concept('concept_sprawl_load','$concept_sprawl_load$')] obtained from Subject population."
   
+  empire_sprawl_bonus:"[Concept('concept_empire_sprawl','$concept_empire_sprawl$')] Bonus"
+  empire_sprawl_malus:"[Concept('concept_empire_sprawl','$concept_empire_sprawl$')] Malus"
+  
   concept_invasion:"Invasion"
   concept_invasions:"Invasions"
   concept_invasion_desc:"Invasion is a [Concept('concept_diplomatic_play','$concept_diplomatic_play$')] which offers us several options upon completion.\n\nThese effects are powerful but are restricted to less centralized targets such as [GetLawType('law_city_state').GetName]s.\n\nYou may use the play to Capture Slaves, Sack Cities or spread your culture (assuming you have [GetLawType('law_cultural_supremacy').GetName] or [GetLawType('law_cultural_primacy').GetName]).\n\n[GetLawType('law_tributary_empire').GetName] countries may acquire new tributaries this way, and [GetLawType('law_territory_integration').GetName] countries get a free annexation option.\n\nAdditionally, certain unification [Concept('concept_journal_entry',$'Journal Entries'$)] can give the option to annex same-culture city states, gaining Primary Culture [Concept('concept_loyalist',$'Loyalists'$)] in the process."
   
  modifier_country_minor_settlements_per_thousand:"[Concept('concept_minor_settlements','$concept_minor_settlements$')] per 5000 people"
  modifier_country_minor_settlements_per_thousand_desc:"Determines the amount of [Concept('concept_minor_settlements','$concept_minor_settlements$')] created."
+ 
+ 
+ concept_cultural_influence:"Cultural Influence"
+ concept_cultural_influence_desc:"Cultural Influence is a measure of how much your [Concept('concept_country','$concept_country$')] can affect others in regards to cultural and artistic exports. It will grow or shrink depending on[GetInterestGroupVariant('ig_scholars',GetPlayer).GetNameWithCountryVariant] and[GetInterestGroupVariant('ig_ancillaries',GetPlayer).GetNameWithCountryVariant] [concept_approval]. It is also positively influenced by [Concept('concept_empire_sprawl','$concept_empire_sprawl$')] and [Concept('concept_literacy','$concept_literacy$')] while negatively by [Concept('concept_infamy','$concept_infamy$')], though the bulk of your Cultural Influence will likely come from [Concept('concept_law','Laws')], [Concept('concept_technology','Technologies')] and [Concept('concept_journal_entry','Journal Entries')].\n$TOOLTIP_DELIMITER$\n#V The higher our Cultural Influence, the more leverage we have when requesting diplomatic pacts.#! Additionally, for every 20% of Cultural Influence you possess, you gain a new level, each with its own respective modifiers, which are as follows:\n$TOOLTIP_DELIMITER$\n $cultural_influence_insignificant_showmodifier$\n$cultural_influence_weak_showmodifier$\n$cultural_influence_notable_showmodifier$\n$cultural_influence_regional_showmodifier$\n$cultural_influence_legendary_showmodifier$"
+ 
+ modifier_country_cultural_influence:"[concept_cultural_influence]"

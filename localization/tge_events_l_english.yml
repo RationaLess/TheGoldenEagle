@@ -117,6 +117,11 @@
  matters_of_texcoco.4.f:"The polymath, philosopher, and general extraordinaire [SCOPE.sCharacter('nezahua').GetFullName] has managed to persuade many city-states to his cause, including the famed [SCOPE.sCountry('tlaxcala').GetName]. With the coalition at the ready, he is to lead the siege to restore the throne of Texcoco to its rightful dynasty, carve a future for the [SCOPE.sCountry('aztec').GetName], and avenge his father Ixtlilxochitl the first in the process."
  matters_of_texcoco.4.a:"\"Annochipa tlalticpac. Zan achica ye nican.\""
  
+ #Kindling the Empire
+ kindling_the_empire.1.t:"Fledgeling Flame"
+ kindling_the_empire.1.d:"With the growth of [ROOT.GetCountry.GetName] came increasing imperial sentiment. With the [SCOPE.gsInterestGroup('imperial_ig').GetName] in power, there is now enough political will to see such ambitions through. They've put forward a series of reforms."
+ kindling_the_empire.1.f:"\"I think the people are more willing than you'd give them credit. Our warriors can protect trade routes, which will ensure the flow of not only tribute, but also trade and knowledge. Everybody stands to benefit - assuming they're proper citizens, of course.\""
+ kindling_the_empire.1.a:"[ROOT.GetCountry.GetName] has potential."
  #[SCOPE.sState('capital_state').GetName]
  #[SCOPE.gsInterestGroup('urbanist_one_ig').GetName]
  #[SCOPE.gsInterestGroup('urbanist_two_ig').GetName]

@@ -174,3 +174,16 @@ if = {
 
 }
 
+
+
+#Cultural Influence
+cultural_influence_value = {
+
+	
+	value = var:cultural_influence
+	
+	
+	min = 0
+	max = 1
+	
+}

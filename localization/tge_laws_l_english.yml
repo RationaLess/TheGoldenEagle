@@ -191,14 +191,14 @@
  lawgroup_conquest_doctrine:"Conquest Doctrine"
  lawgroup_conquest_doctrine_desc:"What systems are in place in order to facilitate conquests and manage conquered territories."
  
- law_ritual_warfare:"Ritual Warfare"
+ law_ritual_warfare:"Informal Warfare"
  law_ritual_warfare_desc:"There are no formal systems in place to enable any sort of conquests, as warfare is seen as primarily ritualistic."
  law_local_hegemon:"Local Hegemon"
  law_local_hegemon_desc:"The military actions taken by this country are to obtain or preserve their hegemonic status in the local area, exerting a great degree of control over their neighbors."
  law_tributary_empire:"Tributary Empire"
  law_tributary_empire_desc:"The country wishes to establish a wide network of tributary states which contribute to wealth and prosperity of the mainland."
- law_territory_integration:"Territory Integration"
- law_territory_integration_desc:"There is a formal bureaucratic system in place to integrate new territories under the country's governing systems."
+ law_territory_acquisition:"Territory Acquisition"
+ law_territory_acquisition_desc:"There is a formal bureaucratic system in place to integrate new territories under the country's governing systems."
  
  
  #Human Rights Group

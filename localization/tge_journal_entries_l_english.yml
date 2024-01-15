@@ -15,6 +15,13 @@
  je_tepaneca_war:"Tepaneca War"
  je_tepaneca_war_reason:"After being subjugated, we've been forced to fight under the Azcapotzalco banner for many years. But through an union with other vassalized atlepetl, we finally have an opportunity to earn our freedom."
  
+ je_floating_city:"Floating City"
+ je_floating_city_reason:"The lakebed of Texcoco is a double-edged sword -- it is shallow enough to allow us to gradually expand the size of the Isle, but the water level is irregular leading to frequent floods. We should seize the unique opportunity it offers us."
+ floating_city_arable_land_button:"Increase Arable Land"
+ floating_city_arable_land_button_desc:"By expanding our network of aqueducts, we can increase the amount of Arable land available to us."
+ floating_city_dam_button:"Construct Dam Network"
+ floating_city_aqueduct_button_desc:"The periodic flooding of Tenochtitlan is the greatest obstacle to our prosperity. We could divide the lake into several distinct parts to manage the water level, though such an endavour would be a costly mega-project."
+ 
  
  je_matters_of_texcoco:"Matters of Texcoco"
  je_matters_of_texcoco_reason:"Being a place of great wealth, lake Texcoco has been home to some of the greatest empires of old - which goes in tandem with the ambitions of warmongers and conquerors. We must safeguard our independence through any means possible."
@@ -38,7 +45,12 @@
  je_forging_alliances_status:"We may ask neighboring countries to #b Confederate#! with us."
  confederation_establish_council_button:"Establish Council"
  confederation_establish_council_button_desc:"If we consider our alliance to be mature enough, we may transition it into a council-government with the member states electing the leader."
-
+    
+    
+ #Harmonious Hegemon
+ je_harmonious_hegemon:"Harmonious Hegemon"
+ je_harmonious_hegemon_reason:"Having become the greatest power in our region while maintaining the respect of our neighbors, we are placed in unique circumstances which are as beneficial as they are fragile."
+ modifier_harmonious_hegemon:"Shining Example"
  
  #Other
  je_urbanization_efforts:0 "Urbanization Efforts"
@@ -49,6 +61,10 @@
  je_formalize_the_realm:"Formalize the Realm"
  je_formalize_the_realm_reason:"The ever increasing duties associated with running a modern empire will strech our leaders thin. We must create a reliable form of government if we want to further our agenda."
  
+ #Kindling the Empire
+ je_kindling_the_empire:"Kindling the Empire"
+ je_kindling_the_empire_reason:"As our urban centers grow, we become increasingly dependent on other polities - as such, they can impose their rules and restrictions on us. Such an arrangements is unacceptable, of course - it's nigh time that we even the playing field for everybody involved."
+ je_kindling_the_empire_invasions:"Complete 10 successful [Concept('concept_invasion','$concept_invasions$')]."
  
  #Revolt
  je_revolt:"Revolt!"

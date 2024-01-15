@@ -13,7 +13,7 @@ building_clothing_workshop = {
 		#pmg_tribute
 	}
 	
-	required_construction = 500
+	required_construction = 2000
 }
 
 building_furniture_workshop = {
@@ -31,7 +31,7 @@ building_furniture_workshop = {
 		#pmg_tribute
 	}
 	
-	required_construction = 500
+	required_construction = 2000
 }
 
 building_tooling_workshop = {
@@ -51,7 +51,7 @@ building_tooling_workshop = {
 	
 	ai_value = 2000
 	
-	required_construction = 500
+	required_construction = 2000
 }
 
 building_jewelry = {
@@ -70,7 +70,7 @@ building_jewelry = {
 	}
 	
 	
-	required_construction = 500
+	required_construction = 2000
 }
 
 building_pottery = {
@@ -89,5 +89,5 @@ building_pottery = {
 	}
 	
 	
-	required_construction = 500
+	required_construction = 2000
 }

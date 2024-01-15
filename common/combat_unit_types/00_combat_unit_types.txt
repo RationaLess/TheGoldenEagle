@@ -10,6 +10,8 @@
 combat_unit_type_spearmen = {
     group = combat_unit_group_warriors
 
+	unlocking_technologies = { warrior_bands }
+	
     battle_modifier = {
         unit_offense_add = 10
         unit_defense_add = 15
@@ -17,6 +19,7 @@ combat_unit_type_spearmen = {
     }
 	
     upkeep_modifier = {
+		goods_input_wooden_weapons_add = 0.5
     }
 
     # scope = country
@@ -33,13 +36,74 @@ combat_unit_type_spearmen = {
 	}
 }
 
+combat_unit_type_warriors = {
+    group = combat_unit_group_warriors
+
+	unlocking_technologies = { bladed_weapons }
+
+    battle_modifier = {
+        unit_offense_add = 15
+        unit_defense_add = 25
+        unit_morale_loss_add = 10
+    }
+	
+    upkeep_modifier = {
+		goods_input_wooden_weapons_add = 1
+    }
+
+    # scope = country
+    # both this and "can_build" needs to be true to build conscripts
+    can_build_conscript = {
+        always = yes
+    }
+    
+    combat_unit_image = {
+        texture = "gfx/unit_illustrations/infantry_decentralised_americas_irregular.dds"
+    }
+	
+	upgrades = {
+		combat_unit_type_knights
+	}
+}
+
+combat_unit_type_knights = {
+    group = combat_unit_group_warriors
+
+	unlocking_technologies = { macuahuitl }
+	
+    battle_modifier = {
+        unit_offense_add = 25
+        unit_defense_add = 40
+    }
+	
+    upkeep_modifier = {
+		goods_input_wooden_weapons_add = 2
+		goods_input_obsidian_weapons_add = 1
+    }
+
+    # scope = country
+    # both this and "can_build" needs to be true to build conscripts
+    can_build_conscript = {
+        always = yes
+    }
+    
+    combat_unit_image = {
+        texture = "gfx/unit_illustrations/infantry_decentralised_americas_irregular.dds"
+    }
+	
+	upgrades = {
+		combat_unit_group_warriors
+	}
+}
+
+
 ### Artillery
 
-combat_unit_group_spear_throwers = {
+combat_unit_type_spear_throwers = {
     group = combat_unit_group_rangers
 
     upkeep_modifier = {
-        goods_input_weapons_add = 0.5
+        goods_input_wooden_weapons_add = 0.5
     }
     
     battle_modifier = {
@@ -48,7 +112,59 @@ combat_unit_group_spear_throwers = {
         unit_kill_rate_add = 0.1
     }
 
-	unlocking_technologies = {  }
+	unlocking_technologies = { bladed_weapons }
+
+    combat_unit_image = {
+        texture = "gfx/unit_illustrations/unit_illustration_placeholder.dds"
+    }
+
+
+    upgrades = {
+		combat_unit_type_archers
+    }
+}
+combat_unit_type_archers = {
+    group = combat_unit_group_rangers
+
+	
+	
+    upkeep_modifier = {
+        goods_input_wooden_weapons_add = 1
+		goods_input_wood_add = 1
+    }
+    
+    battle_modifier = {
+        unit_offense_add = 30
+        unit_defense_add = 15
+        unit_kill_rate_add = 0.2
+    }
+
+	unlocking_technologies = { bows }
+
+    combat_unit_image = {
+        texture = "gfx/unit_illustrations/unit_illustration_placeholder.dds"
+    }
+
+
+    upgrades = {
+		combat_unit_type_slingers
+    }
+}
+combat_unit_type_slingers = {
+    group = combat_unit_group_rangers
+
+    upkeep_modifier = {
+        goods_input_wooden_weapons_add = 2
+		goods_input_obsidian_add = 0.5
+    }
+    
+    battle_modifier = {
+        unit_offense_add = 40
+        unit_defense_add = 25
+        unit_kill_rate_add = 0.3
+    }
+
+	unlocking_technologies = { tepoztopilli }
 
     combat_unit_image = {
         texture = "gfx/unit_illustrations/unit_illustration_placeholder.dds"
@@ -65,17 +181,17 @@ combat_unit_type_eagle_warriors = {
     group = combat_unit_group_specialized
     
     upkeep_modifier = {
-        goods_input_weapons_add = 1
-        goods_input_tools_add = 0.5
+        goods_input_obsidian_weapons_add = 2
+        goods_input_wooden_weapons_add = 1
+        goods_input_tools_add = 1
     }
 
     battle_modifier = {
-        unit_offense_add = 25
-        unit_defense_add = 25
-        unit_morale_loss_add = 10
+        unit_offense_add = 50
+        unit_defense_add = 35
     }
 
-	unlocking_technologies = {  }
+	unlocking_technologies = { military_education }
 
     combat_unit_image = {
         texture = "gfx/unit_illustrations/unit_illustration_placeholder.dds"

@@ -61,7 +61,7 @@ ai_strategy_default = {
 	# Added to base boldness in diplomatic plays	
 	# Using this value in other strategies will function additively
 	diplomatic_play_boldness = {
-		value = 50
+		value = 500
 		
 	} 
 		
@@ -1986,6 +1986,7 @@ ai_strategy_default = {
 		}		
 		
 		make_protectorate = {
+			add = 1000
 			if = {
 				limit = {
 					has_secret_goal = {

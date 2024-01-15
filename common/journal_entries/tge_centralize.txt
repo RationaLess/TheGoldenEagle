@@ -1,6 +1,8 @@
 ﻿je_formalize_the_realm = {
 	should_be_pinned_by_default = yes
-
+	
+	group = je_group_internal_affairs 
+	
 is_shown_when_inactive = {
 		
 		NOT = {
@@ -15,12 +17,13 @@ is_shown_when_inactive = {
 possible = { 
 		at_war = no
 		has_technology_researched = politics
-		bureaucracy < 0
+		country_rank >= rank_value:major_power
 		OR = {
 			any_interest_group = {
 				is_interest_group_type = ig_scholars
-				is_in_government = yes
+				is_powerful = yes
 			}
+			literacy_rate > 0.3
 		}
 	
 	}

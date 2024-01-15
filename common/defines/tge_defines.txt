@@ -54,7 +54,7 @@ NPolitics = {
 	
 	MAX_INSTITUTION_INVESTMENT = 8
 	
-	STATE_BUREAUCRACY_POP_MULTIPLE = 10000	# Number of people BUR cost is based on
+	STATE_BUREAUCRACY_POP_MULTIPLE = 100000	# Number of people BUR cost is based on
 	MINIMUM_INVESTMENT_COST = 30
 	
 	}

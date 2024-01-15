@@ -266,8 +266,28 @@
  
  
   # Dynamic countries
+  
+  #Empire Titles
+  generic_empire:"[Country.GetAdjective] Empire"
+  generic_empire_adj:"Sus."
+  
+  dyn_c_aztec_empire:"Aztec Empire"
+  dyn_c_aztec_empire_adj:"Aztec"
+  
+  #Flavored Alliance names
+  north_texcoco_confederation:"North Texcoco"
+  north_texcoco_confederation_adj:"North Texcoco"
+  south_texcoco_confederation:"South Texcoco"
+  north_texcoco_confederation_adj:"South Texcoco"
+  
+  #Generic alliance names
   generic_alliance_two_members:"Twin Alliance"
+  generic_alliance_two_members_adj:"Twin Alliance"
   generic_alliance_three_members:"Triple Alliance"
+  generic_alliance_three_members_adj:"Triple Alliance"
   generic_alliance_four_members:"Quadruple Alliance"
+  generic_alliance_four_members_adj:"Quadruple Alliance"
   generic_alliance_five_members:"Pentuple Alliance"
-  generic_alliance_more_members:"Great Alliance"
+  generic_alliance_five_members_adj:"Pentuple Alliance"
+  generic_alliance_more_members:"Great Federation"
+  generic_alliance_more_members_adj:"Great Federation"

@@ -1,0 +1,424 @@
+﻿
+	#ANAHUAC
+	
+	MILITARY_FORMATIONS = {
+		c:XILA = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_XILAPAN
+					count = 6
+				}
+			}
+		}
+		c:METZ = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_METZTITLAN
+					count = 5
+				}
+			}
+		}
+		c:TULA = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_METZTITLAN
+					count = 4
+				}
+			}
+		}
+		c:TULA = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TOLLAN
+					count = 5
+				}
+			}
+		}
+		c:XILO = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_XILOTEPEC
+					count = 5
+				}
+			}
+		}
+		c:CAIX = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TOLUCA_VALLEY
+					count = 4
+				}
+			}
+		}
+		c:TAXI = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TOLUCA_VALLEY
+					count = 5
+				}
+			}
+		}
+		c:CAIX = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TOLUCA_VALLEY
+					count = 4
+				}
+			}
+		}
+		c:TOLU = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TOLUCA_VALLEY
+					count = 6
+				}
+			}
+		}
+		c:CAIX = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TOLUCA_VALLEY
+					count = 4
+				}
+			}
+		}
+		c:XAL = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_NORTH_TEXCOCO
+					count = 5
+				}
+				combat_unit = {
+					type = unit_type:combat_unit_type_spear_thrower
+					state_region = s:STATE_NORTH_TEXCOCO
+					count = 2
+				}
+			}
+		}
+		c:TZO = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_NORTH_TEXCOCO
+					count = 2
+				}
+				combat_unit = {
+					type = unit_type:combat_unit_type_spear_thrower
+					state_region = s:STATE_NORTH_TEXCOCO
+					count = 0
+				}
+			}
+		}
+		c:CUA = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_NORTH_TEXCOCO
+					count = 2
+				}
+				combat_unit = {
+					type = unit_type:combat_unit_type_spear_thrower
+					state_region = s:STATE_NORTH_TEXCOCO
+					count = 1
+				}
+			}
+		}
+		c:AZC = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_WEST_TEXCOCO
+					count = 7
+				}
+				combat_unit = {
+					type = unit_type:combat_unit_type_spear_thrower
+					state_region = s:STATE_WEST_TEXCOCO
+					count = 3
+				}
+			}
+		}
+		c:ATA = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_EAST_TEXCOCO
+					count = 4
+				}
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TENOCHTITLAN
+					count = 6
+				}
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_WEST_TEXCOCO
+					count = 4
+				}
+				combat_unit = {
+					type = unit_type:combat_unit_type_spear_thrower
+					state_region = s:STATE_EAST_TEXCOCO
+					count = 3
+				}
+			}
+		}
+		c:CUL = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_EAST_TEXCOCO
+					count = 2
+				}
+			}
+		}
+		c:CUL = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_EAST_TEXCOCO
+					count = 2
+				}
+			}
+		}
+		c:CHA = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_CHALCO
+					count = 5
+				}
+			}
+		}
+		c:XOC = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_CHALCO
+					count = 7
+				}
+			}
+		}
+		c:HXZ = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_HUEXOTZINCO
+					count = 7
+				}
+			}
+		}
+		c:TTLC = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TENOCHTITLAN
+					count = 2
+				}
+			}
+		}
+		c:OTP = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_OTOMPAN
+					count = 4
+				}
+			}
+		}
+		c:TLC = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TULANCINGO
+					count = 3
+				}
+			}
+		}
+		c:TLA = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TULANCINGO
+					count = 3
+				}
+			}
+		}
+		c:HCH = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TULANCINGO
+					count = 3
+				}
+			}
+		}
+		c:CNH = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_CUAHNAHUAC
+					count = 4
+				}
+			}
+		}
+		c:HXT = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_HUAXTEPEC
+					count = 4
+				}
+			}
+		}
+		c:CHO = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_CHOLLOLAN
+					count = 5
+				}
+			}
+		}
+		c:THI = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_PUEBLA
+					count = 3
+				}
+			}
+		}
+		c:CHI = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_PUEBLA
+					count = 3
+				}
+			}
+		}
+		c:CIU = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_PUEBLA
+					count = 3
+				}
+			}
+		}
+		c:TCM = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_anahuac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_PUEBLA
+					count = 3
+				}
+			}
+		}
+	}

@@ -30,6 +30,15 @@ subject_management.1 = {
 	
 		save_scope_as = variable_scope
 		
+		#JE
+			if = {
+			limit = { has_journal_entry = je_kindling_the_empire }
+			change_variable = {
+					name = kindling_empire_invasions
+					add = 1
+				}
+			}
+
 		set_variable = {
 			name = settler_amount 
 			value = {

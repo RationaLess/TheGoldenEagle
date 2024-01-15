@@ -15,7 +15,8 @@
 
 
 onaction_empire_sprawl_calc = {
-
+	
+	
 	#Sprawl capcity
 	set_variable = {
 		name = var_empire_sprawl_capacity
@@ -57,7 +58,6 @@ onaction_empire_sprawl_calc = {
 		}
 	}
 	
-	
 	#Applying the actual bonus
 	if = {
 		limit = {
@@ -96,7 +96,189 @@ onaction_empire_sprawl_calc = {
 
 	}
 	
+#Onaction Cultural Influence Calc
+
+onaction_cultural_influence_calc = {
 	
+	
+	
+	set_variable = {
+		name = cultural_influence_literacy_bonus
+		value = {
+				value = literacy_rate
+				multiply = 0.2
+				}
+		}
+	set_variable = {
+		name = cultural_influence_sol_bonus
+		value = {
+				value = average_sol
+				divide = 100
+				}
+		}
+	set_variable = {
+		name = cultural_influence_pact_bonus
+		value = {
+			every_country = {
+				limit = {
+						has_diplomatic_pact = {
+							who = root
+							}
+						is_subject = no
+					}
+				}
+			}
+			divide = 20
+		}
+	
+	set_variable = {
+		name = cultural_influence_infamy_malus
+		value = {
+				value = infamy
+				divide = 100
+				multiply = 0.2
+				multiply = -1
+				}
+		}
+	
+	set_variable = {
+		name = cultural_influence_scholars_modif
+		value = {
+				value = ig:ig_scholars.ig_approval 
+				multiply = 1
+				divide = 100
+				}
+		}
+	set_variable = {
+		name = cultural_influence_ancillaries_modif
+		value = {
+				value = ig:ig_ancillaries.ig_approval 
+				multiply = 0.5
+				divide = 100
+				}
+		}
+	
+	set_variable = {
+		name = cultural_influence
+		value = {
+		
+			#You can get ~20% from literacy rate
+			add = var:cultural_influence_literacy_bonus
+			
+			#Uncapped from SoL
+			add = var:cultural_influence_sol_bonus
+			
+			#Uncapped from Diplo Pacts
+			add = var:cultural_influence_pact_bonus
+			
+			#You can get -20% at 100 infamy 
+			add = var:cultural_influence_infamy_malus
+			
+			#Scholar Mod
+			add = var:cultural_influence_scholars_modif
+			
+			#Ancillary Mod
+			add = var:cultural_influence_ancillaries_modif
+			
+			#You get -20 from being a subject
+			IF = {
+				limit = { is_subject = yes }
+				subtract = 0.2
+				}
+			
+			#The Modifiers
+			add = modifier:country_cultural_influence
+			
+			
+			min = 0
+			max = 1
+		}
+	}
+	
+	#Removing Modifiers
+	if = {
+		limit = {
+		has_modifier = cultural_influence_insignificant
+		}
+		remove_modifier = cultural_influence_insignificant
+	}
+	if = {
+		limit = {
+		has_modifier = cultural_influence_weak
+		}
+		remove_modifier = cultural_influence_weak
+	}
+	if = {
+		limit = {
+		has_modifier = cultural_influence_notable
+		}
+		remove_modifier = cultural_influence_notable
+	}
+	if = {
+		limit = {
+		has_modifier = cultural_influence_regional
+		}
+		remove_modifier = cultural_influence_regional
+	}
+	if = {
+		limit = {
+		has_modifier = cultural_influence_legendary
+		}
+		remove_modifier = cultural_influence_legendary
+	}
+	
+	#Applying Modifier
+	IF = {
+		limit = {
+			var:cultural_influence <= 0.20
+		}
+		add_modifier = {
+			name = cultural_influence_insignificant
+			}
+	}
+	ELSE_IF = {
+		limit = {
+			var:cultural_influence >= 0.21
+			var:cultural_influence <= 0.40
+		}
+		
+		add_modifier = {
+			name = cultural_influence_weak
+			}
+	}
+	ELSE_IF = {
+		limit = {
+			var:cultural_influence >= 0.41
+			var:cultural_influence <= 0.60
+		}
+		
+		add_modifier = {
+			name = cultural_influence_notable
+			}
+	}
+	ELSE_IF = {
+		limit = {
+			var:cultural_influence >= 0.61
+			var:cultural_influence <= 0.80
+		}
+		add_modifier = {
+			name = cultural_influence_regional
+			}
+	}
+	ELSE_IF = {
+		limit = {
+			var:cultural_influence >= 0.81
+		}
+		add_modifier = {
+			name = cultural_influence_legendary
+			}
+	}
+	
+	
+	
+	
+
+	}
 	
 #Onaction Minor settlement spawn
 onaction_minor_settlement_spawn = {

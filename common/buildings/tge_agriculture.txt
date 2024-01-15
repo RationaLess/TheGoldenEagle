@@ -3,7 +3,7 @@
 	
 	texture = "gfx/interface/icons/building_icons/maize_farm.dds"
 	
-	required_construction = 1000
+	required_construction = 3000
 	
 	city_type = farm
 	levels_per_mesh = 5
@@ -25,7 +25,7 @@ building_cotton_farm = {
 	building_group = bg_cotton_farms
 	texture = "gfx/interface/icons/building_icons/cotton_plantation.dds"
 	
-	required_construction = 1000
+	required_construction = 3000
 
 	unlocking_technologies = {
 		cotton_farming
@@ -46,7 +46,7 @@ building_chinampa = {
 	texture = "gfx/interface/icons/building_icons/maize_farm.dds"
 	
 	
-	required_construction = 2500
+	required_construction = 6000
 
 	city_type = farm
 	levels_per_mesh = 5
@@ -71,7 +71,7 @@ building_cocoa_harvestry = {
 	building_group = bg_cocoa
 	texture = "gfx/interface/icons/building_icons/coffee_plantation.dds"
 	
-	required_construction = 1000
+	required_construction = 3000
 
 	unlocking_technologies = {
 		irrigation
@@ -91,7 +91,7 @@ building_rubber_harvestry = {
 	building_group = bg_rubber
 	texture = "gfx/interface/icons/building_icons/rubber_lodge.dds"
 	
-	required_construction = 1000
+	required_construction = 3000
 
 	unlocking_technologies = {
 		irrigation

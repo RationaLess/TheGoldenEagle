@@ -1,1 +1,9 @@
-﻿
+﻿aztec_empire = {
+	color = "communist_hre_red"
+
+	possible = {
+		exists = c:ATA
+		this = c:ATA
+		has_variable = empire_title
+	}
+}
