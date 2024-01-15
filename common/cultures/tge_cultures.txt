@@ -1025,10 +1025,34 @@ ciboney = {
 	religion = animist
 	traits = { taino caribbean }
 	male_common_first_names={
-		placeholder
+		Ameyro
+		Baguanao
+		Brizuela
+		Cacicana
+		Caguax
+		Camaguebax
+		Canimao
+		Caracamisa
+		Guaucumao
+		Guaicaba
+		Guamayry
+		Guama
+		Guayacayex
+		Habaguanex
+		Hatuey
+		Huarea
+		Jibacoa
+		Macaca
+		Manatiguahuraguana
+		Maniabon
+		Ornofay
+		Yacahuey
+		Yacaguex
 	}
 	female_common_first_names = {
-		placeholder
+		Casiguaya
+		Tinima
+		Yahima
 	}	
 	noble_last_names = {
 		placeholder
@@ -1047,10 +1071,62 @@ ayiti = {
 	religion = animist
 	traits = { taino caribbean }
 	male_common_first_names={
-		placeholder
+		Abey
+		Acanorex
+		Agueybana
+		Amanex
+		Aramana
+		Aramoca
+		Arasibo
+		Ayamuynuex
+		Aymaco
+		Ayraguay
+		Bagnamanay
+		Biautex
+		Bojekio
+		Caguax
+		Canobana
+		Cayacoa
+		Comerio
+		Cotubanama
+		Daguao
+		Guarocuya
+		Guababo
+		Guacabo
+		Guacanagarix
+		Guama
+		Guaoconel
+		Guaora
+		Guarionex
+		Guatiguana
+		Guayaney
+		Guamani
+		Guaraca
+		Hayuya
+		Haubey
+		Imotonex
+		Inamoca
+		Jacaguax
+		Jumacao
+		Mabey
+		Mabo
+		Macuya
+		Majagua
+		Majubiatibiri
+		Manicatoex
+		Maniquatex
+		Mayneri
+		Naguabo
+		Nibagua
+		Orocobix
+		Urayoan
+		Yaureibo
+		Yuquibo
 	}
 	female_common_first_names = {
-		placeholder
+		Anacaona
+		Iguanama
+		Yuisa
 	}	
 	noble_last_names = {
 		placeholder
@@ -1069,7 +1145,7 @@ kalina = {
 	religion = animist
 	traits = { cariban caribbean }
 	male_common_first_names={
-		placeholder
+		Cacimar
 	}
 	female_common_first_names = {
 		placeholder
@@ -1113,7 +1189,8 @@ ciguayo = {
 	religion = animist
 	traits = { waroid caribbean }
 	male_common_first_names={
-		placeholder
+		Caonabo
+		Mayobanex
 	}
 	female_common_first_names = {
 		placeholder
