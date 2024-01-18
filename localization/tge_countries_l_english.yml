@@ -239,6 +239,7 @@
  KUPU_ADJ: "Kupul"
  COCO: "Cocom"
  COC_ADJ: "Cocom"
+
  # Caribbean
 
  HGY:"Higüey"
@@ -279,6 +280,22 @@
  HAB_ADJ: "Habana"
  HNBN: "Hanabana"
  HNBN_ADJ: "Hanabana"
+ MISI: "Maisi"
+ MISI_ADJ "Maisi"
+ BRCO: "Baraco"
+ BRCO_ADJ "Baraco"
+ BYQT: "Bayaquitiri"
+ BYQT_ADJ "Bayaquitiri"
+ SAGU: "Sagua"
+ SAGU_ADJ "Sagua"
+ BRJG: "Barajagua"
+ BRJG_ADJ "Barajagua"
+ MIYE: "Maiye"
+ MIYE_ADJ "Maiye"
+ GMYA: "Guaimaya"
+ GMYA_ADJ "Guaimaya"
+ MGNS: "Maguanos"
+ MGNS_ADJ "Maguanos"
  
   # Formables
   AZT:"Aztec Empire"
