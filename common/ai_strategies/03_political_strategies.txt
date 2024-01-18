@@ -9,6 +9,261 @@
 	}
 	
 	weight = {
-		value = 10			
+		value = 0			
+	}
+}
+
+ai_strategy_courtly_politics = {
+	icon = "gfx/interface/icons/ai_strategy_icons/conservative_agenda.dds"
+	
+	type = political
+	
+	revolution_aversion = {
+		value = 75
+	}
+	
+	min_law_chance_to_pass = {
+		value = 60
+
+			if = {
+				limit = { 				
+					OR = {
+						any_political_movement = {
+							desired_law ?= scope:law.type
+							political_movement_radicalism >= 75
+						}
+					}
+				}
+				multiply = 0.1
+			}
+		}
+	
+	max_progressiveness = {
+		value = 100
+	}
+	
+	max_regressiveness = {
+		value = -100
+	}
+	
+	change_law_chance = { 
+		value = 10
+		
+		if = {
+			limit = { any_interest_group = { is_insurrectionary = yes } }
+			add = 10
+		}
+		
+
+	}	
+	
+	pro_interest_groups = {
+		
+		ig_traditionalists
+		ig_aristocracy
+	}
+	
+	anti_interest_groups = {
+		
+	}
+
+
+	possible = { 
+	}
+	
+	weight = {
+		value = 25
+		
+		if = {
+			limit = {
+				exists = ig:ig_aristocracy
+				ig:ig_aristocracy = { is_powerful = yes }
+			}
+			add = 75
+		}
+		
+		if = {
+			limit = {
+				exists = ig:ig_traditionalists
+				ig:ig_traditionalists = { is_powerful = yes }
+			}
+			add = 75
+		}
+	}
+}
+
+
+ai_strategy_develop_institutions = {
+	icon = "gfx/interface/icons/ai_strategy_icons/reactionary_agenda.dds"
+	
+	type = political
+	
+	revolution_aversion = {
+		value = 75
+	}
+	
+	min_law_chance_to_pass = {
+		value = 20
+
+			if = {
+				limit = { 				
+					OR = {
+						any_political_movement = {
+							desired_law ?= scope:law.type
+							political_movement_radicalism >= 75
+						}
+					}
+				}
+				multiply = 0.5
+			}
+		}
+	
+	max_progressiveness = {
+		value = 100
+	}
+	
+	max_regressiveness = {
+		value = 0
+	}
+	
+	change_law_chance = { 
+		value = 50
+		
+		if = {
+			limit = { any_interest_group = { is_insurrectionary = yes } }
+			add = 10
+		}
+		
+		if = {
+			limit = { has_journal_entry = je_formalize_the_realm    }
+			add = 50
+		}
+
+	}	
+	
+	pro_interest_groups = {
+		ig_scholars
+		ig_governors
+	}
+	
+	anti_interest_groups = {
+		ig_traditionalists
+		ig_aristocracy
+	}
+
+
+	possible = { 
+		has_technology_researched = politics
+	}
+	
+	weight = {
+		value = 100
+		
+		if = {
+			limit = {
+				exists = ig:ig_scholars
+				ig:ig_scholars = { is_powerful = yes }
+			}
+			add = 50
+		}
+		
+		if = {
+			limit = {
+				exists = ig:ig_governors
+				ig:ig_governors = { is_powerful = yes }
+			}
+			add = 50
+		}
+	}
+}
+
+ai_strategy_imperial_reforms = {
+	icon = "gfx/interface/icons/ai_strategy_icons/protect_region.dds"
+	
+	type = political
+	
+	revolution_aversion = {
+		value = 75
+	}
+	
+	min_law_chance_to_pass = {
+		value = 30
+
+			if = {
+				limit = { 				
+					OR = {
+						any_political_movement = {
+							desired_law ?= scope:law.type
+							political_movement_radicalism >= 75
+						}
+					}
+				}
+				multiply = 0.5
+			}
+		}
+	
+	max_progressiveness = {
+		value = 100
+	}
+	
+	max_regressiveness = {
+		value = 0
+	}
+	
+	change_law_chance = { 
+		value = 50
+		
+		if = {
+			limit = { any_interest_group = { is_insurrectionary = yes } }
+			add = 10
+		}
+		
+		if = {
+			limit = { has_journal_entry = je_kindling_the_empire    }
+			add = 50
+		}
+
+	}	
+	
+	pro_interest_groups = {
+		ig_warrior_guilds
+		ig_pochteca
+		ig_aristocracy
+	}
+	
+	anti_interest_groups = {
+		ig_ancillaries
+	}
+
+
+	possible = { 
+		has_technology_researched = martial_culture
+	}
+	
+	weight = {
+		value = 100
+		
+		if = {
+			limit = {
+				exists = ig:ig_warrior_guilds
+				ig:ig_warrior_guilds = { is_powerful = yes }
+			}
+			add = 100
+		}
+		
+		if = {
+			limit = {
+				has_law = law_type:law_bellicose
+			}
+			add = 100
+		}
+		
+		
+		if = {
+			limit = {
+				has_journal_entry = je_kindling_the_empire
+			}
+			add = 250
+		}
 	}
 }

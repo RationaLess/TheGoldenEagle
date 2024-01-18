@@ -54,6 +54,15 @@
   safeguarded_independence:0 "Safeguarded Independence"
   safeguarded_independence_desc:0 ""
   
+  #Texcoco Struggle 
+  texcoco_turmoil:"Texcoco Turmoil"
+  texcoco_turmoil_desc:""
+  
+  
+  
+  #Diplo
+  integrating_subject:"Integrating Subject"
+  
   
   #Mechanics
   concept_empire_sprawl:"Empire Sprawl"
@@ -93,3 +102,6 @@
  concept_cultural_influence_desc:"Cultural Influence is a measure of how much your [Concept('concept_country','$concept_country$')] can affect others in regards to cultural and artistic exports. It will grow or shrink depending on[GetInterestGroupVariant('ig_scholars',GetPlayer).GetNameWithCountryVariant] and[GetInterestGroupVariant('ig_ancillaries',GetPlayer).GetNameWithCountryVariant] [concept_approval]. It is also positively influenced by [Concept('concept_empire_sprawl','$concept_empire_sprawl$')] and [Concept('concept_literacy','$concept_literacy$')] while negatively by [Concept('concept_infamy','$concept_infamy$')], though the bulk of your Cultural Influence will likely come from [Concept('concept_law','Laws')], [Concept('concept_technology','Technologies')] and [Concept('concept_journal_entry','Journal Entries')].\n$TOOLTIP_DELIMITER$\n#V The higher our Cultural Influence, the more leverage we have when requesting diplomatic pacts.#! Additionally, for every 20% of Cultural Influence you possess, you gain a new level, each with its own respective modifiers, which are as follows:\n$TOOLTIP_DELIMITER$\n $cultural_influence_insignificant_showmodifier$\n$cultural_influence_weak_showmodifier$\n$cultural_influence_notable_showmodifier$\n$cultural_influence_regional_showmodifier$\n$cultural_influence_legendary_showmodifier$"
  
  modifier_country_cultural_influence:"[concept_cultural_influence]"
+ 
+ concept_struggle:"Struggle"
+ concept_struggle_desc:"Struggles are regional [Concept('concept_journal_entry','Journal Entries')] which have big gameplay implications when active, as well as having major implications depending on their outcome.\nAs opposed to regular Journal Entries, Struggles are accessed by every nation in the concerning region."

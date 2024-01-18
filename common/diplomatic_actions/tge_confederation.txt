@@ -3,7 +3,7 @@
 	can_use_obligations = no
 	
 	unlocking_technologies = {
-		confederation
+		diplomacy
 	}
 
 	potential = {

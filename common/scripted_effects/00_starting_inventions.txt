@@ -5,57 +5,67 @@ effect_starting_technology_mesoamerica_advanced = {
 	add_era_researched = era_1
 	add_era_researched = era_2
 	
-	add_technology_researched = ceremonies
-	add_technology_researched = courts
-	add_technology_researched = contracts
-	add_technology_researched = community_holdings
-	add_technology_researched = merchant_guilds
-	add_technology_researched = alliances
-	add_technology_researched = confederation
-	add_technology_researched = politics
-	add_technology_researched = education
-	add_technology_researched = consensus
-	add_technology_researched = specialized_knowledge
-	
-	add_technology_researched = urban_planning
 	add_technology_researched = textile_working
-	add_technology_researched = obsidian_working
-	add_technology_researched = quarrying
-	add_technology_researched = limestone_working
-	add_technology_researched = mudbrick_working
-	add_technology_researched = terracing
-	add_technology_researched = chiapas
-	add_technology_researched = architecture
-	add_technology_researched = luxury_construction
-	add_technology_researched = deforestation
-	add_technology_researched = temple_districts
 	add_technology_researched = jewelries
+	add_technology_researched = urban_planning
+	add_technology_researched = obsidian_working
+	add_technology_researched = merchant_councils
+	add_technology_researched = masonry
+	add_technology_researched = temple_districts
+	add_technology_researched = roads
+	add_technology_researched = terracing
+	add_technology_researched = architecture
 
-	add_technology_researched = vassalage
-	add_technology_researched = military_education
-	add_technology_researched = ritual_warfare
-	add_technology_researched = macuahuitl
+	
 	add_technology_researched = atlatl
+	add_technology_researched = obsidian_weapons
+	add_technology_researched = tepoztopilli
+	add_technology_researched = theory_of_war
+	add_technology_researched = martial_culture
+	add_technology_researched = military_infrastructure
+
+	add_technology_researched = mathematics
+	add_technology_researched = merchant_guilds
+	add_technology_researched = writing_system
+	add_technology_researched = politics
+	add_technology_researched = specialized_knowledge
+	add_technology_researched = education
+}
+
+effect_starting_technology_mesoamerica_medium = {
+	add_era_researched = era_1
+	add_era_researched = era_2
+	
+	add_technology_researched = textile_working
+	add_technology_researched = jewelries
+	add_technology_researched = urban_planning
+	add_technology_researched = obsidian_working
+	add_technology_researched = masonry
+	add_technology_researched = temple_districts
+
+	
+	add_technology_researched = atlatl
+	add_technology_researched = obsidian_weapons
+
+	add_technology_researched = mathematics
+	add_technology_researched = merchant_guilds
+	add_technology_researched = writing_system
 }
 
 effect_starting_technology_mesoamerica_basic = {
 	add_era_researched = era_1
 	add_era_researched = era_2
 	
-	add_technology_researched = ceremonies
-	add_technology_researched = courts
-	add_technology_researched = alliances
-	
-	add_technology_researched = urban_planning
 	add_technology_researched = textile_working
+	add_technology_researched = urban_planning
 	add_technology_researched = obsidian_working
-	add_technology_researched = quarrying
-	add_technology_researched = terracing
-	add_technology_researched = deforestation
 	add_technology_researched = temple_districts
+
 	
-	add_technology_researched = macuahuitl
 	add_technology_researched = atlatl
+	add_technology_researched = obsidian_weapons
+
+	add_technology_researched = mathematics
 }
 
 # Starting Techs for minor nations 

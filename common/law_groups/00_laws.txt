@@ -130,7 +130,7 @@ lawgroup_cultural_acceptance = {
 	
 }
 
-lawgroup_innovation = {
+lawgroup_crown_authority = {
 	law_group_category = human_rights
 	
 	progressive_movement_chance = 2.5

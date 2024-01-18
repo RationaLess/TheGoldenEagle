@@ -38,7 +38,7 @@ law_warrior_guilds = {
 	progressiveness = 0
 	
 	unlocking_technologies = { 
-		standing_army
+		martial_culture
 	 }
 	
 	modifier = {
@@ -67,7 +67,7 @@ law_military_education = {
 	progressiveness = 0
 	
 	unlocking_technologies = { 
-		military_education
+		theory_of_war
 	 }
 	
 	modifier = {
@@ -98,7 +98,7 @@ law_honorary_titles = {
 	progressiveness = 50
 	
 	unlocking_technologies = { 
-		honorary_titles
+		warrior_societies
 	 }
 	
 	modifier = {

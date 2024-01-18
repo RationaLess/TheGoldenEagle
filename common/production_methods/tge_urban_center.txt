@@ -5,15 +5,13 @@
 
 
 
-
-
-pm_basic_administration = {
+pm_urban_sprawl = {
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
 	
 	country_modifiers = {
 	
 		workforce_scaled = {
-		country_empire_sprawl_capacity_add = 25
+		country_empire_sprawl_capacity_add = 50
 		}
 	
 	}
@@ -21,6 +19,7 @@ pm_basic_administration = {
 	state_modifiers = {
 		level_scaled = {
 		state_minor_settlement_modifier = -1
+		state_infrastructure_add = 20
 		}
 	}
 	
@@ -42,46 +41,215 @@ pm_urban_poets = {
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
 	
 	country_modifiers = {
-	
+		workforce_scaled = {
+		country_weekly_innovation_add = 2.5
+		}
 	
 	}
 	
 	building_modifiers = { 
 		workforce_scaled = {
-			goods_output_worship_add = 0.1
-			goods_output_fine_art_add = 0.1
+			
+			goods_output_fine_art_add = 0.5
 		}
 
 		level_scaled = {
-			building_employment_artisans_add = 50
+			building_employment_scholars_add = 50
+		}
+		
+		unscaled = {
+			building_scholars_shares_add = 1
+		}
+	}
+}
+pm_no_social_housing = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	state_modifiers = {
+		unscaled = {
+			state_migration_pull_add = -5
+			}
+		}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_limited_social_housing = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	state_modifiers = {
+		unscaled = {
+			state_standard_of_living_add = 1
+			}
+		}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+		goods_input_wood_add = 1
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_advanced_social_housing = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	state_modifiers = {
+		unscaled = {
+			state_standard_of_living_add = 2
+			state_loyalists_from_sol_change_accepted_culture_mult = 0.1
+			}
+		}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+		goods_input_wood_add = 1
+		goods_input_furniture_add = 1
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_luxury_social_housing = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	state_modifiers = {
+		unscaled = {
+			state_standard_of_living_add = 3
+			state_loyalists_from_sol_change_accepted_culture_mult = 0.1
+			state_migration_pull_add = 5
+			}
+		}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+		goods_input_wood_add = 1
+		goods_input_furniture_add = 1
+		goods_input_fine_art_add = 1
+		}
+		
+		unscaled = {
+		}
+	}
+}
+
+
+pm_no_education = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+
+	
+	building_modifiers = { 
+		
+
+		level_scaled = {
+			building_employment_nobles_add = 10
+			building_employment_priests_add = 15
 		}
 		
 		unscaled = {
 		}
 	}
 }	
-pm_basic_learning = {
+pm_religious_learning = {
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
 	
-	country_modifiers = {
-		workforce_scaled = {
-			country_weekly_innovation_add = 2.5
-		}
-	
-	
+	state_modifiers = {
+		unscaled = { 
+			state_pop_qualifications_mult = 0.2 
+			state_education_access_wealth_add = 0.02
+		}	
 	}
 	
 	building_modifiers = { 
 		
 
 		level_scaled = {
+			goods_input_worship_add = 1
+		
+			building_employment_priests_add = 25
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_royal_universities = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	unlocking_technologies = {
+		specialized_knowledge
+	}	
+
+	state_modifiers = {
+		unscaled = { 
+			state_pop_qualifications_mult = 0.2 
+			state_education_access_wealth_add = 0.04
+			state_education_access_add = 0.15
+		}	
+	}
+	
+	building_modifiers = { 
+		
+
+		level_scaled = {
+			goods_input_worship_add = 2
+		
 			building_employment_scholars_add = 25
 		}
 		
 		unscaled = {
 		}
 	}
-}	
+}
+pm_public_universities = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	unlocking_technologies = {
+		education
+	}	
+
+	state_modifiers = {
+		unscaled = { 
+			state_pop_qualifications_mult = 0.3 
+			state_education_access_wealth_add = 0.06
+			state_education_access_add = 0.3
+		}	
+	}
+	
+	building_modifiers = { 
+		
+
+		level_scaled = {
+			goods_input_worship_add = 3
+			goods_input_tools_add = 1
+		
+			building_employment_scholars_add = 25
+		}
+		
+		unscaled = {
+		}
+	}
+}
 
 
 

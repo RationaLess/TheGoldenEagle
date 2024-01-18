@@ -3,7 +3,7 @@
 	can_use_obligations = yes
 	
 	unlocking_technologies = {
-		vassalage
+		diplomacy
 	}
 
 	potential = {
@@ -24,6 +24,7 @@
 		
 		
 		var:cultural_influence >= 0.60
+		
 		
 		
 		is_junior_in_customs_union = no
@@ -55,6 +56,10 @@
 
 	accept_effect = {
 		
+		create_truce = {
+			country = scope:target_country
+			months = 120
+		}
 
 
 		if = {
@@ -74,9 +79,10 @@
 	pact = {
 		cost = 100
 		has_junior_participant = yes
+		is_two_sided_pact = no
 		recipient_pays_maintenance = no
 		is_customs_union = yes
-		can_be_used_in_sway_offers = no
+		can_be_used_in_sway_offers = yes
 
 		relations_progress_per_day = 1  # At 100, +1 relations
 		relations_improvement_max = 80		
@@ -169,7 +175,14 @@
 
 			add = {
 				desc = "DIPLOMATIC_ACCEPTANCE_BASE"
-				value = -75
+				value = -100
+			}
+			
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_ARMY_STRENGTH"
+				value = "scope:actor.ai_army_comparison(root)"
+				min = -25
+				max = 25
 			}
 			
 			add = {
@@ -193,7 +206,7 @@
 				add = {
 					value = scope:actor.empire_sprawl_deficit
 					desc = "DIPLOMATIC_ACCEPTANCE_IMPERIAL_SPRAWL"
-					multiply = 20
+					multiply = 200
 					multiply = -1
 					}
 				}

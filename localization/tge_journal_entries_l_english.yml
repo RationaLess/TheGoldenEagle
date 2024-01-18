@@ -23,9 +23,7 @@
  floating_city_aqueduct_button_desc:"The periodic flooding of Tenochtitlan is the greatest obstacle to our prosperity. We could divide the lake into several distinct parts to manage the water level, though such an endavour would be a costly mega-project."
  
  
- je_matters_of_texcoco:"Matters of Texcoco"
- je_matters_of_texcoco_reason:"Being a place of great wealth, lake Texcoco has been home to some of the greatest empires of old - which goes in tandem with the ambitions of warmongers and conquerors. We must safeguard our independence through any means possible."
- je_matters_of_texcoco_confederate:"[ROOT.GetCountry.GetName] has confederated with another country"
+ 
  
  
  je_the_three_hearts:"The Three Hearts"
@@ -73,3 +71,33 @@
  je_revolt_high_tension:"The revolt is likely to escalate."
  je_revolt_mid_tension:"The revolt may escalate."
  je_revolt_low_tension:"The revolt will not escalate."
+ 
+ 
+ 
+ 
+ ###STRUGGLES###
+ je_matters_of_texcoco:"Matters of Texcoco"
+ je_matters_of_texcoco_reason:"This [concept_struggle] represents the waning power of the Tepanec over Texcoco. The progress bar is influenced by the [concept_cultural_influence] of participants as well as various #tooltippable;tooltip:[Country.GetTooltipTag],je_pedro_special_tooltip_advance actions#!. The #bold Progress Bar#! reaching 0 will establish the dominance of the Nahua, while reaching 100 will reinforce Tepanec authority in the region.\nLast month the bar changed by  #V [GetGlobalVariable('texcoco_struggle_bar_change').GetValue] Points #!."
+ je_matters_of_texcoco_confederate:"[ROOT.GetCountry.GetName] has confederated with another country"
+ je_matters_of_texcoco_status_growing:"Tepanec influence is growing"
+ je_matters_of_texcoco_status_fading:"Tepanec influence is fading"
+ je_matters_of_texcoco_status_tepanec:"Tepanec influence is strong"
+ je_matters_of_texcoco_status_nahua:"Nahua influence is strong"
+ 
+ matters_of_texcoco_lay_claims_button:"Lay Claims to Texcoco"
+ matters_of_texcoco_lay_claims_button_desc:"This cultural squabble is beneath us - after all, who is fit to rule Texcoco but us?"
+ matters_of_texcoco_proclaim_tepanecapan_button:"Proclaim Tepanecapan"
+ matters_of_texcoco_proclaim_tepanecapan_button_desc:"It's clear that in order for any sort of Tepanec authority to persevere, we must unite under one banner - proclaim the lake as our homeland."
+ matters_of_texcoco_proclaim_tepanecapan_subject:"All #v Tepanec #![concept_culture] subjects are annexed. Other #v Cordial #![concept_relations] #v Tepanec #![concept_culture] minors may join us through this [concept_journal_entry]."
+ 
+ matters_of_texcoco_success_loc:"The #V Progress Bar #!goes above #V 100 points #!"
+ matters_of_texcoco_on_success_loc:"The #v Tepanec #![concept_culture] nation with the highest [concept_prestige] will transform into #V Tepanecapan #! and gain claims on all of Texcoco."
+ 
+ matters_of_texcoco_failure_loc:"The #V Progress Bar #!goes below #V 0 points #!"
+ matters_of_texcoco_on_failure_loc:"Every #v Tepanec #![concept_culture] [concept_pop] and nation will become #v Nahua #!"
+ 
+ 
+ effect_texcoco_struggle_advance_5:"Advances the [concept_struggle] by #V 5 points #! in your favor"
+ effect_texcoco_struggle_advance_10:"Advances the [concept_struggle] by #V 10 points #! in your favor"
+
+

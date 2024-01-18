@@ -7,37 +7,17 @@ rudimentary_tools = {
 	category = production
 }
 
-hunter_gatherers = {
-	era = era_1
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
-	category = production
-}
-
 animal_husbandry = {
-	#
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
 	category = production
-
-	unlocking_technologies = {
-		hunter_gatherers
-	}
 }
 
-clay_tools = {
-	#
-	era = era_1
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
-	category = production
 
-	unlocking_technologies = {
-		rudimentary_tools
-	}
-}
 
 farming = {
 	#
-	era = era_1
+	era = era_2
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
 	category = production
 
@@ -54,33 +34,7 @@ artisanship = {
 	category = production
 
 	unlocking_technologies = {
-		clay_tools
-	}
-}
-
-settlements = {
-	#
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
-	category = production
-	
-	modifier = {
-		country_minor_settlements_per_thousand = 0.05
-	}
-	
-	unlocking_technologies = {
-		farming
-	}
-}
-
-cotton_farming = {
-	#
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
-	category = production
-
-	unlocking_technologies = {
-		farming
+		tooling
 	}
 }
 
@@ -95,24 +49,7 @@ woodworking = {
 	}
 	
 	unlocking_technologies = {
-		clay_tools
-	}
-}
-
-wooden_huts = {
-	#
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
-	category = production
-	
-	modifier = {
-		state_building_construction_sector_max_level_add = 1
-		country_minor_settlements_per_thousand = 0.05
-	}
-	
-	unlocking_technologies = {
-		woodworking
-		settlements
+		rudimentary_tools
 	}
 }
 
@@ -123,7 +60,7 @@ tooling = {
 	category = production
 
 	unlocking_technologies = {
-		artisanship
+		woodworking
 	}
 }
 
@@ -134,29 +71,7 @@ pottery = {
 	category = production
 
 	unlocking_technologies = {
-		artisanship
-	}
-}
-
-irrigation = {
-	#
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
-	category = production
-
-	unlocking_technologies = {
-		farming
-	}
-}
-
-specialized_hunting = {
-	#
-	era = era_3
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
-	category = production
-
-	unlocking_technologies = {
-		hunter_gatherers
+		rudimentary_tools
 	}
 }
 
@@ -167,19 +82,7 @@ terracing = {
 	category = production
 
 	unlocking_technologies = {
-		irrigation
-		urban_planning
-	}
-}
-
-deforestation = {
-	#
-	era = era_3
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
-	category = production
-
-	unlocking_technologies = {
-		woodworking
+		masonry
 	}
 }
 
@@ -196,13 +99,14 @@ urban_planning = {
 	}
 	
 	unlocking_technologies = {
-		wooden_huts
+		farming
+		tooling
 	}
 }
 
 quarrying = {
 	#
-	era = era_3
+	era = era_2
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
 	category = production
 
@@ -211,7 +115,7 @@ quarrying = {
 	}
 }
 
-limestone_working = {
+masonry = {
 	#
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
@@ -229,8 +133,7 @@ textile_working = {
 	category = production
 
 	unlocking_technologies = {
-		tooling
-		cotton_farming
+		artisanship
 	}
 }
 
@@ -241,8 +144,7 @@ obsidian_working = {
 	category = production
 
 	unlocking_technologies = {
-		tooling
-		pottery
+		quarrying
 	}
 }
 
@@ -257,28 +159,7 @@ temple_districts = {
 	}
 }
 
-mudbrick_working = {
-	#
-	era = era_3
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
-	category = production
 
-	unlocking_technologies = {
-		limestone_working
-	}
-}
-
-chiapas = {
-	#
-	era = era_3
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
-	category = production
-
-	unlocking_technologies = {
-		terracing
-		architecture
-	}
-}
 
 jewelries = {
 	#
@@ -287,52 +168,23 @@ jewelries = {
 	category = production
 
 	unlocking_technologies = {
+		pottery
 		artisanship
 	}
 }
 
-trader_accomodations = {
+roads = {
 	#
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
 	category = production
-	
+
 	modifier = {
 		country_empire_sprawl_capacity_mult = 0.1
 		}
-	
-	unlocking_technologies = {
-		basic_roads
-	}
-}
 
-infrastructure = {
-	#
-	era = era_3
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
-	category = production
-
-	modifier = {
-		state_building_construction_sector_max_level_add = 1
-	}
-	
 	unlocking_technologies = {
 		urban_planning
-	}
-}
-
-basic_roads = {
-	#
-	era = era_3
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
-	category = production
-
-	modifier = {
-		country_empire_sprawl_capacity_mult = 0.1
-		}
-
-	unlocking_technologies = {
-		infrastructure
 	}
 }
 
@@ -344,33 +196,20 @@ luxury_clothing = {
 
 	unlocking_technologies = {
 		textile_working
+		guild_development
 	}
 }
 
 
-stone_roads = {
-	#
-	era = era_4
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
-	category = production
-	
-	modifier = {
-		country_empire_sprawl_capacity_mult = 0.1
-		}
-	
-	unlocking_technologies = {
-		basic_roads
-	}
-}
 
-obsidian_mastery = {
+metal_tooling = {
 	#
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
 	category = production
 
 	unlocking_technologies = {
-		obsidian_working
+		basic_metallurgy
 	}
 }
 
@@ -382,7 +221,7 @@ basic_metallurgy = {
 	category = production
 
 	unlocking_technologies = {
-		obsidian_working
+		guild_development
 	}
 }
 
@@ -397,7 +236,7 @@ architecture = {
 	}
 	
 	unlocking_technologies = {
-		urban_planning
+		roads
 		terracing
 	}
 }
@@ -410,7 +249,6 @@ aqueducts = {
 
 	unlocking_technologies = {
 		architecture
-		infrastructure
 	}
 }
 
@@ -425,18 +263,18 @@ dam_building = {
 	}
 }
 
-bath_houses = {
+swamp_drainage = {
 	#
-	era = era_4
+	era = era_5
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
 	category = production
 
 	unlocking_technologies = {
-		aqueducts
+		dam_building
 	}
 }
 
-luxury_construction = {
+great_projects = {
 	#
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
@@ -454,7 +292,7 @@ zoo = {
 	category = production
 
 	unlocking_technologies = {
-		luxury_construction
+		great_projects
 	}
 }
 
@@ -465,6 +303,89 @@ botanical_gardens = {
 	category = production
 
 	unlocking_technologies = {
-		luxury_construction
+		great_projects
+	}
+}
+
+prospecting = {
+	#
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		basic_metallurgy
+	}
+}
+
+basic_machining = {
+	#
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		metal_tooling
+	}
+}
+
+silk_mills = {
+	#
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		metal_tooling
+		luxury_clothing
+		basic_machining
+	}
+}
+
+steam_engine = {
+	#
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		silk_mills
+	}
+}
+
+
+
+artisan_holdings = {
+	#
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		obsidian_working
+		jewelries
+	}
+}
+
+guild_development = {
+	#
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		artisan_holdings
+	}
+}
+
+
+swamp_drainage = {
+	#
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		dam_building
 	}
 }

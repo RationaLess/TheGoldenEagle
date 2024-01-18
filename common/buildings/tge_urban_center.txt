@@ -10,8 +10,8 @@ building_urban_center = {
 	}
 	
 	production_method_groups = {
-		pmg_luxury_housing
-		pmg_administration
+		pmg_urban_sprawl
+		pmg_social_housing
 		pmg_urban_artists
 		pmg_universities
 		

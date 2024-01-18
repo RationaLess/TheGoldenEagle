@@ -62,7 +62,7 @@ NPolitics = {
 #other
 
 NPops = {
-	NUM_WEALTH_LEVELS = 50
+	NUM_WEALTH_LEVELS = 70
 	LOYALTIES_GAIN_GRACE_PERIOD = "1440.1.1"	# Until this date, only a scaling part of the Radicals and Loyalists gained from SOL changes will be applied
 	
 	DEFAULT_POP_TYPE = "freemen"
@@ -89,7 +89,7 @@ NWar = {
 
 ### Pop Growth Constants
 @min_birthrate = 0.0030
-@max_birthrate = 0.0120 #0.0080
+@max_birthrate = 0.0045    #0.0080
 @min_mortality = 0.0010
 @max_mortality = 0.0070
 @pop_growth_sol_equilibrium = 5							# Equilibrium is where (with no birthrate/death-rate mods) growth is stagnant

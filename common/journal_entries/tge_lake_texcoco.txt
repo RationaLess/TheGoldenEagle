@@ -1,59 +1,253 @@
-je_the_golden_eagle = {
+
+je_matters_of_texcoco = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	
-	group = je_group_historical_content
+	group = je_group_foreign_affairs
 	
 	
-	complete = {
-		scope:journal_entry = {
-			is_goal_complete = yes
-		}
-	}
-
-	on_complete = {
-		trigger_event = {
-			id = the_golden_eagle.2
-		}
-	}
-
-	current_value = {
-		value = var:golden_eagle_var
-	}
-
-	goal_add_value = {
-		add = 5
-	}
-
+	
 	progressbar = yes
-
-	weight = 10000
-	should_be_pinned_by_default = yes
-}
-
-je_consolidate_lake_texcoco = {
 	
-	icon = "gfx/interface/icons/event_icons/event_military.dds"
-	complete = {
-		country_or_subject_owns_entire_state_region = STATE_CULHUACAN
-		country_or_subject_owns_entire_state_region = STATE_CHALCO
-		country_or_subject_owns_entire_state_region = STATE_XOCHIMILCO
-		country_or_subject_owns_entire_state_region = STATE_TLACOPAN
-		country_or_subject_owns_entire_state_region = STATE_TENOCHTITLAN
-		country_or_subject_owns_entire_state_region = STATE_AZCAPOTALZCO
-		country_or_subject_owns_entire_state_region = STATE_CUAUTITLAN
-		country_or_subject_owns_entire_state_region = STATE_TZOMPANCO
-		country_or_subject_owns_entire_state_region = STATE_TEOTIHUACAN
-		country_or_subject_owns_entire_state_region = STATE_TEXCOCO
+	current_value = {
+			if = {
+				limit = {
+					scope:journal_entry = {
+						goal_value = 0
+					}
+				}
+				value = 0
+			}
+			else = {
+				value = global_var:texcoco_struggle_bar # or whatever it needs to be
+			}
+		}
+		
+	goal_add_value = {
+		value = 100
 	}
 	
-	on_complete = {
-		trigger_event = { id = consolidate_lake_texcoco.1 }
+	
+	
+	is_shown_when_inactive = {
+		has_global_variable = texcoco_struggle_start
+		OR = {
+			has_state_in_state_region = STATE_TENOCHTITLAN
+			has_state_in_state_region = STATE_WEST_TEXCOCO
+			has_state_in_state_region = STATE_EAST_TEXCOCO
+			has_state_in_state_region = STATE_NORTH_TEXCOCO
+			has_state_in_state_region = STATE_TEOTIHUACAN
+			has_state_in_state_region = STATE_XOCHIMILCO
+			has_state_in_state_region = STATE_CHALCO
+		}
+	}
+	
+	immediate = {
+		trigger_event = matters_of_texcoco.1
+	}
+
+	possible = {
+		always = yes
+	}
+	
+	fail = {
+	
+	}
+	
+	on_monthly_pulse = {
 		
-		change_variable = {
-				name = golden_eagle_var
-				add = 1
+		effect = {
+			
+				#Increments or Decrements
+				IF = {
+					limit = {
+						country_has_primary_culture = cu:tepanec
+						}
+					change_global_variable = {
+							name = texcoco_struggle_bar
+							add = {
+								value = var:cultural_influence
+								}
+						}
+				}
+				
+				IF =  {
+					limit = {
+						OR = {
+							country_has_primary_culture = cu:nahua 
+							country_has_primary_culture = cu:mexica
+							}
+						}
+					change_global_variable = {
+							name = texcoco_struggle_bar
+							add = {
+								value = var:cultural_influence
+								multiply = -1
+								}
+						}
+				}
+				
+				
+				
+			#Calculating bar change
+			set_global_variable = {
+				name = texcoco_struggle_bar_change
+				value = 0
+				}
+			every_country = {
+					limit = {
+							has_journal_entry = je_matters_of_texcoco
+						}
+					#Increments or Decrements
+					IF = {
+						limit = {
+							country_has_primary_culture = cu:tepanec
+							}
+						change_global_variable = {
+								name = texcoco_struggle_bar_change
+								add = {
+									value = var:cultural_influence
+									}
+							}
+					}
+					
+					IF =  {
+						limit = {
+							OR = {
+								country_has_primary_culture = cu:nahua 
+								country_has_primary_culture = cu:mexica
+								}
+							}
+						change_global_variable = {
+								name = texcoco_struggle_bar_change
+								add = {
+									value = var:cultural_influence
+									multiply = -1
+									}
+							}
+					}
+					
+				}
+		
+		}
+		
+		#Losing Events
+		
+		
+		random_events = {
+			50 = 0
+			10 = matters_of_texcoco.2
+		}
+	}
+	
+	
+	scripted_button = matters_of_texcoco_lay_claims
+	
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_matters_of_texcoco_status_nahua
+				trigger = {
+					global_var:texcoco_struggle_bar < 25
+				}
+			}
+			triggered_desc = {
+				desc = je_matters_of_texcoco_status_tepanec
+				trigger = {
+					global_var:texcoco_struggle_bar > 75
+				}
+			}
+			triggered_desc = {
+				desc = je_matters_of_texcoco_status_fading
+				trigger = {
+					global_var:texcoco_struggle_bar_change <= 0
+				}
+			}
+			triggered_desc = {
+				desc = je_matters_of_texcoco_status_growing
+				trigger = {
+					global_var:texcoco_struggle_bar_change > 0
+				}
+			}
+		}
+	}
+	
+	#Pro Nahua Outcome
+	fail = {
+		custom_tooltip = {
+		global_var:texcoco_struggle_bar <= 0
+		text = matters_of_texcoco_failure_loc
+		}
+	}
+	on_fail = {
+		custom_tooltip = {
+		text = matters_of_texcoco_on_failure_loc
+		
+			every_country = {
+				every_scope_pop = {
+					limit = { culture = cu:tepanec }
+					change_pop_culture = { target = cu:nahua value = 1 }
+				}
+			}
+		
+		}
+	}
+	#Pro Tepanec Outcome 
+	complete = {
+		custom_tooltip = {
+			global_var:texcoco_struggle_bar >= 100
+			text = matters_of_texcoco_success_loc
 			}
 	}
+	on_complete = {
+		custom_tooltip = {
+		text = matters_of_texcoco_on_success_loc
+		
+		
+		IF = {
+			limit = {
+				NOT = { exists = c:TEPA }
+				}
+			any_country = {
+				limit = {
+					country_has_primary_culture = cu:tepanec
+					}
+				save_scope_as = highest_prestige_tepanec
+				}
+				every_country = {
+					limit = {
+						country_has_primary_culture = cu:tepanec
+						}
+					IF = {
+							limit = {
+							prestige > scope:highest_prestige_tepanec.prestige 	
+							}
+							save_scope_as = highest_prestige_tepanec
+						}
+					}
+				scope:highest_prestige_tepanec = {
+					change_tag = TEPA
+					}			
+					
+				}
+			}
+		
+		}
 	
-	weight = 100
+	}
+	#No Outcome
+	timeout = 7200
+	on_timeout = {
+
+	}
+	
+	
+	
+	modifiers_while_active = {
+		texcoco_turmoil
+	}
+	
+	
+	weight = 5000
+	should_be_pinned_by_default = yes
+
 }

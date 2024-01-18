@@ -767,12 +767,25 @@ ai_strategy_default = {
 		befriend = {
 			value = 200
 			
+			
+			#Texcoco Struggle Tepanec solidarity
+			if = {
+				limit = {	
+					has_journal_entry = je_matters_of_texcoco
+					country_has_primary_culture = cu:tepanec
+					scope:target_country.country_has_primary_culture = cu:tepanec
+				}
+				multiply = 4
+			}
+			
 			if = {
 				limit = {	
 					country_rank <= scope:target_country.country_rank
 				}
 				add = 100
 			}
+			
+			
 			
 			multiply = {
 				value = "ai_ideological_opinion(scope:target_country)"

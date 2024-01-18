@@ -10,7 +10,6 @@ law_neutral = {
 
 	modifier = {
 		country_influence_mult = 0.25
-		country_cultural_influence = 0.05
 	}
 	
 
@@ -25,7 +24,7 @@ law_appeasing = {
 	modifier = {
 		country_infamy_decay_mult = 0.25
 		country_infamy_generation_mult = 0.25
-		country_cultural_influence = 0.1
+		country_cultural_influence = 0.05
 	}
 	
 
@@ -40,7 +39,7 @@ law_mercantile = {
 
 	modifier = {
 		country_trade_route_competitiveness_mult = 0.2
-		country_cultural_influence = 0.05
+		country_cultural_influence = 0.025
 	}
 	
 
@@ -54,7 +53,7 @@ law_bellicose = {
 
 	modifier = {
 		country_military_goods_cost_mult = -0.1
-		country_infamy_decay_mult = -0.75
+		country_infamy_decay_mult = -0.25
 		unit_morale_recovery_mult = 0.25
 		country_cultural_influence = -0.05
 	}

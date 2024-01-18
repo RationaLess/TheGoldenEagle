@@ -91,13 +91,18 @@
  subject_management.1.cultural_unifier:"The [SCOPE.sCulture('culture_to_gain').GetName] empire grows ever greater!"
  
  #Matters of Texcoco
- matters_of_texcoco.1.t:"Matters of Texcoco"
- matters_of_texcoco.1.d:"As an independent atlepetl on the shore of Lake Texcoco, [ROOT.GetCountry.GetName] finds itself in a situation requiring careful maneuvering."
- matters_of_texcoco.1.f:"In the heart of Anahuac lays a lake with which facilitated wealth and trade throughout the classic period. Connecting much of Mesoamerica, residing in it is as desirable as it is dangerous."
  
- matters_of_texcoco.1.a:"[ROOT.GetCountry.GetName] an empire, and [ROOT.GetCountry.GetRuler.GetFirstName] an emperor!"
- matters_of_texcoco.1.b:"Forging alliances is the way to go forward."
- matters_of_texcoco.1.c:"We will remain pragmatic in this time."
+ 
+ 
+ matters_of_texcoco.1.t:"Matters of Texcoco"
+ matters_of_texcoco.1.d:"The defeat of Azapotzalco has put the Texcoco atlepetl into a full-blown [concept_struggle]."
+ matters_of_texcoco.1.f:"As the hegemonic power of Azcapotzalco has faded, lake Texcoco, nay, whole of Anahuac is now in an uncertain place - with a powerful Triple Alliance emerging as the dominant power, the future of the Tepaneca control of the lake is uncertain."
+ 
+ matters_of_texcoco.1.a:"The end of the Tepanec reign is nigh."
+ matters_of_texcoco.1.b:"There may be a future for the Tepanec yet."
+ #matters_of_texcoco.1.a:"[ROOT.GetCountry.GetName] an empire, and [ROOT.GetCountry.GetRuler.GetFirstName] an emperor!"
+ #matters_of_texcoco.1.b:"Forging alliances is the way to go forward."
+ #matters_of_texcoco.1.c:"We will remain pragmatic in this time."
  
  matters_of_texcoco.2.t:"Friendly Correspondence"
  matters_of_texcoco.2.d:"A friendly envoy from [SCOPE.sCountry('their_country').GetName] has extended their best wishes to [ROOT.GetCountry.GetRuler.GetFirstName], our [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]."
@@ -113,7 +118,7 @@
  matters_of_texcoco.3.b:"Just who is this fighter, exactly?"
  
  matters_of_texcoco.4.t:"The Tepaneca War"
- matters_of_texcoco.4.d:"The [SCOPE.sStrategicRegion('region_anahuac').GetName] situation has escalated to a war between the [SCOPE.sCountry('azcapotzalco').GetName] against a newly formed [SCOPE.sCountry('aztec').GetName] and her allies."
+ matters_of_texcoco.4.d:"The [SCOPE.sStrategicRegion('anahuac').GetName] situation has escalated to a war between the [SCOPE.sCountry('azcapotzalco').GetName] against a newly formed [SCOPE.sCountry('aztec').GetName] and her allies."
  matters_of_texcoco.4.f:"The polymath, philosopher, and general extraordinaire [SCOPE.sCharacter('nezahua').GetFullName] has managed to persuade many city-states to his cause, including the famed [SCOPE.sCountry('tlaxcala').GetName]. With the coalition at the ready, he is to lead the siege to restore the throne of Texcoco to its rightful dynasty, carve a future for the [SCOPE.sCountry('aztec').GetName], and avenge his father Ixtlilxochitl the first in the process."
  matters_of_texcoco.4.a:"\"Annochipa tlalticpac. Zan achica ye nican.\""
  

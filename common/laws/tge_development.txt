@@ -2,7 +2,7 @@
 # icon = graphical icon shown in-game
 # modifier = {} modifier on country for having adopted this law
 
-law_decentralized_settlements = {
+law_mobile_settlements = {
 	group = lawgroup_development
 	
 	icon = "gfx/interface/icons/law_icons/landed_voting.dds"
@@ -10,19 +10,17 @@ law_decentralized_settlements = {
 	progressiveness = -50
 	
 	unlocking_technologies = {
+		animal_husbandry
 	}
 		
 	on_activate = {		
-		#custom_tooltip = {
-		#	text = enact_law_radical_leftist_economy_warning_desc
-		#}	
 	}
 	
 	modifier = {
 		
-	country_empire_sprawl_load_mult = 0.5
-	#state_construction_mult = -1
+	
 	state_urbanization_per_level_add = 50
+	country_minor_settlements_per_thousand = 0.2
 	
 	}
 
@@ -44,7 +42,7 @@ law_decentralized_settlements = {
 }
 
 
-law_urban_centers = {
+law_ribbon_development = {
 	group = lawgroup_development
 	
 	icon = "gfx/interface/icons/law_icons/colonial_resettlement.dds"
@@ -52,16 +50,16 @@ law_urban_centers = {
 	progressiveness = 0
 	
 	unlocking_technologies = {
-		urban_planning
+		rudimentary_tools
 	}
 		
 	
 	
 	modifier = {
 		
-	country_empire_sprawl_load_mult = 0.25
+	state_urbanization_per_level_add = 25
 	country_authority_add = 50
-	state_urbanization_per_level_add = 0
+	country_max_weekly_construction_progress_add = 5
 	
 	
 	}
@@ -84,7 +82,7 @@ law_urban_centers = {
 }
 
 
-law_great_projects = {
+law_clustered_communities = {
 	group = lawgroup_development
 	
 	icon = "gfx/interface/icons/law_icons/laissez_faire.dds"
@@ -92,7 +90,7 @@ law_great_projects = {
 	progressiveness = 50
 	
 	unlocking_technologies = {
-		architecture
+		urban_planning
 	}
 		
 	on_activate = {		
@@ -101,10 +99,9 @@ law_great_projects = {
 	
 	modifier = {
 		
-	country_empire_sprawl_load_mult = 0.1
-	#state_construction_mult = 0.15
-	country_authority_add = 100
-	state_urbanization_per_level_add = -15
+	#state_urbanization_per_level_add = 25
+	country_authority_add = 75
+	country_max_weekly_construction_progress_add = 10
 		
 	}
 
@@ -126,25 +123,24 @@ law_great_projects = {
 }
 
 
-law_central_development = {
+law_centralized_urban_centers = {
 	group = lawgroup_development
 	
 	icon = "gfx/interface/icons/law_icons/command_economy.dds"
 	
-	progressiveness = 100
+	progressiveness = 50
 	
 	unlocking_technologies = {
-		architecture
-		specialized_knowledge
+		urban_planning
 	}
 		
 	on_activate = {	
 	}
 	
 	modifier = {
-	country_authority_add = 200
-	#state_construction_mult = 0.3
-	state_urbanization_per_level_add = -25
+	
+	country_authority_add = 100
+	country_max_weekly_construction_progress_add = 15
 	
 	
 	}

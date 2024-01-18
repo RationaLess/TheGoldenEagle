@@ -1,18 +1,22 @@
 ﻿
 
-pmg_luxury_housing = {
+pmg_urban_sprawl = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_luxury_housing
+		pm_urban_sprawl
 	}
 }
 
-pmg_administration = {
+pmg_social_housing  = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_basic_administration
+		pm_no_social_housing
+		pm_limited_social_housing
+		pm_advanced_social_housing
+		pm_luxury_social_housing
 	}
 }
+
 
 pmg_urban_artists = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
@@ -24,10 +28,20 @@ pmg_urban_artists = {
 pmg_universities = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_basic_learning
+		pm_no_education
+		pm_religious_learning
+		pm_royal_universities
+		pm_public_universities
 	}
 }
 
+
+pmg_administration = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_basic_administration
+	}
+}
 
 pmg_markets = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"

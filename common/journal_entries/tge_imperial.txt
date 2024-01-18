@@ -22,6 +22,7 @@ is_shown_when_inactive = {
 	}
 
 possible = {
+		always = no
 		prestige > 100
 		is_subject = no
 		is_at_war = no

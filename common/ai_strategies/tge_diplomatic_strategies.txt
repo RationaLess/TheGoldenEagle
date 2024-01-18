@@ -90,7 +90,7 @@ ai_strategy_royal_affairs = {
 	}
 
 	weight = {
-		value = 10
+		value = 0
 
 	}
 }
@@ -191,7 +191,7 @@ ai_strategy_form_confederation = {
 	secret_goal_scores = {
 	
 		befriend = {
-			value = -300
+			value = 300
 			if = {
 				limit = {	
 					scope:target_country = {
@@ -199,7 +199,7 @@ ai_strategy_form_confederation = {
 					}
 				}
 			
-			add = 1200
+			add = 900
 			}
 		}
 
@@ -226,7 +226,13 @@ ai_strategy_form_confederation = {
 			limit = { country_rank < rank_value:major_power }
 			add = 100
 		}
-
+	
+		IF = {
+			limit = { NOT = {
+				has_journal_entry = je_forging_alliances
+				} }
+			multiply = 0	
+			}
 	
 	}
 }
@@ -262,7 +268,7 @@ ai_strategy_imperial_ambitions = {
 	}
 	
 	recklessness = {
-		value = 0.75
+		value = 4
 	}
 	
 	aggression = {
@@ -315,12 +321,37 @@ ai_strategy_imperial_ambitions = {
 	}
 	
 	secret_goal_weights = {
-		#protect = 0.5
+		dominate = 4
 		conquer = 4
 	}
-
+	
+	secret_goal_scores = {
+		#imperialist AIs should be psychotic
+		dominate = {
+			if = {
+				limit = {
+					can_reach_target_country = yes
+					has_strategic_adjacency = scope:target_country
+					scope:target_country.country_rank <= root.country_rank
+				}
+				add = 1000
+			}
+		}
+		conquer = {
+			if = {
+				limit = {
+					can_reach_target_country = yes
+					has_strategic_adjacency = scope:target_country
+					scope:target_country.country_rank <= root.country_rank
+				}
+			add = 1000
+		}
+	}
+	
+	
 	wargoal_weights = {
 		conquer_state = 4
+		protectorate = 8
 		return_state = 4
 	}	
 		
@@ -330,6 +361,7 @@ ai_strategy_imperial_ambitions = {
 		OR = {
 			ig:ig_warrior_guilds = { is_powerful = yes }
 			has_law = law_type:law_bellicose
+			has_law = law_type:law_tributary_empire
 		}
 		NOT = {
 			has_law = law_type:law_appeasing
@@ -347,12 +379,28 @@ ai_strategy_imperial_ambitions = {
 		if = {
 			limit = { 
 			OR = {
+				has_law = law_type:law_tributary_empire
+				has_law = law_type:law_territory_integration
+				}
+			multiply = 2
+			}				
+		}
+		if = {
+			limit = { 
+			OR = {
 				has_law = law_type:law_council
 				has_law = law_type:law_monarchy
 				}
 			multiply = 2
 			}				
 		}
+		IF = {
+			limit = {
+				has_journal_entry = je_kindling_the_empire
+				}
+			multiply = 4	
+			}
+	}
 }
 
 ai_strategy_diplomatic_status_quo = {
@@ -474,6 +522,10 @@ ai_strategy_diplomatic_status_quo = {
 				}
 			multiply = 2
 			}				
+		}
+		if = {
+			limit = { has_law = law_type:law_bellicose }
+			multiply = 0.1
 		}
 		
 		

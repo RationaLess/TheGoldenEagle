@@ -4,13 +4,28 @@
 	group = je_group_historical_content
 	
 	complete = {
-		owns_entire_state_region = STATE_WEST_TEXCOCO
+		is_subject = no
+		at_war = no
 	}
 
 	on_complete = {
 		trigger_event = {
 			id = tepaneca_war.1
 		}
+		
+		set_global_variable = texcoco_struggle_start
+		set_global_variable = {
+			name = texcoco_struggle_bar
+			value = 50
+			}
+		set_global_variable = {
+			name = texcoco_struggle_bar_change
+			}
+		
+	}
+	
+	fail = {
+		is_subject_of = c:AZC
 	}
 	
 	immediate = {
@@ -49,89 +64,4 @@
 
 	weight = 10000
 	should_be_pinned_by_default = yes
-}
-
-je_matters_of_texcoco = {
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-	
-	group = je_group_foreign_affairs
-	
-	
-	is_shown_when_inactive = {
-		OR = {
-			has_state_in_state_region = STATE_TENOCHTITLAN
-			has_state_in_state_region = STATE_WEST_TEXCOCO
-			has_state_in_state_region = STATE_EAST_TEXCOCO
-			has_state_in_state_region = STATE_NORTH_TEXCOCO
-			has_state_in_state_region = STATE_TEOTIHUACAN
-			has_state_in_state_region = STATE_XOCHIMILCO
-			has_state_in_state_region = STATE_CHALCO
-		}
-	}
-	
-	immediate = {
-		trigger_event = matters_of_texcoco.1
-	}
-
-	possible = {
-		is_subject = no
-		is_at_war = no
-	}
-	
-	fail = {
-		is_subject = yes
-	}
-	
-	on_monthly_pulse = {
-		random_events = {
-			50 = 0
-			10 = matters_of_texcoco.2
-			5 = matters_of_texcoco.3
-		}
-	}
-
-	modifiers_while_active = {
-	}
-	
-	complete = {
-		OR = {
-			AND = {
-				country_or_subject_owns_entire_state_region = STATE_TENOCHTITLAN
-				country_or_subject_owns_entire_state_region = STATE_WEST_TEXCOCO
-				country_or_subject_owns_entire_state_region = STATE_EAST_TEXCOCO
-				country_or_subject_owns_entire_state_region = STATE_NORTH_TEXCOCO
-				country_or_subject_owns_entire_state_region = STATE_TEOTIHUACAN
-				country_or_subject_owns_entire_state_region = STATE_XOCHIMILCO
-				country_or_subject_owns_entire_state_region = STATE_CHALCO
-			}
-			c:TLX = {
-				has_diplomatic_pact = {
-					who = root
-					type = alliance
-				}
-			}
-			custom_tooltip = {
-				text = je_matters_of_texcoco_confederate
-				AND = {
-					has_variable = confederations_num
-					var:confederations_num >= 1
-					NOT = {
-						has_law = law_type:law_bellicose
-						}
-					}
-				}
-		}
-	}
-	
-	on_complete = {
-		add_modifier = {
-			name = safeguarded_independence
-			months = 600
-		}
-	}
-	
-	
-	weight = 5000
-	should_be_pinned_by_default = yes
-
 }

@@ -39,6 +39,8 @@ subject_management.1 = {
 				}
 			}
 
+		
+
 		set_variable = {
 			name = settler_amount 
 			value = {
@@ -62,8 +64,14 @@ subject_management.1 = {
 							save_scope_as = culture_to_lose
 					}
 				}
+	
+	#10 Years of Peace
+		create_truce = {
+				country = scope:protectorate_to_change
+				months = 120
+			}
 	}
-
+	
 	option = { #Sacking
 			name = subject_management.1.a
 			default_option = yes

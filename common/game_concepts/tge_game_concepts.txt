@@ -9,3 +9,5 @@ concept_minor_settlements = {}
 concept_invasion = {}
 
 concept_cultural_influence = {}
+
+concept_struggle = {}

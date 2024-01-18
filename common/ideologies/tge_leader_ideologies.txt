@@ -42,6 +42,8 @@
 	}
 }
 
+
+
 ideology_leader_statist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/unused/ideology_leader_meritocratic.dds"
 	
@@ -177,7 +179,7 @@ ideology_leader_populist = {
 	
 	
 ideology_leader_empathetic = {
-	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_humanitarianism.dds"
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_humanitarism.dds"
 	
 	character_ideology = yes
 	
@@ -228,7 +230,7 @@ ideology_leader_empathetic = {
 				}
 			}
 		
-		add = 50
+		add = 25
 		}
 		if = {
 			limit = {
@@ -240,7 +242,7 @@ ideology_leader_empathetic = {
 				}
 			}
 		
-		add = 25
+		add = 15
 		}
 		if = {
 			limit = {
@@ -249,7 +251,7 @@ ideology_leader_empathetic = {
 				}
 			}
 		
-		add = 50
+		add = 25
 		}
 		if = {
 			limit = {
@@ -265,7 +267,7 @@ ideology_leader_empathetic = {
 			limit = {
 			has_role = agitator
 			}
-		add = 100
+		multiply = 2
 		}
 		
 		
@@ -273,7 +275,93 @@ ideology_leader_empathetic = {
 		}
 	
 	}
+
+
+ideology_leader_urbanist = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_integralist.dds"
 	
+	character_ideology = yes
+	
+	
+	lawgroup_institutionalization = {
+			law_court_government = disapprove 
+			law_assembly_government = disapprove 
+			law_informal_government = disapprove 
+			law_dedicated_government = approve
+			law_bureaucratic_government = strongly_approve 
+		}
+	lawgroup_crown_authority = {
+		law_unchecked_power = strongly_disapprove 
+		law_majority_consensus = disapprove 
+		law_controlled_courts = neutral 
+		law_juidicial_autonomy = approve 
+		}
+	lawgroup_development = {
+		law_decentralized_settlements = disapprove 
+		law_urban_centers = disapprove 
+		law_great_projects = neutral
+		law_central_development = strongly_approve
+	}
+	
+	
+	
+	
+	possible = {
+		owner = {
+			has_technology_researched = politics
+		}
+		
+		scope:interest_group = {
+			OR = {
+				is_interest_group_type = ig_aristocracy
+				is_interest_group_type = ig_ancillaries
+				is_interest_group_type = ig_warrior_guilds
+				is_interest_group_type = ig_pochteca
+				is_interest_group_type = ig_scholars
+			}
+		}
+		
+		}
+	
+	leader_weight = {
+		value = 25
+		
+		#Scholars should like this
+		if = {
+			limit = {
+			scope:interest_group = {
+					is_interest_group_type = ig_scholars
+				}
+			}
+		multiply = 1.5
+		}
+		#Likely to crop up if the govt is underdeveloped
+		if = {
+			limit = {
+				owner = {
+					NOT = {
+					OR = {
+						has_law = law_type:law_dedicated_government
+						has_law = law_type:law_bureaucratic_government
+						}
+					}
+				}
+			}
+		add = 175
+		}
+		# More likely for major powers
+		if = {
+			limit = {
+				owner = {
+					country_rank >= rank_value:major_power
+				}
+			}
+			add = 75
+		}
+	
+	}
+
+}
 
 ideology_leader_imperialist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_ethno_nationalist.dds"
@@ -305,6 +393,12 @@ ideology_leader_imperialist = {
 			law_religious_tithes = neutral 
 			law_imperial_land = strongly_approve 
 			law_calpulli_system = disapprove 
+		}
+	lawgroup_military_reforms = {
+			law_no_standing_army = strongly_disapprove
+			law_warrior_guilds = neutral
+			law_military_education = approve 
+			law_honorary_titles = strongly_approve
 		}
 	
 	
@@ -428,7 +522,7 @@ ideology_leader_confederate = {
 	lawgroup_governance_principles = {
 		law_city_state = disapprove 
 		law_alliance = strongly_approve
-		law_council = neutral
+		law_council = strongly_approve
 		law_monarchy = strongly_disapprove
 		}
 	
@@ -436,7 +530,17 @@ ideology_leader_confederate = {
 	
 	possible = {
 		owner = {
-			has_technology_researched = alliances
+			has_technology_researched = diplomacy
+			OR = {
+				has_law = law_type:law_city_state
+				has_law = law_type:law_alliance
+				}
+			NOT = {
+				OR = {
+					has_law = law_type:law_dedicated_government
+					has_law = law_type:law_bureaucratic_government
+					}
+				}
 		}
 		scope:interest_group = {
 			OR = {
@@ -452,6 +556,8 @@ ideology_leader_confederate = {
 	
 	leader_weight = {
 		value = 25
+		
+
 		
 		#Ancillaries should aim to establish confederations
 		if = {
@@ -480,12 +586,16 @@ ideology_leader_confederate = {
 			}
 			add = 100
 		}
+		# should be rare in bellicose countries
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_bellicose
+				}
+			}
+			multiply = 0.1
+		}
 	
 	}
 
 }
-<<<<<<< HEAD
-	
-=======
-	
->>>>>>> parent of 1c71f10 (merge conflict or smthn)

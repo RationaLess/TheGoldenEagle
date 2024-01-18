@@ -7,7 +7,7 @@
 			
 			war = yes
 			
-			type = dp_conquer_state
+			type = dp_invasion
 		
 			
 			add_initiator_backers = { 
@@ -17,27 +17,12 @@
 		
 			add_war_goal = {
 				holder = c:AZC
-				type = conquer_state
-				target_state = s:STATE_TENOCHTITLAN.region_state:TTLC
+				type = make_puppet
+				target = c:ATA
 			}	
 			add_war_goal = {
 				holder = c:AZC
-				type = conquer_state
-				target_state = s:STATE_WEST_TEXCOCO.region_state:ATA
-			}	
-			add_war_goal = {
-				holder = c:AZC
-				type = conquer_state
-				target_state = s:STATE_TENOCHTITLAN.region_state:ATA
-			}	
-			add_war_goal = {
-				holder = c:AZC
-				type = conquer_state
-				target_state = s:STATE_EAST_TEXCOCO.region_state:ATA
-			}	
-			add_war_goal = {
-				holder = c:AZC
-				type = protectorate
+				type = make_puppet
 				target = c:CHA
 			}			
 		}	

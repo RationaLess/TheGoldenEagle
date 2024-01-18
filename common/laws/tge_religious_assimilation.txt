@@ -10,6 +10,11 @@ law_forced_conversions = {
 	
 	progressiveness = -50
 	
+	
+	unlocking_technology = {
+		theocracy
+		}
+	
 	on_enact = {
 		recalculate_pop_ig_support = yes
 	}
@@ -94,9 +99,10 @@ law_communal_worship = {
 	
 	progressiveness = 50
 
-	unlocking_technologies = {
-		empiricism
-	}
+	
+	unlocking_technology = {
+		syncretism
+		}
 
 	disallowing_laws = {
 	}

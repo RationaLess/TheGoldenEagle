@@ -60,16 +60,20 @@ captured_slaves = {
 
 acquired_tributary = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
-	interest_group_ig_aristocracy_approval_add = 1
-	interest_group_ig_warrior_guilds_approval_add = 1
 	country_bureaucracy_add = -25
 }
 
 expanded_borders = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	interest_group_ig_governors_approval_add = 1
-	country_bureaucracy_add = -50
+	country_bureaucracy_add = -250
 }
+
+integrating_subject = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_bureaucracy_add = -500
+}
+
 
 
 #Cultural Influence

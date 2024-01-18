@@ -1,7 +1,54 @@
 ﻿namespace = matters_of_texcoco
 
 #Start of JE
+
 matters_of_texcoco.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = matters_of_texcoco.1.t
+	desc = matters_of_texcoco.1.d
+	flavor = matters_of_texcoco.1.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/tension_meso.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	trigger = {
+	}
+
+
+	option = { #Tepanec
+			name = matters_of_texcoco.1.a
+			default_option = yes
+			
+			trigger = {
+				country_has_primary_culture = tepanec
+				}
+		}
+	
+	option = { #Other
+			name = matters_of_texcoco.1.b
+			default_option = yes
+			
+			trigger = {
+					NOT = {
+					country_has_primary_culture = tepanec
+					}
+				}
+		}
+
+}
+
+
+
+matters_of_texcoco.100 = {
 	type = country_event
 	placement = ROOT
 
@@ -207,7 +254,7 @@ matters_of_texcoco.2 = {
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 
 	trigger = {
-	
+		NOT = { has_variable = texcoco_struggle_sacrificed_diplomat }
 		any_country = {
 			has_journal_entry = je_matters_of_texcoco 
 			NOT = { this = root }
@@ -216,6 +263,7 @@ matters_of_texcoco.2 = {
 				has_war_with = ROOT
 			}
 		}
+		
 	
 	}
 
@@ -250,8 +298,11 @@ matters_of_texcoco.2 = {
 	option = { #accept
 			name = matters_of_texcoco.2.a
 			default_option = yes
-			
-			
+			change_infamy = -2
+			create_truce = {
+				country =  scope:their_country
+				months = 12
+				}
 			
 			change_relations = {
 				country =  scope:their_country
@@ -264,19 +315,16 @@ matters_of_texcoco.2 = {
 		}
 	option = { #deny
 			name = matters_of_texcoco.2.b
-			default_option = yes
-			
-			
-			
-			
-			
+
 			ai_chance = {
 				base = 25
 				}	
 		}
 	option = { #sacrifice lmao
 			name = matters_of_texcoco.2.c
-			default_option = yes
+			trigger = {
+				has_law = law_type:law_human_sacrifice
+				}
 			
 			
 			add_modifier = {
@@ -291,6 +339,14 @@ matters_of_texcoco.2 = {
 				country = scope:their_country
 				value = 5
 				}
+			
+			custom_tooltip = {
+				text = effect_texcoco_struggle_advance_5
+				effect_texcoco_struggle_advance_5
+				
+				set_variable = texcoco_struggle_sacrificed_diplomat
+				}
+			
 			
 			ai_chance = {
 				base = 0
@@ -307,7 +363,7 @@ matters_of_texcoco.2 = {
 }
 
 
-matters_of_texcoco.4 = { #Tepaneca War
+matters_of_texcoco.40 = { #Tepaneca War
 	type = country_event
 	placement = root
 

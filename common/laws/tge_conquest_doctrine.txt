@@ -46,7 +46,7 @@ law_local_hegemon = {
 	progressiveness = 0
 	
 	unlocking_technologies = {
-		vassalage
+		diplomacy
 	}
 		
 	on_activate = {
@@ -82,7 +82,7 @@ law_tributary_empire = {
 	progressiveness = 0
 	
 	unlocking_technologies = {
-		tributaries
+		martial_culture
 	}
 		
 	on_activate = {
@@ -118,7 +118,7 @@ law_territory_acquisition = {
 	progressiveness = 0
 	
 	unlocking_technologies = {
-		imperial_holdings
+		fortifications
 	}
 		
 	on_activate = {

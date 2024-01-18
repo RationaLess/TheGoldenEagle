@@ -1,19 +1,19 @@
-﻿era_1 = { #Archaic
+﻿era_1 = { #Archaic / Everyone should have this
 	technology_cost = 5000 # for progress bonuses, use an approximate third: 1650
 }
 
-era_2 = { #Preclassic
+era_2 = { #Preclassic / NA Tribes will likely be in this era
 	technology_cost = 7500 # for progress bonuses, use a third: 2500
 }
 
-era_3 = { #Classic
+era_3 = { #Classic / less urbanized civilizations are in this era, mesoamerica should have most of these tech
 	technology_cost = 10000 # for progress bonuses, use an approximate third: 3000
 }
 
-era_4 = { #Postclassic
-	technology_cost = 12500 # for progress bonuses, use an approximate third: 4000
+era_4 = { #Postclassic / Anything that the Aztecs managed to achieve on their own
+	technology_cost = 15000 # for progress bonuses, use an approximate third: 5000
 }
 
-era_5 = { #Colonial
-	technology_cost = 15000 # for progress bonuses, use a third: 5000
+era_5 = { #Colonial / Anything the europeans brought over or Aztecs could've developed with enough time
+	technology_cost = 30000 # for progress bonuses, use a third: 10000
 }

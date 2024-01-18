@@ -1,0 +1,98 @@
+matters_of_texcoco_proclaim_tepanecapan = {
+	name = "matters_of_texcoco_proclaim_tepanecapan_button"
+	desc = "matters_of_texcoco_proclaim_tepanecapan_button_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		NOT = {
+			exists = c:TEPA
+			this = c:TEPA
+			}
+		
+		at_war = no
+		country_has_primary_culture = cu:tepanec
+		
+		any_subject_or_below = {
+			is_subject_type = subject_type_vassal
+			OR = {
+				country_has_primary_culture = cu:tepanec
+			}
+			count >= 1
+		}
+		
+	}
+
+	effect = {
+		change_tag = TEPA
+		custom_tooltip = {
+				text = effect_texcoco_struggle_advance_10
+				effect_texcoco_struggle_advance_10
+				}
+		custom_tooltip = {
+				text = matters_of_texcoco_proclaim_tepanecapan_subject
+					every_subject_or_below = {
+					limit = {
+						country_has_primary_culture = cu:tepanec
+						}
+					root = {
+						annex_with_incorporation = prev
+						}
+				}
+			}
+		
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+matters_of_texcoco_lay_claims = {
+	name = "matters_of_texcoco_lay_claims_button"
+	desc = "matters_of_texcoco_lay_claims_button_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		has_law = law_type:law_bellicose
+		any_interest_group = {
+				is_powerful = yes
+				is_in_government = yes
+				OR = {
+					is_interest_group_type = ig_warrior_guilds
+					leader = {
+						OR = {
+							has_ideology = ideology:ideology_leader_imperialist
+						}
+					}
+				}
+			}
+	}
+
+	effect = {
+		custom_tooltip = {
+				text = effect_texcoco_struggle_advance_10
+				effect_texcoco_struggle_advance_10
+				}
+	
+		create_incident = {
+			 country = c:ATA
+			 value = 50
+			}
+		add_claim = s:STATE_TEOTIHUACAN
+		add_claim = s:STATE_NORTH_TEXCOCO
+		add_claim = s:STATE_EAST_TEXCOCO
+		add_claim = s:STATE_WEST_TEXCOCO
+		add_claim = s:STATE_TENOCHTITLAN
+		add_claim = s:STATE_XOCHIMILCO
+		add_claim = s:STATE_CHALCO
+		
+		
+		
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}

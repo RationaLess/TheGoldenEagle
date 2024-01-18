@@ -55,7 +55,7 @@ law_alliance = {
 	progressiveness = 50
 	
 	unlocking_technologies = {
-		alliances
+		diplomacy
 	}
 	
 	#Should not be enacted through political system

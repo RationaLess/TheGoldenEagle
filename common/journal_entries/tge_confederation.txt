@@ -22,7 +22,7 @@ status_desc = {
 
 possible = { 
 		is_subject = no
-		has_technology_researched = confederation
+		has_technology_researched = diplomacy
 		OR = {
 			any_interest_group = {
 				is_powerful = yes

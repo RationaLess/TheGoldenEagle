@@ -421,4 +421,20 @@
 				}
 			}
 		}
+		
+		
+		#Tarasc temporary
+		
+		c:TARA = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_michhuahcan
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TZINTZUNTZAN
+					count = 5
+				}
+			}
+		}
 	}

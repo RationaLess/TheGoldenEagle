@@ -119,16 +119,24 @@ onaction_cultural_influence_calc = {
 	set_variable = {
 		name = cultural_influence_pact_bonus
 		value = {
+			value = 0
+			
 			every_country = {
-				limit = {
-						has_diplomatic_pact = {
-							who = root
-							}
-						is_subject = no
+						limit = {
+							is_subject = no
+							prev = {
+							  has_diplomatic_pact = {
+								who = prev
+								type = bankroll
+							  }
+						   }
+						}
+						add = 1
 					}
+					
+				multiply = 2.5
+				divide = 100
 				}
-			}
-			divide = 20
 		}
 	
 	set_variable = {
@@ -180,11 +188,6 @@ onaction_cultural_influence_calc = {
 			#Ancillary Mod
 			add = var:cultural_influence_ancillaries_modif
 			
-			#You get -20 from being a subject
-			IF = {
-				limit = { is_subject = yes }
-				subtract = 0.2
-				}
 			
 			#The Modifiers
 			add = modifier:country_cultural_influence

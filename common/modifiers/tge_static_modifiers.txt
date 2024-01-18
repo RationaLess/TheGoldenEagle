@@ -92,14 +92,16 @@ capital_state = {
 government_wages_very_low = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	country_government_wages_mult = -0.3
-	interest_group_ig_traditionalists_approval_add = -2
+	interest_group_ig_governors_approval_add = -2
+	interest_group_ig_scholars_approval_add = -2
 	country_prestige_mult = -0.2
 }
 
 government_wages_low = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	country_government_wages_mult = -0.15
-	interest_group_ig_traditionalists_approval_add = -1
+	interest_group_ig_governors_approval_add = -1
+	interest_group_ig_scholars_approval_add = -1
 	country_prestige_mult = -0.1
 }
 
@@ -109,14 +111,16 @@ government_wages_medium = {
 government_wages_high = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	country_government_wages_mult = 0.15
-	interest_group_ig_traditionalists_approval_add = 1
+	interest_group_ig_governors_approval_add = 1
+	interest_group_ig_scholars_approval_add = 1
 	country_authority_mult = 0.05
 }
 
 government_wages_very_high = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	country_government_wages_mult = 0.3
-	interest_group_ig_traditionalists_approval_add = 2
+	interest_group_ig_governors_approval_add = 2
+	interest_group_ig_scholars_approval_add = 2
 	country_authority_mult = 0.1
 }
 
@@ -161,8 +165,8 @@ tax_modifier_very_low = {
 		interest_group_ig_merchant_guilds_approval_add = 4
 		
 		tax_consumption_add = 0.20
-		tax_per_capita_add = 0.40
-		tax_income_add = 0.10
+		tax_per_capita_add = 0.1
+		tax_dividends_add = 0.05
 			
 		
 }	
@@ -174,14 +178,14 @@ tax_modifier_low = {
 
 			
 		tax_consumption_add = 0.275
-		tax_per_capita_add = 0.55
-		tax_income_add = 0.125
+		tax_per_capita_add = 0.2
+		tax_dividends_add = 0.075
 }
 	
 tax_modifier_medium = {
 		tax_consumption_add = 0.35
-		tax_per_capita_add = 0.70
-		tax_income_add = 0.15
+		tax_per_capita_add = 0.3
+		tax_dividends_add = 0.1
 }	
 	
 tax_modifier_high = {
@@ -190,8 +194,8 @@ tax_modifier_high = {
 		interest_group_ig_merchant_guilds_approval_add = -2
 
 		tax_consumption_add = 0.425
-		tax_per_capita_add = 0.85
-		tax_income_add = 0.175
+		tax_per_capita_add = 0.4
+		tax_dividends_add = 0.125
 }
 	
 tax_modifier_very_high = {
@@ -200,8 +204,8 @@ tax_modifier_very_high = {
 		interest_group_ig_merchant_guilds_approval_add = -4
 		
 		tax_consumption_add = 0.5
-		tax_per_capita_add = 1.0
-		tax_income_add = 0.20
+		tax_per_capita_add = 0.5
+		tax_dividends_add = 0.15
 }	
 
 unincorporated_state = {

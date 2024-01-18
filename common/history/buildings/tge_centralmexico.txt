@@ -5,23 +5,23 @@
 	s:STATE_TENOCHTITLAN={
 		region_state:ATA={
 			create_building={
-				building="building_market"
-				level=2
+				building="building_government_administration"
+				level=5
 				reserves=1
 				}
 			create_building={
 				building="building_tooling_workshop"
-				level=3
+				level=5
 				reserves=1
 				}
 			create_building={
 				building="building_temple"
-				level=2
+				level=4
 				reserves=1
 				}
 			create_building={
 				building="building_clothing_workshop"
-				level=2
+				level=5
 				reserves=1
 				}
 			create_building={
@@ -37,36 +37,61 @@
 			create_building={
 				building="building_pottery"
 				level=3
-				activate_production_methods = {}
 				}
 			create_building={
-				building="building_barracks"
-				level=5
+				building="building_logging_camp"
+				level=3
+				}
+			create_building={
+				building="building_mudbrick_furnace"
+				level=2
+				}
+			create_building={
+				building="building_fishing_village"
+				level=1
+				}
+			create_building={
+				building="building_construction_sector"
+				level=2
 				}
 			}
 		}
 	s:STATE_EAST_TEXCOCO={
 		region_state:ATA={
 			create_building={
-				building="building_market"
-				level=1
+				building="building_clothing_workshop"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_logging_camp"
+				level=4
 				reserves=1
 				}
 			create_building={
 				building="building_furniture_workshop"
-				level=2
+				level=3
 				reserves=1
 				}
 			create_building={
 				building="building_maize_farm"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_maize_irrigated_farming" }
 				}
 			create_building={
-				building="building_barracks"
+				building="building_clothing_workshop"
 				level=3
-				activate_production_methods = {"pm_cuauhololli" "pm_atlatl" "pm_shields" }
+				reserves=1
+				}
+			create_building={
+				building="building_cotton_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_temple"
+				level=3
+				reserves=1
 				}
 			}
 		region_state:CUL={
@@ -83,12 +108,17 @@
 				}
 			create_building={
 				building="building_clothing_workshop"
-				level=1
+				level=4
 				reserves=1
 				}
 			create_building={
-				building="building_chinampa"
+				building="building_maize_farm"
 				level=5
+				reserves=1
+				}
+			create_building={
+				building="building_cotton_farm"
+				level=2
 				reserves=1
 				}
 		}
@@ -102,8 +132,13 @@
 				reserves=1
 				}
 			create_building={
-				building="building_market"
+				building="building_tooling_workshop"
 				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_temple"
+				level=1
 				reserves=1
 				}
 			create_building={
@@ -118,15 +153,16 @@
 				reserves=1
 				}
 			create_building={
-				building="building_barracks"
+				building="building_jewelry"
 				level=3
-				activate_production_methods = {"pm_cuauhololli" "pm_atlatl" "pm_shields" }
+				activate_production_methods = {  }
 				}
 		}
 		region_state:AZC={
+			
 			create_building={
-				building="building_royal_palace"
-				level=1
+				building="building_government_administration"
+				level=5
 				reserves=1
 				}
 			create_building={
@@ -135,8 +171,18 @@
 				reserves=1
 				}
 			create_building={
-				building="building_market"
-				level=1
+				building="building_clothing_workshop"
+				level=6
+				reserves=1
+				}
+			create_building={
+				building="building_jewelry"
+				level=4
+				reserves=1
+				}
+			create_building={
+				building="building_furniture_workshop"
+				level=3
 				reserves=1
 				}
 			create_building={
@@ -167,9 +213,8 @@
 				activate_production_methods={ "pm_cotton_irrigated_farming" }
 				}
 			create_building={
-				building="building_barracks"
-				level=4
-				activate_production_methods = {"pm_cuauhololli" "pm_atlatl" "pm_shields" }
+				building="building_ball_court"
+				level=1
 				}
 		}
 	}
@@ -180,13 +225,28 @@
 		region_state:CUA={
 		
 			create_building={
-				building="building_market"
-				level=1
+				building="building_temple"
+				level=2
 				reserves=1
 				}
 			create_building={
 				building="building_clothing_workshop"
+				level=3
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
 				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_logging_camp"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_fishing_village"
+				level=1
 				reserves=1
 				}
 			create_building={
@@ -200,16 +260,11 @@
 				level=2
 				reserves=1
 				}
-			create_building={
-				building="building_barracks"
-				level=1
-				activate_production_methods = {"pm_cuauhololli" "pm_atlatl" "pm_shields" }
-				}
 		}
 		region_state:TZO={
 		
 			create_building={
-				building="building_market"
+				building="building_temple"
 				level=1
 				reserves=1
 				}
@@ -219,27 +274,42 @@
 				reserves=1
 				}
 			create_building={
+				building="building_tooling_workshop"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_clothing_workshop"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_fishing_village"
+				level=2
+				reserves=1
+				}
+			create_building={
 				building="building_maize_farm"
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_maize_irrigated_farming" }
 				}
 			create_building={
-				building="building_barracks"
-				level=1
-				activate_production_methods = {"pm_cuauhololli" "pm_atlatl" "pm_shields" }
+				building="building_cotton_farm"
+				level=3
+				reserves=1
 				}
 		}
 		region_state:XAL={
 		
 			create_building={
-				building="building_market"
-				level=1
+				building="building_temple"
+				level=3
 				reserves=1
 				}
 			create_building={
-				building="building_clothing_workshop"
-				level=2
+				building="building_furniture_workshop"
+				level=3
 				reserves=1
 				}
 			create_building={
@@ -248,21 +318,35 @@
 				reserves=1
 				}
 			create_building={
-				building="building_cotton_farm"
+				building="building_clothing_workshop"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_cotton_irrigated_farming" }
+				}
+			create_building={
+				building="building_obsidian_mine"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_logging_camp"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_fishing_village"
+				level=2
+				reserves=1
 				}
 			create_building={
 				building="building_maize_farm"
-				level=1
+				level=3
 				reserves=1
-				activate_production_methods={ "pm_cotton_irrigated_farming" }
+				activate_production_methods={ "pm_maize_irrigated_farming" }
 				}
 			create_building={
-				building="building_barracks"
-				level=1
-				activate_production_methods = {"pm_cuauhololli" "pm_atlatl" "pm_shields" }
+				building="building_cotton_farm"
+				level=3
+				reserves=1
 				}
 		}
 	}
@@ -270,13 +354,28 @@
 		region_state:XAL={
 		
 			create_building={
-				building="building_market"
-				level=1
+				building="building_temple"
+				level=2
 				reserves=1
 				}
 			create_building={
-				building="building_temple"
-				level=1
+				building="building_furniture_workshop"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_logging_camp"
+				level=3
+				reserves=1
+				}
+			create_building={
+				building="building_fishing_village"
+				level=2
 				reserves=1
 				}
 			create_building={
@@ -291,23 +390,44 @@
 		region_state:XOC={
 		
 			create_building={
-				building="building_market"
-				level=1
+				building="building_temple"
+				level=3
 				reserves=1
 				}
 			create_building={
-				building="building_temple"
-				level=1
+				building="building_furniture_workshop"
+				level=3
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
+				level=2
 				reserves=1
 				}
 			create_building={
 				building="building_clothing_workshop"
-				level=1
+				level=3
 				reserves=1
 				}
 			create_building={
-				building="building_chinampa"
+				building="building_logging_camp"
 				level=3
+				reserves=1
+				}
+			create_building={
+				building="building_fishing_village"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_maize_farm"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_maize_irrigated_farming" }
+				}
+			create_building={
+				building="building_cotton_farm"
+				level=2
 				reserves=1
 				}
 		}
@@ -320,12 +440,12 @@
 			
 			create_building={
 				building="building_temple"
-				level=1
+				level=2
 				reserves=1
 				}
 			create_building={
-				building="building_market"
-				level=1
+				building="building_logging_camp"
+				level=2
 				reserves=1
 				}
 			create_building={
@@ -335,12 +455,12 @@
 				}
 			create_building={
 				building="building_clothing_workshop"
-				level=1
+				level=3
 				reserves=1
 				}
 			create_building={
 				building="building_chinampa"
-				level=1
+				level=3
 				reserves=1
 				}
 			create_building={
@@ -353,30 +473,59 @@
 	
 	s:STATE_HUEXOTZINGO={
 		region_state:HXZ={
-			
-			create_building={
-				building="building_market"
+			create_building = {
+				building="building_construction_sector"
 				level=1
 				reserves=1
 				}
-			create_building={
-				building="building_tooling_workshop"
+			create_building = {
+				building="building_limestone_mine"
 				level=1
+				reserves=1
+				}
+			create_building = {
+				building="building_jewelry"
+				level=2
+				reserves=1
+				}
+			create_building = {
+				building="building_tooling_workshop"
+				level=3
+				reserves=1
+				}
+			create_building={
+				building="building_temple"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_clothing_workshop"
+				level=2
 				reserves=1
 				}
 			create_building={
 				building="building_furniture_workshop"
-				level=1
+				level=2
 				reserves=1
 				}
 			create_building={
 				building="building_maize_farm"
-				level=1
+				level=4
+				reserves=1
+				}
+			create_building={
+				building="building_cotton_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_logging_camp"
+				level=2
 				reserves=1
 				}
 			create_building={
 				building="building_obsidian_mine"
-				level=1
+				level=2
 				reserves=1
 				}
 		}
@@ -393,7 +542,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_ball_court"
+				building="building_cotton_farm"
 				level=1
 				reserves=1
 				}
@@ -409,7 +558,7 @@
 				}
 			create_building={
 				building="building_furniture_workshop"
-				level=1
+				level=2
 				reserves=1
 				}
 			create_building={
@@ -418,7 +567,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_market"
+				building="building_clothing_workshop"
 				level=2
 				reserves=1
 				}
@@ -427,18 +576,38 @@
 				level=3
 				reserves=1
 				}
+			create_building={
+				building="building_ball_court"
+				level=2
+				reserves=1
+				}
 			}
 		}
 	s:STATE_CUAHNAHUAC={
 		region_state:CNH={
 			create_building={
-				building="building_maize_farm"
+				building="building_temple"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_ball_court"
 				level=1
 				reserves=1
 				}
 			create_building={
+				building="building_logging_camp"
+				level=3
+				reserves=1
+				}
+			create_building={
+				building="building_maize_farm"
+				level=3
+				reserves=1
+				}
+			create_building={
 				building="building_tooling_workshop"
-				level=1
+				level=2
 				reserves=1
 				}
 			create_building={
@@ -447,8 +616,13 @@
 				reserves=1
 				}
 			create_building={
-				building="building_temple"
-				level=1
+				building="building_cotton_farm"
+				level=3
+				reserves=1
+				}
+			create_building={
+				building="building_clothing_workshop"
+				level=3
 				reserves=1
 				}
 			}
@@ -456,17 +630,37 @@
 	s:STATE_HUAXTEPEC={
 		region_state:HXT={
 			create_building={
-				building="building_maize_farm"
+				building="building_cotton_farm"
 				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_clothing_workshop"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_logging_camp"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_maize_farm"
+				level=4
 				reserves=1
 				}
 			create_building={
 				building="building_tooling_workshop"
-				level=1
+				level=2
 				reserves=1
 				}
 			create_building={
 				building="building_temple"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_ball_court"
 				level=1
 				reserves=1
 				}
@@ -476,17 +670,22 @@
 		region_state:TTN={
 			create_building={
 				building="building_maize_farm"
-				level=1
+				level=4
 				reserves=1
 				}
 			create_building={
 				building="building_tooling_workshop"
-				level=1
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
+				level=2
 				reserves=1
 				}
 			create_building={
 				building="building_temple"
-				level=1
+				level=2
 				reserves=1
 				}
 			}
@@ -582,7 +781,7 @@
 		region_state:OTP={
 			create_building={
 				building="building_maize_farm"
-				level=1
+				level=3
 				reserves=1
 				}
 			create_building={
@@ -591,7 +790,27 @@
 				reserves=1
 				}
 			create_building={
+				building="building_furniture_workshop"
+				level=2
+				reserves=1
+				}
+			create_building={
 				building="building_clothing_workshop"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_logging_camp"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_ball_court"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_cotton_farm"
 				level=1
 				reserves=1
 				}
@@ -606,12 +825,27 @@
 		region_state:TLC={
 			create_building={
 				building="building_maize_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_clothing_workshop"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_cotton_farm"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_obsidian_mine"
 				level=1
 				reserves=1
 				}
 			create_building={
 				building="building_tooling_workshop"
-				level=1
+				level=2
 				reserves=1
 				}
 			create_building={
@@ -662,7 +896,7 @@
 		region_state:TLX={
 			create_building={
 				building="building_maize_farm"
-				level=1
+				level=4
 				reserves=1
 				}
 			create_building={
@@ -680,15 +914,16 @@
 				level=1
 				reserves=1
 				}
-			create_building={
-				building="building_barracks"
-				level=3
-				reserves=1
-				}
+				
 			}
 		}
 	s:STATE_TIZATLAN={
 		region_state:TLX={
+			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				}
 			create_building={
 				building="building_ball_court"
 				level=1
@@ -696,7 +931,7 @@
 				}
 			create_building={
 				building="building_temple"
-				level=1
+				level=2
 				reserves=1
 				}
 			create_building={
@@ -716,17 +951,12 @@
 				}
 			create_building={
 				building="building_temple"
-				level=1
-				reserves=1
-				}
-			create_building={
-				building="building_tooling_workshop"
 				level=2
 				reserves=1
 				}
 			create_building={
-				building="building_barracks"
-				level=15
+				building="building_tooling_workshop"
+				level=4
 				reserves=1
 				}
 			create_building={
@@ -738,6 +968,12 @@
 		}
 	s:STATE_OCOTELOLCO={
 		region_state:TLX={
+			
+			create_building={
+				building="building_government_administration"
+				level=5
+				reserves=1
+				}
 			create_building={
 				building="building_ball_court"
 				level=1
@@ -750,21 +986,16 @@
 				}
 			create_building={
 				building="building_maize_farm"
-				level=1
+				level=3
 				reserves=1
 				}
 			create_building={
 				building="building_clothing_workshop"
-				level=2
+				level=4
 				reserves=1
 				}
 			create_building={
 				building="building_cotton_farm"
-				level=2
-				reserves=1
-				}
-			create_building={
-				building="building_market"
 				level=2
 				reserves=1
 				}
@@ -774,13 +1005,8 @@
 				reserves=1
 				}
 			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				}
-			create_building={
 				building="building_logging_camp"
-				level=2
+				level=4
 				reserves=1
 				}
 			create_building={
@@ -799,11 +1025,121 @@
 		region_state:TLX={
 			create_building={
 				building="building_temple"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_furniture_workshop"
+				level=3
+				reserves=1
+				}
+			create_building={
+				building="building_jewelry"
+				level=3
+				reserves=1
+				}
+			create_building={
+				building="building_maize_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_ball_court"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
+				level=3
+				reserves=1
+				}
+			create_building={
+				building="building_logging_camp"
+				level=3
+				reserves=1
+				}
+			} 
+		}
+	#Toluca
+	s:STATE_TOLUCA_VALLEY={
+		region_state:TOLU={
+			create_building={
+				building="building_temple"
 				level=1
 				reserves=1
 				}
 			create_building={
 				building="building_furniture_workshop"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_maize_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
+				level=1
+				reserves=1
+				}
+			} 
+		region_state:TAXI={
+			create_building={
+				building="building_temple"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_furniture_workshop"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_maize_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
+				level=1
+				reserves=1
+				}
+			} 
+		region_state:CAIX={
+			create_building={
+				building="building_temple"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_furniture_workshop"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_maize_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
+				level=1
+				reserves=1
+				}
+			} 
+		}
+		
+	
+	s:STATE_PUEBLA={
+		region_state:THI={
+			create_building={
+				building="building_temple"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_clothing_workshop"
 				level=1
 				reserves=1
 				}
@@ -813,13 +1149,158 @@
 				reserves=1
 				}
 			create_building={
-				building="building_market"
+				building="building_cotton_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
 				level=1
 				reserves=1
 				}
 			create_building={
-				building="building_barracks"
-				level=3
+				building="building_obsidian_mine"
+				level=1
+				reserves=1
+				}
+			} 
+		region_state:CHI={
+			create_building={
+				building="building_temple"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_clothing_workshop"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_maize_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_cotton_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_obsidian_mine"
+				level=1
+				reserves=1
+				}
+			}
+		region_state:CIU={
+			create_building={
+				building="building_temple"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_clothing_workshop"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_maize_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_cotton_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
+				level=1
+				reserves=1
+				}
+			}
+		region_state:TCM={
+			create_building={
+				building="building_temple"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_clothing_workshop"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_maize_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_cotton_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
+				level=1
+				reserves=1
+				}
+			}   
+		}
+	
+	s:STATE_METZTITLAN={
+		region_state:METZ={
+			create_building={
+				building="building_maize_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_jewelry"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_logging_camp"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_temple"
+				level=1
+				reserves=1
+				}
+			}
+		}
+	s:STATE_TOLLAN={
+		region_state:TULA={
+			create_building={
+				building="building_maize_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_cotton_farm"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_clothing_workshop"
+				level=1
 				reserves=1
 				}
 			create_building={
@@ -827,9 +1308,70 @@
 				level=2
 				reserves=1
 				}
-			} 
+			create_building={
+				building="building_temple"
+				level=3
+				reserves=1
+				}
+			}
 		}
-	
-
+	s:STATE_XILOTEPEC={
+		region_state:XILO={
+			create_building={
+				building="building_maize_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_cotton_farm"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_clothing_workshop"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_temple"
+				level=1
+				reserves=1
+				}
+			}
+		}
+	s:STATE_XILAPAN={
+		region_state:XILA={
+			create_building={
+				building="building_maize_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_cotton_farm"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_clothing_workshop"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_temple"
+				level=1
+				reserves=1
+				}
+			}
+		}
 		
 	}

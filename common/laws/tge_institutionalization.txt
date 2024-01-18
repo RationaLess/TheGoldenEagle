@@ -85,11 +85,7 @@ law_dedicated_government = {
 		country_nobles_pol_str_mult = 0.25
 	}
 	
-	institution = institution_courts 
-	institution_modifier = {
-	country_legitimacy_base_add = 1
-	country_opposition_ig_approval_add = 0.25
-	}
+	
 }
 law_bureaucratic_government = {
 	group = lawgroup_institutionalization
@@ -111,9 +107,5 @@ law_bureaucratic_government = {
 		country_bureaucrats_pol_str_mult = 0.25
 	}
 	
-	institution = institution_courts 
-	institution_modifier = {
-	country_legitimacy_base_add = 1.5
-	country_opposition_ig_approval_add = 0.5
-	}
+	
 }

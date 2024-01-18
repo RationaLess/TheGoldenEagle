@@ -1,7 +1,25 @@
 ﻿DIPLOMACY = {
-	c:GBR = {
+	c:ATA = {
 		create_diplomatic_pact = {
-			country = c:FRA
+			country = c:AZC
+			type = rivalry
+		}
+	}	
+	c:AZC = {
+		create_diplomatic_pact = {
+			country = c:ATA
+			type = rivalry
+		}
+	}
+	c:ZAA = {
+		create_diplomatic_pact = {
+			country = c:YDZ
+			type = rivalry
+		}
+	}	
+	c:YDZ = {
+		create_diplomatic_pact = {
+			country = c:ZAA
 			type = rivalry
 		}
 	}		

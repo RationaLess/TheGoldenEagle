@@ -101,7 +101,7 @@ law_labor_as_currency = {
 	progressiveness = 25
 	
 	unlocking_technologies = {
-		state_bureaucracy
+		code_of_laws
 	}
 	
 	disallowing_laws = {
@@ -149,7 +149,7 @@ law_regulated_commerce = {
 	progressiveness = 75
 	
 	unlocking_technologies = {
-		merchant_holdings
+		contracts
 	}
 		
 	on_activate = {
@@ -196,7 +196,7 @@ law_standardized_coins = {
 	progressiveness = 125
 	
 	unlocking_technologies = {
-		basic_metallurgy
+		standardized_currency
 	}
 		
 	on_activate = {

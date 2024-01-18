@@ -8,7 +8,18 @@
  ideology_leader_populist_desc:0 "#lore This leader wishes to concentrate power in the hands of the people.#!"
  ideology_leader_statist:0 "Statist"
  ideology_leader_statist_desc:0 "#lore This leader wishes to build a strong, enduring government.#!"
+
+ ideology_leader_urbanist:"Urbanist"
+ ideology_leader_urbanist_desc:"#lore This leader seeks to use his political position to expand our institutions in favor of the urban population.#!"
+
+ ideology_leader_confederate:"Confederate"
+ ideology_leader_confederate_desc:"#lore This leader believes that the best way forward for our polity is to form a confederation with willing nearby states.#!
  
+ ideology_leader_imperialist:"Imperialist"
+ ideology_leader_imperialist_desc:"#lore This leader wishes to enrich the nation by acquiring tributaries and conquering new territories.#!"
+ 
+ ideology_leader_empathetic:"Empathetic"
+ ideology_leader_empathetic_desc:"#lore This leader seeks to right the wrongs of society, or so they say.#!"
 
   # Interest Group Ideologies
   
@@ -234,11 +245,16 @@
  law_human_sacrifice_desc:0 "Our priests will draw blood from sacrificial victims in accordance to our cultural practices."
 
 
- lawgroup_innovation:0 "Innovation"
- lawgroup_innovation_desc:0 "Our principles regarding research and the sciences."
- law_scholar_societies:"Scholar Societies"
- law_origin_myth:"Origin Myth"
- law_origin_myth_desc:"We will construct a syncretic story which combines our historical roots with mythical origins in order to assert our place in the cosmic order...\n\n...Of course, this can't be done without burning a few books."
+ lawgroup_crown_authority:0 "Crown Authority"
+ lawgroup_innovation_desc:0 "The degree to which our head of state can exercise power in internal affairs."
+ law_unchecked_power: "Unchecked Power"
+ law_unchecked_power_desc: "The head of state has ultimate authority, making him de facto beholden only to the loyalty of his court."
+ law_majority_consensus: "Majority Consensus"
+ law_majority_consensus_desc: "Matters of internal affairs are handled by an elite group of individuals high up the political ladder."
+ law_controlled_courts: "Controlled Courts"
+ law_controlled_courts_desc: "There exists a juidicial system where our head of state acts as the supreme judge."
+ law_juidicial_autonomy: "Juidicial Autonomy"
+ law_juidicial_autonomy_desc: "We have a system of courts largely independent from government, save for a few instances of nepotism."
   
  law_human_sacrifice_banned:0 "Human Sacrifice Banned"
  law_human_sacrifice_banned_desc:0 "Human sacrifices in all its forms is forbidden."
