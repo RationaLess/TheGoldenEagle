@@ -103,6 +103,7 @@ subject_type_protectorate = {
 	}
 	
 	valid_subject_ranks = {
+		great_power
 		major_power
 		regional_power
 		minor_power

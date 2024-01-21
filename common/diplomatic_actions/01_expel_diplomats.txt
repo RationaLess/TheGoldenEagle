@@ -8,6 +8,9 @@
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 		}
+		scope:target_country = {
+			is_subject_of = prev
+		}
 	}
 	
 	possible = {	
@@ -29,6 +32,7 @@
 				value = scope:target_country.total_population 
 				divide = 100000
 				}
+			is_decaying = yes
 			}
 	
 		annex_with_incorporation = scope:target_country

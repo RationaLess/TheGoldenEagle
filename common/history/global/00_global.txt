@@ -9,8 +9,33 @@ GLOBAL = {
 			value = 0
 			}
 	
-		limit = { NOT = { has_law = law_type:law_slavery_banned } }
-		ig:ig_landowners = { add_ideology = ideology_pro_slavery }
+	
+		IF = {
+			limit = {
+				is_ai = yes 
+			}
+			IF = {
+				limit = {
+					has_game_rule = easy_difficulty
+				}
+			add_modifier = axolotl_difficulty
+			}
+			IF = {
+				limit = {
+					has_game_rule = hard_difficulty
+				}
+			add_modifier = ocelotl_difficulty
+			}
+			IF = {
+				limit = {
+					has_game_rule = very_hard_difficulty
+				}
+			add_modifier = coatl_difficulty
+			}
+		
+		}
+	
+	
 	}
 	
 	every_state = {

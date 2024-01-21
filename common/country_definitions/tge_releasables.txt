@@ -1,0 +1,15 @@
+﻿#Anahuac Releasables
+
+
+TEXC = { #Texcoco
+
+color = rgb { 255 182 71 }
+
+tier = duchy
+
+country_type = recognized
+
+cultures = { acolhua }
+
+capital = STATE_EAST_TEXCOCO
+}

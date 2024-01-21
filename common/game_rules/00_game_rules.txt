@@ -69,6 +69,15 @@ investment_pool = {
 }
 
 
+monument_effects = {
+	default = allow_monument_effects
+
+	allow_monument_effects = {
+		flag = disable_pm_monument_prestige_only
+		flag = disable_pm_monument_no_effects
+	}
+}
+
 formable_nations = {
 	default = all_formable_nations
 

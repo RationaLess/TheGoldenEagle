@@ -10,7 +10,6 @@
 	lawgroup_distribution_of_power = {
 		law_dynastic = strongly_approve
 		law_feudal = approve 
-		law_meritocratic = neutral
 		law_elective = strongly_disapprove
 	}
 	lawgroup_institutionalization = {
@@ -19,6 +18,14 @@
 		law_bureaucratic_government = strongly_disapprove
 		law_court_government = strongly_approve
 		law_dedicated_government = approve
+	}
+	
+	
+	lawgroup_crown_authority = {
+		law_unchecked_power = strongly_approve
+		law_majority_consensus = approve 
+		law_controlled_courts = neutral
+		law_juidicial_autonomy = disapprove
 	}
 	
 	lawgroup_land_organization = {
@@ -41,6 +48,15 @@ ideology_lesser_lords = {
 		law_calpulli_system = strongly_approve
 		law_state_control = approve 
 	}
+	
+	
+	lawgroup_crown_authority = {
+		law_unchecked_power = disapprove
+		law_majority_consensus = approve 
+		law_controlled_courts = approve
+		law_juidicial_autonomy = approve 
+	}
+	
 	lawgroup_governance_principles = {
 		law_city_state = neutral
 		law_monarchy = strongly_disapprove 
@@ -86,12 +102,6 @@ ideology_pragmatic = {
 		law_elective = strongly_approve
 	}
 	
-	lawgroup_development = {
-		law_decentralized_settlements = strongly_disapprove
-		law_urban_centers = strongly_disapprove
-		law_great_projects = strongly_approve
-		law_central_development = strongly_approve
-	}
 	
 	lawgroup_innovation = {
 		law_origin_myth = strongly_disapprove
@@ -122,11 +132,11 @@ ideology_supremacist = {
 		}	
 		
 	
-	lawgroup_conquest_doctrine = {
-		law_ritual_warfare = approve
-		law_local_hegemon = strongly_approve
-		law_tributary_empire = neutral
-		law_territory_integration = strongly_disapprove
+	lawgroup_social_mobility = {
+		law_strict = strongly_approve
+		law_cultural = strongly_approve
+		law_martial = approve
+		law_meritocratic = strongly_disapprove
 		}	
 	
 }
@@ -154,6 +164,14 @@ ideology_warmonger = {
 		law_bellicose = strongly_approve
 		}
 	
+	
+	lawgroup_social_mobility = {
+		law_strict = disapprove
+		law_cultural = disapprove
+		law_martial = strongly_approve
+		law_meritocratic = disapprove
+		}	
+	
 	lawgroup_land_organization = {
 		law_royal_domains = approve
 		law_imperial_land = strongly_approve
@@ -161,13 +179,6 @@ ideology_warmonger = {
 		law_calpulli_system = disapprove
 		law_state_control = strongly_disapprove
 		}
-	
-	lawgroup_conquest_doctrine = {
-		law_ritual_warfare = strongly_disapprove 
-		law_local_hegemon = neutral 
-		law_tributary_empire = strongly_approve
-		law_territory_integration = approve
-	}
 	
 	lawgroup_military_reforms = {
 		law_no_standing_army = strongly_disapprove
@@ -230,6 +241,15 @@ ideology_inclusionary = {
 		law_broad_acceptance = strongly_approve 
 		law_encomiendas = strongly_disapprove
 	}	
+	
+	
+	lawgroup_social_mobility = {
+		law_strict = neutral
+		law_cultural = disapprove
+		law_martial = approve
+		law_meritocratic = approve
+		}	
+	
 }
 
 ideology_mercantile = {
@@ -260,10 +280,10 @@ ideology_urbanist = {
 	icon = "gfx/interface/icons/ideology_icons/proletarian.dds"
 	
 	lawgroup_development = {
-		law_decentralized_settlements = strongly_disapprove
-		law_urban_centers = neutral
-		law_great_projects = approve
-		law_central_development = approve
+		law_ribbon_development = disapprove 
+		law_mobile_settlements = disapprove
+		law_clustered_communities = neutral 
+		law_centralized_urban_centers = approve
 	}
 	lawgroup_institutionalization = {
 		law_informal_government = strongly_disapprove
@@ -315,13 +335,6 @@ ideology_statecraft = {
 		law_central_development = strongly_approve
 	}
 	
-	lawgroup_innovation = {
-		law_priest_scholars = disapprove
-		law_infrastructure_investment = strongly_approve
-		law_origin_myth = disapprove
-		law_scholar_societies = approve
-	}
-	
 	
 }
 
@@ -329,10 +342,15 @@ ideology_meritocratic = {
 	icon = "gfx/interface/icons/ideology_icons/unused/atheist.dds"
 	
 	
+	lawgroup_social_mobility = {
+		law_strict = strongly_disapprove
+		law_cultural = disapprove
+		law_martial = approve
+		law_meritocratic = strongly_approve
+		}	
 	lawgroup_distribution_of_power = {
 		law_dynastic = neutral
 		law_feudal = approve
-		law_meritocratic = strongly_approve
 		law_elective = approve
 	}
 	lawgroup_cultural_acceptance = {
@@ -361,6 +379,13 @@ ideology_faith_and_culture = {
 	}	
 	
 	
+	lawgroup_social_mobility = {
+		law_strict = strongly_approve
+		law_cultural = strongly_approve
+		law_martial = neutral
+		law_meritocratic = disapprove
+		}	
+	
 	lawgroup_land_organization = {
 		law_royal_domains = neutral
 		law_imperial_land = neutral
@@ -368,20 +393,6 @@ ideology_faith_and_culture = {
 		law_calpulli_system = strongly_disapprove
 		law_state_control = disapprove
 		}
-		
-	lawgroup_conquest_doctrine = {
-		law_ritual_warfare = strongly_approve
-		law_local_hegemon = approve
-		law_tributary_empire = disapprove
-		law_territory_integration = strongly_disapprove
-		}
-	
-	lawgroup_innovation = {
-		law_priest_scholars = strongly_approve
-		law_infrastructure_investment = neutral
-		law_origin_myth = approve
-		law_scholar_societies = disapprove
-	}
 	
 }
 
@@ -389,6 +400,14 @@ ideology_faith_and_culture = {
 
 ideology_classic_precedent = {
 	icon = "gfx/interface/icons/ideology_icons/unused/traditionalist.dds"
+	
+	
+	lawgroup_governance_principles = {
+		law_city_state = strongly_approve
+		law_monarchy = neutral 
+		law_council = neutral
+		law_alliance = neutral
+	}
 	
 	lawgroup_institutionalization = {
 		law_informal_government = strongly_disapprove
@@ -407,10 +426,10 @@ ideology_classic_precedent = {
 	}
 	
 	lawgroup_development = {
-		law_decentralized_settlements = disapprove
-		law_urban_centers = approve
-		law_great_projects = neutral 
-		law_central_development = disapprove
+		law_mobile_settlements = disapprove
+		law_ribbon_development = disapprove
+		law_clustered_communities = disapprove 
+		law_centralized_urban_centers = approve
 	}
 	
 }
@@ -418,27 +437,34 @@ ideology_classic_precedent = {
 ideology_postclassic_precedent = {
 	icon = "gfx/interface/icons/ideology_icons/unused/traditionalist.dds"
 	
+	lawgroup_governance_principles = {
+		law_city_state = neutral
+		law_monarchy = approve 
+		law_council = approve
+		law_alliance = neutral
+	}
+	
 	lawgroup_institutionalization = {
 		law_informal_government = strongly_disapprove
-		law_assembly_government = disapprove
-		law_court_government = neutral
-		law_dedicated_government = approve
-		law_bureaucratic_government = neutral
+		law_assembly_government = strongly_disapprove
+		law_court_government = approve
+		law_dedicated_government = strongly_approve
+		law_bureaucratic_government = approve
 	}
 	
 	lawgroup_currency = {
 		law_barter_economy = strongly_disapprove
-		law_corvee_labor = approve 
-		law_goods_as_currency = approve
-		law_regulated_commerce = strongly_approve
-		law_standardized_coins = neutral
+		law_corvee_labor = neutral 
+		law_goods_as_currency = disapprove
+		law_regulated_commerce = approve
+		law_standardized_coins = disapprove
 	}
 	
 	lawgroup_development = {
-		law_decentralized_settlements = disapprove
-		law_urban_centers = approve
-		law_great_projects = strongly_approve 
-		law_central_development = neutral
+		law_mobile_settlements = disapprove
+		law_ribbon_development = disapprove
+		law_clustered_communities = disapprove 
+		law_centralized_urban_centers = approve
 	}
 	
 }
@@ -471,7 +497,6 @@ ideology_mesoamerican_traditions = {
 	law_dynastic = approve 
 	law_feudal = neutral
 	law_elective = neutral
-	law_meritocratic = disapprove 
 	}
 }
 

@@ -1,1 +1,29 @@
-﻿
+﻿the_golden_eagle = {
+	possible = {
+		this = c:ATA
+	}
+	happened = {
+		custom_tooltip = {
+			text = achievement_the_golden_eagle_tt
+			has_variable = empire_title
+		}
+	}
+}
+
+the_three_hearts = {
+	possible = {
+		country_has_primary_culture = cu:totonac
+	}
+	happened = {
+		this = c:TRHR
+	}
+}
+
+triumph_of_nezahuacoyotl = {
+	possible = {
+		this = c:TEXC
+	}
+	happened = {
+		this = c:TEOT
+	}
+}

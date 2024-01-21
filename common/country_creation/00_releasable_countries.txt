@@ -1,1 +1,6 @@
 ﻿
+TEXC = {
+	states = { STATE_EAST_TEXCOCO }
+	
+	ai_will_do = { always = no }
+}

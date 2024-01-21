@@ -1,0 +1,34 @@
+﻿##group = {
+##    name = "test_group"
+##   order = {
+##        "NEW_ACHIEVEMENT_1_0"
+##        "NEW_ACHIEVEMENT_2_0"
+##    }
+##}
+
+group = {
+    name = "easy_group"
+    order = {
+		"the_golden_eagle"
+	}	
+}
+
+group = {
+    name = "medium_group"
+    order = {
+		"the_three_hearts"
+	}	
+}
+
+group = {
+    name = "hard_group"
+    order = {
+		"triumph_of_nezahuacoyotl"
+	}	
+}
+
+group = {
+    name = "very_hard_group"
+    order = {
+	}	
+}

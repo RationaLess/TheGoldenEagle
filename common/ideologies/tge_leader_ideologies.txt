@@ -297,10 +297,16 @@ ideology_leader_urbanist = {
 		law_juidicial_autonomy = approve 
 		}
 	lawgroup_development = {
-		law_decentralized_settlements = disapprove 
-		law_urban_centers = disapprove 
-		law_great_projects = neutral
-		law_central_development = strongly_approve
+		law_mobile_settlements = disapprove 
+		law_ribbon_development = disapprove 
+		law_clustered_communities = neutral
+		law_centralized_urban_centers = approve
+	}
+	lawgroup_crown_authority = {
+		law_unchecked_power = disapprove 
+		law_majority_consensus = disapprove 
+		law_controlled_courts = approve
+		law_juidicial_autonomy = approve
 	}
 	
 	

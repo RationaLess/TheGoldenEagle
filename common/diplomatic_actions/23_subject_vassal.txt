@@ -23,7 +23,7 @@
 		NOT = { is_subject_of = scope:target_country }
 		
 		
-		var:cultural_influence >= 0.60
+		#var:cultural_influence >= 0.60
 		
 		
 		

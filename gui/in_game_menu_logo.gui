@@ -1,0 +1,28 @@
+types ingame_menu_logo {
+	type v3_logo_animation = container {
+		### letters
+		container = {
+			parentanchor = center
+			
+			icon = {
+					texture = "gfx/logo.dds"
+					size = { 200 200 }
+					}
+		}
+	}
+}
+
+### TEMPLATES
+template "logo_letter_duration" {
+	duration = 0.15
+}
+template "logo_letter_delay" {
+	duration = 0.075
+}
+template "logo_letter_scale" {
+	scale = 0.001
+}
+template "logo_letter_properties" {
+	position = { 0 0 }
+	alpha = 0
+}

@@ -34,6 +34,14 @@
  urbanization_efforts.3.f:"'A mixtec man and mayab woman are bartering over fine local pottery - a common occurence in the [SCOPE.sState('capital_state').GetName] market. Poets sing their ballads, traders peddle their goods, scholars come to share knowledge and inspect local codices. It is impossibly lively compared to twenty years ago.'"
  urbanization_efforts.3.a:"Our cultural dominance is nigh."
 
+    
+ #Reward Events
+ rewards.1.t:"Greater Totonacapan"
+ rewards.1.d:"With the three [GetCulture('totonac').GetName] capitals united under, the empire of [ROOT.GetCountry.GetName] has been formed."
+ rewards.1.f:"After hundreds of year of conflict, despite the doubts of the Nahuas and the Chontals, the Three Hearts have united under one banner. Having been born in the new mesoamerican age of empires, it must decide it's own future - or fall back into chaos."
+ rewards.1.a:"The wealth of Anahuac is ours for the taking."
+ rewards.1.b:"The Totonac are inseperable from Ilhuicaatl."
+
  #Confederations
     
  forging_alliances.1.t:"Forging Alliances"

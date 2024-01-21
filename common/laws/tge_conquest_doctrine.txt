@@ -16,7 +16,6 @@ law_ritual_warfare = {
 	}
 	
 	modifier = {
-		state_disallow_incorporation = yes
 		country_empire_sprawl_load_mult = 0.5
 		country_infamy_decay_mult = 1
 		country_empire_sprawl_load_subject_penalty = 1
@@ -53,7 +52,6 @@ law_local_hegemon = {
 	}
 	
 	modifier = {
-		state_disallow_incorporation = yes
 		country_empire_sprawl_load_mult = 0.25
 		country_empire_sprawl_load_subject_penalty = 0.66
 		country_prestige_mult = 0.5
@@ -90,7 +88,6 @@ law_tributary_empire = {
 	
 	modifier = {
 		country_officers_pol_str_mult = 0.25
-		state_disallow_incorporation = yes
 		country_empire_sprawl_load_subject_penalty = 0.33
 	}
 

@@ -28,7 +28,7 @@
  
  je_the_three_hearts:"The Three Hearts"
  je_the_three_hearts_reason:"If we manage to unify the majority of Totonac people under one banner, we will be able to proclaim Totonacapan."
- je_the_three_hearts_goal:"As cultural unifiers, we may annex other Totonac [GetLawType('law_city_state').GetName]s during [Concept('concept_invasion','$concept_invasions$')]."
+ je_the_three_hearts_goal:"We should use our claims to annex all majority [GetCulture('totonac').GetName] states."
  
  
  #Imperial
@@ -77,7 +77,7 @@
  
  ###STRUGGLES###
  je_matters_of_texcoco:"Matters of Texcoco"
- je_matters_of_texcoco_reason:"This [concept_struggle] represents the waning power of the Tepanec over Texcoco. The progress bar is influenced by the [concept_cultural_influence] of participants as well as various #tooltippable;tooltip:[Country.GetTooltipTag],je_pedro_special_tooltip_advance actions#!. The #bold Progress Bar#! reaching 0 will establish the dominance of the Nahua, while reaching 100 will reinforce Tepanec authority in the region.\nLast month the bar changed by  #V [GetGlobalVariable('texcoco_struggle_bar_change').GetValue] Points #!."
+ je_matters_of_texcoco_reason:"This [concept_struggle] represents the waning power of the Tepanec over Texcoco. The progress bar is influenced by the [concept_cultural_influence] of participants multiplied by their population. The #bold Progress Bar#! reaching 0 will establish the dominance of the Nahua, while reaching 100 will reinforce Tepanec authority in the region.\nLast month the bar changed by  #V [GetGlobalVariable('texcoco_struggle_bar_change').GetValue] Points #!."
  je_matters_of_texcoco_confederate:"[ROOT.GetCountry.GetName] has confederated with another country"
  je_matters_of_texcoco_status_growing:"Tepanec influence is growing"
  je_matters_of_texcoco_status_fading:"Tepanec influence is fading"

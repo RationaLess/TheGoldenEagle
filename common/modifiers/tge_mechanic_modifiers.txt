@@ -24,11 +24,34 @@ state_minor_settlement_modifier = {
 
 
 
-test_mod = {
-    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-    country_construction_add = -5
-}
 
+#Difficulty
+axolotl_difficulty = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+    country_cultural_influence = -20
+	country_legitimacy_base_add = -20
+	state_birth_rate_mult = -0.3
+}
+ocelotl_difficulty = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    country_cultural_influence = 0.1
+	country_law_enactment_success_add = 0.10
+	state_birth_rate_mult = 0.15
+	country_empire_sprawl_capacity_mult = 0.25
+	state_construction_mult = 0.33
+	unit_army_defense_mult = 0.25
+	country_minting_mult = 2
+}
+coatl_difficulty = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    country_cultural_influence = 0.2
+	country_law_enactment_success_add = 0.15
+	state_birth_rate_mult = 0.3
+	country_empire_sprawl_capacity_mult = 0.5
+	state_construction_mult = 0.66
+	unit_army_defense_mult = 0.5
+	country_minting_mult = 5
+}
 
 
 #Subject Management
@@ -60,7 +83,8 @@ captured_slaves = {
 
 acquired_tributary = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
-	country_bureaucracy_add = -25
+	country_bureaucracy_add = -100
+	country_prestige_add = 40
 }
 
 expanded_borders = {
@@ -79,7 +103,6 @@ integrating_subject = {
 #Cultural Influence
 cultural_influence_insignificant = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
-	country_weekly_innovation_mult = -0.5
 	state_migration_pull_add = -5
 	country_prestige_mult = -0.15
 	building_urban_center_throughput_add = -0.4
@@ -87,11 +110,13 @@ cultural_influence_insignificant = {
 cultural_influence_weak = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
 	country_influence_add = 100
-	country_weekly_innovation_mult = -0.25
 	building_urban_center_throughput_add = -0.2
 }
 cultural_influence_notable = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	custom_tooltip = {
+			text = cultural_influence_invasion_tributary_enabled
+		}
 	country_influence_add = 250
 	country_prestige_mult = 0.10
 	interest_group_ig_scholars_pop_attraction_mult = 0.33
@@ -99,6 +124,12 @@ cultural_influence_notable = {
 }
 cultural_influence_regional = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	custom_tooltip = {
+			text = cultural_influence_invasion_tributary_enabled
+		}
+	custom_tooltip = {
+			text = cultural_influence_diplo_vassalization_enabled
+		}
 	country_influence_add = 500
 	country_prestige_mult = 0.20
 	interest_group_ig_scholars_pop_attraction_mult = 0.66
@@ -106,6 +137,12 @@ cultural_influence_regional = {
 	building_urban_center_throughput_add = 0.2
 }
 cultural_influence_legendary = {
+	custom_tooltip = {
+			text = cultural_influence_invasion_tributary_enabled
+		}
+	custom_tooltip = {
+			text = cultural_influence_diplo_vassalization_enabled
+		}
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
 	country_influence_add = 1000
 	country_prestige_mult = 0.30

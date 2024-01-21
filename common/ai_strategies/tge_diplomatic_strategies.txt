@@ -206,8 +206,8 @@ ai_strategy_form_confederation = {
 	}
 
 	possible = {
-		has_technology_researched = confederation
-		has_journal_entry = je_forging_alliances
+		has_technology_researched = diplomacy
+		has_journal_entry = je_forging_alliances 
 		
 		OR = {
 			has_law = law_type:law_alliance
@@ -268,11 +268,11 @@ ai_strategy_imperial_ambitions = {
 	}
 	
 	recklessness = {
-		value = 4
+		value = 100 #4
 	}
 	
 	aggression = {
-		value = 2
+		value = 100 #2
 		
 		if = {
 			limit = { 
@@ -345,6 +345,7 @@ ai_strategy_imperial_ambitions = {
 					scope:target_country.country_rank <= root.country_rank
 				}
 			add = 1000
+			}
 		}
 	}
 	
@@ -399,7 +400,7 @@ ai_strategy_imperial_ambitions = {
 				has_journal_entry = je_kindling_the_empire
 				}
 			multiply = 4	
-			}
+		}
 	}
 }
 
@@ -531,3 +532,4 @@ ai_strategy_diplomatic_status_quo = {
 		
 	}
 }
+

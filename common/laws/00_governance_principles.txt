@@ -121,6 +121,7 @@ law_council = {
 		country_prestige_add = 25
 		country_legitimacy_govt_size_add = 1
 		country_authority_add = 100
+		country_influence_add = 200
 	}
 	
 	possible_political_movements = {
@@ -170,6 +171,7 @@ law_monarchy = {
 		country_prestige_add = 25
 		country_legitimacy_headofstate_add = 30
 		country_authority_add = 200
+		country_influence_add = 300
 	}
 	
 	possible_political_movements = {

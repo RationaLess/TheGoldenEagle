@@ -1,15 +1,14 @@
-﻿objective_imperial_ambitions = {
-	background = "gfx/interface/icons/objectives/hegemon_illu.dds"
+﻿
+objective_crisis_in_the_valley = {
+	background = "gfx/interface/objectives/hegemon_illu.dds"
 	icon = "gfx/interface/icons/objectives/hegemon.dds"
 	
-	recommended_tags = { ATA AZC TARA }
-	
+	recommended_tags = { ATA AZC TLX XAL  }	
+
+
 	objective_subgoals = {
+		
 	}
+
 	
-	#final_subgoal = sg_strong_market
-	
-	on_start = {
-		#start_tutorial_lesson = { tutorial_lesson = economic_dominance }
-	}
 }

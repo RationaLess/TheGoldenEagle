@@ -34,6 +34,7 @@ chain_of_command = {
 		vassalage
 	}
 	ai_weight = { 
+	value = 10
 	}
 }
 

@@ -203,7 +203,7 @@ subject_management.1 = {
 	option = { #Tributary
 			name = subject_management.1.dd
 			trigger = {
-					has_law = law_type:law_tributary_empire
+					has_technology_researched = martial_culture
 				}	
 			
 				add_loyalists = {
@@ -218,7 +218,13 @@ subject_management.1 = {
 					
 			add_modifier = {
 					name = acquired_tributary
+					
 					months = 120
+					is_decaying = yes
+					multiplier = {
+						value = scope:protectorate_to_change.total_population
+						divide = 100000
+						}
 				}
 			
 			ai_chance = {

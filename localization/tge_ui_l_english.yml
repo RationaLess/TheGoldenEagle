@@ -33,3 +33,5 @@
   cultural_influence_notable_showmodifier: "[GetScriptedGui('showmodifier_cultural_influence_notable').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]\n$TOOLTIP_DELIMITER$"
   cultural_influence_regional_showmodifier: "[GetScriptedGui('showmodifier_cultural_influence_regional').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]\n$TOOLTIP_DELIMITER$"
   cultural_influence_legendary_showmodifier: "[GetScriptedGui('showmodifier_cultural_influence_legendary').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]\n$TOOLTIP_DELIMITER$"
+  
+  

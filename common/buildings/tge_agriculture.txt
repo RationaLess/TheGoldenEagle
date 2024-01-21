@@ -28,7 +28,7 @@ building_cotton_farm = {
 	required_construction = 3000
 
 	unlocking_technologies = {
-		cotton_farming
+		farming
 	}
 
 	city_type = farm
@@ -52,7 +52,7 @@ building_chinampa = {
 	levels_per_mesh = 5
 
 	unlocking_technologies = {
-		chiapas
+		architecture
 	}
 	
 	production_method_groups = {
@@ -74,7 +74,7 @@ building_cocoa_harvestry = {
 	required_construction = 3000
 
 	unlocking_technologies = {
-		irrigation
+		farming
 		
 	}
 
@@ -94,7 +94,7 @@ building_rubber_harvestry = {
 	required_construction = 3000
 
 	unlocking_technologies = {
-		irrigation
+		farming
 		
 	}
 

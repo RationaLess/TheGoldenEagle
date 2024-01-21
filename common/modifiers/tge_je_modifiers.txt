@@ -109,6 +109,14 @@ successfuly_formalized = {
 	country_bureaucracy_mult = 0.2
 }
 
+#Three Hearts
+totonac_empire = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	
+	country_prestige_add = 100
+	country_cultural_influence = 0.1
+}
+
 
 #harmonious hegemon
 modifier_harmonious_hegemon = {

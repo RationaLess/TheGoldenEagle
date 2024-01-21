@@ -20,6 +20,7 @@
 			}
 		set_global_variable = {
 			name = texcoco_struggle_bar_change
+			value = 0
 			}
 		
 	}

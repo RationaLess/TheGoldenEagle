@@ -1,10 +1,16 @@
 ﻿l_english:
  
- objective_imperial_ambitions: "Imperial Ambitions"
- objective_imperial_ambitions_desc: "The postclassic was a time of major cultural shifts. With the major players falling into decline, a new wave of powers emerged in order to carve a piece of mesoamerica for themselves."
- objective_imperial_ambitions_name_ATA:"Triple Alliance"
- objective_imperial_ambitions_desc_ATA:"Before becoming the last great empire of mesoamerica, the Tenochca were a vassal of a neighboring hegemonic power. In 1428, Tenochtitlan formed a Triple Alliance with other subjgated altepetl, fighting to overcome their previous overlord.\n\nCan you overcome your overlord, complete your imperial reforms and let the Aztec eagle cast its shadow over all of mesoamerica?"
- objective_imperial_ambitions_name_AZC:"Azcapotzalco"
- objective_imperial_ambitions_desc_AZC:"Being the defacto hegemon of Anahuac, Azcapotzalco spent the past decades subjugating altepetl and enriching themselves through tribute.\n\nIn 1428, they are facing a rebellion from the Triple Alliance and her allies. Will you overcome history and cement the Tepanec as the dominant power of mesoamerica?"
- objective_imperial_ambitions_name_TARA:"Tarascan Empire"
- objective_imperial_ambitions_desc_TARA:"While the Purépecha inhabited Michoacán for a long time, it was only a hundred years ago when the great Tariácuri transformed Tzintzuntzan from a mere city-state to a regional power. Despite that, the empire is still too informal and disunified to reach it's true potential.\n\nWill you be able to reform the empire to support both its people and conquests?"
+ objective_crisis_in_the_valley: "Crisis in the Valley"
+ objective_crisis_in_the_valley_desc: "Having been the birthplace of the great mesoamerican empire, the valley of Anahuac is in turmoil once more. With a war between a newfound triple alliance and the hegemonic Azcapotzalco, the fate of the region is shrouded in mystery."
+ objective_crisis_in_the_valley_name_ATA:"Triple Alliance"
+ objective_crisis_in_the_valley_desc_ATA:"Before becoming the last great empire of mesoamerica, the Tenochca were a tributary of a neighboring hegemonic power. In 1428, Tenochtitlan formed a Triple Alliance with Texcoco and Tlacopan, fighting to overcome their previous overlord.\n\nCan you overcome the Tepaneca, complete your imperial reforms and let the Aztec eagle cast its shadow over all of mesoamerica?"
+ objective_crisis_in_the_valley_name_AZC:"Azcapotzalco"
+ objective_crisis_in_the_valley_desc_AZC:"Being the defacto hegemon of Anahuac, Azcapotzalco spent the past decades subjugating altepetl and enriching themselves through tribute.\n\nIn 1428, they are facing a rebellion from the Triple Alliance and her allies. Will you overcome history and cement the Tepanec as the dominant power of mesoamerica?"
+ objective_crisis_in_the_valley_name_TLX:"Tlaxcala"
+ objective_crisis_in_the_valley_desc_TLX:"Originally having settled near the shores of Texcoco, the Tlaxcalans were driven east, forming what is now the Tlaxcala Republic. In less than a hundred years, they've developed multiple major settlements and made great advancements in statecraft, becoming one of the first republics of the americas. Can you stay the course under the pressure of the west?"
+ objective_crisis_in_the_valley_name_CPL:"Cempoala"
+ objective_crisis_in_the_valley_desc_CPL:"Being one of the three Totonac capitals, Cempoala is well poised for greatness. However, no empire thus far has managed to claim the entirety of Totonacapan, leaving the city-states divided into weak spheres of influence. Can you unite the totonac under one banner?"
+ 
+ 
+ objective_crisis_in_the_valley_TARA:"Tarascan Empire"
+ objective_crisis_in_the_valley_desc_TARA:"While the Purépecha inhabited Michoacán for a long time, it was only a hundred years ago when the great Tariácuri transformed Tzintzuntzan from a mere city-state to a regional power. Despite that, the empire is still too informal and disunified to reach it's true potential.\n\nWill you be able to reform the empire to support both its people and conquests?"

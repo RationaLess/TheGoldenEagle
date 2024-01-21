@@ -2009,12 +2009,12 @@ ai_strategy_default = {
 				}
 			
 				add = {
-					value = 50
+					value = 500
 				
 					add = {
 						value = scope:target_country.gdp
 						divide = 200000
-						max = 50						
+						max = 500						
 					}
 
 					if = {

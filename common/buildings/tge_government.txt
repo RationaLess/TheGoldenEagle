@@ -26,7 +26,7 @@ building_ball_court = {
 	levels_per_mesh = 10
 
 	unlocking_technologies = {
-		ballgame
+		masonry
 	}
 
 	production_method_groups = {

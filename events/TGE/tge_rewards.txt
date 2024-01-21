@@ -1,0 +1,74 @@
+namespace = rewards
+
+
+#Totonacapan Reward
+rewards.1 = {
+	type = country_event
+	placement = capital
+
+	title = rewards.1.t
+	desc = rewards.1.d
+	flavor = rewards.1.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/tension_meso.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		
+	}
+
+	immediate = {
+		root = {
+			save_scope_as = country_scoped
+		}
+	}
+
+	option = {
+			name = rewards.1.a
+			default_option = yes
+			ai_chance = 50
+		
+			
+			s:STATE_TULANCINGO = {
+				add_claim = ROOT
+			}
+			s:STATE_OCOTELOLCO = {
+				add_claim = ROOT
+			}
+			s:STATE_EAST_TEXCOCO = {
+				add_claim = ROOT
+			}
+			s:STATE_TEPETICPAC = {
+				add_claim = ROOT
+			}
+			s:STATE_OTOMPAN = {
+				add_claim = ROOT
+			}
+		
+		}
+	option = {
+			name = rewards.1.b
+			ai_chance = 50
+		
+			s:STATE_PUCTLAN = {
+				add_claim = ROOT
+			}
+			s:STATE_COATZACOALCO = {
+				add_claim = ROOT
+			}
+			s:STATE_TUXPAN = {
+				add_claim = ROOT
+			}
+			s:STATE_OLUZUAMA = {
+				add_claim = ROOT
+			}
+		
+		}
+}

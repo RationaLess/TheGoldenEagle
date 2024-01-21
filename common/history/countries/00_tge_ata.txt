@@ -6,8 +6,6 @@
 			value = 2
 		}
 		
-		set_strategy = ai_strategy_imperial_ambitions
-		set_strategy = ai_strategy_imperial_reforms
 
 		effect_starting_technology_mesoamerica_advanced = yes
 		

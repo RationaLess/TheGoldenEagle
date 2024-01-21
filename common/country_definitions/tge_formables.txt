@@ -1,31 +1,5 @@
 ﻿#Anahuac Formables
 
-AZT = { #Aztec Empire
-
-color = rgb { 204 20 42 }
-
-tier = empire
-
-country_type = recognized
-
-cultures = { mexica }
-
-capital = STATE_TENOCHTITLAN
-}
-
-NEOTO = { #Neo-Toltec Empire (Otomi)
-
-color = rgb { 203 59 225 }
-
-tier = empire
-
-country_type = recognized
-
-cultures = { otomi }
-
-capital = STATE_TOLLAN
-}
-
 
 TEOTI = { #Teotihuacan
 
@@ -35,7 +9,7 @@ tier = kingdom
 
 country_type = recognized
 
-cultures = { nahua }
+cultures = { acolhua }
 
 capital = STATE_TEOTIHUACAN
 }

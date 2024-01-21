@@ -80,7 +80,11 @@ terracing = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
 	category = production
-
+	
+	modifier = {
+		state_building_construction_sector_max_level_add = 1
+	}
+	
 	unlocking_technologies = {
 		masonry
 	}
@@ -120,7 +124,11 @@ masonry = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
 	category = production
-
+	
+	modifier = {
+		country_construction_add = 5
+	}
+	
 	unlocking_technologies = {
 		quarrying
 	}
@@ -153,7 +161,11 @@ temple_districts = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
 	category = production
-
+	
+	modifier = {
+	state_building_construction_sector_max_level_add = 1
+	}
+	
 	unlocking_technologies = {
 		urban_planning
 	}
@@ -181,6 +193,7 @@ roads = {
 
 	modifier = {
 		country_empire_sprawl_capacity_mult = 0.1
+		state_building_construction_sector_max_level_add = 1
 		}
 
 	unlocking_technologies = {
@@ -233,6 +246,7 @@ architecture = {
 
 	modifier = {
 		state_building_construction_sector_max_level_add = 1
+		country_construction_add = 5
 	}
 	
 	unlocking_technologies = {
@@ -279,7 +293,11 @@ great_projects = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
 	category = production
-
+	
+	modifier = {
+		state_building_construction_sector_max_level_add = 1
+	}
+	
 	unlocking_technologies = {
 		architecture
 	}
@@ -361,6 +379,10 @@ artisan_holdings = {
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
 	category = production
 
+	modifier = {
+		country_private_construction_allocation_mult = 0.15
+	}
+
 	unlocking_technologies = {
 		obsidian_working
 		jewelries
@@ -372,7 +394,12 @@ guild_development = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
 	category = production
-
+	
+	
+	modifier = {
+		country_private_construction_allocation_mult = 0.15
+	}
+	
 	unlocking_technologies = {
 		artisan_holdings
 	}

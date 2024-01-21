@@ -1,58 +1,15 @@
-﻿#Aztec Empire
-AZT = {
-	states = {
-		STATE_TENOCHTITLAN
-		STATE_TEXCOCO
-		STATE_CHALCO
-		STATE_XOCHIMILCO
-		STATE_TLACOPAN
-		STATE_CUATITLAN
-		STATE_TZOMPANCO
-		STATE_XALTOCAN
-		STATE_TEOTIHUACAN
-		STATE_CULHUACAN
-		STATE_HUEXOTZINGO
-		STATE_HUAXTEPEC
-		STATE_CUAHNAHUAC
-	}
+﻿
 
-	required_states_fraction = 0.8	
-	
-	ai_will_do = { always = yes }
-}
-
-
-#Neo-Toltec Empire (Otomi)
-NEOTO = {
-	states = {
-		STATE_XILAPAN
-		STATE_XILOTEPEC
-		STATE_TOLLAN
-		STATE_METZTITLAN
-		STATE_TEOTIHUACAN
-		STATE_XALTOCAN
-		STATE_OTOMPAN
-		STATE_TLACHICHILCO
-	}
-
-	required_states_fraction = 0.8	
-	
-	ai_will_do = { always = yes }
-}
-
-#Teotihuacan (Nahua)
+#Teotihuacan (Acolhua)
 TEOTI = {
 	states = {
-		STATE_TEXCOCO
-		STATE_TEOTIHUACAN
-		STATE_HUEXOTZINCO
-		STATE_TENOCHTITLAN
-		STATE_XALTOCAN
+		STATE_EAST_TEXCOCO
 		STATE_CHALCO
-		STATE_TEPETICPAC
+		STATE_TEOTIHUACAN
 		STATE_TULANCINGO
-		STATE_TALXCO
+		STATE_TEPETICPAC
 		STATE_OTOMPAN
+		STATE_NORTH_TEXCOCO
 	}
 
 	required_states_fraction = 0.5	
@@ -60,25 +17,6 @@ TEOTI = {
 	ai_will_do = { always = yes }
 }
 
-
-#Tepanec Empire
-TEPA = {
-	states = {
-		STATE_AZCAPOTZALCO
-		STATE_CUAUTITLAN
-		STATE_TZOMPANCO
-		STATE_XALTOCAN
-		STATE_TENOCHTITLAN
-		STATE_XOCHIMILCO
-		STATE_CHALCO
-		STATE_CULHUACAN
-		STATE_TEOTIHUACAN
-		STATE_TEXCOCO
-	}
-
-	required_states_fraction = 0.8	
-	ai_will_do = { always = yes }
-}
 
 
 #Teoatl, Pacific Nahua Formable

@@ -9,7 +9,7 @@
 	}
 	
 	weight = {
-		value = 0			
+		value = 1			
 	}
 }
 
@@ -267,3 +267,4 @@ ai_strategy_imperial_reforms = {
 		}
 	}
 }
+

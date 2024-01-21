@@ -1,5 +1,6 @@
-je_the_three_hearts = {
+﻿je_the_three_hearts = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	group = je_group_historical_content
 	
 	status_desc = {
 		first_valid = {
@@ -11,9 +12,13 @@ je_the_three_hearts = {
 	
 	immediate = {
 
-		set_variable = {
-				name = cultural_unifier
-			}
+		s:STATE_TOTONACAPAN = {
+			add_claim = root
+		}
+		s:STATE_HUAYACOCOTLA = {
+			add_claim = root
+		}
+		
 		}
 	
 	complete = {
@@ -39,7 +44,12 @@ je_the_three_hearts = {
 
 	on_complete = {
 		change_tag = TRHR
-	
+		add_modifier = {
+			name = totonac_empire 
+			months = 1200
+		}
+		trigger_event = rewards.1
+		
 	}
 	
 	is_shown_when_inactive = {
@@ -47,8 +57,12 @@ je_the_three_hearts = {
 	}
 
 	possible = {
-		has_technology_researched = politics
+		has_technology_researched = supremacy
 		country_has_primary_culture = cu:totonac
+		OR = {
+			cultural_influence >= 0.6
+			country_rank >= rank_value:major_power
+			}
 	}
 
 	weight = 10000

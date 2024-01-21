@@ -4,6 +4,9 @@ je_matters_of_texcoco = {
 	
 	group = je_group_foreign_affairs
 	
+
+	weight = 5000
+	should_be_pinned_by_default = yes
 	
 	
 	progressbar = yes
@@ -66,6 +69,8 @@ je_matters_of_texcoco = {
 							name = texcoco_struggle_bar
 							add = {
 								value = var:cultural_influence
+								multiply = total_population
+								divide = 100000
 								}
 						}
 				}
@@ -81,6 +86,9 @@ je_matters_of_texcoco = {
 							name = texcoco_struggle_bar
 							add = {
 								value = var:cultural_influence
+								multiply = total_population
+								divide = 100000
+								
 								multiply = -1
 								}
 						}
@@ -106,6 +114,8 @@ je_matters_of_texcoco = {
 								name = texcoco_struggle_bar_change
 								add = {
 									value = var:cultural_influence
+									multiply = total_population
+									divide = 100000
 									}
 							}
 					}
@@ -120,7 +130,10 @@ je_matters_of_texcoco = {
 						change_global_variable = {
 								name = texcoco_struggle_bar_change
 								add = {
+										
 									value = var:cultural_influence
+									multiply = total_population
+									divide = 100000
 									multiply = -1
 									}
 							}
@@ -135,7 +148,7 @@ je_matters_of_texcoco = {
 		
 		random_events = {
 			50 = 0
-			10 = matters_of_texcoco.2
+			#10 = matters_of_texcoco.2
 		}
 	}
 	
@@ -183,10 +196,16 @@ je_matters_of_texcoco = {
 		text = matters_of_texcoco_on_failure_loc
 		
 			every_country = {
+			
 				every_scope_pop = {
 					limit = { culture = cu:tepanec }
 					change_pop_culture = { target = cu:nahua value = 1 }
 				}
+			}
+			every_country = {
+				limit = { country_has_primary_culture = cu:tepanec }
+				add_primary_culture = cu:nahua
+				remove_primary_culture = cu:tepanec
 			}
 		
 		}
@@ -202,6 +221,8 @@ je_matters_of_texcoco = {
 		custom_tooltip = {
 		text = matters_of_texcoco_on_success_loc
 		
+		weight = 20000
+		should_be_pinned_by_default = yes
 		
 		IF = {
 			limit = {
@@ -226,6 +247,28 @@ je_matters_of_texcoco = {
 					}
 				scope:highest_prestige_tepanec = {
 					change_tag = TEPA
+					
+					s:STATE_TENOCHTITLAN = {
+						add_claim = c:TEPA
+						}
+					s:STATE_WEST_TEXCOCO = {
+						add_claim = c:TEPA
+						}
+					s:STATE_EAST_TEXCOCO = {
+						add_claim = c:TEPA
+						}
+					s:STATE_NORTH_TEXCOCO = {
+						add_claim = c:TEPA
+						}
+					s:STATE_TEOTIHUACAN = {
+						add_claim = c:TEPA
+						}
+					s:STATE_XOCHIMILCO = {
+						add_claim = c:TEPA
+						}
+					s:STATE_CHALCO = {
+						add_claim = c:TEPA
+						}
 					}			
 					
 				}
@@ -233,21 +276,11 @@ je_matters_of_texcoco = {
 		
 		}
 	
-	}
-	#No Outcome
-	timeout = 7200
-	on_timeout = {
-
-	}
-	
-	
-	
 	modifiers_while_active = {
 		texcoco_turmoil
 	}
 	
+	}
 	
-	weight = 5000
-	should_be_pinned_by_default = yes
-
-}
+	
+	

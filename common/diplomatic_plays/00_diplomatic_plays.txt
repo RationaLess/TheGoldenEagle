@@ -6,7 +6,7 @@ dp_conquer_state = {
 	texture = "gfx/interface/icons/war_goals/conquer_state.dds"
 	
 	possible = {
-		has_law = law_type:law_territory_integration
+		has_law = law_type:law_territory_acquisition
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
 		NOT = { is_subject_of = scope:target_country }
@@ -32,7 +32,6 @@ dp_return_state = {
 	texture = "gfx/interface/icons/war_goals/return_state.dds"
 	
 	possible = {
-		has_law = law_type:law_territory_integration
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
 		NOT = { is_subject_of = scope:target_country }	
