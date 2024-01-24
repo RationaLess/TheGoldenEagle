@@ -2,7 +2,7 @@
 
 building_minor_settlements = {
 	building_group = bg_settlement
-	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
+	texture = "gfx/interface/icons/building_icons/minor_settlement.dds"
 
 	production_method_groups = {
 		pmg_minor_nobles

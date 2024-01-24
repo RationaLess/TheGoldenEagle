@@ -13,7 +13,7 @@ building_temple = {
 		pmg_temple_base
 	}
 
-	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
+	texture = "gfx/interface/icons/building_icons/temple.dds"
 
 	required_construction = 8000
 }
@@ -33,34 +33,34 @@ building_ball_court = {
 		pmg_ball_court
 	}
 
-	texture = "gfx/interface/icons/building_icons/white_house.dds"
+	texture = "gfx/interface/icons/building_icons/ballcourt.dds"
 	
 	urbanization = 100
 	
 	required_construction = 8000
 }
 
-building_royal_palace = {
-	building_group = bg_utility
-	city_type = city
-	
-	
-	levels_per_mesh = 10
-
-	unlocking_technologies = {
-		luxury_construction
-	} 
-
-	production_method_groups = {
-		pmg_royal_palace
-	}
-
-	texture = "gfx/interface/icons/building_icons/vatican_city.dds"
-	
-	urbanization = 100
-	
-	required_construction = 8000
-}
+#building_royal_palace = {
+#	building_group = bg_utility
+#	city_type = city
+#	
+#	
+#	levels_per_mesh = 10
+#
+#	unlocking_technologies = {
+#		luxury_construction
+#	} 
+#
+#	production_method_groups = {
+#		pmg_royal_palace
+#	}
+#
+#	texture = "gfx/interface/icons/building_icons/vatican_city.dds"
+#	
+#	urbanization = 100
+#	
+#	required_construction = 8000
+#}
 
 
 
