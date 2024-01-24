@@ -1,6 +1,6 @@
 ﻿building_logging_camp = {
 	building_group = bg_logging
-	texture = "gfx/interface/icons/building_icons/logging_camp.dds"
+	texture = "gfx/interface/icons/building_icons/logging.dds"
 	required_construction = 1000
 	city_type = mine
 	levels_per_mesh = 5
@@ -17,7 +17,7 @@
 
 building_obsidian_mine = {
 	building_group = bg_obsidian_mining
-	texture = "gfx/interface/icons/building_icons/coal_mine.dds"
+	texture = "gfx/interface/icons/building_icons/mine_obsidian.dds"
 	required_construction = 6000
 	city_type = mine
 	levels_per_mesh = 5
@@ -34,7 +34,7 @@ building_obsidian_mine = {
 
 building_limestone_mine = {
 	building_group = bg_limestone_mining
-	texture = "gfx/interface/icons/building_icons/iron_mine.dds"
+	texture = "gfx/interface/icons/building_icons/mine_limestone.dds"
 	required_construction = 6000
 	city_type = mine
 	levels_per_mesh = 5
@@ -51,7 +51,7 @@ building_limestone_mine = {
 
 building_gold_mine = {
 	building_group = bg_gold_mining
-	texture = "gfx/interface/icons/building_icons/gold_mine.dds"
+	texture = "gfx/interface/icons/building_icons/mine_gold.dds"
 	required_construction = 6000
 	city_type = mine
 	levels_per_mesh = 5
@@ -68,7 +68,7 @@ building_gold_mine = {
 
 building_turquoise_mine = {
 	building_group = bg_turquoise_mining
-	texture = "gfx/interface/icons/building_icons/dye_plantation.dds"
+	texture = "gfx/interface/icons/building_icons/mine_turqoise.dds"
 	required_construction = 6000
 	city_type = mine
 	levels_per_mesh = 5
@@ -85,7 +85,7 @@ building_turquoise_mine = {
 
 building_mudbrick_furnace = {
 	building_group = bg_mudbrick_furnacing
-	texture = "gfx/interface/icons/building_icons/sulfur_mine.dds"
+	texture = "gfx/interface/icons/building_icons/mine_mudbrick.dds"
 	required_construction = 6000
 	city_type = mine
 	levels_per_mesh = 5

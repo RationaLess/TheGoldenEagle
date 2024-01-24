@@ -1,7 +1,7 @@
 ﻿building_maize_farm = {
 	building_group = bg_maize_farms
 	
-	texture = "gfx/interface/icons/building_icons/maize_farm.dds"
+	texture = "gfx/interface/icons/building_icons/farm_maize.dds"
 	
 	required_construction = 3000
 	
@@ -23,7 +23,7 @@
 
 building_cotton_farm = {
 	building_group = bg_cotton_farms
-	texture = "gfx/interface/icons/building_icons/cotton_plantation.dds"
+	texture = "gfx/interface/icons/building_icons/farm_cotton.dds"
 	
 	required_construction = 3000
 
@@ -43,7 +43,7 @@ building_cotton_farm = {
 building_chinampa = {
 	building_group = bg_chinampas
 	
-	texture = "gfx/interface/icons/building_icons/maize_farm.dds"
+	texture = "gfx/interface/icons/building_icons/farm_chinampa.dds"
 	
 	
 	required_construction = 6000
@@ -69,7 +69,7 @@ building_chinampa = {
 
 building_cocoa_harvestry = {
 	building_group = bg_cocoa
-	texture = "gfx/interface/icons/building_icons/coffee_plantation.dds"
+	texture = "gfx/interface/icons/building_icons/farm_cocoa.dds"
 	
 	required_construction = 3000
 
@@ -89,7 +89,7 @@ building_cocoa_harvestry = {
 
 building_rubber_harvestry = {
 	building_group = bg_rubber
-	texture = "gfx/interface/icons/building_icons/rubber_lodge.dds"
+	texture = "gfx/interface/icons/building_icons/farm_rubber.dds"
 	
 	required_construction = 3000
 

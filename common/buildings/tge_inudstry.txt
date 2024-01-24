@@ -1,6 +1,6 @@
 building_clothing_workshop = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/textile_industry.dds"
+	texture = "gfx/interface/icons/building_icons/workshop_clothing.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -18,7 +18,7 @@ building_clothing_workshop = {
 
 building_furniture_workshop = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/furniture_manufacturies.dds"
+	texture = "gfx/interface/icons/building_icons/workshop_furniture.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -36,7 +36,7 @@ building_furniture_workshop = {
 
 building_tooling_workshop = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/tooling_workshops.dds"
+	texture = "gfx/interface/icons/building_icons/workshop_tooling.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -56,7 +56,7 @@ building_tooling_workshop = {
 
 building_jewelry = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/building_arts_academy.dds"
+	texture = "gfx/interface/icons/building_icons/workshop_jewelry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -75,7 +75,7 @@ building_jewelry = {
 
 building_pottery = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/building_arts_academy.dds"
+	texture = "gfx/interface/icons/building_icons/workshop_pottery.dds"
 	city_type = city
 	levels_per_mesh = 5
 	

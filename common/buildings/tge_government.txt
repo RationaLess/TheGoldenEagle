@@ -121,7 +121,7 @@ building_government_administration = {
 		pmg_admin_base
 	}
 
-	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
+	texture = "gfx/interface/icons/building_icons/administration.dds"
 
 	required_construction = 1000
 }
