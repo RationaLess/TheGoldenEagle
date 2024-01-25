@@ -820,6 +820,61 @@
 				reserves=1
 				}
 			}
+		
+		region_state:METZ={
+			create_building={
+				building="building_maize_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_jewelry"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_logging_camp"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_temple"
+				level=1
+				reserves=1
+				}
+			}
+		region_state:TCHI={
+			create_building={
+				building="building_maize_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_tooling_workshop"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_jewelry"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_logging_camp"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_temple"
+				level=1
+				reserves=1
+				}
+			}
 		}
 	s:STATE_TULANCINGO={
 		region_state:TLC={
@@ -1252,35 +1307,6 @@
 			}   
 		}
 	
-	s:STATE_METZTITLAN={
-		region_state:METZ={
-			create_building={
-				building="building_maize_farm"
-				level=2
-				reserves=1
-				}
-			create_building={
-				building="building_tooling_workshop"
-				level=1
-				reserves=1
-				}
-			create_building={
-				building="building_jewelry"
-				level=1
-				reserves=1
-				}
-			create_building={
-				building="building_logging_camp"
-				level=1
-				reserves=1
-				}
-			create_building={
-				building="building_temple"
-				level=1
-				reserves=1
-				}
-			}
-		}
 	s:STATE_TOLLAN={
 		region_state:TULA={
 			create_building={
@@ -1314,8 +1340,6 @@
 				reserves=1
 				}
 			}
-		}
-	s:STATE_XILOTEPEC={
 		region_state:XILO={
 			create_building={
 				building="building_maize_farm"
@@ -1343,8 +1367,6 @@
 				reserves=1
 				}
 			}
-		}
-	s:STATE_XILAPAN={
 		region_state:XILA={
 			create_building={
 				building="building_maize_farm"

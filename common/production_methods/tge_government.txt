@@ -148,19 +148,19 @@ pm_ball_court = {
 	
 	state_modifiers = {
 			unscaled = {
-				goods_input_tools_add = 1
 
-				state_radicals_from_sol_change_mult = -0.2
-				state_standard_of_living_add = 1
+				state_radicals_from_sol_change_mult = -0.15
 			}
 			
 			workforce_scaled = {
-				state_standard_of_living_add = 0.5
 			}
 		}
 	building_modifiers = {
 		workforce_scaled = { 
-			goods_output_services_add = 1
+			goods_input_rubber_add = 1
+			goods_input_tools_add = 1
+
+			goods_output_worship_add = 3
 		}
 		
 		level_scaled = {

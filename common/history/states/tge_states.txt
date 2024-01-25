@@ -104,12 +104,6 @@
 	
 	
 	#Other Valley of Mexico Tags
-	s:STATE_OTOMPAN = {
-		create_state = {
-			country = c:OTP
-			owned_provinces = { "x39DD0E" "x73BB2B" "x84C904" "xB4EC03" "xB5F326" }
-		}
-	}
 	s:STATE_HUEXOTZINGO = {
 		create_state = {
 			country = c:HXZ
@@ -418,31 +412,29 @@
 	
 	
 	#Otomis
-	s:STATE_XILOTEPEC = {
-		create_state = {
-			country = c:XILO
-			owned_provinces = { "x3FAB32" "x615102" "x91B52C" "x91DD21" "x98512C" "xA8AA29" "xA9621C" "xACCE14" "xC9912A" }
-		}
-	}
 	s:STATE_TOLLAN = {
 		create_state = {
 			country = c:TULA
 			owned_provinces = { "x33EC10" "x5F331E" "x974F1F" "x9EBC22" "xC97123" "xEBD101" "xF7600F" }
 		}
-	}
-	s:STATE_XILAPAN = {
 		create_state = {
 			country = c:XILA
 			owned_provinces = { "x39A828" "x3CF009" "x3D6C15" "x715403" "x885D00" "xB18D21" "xB4FF06" "xB7DA21" "xC1C230" "xCA432A" "xF0D303" }
 		}
+		create_state = {
+			country = c:XILO
+			owned_provinces = { "x3FAB32" "x615102" "x91B52C" "x91DD21" "x98512C" "xA8AA29" "xA9621C" "xACCE14" "xC9912A" }
+		}
 	}
-	s:STATE_TLACHICHILCO = {
+	s:STATE_OTOMPAN = {
+		create_state = {
+			country = c:OTP
+			owned_provinces = { "x39DD0E" "x73BB2B" "x84C904" "xB4EC03" "xB5F326" }
+		}
 		create_state = {
 			country = c:TCHI
 			owned_provinces = { "x35CF28" "x494904" "x4B6103" "x5BF728" "x5D992D" "x637B18" "x6ABA1B" "x73BD04" "x77DD08" "xA24307" "xA5FF04" "xB19F04" "xC74208" "xE16D12" "xF3D61D" "xF44204" }
 		}
-	}
-	s:STATE_METZTITLAN = {
 		create_state = {
 			country = c:METZ
 			owned_provinces = { "x33A617" "x485B1F" "x56A031" "x637508" "x69E60E" "x6CE70E" "x737832" "x7C5B10" "x81EE08" "x855F21" "xB14416" "xB1F613" "xB23F04" "xBDBA14" "xBF7B19" "xF8DF20" }
@@ -451,22 +443,17 @@
 	
 	
 	#Huastecs
-	s:STATE_TUXPAN = {
+	s:STATE_HUASTECAPAN = {
 		create_state = {
 			country = c:TUXP
 			owned_provinces = { "x445B17" "x55B313" "x664015" "x72F914" "x793A2C" "x7BC310" "xA5B716" "xA66F0B" "xA83904" "xAA5C27" "xACAC29" "xB84904" "xB9CA1F" "xBAC008" "xBEE81E" "xCC600E" "xDDCE08" "xE17522" }
 		}
-	}
-	s:STATE_IXACTEPEC = {
-		create_state = {
-			country = c:IXAC
-			owned_provinces = { "x6CCC1C" "x7EEA0B" "x7F7C29" "x92FB1E" "x97FF2F" "xA09F28" "xAA4A02" "xB3B112" "xCC8C2F" "xD0FE2F" "xD2C805" "xD4CE22" "xD66330" "xE6E119" "xE93A17" "xF14307" "xFA3513" }
-		}
-	}
-	s:STATE_OLUZUAMA = {
 		create_state = {
 			country = c:OLUZ
 			owned_provinces = { "x3D4722" "x426721" "x43DA27" "x49E70F" "x4C7D09" "x4DFF1F" "x575F1C" "x5CD931" "x677025" "x6B9F1E" "x77CC12" "x784A04" "x80B617" "x82BC14" "x8FD629" "x9DEE1E" "xB5E100" "xC28426" "xC7531D" "xC8B602" "xCBD207" "xD28001" "xDB3308" "xDE432F" "xE96931" "xEFD322" }
+		}create_state = {
+			country = c:IXAC
+			owned_provinces = { "x6CCC1C" "x7EEA0B" "x7F7C29" "x92FB1E" "x97FF2F" "xA09F28" "xAA4A02" "xB3B112" "xCC8C2F" "xD0FE2F" "xD2C805" "xD4CE22" "xD66330" "xE6E119" "xE93A17" "xF14307" "xFA3513" }
 		}
 	}
 	

@@ -55,6 +55,7 @@ STATE_TEOTIHUACAN = {
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
         bg_logging = 10
+        bg_obsidian_mining = 5
     }
 }
 
@@ -113,14 +114,14 @@ STATE_NORTH_TEXCOCO = {
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
         bg_obsidian_mining = 3
-        bg_logging = 15
+        bg_logging = 20
         bg_fishing = 9
     }
 }
 
 STATE_OTOMPAN = {
     id = 12
-    provinces = { "x39DD0E" "x73BB2B" "x84C904" "xB4EC03" "xB5F326" }
+    provinces = { "x33A617" "x35CF28" "x39DD0E" "x485B1F" "x494904" "x4B6103" "x56A031" "x5BF728" "x5D992D" "x637508" "x637B18" "x69E60E" "x6ABA1B" "x6CE70E" "x737832" "x73BB2B" "x73BD04" "x77DD08" "x7C5B10" "x81EE08" "x84C904" "x855F21" "xA24307" "xA5FF04" "xB14416" "xB19F04" "xB1F613" "xB23F04" "xB4EC03" "xB5F326" "xBDBA14" "xBF7B19" "xC74208" "xE16D12" "xF3D61D" "xF44204" "xF8DF20" }
     subsistence_building = "building_gathering_grounds_animal_skin"
 
 
@@ -128,7 +129,7 @@ STATE_OTOMPAN = {
 
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
-        bg_logging = 8
+        bg_logging = 12
     }
 }
 
@@ -193,7 +194,7 @@ STATE_OCOTELOLCO = {
     id = 19
     provinces = { "x3D8E20" "x686F18" "x7C7E32" "x845827" "x8D3223" "xC4980D" "xD73D28" "xDFF105" "xEFB51B" }
     subsistence_building = "building_gathering_grounds_animal_skin"
-    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    arable_resources = { "bg_maize_farms" "bg_cotton_farms" "bg_cocoa" }
     capped_resources = {
         bg_limestone_mining = 3
     }
@@ -257,7 +258,7 @@ STATE_CHOLULA = {
 
 STATE_TOLLAN = {
     id = 25
-    provinces = { "x33EC10" "x5F331E" "x974F1F" "x9EBC22" "xC97123" "xEBD101" "xF7600F" }
+    provinces = { "x33EC10" "x39A828" "x3CF009" "x3D6C15" "x3FAB32" "x5F331E" "x615102" "x715403" "x885D00" "x91B52C" "x91DD21" "x974F1F" "x98512C" "x9EBC22" "xA8AA29" "xA9621C" "xACCE14" "xB18D21" "xB4FF06" "xB7DA21" "xC1C230" "xC97123" "xC9912A" "xCA432A" "xEBD101" "xF0D303" "xF7600F" }
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
         bg_logging = 9
@@ -266,7 +267,7 @@ STATE_TOLLAN = {
 
 STATE_XILOTEPEC = {
     id = 26
-    provinces = { "x3FAB32" "x615102" "x91B52C" "x91DD21" "x98512C" "xA8AA29" "xA9621C" "xACCE14" "xC9912A" }
+    provinces = {}
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
         bg_logging = 12
@@ -345,10 +346,12 @@ STATE_PUCTLAN = {
 
 STATE_COATZACOALCO = {
     id = 37
-    provinces = { "x39EB14" "x3FEB27" "x418720" "x447409" "x48C109" "x4D8D2B" "x4EA132" "x4EAF29" "x5F3624" "x6C9C19" "x785C29" "x8E3E12" "x92FF2C" "x9A532F" "x9C9914" "xA0FE2C" "xA48226" "xA6391F" "xAA9500" "xB6A30D" "xBB5311" "xBEDB1B" "xC1C41A" "xC23613" "xD36730" "xD44309" "xDF4A1C" "xDFC727" "xEB971B" "xFCA103" }
+    provinces = { "x37EE1E" "x37EF1E" "x39EB14" "x3FEB27" "x418720" "x43FA15" "x447409" "x48C109" "x49E40C" "x4AD223" "x4D8D2B" "x4EA132" "x4EAF29" "x524B2F" "x52F010" "x5C6526" "x5F3624" "x6C9C19" "x785C29" "x80A602" "x839416" "x8E3E12" "x92FF2C" "x9A532F" "x9C9914" "x9F8504" "xA0FE2C" "xA48226" "xA6391F" "xA7C010" "xAA9500" "xB6A30D" "xBB5311" "xBEDB1B" "xBF4632" "xBFDA13" "xC1C41A" "xC23613" "xC2C41D" "xC4E511" "xC79609" "xC8781E" "xD27310" "xD36730" "xD44309" "xD9AD1B" "xDBED08" "xDEDF13" "xDF4A1C" "xDF8C0E" "xDFC727" "xE45611" "xE8C609" "xEB971B" "xFCA103" }
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
-        bg_logging = 8
+        bg_logging = 15
+        bg_fishing = 10
+
     }
 }
 
@@ -550,6 +553,7 @@ STATE_TUTUTEPEC = {
     capped_resources = {
         bg_turquoise_mining = 2
         bg_logging = 13
+        bg_fishing = 10
     }
 
 }
@@ -602,7 +606,7 @@ STATE_ALOTEPEC = {
 
 STATE_COATLICAMAC = {
     id = 61
-    provinces = { "x37EE1E" "x4AD223" "x524B2F" "x52F010" "x80A602" "x839416" "xBF4632" "xBFDA13" "xC2C41D" "xC8781E" "xD27310" "xD9AD1B" "xDEDF13" "xE45611" "xE8C609" }
+    provinces = {}
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
         bg_logging = 11
@@ -719,7 +723,7 @@ STATE_TOTONTEPEC = {
 
 STATE_GUICHICOVI = {
     id = 71
-    provinces = { "x37EF1E" "x43FA15" "x49E40C" "x5C6526" "x9F8504" "xA7C010" "xC4E511" "xC79609" "xDBED08" "xDF8C0E" }
+    provinces = {}
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
         bg_logging = 8
@@ -735,6 +739,7 @@ STATE_MITLA = {
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
         bg_logging = 14
+        bg_fishing = 11
     }
 }
 
@@ -780,7 +785,7 @@ STATE_TOLUCA_VALLEY = {
 STATE_XILAPAN = {
     id = 80
     subsistence_building = "building_gathering_grounds_feathers"
-    provinces = { "x39A828" "x3CF009" "x3D6C15" "x715403" "x885D00" "xB18D21" "xB4FF06" "xB7DA21" "xC1C230" "xCA432A" "xF0D303" }
+    provinces = {}
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
         bg_logging = 8
@@ -790,7 +795,7 @@ STATE_XILAPAN = {
 STATE_METZTITLAN = {
     id = 81
     subsistence_building = "building_gathering_grounds_animal_skin"
-    provinces = { "x33A617" "x485B1F" "x56A031" "x637508" "x69E60E" "x6CE70E" "x737832" "x7C5B10" "x81EE08" "x855F21" "xB14416" "xB1F613" "xB23F04" "xBDBA14" "xBF7B19" "xF8DF20" }
+    provinces = {}
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
         bg_logging = 12
@@ -799,34 +804,35 @@ STATE_METZTITLAN = {
 
 STATE_TLACHICHILCO = {
     id = 82
-    provinces = { "x35CF28" "x494904" "x4B6103" "x5BF728" "x5D992D" "x637B18" "x6ABA1B" "x73BD04" "x77DD08" "xA24307" "xA5FF04" "xB19F04" "xC74208" "xE16D12" "xF3D61D" "xF44204" }
+    provinces = {}
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
         bg_logging = 14
     }
 }
 
-STATE_TUXPAN = {
+STATE_HUASTECAPAN = {
     id = 83
     subsistence_building = "building_gathering_grounds_animal_skin"
-    provinces = { "x445B17" "x55B313" "x664015" "x72F914" "x793A2C" "x7BC310" "xA5B716" "xA66F0B" "xA83904" "xAA5C27" "xACAC29" "xB84904" "xB9CA1F" "xBAC008" "xBEE81E" "xCC600E" "xDDCE08" "xE17522" }
+    provinces = { "x3D4722" "x426721" "x43DA27" "x445B17" "x49E70F" "x4C7D09" "x4DFF1F" "x55B313" "x575F1C" "x5CD931" "x664015" "x677025" "x6B9F1E" "x6CCC1C" "x72F914" "x77CC12" "x784A04" "x793A2C" "x7BC310" "x7EEA0B" "x7F7C29" "x80B617" "x82BC14" "x8FD629" "x92FB1E" "x97FF2F" "x9DEE1E" "xA09F28" "xA5B716" "xA66F0B" "xA83904" "xAA4A02" "xAA5C27" "xACAC29" "xB3B112" "xB5E100" "xB84904" "xB9CA1F" "xBAC008" "xBEE81E" "xC28426" "xC7531D" "xC8B602" "xCBD207" "xCC600E" "xCC8C2F" "xD0FE2F" "xD28001" "xD2C805" "xD4CE22" "xD66330" "xDB3308" "xDDCE08" "xDE432F" "xE17522" "xE6E119" "xE93A17" "xE96931" "xEFD322" "xF14307" "xFA3513" }
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
 
     capped_resources = {
-        bg_logging = 9
+        bg_logging = 35
+        bg_fishing = 12
     }
 }
 
 STATE_IXACTEPEC = {
     id = 84
     subsistence_building = "building_gathering_grounds_animal_skin"
-    provinces = { "x6CCC1C" "x7EEA0B" "x7F7C29" "x92FB1E" "x97FF2F" "xA09F28" "xAA4A02" "xB3B112" "xCC8C2F" "xD0FE2F" "xD2C805" "xD4CE22" "xD66330" "xE6E119" "xE93A17" "xF14307" "xFA3513" }
+    provinces = {}
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
 }
 
 STATE_OLUZUAMA = {
     id = 85
-    provinces = { "x3D4722" "x426721" "x43DA27" "x49E70F" "x4C7D09" "x4DFF1F" "x575F1C" "x5CD931" "x677025" "x6B9F1E" "x77CC12" "x784A04" "x80B617" "x82BC14" "x8FD629" "x9DEE1E" "xB5E100" "xC28426" "xC7531D" "xC8B602" "xCBD207" "xD28001" "xDB3308" "xDE432F" "xE96931" "xEFD322" }
+    provinces = {}
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
         bg_logging = 9
@@ -856,7 +862,8 @@ STATE_CHIAPAS = {
     provinces = { "x337112" "x34A015" "x34F11E" "x35932F" "x385F05" "x3A5703" "x3CF322" "x3EED10" "x3F5818" "x3FE51B" "x41ED1F" "x449830" "x4C9727" "x54FD18" "x5F8524" "x62400D" "x634E07" "x677732" "x693803" "x6BBD04" "x6C992E" "x706613" "x70C914" "x753916" "x757C21" "x7DA012" "x7FC21F" "x7FD809" "x813315" "x813C27" "x818329" "x824020" "x82B72B" "x897520" "x8A6531" "x8AC92B" "x8CBB2D" "x8EF81D" "x916524" "x916B30" "x965929" "x979B0F" "x97A013" "x9A892B" "x9B4D24" "x9D3B17" "xA86409" "xA89A28" "xA9F211" "xAC7A26" "xB7580C" "xB7B400" "xC04A20" "xC5DE1D" "xC86923" "xC9A30B" "xCAB517" "xCE6A04" "xD9911B" "xE17C22" "xE1B30B" "xE2D000" "xEB991E" "xECD305" "xED9329" "xEEAA14" "xF3E707" "xF6D00D" "xF78D2B" "xFDC006" }
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
-        bg_logging = 14
+        bg_logging = 22
+        bg_fishing = 15
     }
 }
 
@@ -879,12 +886,20 @@ STATE_MIXISTLAN = {
     id = 153
     provinces = { "x354F08" "x35DB1C" "x38941E" "x39DF32" "x3ADD21" "x3F941E" "x408029" "x46FB1A" "x47450B" "x47542B" "x4C7615" "x53ED1C" "x555606" "x55841A" "x60A326" "x626515" "x63B530" "x6DC832" "x754D2E" "x75CB18" "x78DF2F" "x7B8A16" "x7DE31A" "x818C26" "x843E1A" "x86AD21" "x88CD10" "x93AA09" "x93D002" "x986D2F" "x98A82E" "x9A5C2B" "x9C4232" "x9DAD17" "xA5EB27" "xA64611" "xA7BD25" "xA7D714" "xAF361C" "xAFAE2C" "xB2A429" "xB45F05" "xBBE528" "xCA6012" "xCAEB13" "xD4A21B" "xD96919" "xDA5913" "xDBB214" "xE6C407" "xF2FD07" "xF64D04" "xF67D21" "xFD5F29" }
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_logging = 15
+        bg_fishing = 10
+    }
 }
 
 STATE_XICALANGO = {
     id = 154
     provinces = { "x378001" "x3A7113" "x40E202" "x483C13" "x4F8D27" "x51B115" "x565A2E" "x588F28" "x607101" "x623A15" "x693310" "x6EA00A" "x76EC26" "x7D490D" "x7E9104" "x858012" "x8CC318" "x94371F" "x97EF29" "x986E1B" "x9D5D04" "x9EB028" "xA33402" "xA54027" "xB6A717" "xBD7D2B" "xC2D222" "xC3B82D" "xC59F2E" "xCD8F04" "xCDB322" "xD3FC30" "xD58824" "xD78A29" "xD96E09" "xD97907" "xE0840C" "xE5AE1F" "xE7BE2B" "xE85922" "xE8671E" "xEBAD24" "xEF7D23" "xF17D05" "xF24917" "xF9EA25" }
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_logging = 15
+        bg_fishing = 10
+    }
 }
 
 STATE_PALENQUE = {
@@ -909,6 +924,10 @@ STATE_CAMPECHE = {
     id = 158
     provinces = { "x379D1F" "x38BB0F" "x3A9E2C" "x445F22" "x448A31" "x47E51D" "x498B16" "x49B512" "x517908" "x53AB1F" "x54391A" "x57F425" "x58B22F" "x5ABC29" "x5C8301" "x5DE52C" "x5EBB0A" "x6EB523" "x6ECA13" "x718821" "x72CD32" "x739223" "x74460F" "x753C22" "x766330" "x76E613" "x77992A" "x799C29" "x873B02" "x885A32" "x8AA015" "x8DC122" "x8DD728" "x977302" "x977F0B" "x97C30F" "x97F71A" "x98B513" "x9B6E1D" "x9C3921" "xA13B06" "xA1552F" "xA19E06" "xA34808" "xA38822" "xA4640B" "xA94B2A" "xA9E60A" "xB07232" "xB74828" "xB96330" "xBA5C22" "xBDB205" "xC05D0F" "xC27C11" "xC3A811" "xC5A329" "xC6802D" "xC7C509" "xCD8118" "xCF6D06" "xD4D60C" "xE7C314" "xE8E30C" "xE96C25" "xEDF628" "xF15218" "xFE8A30" }
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_logging = 15
+        bg_fishing = 10
+    }
 }
 
 STATE_UAYMIL = {
@@ -921,6 +940,10 @@ STATE_YUCATAN = {
     id = 160
     provinces = { "x325032" "x34B71E" "x36CD03" "x386C1D" "x39430A" "x396316" "x423F05" "x426A09" "x44A92E" "x466D0C" "x46C12E" "x4B9D1D" "x4DB70C" "x549101" "x557A16" "x5AF329" "x5DA702" "x5EB20B" "x67660D" "x683F2D" "x69FD2B" "x6DBF31" "x6DFE26" "x6FA428" "x783703" "x7ED414" "x815027" "x81A706" "x81F414" "x829111" "x83C026" "x875F0A" "x8AD014" "x93461D" "x93580F" "x94D02D" "x963300" "x966D0A" "x9AA511" "x9B6823" "x9DD512" "x9F6E29" "xA1A51C" "xA25309" "xA4952C" "xA5880E" "xA6B00B" "xA76126" "xA7EB06" "xACB926" "xACCD12" "xADC320" "xAFE816" "xB37D03" "xB4A01B" "xB6DC26" "xBA7F02" "xBC4D2F" "xC08928" "xC14507" "xC25D24" "xC2D42D" "xC7DA1B" "xCCFE15" "xCDF81A" "xCEB905" "xD2331B" "xD43F32" "xD5641E" "xD65130" "xD7352E" "xDE4804" "xDEE51B" "xE2DD22" "xE5FE28" "xE7D108" "xEAC429" "xEBB921" "xEBC21D" "xECD70B" "xEDFF1D" "xF0B201" "xF36924" "xF43824" "xF5CA31" "xF66B17" "xF84C2A" "xFAB631" "xFC4626" "xFD4E26" }
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    capped_resources = {
+        bg_logging = 25
+        bg_fishing = 14
+    }
 }
 
 STATE_CUZCATLAN = {

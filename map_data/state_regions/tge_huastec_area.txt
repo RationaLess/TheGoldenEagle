@@ -2,6 +2,10 @@
 STATE_ACAPOLCO = {
     id = 88
     provinces = { "x33E524" "x41D81E" "x51D81A" "x734800" "x765828" "x86761A" "x95B429" "x9C7124" "xAC5A2F" "xB47014" "xBC9614" "xBFF423" "xDCAD1E" "xEACA1B" "xF53F29" }
+    capped_resources = {
+        bg_logging = 15
+        bg_fishing = 12
+    }
 }
 STATE_TIXTLA = {
     id = 89

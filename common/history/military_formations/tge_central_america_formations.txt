@@ -437,4 +437,127 @@
 				}
 			}
 		}
+		
+		#Ilhuicatl
+		c:OLUZ = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_ilhuicaatl
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_HUASTECAPAN
+					count = 3
+				}
+			}
+		}
+		c:IXAC = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_ilhuicaatl
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_HUASTECAPAN
+					count = 3
+				}
+			}
+		}
+		c:TUXP = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_ilhuicaatl
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_HUASTECAPAN
+					count = 3
+				}
+			}
+		}
+		c:TEA = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_ilhuicaatl
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_HUAYACOCOTLA
+					count = 3
+				}
+			}
+		}
+		c:TJN = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_ilhuicaatl
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_HUAYACOCOTLA
+					count = 3
+				}
+			}
+		}
+		c:YHL = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_ilhuicaatl
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_HUAYACOCOTLA
+					count = 3
+				}
+			}
+		}
+		c:CPL = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_ilhuicaatl
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TOTONACAPAN
+					count = 6
+				}
+			}
+		}
+		c:XLP = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_ilhuicaatl
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TOTONACAPAN
+					count = 3
+				}
+			}
+		}
+		c:COT = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_ilhuicaatl
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TOTONACAPAN
+					count = 3
+				}
+			}
+		}
+		c:HUT = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_ilhuicaatl
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TOTONACAPAN
+					count = 3
+				}
+			}
+		}
+		
 	}

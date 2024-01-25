@@ -185,22 +185,23 @@
 				size = 5000
 				}
 		}
-	}
-	s:STATE_IXACTEPEC = {
 		region_state:IXAC = {
 			create_pop = {
 				culture = huastec
 				size = 45000
 				}
 		}
-	}
-	s:STATE_OLUZUAMA = {
 		region_state:OLUZ = {
 			create_pop = {
 				culture = huastec
 				size = 35000
 				}
 		}
+	}
+	s:STATE_IXACTEPEC = {
+		
+	}
+	s:STATE_OLUZUAMA = {
 	}
 	
 	

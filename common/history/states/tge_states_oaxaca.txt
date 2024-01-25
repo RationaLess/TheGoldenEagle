@@ -75,24 +75,21 @@
 	
 	
 	###MIXE MINORS
-	s:STATE_COATLICAMAC = {
-		create_state = {
-			country = c:COAT
-			owned_provinces = { "x37EE1E" "x4AD223" "x524B2F" "x52F010" "x80A602" "x839416" "xBF4632" "xBFDA13" "xC2C41D" "xC8781E" "xD27310" "xD9AD1B" "xDEDF13" "xE45611" "xE8C609" }
-		}
-	}
-	s:STATE_GUICHICOVI = {
-		create_state = {
-			country = c:GUIC
-			owned_provinces = { "x37EF1E" "x43FA15" "x49E40C" "x5C6526" "x9F8504" "xA7C010" "xC4E511" "xC79609" "xDBED08" "xDF8C0E" }
-		}
-	}
 	
 	s:STATE_COATZACOALCO = {
 		create_state = {
 			country = c:COTZ
 			owned_provinces = { "x39EB14" "x3FEB27" "x418720" "x447409" "x48C109" "x4D8D2B" "x4EA132" "x4EAF29" "x5F3624" "x6C9C19" "x785C29" "x8E3E12" "x92FF2C" "x9A532F" "x9C9914" "xA0FE2C" "xA48226" "xA6391F" "xAA9500" "xB6A30D" "xBB5311" "xBEDB1B" "xC1C41A" "xC23613" "xD36730" "xD44309" "xDF4A1C" "xDFC727" "xEB971B" "xFCA103"  }
-		}	
+		}
+		create_state = {
+			country = c:GUIC
+			owned_provinces = { "x37EF1E" "x43FA15" "x49E40C" "x5C6526" "x9F8504" "xA7C010" "xC4E511" "xC79609" "xDBED08" "xDF8C0E" }
+		}
+		create_state = {
+			country = c:COAT
+			owned_provinces = { "x37EE1E" "x4AD223" "x524B2F" "x52F010" "x80A602" "x839416" "xBF4632" "xBFDA13" "xC2C41D" "xC8781E" "xD27310" "xD9AD1B" "xDEDF13" "xE45611" "xE8C609" }
+		}
+	}
 	s:STATE_MIXISTLAN = {
 		create_state = {
 			country = c:POTO

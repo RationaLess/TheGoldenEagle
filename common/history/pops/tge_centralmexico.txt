@@ -177,6 +177,30 @@
 				size = 2000
 				}
 		}
+		region_state:METZ = {
+			create_pop = {
+				culture = otomi 
+				size = 20000
+				}
+			create_pop = {
+				culture = nahua
+				size = 8000
+				}
+			create_pop = {
+				culture = huastec
+				size = 4000
+				}
+		}
+		region_state:TCHI = {
+			create_pop = {
+				culture = otomi 
+				size = 26000
+				}
+			create_pop = {
+				culture = huastec
+				size = 8000
+				}
+		}
 	}
 	s:STATE_HUEXOTZINGO = {
 		region_state:HXZ = {
@@ -470,8 +494,6 @@
 				size = 10000
 				}
 		}
-	}
-	s:STATE_XILOTEPEC = {
 		region_state:XILO = {
 			create_pop = {
 				culture = otomi 
@@ -482,36 +504,6 @@
 				size = 3000
 				}
 		}
-	}
-	s:STATE_METZTITLAN = {
-		region_state:METZ = {
-			create_pop = {
-				culture = otomi 
-				size = 20000
-				}
-			create_pop = {
-				culture = nahua
-				size = 8000
-				}
-			create_pop = {
-				culture = huastec
-				size = 4000
-				}
-		}
-	}
-	s:STATE_TLACHICHILCO = {
-		region_state:TCHI = {
-			create_pop = {
-				culture = otomi 
-				size = 26000
-				}
-			create_pop = {
-				culture = huastec
-				size = 8000
-				}
-		}
-	}
-	s:STATE_XILAPAN = {
 		region_state:XILA = {
 			create_pop = {
 				culture = otomi 
@@ -522,6 +514,12 @@
 				size = 8000
 				}
 		}
+	}
+	s:STATE_METZTITLAN = {
+	}
+	s:STATE_TLACHICHILCO = {
+	}
+	s:STATE_XILAPAN = {
 	}
 	
 	

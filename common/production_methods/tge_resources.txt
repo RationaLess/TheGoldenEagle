@@ -25,3 +25,30 @@
 		}
 	}
 }
+
+pm_fishing = {
+	texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
+	disallowing_laws = {
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 51
+			goods_input_tools_add = 1
+			
+			
+			goods_output_fish_add = 8
+		}
+		
+		level_scaled = {
+			building_employment_freemen_add = 900
+		}
+		
+		unscaled = {
+		}
+	}
+}
