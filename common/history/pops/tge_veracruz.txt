@@ -174,7 +174,7 @@
 	}
 	
 	#Huastec
-	s:STATE_TUXPAN = {
+	s:STATE_HUASTECAPAN = {
 		region_state:TUXP = {
 			create_pop = {
 				culture = huastec

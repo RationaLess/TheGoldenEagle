@@ -71,7 +71,7 @@ pm_base_cocoa = {
 		workforce_scaled = { # 51
 			goods_input_tools_add = 1
 		
-			goods_output_cocoa_add = 2
+			goods_output_cocoa_add = 8
 		}
 		
 		level_scaled = {
@@ -92,7 +92,7 @@ pm_base_rubber = {
 		workforce_scaled = { # 51
 			goods_input_tools_add = 1
 		
-			goods_output_rubber_add = 2
+			goods_output_rubber_add = 8
 		}
 		
 		level_scaled = {

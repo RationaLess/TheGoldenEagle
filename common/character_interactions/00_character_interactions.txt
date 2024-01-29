@@ -568,7 +568,8 @@ exile_character = {
 			limit = {
 				has_ideology = ideology:ideology_moderate
 			}
-			adopt_random_antigovernment_ideology = yes
+			#adopt_random_antigovernment_ideology = yes
+			#TODO
 		}
 		hidden_effect = {
 			if = {
@@ -623,9 +624,8 @@ exile_character = {
 			limit = {
 				scope:actor ?= {
 					NOR = {
-						has_law = law_type:law_autocracy
-						has_law = law_type:law_oligarchy
-						has_law = law_type:law_single_party_state
+						has_law = law_type:law_unchecked_power
+						has_law = law_type:law_controlled_courts
 					}
 				}			
 			}
@@ -634,7 +634,7 @@ exile_character = {
 		if = {
 			limit = {
 				scope:actor ?= {
-					has_law = law_type:law_secret_police
+					has_law = law_type:law_unchecked_power
 				}			
 			}
 			add = 30
@@ -642,7 +642,7 @@ exile_character = {
 		if = {
 			limit = {
 				scope:actor ?= {
-					has_law = law_type:law_national_guard
+					has_law = law_type:law_controlled_courts
 				}			
 			}
 			add = 15
@@ -650,7 +650,7 @@ exile_character = {
 		if = {
 			limit = {
 				scope:actor ?= {
-					has_law = law_type:law_guaranteed_liberties
+					has_law = law_type:law_elective
 				}			
 			}
 			add = -100
@@ -658,7 +658,7 @@ exile_character = {
 		if = {
 			limit = {
 				scope:actor ?= {
-					has_law = law_type:law_outlawed_dissent
+					has_law = law_type:law_dynastic
 				}			
 			}
 			add = 30
@@ -666,7 +666,7 @@ exile_character = {
 		if = {
 			limit = {
 				scope:actor ?= {
-					has_law = law_type:law_censorship
+					has_law = law_type:law_strict
 				}			
 			}
 			add = 10
@@ -674,7 +674,7 @@ exile_character = {
 		if = {
 			limit = {
 				scope:actor ?= {
-					has_law = law_type:law_right_of_assembly
+					has_law = law_type:law_meritocratic
 				}			
 			}
 			add = -10
@@ -682,7 +682,7 @@ exile_character = {
 		if = {
 			limit = {
 				scope:actor ?= {
-					has_law = law_type:law_protected_speech
+					has_law = law_type:law_juidicial_autonomy
 				}			
 			}
 			add = -20

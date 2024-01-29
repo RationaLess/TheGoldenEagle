@@ -11,13 +11,14 @@ pm_urban_sprawl = {
 	country_modifiers = {
 	
 		workforce_scaled = {
-		country_empire_sprawl_capacity_add = 50
+		country_empire_sprawl_capacity_add = 25
 		}
 	
 	}
 	
 	state_modifiers = {
 		level_scaled = {
+		state_accepted_birth_rate_mult = 0.005
 		state_minor_settlement_modifier = -1
 		state_infrastructure_add = 20
 		}
@@ -96,7 +97,7 @@ pm_limited_social_housing = {
 		}
 
 		level_scaled = {
-		goods_input_wood_add = 1
+		goods_input_wood_add = 0.25
 		}
 		
 		unscaled = {
@@ -118,8 +119,8 @@ pm_advanced_social_housing = {
 		}
 
 		level_scaled = {
-		goods_input_wood_add = 1
-		goods_input_furniture_add = 1
+		goods_input_wood_add = 0.5
+		goods_input_furniture_add = 0.25
 		}
 		
 		unscaled = {
@@ -143,8 +144,8 @@ pm_luxury_social_housing = {
 
 		level_scaled = {
 		goods_input_wood_add = 1
-		goods_input_furniture_add = 1
-		goods_input_fine_art_add = 1
+		goods_input_furniture_add = 0.5
+		goods_input_fine_art_add = 0.25
 		}
 		
 		unscaled = {
@@ -184,7 +185,7 @@ pm_religious_learning = {
 		
 
 		level_scaled = {
-			goods_input_worship_add = 1
+			goods_input_worship_add = 0.25
 		
 			building_employment_priests_add = 25
 		}
@@ -212,7 +213,7 @@ pm_royal_universities = {
 		
 
 		level_scaled = {
-			goods_input_worship_add = 2
+			goods_input_worship_add = 0.5
 		
 			building_employment_scholars_add = 25
 		}
@@ -240,8 +241,8 @@ pm_public_universities = {
 		
 
 		level_scaled = {
-			goods_input_worship_add = 3
-			goods_input_tools_add = 1
+			goods_input_worship_add = 1
+			goods_input_tools_add = 0.5
 		
 			building_employment_scholars_add = 25
 		}

@@ -9,4 +9,15 @@ region_sea = {
 	states = { STATE_1_SEA }
 	}
 
+
+region_sea_gulf_of_mexico = {
+
+	states = { STATE_SEA_GULF_OF_MEXICO }
+	}
+
+region_mesoamerican_pacific = {
+
+	states = { STATE_STEA_MESOAMERICAN_PACIFIC }
+	}
+
 #####################

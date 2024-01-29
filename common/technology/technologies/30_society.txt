@@ -90,6 +90,7 @@ cosmology = {
 	
 	
 	modifier = {
+		building_temple_throughput_add = 0.2
 		}
 	
 	unlocking_technologies = {
@@ -247,6 +248,7 @@ syncretism = {
 	
 	
 	modifier = {
+		building_temple_throughput_add = 0.2
 		}
 	
 	unlocking_technologies = {
@@ -262,6 +264,7 @@ theocracy = {
 	
 	
 	modifier = {
+		building_temple_throughput_add = 0.2
 		}
 	
 	unlocking_technologies = {
@@ -367,6 +370,7 @@ missionaries = {
 	
 	
 	modifier = {
+		building_temple_throughput_add = 0.2
 		}
 	
 	unlocking_technologies = {
@@ -471,6 +475,7 @@ philosophy = {
 	
 	
 	modifier = {
+		building_temple_throughput_add = 0.2
 		}
 	
 	unlocking_technologies = {

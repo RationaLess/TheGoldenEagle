@@ -78,7 +78,7 @@
  ###STRUGGLES###
  je_matters_of_texcoco:"Matters of Texcoco"
  je_matters_of_texcoco_reason:"This [concept_struggle] represents the waning power of the Tepanec over Texcoco. The progress bar is influenced by the [concept_cultural_influence] of participants multiplied by their population. The #bold Progress Bar#! reaching 0 will establish the dominance of the Nahua, while reaching 100 will reinforce Tepanec authority in the region.\nLast month the bar changed by  #V [GetGlobalVariable('texcoco_struggle_bar_change').GetValue] Points #!."
- je_matters_of_texcoco_confederate:"[ROOT.GetCountry.GetName] has confederated with another country"
+ #je_matters_of_texcoco_confederate:"[ROOT.GetCountry.GetName] has confederated with another country"
  je_matters_of_texcoco_status_growing:"Tepanec influence is growing"
  je_matters_of_texcoco_status_fading:"Tepanec influence is fading"
  je_matters_of_texcoco_status_tepanec:"Tepanec influence is strong"

@@ -24,7 +24,7 @@ STATE_WEST_TEXCOCO = {
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
         bg_mudbrick_furnacing = 6
-        bg_logging = 10
+        bg_logging = 15
         bg_fishing = 8
     }
 
@@ -43,7 +43,7 @@ STATE_EAST_TEXCOCO = {
     capped_resources = {
         bg_logging = 12
         bg_fishing = 7
-        bg_mudbrick_furnacing = 3
+        bg_mudbrick_furnacing = 6
     }
 }
 
@@ -81,7 +81,7 @@ STATE_XOCHIMILCO = {
     arable_land = 22
     arable_resources = { "bg_chinampas" }
     capped_resources = {
-        bg_mudbrick_furnacing = 3
+        bg_mudbrick_furnacing = 4
         bg_logging = 9
         bg_fishing = 3
     }
@@ -113,7 +113,7 @@ STATE_NORTH_TEXCOCO = {
     arable_land = 29
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
-        bg_obsidian_mining = 3
+        bg_obsidian_mining = 9
         bg_logging = 20
         bg_fishing = 9
     }
@@ -129,7 +129,7 @@ STATE_OTOMPAN = {
 
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
-        bg_logging = 12
+        bg_logging = 32
     }
 }
 
@@ -281,8 +281,8 @@ STATE_TULANCINGO = {
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
         bg_logging = 15
-        bg_obsidian_mining = 3
-        bg_limestone_mining = 3
+        bg_obsidian_mining = 9
+        bg_limestone_mining = 5
     }
 }
 
@@ -292,7 +292,7 @@ STATE_HUAXTEPEC = {
     provinces = { "x4C7506" "x653317" "x657B29" "x67831F" "x6ED707" "xAEC70E" "xAEDB1E" "xB6EB2A" "xD8D904" }
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
-        bg_logging = 8
+        bg_logging = 15
     }
 }
 
@@ -302,7 +302,7 @@ STATE_TLALTIZAPAN = {
     provinces = {}
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
-        bg_logging = 8
+        bg_logging = 15
     }
 }
 
@@ -311,7 +311,7 @@ STATE_CHOLLOLAN = {
     provinces = { "x495431" "x603404" "x67430E" "x689B0C" "x69752F" "x6D8709" "x7ACE09" "xAD6420" "xBFD618" "xE48A19" }
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
-        bg_logging = 9
+        bg_logging = 15
     }
 }
 
@@ -326,8 +326,6 @@ STATE_TEPEACA = {
 
     capped_resources = {
         bg_limestone_mining = 6
-    }
-    capped_resources = {
         bg_logging = 18
     }
 }

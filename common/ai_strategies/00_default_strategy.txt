@@ -297,11 +297,11 @@ ai_strategy_default = {
 				limit = {
 					OR = {						
 						has_attitude = {
-							who = scope:subject
+							who = scope:target_country
 							attitude = protective
 						}
 						has_attitude = {
-							who = scope:subject
+							who = scope:target_country
 							attitude = domineering
 						}							
 					}
@@ -310,7 +310,7 @@ ai_strategy_default = {
 				value = 50
 			
 				add = {
-					value = scope:subject.gdp
+					value = scope:target_country.gdp
 					divide = 200000
 					max = 50						
 				}
@@ -319,7 +319,7 @@ ai_strategy_default = {
 			if = {
 				limit = {
 					has_secret_goal = {
-						who = scope:subject
+						who = scope:target_country
 						secret_goal = protect
 					}						
 				}
@@ -329,7 +329,7 @@ ai_strategy_default = {
 			
 			if = {
 				limit = {
-					NOT = { has_strategic_adjacency = scope:subject }
+					NOT = { has_strategic_adjacency = scope:target_country }
 				}
 				multiply = 0.5
 			}
@@ -573,7 +573,7 @@ ai_strategy_default = {
 			limit = {
 				has_law = law_type:law_bellicose
 			}
-			add = 25
+			add = 100
 		}
 		
 		
@@ -1206,7 +1206,12 @@ ai_strategy_default = {
 				min = 0.25
 				max = 2.0
 			}	
-
+			
+			if = {
+				limit = { scope:target_country = { has_law = law_type:law_bellicose }
+				multiply = 5
+			}
+			
 			if = {
 				limit = { scope:target_country = { has_modifier = declared_bankruptcy } }
 				multiply = 2.0
@@ -1344,17 +1349,6 @@ ai_strategy_default = {
 				add = 25
 			}
 			
-			if = {
-				limit = {
-					OR = {
-						has_journal_entry = je_sick_man_syria
-						has_journal_entry = je_veiled_protectorate
-					}
-					exists = c:EGY
-					scope:target_country = c:EGY
-				}
-				add = 200
-			}
 			
 			multiply = {
 				value = "ai_ideological_opinion(scope:target_country)"
@@ -2002,10 +1996,11 @@ ai_strategy_default = {
 			add = 1000
 			if = {
 				limit = {
-					has_secret_goal = {
-						who = scope:target_country
-						secret_goal = dominate
-					}	
+					always = yes
+					#has_secret_goal = {
+					#	who = scope:target_country
+					#	secret_goal = dominate
+					#}	
 				}
 			
 				add = {

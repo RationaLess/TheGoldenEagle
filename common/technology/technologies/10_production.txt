@@ -234,7 +234,8 @@ basic_metallurgy = {
 	category = production
 
 	unlocking_technologies = {
-		guild_development
+		obsidian_working
+		jewelries
 	}
 }
 

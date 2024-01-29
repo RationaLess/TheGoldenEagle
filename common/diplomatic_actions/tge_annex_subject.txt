@@ -44,34 +44,18 @@
 		}
 	
 		will_propose = {
-			scope:target_country.relations:root >= relations_threshold:cordial
 			
-			OR = {
-				AND = {
-					country_rank >= rank_value:great_power
-					scope:target_country = { infamy >= infamy_threshold:pariah }					
+			set_variable = {
+				name = diplo_comparison
+				value = {
+					value = scope:target_country.total_population 
+					divide = 100000
+					}
 				}
-				AND = {
-					OR = {
-						has_attitude = {
-							who = scope:target_country
-							attitude = domineering
-						}	
-						has_attitude = {
-							who = scope:target_country
-							attitude = belligerent
-						}			
-					}	
-					scope:target_country.relations:root >= relations_threshold:cordial
-					infamy < infamy_threshold:infamous
-					OR = {
-						influence < 200 # Not enough to damage relations normally	
-						scope:target_country = { # They are countering damage relations with improve relations
-							has_diplomatic_pact = { who = root type = increase_relations }
-						}
-					}							
-				}
-			}
+			
+			bureaucracy >= diplo_comparison
+			
+			
 		}
 	}
 }

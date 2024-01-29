@@ -65,10 +65,10 @@ subject_management.1 = {
 					}
 				}
 	
-	#10 Years of Peace
+	#20 Years of Peace
 		create_truce = {
 				country = scope:protectorate_to_change
-				months = 120
+				months = 240
 			}
 	}
 	

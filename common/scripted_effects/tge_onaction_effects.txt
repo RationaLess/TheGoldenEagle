@@ -12,6 +12,13 @@
 
 
 	}
+	
+onaction_imperial_copilot = {
+	
+	
+
+	
+	}
 
 
 onaction_empire_sprawl_calc = {

@@ -166,7 +166,7 @@ tax_modifier_very_low = {
 		
 		tax_consumption_add = 0.20
 		tax_per_capita_add = 0.1
-		tax_dividends_add = 0.05
+		tax_dividends_add = 0.03 
 			
 		
 }	
@@ -179,13 +179,13 @@ tax_modifier_low = {
 			
 		tax_consumption_add = 0.275
 		tax_per_capita_add = 0.2
-		tax_dividends_add = 0.075
+		tax_dividends_add = 0.04
 }
 	
 tax_modifier_medium = {
 		tax_consumption_add = 0.35
 		tax_per_capita_add = 0.3
-		tax_dividends_add = 0.1
+		tax_dividends_add = 0.05
 }	
 	
 tax_modifier_high = {
@@ -195,7 +195,7 @@ tax_modifier_high = {
 
 		tax_consumption_add = 0.425
 		tax_per_capita_add = 0.4
-		tax_dividends_add = 0.125
+		tax_dividends_add = 0.075
 }
 	
 tax_modifier_very_high = {
@@ -205,7 +205,7 @@ tax_modifier_very_high = {
 		
 		tax_consumption_add = 0.5
 		tax_per_capita_add = 0.5
-		tax_dividends_add = 0.15
+		tax_dividends_add = 0.1
 }	
 
 unincorporated_state = {

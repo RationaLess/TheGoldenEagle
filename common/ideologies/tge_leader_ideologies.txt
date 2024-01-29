@@ -253,15 +253,15 @@ ideology_leader_empathetic = {
 		
 		add = 25
 		}
-		if = {
-			limit = {
-				owner = {
-				has_law = law_type:law_forced_conversion
-				}
-			}
-		
-		add = 25
-			}
+		#if = {
+		#	limit = {
+		#		owner = {
+		#		has_law = law_type:law_forced_conversion
+		#		}
+		#	}
+		#
+		#add = 25
+		#	}
 		#Agtators should be extra likely to have this
 		if = {
 			limit = {

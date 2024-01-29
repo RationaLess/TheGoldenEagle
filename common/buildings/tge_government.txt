@@ -16,6 +16,8 @@ building_temple = {
 	texture = "gfx/interface/icons/building_icons/temple.dds"
 
 	required_construction = 8000
+
+	ai_weight = 1000
 }
 
 building_ball_court = {
@@ -38,6 +40,8 @@ building_ball_court = {
 	urbanization = 100
 	
 	required_construction = 8000
+
+	ai_weight = 500
 }
 
 #building_royal_palace = {

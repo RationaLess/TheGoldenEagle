@@ -14,7 +14,7 @@ law_informal_government = {
 		country_legitimacy_headofstate_add = 40
 		
 		country_bureaucracy_mult = -0.5
-		country_law_enactment_time_mult = -0.75
+		country_law_enactment_time_mult = -0.3
 		state_tax_waste_add = 0.5
 		country_chiefs_pol_str_mult = 1
 		country_nobles_pol_str_mult = 0.5
@@ -35,7 +35,7 @@ law_assembly_government = {
 	
 		
 		country_bureaucracy_mult = -0.25
-		country_law_enactment_time_mult = -0.5
+		country_law_enactment_time_mult = -0.15
 		state_tax_waste_add = 0.4
 		country_chiefs_pol_str_mult = 0.5
 		country_nobles_pol_str_mult = 0.75
@@ -55,7 +55,7 @@ law_court_government = {
 		country_legitimacy_govt_total_clout_add = 10
 		country_legitimacy_headofstate_add = 20
 	
-		country_bureaucracy_add = 100
+		country_empire_sprawl_capacity_mult = 0.1
 		country_law_enactment_time_mult = -0.25
 		state_tax_waste_add = 0.2
 		country_priests_pol_str_mult = 0.25
@@ -78,10 +78,9 @@ law_dedicated_government = {
 		country_legitimacy_headofstate_add = 10
 	
 	
-		country_bureaucracy_add = 200
-		country_prestige_add = 50
+		country_empire_sprawl_capacity_mult = 0.3
 		country_bureaucracy_mult = 0.25
-		country_law_enactment_time_mult = 0.25
+		country_law_enactment_time_mult = 0.15
 		country_nobles_pol_str_mult = 0.25
 	}
 	
@@ -99,11 +98,9 @@ law_bureaucratic_government = {
 	
 	modifier = {
 		country_legitimacy_govt_total_clout_add = 30
-		
-		country_bureaucracy_add = 300
-		country_prestige_add = 50
+		country_empire_sprawl_capacity_mult = 0.5
 		country_bureaucracy_mult = 0.5
-		country_law_enactment_time_mult = 0.5
+		country_law_enactment_time_mult = 0.3
 		country_bureaucrats_pol_str_mult = 0.25
 	}
 	

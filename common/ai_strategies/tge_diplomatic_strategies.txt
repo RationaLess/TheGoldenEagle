@@ -78,7 +78,53 @@ ai_strategy_royal_affairs = {
 		protect = 0.5
 		conquer = 1.5
 	}
-
+	
+	secret_goal_scores = {
+		
+		#Imperialists heavily treathen the old order
+		dominate = {	
+			if = {
+				limit = {
+					has_strategic_adjacency = scope:target_country
+					scope:target_country = { has_law = law_type:law_bellicose }
+				}
+				add = 500
+				
+				if = {
+					limit = {
+						scope:target_country = { infamy > 30 }
+					}
+					add = 500
+				}
+			}	
+		}
+		
+		#Kingdoms should generally like other kingdoms
+		befriend = {		
+			if = {
+				limit = {
+					scope:target_country = { 
+						OR = {
+							has_law = law_type:law_monarchy 
+							has_law = law_type:law_dynastic
+						}
+					}
+				}
+				add = 200
+			}	
+		}
+		#Should care deeply about same-culture tags thriving
+		protect = {
+			if = {
+				limit = {
+					scope:target_country = { has_primary_culture = root.random_primary_culture }
+				}
+				add = 200
+			}	
+		}
+	}
+	
+	
 	wargoal_weights = {
 		protectorate = 5.0
 		conquer_state = 1.5
@@ -86,11 +132,34 @@ ai_strategy_royal_affairs = {
 	}	
 		
 	possible = {
-		always = yes
+		OR = {
+			has_law = law_type:law_monarchy
+			has_law = law_type:law_city_state
+		}
+		NOT = {
+			has_law = law_type:law_bellicose
+		}
 	}
 
 	weight = {
 		value = 0
+		
+		if = {
+			limit = { has_law = law_type:law_monarchy }
+			add = 100
+		}
+		if = {
+			limit = { has_law = law_type:law_neutral }
+			add = 100
+		}
+		if = {
+			limit = {
+				country_rank >= rank_value:major_power
+				has_law = law_type:law_court_government
+				}
+			add = 100
+		}
+		
 
 	}
 }
@@ -332,7 +401,7 @@ ai_strategy_imperial_ambitions = {
 				limit = {
 					can_reach_target_country = yes
 					has_strategic_adjacency = scope:target_country
-					scope:target_country.country_rank <= root.country_rank
+					#scope:target_country.country_rank <= root.country_rank
 				}
 				add = 1000
 			}
@@ -342,7 +411,7 @@ ai_strategy_imperial_ambitions = {
 				limit = {
 					can_reach_target_country = yes
 					has_strategic_adjacency = scope:target_country
-					scope:target_country.country_rank <= root.country_rank
+					#scope:target_country.country_rank <= root.country_rank
 				}
 			add = 1000
 			}

@@ -17,6 +17,9 @@ on_monthly_pulse_country = {
 		onaction_empire_sprawl_calc = yes
 		onaction_cultural_influence_calc = yes
 		onaction_protectorate_check = yes
+		
+		
+		
 	}
 	# Election Events
 	random_events = {
@@ -76,6 +79,86 @@ on_yearly_pulse_country = {
 			}
 			1 = { }
 		}
+		
+		
+		#Imperial Copilot
+			IF = {
+				limit = {
+					has_law = law_type:law_bellicose
+					
+					is_diplomatic_play_initiator = no
+					is_diplomatic_play_committed_participant = no
+					is_diplomatic_play_target = no
+					
+					is_independent = yes
+					is_ai = yes
+					is_at_war = no
+					
+					NOT = {
+						scaled_debt > 0.25
+						bureaucracy < 0
+						}
+					OR = {
+						infamy < 100
+						var:var_empire_sprawl > 0
+						}
+					OR = {
+						has_journal_entry = je_kindling_the_empire
+						has_strategy = ai_strategy_imperial_ambitions
+						}
+					#Valid country exists 
+					any_country = {
+							is_diplomatic_play_committed_participant = no
+							is_ai = yes
+							is_adjacent_to_country = ROOT
+							country_rank < rank_value:major_power
+							NOT = {
+								is_country_type = decentralized
+								is_subject_of = ROOT
+								is_diplomatic_play_enemy_of = root
+								has_truce_with = ROOT
+								}
+							exists = yes
+						}
+					
+					}
+					
+					effect = {
+					
+					change_infamy = 1
+					random_country = {
+						limit = {
+							is_diplomatic_play_committed_participant = no
+							is_ai = yes
+							is_adjacent_to_country = ROOT
+							country_rank < rank_value:major_power
+							NOT = {
+								is_country_type = decentralized
+								is_subject_of = ROOT
+								is_diplomatic_play_enemy_of = root
+								has_truce_with = ROOT
+								}
+							}
+							save_scope_as = imperial_copilot_target
+						}
+					create_diplomatic_play = {
+							type = dp_invasion
+							target_country = scope:imperial_copilot_target
+							
+							add_war_goal = {
+								holder = scope:imperial_copilot_target
+								type = make_protectorate
+								target = ROOT
+							}	
+						}
+					
+					}
+			}
+		
+		
+		
+		
+		
 	}
 	random_events = {
 		150 = 0

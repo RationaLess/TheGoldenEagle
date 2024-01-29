@@ -1,0 +1,38 @@
+﻿l_english:
+ building_temple:"Temple"
+ building_temple_lens_option:"Expand $building_temple$"
+ building_clothing_workshop:"Clothing Workshop"
+ building_clothing_workshop_lens_option:"Expand $building_clothing_workshop$"
+ building_furniture_workshop:"Furniture Workshop"
+ building_furniture_workshop_lens_option:"Expand $building_furniture_workshop$"
+ building_tooling_workshop:"Tooling Workshop"
+ building_tooling_workshop_lens_option:"Expand $building_tooling_workshop$"
+ building_pottery:"Pottery Workshop"
+ building_pottery_lens_option:"Expand $building_pottery$"
+ building_jewelry:"Jewelry Workshop"
+ building_jewelry_lens_option:"Expand $building_jewelry$"
+ 
+ building_fishing_village:"Fishing Village"
+ building_fishing_village_lens_option:"Expand $building_fishing_village$"
+ building_mudbrick_furnace:"Mudbrick Furnaces"
+ building_mudbrick_furnace_lens_option:"Expand $building_mudbrick_furnace$"
+ 
+ 
+ building_cotton_farm:"Cotton Farms"
+ building_cotton_farm_lens_option:"Expand $building_cotton_farm$"
+ building_cocoa_harvestry:"Cocoa Fields"
+ building_cocoa_harvestry_lens_option:"Expand $building_cocoa_harvestry$"
+ building_rubber_harvestry:"Rubber Fields"
+ building_rubber_harvestry_lens_option:"Expand $building_rubber_harvestry$"
+ 
+ 
+ building_minor_settlements:"Minor Settlements"
+ building_minor_settlements_lens_option:"Expand $building_minor_settlements$"
+ 
+ 
+ building_gathering_grounds:"Gathering Grounds"
+ building_gathering_grounds_feathers:"Gathering Grounds"
+ building_gathering_grounds_animal_skin:"Gathering Grounds"
+ building_gathering_grounds_marine_goods:"Gathering Grounds"
+ 
+ 

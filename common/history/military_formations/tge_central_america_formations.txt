@@ -560,4 +560,221 @@
 			}
 		}
 		
+		
+		#Oaxaca
+		c:YDZ = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_TUTUTEPEC
+					count = 20
+				}
+				combat_unit = {
+					type = unit_type:combat_unit_type_archers
+					state_region = s:STATE_TUTUTEPEC
+					count = 10
+				}
+			}
+		}
+		c:ZAA = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_ZAACHILA
+					count = 15
+				}
+				combat_unit = {
+					type = unit_type:combat_unit_type_archers
+					state_region = s:STATE_ZAACHILA
+					count = 10
+				}
+			}
+		}
+		c:AMUZ = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_COASTAL_MIXTECA
+					count = 3
+				}
+			}
+		}
+		c:TLAP = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_COASTAL_MIXTECA
+					count = 3
+				}
+			}
+		}
+		c:YOPI = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_COASTAL_MIXTECA
+					count = 3
+				}
+			}
+		}
+		c:TPCC = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_MIXTECA_ALTA
+					count = 2
+				}
+			}
+		}
+		c:JUXT = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_MIXTECA_ALTA
+					count = 2
+				}
+			}
+		}
+		c:TRIQ = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_MIXTECA_ALTA
+					count = 3
+				}
+			}
+		}
+		c:YCH = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_MIXTECA_ALTA
+					count = 2
+				}
+			}
+		}
+		c:DIQ = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_MIXTECA_ALTA
+					count = 2
+				}
+			}
+		}
+		c:NDC = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_MIXTECA_BAJA
+					count = 2
+				}
+			}
+		}
+		c:NOX = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_MIXTECA_BAJA
+					count = 2
+				}
+			}
+		}
+		c:TIL = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_MIXTECA_BAJA
+					count = 4
+				}
+			}
+		}
+		c:COX = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_MIXTECA_BAJA
+					count = 2
+				}
+			}
+		}
+		c:TLAT = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_MIXTECA_BAJA
+					count = 2
+				}
+			}
+		}
+		c:HUAV = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_MITLA
+					count = 2
+				}
+			}
+		}
+		c:POCH = {
+			create_military_formation = {
+				type = army
+				hq_region = sr:region_huaxyacac
+	
+				combat_unit = {
+					type = unit_type:combat_unit_type_warriors
+					state_region = s:STATE_MITLA
+					count = 2
+				}
+			}
+		}
+		
 	}

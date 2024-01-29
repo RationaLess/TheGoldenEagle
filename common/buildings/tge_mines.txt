@@ -40,7 +40,7 @@ building_limestone_mine = {
 	levels_per_mesh = 5
 	terrain_manipulator = mining
 	unlocking_technologies = {
-		limestone_working
+		quarrying
 	}
 
 	production_method_groups = {
@@ -91,7 +91,7 @@ building_mudbrick_furnace = {
 	levels_per_mesh = 5
 	terrain_manipulator = mining
 	unlocking_technologies = {
-		mudbrick_working
+		architecture
 	}
 
 	production_method_groups = {

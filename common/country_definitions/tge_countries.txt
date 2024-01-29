@@ -477,12 +477,14 @@ capital = STATE_TLALTIZAPAN
 
 
 
-TARA = { #Tlacotepec
+TARA = { #Tarascan Empire 
 color = rgb { 14 84 19 }
 tier = empire
 country_type = recognized
 cultures = { purepecha }
 capital = STATE_TZINTZUNTZAN
+
+country_type = decentralized
 } 
 
 
@@ -495,6 +497,8 @@ tier = duchy
 country_type = recognized
 cultures = { nahua }
 capital = STATE_TLACOTEPEC
+
+country_type = decentralized
 } 
 NOCH = { #nochtepec
 color = rgb { 176 102 219 }
@@ -502,6 +506,8 @@ tier = duchy
 country_type = recognized
 cultures = { nahua }
 capital = STATE_NOCHTEPEC
+
+country_type = decentralized
 } 
 TPCC = { #Tepecoacuilco
 color = rgb { 170 102 204 }
@@ -520,6 +526,8 @@ tier = duchy
 country_type = recognized
 cultures = { nahua }
 capital = STATE_TECOMAN
+
+country_type = decentralized
 } 
 TANC = { #Tancitaro
 
@@ -528,6 +536,8 @@ tier = duchy
 country_type = recognized
 cultures = { nahua }
 capital = STATE_TANCITARO
+
+country_type = decentralized
 } 
 TCTZ = { #Tacatzucaro
 color = rgb { 192 105 209 }
@@ -535,6 +545,8 @@ tier = duchy
 country_type = recognized
 cultures = { nahua }
 capital = STATE_TACATZUCARO
+
+country_type = decentralized
 } 
 URUA = { #Uruapan
 color = rgb { 166 77 255 }
@@ -542,6 +554,8 @@ tier = duchy
 country_type = recognized
 cultures = { nahua }
 capital = STATE_URUAPAN
+
+country_type = decentralized
 } 
 COAH = { #Coahuayutla
 color = rgb { 238 153 255 }
@@ -549,6 +563,8 @@ tier = duchy
 country_type = recognized
 cultures = { nahua }
 capital = STATE_COAHUAYUTLA
+
+country_type = decentralized
 } 
 HUAN = { #Huanimaro
 color = rgb { 222 127 95 }
@@ -556,6 +572,8 @@ tier = duchy
 country_type = recognized
 cultures = { nahua }
 capital = STATE_HUANIMARO
+
+country_type = decentralized
 } 
 MARA = { #Maravatio
 color = rgb { 217 126 164 }
@@ -563,6 +581,8 @@ tier = duchy
 country_type = recognized
 cultures = { nahua }
 capital = STATE_MARAVATIO
+
+country_type = decentralized
 } 
 
 #Cuitlaltec
@@ -574,6 +594,8 @@ tier = duchy
 country_type = recognized
 cultures = { cuitlaltec }
 capital = STATE_ACAPOLCO
+
+country_type = decentralized
 } 
 TXTL = { #Tixtla
 color = rgb { 120 122 235 }
@@ -581,6 +603,8 @@ tier = duchy
 country_type = recognized
 cultures = { cuitlaltec }
 capital = STATE_TIXTLA
+
+country_type = decentralized
 } 
 AYOT = { #Ayotac
 color = rgb { 99 102 242 }
@@ -588,6 +612,8 @@ tier = duchy
 country_type = recognized
 cultures = { cuitlaltec }
 capital = STATE_TIXTLA
+
+country_type = decentralized
 }
 NCHI = { #Nochistlan
 color = rgb { 53 56 204 }
@@ -595,6 +621,8 @@ tier = duchy
 country_type = recognized
 cultures = { cuitlaltec }
 capital = STATE_NOCHISTLAN
+
+country_type = decentralized
 } 
 IXTP = { #ixtapa
 color = rgb { 88 90 219 }
@@ -602,6 +630,8 @@ tier = duchy
 country_type = recognized
 cultures = { cuitlaltec }
 capital = STATE_IXTAPA
+
+country_type = decentralized
 } 
 
 #matlatzinca
@@ -611,6 +641,8 @@ tier = duchy
 country_type = recognized
 cultures = { matlatzinca }
 capital = STATE_CUTZAMALA
+
+country_type = decentralized
 } 
 TOLU = { #Toluca
 color = rgb { 204 181 122 }
@@ -717,6 +749,8 @@ tier = duchy
 country_type = recognized
 cultures = { zoque }
 capital = STATE_COATZACOALCO
+
+country_type = decentralized
 }
 PTHU = { #Pontehuitz
 color = rgb { 106 47 130}
@@ -724,6 +758,8 @@ tier = duchy
 country_type = recognized
 cultures = { zoque }
 capital = STATE_COATZACOALCO
+
+country_type = decentralized
 }
 HUVE = { #Huave
 color = rgb { 112 71 173 }
@@ -731,6 +767,8 @@ tier = duchy
 country_type = recognized
 cultures = { zoque }
 capital = STATE_COATZACOALCO
+
+country_type = decentralized
 }
 MAPA = { #mapastepec
 color = rgb {88 163 142 }
@@ -738,6 +776,8 @@ tier = duchy
 country_type = recognized
 cultures = { zoque }
 capital = STATE_CHIAPAS
+
+country_type = decentralized
 }
 TACH = { #Tapachula
 color = rgb { 207 215 232}
@@ -745,6 +785,8 @@ tier = duchy
 country_type = recognized
 cultures = { zoque }
 capital = STATE_CHIAPAS
+
+country_type = decentralized
 }
 
 
@@ -756,6 +798,8 @@ tier = duchy
 country_type = recognized
 cultures = { putun }
 capital = STATE_MIXISTLAN
+
+country_type = decentralized
 } 
 XICA = { #xicalango
 color = rgb { 115 171 63 }
@@ -763,6 +807,8 @@ tier = duchy
 country_type = recognized
 cultures = { putun }
 capital = STATE_XICALANGO
+
+country_type = decentralized
 } 
 ACAL = { #Acalan
 color = rgb { 194 219 112}
@@ -770,6 +816,8 @@ tier = duchy
 country_type = recognized
 cultures = { putun }
 capital = STATE_XICALANGO
+
+country_type = decentralized
 }
 
 PALE = { #palenque
@@ -778,6 +826,8 @@ tier = duchy
 country_type = recognized
 cultures = { putun }
 capital = STATE_MIXISTLAN
+
+country_type = decentralized
 } 
 
 TIXC = { #Tixchel
@@ -786,6 +836,8 @@ tier = duchy
 country_type = recognized
 cultures = { putun }
 capital = STATE_CAMPECHE
+
+country_type = decentralized
 }
 
 ITZK = { #Itzamkanac
@@ -794,6 +846,8 @@ tier = duchy
 country_type = recognized
 cultures = { putun }
 capital = STATE_MIXISTLAN
+
+country_type = decentralized
 } 
 ACAL = { #acalan
 color = rgb { 175 199 153 }
@@ -801,13 +855,17 @@ tier = duchy
 country_type = recognized
 cultures = { putun }
 capital = STATE_MIXISTLAN
+
+country_type = decentralized
 } 
 CHKA = { #Chakan Putun
-color = rgb { 176 209 105}
+color = rgb { 176 209 105 }
 tier = duchy
 country_type = recognized
 cultures = { yucatec }
 capital = STATE_YUCATAN
+
+country_type = decentralized
 } 
 KAPO = { #Kaan Poch
 color = rgb { 185 186 117 }
@@ -815,6 +873,8 @@ tier = duchy
 country_type = recognized
 cultures = { yucatec }
 capital = STATE_YUCATAN
+
+country_type = decentralized
 } 
 MAYP = { #Mayapan
 color = rgb {255 226 61 }
@@ -822,6 +882,8 @@ tier = kingdom
 country_type = recognized
 cultures = { yucatec }
 capital = STATE_YUCATAN
+
+country_type = decentralized
 } 
 AHCA = { #Ah Canul
 color = rgb { 216 230 99 }
@@ -829,6 +891,8 @@ tier = duchy
 country_type = recognized
 cultures = { yucatec }
 capital = STATE_YUCATAN
+
+country_type = decentralized
 } 
 CHAK = { #Chakan
 color = rgb { 222 185 62 }
@@ -836,6 +900,8 @@ tier = duchy
 country_type = recognized
 cultures = { yucatec }
 capital = STATE_YUCATAN
+
+country_type = decentralized
 } 
 CEHP = { #Ceh Pech
 color = rgb { 200 222 155 }
@@ -843,6 +909,8 @@ tier = duchy
 country_type = recognized
 cultures = { yucatec }
 capital = STATE_YUCATAN
+
+country_type = decentralized
 } 
 HOCA = { #Hocaba
 color = rgb { 165  199  103 }
@@ -850,6 +918,8 @@ tier = duchy
 country_type = recognized
 cultures = { yucatec }
 capital = STATE_YUCATAN
+
+country_type = decentralized
 } 
 AKCH = { #Ah Kin Chel
 color = rgb { 228  232  153}
@@ -857,6 +927,8 @@ tier = duchy
 country_type = recognized
 cultures = { yucatec }
 capital = STATE_YUCATAN
+
+country_type = decentralized
 } 
 CHIK = { #Chikinchel
 color = rgb { 190 222 126 }
@@ -864,6 +936,8 @@ tier = duchy
 country_type = recognized
 cultures = { yucatec }
 capital = STATE_YUCATAN
+
+country_type = decentralized
 } 
 KUPU = { #Kupul
 color = rgb { 134 191 88 }
@@ -871,6 +945,8 @@ tier = duchy
 country_type = recognized
 cultures = { yucatec }
 capital = STATE_YUCATAN
+
+country_type = decentralized
 } 
 COCO = { #Cocom
 color = rgb { 103 161 144 }
@@ -878,4 +954,6 @@ tier = duchy
 country_type = recognized
 cultures = { yucatec }
 capital = STATE_YUCATAN
+
+country_type = decentralized
 } 

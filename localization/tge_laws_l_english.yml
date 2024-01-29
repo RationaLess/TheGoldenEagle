@@ -87,8 +87,8 @@
   
  law_dynastic:0 "Dynastic"
  law_dynastic_desc:0 "The realm is governed largely through dynastic politics, where royal families and prominent courtiers have the biggest sway on political affairs."
- law_meritocratic:0 "Meritocratic"
- law_meritocratic_desc:0 "Men of status and knowledge who manage to successfuly inhabit positions of power within our polity are recognizes as the most fit to rule in our polity."
+ #law_meritocratic:0 "Meritocratic"
+ #law_meritocratic_desc:0 "Men of status and knowledge who manage to successfuly inhabit positions of power within our polity are recognizes as the most fit to rule in our polity."
  law_feudal:0 "Feudal"
  law_feudal_desc:0 "The polity is organized in a top-down structure where sectors of the realm are responsible for managing smaller sectors, all answering to the ruling body."
  law_elective:0 "Elective"
@@ -140,7 +140,12 @@
  lawgroup_military_reforms:0 "Military Reforms"
  lawgroup_military_reforms_desc:0 "This law group determines the organization of the military."
  
+ law_no_standing_army:0 "No Standing Army"
+ law_no_standing_army_desc:0 "There is no formal army in our nation; all of our warriors are levied in times of need."
  law_warrior_guilds:0 "Warrior Guilds"
+ law_warrior_guilds_desc:0 "Our fighters will host their own guilds during peacetime, earning them great renown."
+ law_military_education:0 "Military Education"
+ law_military_education_desc:0 "Boys shall be taught the art of combat from a young age, so that we may raise generations of fighters."
  law_honorary_titles:0 "Honorary Titles"
  law_honorary_titles_desc:0 "The best performing warriors will receive various honorary titles and accolades, and will be able to enter prestigious warrior societies. Combat is no longer simply about the utility to the state - it's about the prestige of battle."
  
@@ -211,6 +216,17 @@
  law_territory_acquisition:"Territory Acquisition"
  law_territory_acquisition_desc:"There is a formal bureaucratic system in place to integrate new territories under the country's governing systems."
  
+ lawgroup_social_mobility:"Social Mobility"
+ lawgroup_social_mobility_desc:"The principles that dictate when an individual is worthy to ascend the social ladder in our society."
+ 
+ law_strict:"Strict"
+ law_strict_desc:"Only people of royal descent and those close to them are permitted into the upper strata."
+ law_cultural:"Cultural"
+ law_cultural_desc:"Only those with our intial heritage may ascend into the nobility."
+ law_martial:"Martial"
+ law_martial_desc:"Victory in combat is proof enough that someone is worthy of rule."
+ law_meritocratic:"Meritocratic"
+ law_meritocratic_desc:"It is only natural that those who harbor great skill and knowledge are fit to rule over those who do not."
  
  #Human Rights Group
  lawgroup_cultural_acceptance:0 "Cultural Acceptance"

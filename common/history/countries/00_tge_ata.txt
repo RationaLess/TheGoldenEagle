@@ -87,7 +87,7 @@
 		
 	}
 	c:AZC = {
-		ai_imperial_ambitions = ai_imperial_ambitions
+		#ai_imperial_ambitions = ai_imperial_ambitions
 		
 		effect_starting_technology_mesoamerica_advanced = yes
 		effect_starting_laws_mesoamerica_citystate = yes

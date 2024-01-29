@@ -24,7 +24,7 @@ pm_temple_no_sacrifices = {
 		workforce_scaled = { 
 			goods_input_tools_add = 1
 
-			goods_output_worship_add = 2
+			goods_output_worship_add = 4
 		}
 		
 		level_scaled = {
@@ -61,7 +61,7 @@ pm_temple_human_sacrifice = {
 		workforce_scaled = { 
 			goods_input_tools_add = 1
 
-			goods_output_worship_add = 6 
+			goods_output_worship_add = 10
 		}
 		
 		level_scaled = {
@@ -71,7 +71,7 @@ pm_temple_human_sacrifice = {
 		
 		unscaled = {
 		state_loyalists_from_sol_change_accepted_religion_mult = 0.2
-		building_clergymen_shares_add = 1
+		building_priests_shares_add = 1
 		building_freemen_mortality_mult = 5
 		building_slaves_mortality_mult = 5
 		}
