@@ -1,0 +1,403 @@
+﻿empire_sprawl.1 = {
+	type = country_event
+	placement = scope:subject_scope.capital
+	
+	title = empire_sprawl.1.t
+	desc = empire_sprawl.1.d
+	flavor = empire_sprawl.1.f
+
+	cooldown = { months = short_modifier_time }
+	
+	event_image = "gfx/event_pictures/diplomacy_meso.dds"
+
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	duration = 3
+	
+	trigger = {
+		any_country = {
+			is_subject_type = subject_type_tributary
+			is_subject_of = root
+		}
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+			is_subject_type = subject_type_tributary
+			is_subject_of = root
+			}
+		save_scope_as = subject_scope
+		}
+	}
+
+	option = {
+		name = empire_sprawl.1.a
+		
+		create_incident	 = {
+			country = scope:subject_scope
+			value = 5
+			}
+		
+		change_relations = {
+			country = scope:subject_scope
+			value = -30
+			}
+		
+		ruler = {
+			add_modifier = {
+			name = tyranny
+			months = 120
+			}
+		}
+		
+		scope:subject_scope = {
+			kill_population_percent = 0.01
+		}
+	}
+	option = {
+		name = empire_sprawl.1.b
+		default_option = yes
+		
+		
+		ruler = {
+			add_modifier = {
+			name = kindness
+			months = 120
+			}
+		}
+		
+		add_modifier = {
+			name = forgave_loss_of_tribute
+			months = 60
+		}
+	}
+}
+
+empire_sprawl.2 = {
+	type = country_event
+	placement = scope:subject_scope.capital
+	
+	title = empire_sprawl.2.t
+	desc = empire_sprawl.2.d
+	flavor = empire_sprawl.2.f
+
+	cooldown = { months = short_modifier_time }
+	
+	event_image = "gfx/event_pictures/diplomacy_meso.dds"
+
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	duration = 3
+	
+	trigger = {
+		any_country = {
+			is_subject_type = subject_type_tributary
+			is_subject_of = root
+		}
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+			is_subject_type = subject_type_tributary
+			is_subject_of = root
+			}
+		save_scope_as = subject_scope
+		}
+	}
+
+	option = {
+		name = empire_sprawl.2.a
+		default_option = yes
+		
+		create_incident	 = {
+			country = scope:subject_scope
+			value = 10
+			}
+		
+		change_relations = {
+			country = scope:subject_scope
+			value = -50
+			}
+		
+		ruler = {
+			add_modifier = {
+			name = tyranny
+			months = 240
+			}
+		}
+		
+		scope:subject_scope = {
+			kill_population_percent = 0.05
+		}
+	}
+	option = {
+		name = empire_sprawl.2.b
+		
+		scope:subject_scope = {
+			make_independent = yes
+		}
+		
+		ruler = {
+			add_modifier = {
+			name = cowardice
+			months = 120
+			}
+		}
+		
+		add_modifier = {
+			name = unenforced_subjects
+			months = 120
+		}
+	}
+}
+
+
+empire_sprawl.3 = {
+	type = country_event
+	placement = capital
+	
+	title = empire_sprawl.3.t
+	desc = empire_sprawl.3.d
+	flavor = empire_sprawl.3.f
+
+	cooldown = { months = short_modifier_time }
+	
+	event_image = "gfx/event_pictures/diplomacy_meso.dds"
+
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	duration = 3
+	
+	trigger = {
+		any_interest_group = {
+			is_in_government = yes
+		}
+	}
+
+	immediate = {
+		random_interest_group = {
+			limit = {
+			is_in_government = yes
+			}
+		save_scope_as = blamed_group
+		}
+	}
+
+	option = {
+		name = empire_sprawl.3.a
+		
+		scope:blamed_group = {
+			add_modifier = {
+				name = scapegoated
+				months = 120
+				}
+			}
+		
+	}
+	option = {
+		name = empire_sprawl.3.b
+		default_option = yes
+		
+		add_modifier = {
+			name = shared_blame
+			months = 120
+			}
+		
+	}
+}
+
+
+empire_sprawl.4 = { #Reputation Hit
+	type = country_event
+	placement = capital
+
+	title = empire_sprawl.4.t
+	desc = empire_sprawl.4.d
+	flavor = empire_sprawl.4.f
+
+	duration = 3
+
+	gui_window = event_window_1char_tabloid
+
+	left_icon = scope:university_benefactor
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+		has_technology_researched = academia
+		ig:ig_industrialists = {
+			is_marginal = no
+		}
+		any_scope_state = {
+			is_incorporated = yes
+			has_building = building_urban_center
+			NOT = {
+				has_building = building_university
+			}
+		}
+	}
+
+	immediate = {
+		ruler = {
+			save_scope_as = scope_ruler
+			}
+		capital = {
+			save_scope_as = capital_scope
+		}
+	}
+
+	option = {
+		default_option = yes
+		name = empire_sprawl.4.a
+		
+		add_radicals = {
+			value = 0.05
+			}
+		change_infamy = 5
+		capital = {
+			add_loyalists = {
+				value = 0.05
+				}
+			}
+		ruler = {
+			add_modifier = {
+				name = tyranny 
+				months = 120
+				}
+			}
+	}
+
+	option = {
+		name = empire_sprawl.4.b
+		
+		add_radicals = {
+			value = 0.05
+			}
+		ruler = {
+			add_modifier = {
+				name = cowardice 
+				months = 240
+				}
+			}
+		
+	}
+}
+
+
+
+empire_sprawl.5 = {
+	type = country_event
+	placement = capital
+	
+	title = empire_sprawl.5.t
+	desc = empire_sprawl.5.d
+	flavor = empire_sprawl.5.f
+
+	cooldown = { months = short_modifier_time }
+	
+	event_image = "gfx/event_pictures/community.dds"
+
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	duration = 3
+	
+	trigger = {
+	
+	}
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = empire_sprawl.5.a
+		
+		add_modifier = {
+			name = undefended_trade_routes
+			months = 240
+			}
+		
+	}
+	option = {
+		name = empire_sprawl.5.b
+		default_option = yes
+		
+		add_modifier = {
+			name = bribed_foreign_traders
+			months = 240
+			}
+		
+	}
+}
+
+empire_sprawl.6 = {
+	type = country_event
+	
+	title = empire_sprawl.6.t
+	desc = empire_sprawl.6.d
+	flavor = empire_sprawl.6.f
+
+	cooldown = { months = short_modifier_time }
+	
+	event_image = "gfx/event_pictures/warfare.dds"
+
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	duration = 3
+	
+	trigger = {
+		any_rival_country = {
+			is_adjacent_to_country = ROOT
+			}
+	}
+
+	immediate = {
+		random_rival_country = {
+			limit = {
+				is_adjacent_to_country = ROOT
+				}
+			save_scope_as = rival_scope
+			}
+	}
+
+	option = {
+		name = empire_sprawl.6.a
+		
+		create_incident	 = {
+			country = scope:rival_scope
+			value = 10
+			}
+			
+		add_modifier = {
+			name = dignity_defended
+			months = 240
+			}
+		
+	}
+	option = {
+		name = empire_sprawl.6.b
+		default_option = yes
+		
+		add_modifier = {
+			name = heartland_reinforced
+			months = 240
+			}
+		
+	}
+}
+

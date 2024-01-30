@@ -83,8 +83,8 @@ captured_slaves = {
 
 acquired_tributary = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
-	country_bureaucracy_add = -100
-	country_prestige_add = 40
+	country_empire_sprawl_load = 500
+	country_prestige_add = 100
 }
 
 expanded_borders = {
@@ -95,7 +95,7 @@ expanded_borders = {
 
 integrating_subject = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
-	country_bureaucracy_add = -500
+	country_empire_sprawl_load = 2000
 }
 
 

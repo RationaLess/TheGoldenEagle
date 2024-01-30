@@ -75,6 +75,39 @@
  revolt.1.b:"We might need all the help we can get."
  
  
+ #Empire Sprawl Events
+ empire_sprawl.1.t:"High Sprawl - Untaxed"
+ empire_sprawl.1.d:"Our [concept_empire_sprawl] has made the collection of tribute harder, leading to [SCOPE.sCountry('subject_scope').GetName] skipping paying it alltogether."
+ empire_sprawl.1.a:"Crack down on this behavior."
+ empire_sprawl.1.b:"They will fall in line eventually."
+ 
+ empire_sprawl.2.t:"Critical Sprawl - Opportunity"
+ empire_sprawl.2.d:"With our [concept_empire_sprawl] out of control, [SCOPE.sCountry('subject_scope').GetName] has been acting autonomously to the degree that they consider themselves de facto independent from us."
+ empire_sprawl.2.a:"Let's remind them of their place."
+ empire_sprawl.2.b:"They can be independent for all we care."
+ 
+ empire_sprawl.3.t:"High Sprawl - Blame"
+ empire_sprawl.3.d:"The [SCOPE.gsInterestGroup('blamed_group').GetName] style of governance has been receiving a lot of criticism due to issues regarding our [concept_empire_sprawl]."
+ empire_sprawl.3.a:"They are an useful scapegoat."
+ empire_sprawl.3.b:"[ROOT.GetCountry.GetName] is broadly to blame."
+ 
+ empire_sprawl.4.t:"High Sprawl - Reputation"
+ empire_sprawl.4.d:"[SCOPE.sCharacter('scope_ruler').GetFullName] has become increasingly mocked in our imperial fringes, with the worst of the rumors having spread to [SCOPE.sState('capital_scope').GetName]."
+ empire_srpawl.4.a:"If they want a tyrant, they can get one."
+ empire_srpawl.4.b:"The opinion of commoners concerns us how?"
+ 
+ empire_sprawl.5.t:"High Sprawl - Trade"
+ empire_sprawl.5.d:"[ROOT.GetCountry.GetName] has inspired cautionary tales among taders, calling our routes undefended and unsafe."
+ empire_srpawl.5.a:"A few traders are of no concern to us."
+ empire_srpawl.5.b:"Sweeten the deal for them!"
+ 
+ empire_sprawl.6.t:"Critical Sprawl - Territory"
+ empire_sprawl.6.d:"With our [concept_empire_sprawl] highly unmanagable, more and more [SCOPE.sCountry('rival_scope').GetName] warriors have been seen in our territories."
+ empire_srpawl.6.a:"Ambush them."
+ empire_srpawl.6.b:"Increasingly patrol core territories."
+ 
+ 
+ 
  
  
  formalize_the_realm.1.t:"Duty of a Nation"

@@ -7,25 +7,36 @@
 	}
 
 	potential = {
+		is_subject = no
+		
 		custom_tooltip = {
 			text = tut_customs_union_block_txt
 			NOT = { has_variable = tut_customs_union_block }
 		}
-		has_journal_entry = je_forging_alliances
 		NOR = {
 			is_country_type = decentralized 
-			has_law = law_type:law_isolationism
 		}
 		scope:target_country = {
+			is_subject = no
 			is_adjacent_to_country = root
+			has_law = law_type:law_city_state
 			NOR = { 
 				is_country_type = decentralized 
-				has_law = law_type:law_isolationism
 			}
 		}
+		
 	}
 
 	possible = {
+		
+		
+		NOT = {
+			#infamy > 25
+			has_law = law_type:law_council
+			has_law = law_type:law_monarchy
+			#has_law = law_type:law_bellicose
+		}
+	
 		NOT = { has_war_with = scope:target_country }
 		NOT = { is_subject_of = scope:target_country }
 		is_junior_in_customs_union = no
@@ -56,7 +67,32 @@
 					}
 				}
 			}
-		}			
+		}
+		
+		
+		
+	OR = {
+			any_interest_group = {
+				is_powerful = yes
+				is_in_government = yes
+				OR = {
+					is_interest_group_type = ig_ancillaries
+					leader = {
+						OR = {
+							has_ideology = ideology:ideology_leader_confederate
+						}
+					}
+				}
+			}
+			AND = {
+				has_law = law_type:law_alliance
+					NOT = {
+						has_law = law_type:law_bellicose
+					}
+				}
+		}
+
+		
 	}
 
 	accept_effect = {

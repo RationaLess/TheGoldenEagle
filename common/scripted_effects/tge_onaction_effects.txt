@@ -41,6 +41,7 @@ onaction_empire_sprawl_calc = {
 	set_variable = {
 		name = var_empire_sprawl_load
 		value = {
+			add = modifier:country_empire_sprawl_load
 			add = sprawl_get_base_value
 			add = sprawl_get_vassal_value
 			

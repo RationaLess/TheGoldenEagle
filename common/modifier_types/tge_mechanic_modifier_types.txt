@@ -8,6 +8,11 @@ country_empire_sprawl_capacity_mult = {
 	percent = yes
 	num_decimals = 0
 }
+
+country_empire_sprawl_load = {
+	good = no
+}
+
 country_empire_sprawl_load_mult = {
 	good = no
 	percent = yes
@@ -31,5 +36,11 @@ country_cultural_influence = {
 	}
 	
 building_urban_center_throughput_add = {
+	good = yes
+	percent = yes
+	}
+	
+building_temple_throughput_add = {
+	percent = yes
 	good = yes
 	}

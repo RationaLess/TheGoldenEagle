@@ -19,3 +19,74 @@ funding_aqueduct_network = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	country_expenses_add = 500
 	}
+	
+tyranny = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	character_popularity_add = -15
+	}
+cowardice = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	character_popularity_add = -10
+	}
+kindness = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	character_popularity_add = 10
+	}
+	
+forgave_loss_of_tribute = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_empire_sprawl_capacity_mult = 0.1
+	country_prestige_mult = -0.1
+	country_minting_mult = -0.1
+	interest_group_ig_ancillaries_approval_add = 1
+	interest_group_ig_warrior_guilds_approval_add = -1
+	}
+	
+unenforced_subjects = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gears_positive.dds
+	country_empire_sprawl_capacity_mult = 0.2
+	country_prestige_mult = -0.2
+	interest_group_approval_add = -1
+	}
+
+scapegoated = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	
+	interest_group_approval_add = -2
+	interest_group_pol_str_mult = -0.25
+	}
+
+shared_blame = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	
+	country_legitimacy_base_add = -10
+	}
+
+undefended_trade_routes = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	
+	country_empire_sprawl_load_mult = 0.1
+	country_trade_route_cost_mult = 0.5
+	}
+	
+bribed_foreign_traders = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+
+	country_minting_mult = -0.1
+	country_trade_route_cost_mult = -0.5
+	interest_group_ig_merchant_guilds_approval_add = -2
+	}
+	
+dignity_defended = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	
+	interest_group_ig_warrior_guilds_approval_add = 2
+	country_empire_sprawl_capacity_mult = 0.1
+	}
+	
+heartland_reinforced = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	
+	country_prestige_mult = -0.2
+	country_military_wages_mult = 0.3
+	}

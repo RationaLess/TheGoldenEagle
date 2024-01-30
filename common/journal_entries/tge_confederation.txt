@@ -4,7 +4,7 @@
 	group = je_group_foreign_affairs
 	
 is_shown_when_inactive = {
-		
+		always = no
 		NOT = {
 			has_variable = confederations_num
 			}

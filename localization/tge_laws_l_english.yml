@@ -168,14 +168,23 @@
  lawgroup_development:"Development"
  lawgroup_development_desc:"The approach to urbanization that the country assumes."
  
- law_decentralized_settlements:"Decentralized Settlements"
- law_decentralized_settlements_desc:"Communities are scattered all across the state, with each one being basically self sufficient."
- law_urban_centers:"Urban Centers"
- law_urban_centers_desc:"There exist dense population centers which facilitate the production of complex goods as well as trade."
- law_great_projects:"Great Projects"
- law_great_projects_desc:"The country conscripts a large amount of people for the sake of major construction projects, be it infrastructural, religious, or military."
- law_central_development:"Central Development"
- law_central_development_desc:"The country is responsible for the housing, employment, and working environment for everybody living in its territories."
+ 
+ law_mobile_settlements:"Mobile Settlements"
+ 
+ law_ribbon_development:"Ribbon Development"
+ 
+ law_clustered_communities:"Clustered Communities"
+ 
+ law_centralized_urban_centers:"Centralized Urban Centers"
+ law_centralized_urban_centers_desc:"
+ #law_decentralized_settlements:"Decentralized Settlements"
+ #law_decentralized_settlements_desc:"Communities are scattered all across the state, with each one being basically self sufficient."
+ #law_urban_centers:"Urban Centers"
+ #law_urban_centers_desc:"There exist dense population centers which facilitate the production of complex goods as well as trade."
+ #law_great_projects:"Great Projects"
+ #law_great_projects_desc:"The country conscripts a large amount of people for the sake of major construction projects, be it infrastructural, religious, or military."
+ #law_central_development:"Central Development"
+ #law_central_development_desc:"The country is responsible for the housing, employment, and working environment for everybody living in its territories."
  
  
  lawgroup_land_organization:0 "Land Organization"
@@ -191,6 +200,8 @@
  law_calpulli_system_desc: "Land is owned by regional community leaders and is distributed to families that live within it, limiting the power of the aristocratic class."
  law_state_control: "State Control"
  law_state_control_desc: "Land is owned by the state and is ran by government-appointed administrators."
+  
+ 
   
  lawgroup_mercantile_reforms:0 "Mercantile Reforms"
  lawgroup_mercantile_reforms_desc:0 "This law determines how merchants and traders are treated within our society."

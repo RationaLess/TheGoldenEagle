@@ -78,6 +78,8 @@
   modifier_country_empire_sprawl_capacity_add_desc:"How much [Concept('concept_sprawl_capacity','$concept_sprawl_capacity$')] a country has."
   modifier_country_empire_sprawl_capacity_mult:"Bonus [Concept('concept_sprawl_capacity','$concept_sprawl_capacity$')]"
   modifier_country_empire_sprawl_capacity_mult:"Bonus Sprawl Capacity"
+  modifier_country_empire_sprawl_load:"[Concept('concept_sprawl_load','$concept_sprawl_load$')]"
+  modifier_country_empire_sprawl_load_desc:"Additional [Concept('concept_sprawl_capacity','$concept_sprawl_load$')] given by modifiers."
   modifier_country_empire_sprawl_load_mult:"Malus [Concept('concept_sprawl_load','$concept_sprawl_load$')]"
   modifier_country_empire_sprawl_load_mult_desc:"Additional [Concept('concept_sprawl_capacity','$concept_sprawl_load$')] given by modifiers."
   modifier_country_empire_sprawl_load_mult:"Malus [Concept('concept_sprawl_load','$concept_sprawl_load$')]"
