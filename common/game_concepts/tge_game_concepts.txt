@@ -8,6 +8,8 @@ concept_minor_settlements = {}
 
 concept_invasion = {}
 
-concept_cultural_influence = {}
+concept_civilization_value = {}
+
+concept_civilization_level = {}
 
 concept_struggle = {}

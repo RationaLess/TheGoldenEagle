@@ -19,7 +19,6 @@ law_encomiendas = {
 		state_radicals_from_sol_change_accepted_culture_mult = -0.1
 		state_loyalists_from_sol_change_accepted_culture_mult = 0.1		
 		state_assimilation_mult = -0.5
-		country_cultural_influence = -0.2
 	}
 	
 	possible_political_movements = {
@@ -58,7 +57,6 @@ law_cultural_supremacy = {
 		state_radicals_from_sol_change_accepted_culture_mult = -0.2
 		state_loyalists_from_sol_change_accepted_culture_mult = 0.2
 		state_assimilation_mult = 0.5
-		country_cultural_influence = -0.1
 	}
 	
 	possible_political_movements = {
@@ -141,8 +139,7 @@ law_broad_acceptance = {
 	modifier = {
 		country_authority_add = 50
 		state_radicals_from_sol_change_accepted_culture_mult = -0.05
-		state_loyalists_from_sol_change_accepted_culture_mult = 0.05	
-		country_cultural_influence = 0.05
+		state_loyalists_from_sol_change_accepted_culture_mult = 0.05
 	}
 	
 	possible_political_movements = {

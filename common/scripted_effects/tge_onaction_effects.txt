@@ -106,99 +106,62 @@ onaction_empire_sprawl_calc = {
 	
 #Onaction Cultural Influence Calc
 
-onaction_cultural_influence_calc = {
+onaction_civilization_level_calc = {
 	
 	
 	
 	set_variable = {
-		name = cultural_influence_literacy_bonus
+		name = civilization_value_literacy_bonus
 		value = {
 				value = literacy_rate
 				multiply = 0.2
 				}
 		}
 	set_variable = {
-		name = cultural_influence_sol_bonus
+		name = civilization_value_sol_bonus
 		value = {
 				value = average_sol
 				divide = 100
 				}
 		}
+	
+	#Calculating Average Urbanization
 	set_variable = {
-		name = cultural_influence_pact_bonus
+		name = num_of_states
 		value = {
-			value = 0
-			
-			every_country = {
-						limit = {
-							is_subject = no
-							prev = {
-							  has_diplomatic_pact = {
-								who = prev
-								type = bankroll
-							  }
-						   }
-						}
-						add = 1
-					}
-					
-				multiply = 2.5
-				divide = 100
+			every_scope_state = {
+				add = 1
 				}
+			}
 		}
 	
 	set_variable = {
-		name = cultural_influence_infamy_malus
+		name = civilization_value_urbanization_bonus
 		value = {
-				value = infamy
-				divide = 100
-				multiply = 0.2
-				multiply = -1
+			every_scope_state = {
+				add = total_urbanization
 				}
+			divide = var:num_of_states
+			divide = 100
+			divide = 100
+			}
 		}
 	
 	set_variable = {
-		name = cultural_influence_scholars_modif
-		value = {
-				value = ig:ig_scholars.ig_approval 
-				multiply = 1
-				divide = 100
-				}
-		}
-	set_variable = {
-		name = cultural_influence_ancillaries_modif
-		value = {
-				value = ig:ig_ancillaries.ig_approval 
-				multiply = 0.5
-				divide = 100
-				}
-		}
-	
-	set_variable = {
-		name = cultural_influence
+		name = civilization_value
 		value = {
 		
 			#You can get ~20% from literacy rate
-			add = var:cultural_influence_literacy_bonus
+			add = var:civilization_value_literacy_bonus
 			
 			#Uncapped from SoL
-			add = var:cultural_influence_sol_bonus
+			add = var:civilization_value_sol_bonus
 			
-			#Uncapped from Diplo Pacts
-			add = var:cultural_influence_pact_bonus
-			
-			#You can get -20% at 100 infamy 
-			add = var:cultural_influence_infamy_malus
-			
-			#Scholar Mod
-			add = var:cultural_influence_scholars_modif
-			
-			#Ancillary Mod
-			add = var:cultural_influence_ancillaries_modif
-			
+			#Uncapped from Urbanization
+			add = var:civilization_value_urbanization_bonus
 			
 			#The Modifiers
-			add = modifier:country_cultural_influence
+			add = modifier:country_civilization_value
 			
 			
 			min = 0
@@ -209,79 +172,82 @@ onaction_cultural_influence_calc = {
 	#Removing Modifiers
 	if = {
 		limit = {
-		has_modifier = cultural_influence_insignificant
+		has_modifier = civilization_level_1
 		}
-		remove_modifier = cultural_influence_insignificant
+		remove_modifier = civilization_level_1
 	}
 	if = {
 		limit = {
-		has_modifier = cultural_influence_weak
+		has_modifier = civilization_level_2
 		}
-		remove_modifier = cultural_influence_weak
+		remove_modifier = civilization_level_2
 	}
 	if = {
 		limit = {
-		has_modifier = cultural_influence_notable
+		has_modifier = civilization_level_3
 		}
-		remove_modifier = cultural_influence_notable
+		remove_modifier = civilization_level_3
 	}
 	if = {
 		limit = {
-		has_modifier = cultural_influence_regional
+		has_modifier = civilization_level_4
 		}
-		remove_modifier = cultural_influence_regional
+		remove_modifier = civilization_level_4
 	}
 	if = {
 		limit = {
-		has_modifier = cultural_influence_legendary
+		has_modifier = civilization_level_5
 		}
-		remove_modifier = cultural_influence_legendary
+		remove_modifier = civilization_level_5
 	}
+	
+	#Civilization Level
+	set_variable = {
+		name = civilization_level
+		value = get_civilization_level
+		}
 	
 	#Applying Modifier
 	IF = {
 		limit = {
-			var:cultural_influence <= 0.20
+			var:civilization_level = 1 
 		}
 		add_modifier = {
-			name = cultural_influence_insignificant
+			name = civilization_level_1
 			}
 	}
 	ELSE_IF = {
 		limit = {
-			var:cultural_influence >= 0.21
-			var:cultural_influence <= 0.40
+			var:civilization_level = 2 
 		}
 		
 		add_modifier = {
-			name = cultural_influence_weak
+			name = civilization_level_2
 			}
 	}
 	ELSE_IF = {
 		limit = {
-			var:cultural_influence >= 0.41
-			var:cultural_influence <= 0.60
+			var:civilization_level = 3
 		}
 		
 		add_modifier = {
-			name = cultural_influence_notable
+			name = civilization_level_3
 			}
 	}
 	ELSE_IF = {
 		limit = {
-			var:cultural_influence >= 0.61
-			var:cultural_influence <= 0.80
+			var:civilization_level = 4
 		}
 		add_modifier = {
-			name = cultural_influence_regional
+			name = civilization_level_4
 			}
 	}
 	ELSE_IF = {
 		limit = {
-			var:cultural_influence >= 0.81
+			var:civilization_level = 5 
 		}
 		add_modifier = {
-			name = cultural_influence_legendary
+			name = civilization_level_5
 			}
 	}
 	

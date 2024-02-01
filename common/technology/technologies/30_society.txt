@@ -105,6 +105,7 @@ trade_routes = {
 	
 	
 	modifier = {
+		country_influence_add = 50
 		state_infrastructure_mult = 0.05
 		}
 	

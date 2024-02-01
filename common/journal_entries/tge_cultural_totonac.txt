@@ -60,7 +60,7 @@
 		has_technology_researched = supremacy
 		country_has_primary_culture = cu:totonac
 		OR = {
-			cultural_influence >= 0.6
+			#cultural_influence >= 0.6
 			country_rank >= rank_value:major_power
 			}
 	}

@@ -9,29 +9,29 @@
  CULTURAL_INFLUENCE:"Cultural Influence"
     
     
-  PANEL_CULTURAL_INFLUENCE_OVERVIEW_TOOLTIP: "[Country.GetName] has [Country.GetCustom('cultural_influence_level_loc')][concept_cultural_influence] $cultural_influence_percent$ due to:\n$TOOLTIP_DELIMITER$\n#v [Country.MakeScope.Var('cultural_influence_literacy_bonus').GetValue|%+=] from [concept_literacy] #!\n#v [Country.MakeScope.Var('cultural_influence_sol_bonus').GetValue|%+=] from [concept_sol] #!\n#v [Country.MakeScope.Var('cultural_influence_pact_bonus').GetValue|%+=] from [Concept('concept_diplomatic_pact','Diplomatic Pacts')] with independent Countries#!\n#v [Country.MakeScope.Var('cultural_influence_scholars_modif').GetValue|+=%] from[GetInterestGroupVariant('ig_scholars',GetPlayer).GetNameWithCountryVariant] [concept_approval] #!\n#v [Country.MakeScope.Var('cultural_influence_ancillaries_modif').GetValue|+=%] from[GetInterestGroupVariant('ig_ancillaries',GetPlayer).GetNameWithCountryVariant] [concept_approval] #!\n#v [Country.MakeScope.Var('cultural_influence_infamy_malus').GetValue|%+=] from [concept_infamy]#!  #v [ConcatIfNeitherEmpty('\n', Country.GetModifier.GetFullEntryDescFor('country_cultural_influence'))] from Other Sources #!\n$TOOLTIP_DELIMITER$\n  "
-  cultural_influence_percent: "([Country.MakeScope.ScriptValue('cultural_influence_value')|0%])"
+  PANEL_CIVILIZATION_LEVEL_OVERVIEW_TOOLTIP: "[Country.GetName] has the [Country.GetCustom('civilization_level_loc')][concept_civilization_level] from $civilization_level_percent$ [concept_civilization_value] due to:\n$TOOLTIP_DELIMITER$\n#v [Country.MakeScope.Var('civilization_value_literacy_bonus').GetValue|%+=] from [concept_literacy] #!\n#v [Country.MakeScope.Var('civilization_value_sol_bonus').GetValue|%+=] from [concept_sol] #!\n#v [Country.MakeScope.Var('civilization_value_urbanization_bonus').GetValue|%+=] from [concept_urbanization]#!  #v [ConcatIfNeitherEmpty('\n', Country.GetModifier.GetFullEntryDescFor('country_civilization_value'))] from Other Sources #!\n$TOOLTIP_DELIMITER$\n  "
+  civilization_level_percent: "([Country.MakeScope.ScriptValue('civilization_value')|0%])"
   CULTURAL_INFLUENCE_MALUS_LOC:"#v #% 10 #! from being a  [concept_subject] #!"
    #\n [SelectLocalization(Country.IsSubject, 'CULTURAL_INFLUENCE_MALUS_LOC' ,'')]
+    #[Country.GetCustom('civilization_level_loc')]
+ CIVILIZATION_LEVEL:"Civilization Level"
+ CIVILIZATION_LEVEL_1:"#V Nomadic #!"
+ CIVILIZATION_LEVEL_2:"#V Settlement #!"
+ CIVILIZATION_LEVEL_3:"#V Urban #!"
+ CIVILIZATION_LEVEL_4:"#V Metropolitan #!"
+ CIVILIZATION_LEVEL_5:"#V Golden #!"
  
- CULTURAL_INFLUENCE_LEVEL:"[Country.GetCustom('cultural_influence_level_loc')]"
- INSIGNIFICANT_INFLUENCE:"#V Insignificant #!"
- WEAK_INFLUENCE:"#V Weak #!"
- NOTABLE_INFLUENCE:"#V Notable #!"
- REGIONAL_INFLUENCE:"#V Regional #!"
- LEGENDARY_INFLUENCE:"#V Legendary #!"
- 
- cultural_influence_insignificant:"Insignificant Influence"
- cultural_influence_weak:"Weak Influence"
- cultural_influence_notable:"Notable Influence"
- cultural_influence_regional:"Regional Influence"
- cultural_influence_legendary:"Legendary Influence"
+ civilization_level_1:"$CIVILIZATION_LEVEL_1$ [concept_civilization_level]"
+ civilization_level_2:"$CIVILIZATION_LEVEL_2$ [concept_civilization_level]"
+ civilization_level_3:"$CIVILIZATION_LEVEL_3$ [concept_civilization_level]"
+ civilization_level_4:"$CIVILIZATION_LEVEL_4$ [concept_civilization_level]"
+ civilization_level_5:"$CIVILIZATION_LEVEL_5$ [concept_civilization_level]"
  
  
-  cultural_influence_insignificant_showmodifier: "[GetScriptedGui('showmodifier_cultural_influence_insignificant').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]\n$TOOLTIP_DELIMITER$"
-  cultural_influence_weak_showmodifier: "[GetScriptedGui('showmodifier_cultural_influence_weak').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]\n$TOOLTIP_DELIMITER$"
-  cultural_influence_notable_showmodifier: "[GetScriptedGui('showmodifier_cultural_influence_notable').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]\n$TOOLTIP_DELIMITER$"
-  cultural_influence_regional_showmodifier: "[GetScriptedGui('showmodifier_cultural_influence_regional').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]\n$TOOLTIP_DELIMITER$"
-  cultural_influence_legendary_showmodifier: "[GetScriptedGui('showmodifier_cultural_influence_legendary').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]\n$TOOLTIP_DELIMITER$"
+  civilization_level_1_showmodifier: "[GetScriptedGui('showmodifier_civilization_level_1').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]\n$TOOLTIP_DELIMITER$"
+  civilization_level_2_showmodifier: "[GetScriptedGui('showmodifier_civilization_level_2').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]\n$TOOLTIP_DELIMITER$"
+  civilization_level_3_showmodifier: "[GetScriptedGui('showmodifier_civilization_level_3').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]\n$TOOLTIP_DELIMITER$"
+  civilization_level_4_showmodifier: "[GetScriptedGui('showmodifier_civilization_level_4').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]\n$TOOLTIP_DELIMITER$"
+  civilization_level_5_showmodifier: "[GetScriptedGui('showmodifier_civilization_level_5').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]\n$TOOLTIP_DELIMITER$"
   
   

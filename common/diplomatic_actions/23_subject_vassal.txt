@@ -186,11 +186,11 @@
 			}
 			
 			add = {
-				desc = "DIPLOMATIC_ACCEPTANCE_CULTURAL_INFLUENCE_DIFFERENCE"
+				desc = "DIPLOMATIC_ACCEPTANCE_CIVILIZATION_VALUE_DIFFERENCE"
 				value = {
-					value = scope:actor.var:cultural_influence
+					value = scope:actor.var:civilization_value
 					
-					subtract = root.var:cultural_influence
+					subtract = root.var:civilization_value
 					
 					min = -1
 					max = 1

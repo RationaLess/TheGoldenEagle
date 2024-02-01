@@ -1,4 +1,6 @@
-﻿empire_sprawl.1 = {
+﻿namespace = empire_sprawl
+
+empire_sprawl.1 = {
 	type = country_event
 	placement = scope:subject_scope.capital
 	
@@ -8,8 +10,9 @@
 
 	cooldown = { months = short_modifier_time }
 	
-	event_image = "gfx/event_pictures/diplomacy_meso.dds"
-
+	event_image = {
+		texture = "gfx/event_pictures/diplomacy_meso.dds"
+	}
 	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
 
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
@@ -86,8 +89,10 @@ empire_sprawl.2 = {
 
 	cooldown = { months = short_modifier_time }
 	
-	event_image = "gfx/event_pictures/diplomacy_meso.dds"
-
+	event_image = {
+		texture = "gfx/event_pictures/diplomacy_meso.dds"
+	}
+	
 	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
 
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
@@ -168,7 +173,9 @@ empire_sprawl.3 = {
 
 	cooldown = { months = short_modifier_time }
 	
-	event_image = "gfx/event_pictures/diplomacy_meso.dds"
+	event_image = {
+		texture = "gfx/event_pictures/diplomacy_meso.dds"
+	}
 
 	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
 
@@ -235,17 +242,7 @@ empire_sprawl.4 = { #Reputation Hit
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	trigger = {
-		has_technology_researched = academia
-		ig:ig_industrialists = {
-			is_marginal = no
-		}
-		any_scope_state = {
-			is_incorporated = yes
-			has_building = building_urban_center
-			NOT = {
-				has_building = building_university
-			}
-		}
+		
 	}
 
 	immediate = {
@@ -306,7 +303,10 @@ empire_sprawl.5 = {
 
 	cooldown = { months = short_modifier_time }
 	
-	event_image = "gfx/event_pictures/community.dds"
+	
+	event_image = {
+		texture = "gfx/event_pictures/community.dds"
+	}
 
 	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
 
@@ -315,7 +315,6 @@ empire_sprawl.5 = {
 	duration = 3
 	
 	trigger = {
-	
 	}
 
 	immediate = {
@@ -352,7 +351,9 @@ empire_sprawl.6 = {
 
 	cooldown = { months = short_modifier_time }
 	
-	event_image = "gfx/event_pictures/warfare.dds"
+	event_image = {
+		texture = "gfx/event_pictures/warfare.dds"
+	}
 
 	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
 

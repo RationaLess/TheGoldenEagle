@@ -39,7 +39,7 @@ law_majority_consensus = {
 	
 	
 	modifier = {
-			country_cultural_influence = 0.02
+			country_civilization_value = 0.01
 			country_authority_add = 100
 			country_prestige_mult = 0.1
 			country_legitimacy_headofstate_add = 10
@@ -68,7 +68,7 @@ law_controlled_courts = {
 	
 	
 	modifier = {
-			country_cultural_influence = 0.04
+			country_civilization_value = 0.03
 			state_loyalists_from_sol_change_accepted_culture_mult = 0.15
 		}
 	
@@ -98,7 +98,7 @@ law_juidicial_autonomy = {
 	
 	
 	modifier = {
-			country_cultural_influence = 0.1
+			country_civilization_value = 0.05
 			country_legitimacy_base_add = 10
 			state_loyalists_from_sol_change_accepted_culture_mult = 0.15
 		}

@@ -335,9 +335,9 @@ types country_panel_types
 				}
 			}
 			
-			#Cultural Influence
+			#Civilization Level
 			flowcontainer = {
-				tooltip = "PANEL_CULTURAL_INFLUENCE_OVERVIEW_TOOLTIP"
+				tooltip = "PANEL_CIVILIZATION_LEVEL_OVERVIEW_TOOLTIP"
 				position = { 0 550 }
 				direction = vertical
 				minimumsize = { 260 100 }
@@ -355,7 +355,7 @@ types country_panel_types
 						
 						textbox = {
 							parentanchor = vcenter
-							text = "CULTURAL_INFLUENCE"
+							text = "CIVILIZATION_LEVEL"
 							size = { 200 -1 }
 							align = left
 							elide = right
@@ -370,7 +370,7 @@ types country_panel_types
 								align = center;
 								parentanchor = center|nobaseline
 								#text = "CULTURAL_INFLUENCE_LEVEL"
-								raw_text = "[Country.GetCustom('cultural_influence_level_loc')]"
+								raw_text = "[Country.GetCustom('civilization_level_loc')]"
 							}
 						}
 						
@@ -388,7 +388,7 @@ types country_panel_types
 											size = { 160 20 }
 											blockoverride "values" {  
 												#Country.MakeScope.ScriptValue('cultural_influence_value')
-												value = "[FixedPointToFloat(Country.MakeScope.ScriptValue('cultural_influence_value'))]"
+												value = "[FixedPointToFloat(Country.MakeScope.ScriptValue('civilization_value'))]"
 												min = 0  
 												max = 1
 											}

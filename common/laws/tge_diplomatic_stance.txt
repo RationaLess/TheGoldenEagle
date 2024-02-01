@@ -9,7 +9,6 @@ law_neutral = {
 	progressiveness = 0
 
 	modifier = {
-		country_cultural_influence = 0.025
 		country_influence_mult = 0.25
 	}
 	
@@ -25,7 +24,6 @@ law_appeasing = {
 	modifier = {
 		country_infamy_decay_mult = 0.25
 		country_infamy_generation_mult = 0.25
-		country_cultural_influence = 0.05
 	}
 	
 
@@ -40,7 +38,6 @@ law_mercantile = {
 
 	modifier = {
 		country_trade_route_competitiveness_mult = 0.2
-		country_cultural_influence = 0.025
 	}
 	
 

@@ -5,7 +5,11 @@ GLOBAL = {
 		onaction_empire_sprawl_calc = yes
 		
 		set_variable = {
-			name = cultural_influence
+			name = civilization_value
+			value = 0
+			}
+		set_variable = {
+			name = civilization_level
 			value = 0
 			}
 	

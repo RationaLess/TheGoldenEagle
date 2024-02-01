@@ -17,42 +17,42 @@ showmodifier_empire_sprawl_malus = {
 }
 
 
-showmodifier_cultural_influence_insignificant = {
+showmodifier_civilization_level_1 = {
 	effect = {
 		add_modifier = {
-			name = cultural_influence_insignificant
+			name = civilization_level_1
 		}
 	}
 }
 
-showmodifier_cultural_influence_weak = {
+showmodifier_civilization_level_2 = {
 	effect = {
 		add_modifier = {
-			name = cultural_influence_weak
+			name = civilization_level_2
 		}
 	}
 }
 
-showmodifier_cultural_influence_notable = {
+showmodifier_civilization_level_3 = {
 	effect = {
 		add_modifier = {
-			name = cultural_influence_notable
+			name = civilization_level_3
 		}
 	}
 }
 
-showmodifier_cultural_influence_regional = {
+showmodifier_civilization_level_4 = {
 	effect = {
 		add_modifier = {
-			name = cultural_influence_regional
+			name = civilization_level_4
 		}
 	}
 }
 
-showmodifier_cultural_influence_legendary = {
+showmodifier_civilization_level_5 = {
 	effect = {
 		add_modifier = {
-			name = cultural_influence_legendary
+			name = civilization_level_5
 		}
 	}
 }

@@ -319,7 +319,6 @@ ideology_leader_urbanist = {
 		
 		scope:interest_group = {
 			OR = {
-				is_interest_group_type = ig_aristocracy
 				is_interest_group_type = ig_ancillaries
 				is_interest_group_type = ig_warrior_guilds
 				is_interest_group_type = ig_pochteca

@@ -38,7 +38,7 @@
 	}
 	dynamic_country_name = {
 		name = south_texcoco_confederation
-		adjective = north_texcoco_confederation_adj
+		adjective = south_texcoco_confederation_adj
 		
 		priority = 200
 		

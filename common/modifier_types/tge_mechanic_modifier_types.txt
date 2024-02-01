@@ -30,7 +30,7 @@ country_minor_settlements_per_thousand = {
 	num_decimals = 2
 }
 
-country_cultural_influence = {
+country_civilization_value = {
 	good = yes
 	percent = yes
 	}

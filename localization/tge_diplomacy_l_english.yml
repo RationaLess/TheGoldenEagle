@@ -1,0 +1,12 @@
+﻿l_english:
+ vassalize_action_propose_name:"Vassalize"
+ 
+ 
+ confederation_action_name:"Confederate"
+
+ DIPLOMATIC_ACCEPTANCE_DISCRIMINATION:"Due to the [concept_primary_culture] being discriminated under your laws"
+ DIPLOMATIC_ACCEPTANCE_SIZE_OF_ALLIANCE:"Size of [GetLawType('law_alliance').GetName]"
+ DIPLOMATIC_ACCEPTANCE_APPEASING:"From [GetLawType('law_appeasing').GetName]"
+ DIPLOMATIC_ACCEPTANCE_CIVILIZATION_VALUE_DIFFERENCE:"From [concept_civilization_value] difference"
+ DIPLOMATIC_ACCEPTANCE_TIME_ELAPSED:"From Time Elapsed"
+ DIPLOMATIC_ACCEPTANCE_CONFEDERATE_STRATEGY:"Seeks to Confederate"

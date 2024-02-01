@@ -203,7 +203,7 @@ subject_management.1 = {
 	option = { #Tributary
 			name = subject_management.1.dd
 			trigger = {
-					has_technology_researched = martial_culture
+					#has_technology_researched = martial_culture
 				}	
 			
 				add_loyalists = {

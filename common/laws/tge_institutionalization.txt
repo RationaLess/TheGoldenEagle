@@ -32,7 +32,7 @@ law_assembly_government = {
 	
 	modifier = {
 		country_legitimacy_headofstate_add = 30
-	
+		country_civilization_value = 0.05
 		
 		country_bureaucracy_mult = -0.25
 		country_law_enactment_time_mult = -0.15
@@ -54,6 +54,7 @@ law_court_government = {
 	modifier = {
 		country_legitimacy_govt_total_clout_add = 10
 		country_legitimacy_headofstate_add = 20
+		country_civilization_value = 0.1
 	
 		country_empire_sprawl_capacity_mult = 0.1
 		country_law_enactment_time_mult = -0.25
@@ -76,6 +77,7 @@ law_dedicated_government = {
 	modifier = {
 		country_legitimacy_govt_total_clout_add = 20
 		country_legitimacy_headofstate_add = 10
+		country_civilization_value = 0.15
 	
 	
 		country_empire_sprawl_capacity_mult = 0.3
@@ -97,6 +99,7 @@ law_bureaucratic_government = {
 	}
 	
 	modifier = {
+		country_civilization_value = 0.2
 		country_legitimacy_govt_total_clout_add = 30
 		country_empire_sprawl_capacity_mult = 0.5
 		country_bureaucracy_mult = 0.5
