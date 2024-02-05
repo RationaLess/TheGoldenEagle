@@ -43,4 +43,11 @@ pmg_admin_base = {
 	}
 }
 
+pmg_trade_center = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_trade_center
+	}
+}
+
 

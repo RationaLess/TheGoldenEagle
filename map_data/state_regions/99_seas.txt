@@ -8,12 +8,10 @@ STATE_1_SEA = {
 
 STATE_SEA_GULF_OF_MEXICO = {
     id = 3001
-    provinces = { "x007496"
- }
+    provinces = { "x007496" }
 }
 
 STATE_SEA_MESOAMERICAN_PACIFIC = {
     id = 3002
-    provinces = { "x0CC5AE"
- }
+    provinces = { "x0CC5AE" }
 }

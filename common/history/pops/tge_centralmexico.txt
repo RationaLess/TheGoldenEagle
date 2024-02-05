@@ -124,7 +124,7 @@
 				}
 			create_pop = {
 				culture = otomi
-				size = 5500
+				size = 9000
 				}
 		}
 	}
@@ -198,7 +198,7 @@
 				}
 			create_pop = {
 				culture = huastec
-				size = 8000
+				size = 13000
 				}
 		}
 	}
@@ -379,7 +379,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = nonoalca
-				size = 9000
+				size = 19000
 				}
 			create_pop = {
 				culture = mazahua
@@ -393,7 +393,7 @@
 		region_state:THI = {
 			create_pop = {
 				culture = tlahuica
-				size = 12000
+				size = 20000
 				}
 			create_pop = {
 				culture = mazahua
@@ -417,56 +417,16 @@
 		region_state:CIU = {
 			create_pop = {
 				culture = nonoalca
-				size = 15000
+				size = 22000
 				}
 			create_pop = {
 				culture = triqui
-				size = 5000
+				size = 11000
 				}
 		}
 	}
 	
-	#Popoloca minors
-	s:STATE_TEPEACA = {
-		region_state:TTN = {
-			create_pop = {
-				culture = popoloca
-				size = 48000
-				}
-			create_pop = {
-				culture = totonac
-				size = 4000
-				}
-		}
-		region_state:ICH = {
-			create_pop = {
-				culture = popoloca
-				size = 12000
-				}
-			create_pop = {
-				culture = totonac
-				size = 2500
-				}
-			create_pop = {
-				culture = mazatec
-				size = 2500
-				}
-		}
-		region_state:TCL = {
-			create_pop = {
-				culture = popoloca
-				size = 20000
-				}
-			create_pop = {
-				culture = mazatec
-				size = 1000
-				}
-			create_pop = {
-				culture = nonoalca
-				size = 3000
-				}
-		}
-	}
+	
 	#Tlaltizapan
 	s:STATE_TLALTIZAPAN = {
 		region_state:TH = {
@@ -491,7 +451,7 @@
 				}
 			create_pop = {
 				culture = nahua
-				size = 10000
+				size = 15000
 				}
 		}
 		region_state:XILO = {
@@ -501,7 +461,7 @@
 				}
 			create_pop = {
 				culture = nahua
-				size = 3000
+				size = 9000
 				}
 		}
 		region_state:XILA = {
@@ -511,7 +471,7 @@
 				}
 			create_pop = {
 				culture = huastec
-				size = 8000
+				size = 15000
 				}
 		}
 	}

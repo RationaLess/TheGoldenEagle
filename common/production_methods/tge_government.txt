@@ -303,3 +303,29 @@ pm_admin_dedicated = {
 		}
 	}
 }
+pm_trade_center = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	
+	unlocking_technologies = {
+	}
+	
+	country_modifiers = {
+		
+	}	
+	
+	state_modifiers = {
+		unscaled = {
+		state_migration_pull_mult = 0.25
+		}	
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+			building_employment_merchants_add = 100
+		}
+	}
+}

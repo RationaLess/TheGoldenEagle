@@ -1,13 +1,13 @@
 ﻿onaction_protectorate_check = {
 	
-	trigger_event = { id = subject_management.1 popup = yes }
-	any_country = {
-			limit = {
-			is_subject_of = ROOT
-			is_subject_type = subject_type_protectorate 
-			}
-			save_scope_as = protectorate_to_change
-		}
+	#trigger_event = { id = subject_management.1 popup = yes }
+	#any_country = {
+	#		limit = {
+	#		is_subject_of = ROOT
+	#		is_subject_type = subject_type_protectorate 
+	#		}
+	#		save_scope_as = protectorate_to_change
+	#	}
 
 
 
@@ -45,9 +45,11 @@ onaction_empire_sprawl_calc = {
 			add = sprawl_get_base_value
 			add = sprawl_get_vassal_value
 			
+			
 			multiply = {
 				add = 1
 				add = modifier:country_empire_sprawl_load_mult
+				add = sprawl_get_infamy_multiplier
 				}
 			multiply = {
 				add = sprawl_get_multiplier

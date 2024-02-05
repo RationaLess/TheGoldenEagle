@@ -96,6 +96,12 @@ sprawl_get_vassal_value = {
 	multiply = modifier:country_empire_sprawl_load_subject_penalty
 }
 
+sprawl_get_infamy_multiplier = {
+	value = infamy
+	
+	divide = 50
+}
+
 sprawl_get_multiplier = {
 	value = country_and_subjects_states
 	

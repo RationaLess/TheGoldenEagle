@@ -1,4 +1,30 @@
 ﻿l_english:
+    
+ urban_space:"Urban Space"
+ maize:"Maize"
+ wooden_weapons:"Wooden Weapons"
+ obsidian_weapons:"Obsidian Weapons"
+ cotton:"Cotton"
+ jewelry:"Jewelry"
+ limestone:"Limestone"
+ cocoa:"Cocoa"
+ animal_skin:"Animal Skin"
+ obsidian:"Obsidian"
+ worship:"Worship"
+ feathers:"Feathers"
+ 
+ merchants_no_icon:"Merchants"
+ nobles_no_icon:"Nobles"
+ scholars_no_icon:"Scholars"
+ artisans_no_icon:"Artisans"
+ priests_no_icon:"Priests"
+ warriors_no_icon:"Warriors"
+ architects_no_icon:"Architects"
+ freemen_no_icon:"Freemen"
+ chiefs_no_icon:"Chiefs"
+  
+ 
+
  building_temple:"Temple"
  building_temple_lens_option:"Expand $building_temple$"
  building_clothing_workshop:"Clothing Workshop"
@@ -17,6 +43,14 @@
  building_mudbrick_furnace:"Mudbrick Furnaces"
  building_mudbrick_furnace_lens_option:"Expand $building_mudbrick_furnace$"
  
+ building_limestone_mine:"Limestone Mines"
+ building_limestone_mine_lens_option:"Expand $building_limestone_mine$"
+ building_obsidian_mine:"Obsidian Mines"
+ building_obsidian_mine_lens_option:"Expand $building_obsidian_mine$"
+ building_turquoise_mine:"Turquoise Mines"
+ building_turquoise_mine_lens_option:"Expand $building_turquoise_mine$"
+ building_turquoise_mine:"Turquoise Mines"
+ building_turquoise_mine_lens_option:"Expand $building_turquoise_mine$"
  
  building_cotton_farm:"Cotton Farms"
  building_cotton_farm_lens_option:"Expand $building_cotton_farm$"

@@ -1,0 +1,24 @@
+﻿l_english:
+ 
+ 
+ pmg_workshop_type:"Workshop Type"
+ pm_open_air_workshops:"Open Air Workshops"
+ pm_home_workshops:"Home Workshops"
+ pm_guild_workshops:"Guild Workshops"
+ pm_holding_workshops:"Holding Workshops"
+ pm_factory_workshops:"Factory Workshops"
+ 
+ pmg_organization:"Organization Type"
+ pm_org_dynasty:"Dynasty-Ran"
+ pm_org_calpulli:"Calpulli System"
+ pm_org_religious:"Clergy-Ran"
+ pm_org_imperial:"Officer-Ran"
+ pm_org_state:"State-Ran"
+ 
+ 
+ pmg_base_cocoa:"Cocoa"
+ pm_base_cocoa:"Cocoa Harvesting"
+ pmg_logging:"Logging"
+ pm_logging:"Logging"
+ pmg_base_maize_farm:"Maize Farming"
+ pm_base_maize_farm:"Maize Farming"

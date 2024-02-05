@@ -1,12 +1,9 @@
-﻿
-
-dp_conquer_state = {
+﻿dp_conquer_state = {
 	war_goal = conquer_state
 	
 	texture = "gfx/interface/icons/war_goals/conquer_state.dds"
 	
 	possible = {
-		has_law = law_type:law_territory_acquisition
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
 		NOT = { is_subject_of = scope:target_country }
@@ -109,10 +106,45 @@ dp_independence = {
 
 	on_war_end = {}
 }
-dp_invasion = {
+
+dp_increase_autonomy = {
+	war_goal = increase_autonomy
+	
+	requires_interest_marker = no
+	
+	texture = "gfx/interface/icons/war_goals/increase_autonomy.dds"
+	
+	possible = {
+		is_subject = yes
+	}
+	
+	on_weekly_pulse = {}
+	
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_make_tributary = {	
+	war_goal = make_tributary
+	
+	texture = "gfx/interface/icons/war_goals/make_tributary.dds"
+	
+	possible = {
+		aggressive_diplomatic_plays_permitted = yes	
+	}
+	
+	on_weekly_pulse = {}
+	
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_make_protectorate = {
 	war_goal = make_protectorate
 	
-	texture = "gfx/interface/icons/war_goals/conquer_state.dds"
+	texture = "gfx/interface/icons/war_goals/make_protectorate.dds"
 	
 	possible = {	
 		aggressive_diplomatic_plays_permitted = yes				
@@ -140,32 +172,6 @@ dp_transfer_subject = {
 			NOT = { is_subject_of = root }
 		}
 		diplomatic_play_has_no_relations_blocker_with_overlord = yes			
-	}
-	
-	on_weekly_pulse = {}
-	
-	on_war_begins = {}
-
-	on_war_end = {}
-}
-
-dp_annex_subject = {
-	war_goal = annex_country
-	
-	texture = "gfx/interface/icons/war_goals/annex_country.dds"
-	
-	possible = {
-		
-		NOT = { is_country_type = decentralized }
-		aggressive_diplomatic_plays_permitted = yes
-		scope:target_country = {
-			NOT = { is_country_type = decentralized }
-			is_direct_subject_of = root
-			OR = {
-				has_diplomatic_pact = { who = root type = puppet }
-				has_diplomatic_pact = { who = root type = vassal }
-			}
-		}			
 	}
 	
 	on_weekly_pulse = {}

@@ -14,6 +14,8 @@
 			goods_input_furniture_add = 4
 			goods_input_tools_add = 6
 			goods_input_wood_add = 8
+			
+			goods_output_urban_space_add = 3
 		}
 
 		level_scaled = {
@@ -49,6 +51,8 @@ pm_limestone_buildings = {
 			goods_input_furniture_add = 8
 			goods_input_tools_add = 8
 			goods_input_limestone_add = 5
+			
+			goods_output_urban_space_add = 6
 		}
 
 		level_scaled = {
@@ -85,6 +89,8 @@ pm_mudbrick_buildings = {
 			goods_input_furniture_add = 12
 			goods_input_tools_add = 10
 			goods_input_mudbrick_add = 5
+			
+			goods_output_urban_space_add = 8
 		}
 
 		level_scaled = {

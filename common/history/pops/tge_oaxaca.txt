@@ -282,19 +282,19 @@
 		region_state:NDC = {
 			create_pop = {
 				culture = popoloca
-				size = 15000
+				size = 20000
 				}
 			create_pop = {
 				culture = triqui
-				size = 1000
+				size = 5000
 				}
 			create_pop = {
 				culture = nonoalca
-				size = 1000
+				size = 5000
 				}
 			create_pop = {
 				culture = zapotec
-				size = 500
+				size = 9000
 				}
 		}
 		region_state:TIL = {

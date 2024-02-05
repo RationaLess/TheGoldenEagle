@@ -84,30 +84,15 @@ subject_type_protectorate = {
 	}
 		
 	valid_overlord_country_types = {
-		recognized
-		colonial
 	}
 	
 	valid_subject_country_types = {
-		recognized
-		colonial
-		unrecognized
 	}	
 
 	valid_overlord_ranks = {
-		great_power
-		major_power
-		minor_power
-		minor_power
-		insignificant_power
 	}
 	
 	valid_subject_ranks = {
-		great_power
-		major_power
-		regional_power
-		minor_power
-		insignificant_power
 	}
 	
 	# Multiplies both subject_value and become_subject_value in AI strategies

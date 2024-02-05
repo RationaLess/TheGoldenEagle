@@ -38,7 +38,7 @@ pm_org_city = {
 			building_priests_shares_add = 2
 			building_workforce_shares_add = 2
 			
-			building_throughput_mult = 0.05
+			building_throughput_add = 0.05
 		}
 	}
 }
@@ -64,7 +64,7 @@ pm_org_calpulli = {
 			building_workforce_shares_add = 4
 			building_nobles_shares_add = 6
 			
-			building_throughput_mult = 0.1
+			building_throughput_add = 0.1
 		}
 	}
 }
@@ -86,7 +86,7 @@ pm_org_dynasty = {
 		unscaled = {
 			building_nobles_shares_add = 8
 			
-			building_throughput_mult = 0.15
+			building_throughput_add = 0.15
 		}
 	}
 }
@@ -110,7 +110,7 @@ pm_org_religious = {
 			building_nobles_shares_add = 8
 			building_priests_shares_add = 4
 			
-			building_throughput_mult = 0.15
+			building_throughput_add = 0.15
 		}
 	}
 }
@@ -134,7 +134,7 @@ pm_org_imperial = {
 			building_nobles_shares_add = 6
 			building_officers_shares_add = 4
 			
-			building_throughput_mult = 0.15
+			building_throughput_add = 0.15
 		}
 	}
 }
@@ -161,7 +161,111 @@ pm_org_state = {
 			building_bureaucrats_shares_add = 4
 			building_nobles_shares_add = 2
 			
-			building_throughput_mult = 0.25
+			building_throughput_add = 0.25
+		}
+	}
+}
+
+
+#Workshop Types
+
+
+pm_open_air_workshops = {
+	texture = "gfx/interface/icons/production_method_icons/base_1.dds"
+	
+	
+	unlocking_laws = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			goods_input_urban_space_add = 0
+			}
+
+		unscaled = {
+			building_throughput_add = -0.2
+			
+		}
+	}
+}
+pm_home_workshops = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base_2.dds"
+	
+	unlocking_technologies = {
+		artisanship
+	}
+	unlocking_laws = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			goods_input_urban_space_add = 1
+			}
+
+		unscaled = {
+			
+		}
+	}
+}
+pm_guild_workshops = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base_3.dds"
+	
+	unlocking_technologies = {
+		merchant_guilds
+	}
+	
+	unlocking_laws = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			goods_input_urban_space_add = 2
+			}
+
+		unscaled = {
+			building_throughput_add = 0.1
+			
+		}
+	}
+}
+pm_holding_workshops = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	
+	unlocking_technologies = {
+		artisan_holdings
+	}
+	
+	unlocking_laws = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			goods_input_urban_space_add = 4
+			}
+
+		unscaled = {
+			building_throughput_add = 0.25
+			
+		}
+	}
+}
+pm_factory_workshops = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	
+	unlocking_technologies = {
+		basic_machining
+	}
+	unlocking_laws = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			goods_input_urban_space_add = 8
+			}
+
+		unscaled = {
+			building_throughput_add = 0.5
+			
 		}
 	}
 }

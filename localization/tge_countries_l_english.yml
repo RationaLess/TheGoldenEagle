@@ -124,6 +124,19 @@
  TPCC:"Tepecoacuilco"
  TPCC_ADJ:"Tepecoacuilco"
 
+ #Veracruz
+ COTZ:"Coatzacoalco"
+ COTZ_ADJ:"Coatzacoalco"
+ MAPA:"Mapastepec"
+ MAPA_ADJ:"Mapastepec"
+ HUVE:"Huave"
+ HUVE_ADJ:"Huave"
+ TACH:"Tapachula"
+ TACH_ADJ:"Tapachula"
+ PTHU:"Pontehuitz"
+ PTHU_ADJ:"Pontehuitz"
+ QUEC:"Quechula"
+ QUEC_ADJ:"Quechula"
  
  #Michoacan
  TARA:"Tarascan Empire"

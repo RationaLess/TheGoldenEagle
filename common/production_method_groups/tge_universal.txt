@@ -12,3 +12,15 @@
 		pm_org_state
 	}
 }
+pmg_workshop_type = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_open_air_workshops
+		pm_home_workshops
+		pm_guild_workshops
+		pm_holding_workshops
+		pm_factory_workshops
+	}
+}

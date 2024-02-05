@@ -184,6 +184,16 @@ fruit = {
 # INDUSTRIAL #
 ##############
 
+
+urban_space = {
+	texture = "gfx/interface/icons/goods_icons/urbanspace.dds"
+	cost = 20
+	category = industrial
+	tradeable = no
+	local = yes
+	prestige_factor = 1
+}
+
 clay = {
 	texture = "gfx/interface/icons/goods_icons/gold.dds"
 	cost = 20

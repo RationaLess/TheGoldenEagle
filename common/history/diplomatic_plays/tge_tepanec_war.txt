@@ -7,7 +7,7 @@
 			
 			war = yes
 			
-			type = dp_invasion
+			type = dp_make_tributary
 		
 			
 			add_initiator_backers = { 
@@ -17,12 +17,12 @@
 		
 			add_war_goal = {
 				holder = c:AZC
-				type = make_puppet
+				type = dp_make_tributary
 				target = c:ATA
 			}	
 			add_war_goal = {
 				holder = c:AZC
-				type = make_puppet
+				type = dp_make_tributary
 				target = c:CHA
 			}			
 		}	

@@ -712,21 +712,21 @@ TUXP = { #TUXPAN
 color = rgb { 59 191 99 }
 tier = duchy
 country_type = recognized
-cultures = { otomi }
+cultures = { huastec }
 capital = STATE_TUXPAN
 } 
 IXAC = { #IXACTEPEC
 color = rgb { 107 176 128 }
 tier = duchy
 country_type = recognized
-cultures = { otomi }
+cultures = { huastec }
 capital = STATE_IXACTEPEC
 } 
 OLUZ = { #oluzuama
 color = rgb { 31 148 66 }
 tier = duchy
 country_type = recognized
-cultures = { otomi }
+cultures = { huastec }
 capital = STATE_OLUZUAMA
 } 
 

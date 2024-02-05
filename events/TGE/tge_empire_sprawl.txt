@@ -20,6 +20,7 @@ empire_sprawl.1 = {
 	duration = 3
 	
 	trigger = {
+		empire_sprawl_deficit > 0.2
 		any_country = {
 			is_subject_type = subject_type_tributary
 			is_subject_of = root
@@ -100,6 +101,7 @@ empire_sprawl.2 = {
 	duration = 3
 	
 	trigger = {
+		empire_sprawl_deficit > 0.5
 		any_country = {
 			is_subject_type = subject_type_tributary
 			is_subject_of = root
@@ -184,6 +186,7 @@ empire_sprawl.3 = {
 	duration = 3
 	
 	trigger = {
+		empire_sprawl_deficit > 0.2
 		any_interest_group = {
 			is_in_government = yes
 		}
@@ -242,7 +245,7 @@ empire_sprawl.4 = { #Reputation Hit
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	trigger = {
-		
+		empire_sprawl_deficit > 0.2
 	}
 
 	immediate = {
@@ -261,7 +264,7 @@ empire_sprawl.4 = { #Reputation Hit
 		add_radicals = {
 			value = 0.05
 			}
-		change_infamy = 5
+		change_infamy = 2
 		capital = {
 			add_loyalists = {
 				value = 0.05
@@ -315,6 +318,7 @@ empire_sprawl.5 = {
 	duration = 3
 	
 	trigger = {
+		empire_sprawl_deficit > 0.2
 	}
 
 	immediate = {
@@ -362,6 +366,7 @@ empire_sprawl.6 = {
 	duration = 3
 	
 	trigger = {
+		empire_sprawl_deficit > 0.5
 		any_rival_country = {
 			is_adjacent_to_country = ROOT
 			}

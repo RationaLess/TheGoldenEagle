@@ -32,34 +32,28 @@ on_monthly_pulse_country = {
 			
 			}
 		}
-		#Severe Sprawl
-		ELSE_IF = {
-			limit = {
-				empire_sprawl_deficit > 0.5
-			}
-			random_events = {
-			90 = 0
-			1 = empire_sprawl.2
-			1 = empire_sprawl.6
-			
-			}
-		}
-		#High Sprawl
-		ELSE_IF = {
-			limit = {
-				empire_sprawl_deficit > 0.2
-			}
-			random_events = {
-			90 = 0
-			1 = empire_sprawl.1
-			1 = empire_sprawl.3
-			1 = empire_sprawl.4
-			1 = empire_sprawl.5
-			}
-		}
 		
 		
 	}
+	#Empire Sprawl Events 
+	random_events = {
+		50 = 0
+		
+		#Critical Sprawl 
+		1 = empire_sprawl.2
+		1 = empire_sprawl.6
+		
+		
+		#High Sprawl 
+		1 = empire_sprawl.1
+		1 = empire_sprawl.3
+		1 = empire_sprawl.4
+		1 = empire_sprawl.5
+		
+		
+		}
+	
+	
 	# Election Events
 	random_events = {
 		50 = 0
@@ -181,7 +175,7 @@ on_yearly_pulse_country = {
 							save_scope_as = imperial_copilot_target
 						}
 					create_diplomatic_play = {
-							type = dp_invasion
+							type = dp_make_tributary
 							target_country = scope:imperial_copilot_target
 							
 							add_war_goal = {

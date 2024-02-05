@@ -68,7 +68,8 @@ base_values = {
 	state_urbanization_per_level_add = 100
 	
 	country_disallow_migration = no
-	
+	country_subsidies_all = yes
+
 	state_conscription_rate_add = 0.2
 	
 }

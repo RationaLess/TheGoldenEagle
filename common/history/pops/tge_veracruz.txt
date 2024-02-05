@@ -35,7 +35,7 @@
 				}
 			create_pop = {
 				culture = tepehua				
-				size = 9000
+				size = 15000
 				}
 		}
 	}
@@ -69,19 +69,92 @@
 		region_state:HUT = {
 			create_pop = {
 				culture = totonac
-				size = 19000
+				size = 33000
 				}
 			create_pop = {
 				culture = popoloca
-				size = 14000
+				size = 19000
 				}
 		}
 	}
 	
-	
+	#Popoloca minors
+	s:STATE_TEPEACA = {
+		region_state:TTN = {
+			create_pop = {
+				culture = popoloca
+				size = 48000
+				}
+			create_pop = {
+				culture = totonac
+				size = 4000
+				}
+		}
+		region_state:ICH = {
+			create_pop = {
+				culture = popoloca
+				size = 22000
+				}
+			create_pop = {
+				culture = totonac
+				size = 12000
+				}
+			create_pop = {
+				culture = mazatec
+				size = 2500
+				}
+		}
+		region_state:TCL = {
+			create_pop = {
+				culture = popoloca
+				size = 20000
+				}
+			create_pop = {
+				culture = mazatec
+				size = 1000
+				}
+			create_pop = {
+				culture = nonoalca
+				size = 15000
+				}
+		}
+	}
 	
 	#Popoloca Minors
 	
+	s:STATE_COATZACOALCO = {
+		region_state:COTZ = {
+			create_pop = {
+				culture = popoloca
+				size = 39000
+				}
+			create_pop = {
+				culture = mixe
+				size = 20000
+				}
+		}
+		region_state:COAT = {
+			create_pop = {
+				culture = mixe
+				size = 22000
+				}
+			create_pop = {
+				culture = zoque
+				size = 10000
+				}
+		}
+		region_state:GUIC = {
+			create_pop = {
+				culture = mixe
+				size = 27000
+				}
+			create_pop = {
+				culture = zoque
+				size = 10000
+				}
+		}
+	}
+		
 	s:STATE_PUCTLAN = {
 		region_state:PUC = {
 			create_pop = {
@@ -103,20 +176,21 @@
 				size = 6000
 				}
 		}
+		region_state:TXT = {
+			create_pop = {
+				culture = chinantec
+				size = 36000
+				}
+			create_pop = {
+				culture = mixe
+				size = 18000
+				}
+		}
 	}
 	
 	#Chinantec
 	s:STATE_TUXTEPEC = {
-		region_state:TXT = {
-			create_pop = {
-				culture = chinantec
-				size = 12000
-				}
-			create_pop = {
-				culture = mixe
-				size = 4000
-				}
-		}
+		
 	}
 	
 	#Mazatec
@@ -128,11 +202,11 @@
 				}
 			create_pop = {
 				culture = popoloca
-				size = 2000
+				size = 9000
 				}
 			create_pop = {
 				culture = nonoalca
-				size = 1000
+				size = 6000
 				}
 		}
 		region_state:TTP = {

@@ -12,6 +12,10 @@ GLOBAL = {
 			name = civilization_level
 			value = 0
 			}
+		set_variable = {
+			name = confederations_num
+			value = 0
+			}
 	
 	
 		IF = {

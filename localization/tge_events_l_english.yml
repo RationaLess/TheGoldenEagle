@@ -88,23 +88,26 @@
  
  empire_sprawl.3.t:"High Sprawl - Blame"
  empire_sprawl.3.d:"The [SCOPE.gsInterestGroup('blamed_group').GetName] style of governance has been receiving a lot of criticism due to issues regarding our [concept_empire_sprawl]."
+ empire_sprawl.3.f:"\"Had the Toltecs been so incompetent in their rule, we wouldn't even utter their name today. What do the [SCOPE.gsInterestGroup('blamed_group').GetName] think will happen to us if we keep this up?\""
  empire_sprawl.3.a:"They are an useful scapegoat."
  empire_sprawl.3.b:"[ROOT.GetCountry.GetName] is broadly to blame."
  
  empire_sprawl.4.t:"High Sprawl - Reputation"
  empire_sprawl.4.d:"[SCOPE.sCharacter('scope_ruler').GetFullName] has become increasingly mocked in our imperial fringes, with the worst of the rumors having spread to [SCOPE.sState('capital_scope').GetName]."
- empire_srpawl.4.a:"If they want a tyrant, they can get one."
- empire_srpawl.4.b:"The opinion of commoners concerns us how?"
+ empire_sprawl.4.f:"\"[SCOPE.sCharacter('scope_ruler').GetFullName]? Some call [SCOPE.sCharacter('scope_ruler').GetHerHim] a bastard, but that's just the beginning of it. Were I to list all of [SCOPE.sCharacter('scope_ruler').GetHerHis] crimes, we'd be here all day....\""
+ empire_sprawl.4.a:"If they want a tyrant, they can get one."
+ empire_sprawl.4.b:"The opinion of commoners concerns us how?"
  
  empire_sprawl.5.t:"High Sprawl - Trade"
  empire_sprawl.5.d:"[ROOT.GetCountry.GetName] has inspired cautionary tales among taders, calling our routes undefended and unsafe."
- empire_srpawl.5.a:"A few traders are of no concern to us."
- empire_srpawl.5.b:"Sweeten the deal for them!"
+ empire_sprawl.5.f:"\"The jewelry traders from up north have not come this year, for what's the point of making great riches off of barter if the yield will be looted on your way back?\"" 
+ empire_sprawl.5.a:"A few traders are of no concern to us."
+ empire_sprawl.5.b:"Sweeten the deal for them!"
  
  empire_sprawl.6.t:"Critical Sprawl - Territory"
  empire_sprawl.6.d:"With our [concept_empire_sprawl] highly unmanagable, more and more [SCOPE.sCountry('rival_scope').GetName] warriors have been seen in our territories."
- empire_srpawl.6.a:"Ambush them."
- empire_srpawl.6.b:"Increasingly patrol core territories."
+ empire_sprawl.6.a:"Ambush them."
+ empire_sprawl.6.b:"Increasingly patrol core territories."
  
  
  

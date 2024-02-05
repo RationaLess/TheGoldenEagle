@@ -26,12 +26,12 @@ pm_urban_sprawl = {
 	
 	building_modifiers = { 
 		workforce_scaled = {
-			
+			goods_output_urban_space_add = 2
 		}
 
 		level_scaled = {
-			building_employment_bureaucrats_add = 5
-			building_employment_freemen_add = 20
+			building_employment_bureaucrats_add = 15
+			building_employment_architects_add = 10
 		}
 		
 		unscaled = {
@@ -431,7 +431,7 @@ pm_luxury_housing = {
 
 ######
 
-pm_home_workshops = {
+pm_home_workshops_old = {
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
 	
 	unlocking_technologies = { 
