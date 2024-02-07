@@ -60,6 +60,27 @@
  entrenched_dynasts_negotiation_button_desc:"If the nobility is sufficiently satisfied, we may be able to strike a deal with them."
  
  
+ #Fading Hegemon 
+ je_fading_hegemon:"Fading Hegemon"
+ je_fading_hegemon_reason:"Our vassal network has grown far too large for us to manage. If we do not do anything about it, our sphere of influence will surely collapse."
+ modifier_fading_hegemon:"Fragile Emperor"
+ empire_sprawl_ratio_greater_than_0:"We have positive [concept_empire_sprawl]"
+ empire_sprawl_ratio_smaller_than_0.5:"Our [concept_empire_sprawl] deficit is greater than 50%"
+ button_used:"Have not already used this button"
+ fading_hegemon_give_up_vassals_button:"Give Up Vassals"
+ fading_hegemon_give_up_vassals_button_desc:"As a last resort, we can grant independence to our vassals."
+ fading_hegemon_lead_by_example_button:"Lead by Example"
+ fading_hegemon_lead_by_example_button_desc:"Our leader could pull his weight in order to inspire loyalty in our client states."
+ fading_hegemon_promote_stability_button:"Promote Stability"
+ fading_hegemon_promote_stability_button_desc:"At a time like this, those loyal to our crown should contribute to stabilizing the situation."
+ fading_hegemon_foster_loyalty_button:"Foster Loyalty"
+ fallen_sovereign:"Fallen Sovereign"
+ risen_sovereign:"Risen Sovereign"
+ modifier_inspired_loyalty:"Inspired Loyalty"
+ modifier_leading_by_example:"Leading by Example"
+ 
+ 
+ 
  #Other
  je_urbanization_efforts:0 "Urbanization Efforts"
  je_urbanization_efforts_reason:1 "Large urban centers spread their influence through trade, art, commodities and wealth. If we manage to turn our capital into such a metropolis, the old guard will have no choice but to endorse this kind of innovation."

@@ -41,8 +41,6 @@ base_values = {
 	
 	state_unincorporated_starting_wages_mult = -0.15 # To balance for unincorporated states not paying taxes
 	
-	country_suppression_ig_attraction_mult = -0.5
-	country_promotion_ig_attraction_mult = 0.5
 	
 	
 	

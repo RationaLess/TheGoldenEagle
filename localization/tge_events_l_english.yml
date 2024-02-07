@@ -75,6 +75,7 @@
  revolt.1.b:"We might need all the help we can get."
  
  
+ 
  #Empire Sprawl Events
  empire_sprawl.1.t:"High Sprawl - Untaxed"
  empire_sprawl.1.d:"Our [concept_empire_sprawl] has made the collection of tribute harder, leading to [SCOPE.sCountry('subject_scope').GetName] skipping paying it alltogether."
@@ -111,6 +112,21 @@
  
  
  
+ fading_hegemon.1.t:"Fading Hegemon"
+ fading_hegemon.1.d:"Our vassal network has been streched thin to the point of breaking. If we do nothing about our [concept_empire_sprawl], [ROOT.GetCountry.GetName] is sure to enter a dark era."
+ fading_hegemon.1.f:"Who is to say that [SCOPE.sCountry('random_subject').GetName] cannot ally her neighbors and then march and seize our capital by tomorrow?"
+ fading_hegemon.1.a:"We will yet recover from this."
+ 
+ fading_hegemon.2.t:"The fall of [ROOT.GetCountry.GetName]"
+ fading_hegemon.2.d:"[ROOT.GetCountry.GetName] has lost it's claim to civilization and empirehood."
+ fading_hegemon.2.f:"And so, the story of the young empire ends."
+ fading_hegemon.2.a:"We have fallen."
+ 
+ 
+ fading_hegemon.3.t:"Rebirth of [ROOT.GetCountry.GetName]"
+ fading_hegemon.3.d:"[ROOT.GetCountry.GetName] has managed to stabilize the troubles with it's vassal network."
+ fading_hegemon.3.f:"When they remember us, they won't just recall our battles or our temples. They will recall the strife."
+ fading_hegemon.3.a:"We have risen."
  
  
  formalize_the_realm.1.t:"Duty of a Nation"

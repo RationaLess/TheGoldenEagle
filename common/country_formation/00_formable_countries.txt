@@ -192,6 +192,21 @@ TPNP = {
 	ai_will_do = { always = yes }
 }
 
+TRHR = {
+	states = {
+		STATE_TOTONACAPAN
+		STATE_HUAYACOCOTLA
+	}
+	
+	required_states_fraction = 1
+	
+	
+	possible = {
+	}
+	
+	ai_will_do = { always = yes }
+}
+
 HTLD = {
 	states = {
 		STATE_TEOTIHUACAN 

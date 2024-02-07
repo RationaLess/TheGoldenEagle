@@ -17,12 +17,12 @@
 		
 			add_war_goal = {
 				holder = c:AZC
-				type = dp_make_tributary
+				type = make_tributary
 				target = c:ATA
 			}	
 			add_war_goal = {
 				holder = c:AZC
-				type = dp_make_tributary
+				type = make_tributary
 				target = c:CHA
 			}			
 		}	

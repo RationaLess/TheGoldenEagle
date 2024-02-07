@@ -153,6 +153,35 @@ hands_off_dynasts = {
 	state_rich_expected_sol = -2
 }
 
+#Fading Hegemon
+modifier_fading_hegemon = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_prestige_mult = -0.5
+	country_law_enactment_time_mult	= 1
+}
+modifier_leading_by_example = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_yes.dds
+	country_empire_sprawl_capacity_mult = 0.2
+}
+modifier_inspired_loyalty = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_yes.dds
+	country_empire_sprawl_load_mult = -0.15
+}
+fallen_sovereign = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	
+	country_empire_sprawl_capacity_mult = -0.5
+	country_prestige_mult = -1
+	country_radicals_from_legitimacy_mult = 0.5
+	country_legitimacy_base_add = -25
+	
+	}
+risen_sovereign = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	
+	country_empire_sprawl_capacity_mult = 1
+	}
+
 #texcoco struggle
 texcoco_turmoil = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds

@@ -80,3 +80,122 @@ entrenched_dynasts_negotiation_button = {
 		base = 100
 	}
 }
+
+
+fading_hegemon_give_up_vassals_button = {
+	name = "fading_hegemon_give_up_vassals_button"
+	desc = "fading_hegemon_give_up_vassals_button_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		any_country = {
+			is_subject_of = ROOT
+		}
+		
+	}
+
+	effect = {
+		every_country = {
+			limit = {
+			is_subject_of = ROOT 
+			}
+			make_independent = yes
+		}
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}
+fading_hegemon_lead_by_example_button = {
+	name = "fading_hegemon_lead_by_example_button"
+	desc = "fading_hegemon_lead_by_example_button_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		custom_tooltip = {
+			text = button_used
+			NOT = { has_variable = lead_by_example_used } 
+		}
+		ruler = {
+			popularity >= 75
+		}
+	}
+
+	effect = {
+		add_modifier = {
+			name = modifier_leading_by_example
+			months = 120
+		}
+		hidden_effect = {
+			set_variable = { name = lead_by_example_used years = 10 }
+		}
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+fading_hegemon_promote_stability_button = {
+	name = "fading_hegemon_promote_stability_button"
+	desc = "fading_hegemon_promote_stability_button_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		custom_tooltip = {
+			text = button_used
+			NOT = { has_variable = promote_stab_used } 
+		}
+		capital = {
+			loyalty > 0.2
+		}
+		
+	}
+
+	effect = {
+		
+		add_modifier = {
+			name = modifier_promoted_stability
+			months = 120
+		}
+		hidden_effect = {
+			set_variable = { name = promote_stab_used years = 10 }
+		}
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+fading_hegemon_foster_loyalty_button = {
+	name = "fading_hegemon_foster_loyalty_button"
+	desc = "fading_hegemon_foster_loyalty_button_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		
+		custom_tooltip = {
+			text = button_used
+			NOT = { has_variable = foster_loy_used } 
+		}
+		legitimacy > 80
+	}
+
+	effect = {
+		
+		hidden_effect = {
+			set_variable = { name = foster_loy_used years = 10 }
+		}
+		add_loyalists = {
+			value = 0.1
+		}	
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}

@@ -1,0 +1,79 @@
+﻿je_fading_hegemon = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	group = je_group_crises 
+	
+	
+	scripted_button = fading_hegemon_give_up_vassals_button
+	scripted_button = fading_hegemon_lead_by_example_button
+	scripted_button = fading_hegemon_promote_stability_button
+	scripted_button = fading_hegemon_foster_loyalty_button
+	
+is_shown_when_inactive = {
+		
+		NOT = {
+			has_law = law_type:law_bureaucratic_government
+			has_law = law_type:law_dedicated_government
+			}
+		
+		
+	
+	}
+
+
+possible = { 
+		
+		custom_tooltip = {
+			text = empire_sprawl_ratio_smaller_than_0.5
+			empire_sprawl_deficit > 0.5
+		}
+		
+		any_country = {
+				count >= 5
+				is_subject_of = ROOT
+				}
+		
+		
+		
+	}
+
+complete = {
+		OR = {
+			custom_tooltip = {
+				text = empire_sprawl_ratio_greater_than_0
+				empire_sprawl_deficit = 0
+			}
+			OR = {
+				has_law = law_type:law_bureaucratic_government
+				has_law = law_type:law_dedicated_government
+			}
+		}
+		
+	}
+
+on_complete = {
+		trigger_event = { id = fading_hegemon.3 }
+	}
+
+timeout = 3600
+
+on_timeout = {
+		trigger_event = { id = fading_hegemon.2 }
+	}
+
+immediate = {
+	 trigger_event = { id = fading_hegemon.1 }
+	}
+
+should_be_pinned_by_default = yes
+
+
+
+modifiers_while_active = {
+		modifier_fading_hegemon
+	}
+
+
+}
+
+

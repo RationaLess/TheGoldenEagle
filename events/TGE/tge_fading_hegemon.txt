@@ -1,0 +1,128 @@
+﻿namespace = fading_hegemon
+
+
+fading_hegemon.1 = {
+	type = state_event # can be country_event, character_event, or state_event
+	placement = root
+	title = fading_hegemon.1.t
+	desc = fading_hegemon.1.d
+	flavor = fading_hegemon.1.f
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	
+	duration = 3
+	
+	immediate = {
+		any_country = {
+			limit = {
+			is_subject_of = ROOT
+			}
+			save_scope_as = random_subject
+		}
+    }
+    
+    trigger = {
+        always = no
+	}
+
+	event_image = {
+		texture = "gfx/event_pictures/crisis_meso.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = ""
+
+	option = {
+		name = fading_hegemon.1.a
+		default_option = yes
+		
+    }
+}
+
+fading_hegemon.2 = {
+	type = state_event # can be country_event, character_event, or state_event
+	placement = root
+	title = fading_hegemon.2.t
+	desc = fading_hegemon.2.d
+	flavor = fading_hegemon.2.f
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	
+	duration = 3
+	
+	immediate = {
+		any_country = {
+			limit = {
+			is_subject_of = ROOT
+			}
+			save_scope_as = random_subject
+		}
+    }
+    
+    trigger = {
+        always = no
+	}
+
+	event_image = {
+		texture = "gfx/event_pictures/crisis_meso.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = ""
+
+	option = {
+		name = fading_hegemon.2.a
+		default_option = yes
+		
+		add_modifier = {
+			name = fallen_sovereign
+			months = 480
+			decaying = yes
+		}
+		
+		every_country = {
+		
+			limit = {
+			is_subject_of = ROOT 
+			}
+		make_independent = yes 
+		
+		}
+    }
+}
+
+
+fading_hegemon.3 = {
+	type = state_event # can be country_event, character_event, or state_event
+	placement = root
+	title = fading_hegemon.3.t
+	desc = fading_hegemon.3.d
+	flavor = fading_hegemon.3.f
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	
+	duration = 3
+	
+	immediate = {
+    }
+    
+    trigger = {
+        always = no
+	}
+
+	event_image = {
+		texture = "gfx/event_pictures/festival_meso.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = ""
+
+	option = {
+		name = fading_hegemon.3.a
+		default_option = yes
+		
+		add_modifier = {
+			name = risen_sovereign
+			months = 120
+			decaying = yes
+		}
+		
+    }
+}
