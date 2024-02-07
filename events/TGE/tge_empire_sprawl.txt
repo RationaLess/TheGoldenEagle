@@ -42,7 +42,7 @@ empire_sprawl.1 = {
 		
 		create_incident	 = {
 			country = scope:subject_scope
-			value = 5
+			value = 2
 			}
 		
 		change_relations = {
@@ -124,7 +124,7 @@ empire_sprawl.2 = {
 		
 		create_incident	 = {
 			country = scope:subject_scope
-			value = 10
+			value = 5
 			}
 		
 		change_relations = {

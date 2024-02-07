@@ -68,6 +68,21 @@ cultures = { nahua }
 capital = STATE_TEPELCATEPEC
 }
 
+#Huaxyacac
+
+
+HUAX = { #Huaxyacac
+
+color = rgb { 77 214 164 }
+
+tier = empire
+
+country_type = recognized
+
+cultures = { mixtec zapotec }
+
+capital = STATE_TUTUTEPEC
+}
 
 
 #Cultural Formables
@@ -75,7 +90,7 @@ MIXT = { #Mixtecapan
 
 color = rgb { 61 177 255 }
 
-tier = empire
+tier = kingdom
 
 country_type = recognized
 
@@ -87,7 +102,7 @@ ZAPO = { #Zapotecapan
 
 color = rgb { 47 133 16 }
 
-tier = empire
+tier = kingdom
 
 country_type = recognized
 
@@ -95,13 +110,78 @@ cultures = { zapotec }
 
 capital = STATE_ZAACHILA
 }
+POPO = { #Popoloca
 
+color = rgb { 217 149 54}
+
+tier = kingdom
+
+country_type = recognized
+
+cultures = { popoloca }
+
+capital = STATE_COATZACOALCO
+}
+
+
+NITZ = { #New Itza
+
+color = rgb { 234 255 143 }
+
+tier = kingdom
+
+country_type = recognized
+
+cultures = { huastec }
+
+capital = STATE_HUASTECAPAN
+}
+
+OTOM = { #Otomies
+
+color = rgb { 135 0 189 }
+
+tier = kingdom
+
+country_type = recognized
+
+cultures = { otomi }
+
+capital = STATE_OTOMPAN
+}
+
+
+TPNP = { #Tlapanecapan
+
+color = rgb { 230 188 76 }
+
+tier = duchy
+
+country_type = recognized
+
+cultures = { tlapanec }
+
+capital = STATE_COASTAL_MIXTECA
+}
+
+TWCS = { #Two Waters
+
+color = rgb { 29 45 163 }
+
+tier = kingdom
+
+country_type = recognized
+
+cultures = { nahua }
+
+capital = STATE_EAST_TEXCOCO
+}
 
 TRHR = { #Three Hearts
 
 color = rgb { 81 152 214 }
 
-tier = empire
+tier = kingdom
 
 country_type = recognized
 
@@ -109,4 +189,19 @@ cultures = { totonac }
 
 capital = STATE_TOTONACAPAN
 }
+
+HTLD  = { #Empire of the Hot Land
+
+color = rgb { 235 64 52 }
+
+tier = empire
+
+country_type = recognized
+
+cultures = { totonac tepehua }
+
+capital = STATE_TEOTIHUACAN
+} 
+
+
 

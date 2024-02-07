@@ -44,20 +44,42 @@ modifiers_while_active = {
 complete = {
 	
 	
-		OR = {
-			has_law = law_type:law_military_education
+		calc_true_if = {
+			amount >= 2
+			
+			has_law = law_type:law_martial
 			has_law = law_type:law_honorary_titles
+			has_law = law_type:law_imperial_land
+			OR = {
+				has_law = law_type:law_military_education
+				has_law = law_type:law_honorary_titles
+				}
 			}
-		custom_tooltip = {
-			text = je_kindling_the_empire_invasions
-			var:kindling_empire_invasions >= 10
-		}
+		
+			
+			any_country = {
+				count >= 5
+				is_subject_of = ROOT
+				}
+			
+		
+		#custom_tooltip = {
+		#	text = je_kindling_the_empire_invasions
+		#	var:kindling_empire_invasions >= 10
+		#}
 	}
 	
-progressbar = yes 
+#progressbar = yes 
 
 current_value = {
-		value = var:kindling_empire_invasions
+		#value = var:kindling_empire_invasions
+		value = {
+			count = {
+			any_country = {
+					is_subject_of = ROOT
+					}
+			}
+		}
 	}
 	
 goal_add_value = {

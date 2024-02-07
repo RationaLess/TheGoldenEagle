@@ -16,16 +16,16 @@
 	}
 	
 	traits = {
-		ig_trait_beacon_of_knowledge
-		ig_trait_building_civilization
+		ig_trait_beacon_of_civilization
+		ig_trait_heralds_of_knowledge
 		ig_trait_academic_indifference
 	}	
 	
 	on_enable = {
 		
 		ig:ig_scholars = {
-					set_ig_trait = ig_trait:ig_trait_beacon_of_knowledge
-					set_ig_trait = ig_trait:ig_trait_building_civilization
+					set_ig_trait = ig_trait:ig_trait_beacon_of_civilization
+					set_ig_trait = ig_trait:ig_trait_heralds_of_knowledge
 					set_ig_trait = ig_trait:ig_trait_academic_indifference
 				}
 

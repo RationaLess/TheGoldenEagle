@@ -674,7 +674,15 @@ ai_strategy_default = {
 		# 1 level of naval base per 1 million gdp, multiplied by relative incorporated coastal population to total incorporated population
 		add = {
 			value = gdp
-			divide = cached_ai_incorporated_population
+			
+			IF = {
+				limit = {
+					NOT = {
+						cached_ai_incorporated_population = 0
+						}
+					}
+				divide = cached_ai_incorporated_population
+				}
 			multiply = cached_ai_incorporated_coastal_population
 			divide = 10000
 		}			

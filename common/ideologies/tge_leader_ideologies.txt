@@ -30,6 +30,7 @@
 			}
 			add = -75
 		}
+		
 		# what makes a man turn neutral? lust for gold? power? or were you just born with a heart full of neutrality?
 		if = {
 			limit = {
@@ -38,6 +39,17 @@
 				}
 			}
 			add = 1
+		}
+		
+		#Powerful aristocracy has no reason to care
+		if = {
+			limit = {
+			scope:interest_group = {
+					is_interest_group_type = ig_aristocracy
+					is_powerful = yes
+				}
+			}
+		multiply = 5
 		}
 	}
 }
@@ -176,7 +188,110 @@ ideology_leader_populist = {
 	}
 	
 
+ideology_leader_complacent = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_legitimist.dds"
 	
+	character_ideology = yes
+	
+	
+	lawgroup_diplomatic_stance = {
+			law_neutral = strongly_approve 
+			law_appeasing = neutral 
+			law_mercantile = neutral
+			law_bellicose = strongly_disapprove 
+		}
+	lawgroup_crown_authority = {
+		law_unchecked_power = neutral 
+		law_majority_consensus = neutral 
+		law_controlled_courts = neutral
+		law_juidicial_autonomy = neutral
+	}
+	lawgroup_institutionalization = {
+			law_court_government = neutral 
+			law_assembly_government = neutral 
+			law_informal_government = neutral 
+			law_dedicated_government = neutral
+			law_bureaucratic_government = neutral 
+		}
+	
+	
+	
+	
+	possible = {
+		owner = {
+			has_technology_researched = code_of_laws
+		}
+		scope:interest_group = {
+			NOT = {
+				is_interest_group_type = ig_scholars
+			}
+		}
+		
+		}
+	leader_weight = {
+		value = 50	
+		
+		#Angry groups should be more radical 
+		if = {
+			limit = {
+				scope:interest_group = {
+					ig_approval < -5
+				}
+			}
+			add = 50
+		}
+		#Happy groups should be more radical 
+		if = {
+			limit = {
+				scope:interest_group = {
+					ig_approval > 5
+				}
+			}
+			add = 50
+		}
+		
+		#This JE should make it essentially guaranteed
+		if = {
+			limit = {
+			
+			owner = {
+				has_journal_entry = je_entrenched_dynasts
+				}
+			
+			scope:interest_group = {
+					is_interest_group_type = ig_aristocracy
+				}
+			}
+		add = 1000
+		}
+		
+		
+		# Powerful groups should be more radical
+		if = {
+			limit = {
+				scope:interest_group = {
+					is_powerful = yes 
+					NOT = {
+						is_interest_group_type = ig_aristocracy
+						}
+				}
+			}
+			multiply = 0.1
+		}
+		
+		#Powerful aristocracy has no reason to care
+		if = {
+			limit = {
+			scope:interest_group = {
+					is_interest_group_type = ig_aristocracy
+					is_powerful = yes
+				}
+			}
+		multiply = 10
+		}
+	}
+	
+	}
 	
 ideology_leader_empathetic = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_humanitarism.dds"
@@ -184,6 +299,12 @@ ideology_leader_empathetic = {
 	character_ideology = yes
 	
 	
+	lawgroup_diplomatic_stance = {
+			law_neutral = approve 
+			law_appeasing = strongly_approve 
+			law_mercantile = neutral
+			law_bellicose = disapprove 
+		}
 	lawgroup_cultural_acceptance = {
 			law_encomiendas = strongly_disapprove
 			law_cultural_supremacy = disapprove
@@ -433,15 +554,6 @@ ideology_leader_imperialist = {
 			}
 		add = 175
 		}
-		#Aristocrats are more likely to be into building an empire
-		if = {
-			limit = {
-			scope:interest_group = {
-					is_interest_group_type = ig_aristocracy
-				}
-			}
-		add = 50
-		}
 		#Powerful Warrior Guilds help the Imperial cause
 		if = {
 			limit = {
@@ -479,7 +591,7 @@ ideology_leader_imperialist = {
 					ig_approval > 5
 				}
 			}
-			add = 50
+			add = 100
 		}
 		#Boosted by Imperial Fervor
 		if = {
@@ -498,6 +610,16 @@ ideology_leader_imperialist = {
 				}
 			}
 			add = 25
+		}
+		#Powerful aristocracy has no reason to care
+		if = {
+			limit = {
+			scope:interest_group = {
+					is_interest_group_type = ig_aristocracy
+					is_powerful = yes
+				}
+			}
+		multiply = 0
 		}
 	
 	}

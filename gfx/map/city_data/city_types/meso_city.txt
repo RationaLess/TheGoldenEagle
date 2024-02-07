@@ -65,6 +65,9 @@
 	building_clothing_workshop = {"latin_colonial_manufactory_01_mesh"}
 	building_tooling_workshop = {"latin_colonial_manufactory_01_mesh"}
 	building_pottery = {"latin_colonial_manufactory_01_mesh"}
+	building_furniture_workshop = {"latin_colonial_manufactory_01_mesh"}
+	building_jewelry = {"latin_colonial_manufactory_01_mesh"}
+	building_ball_court = {"latin_colonial_manufactory_01_mesh"}
 
 
 	building_suez_canal = {"canal_suezcanal_01_mesh"}

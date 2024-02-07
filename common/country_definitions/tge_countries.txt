@@ -592,7 +592,7 @@ ACPC = { #Acapulco
 color = rgb { 75 79 207 }
 tier = duchy
 country_type = recognized
-cultures = { cuitlaltec }
+cultures = { cuitlatec }
 capital = STATE_ACAPOLCO
 
 country_type = decentralized
@@ -601,7 +601,7 @@ TXTL = { #Tixtla
 color = rgb { 120 122 235 }
 tier = duchy
 country_type = recognized
-cultures = { cuitlaltec }
+cultures = { cuitlatec }
 capital = STATE_TIXTLA
 
 country_type = decentralized
@@ -610,7 +610,7 @@ AYOT = { #Ayotac
 color = rgb { 99 102 242 }
 tier = duchy
 country_type = recognized
-cultures = { cuitlaltec }
+cultures = { cuitlatec }
 capital = STATE_TIXTLA
 
 country_type = decentralized
@@ -619,7 +619,7 @@ NCHI = { #Nochistlan
 color = rgb { 53 56 204 }
 tier = duchy
 country_type = recognized
-cultures = { cuitlaltec }
+cultures = { cuitlatec }
 capital = STATE_NOCHISTLAN
 
 country_type = decentralized
@@ -628,7 +628,7 @@ IXTP = { #ixtapa
 color = rgb { 88 90 219 }
 tier = duchy
 country_type = recognized
-cultures = { cuitlaltec }
+cultures = { cuitlatec }
 capital = STATE_IXTAPA
 
 country_type = decentralized

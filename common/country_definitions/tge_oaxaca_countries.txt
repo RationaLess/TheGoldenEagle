@@ -3,7 +3,7 @@
 
 YDZ = { #YUCU DZAA
 color = rgb { 14 181 178 }
-tier = empire
+tier = duchy
 country_type = recognized
 cultures = { mixtec }
 capital = STATE_TUTUTEPEC
@@ -72,7 +72,7 @@ capital = STATE_JUXTLAHUACA
 
 ZAA = { #ZA'ACHILA
 color = rgb { 58 99 31 }
-tier = empire
+tier = duchy
 country_type = recognized
 cultures = { zapotec }
 capital = STATE_ZAACHILA
@@ -158,14 +158,14 @@ capital = STATE_NDACHJIAN
 }
 YOPI = { #YOPITZINCO
 color = rgb { 171 140 0 }
-tier = kingdom
+tier = principality
 country_type = recognized
 cultures = { tlapanec }
 capital = STATE_YOPITZINCO
 }
 TLAP = { #TLAPAN
 color = rgb { 187 207 109 }
-tier = duchy
+tier = principality
 country_type = recognized
 cultures = { tlapanec }
 capital = STATE_TLAPAN

@@ -12,7 +12,7 @@ TEOTI = {
 		STATE_NORTH_TEXCOCO
 	}
 
-	required_states_fraction = 0.5	
+	required_states_fraction = 0.7	
 	
 	ai_will_do = { always = yes }
 }
@@ -48,6 +48,166 @@ AYI = {
 	}
 	
 	required_states_fraction = 1
+	
+	ai_will_do = { always = yes }
+}
+
+
+#Huaxyacac
+
+MIXT = {
+	states = {
+		STATE_MIXTECA_BAJA
+		STATE_MIXTECA_ALTA
+		STATE_COASTAL_MIXTECA
+		STATE_TLAXIACO
+		STATE_TUTUTEPEC
+	}
+	
+	required_states_fraction = 0.7
+	
+	ai_will_do = { always = yes }
+}
+
+ZAPO = {
+	states = {
+		STATE_MIXTECA_BAJA
+		STATE_POCHOTL
+		STATE_ZAACHILA
+		STATE_MITLA
+		STATE_LAMBITYECO
+		STATE_TEHUANTEPEC
+	}
+	
+	required_states_fraction = 0.7
+	
+	ai_will_do = { always = yes }
+}
+
+HUAX = {
+	states = {
+		STATE_MIXTECA_ALTA
+		STATE_COASTAL_MIXTECA
+		STATE_TUTUTEPEC
+		STATE_TLAXIACO
+		STATE_MIXTECA_BAJA
+		STATE_POCHOTL
+		STATE_ZAACHILA
+		STATE_MITLA
+		STATE_LAMBITYECO
+		STATE_TEHUANTEPEC
+	}
+	
+	required_states_fraction = 0.7
+	
+	
+	possible = {
+		has_technology_researched = group_identity
+	}
+	
+	ai_will_do = { always = yes }
+}
+
+POPO  = {
+	states = {
+		STATE_COATZACOALCO
+		STATE_PUCTLAN
+		STATE_TOTONACAPAN
+		STATE_TEPEACA
+		STATE_PAPALOAPAN
+	}
+	
+	required_states_fraction = 0.8
+	
+	
+	
+	ai_will_do = { always = yes }
+}
+
+NITZ = {
+	states = {
+		STATE_HUASTECAPAN
+	}
+	
+	required_states_fraction = 1
+	
+	
+	
+	ai_will_do = { always = yes }
+}
+
+OTOM = {
+	states = {
+		STATE_OTOMPAN
+		STATE_TOLLAN
+		STATE_NORTH_TEXCOCO
+	}
+	
+	required_states_fraction = 0.6
+	
+	ai_will_do = { always = yes }
+}
+
+TWCS = {
+	states = {
+		STATE_EAST_TEXCOCO
+		STATE_CHALCO
+		STATE_TEOTIHUACAN
+		STATE_TULANCINGO
+		STATE_HUEXOTZINGO
+		STATE_CHOLLOLAN
+		STATE_TEPEACA
+		STATE_TOTONACAPAN
+		STATE_HUAYACOCOTLA
+		STATE_TEPETICPAC
+		STATE_QUIAHUIZTLAN
+		STATE_TIZATLAN 
+		STATE_OCOTELOLCO
+	}
+	
+	required_states_fraction = 0.6
+	
+	ai_will_do = { always = yes }
+}
+
+TEPA = {
+	states = {
+		STATE_WEST_TEXCOCO
+		STATE_XOCHIMILCO
+		STATE_NORTH_TEXCOCO
+	}
+	
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+
+TPNP = {
+	states = {
+		STATE_COASTAL_MIXTECA
+	}
+	
+	required_states_fraction = 1
+	
+	ai_will_do = { always = yes }
+}
+
+HTLD = {
+	states = {
+		STATE_TEOTIHUACAN 
+		STATE_EAST_TEXCOCO
+		STATE_TULANCINGO
+		STATE_OTOMPAN
+		STATE_TOTONACAPAN
+		STATE_HUAYACOCOTLA
+	}
+	
+	required_states_fraction = 0.8
+	
+	
+	possible = {
+		has_technology_researched = group_identity
+	}
 	
 	ai_will_do = { always = yes }
 }

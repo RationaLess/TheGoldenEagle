@@ -20,6 +20,9 @@
  
  ideology_leader_empathetic:"Empathetic"
  ideology_leader_empathetic_desc:"#lore This leader seeks to right the wrongs of society, or so they say.#!"
+ 
+ ideology_leader_complacent:"Complacent"
+ ideology_leader_complacent_desc:"#lore This leader sees nothing wrong with the current state of affairs, leading them to pursue comfort above ambition.#!"
 
   # Interest Group Ideologies
   

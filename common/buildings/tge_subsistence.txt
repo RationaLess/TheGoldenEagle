@@ -66,3 +66,20 @@ building_gathering_grounds_feathers = {
 	min_raise_to_hire = 0.30
 	#slaves_role = freemen
 }
+
+building_gathering_grounds_dyes = {
+	building_group = bg_subsistence_agriculture
+	texture = "gfx/interface/icons/building_icons/gathering_grounds.dds"
+
+	production_method_groups = {
+		pmg_subsistence_gathering
+		pmg_subsistence_hunting
+		pmg_subsistence_dyes
+	}
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
+	min_raise_to_hire = 0.30
+	#slaves_role = freemen
+}

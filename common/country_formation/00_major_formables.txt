@@ -17,39 +17,3 @@
 		has_technology_researched = politics
 	}
 }
-
-MIXT = {
-	use_culture_states = yes
-	
-	is_major_formation = yes
-	
-	#unification_play = dp_unify_germany
-	#leadership_play = dp_leadership_germany
-
-	required_states_fraction = 0.75
-	
-	ai_will_do = { has_technology_researched = historiography }
-
-	possible = {
-		country_has_primary_culture = cu:mixtec
-		has_technology_researched = historiography
-	}
-}
-
-ZAPO = {
-	use_culture_states = yes
-	
-	is_major_formation = yes
-	
-	#unification_play = dp_unify_germany
-	#leadership_play = dp_leadership_germany
-
-	required_states_fraction = 0.75
-	
-	ai_will_do = { has_technology_researched = historiography }
-
-	possible = {
-		country_has_primary_culture = cu:zapotec
-		has_technology_researched = historiography
-	}
-}

@@ -172,8 +172,12 @@
 			owned_provinces = { "x37E929" "x415425" "x415427" "x53EA2B" "x64D210" "x6B7020" "x6C352E" "x91E82A" "x92C41C" "x9B4127" "xB2B41C" "xBB8614" "xC4B020" "xC7AD29" "xD7D029" "xDAF802" "xE1F70A" "xF3401C" "xF4A127" "xF67028" }
 		}
 		create_state = {
+			country = c:TXT
+			owned_provinces = {  "x52E014" "x73E931" "x8E6A04" "x9A4B20" "xC05608" "xD4DF28" "xDE3807" }
+		}
+		create_state = {
 			country = c:AYO
-			owned_provinces = { "x52E014" "x6FC420" "x73E931" "x74A104" "x86351C" "x8E6A04" "x9A4B20" "xA19000" "xB17720" "xC05608" "xD4DF28" "xF07D19" "xFB690B" "xFF5815" }
+			owned_provinces = {  "x6FC420" "x74A104" "x86351C""xA19000" "xB17720"  "xF07D19" "xFB690B" "xFF5815" }
 		}
 	}
 	s:STATE_TEPEACA = {
@@ -214,10 +218,6 @@
 	}
 	###CHINANTEC
 	s:STATE_TUXTEPEC = {
-		create_state = {
-			country = c:TXT
-			owned_provinces = {  "x52E014" "x73E931" "x8E6A04" "x9A4B20" "xC05608" "xD4DF28" "xDE3807" }
-		}
 	}
 	
 	#South of Tenochtitlan

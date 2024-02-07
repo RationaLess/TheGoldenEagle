@@ -17,7 +17,7 @@
 		ig:ig_aristocracy = {
 			set_ig_trait = ig_trait:ig_trait_elitism
 			set_ig_trait = ig_trait:ig_trait_dynastic_outreach
-			set_ig_trait = ig_trait:ig_trait_royalist_state
+			set_ig_trait = ig_trait:ig_trait_foreign_envy
 		}
 
 

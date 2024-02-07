@@ -136,6 +136,23 @@ modifier_harmonious_hegemon = {
 	country_loyalists_from_legitimacy_mult = 0.5
 }
 
+#Entrenched Dynasts
+modifier_royal_state = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_prestige_mult = 0.1
+	country_empire_sprawl_capacity_mult = -1
+	country_empire_sprawl_load_mult = 0.5
+	country_law_enactment_time_mult = 0.5
+	country_nobles_pol_str_mult = 0.33
+	state_tax_collection_mult = -0.25
+}
+hands_off_dynasts = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_mult = 0.1
+	country_nobles_pol_str_mult = -0.33
+	state_rich_expected_sol = -2
+}
+
 #texcoco struggle
 texcoco_turmoil = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds

@@ -50,6 +50,16 @@
  je_harmonious_hegemon_reason:"Having become the greatest power in our region while maintaining the respect of our neighbors, we are placed in unique circumstances which are as beneficial as they are fragile."
  modifier_harmonious_hegemon:"Shining Example"
  
+ je_entrenched_dynasts:"Entrenched Dynasts"
+ je_entrenched_dynasts_reason:"Despite our effort to modernize, the nobles of [ROOT.GetCountry.GetName] retain a choking grip on our politics."
+ modifier_royal_state:"State for the Royalty"
+ hands_off_dynasts:"Hands-Off Dynasts"
+ je_entrenched_dynasts_negotiation_trigger:"Has negotiated a deal with the Aristocracy"
+ je_entrenched_dynasts_negotiation_effect:"The Aristocracy will become less involved with the function of the state."
+ entrenched_dynasts_negotiation_button:"Negotiate with the Nobles"
+ entrenched_dynasts_negotiation_button_desc:"If the nobility is sufficiently satisfied, we may be able to strike a deal with them."
+ 
+ 
  #Other
  je_urbanization_efforts:0 "Urbanization Efforts"
  je_urbanization_efforts_reason:1 "Large urban centers spread their influence through trade, art, commodities and wealth. If we manage to turn our capital into such a metropolis, the old guard will have no choice but to endorse this kind of innovation."

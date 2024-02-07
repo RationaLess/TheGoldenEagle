@@ -122,7 +122,7 @@ STATE_NORTH_TEXCOCO = {
 STATE_OTOMPAN = {
     id = 12
     provinces = { "x33A617" "x35CF28" "x39DD0E" "x485B1F" "x494904" "x4B6103" "x56A031" "x5BF728" "x5D992D" "x637508" "x637B18" "x69E60E" "x6ABA1B" "x6CE70E" "x737832" "x73BB2B" "x73BD04" "x77DD08" "x7C5B10" "x81EE08" "x84C904" "x855F21" "xA24307" "xA5FF04" "xB14416" "xB19F04" "xB1F613" "xB23F04" "xB4EC03" "xB5F326" "xBDBA14" "xBF7B19" "xC74208" "xE16D12" "xF3D61D" "xF44204" "xF8DF20" }
-    subsistence_building = "building_gathering_grounds_animal_skin"
+    subsistence_building = "building_gathering_grounds_dyes"
 
 
     arable_land = 10
@@ -937,6 +937,10 @@ STATE_UAYMIL = {
 STATE_YUCATAN = {
     id = 160
     provinces = { "x325032" "x34B71E" "x36CD03" "x386C1D" "x39430A" "x396316" "x423F05" "x426A09" "x44A92E" "x466D0C" "x46C12E" "x4B9D1D" "x4DB70C" "x549101" "x557A16" "x5AF329" "x5DA702" "x5EB20B" "x67660D" "x683F2D" "x69FD2B" "x6DBF31" "x6DFE26" "x6FA428" "x783703" "x7ED414" "x815027" "x81A706" "x81F414" "x829111" "x83C026" "x875F0A" "x8AD014" "x93461D" "x93580F" "x94D02D" "x963300" "x966D0A" "x9AA511" "x9B6823" "x9DD512" "x9F6E29" "xA1A51C" "xA25309" "xA4952C" "xA5880E" "xA6B00B" "xA76126" "xA7EB06" "xACB926" "xACCD12" "xADC320" "xAFE816" "xB37D03" "xB4A01B" "xB6DC26" "xBA7F02" "xBC4D2F" "xC08928" "xC14507" "xC25D24" "xC2D42D" "xC7DA1B" "xCCFE15" "xCDF81A" "xCEB905" "xD2331B" "xD43F32" "xD5641E" "xD65130" "xD7352E" "xDE4804" "xDEE51B" "xE2DD22" "xE5FE28" "xE7D108" "xEAC429" "xEBB921" "xEBC21D" "xECD70B" "xEDFF1D" "xF0B201" "xF36924" "xF43824" "xF5CA31" "xF66B17" "xF84C2A" "xFAB631" "xFC4626" "xFD4E26" }
+	
+	
+    subsistence_building = "building_gathering_grounds_dyes"
+
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
         bg_logging = 25

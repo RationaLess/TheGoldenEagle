@@ -11,9 +11,9 @@ era_3 = { #Classic / less urbanized civilizations are in this era, mesoamerica s
 }
 
 era_4 = { #Postclassic / Anything that the Aztecs managed to achieve on their own
-	technology_cost = 15000 # for progress bonuses, use an approximate third: 5000
+	technology_cost = 100000 # for progress bonuses, use an approximate third: 5000
 }
 
 era_5 = { #Colonial / Anything the europeans brought over or Aztecs could've developed with enough time
-	technology_cost = 30000 # for progress bonuses, use a third: 10000
+	technology_cost = 1000000 # for progress bonuses, use a third: 10000
 }

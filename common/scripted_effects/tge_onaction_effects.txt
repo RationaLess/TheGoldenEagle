@@ -143,7 +143,14 @@ onaction_civilization_level_calc = {
 			every_scope_state = {
 				add = total_urbanization
 				}
-			divide = var:num_of_states
+			IF = {
+				limit = {
+					NOT = {
+						var:num_of_states = 0
+						}
+					}
+				divide = var:num_of_states
+				}
 			divide = 100
 			divide = 100
 			}
@@ -270,14 +277,15 @@ onaction_minor_settlement_spawn = {
 		remove_modifier = state_minor_settlement_modifier
 	}
 	
-	add_modifier = {
-		name = state_minor_settlement_modifier
-		multiplier = settlement_amount
+	IF = {
+		limit = {
+		state_population > 1000
 		}
-	create_building = {
-			building = building_barracks
-			level = 1
+		add_modifier = {
+			name = state_minor_settlement_modifier
+			multiplier = settlement_amount
 			}
+	}
 
 	
 	

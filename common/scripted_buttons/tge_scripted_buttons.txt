@@ -46,3 +46,37 @@ confederation_establish_council_button = {
 		base = 100
 	}
 }
+
+entrenched_dynasts_negotiation_button = {
+	name = "entrenched_dynasts_negotiation_button"
+	desc = "entrenched_dynasts_negotiation_button_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		
+		loyalist_fraction = {
+			value > 0.25
+			strata = rich
+			}
+		ig:ig_aristocracy = {
+					ig_approval >= 10
+			OR = {
+				is_being_suppressed = yes 
+				ig_clout < 0.4
+				}
+			}
+	}
+
+	effect = {
+		custom_tooltip = {
+				text = je_entrenched_dynasts_negotiation_effect
+				set_variable = entrenched_dynasts_negotiation
+			}
+		
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
