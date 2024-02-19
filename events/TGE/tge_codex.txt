@@ -1,0 +1,117 @@
+namespace = codex
+
+
+codex.1 = {
+	type = country_event
+	placement = capital
+
+	title = codex.1.t
+	desc = codex.1.d
+	flavor = codex.1.f
+
+	duration = 3
+
+	gui_window = event_window_1char_tabloid
+
+	left_icon = scope:codex_writer
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+
+	trigger = {
+		
+	}
+
+	immediate = {
+		je:je_codex.var:codex_writer = {
+			save_scope_as = codex_writer
+			}
+		#ig:ig_industrialists = {
+		#	leader = { 
+		#		save_scope_as = university_benefactor
+		#	}
+		capital = {
+			region = {
+				save_scope_as = capital_region_scope
+			}
+		}
+		religion = {
+			save_scope_as = religion_scope
+			}
+	}
+
+	option = {
+			name = codex.1.1
+			default_option = yes
+			ai_chance = 50
+			custom_tooltip = {
+				text = codex_type_origin
+				je:je_codex = {
+					set_variable = {
+						name = codex_type
+						value = 1
+						}
+					
+					}
+				}
+		
+		}
+	option = {
+			name = codex.1.2
+			ai_chance = 50
+			custom_tooltip = {
+				text = codex_type_dynasty
+				je:je_codex = {
+					set_variable = {
+						name = codex_type
+						value = 2
+						}
+					}
+				}
+		
+		}
+	option = {
+			name = codex.1.3
+			ai_chance = 50
+			custom_tooltip = {
+				text = codex_type_region
+				je:je_codex = {
+					set_variable = {
+						name = codex_type
+						value = 3
+						}
+					}
+				}
+		
+		}
+	option = {
+			name = codex.1.4
+			ai_chance = 50
+			custom_tooltip = {
+				text = codex_type_religion
+				je:je_codex = {
+					set_variable = {
+						name = codex_type
+						value = 4
+						}
+				}
+		
+		}
+	option = {
+			name = codex.1.5
+			ai_chance = 50
+			custom_tooltip = {
+				text = codex_type_knowledge
+				je:je_codex = {
+					set_variable = {
+						name = codex_type
+						value = 5
+						}
+					}
+				}
+		
+		}
+}

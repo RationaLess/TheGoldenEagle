@@ -290,6 +290,10 @@
 		effect_starting_laws_mesoamerica_citystate = yes
 		activate_law = law_type:law_mercantile
 		}
+	c:TZSW = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_mercenary = yes
+		}
 	c:IXAC = {
 		effect_starting_technology_mesoamerica_basic = yes
 		effect_starting_laws_mesoamerica_citystate = yes
@@ -452,6 +456,10 @@
 	c:CAIX = {
 		effect_starting_technology_mesoamerica_basic = yes
 		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:AXSP = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_mercenary = yes
 		}
 	c:TAXI = {
 		effect_starting_technology_mesoamerica_basic = yes

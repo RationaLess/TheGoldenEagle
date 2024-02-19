@@ -201,6 +201,20 @@
 				size = 13000
 				}
 		}
+		region_state:TZSW = {
+			create_pop = {
+				culture = nahua 
+				size = 11000
+				}
+			create_pop = {
+				culture = otomi
+				size = 4500
+				}
+			create_pop = {
+				culture = huastec
+				size = 4500
+				}
+		}
 	}
 	s:STATE_HUEXOTZINGO = {
 		region_state:HXZ = {

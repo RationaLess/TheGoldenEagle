@@ -47,7 +47,10 @@ GLOBAL = {
 	}
 	
 	every_state = {
-		onaction_minor_settlement_spawn = yes
+		add_modifier = {
+			name = state_minor_settlement_modifier
+			multiplier = 100
+			}
 		}
 
 	

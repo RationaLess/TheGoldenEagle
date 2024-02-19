@@ -15,7 +15,7 @@ is_shown_when_inactive = {
 
 
 possible = { 
-		at_war = no
+		is_at_war = no
 		has_technology_researched = politics
 		country_rank >= rank_value:major_power
 		OR = {

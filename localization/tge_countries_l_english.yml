@@ -348,7 +348,11 @@
   HTLD:"Empire of the Hot Land"
   HTLD_ADJ:"Totonaca"
   
- 
+  #Mercenary Companies
+  AXSP:"Axolotl Spears"
+  AXSP_ADJ:"Axolotl"
+  TZSW:"Swords of Tezcatlipoca"
+  TZSW_ADJ:"Tezcatlipoca"
  
   # Dynamic countries
   
@@ -376,3 +380,5 @@
   generic_alliance_five_members_adj:"Pentuple Alliance"
   generic_alliance_more_members:"Great Federation"
   generic_alliance_more_members_adj:"Great Federation"
+
+ 

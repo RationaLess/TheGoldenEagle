@@ -35,3 +35,33 @@
   civilization_level_5_showmodifier: "[GetScriptedGui('showmodifier_civilization_level_5').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]\n$TOOLTIP_DELIMITER$"
   
   
+  #Characters
+  LOYALTY:"[concept_loyalty]"
+  
+  LOYAL:"[Concept('concept_loyalty', 'Loyal')]"
+  DISLOYAL:"[Concept('concept_loyalty', 'Disloyal')]"
+  #LOYALTY_BREAKDOWN:"[Character.MakeScope.GetModifier.GetFullEntryDescFor('character_loyalty_add')]"
+  #LOYALTY_BREAKDOWN:""
+  loyalty_50:"has 50 [concept_loyalty]"
+  loyalty_random_loss:"Characters lose a random amount of [concept_loyalty]"
+  new_to_politics:"New to Politics"
+  
+  offer_bribe:"Offer Bribe"
+  bribed:"Bribed"
+  
+  execute:"Order Execution"
+  
+  make_complacent:"Make Complacent"
+  politics_influenced:"Politics Influenced"
+  
+  smear_reputation:"Smear Reputation"
+  ruined_reputation:"Ruined Reputation"
+  smeared_member:"Smeared Member"
+  
+  develop_skills:"Develop Skills"
+  invested_in_skills:"Invested in Skills"
+  
+  commission_codex:"Commission Codex"
+  commission_codex_tooltip:[Character.GetFullName] will be tasked with creating a Codex for us, resulting in various boons of our choice."
+  
+  #LOYALTY_BREAKDOWN:1 "#header [Character.GetFullName]#! has #v [LabelingHelper.GetLabelForPopularityCFixedPoint(Character.GetPopularity)]#! ([Character.GetPopularity|0+=]) [concept_popularity][ConcatIfNeitherEmpty('\n$TOOLTIP_DELIMITER$\n', Character.GetPopularityDesc)]"

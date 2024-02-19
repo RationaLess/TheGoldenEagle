@@ -23,3 +23,25 @@ effect_starting_laws_mesoamerica_citystate = {
 	
 }
 
+effect_starting_laws_mesoamerica_mercenary = {
+	
+	add_journal_entry = { type = je_mercenary_company }
+
+	activate_law = law_type:law_city_state
+	activate_law = law_type:law_martial_rule
+	activate_law = law_type:law_assembly_government
+	activate_law = law_type:law_mercantile
+	activate_law = law_type:law_warrior_guilds
+	
+	activate_law = law_type:law_imperial_rule
+	activate_law = law_type:law_centralized_urban_centers
+	activate_law = law_type:law_goods_as_currency
+	activate_law = law_type:law_local_hegemon
+	
+	activate_law = law_type:law_cultural_primacy
+	activate_law = law_type:law_unchecked_power
+	activate_law = law_type:law_human_sacrifice
+	activate_law = law_type:law_communal_worship
+	activate_law = law_type:law_debt_slavery
+}
+

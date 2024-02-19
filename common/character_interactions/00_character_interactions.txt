@@ -1047,115 +1047,429 @@ return_to_home_country = {
 	}
 }
 
-foster_national_agitation = {
+offer_bribe = {
+	icon = "gfx/interface/icons/law_icons/land_based_taxation.dds"
+	clicksound = "event:/SFX/UI/Military/commander_retire"
+
+
 	potential = {
 		is_in_exile_pool = no
-		has_role = agitator
+		is_ruler = no
+		is_heir = no
 		owner = scope:actor
-		owner = {
-			any_primary_culture = {
-				this = root.culture
+	}
+
+	show_requirements = yes
+
+	possible = {
+		NOT = {
+			OR = {
+				has_trait = ambitious
+				has_trait = pious
+				has_trait = honorable
+				has_trait = imperious
+				}
 			}
-			has_technology_researched = nationalism
+		owner = {
+			gold_reserves > {
+				value = gold_reserves_limit
+				divide = 5
+				}
+			}
+	}
+
+	effect = {
+		owner = {
+			add_treasury = {
+				value = gold_reserves_limit
+				divide = 5
+				multiply = -1
+			}
+		}
+		add_modifier = {
+			name = bribed
+			months = 120	
+		}
+	}
+
+	#cooldown = { months = short_modifier_time }
+
+	ai_chance = {
+		value = 0
+	}
+}
+
+
+make_complacent = {
+	icon = "gfx/interface/icons/law_icons/censorship.dds"
+	clicksound = "event:/SFX/UI/Military/commander_retire"
+
+	potential = {
+		is_in_exile_pool = no
+		is_ruler = no
+		is_heir = no
+		is_agitator = no
+		owner = scope:actor
+		NOT = {
+			has_ideology = ideology:ideology_moderate
+			has_ideology = ideology:ideology_leader_complacent
+			}
+	}
+
+	show_requirements = yes
+
+	possible = {
+		NOT = {
+			OR = {
+				has_trait = ambitious
+				has_trait = meticulous
+				has_trait = brave
+				has_trait = innovative
+				}
+			}
+		custom_tooltip = {
+			text = loyalty_50
+			modifier:character_loyalty_add >= 50
+			
+			}
+	}
+
+	effect = {
+		set_ideology = ideology:ideology_leader_complacent 
+		add_modifier = {
+			name = politics_influenced
+			months = 120
+			}
+	}
+
+	cooldown = { months = short_modifier_time }
+
+	ai_chance = {
+		value = 0
+	}
+}
+
+execute = {
+	clicksound = "event:/SFX/DLC/1.3_ip1/UI/exile_character"
+	icon = "gfx/interface/icons/law_icons/outlawed_dissent.dds"
+	
+	potential = {
+		is_in_exile_pool = no
+		is_in_void = no
+		is_ruler = no
+		is_heir = no
+		# Cannot exile pure commanders, we have the retire interaction for that
+		OR = {
+			has_role = politician
+			has_role = agitator
 		}
 	}
 
 	show_requirements = yes
 
 	possible = {
-		root.culture = {
-			save_temporary_scope_as = agitator_culture
-		}
-		this.interest_group = {
-			is_in_government = yes
-		}
-		any_state = {
-			this.state_region = {
-				is_homeland = root.culture
-			}
-			custom_tooltip = {
-				text = is_rival_of_owner_tt
+		owner = {
+			NOT = {
 				OR = {
-					owner = {
-						has_diplomatic_pact = {
-							who = root.owner
-							type = rivalry
-						}
-					}
-					root.owner = {
-						has_diplomatic_pact = {
-							who = prev.owner
-							type = rivalry
-						}
-					}
+					has_law = law_type:law_human_sacrifice_banned
+					has_law = law_type:law_juidicial_autonomy
 				}
 			}
-			custom_tooltip = {
-				text = not_homeland_of_states_tt
-				owner = {
-					NOR = {
-						this = root.owner
-						any_primary_culture = {
-							this = root.culture
-						}
-					}
-				}
+		}
+		OR = {
+			interest_group = {
+				is_in_government = no
+				is_insurrectionary = no
+				is_marginal = no
 			}
+			has_role = agitator
 		}
 	}
 
 	effect = {
-		root.culture = {
-			save_scope_as = agitation_culture
+		this.interest_group = {
+			save_scope_as = relevant_ig
 		}
-		root.owner = {
-			save_scope_as = agitation_sponsor
+		this = {
+			save_scope_as = execute_scope
+			kill_character = yes
 		}
-		random_state = {
-			limit = {
-				state_region = {
-					is_homeland = root.culture
-				}
-				OR = {
-					owner = {
-						has_diplomatic_pact = {
-							who = root.owner
-							type = rivalry
-						}
-					}
-					root.owner = {
-						has_diplomatic_pact = {
-							who = prev.owner
-							type = rivalry
+		owner = {
+			add_radicals = {
+				interest_group = scope:relevant_ig
+				
+				value = {
+					value = 0.2
+					add = {
+						value = scope:execute_scope.modifier:character_popularity_add
+						divide = 250
 						}
 					}
 				}
-				owner = {
-					NOR = {
-						this = root.owner
-						any_primary_culture = {
-							this = root.culture
-						}
+			change_infamy = {
+				value = 10
+				add = {
+					value = scope:relevant_ig.ig_clout
+					multiply = 50
 					}
 				}
-			}
-			save_scope_as = agitation_state
-			add_radicals_in_state = {
-				culture = root.culture
-				value = large_radicals
-			}
-			owner = {
-				post_notification = nationalism_national_agitation_occurred
-				change_relations = {
-					country = root.owner value = -10
+			ruler = {
+				add_modifier = {
+					name = tyranny
+					months = 120
+					multiplier = {
+						value = 1
+						add = {
+							value = scope:relevant_ig.ig_clout
+							multiply = 10
+							}
+						}
 				}
 			}
+			
 		}
 	}
 
-	cooldown = { months = short_modifier_time }
+	cooldown = { months = normal_modifier_time }
+	show_confirmation_box = yes
 
 	ai_chance = {
-		value = 100
+		value = -50
+		
+		
+		add = {
+			value = get_loyalty
+			multiply = -1
+			}
+		if = {
+			limit = {
+				scope:actor ?= {
+					NOR = {
+						has_law = law_type:law_unchecked_power
+						has_law = law_type:law_controlled_courts
+					}
+				}			
+			}
+			add = -25
+		}
+		if = {
+			limit = {
+				scope:actor ?= {
+					has_law = law_type:law_unchecked_power
+				}			
+			}
+			add = 30
+		}
+		if = {
+			limit = {
+				scope:actor ?= {
+					has_law = law_type:law_controlled_courts
+				}			
+			}
+			add = 15
+		}
+		if = {
+			limit = {
+				scope:actor ?= {
+					has_law = law_type:law_elective
+				}			
+			}
+			add = -100
+		}
+		if = {
+			limit = {
+				scope:actor ?= {
+					has_law = law_type:law_dynastic
+				}			
+			}
+			add = 30
+		}
+		if = {
+			limit = {
+				scope:actor ?= {
+					has_law = law_type:law_strict
+				}			
+			}
+			add = 10
+		}
+		if = {
+			limit = {
+				scope:actor ?= {
+					has_law = law_type:law_meritocratic
+				}			
+			}
+			add = -10
+		}
+		if = {
+			limit = {
+				scope:actor ?= {
+					has_law = law_type:law_juidicial_autonomy
+				}			
+			}
+			add = -20
+		}
+	}
+}
+
+
+smear_reputation = {
+	icon = "gfx/interface/icons/law_icons/no_health_system.dds"
+	clicksound = "event:/SFX/UI/Military/commander_retire"
+
+
+	potential = {
+		is_in_exile_pool = no
+		is_ruler = no
+		is_heir = no
+		owner = scope:actor
+		owner = {
+			has_law = law_type:law_unchecked_power
+			}
+	}
+
+	show_requirements = yes
+
+	possible = {
+		Owner = {
+			has_law = law_type:law_unchecked_power
+		}
+	}
+	
+
+	effect = {
+		this.interest_group = {
+				add_modifier = {
+					name = smeared_member
+					months = 240	
+				}
+			}
+		add_modifier = {
+			name = ruined_reputation
+			months = 480	
+		}
+	}
+
+	cooldown = { months = 120 }
+
+	ai_chance = {
+		value = 0
+	}
+}
+
+
+develop_skills = {
+	icon = "gfx/interface/icons/law_icons/public_schools.dds"
+	clicksound = "event:/SFX/UI/Military/commander_retire"
+
+
+	potential = {
+		is_in_exile_pool = no
+		OR = {
+			is_ruler = yes
+			is_heir = yes
+			is_commander = yes
+			}
+		owner = scope:actor
+	}
+
+	show_requirements = yes
+
+	possible = {
+		OR = {
+			is_ruler = yes
+			is_heir = yes
+			is_commander = yes
+			}
+			calc_true_if = {
+				amount < 2
+				
+				has_trait = expert_offensive_planner 
+				has_trait = expert_defensive_strategist
+				has_trait = expert_naval_commander
+				has_trait = expert_convoy_raider 
+				has_trait = expert_colonial_administrator 
+				has_trait = masterful_diplomat
+				has_trait = expert_political_operator 
+				}
+		
+		owner = {
+			gold_reserves > {
+				value = gold_reserves_limit
+				divide = 5
+				}
+			}
+	}
+	
+
+	effect = {
+		
+			owner = {
+				add_treasury = {
+					value = gold_reserves_limit
+					divide = 5
+					multiply = -1
+				}
+			}
+			add_modifier = {
+				name = invested_in_skills
+				months = 480	
+			}
+		add_random_trait = skill
+	}
+
+	cooldown = { months = 120 }
+
+	ai_chance = {
+		value = -50
+		if = {
+			limit = {
+				is_heir = yes
+			}
+			add = 75
+		}
+	}
+}
+
+
+commission_codex = {
+	icon = "gfx/interface/icons/law_icons/private_schools.dds"
+	clicksound = "event:/SFX/UI/MapLenses/political"
+	show_confirmation_box = yes
+	
+
+	potential = {
+		is_in_exile_pool = no
+		owner = scope:actor
+		OR = {
+			has_trait = poet 
+			has_trait = literary
+			}
+	}
+
+	show_requirements = yes
+
+	possible = {
+		
+		OR = {
+			has_trait = poet 
+			has_trait = literary
+			}
+	}
+	
+
+	effect = {
+		custom_tooltip = {
+		text = commission_codex_tooltip
+		set_variable = codex_writer
+		}
+		owner = {
+			add_journal_entry = { type = je_codex }
+			}
+	}
+
+	cooldown = { months = 600 }
+
+	ai_chance = {
+		value = 0
 	}
 }

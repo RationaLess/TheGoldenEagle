@@ -25,6 +25,12 @@ country_empire_sprawl_load_subject_penalty = {
 	num_decimals = 0
 }
 
+state_empire_sprawl_load_population_cost = {
+	good = no
+	percent = yes
+	num_decimals = 0
+}
+
 country_minor_settlements_per_thousand = {
 	neutral = yes
 	num_decimals = 2
@@ -42,5 +48,10 @@ building_urban_center_throughput_add = {
 	
 building_temple_throughput_add = {
 	percent = yes
+	good = yes
+	}
+
+
+character_loyalty_add = {
 	good = yes
 	}

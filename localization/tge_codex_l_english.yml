@@ -1,0 +1,60 @@
+﻿l_english:
+ #Codex
+ concept_codex:"Codex"
+ concept_codex_desc:"A Codex is a manuscript which contains knowledge.\n\nYou can comission them from Literary [Concept('concept_character','Characters')] or Poets. While being a large time and resource investments, codices offer powerful bonuses as well as grant [concept_prestige] upon completion."
+ 
+ je_codex:"A new Codex"
+ je_codex_reason:"[SCOPE.sCharacter('codex_writer').GetFullName] has been employed to create a codex for us.\n$TOOLTIP_DELIMITER$\n$CODEX_STRING$"
+ 
+ CODEX_STRING:"[SCOPE.GetRootScope.GetCountry.GetCustom('codex_quality_loc')] [SCOPE.GetRootScope.GetCountry.GetCustom('codex_type_loc')]"
+ 
+ #[SCOPE.sCharacter('codex_ruler').GetFullName]. 
+ 
+ codex_type_origin:"This codex will grant us [Concept('concept_loyalist','Loyalists')] and [concept_legitimacy] upon completion."
+ codex_type_dynasty:"This codex will inspire [concept_loyalty] as well as raising the popularity of our [concept_ruler] and [concept_heir]."
+ codex_type_region:"This codex will grant us [concept_relations], as well as lower our [concept_infamy]."
+ codex_type_religion:"This codex will offer instant [concept_conversion], with the possibility of it spreading to other countries."
+ codex_type_knowledge:"This codex will grant us [concept_technology_spread] as well as possibly unlock a random [concept_technology]."
+ 
+ codex_content_origin:"It contains the story of the founding of [Var('codex_country').GetFlagName] "
+ codex_content_dynasty:"It showcases the familial history of [Var('codex_ruler').GetFlagName]."
+ codex_content_region:"It compiles the history of [SCOPE.sStrategicRegion('codex_region').GetName]."
+ codex_content_religion:"It's an accounting of [SCOPE.sReligion('codex_religion').GetName] divine stories."
+ codex_content_knowledge:"It records advancements and theories of it's era."
+ 
+ 
+ codex_factual_1:"It stays largely true to the facts of the matter."
+ codex_factual_2:"It frames facts through religious lens."
+ codex_factual_3:"It makes liberal use of religious motifs."
+ codex_factual_4:"It appears entirely ficticious."
+ 
+ codex_quality_1:"The quality is negligible."
+ codex_quality_2:"The quality is low."
+ codex_quality_3:"The quality is standard."
+ codex_quality_4:"The quality is remarkable."
+ codex_quality_5:"The quality is unprecedented."
+ 
+ codex_prose_direct:"The prose is direct and proffessional."
+ codex_prose_purple:"The prose is ornate and flavorful."
+ codex_prose_dry:"The prose is dry and uninteresting."
+ codex_prose_epic:"The prose is dramatic and intense."
+ 
+ codex_art_weak:"The illustrations are amateurish."
+ codex_art_realistic:"The illustrations try to imitate the human form."
+ codex_art_impresionist:"The illustrations are mostly abstract."
+ codex_art_none:"The codex has little in the way of illustrations."
+ 
+ codex_creator_approves:"[creator] considers it to be their best work."
+ codex_creator_disapproves:"[creator] doesn't think highly of this work."
+ codex_creator_neutral:"[creator] doesn't have any strong feelings on this codex."
+ 
+ 
+ codex.1.t:"A New Story"
+ codex.1.d:"[ROOT.GetCountry.GetName] has comissioned [SCOPE.sCharacter('codex_writer').GetFullName] in order to create a new [concept_codex]."
+ codex.1.f:"The funds and the means have been secured, all that is left is to decide what the codex will depict..."
+ 
+ codex.1.1:"It should depict the founding of [ROOT.GetCountry.GetName]."
+ codex.1.2:"Our focus is [ROOT.GetCountry.GetRuler.GetFullName] and [ROOT.GetCountry.GetRuler.GetHerHis] dynasty."
+ codex.1.3:"A broad history of [SCOPE.sStrategicRegion('capital_region_scope').GetName] shall suffice."
+ codex.1.4:"A recounting of [SCOPE.sReligion('religion_scope').GetName] tradition, please."
+ codex.1.5:"We need something to solidify our knowledge."

@@ -238,14 +238,30 @@ ideology_leader_complacent = {
 					ig_approval < -5
 				}
 			}
-			add = 50
+			add = -50
 		}
-		#Happy groups should be more radical 
+		
+		#Happy groups should be less radical 
 		if = {
 			limit = {
 				scope:interest_group = {
 					ig_approval > 5
 				}
+			}
+			add = 50
+		}
+		
+		
+		#Should be VERY skewed towards the early game
+		if = {
+			limit = {
+				year < 1438
+			}
+			add = 25
+		}
+		if = {
+			limit = {
+				year < 1448
 			}
 			add = 50
 		}
@@ -276,7 +292,7 @@ ideology_leader_complacent = {
 						}
 				}
 			}
-			multiply = 0.1
+			multiply = 0.5
 		}
 		
 		#Powerful aristocracy has no reason to care

@@ -1,0 +1,28 @@
+﻿#Mercenary Companies
+
+
+AXSP = { #Axolotl Spears Guild
+
+color = rgb { 66 135 245 }
+
+tier = duchy
+
+country_type = recognized
+
+cultures = { nahua }
+
+capital = STATE_ZITAHURAO
+}
+
+TZSW = { #Swords of Tezcatlipoca Guild
+
+color = rgb { 217 215 98 }
+
+tier = duchy
+
+country_type = recognized
+
+cultures = { nahua }
+
+capital = STATE_OTOMPAN
+}

@@ -21,17 +21,29 @@ on_monthly_pulse_country = {
 		#Empire Sprawl
 		onaction_empire_sprawl_calc = yes
 		
-		#Empire Sprawl 'Punishment Events'
-		#Fragile Hegemon
-		IF = {
-			limit = {
-				empire_sprawl_deficit > 0.9
-			}
-			random_events = {
-			20 = 0
+		#IG leader loyalty affecting IG
+		every_interest_group = {
+		
+			IF = {
+				LIMIT = { has_modifier = leader_loyalty_impact }
+				remove_modifier = leader_loyalty_impact 
+				}
 			
-			}
+			add_modifier = {
+					name = leader_loyalty_impact 
+					multiplier = {
+						value = {
+							value = leader.get_loyalty
+							divide = 10
+							}
+						}
+				}
+		
+		
 		}
+		
+		
+		
 		
 		
 	}
@@ -673,6 +685,12 @@ on_diplomatic_play_started = {
 
 # Root = Character
 on_character_creation = {
+	add_modifier = {
+		name = new_to_politics
+		months = 120
+		decaying = yes 
+		}
+
 }
 
 # Root = Character

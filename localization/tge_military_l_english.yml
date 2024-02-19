@@ -1,0 +1,13 @@
+﻿l_english:
+ combat_unit_group_warriors:"Melee"
+ combat_unit_type_spearmen:"Spearmen"
+ combat_unit_type_warriors:"Warriors"
+ combat_unit_type_knights:"Knights"
+ 
+ combat_unit_group_rangers:"Ranged"
+ combat_unit_type_spear_throwers:"Spear Throwers"
+ combat_unit_type_archers:"Archers"
+ combat_unit_type_slingers:"Slingers"
+ 
+ combat_unit_group_specialized:"Special"
+ combat_unit_type_eagle_warriors:"Eagle Warriors"

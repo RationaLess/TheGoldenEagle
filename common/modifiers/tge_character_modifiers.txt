@@ -1,0 +1,36 @@
+
+bribed = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	character_loyalty_add = 20
+}
+politics_influenced = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	character_loyalty_add = -25
+	character_popularity_add = -35
+}
+
+leader_loyalty_impact = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	interest_group_approval_add = 1
+}
+
+new_to_politics = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	character_loyalty_add = 50
+}
+
+ruined_reputation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	character_loyalty_add = -20
+	character_popularity_add = -35
+}
+
+smeared_member = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	interest_group_approval_add = -5
+}
+
+invested_in_skills = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	character_loyalty_add = 25
+}

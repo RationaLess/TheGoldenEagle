@@ -190,3 +190,9 @@ texcoco_turmoil = {
 	state_radicals_from_discrimination_mult = 1
 	country_influence_add = 200
 	}
+
+#funding codex
+modifier_funding_codex = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_paper_negative.dds
+	country_expenses_add = 1000
+	}

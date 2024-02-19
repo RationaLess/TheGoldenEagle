@@ -19,7 +19,7 @@ combat_unit_type_spearmen = {
     }
 	
     upkeep_modifier = {
-		goods_input_wooden_weapons_add = 0.5
+		goods_input_tools_add = 0.5
     }
 
     # scope = country
@@ -48,7 +48,7 @@ combat_unit_type_warriors = {
     }
 	
     upkeep_modifier = {
-		goods_input_wooden_weapons_add = 1
+		goods_input_wooden_weapons_add = 0.5
     }
 
     # scope = country
@@ -72,13 +72,13 @@ combat_unit_type_knights = {
 	unlocking_technologies = { macuahuitl }
 	
     battle_modifier = {
-        unit_offense_add = 25
-        unit_defense_add = 40
+        unit_offense_add = 20
+        unit_defense_add = 35
     }
 	
     upkeep_modifier = {
-		goods_input_wooden_weapons_add = 2
-		goods_input_obsidian_weapons_add = 1
+		goods_input_wooden_weapons_add = 0.5
+		goods_input_obsidian_weapons_add = 0.5
     }
 
     # scope = country
@@ -107,7 +107,7 @@ combat_unit_type_spear_throwers = {
     }
     
     battle_modifier = {
-        unit_offense_add = 20
+        unit_offense_add = 15
         unit_defense_add = 10
         unit_kill_rate_add = 0.1
     }
@@ -129,12 +129,12 @@ combat_unit_type_archers = {
 	
 	
     upkeep_modifier = {
-        goods_input_wooden_weapons_add = 1
-		goods_input_wood_add = 1
+        goods_input_wooden_weapons_add = 0.5
+		goods_input_wood_add = 0.5
     }
     
     battle_modifier = {
-        unit_offense_add = 30
+        unit_offense_add = 20
         unit_defense_add = 15
         unit_kill_rate_add = 0.2
     }
@@ -154,13 +154,13 @@ combat_unit_type_slingers = {
     group = combat_unit_group_rangers
 
     upkeep_modifier = {
-        goods_input_wooden_weapons_add = 2
-		goods_input_obsidian_add = 0.5
+        goods_input_wooden_weapons_add = 0.5
+		goods_input_obsidian_add = 0.25
     }
     
     battle_modifier = {
-        unit_offense_add = 40
-        unit_defense_add = 25
+        unit_offense_add = 25
+        unit_defense_add = 20
         unit_kill_rate_add = 0.3
     }
 
@@ -181,14 +181,14 @@ combat_unit_type_eagle_warriors = {
     group = combat_unit_group_specialized
     
     upkeep_modifier = {
-        goods_input_obsidian_weapons_add = 2
-        goods_input_wooden_weapons_add = 1
-        goods_input_tools_add = 1
+        goods_input_obsidian_weapons_add = 1
+        goods_input_wooden_weapons_add = 0.5
+        goods_input_tools_add = 0.5
     }
 
     battle_modifier = {
-        unit_offense_add = 50
-        unit_defense_add = 35
+        unit_offense_add = 35
+        unit_defense_add = 40
     }
 
 	unlocking_technologies = { military_education }

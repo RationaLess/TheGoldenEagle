@@ -278,7 +278,11 @@
 	s:STATE_ZITAHURAO = {
 		create_state = {
 			country = c:TARA
-			owned_provinces = { "x379F01" "x42E014" "x44B416" "x558B08" "x71E307" "x76F011" "x87B810" "x9D6525" "xAB6226" "xAC3A1B" "xBA5412" "xBA7C07" "xBAFF0B" "xFA6101" }
+			owned_provinces = { "x379F01" "x42E014" "x44B416" "x558B08" "x71E307" "x76F011" "x87B810" "x9D6525"  "xAC3A1B" "xBA5412" "xBA7C07"  "xFA6101" }
+		}
+		create_state = {
+			country = c:AXSP
+			owned_provinces = { "xAB6226" "xBAFF0B" }
 		}
 	}
 	s:STATE_AYOTAC = {
@@ -433,7 +437,11 @@
 		}
 		create_state = {
 			country = c:TCHI
-			owned_provinces = { "x35CF28" "x494904" "x4B6103" "x5BF728" "x5D992D" "x637B18" "x6ABA1B" "x73BD04" "x77DD08" "xA24307" "xA5FF04" "xB19F04" "xC74208" "xE16D12" "xF3D61D" "xF44204" }
+			owned_provinces = { "x35CF28" "x494904" "x4B6103" "x5BF728" "x5D992D" "x637B18"  "x73BD04"  "xA24307" "xA5FF04" "xB19F04" "xC74208" "xE16D12" "xF3D61D" "xF44204" }
+		}
+		create_state = {
+			country = c:TZSW
+			owned_provinces = { "x6ABA1B" "x77DD08" }
 		}
 		create_state = {
 			country = c:METZ

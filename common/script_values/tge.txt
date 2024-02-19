@@ -8,6 +8,9 @@ settlement_amount = {
 		
 		value = state_population
 		divide = 5000
+		
+		multiply = modifier:country_minor_settlements_per_thousand
+		multiply = modifier:state_minor_settlements_per_thousand
 		}
 
 subjects_population = {
@@ -18,7 +21,16 @@ subjects_population = {
 			limit = {
 				is_subject_of = root
 			}
-			add = total_population
+			#add = total_population
+			every_scope_state = {
+				add = {
+					value = state_population
+					multiply = {
+						value = 1
+						add = modifier:state_empire_sprawl_load_population_cost
+						}
+					}
+				}
 		}
 	}
 }
@@ -80,8 +92,16 @@ sprawl_load_value = {
 }
 
 sprawl_get_base_value = {
-	value = total_population
-
+	value = 0
+	every_scope_state = {
+			add = {
+				value = state_population
+				multiply = {
+					value = 1
+					add = modifier:state_empire_sprawl_load_population_cost
+					}
+				}
+			}
 
 	multiply = 1
 	
@@ -237,5 +257,34 @@ get_civilization_level = {
 		}
 		value = 5
 	}
+	
+}
+
+
+
+get_loyalty = {
+
+	
+	value = modifier:character_loyalty_add
+	
+	
+	min = -100
+	max = 100
+	
+}
+
+
+is_loyal = {
+
+	
+	IF = {
+		limit = { modifier:character_loyalty_add >= 0 }
+		value = 0
+		}
+	IF = {
+		limit = { modifier:character_loyalty_add < 0 }
+		value = 1
+		}
+	
 	
 }

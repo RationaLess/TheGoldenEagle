@@ -1,0 +1,180 @@
+﻿je_codex = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	group = je_group_historical_content  
+	
+status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = codex_quality_1
+				trigger = {
+					scope:journal_entry.var:codex_quality = 1
+				}
+			}
+			triggered_desc = {
+				desc = codex_quality_2
+				trigger = {
+					scope:journal_entry.var:codex_quality = 2
+				}
+			}
+			triggered_desc = {
+				desc = codex_quality_3
+				trigger = {
+					scope:journal_entry.var:codex_quality = 3
+				}
+			}
+			triggered_desc = {
+				desc = codex_quality_4
+				trigger = {
+					scope:journal_entry.var:codex_quality = 4
+				}
+			}
+			triggered_desc = {
+				desc = codex_quality_5
+				trigger = {
+					scope:journal_entry.var:codex_quality = 5
+				}
+			}
+		}
+	}
+
+	
+
+possible = {
+		any_character = {
+			owner = ROOT
+			has_variable = codex_writer
+			}
+	}
+
+progressbar = yes
+	
+current_value = {
+			if = {
+				limit = {
+					scope:journal_entry = {
+						goal_value = 0
+					}
+				}
+				value = 0
+			}
+			else = {
+				value = scope:journal_entry.var:codex_completion
+			}
+		}
+		
+goal_add_value = {
+		value = 100
+	}
+
+on_monthly_pulse = {
+	
+		effect = {
+			scope:journal_entry = {
+				change_variable = {
+					name = codex_completion
+					add = { 0 2 }
+					}
+				}
+			}
+	}
+
+
+fail = {
+	scope:codex_writer = {
+		is_character_alive = no
+		}
+	}	
+
+immediate = {
+	save_scope_as = codex_creator
+
+		scope:journal_entry = {
+			
+			set_variable = {
+				name = codex_creator
+				value = scope:codex_creator
+				}
+			
+			set_variable = {
+				name = codex_completion
+				value = 0
+				}
+			set_variable = {
+				name = codex_type
+				value = 0
+				}
+			set_variable = {
+				name = codex_factuality
+				value = 0
+				}
+			set_variable = {
+				name = codex_prose
+				value = 0
+				}
+			set_variable = {
+				name = codex_art
+				value = 0
+				}
+			set_variable = {
+				name = codex_opinion
+				value = 0
+				}
+			set_variable = {
+				name = codex_quality
+				value = 3
+				}
+			}
+		
+		#Setting up Scopes for referenced stuff
+		random_character = {
+				limit = {
+					has_variable = codex_writer
+				}
+			remove_variable = codex_writer
+			save_scope_as = codex_writer
+			}
+		root = {
+			save_scope_as = codex_country
+			}
+		ruler = {
+			save_scope_as = codex_ruler
+			}
+		capital.region = {
+			save_scope_as = codex_region
+			}
+		religion = {
+			save_scope_as = codex_religion
+			}	
+			
+		#Adding them to the JE Scope	
+		scope:journal_entry = {
+			set_variable = {
+				name = codex_writer
+				value = scope:codex_writer
+				} 
+			set_variable = {
+				name = codex_ruler
+				value = scope:codex_ruler
+				} 
+				
+				
+				
+				
+	
+				
+			}
+		
+
+		trigger_event = { id = codex.1 }
+	}
+
+
+modifiers_while_active = {
+		modifier_funding_codex
+	}
+
+
+}
+
+

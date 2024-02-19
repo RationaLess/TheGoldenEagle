@@ -33,6 +33,20 @@ POPS = {
 				size = 35000
 				}
 		}
+		region_state:AXSP = {
+			create_pop = {
+				culture = nahua 
+				size = 11000
+				}
+			create_pop = {
+				culture = matlatzinca	
+				size = 4500
+				}
+			create_pop = {
+				culture = purepecha
+				size = 4500
+				}
+		}
 	}
 	s:STATE_AYOTAC = {
 		region_state:TARA = {

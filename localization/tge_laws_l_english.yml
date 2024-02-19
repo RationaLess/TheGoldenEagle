@@ -96,6 +96,8 @@
  law_feudal_desc:0 "The polity is organized in a top-down structure where sectors of the realm are responsible for managing smaller sectors, all answering to the ruling body."
  law_elective:0 "Elective"
  law_elective_desc:0 "This polity recognizes the will of the people as the most important driving force of politics; the ruling body is made up mostly of freemen."
+ law_martial_rule: "Martial Rule"
+ law_martial_rule_desc:0 "This polity's governing body and it's armed forces are one and the same."
  
  lawgroup_diplomatic_stance:0 "Diplomatic Stance"
  lawgroup_diplomatic_stance_desc:0 "Our Diplomatic Stance determines our approach towards foreign relations."

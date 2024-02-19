@@ -13,3 +13,7 @@ concept_civilization_value = {}
 concept_civilization_level = {}
 
 concept_struggle = {}
+
+concept_loyalty = {}
+
+concept_codex = {}

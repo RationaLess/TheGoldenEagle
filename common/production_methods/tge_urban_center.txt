@@ -19,14 +19,14 @@ pm_urban_sprawl = {
 	state_modifiers = {
 		level_scaled = {
 		state_accepted_birth_rate_mult = 0.005
-		state_minor_settlement_modifier = -1
+		state_building_minor_settlements_max_level_add = -1
 		state_infrastructure_add = 20
 		}
 	}
 	
 	building_modifiers = { 
 		workforce_scaled = {
-			goods_output_urban_space_add = 2
+			goods_output_urban_space_add = 3
 		}
 
 		level_scaled = {
@@ -51,6 +51,7 @@ pm_urban_poets = {
 	building_modifiers = { 
 		workforce_scaled = {
 			
+			goods_output_worship_add = 1
 			goods_output_fine_art_add = 0.5
 		}
 
@@ -97,7 +98,7 @@ pm_limited_social_housing = {
 		}
 
 		level_scaled = {
-		goods_input_wood_add = 0.25
+		goods_output_urban_space_add = -1
 		}
 		
 		unscaled = {
@@ -119,7 +120,7 @@ pm_advanced_social_housing = {
 		}
 
 		level_scaled = {
-		goods_input_wood_add = 0.5
+		goods_output_urban_space_add = -2
 		goods_input_furniture_add = 0.25
 		}
 		
@@ -143,9 +144,8 @@ pm_luxury_social_housing = {
 		}
 
 		level_scaled = {
-		goods_input_wood_add = 1
+		goods_output_urban_space_add = -3
 		goods_input_furniture_add = 0.5
-		goods_input_fine_art_add = 0.25
 		}
 		
 		unscaled = {

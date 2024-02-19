@@ -5,7 +5,7 @@
 	
 	complete = {
 		is_subject = no
-		at_war = no
+		is_at_war = no
 	}
 
 	on_complete = {
