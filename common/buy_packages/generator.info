@@ -1,0 +1,100 @@
+import numpy as np
+import math
+
+# Calculate the exponential growth factor
+levels = 80
+start_ps = 0.03
+end_ps = 1025
+growth_factor = (end_ps / start_ps) ** (1 / (levels - 1))
+
+# Define the function to calculate political strength
+def calc_political_strength(level):
+    # Define the level to output mapping
+    levels = [1, 5, 10, 20, 40, 80]
+    outputs = [0.03, 0.05, 0.09, 18, 130, 1025]
+
+    # If the level is directly in the levels list, return the corresponding output
+    if level in levels:
+        return outputs[levels.index(level)]
+
+    # Linear interpolation for levels between known points
+    for i in range(len(levels) - 1):
+        if level > levels[i] and level < levels[i + 1]:
+            x1, y1, x2, y2 = levels[i], outputs[i], levels[i + 1], outputs[i + 1]
+            interpolated_ps = y1 + (y2 - y1) * ((level - x1) / (x2 - x1))
+            # Ensure that political_strength is a whole number if it's above 10
+            return round(interpolated_ps) if interpolated_ps > 10 else interpolated_ps
+
+    # Extrapolation for levels above the highest defined level
+    if level > 80:
+        last_diff = outputs[-1] - outputs[-2]
+        last_interval = levels[-1] - levels[-2]
+        extrapolated_value = outputs[-1] + (level - levels[-1]) / last_interval * last_diff
+        # Ensure that political_strength is a whole number if it's above 10
+        return round(extrapolated_value) if extrapolated_value > 10 else extrapolated_value
+
+    # Return None for levels not defined (you could also raise an exception if you prefer)
+    return None
+
+# Initialize the pop needs with their level ranges and start amounts
+pop_needs = {
+    'basic_food': (1, 80, 1),
+    'crude_items': (5, 9, 5),
+    'regular_items': (9, 19, 10),
+    'faith': (5, 80, 2),
+    'art': (15, 80, 4),
+    'standard_clothing': (10, 19, 3),
+    'luxury_items': (20, 80, 4),
+    'luxury_food': (20, 80, 25),
+}
+
+def pop_need_amounts(level, ps):
+    amounts = {}
+    base_amounts = 100  # Start off with value 100 as the base for wealth_level_1
+    weights = {}  # We will use this to store the weights for each pop need
+
+    for pop_need, (start_level, end_level, initial_amount) in pop_needs.items():
+        if start_level <= level <= end_level:
+            # For needs that increase with level (not linearly)
+            increment = (min(level, end_level) - start_level + 1) * initial_amount
+            amounts[pop_need] = increment
+            base_amounts += increment
+            # Adjust weight for luxury_food to be less than others at higher levels
+            weights[pop_need] = 1 if pop_need != 'luxury_food' else 0.1  # Half the weight for luxury_food
+            if pop_need == 'crude_items': weights[pop_need] = 0.1
+            if pop_need == 'regular_items': weights[pop_need] = 0.5 
+            if pop_need == 'basic_food': weights[pop_need] = 2
+            if pop_need == 'standard_clothing': weights[pop_need] = 0.5 
+            if pop_need == 'luxury_items': weights[pop_need] = 2 
+            if pop_need == 'faith': weights[pop_need] = 0.35
+            if pop_need == 'art': weights[pop_need] = 0.5
+
+    # Calculate political strength impact
+    ps_impact = int(ps * 50 + level * 5) #  ps_impact = int(ps * 100 + level * 10)
+
+    # The total_base_amounts should be updated with the ps_impact
+    total_base_amounts = 100 + base_amounts + ps_impact
+
+    # Calculate the total weight
+    total_weight = sum(amounts[pop_need] * weights[pop_need] for pop_need in amounts)
+
+    # Distribute the political strength impact proportionally to each pop need
+    # Now using weights for proportional distribution
+    for pop_need in amounts.keys():
+        # The distribution is based on the weighted amount for each pop need
+        weighted_amount = amounts[pop_need] * weights[pop_need]
+        amounts[pop_need] += math.floor(50 + ps_impact * (weighted_amount / total_weight))
+
+    return amounts
+
+# Print the output
+for level in range(1, levels + 1):
+    ps = calc_political_strength(level)
+    amounts = pop_need_amounts(level, ps)
+    print(f'wealth_{level} = {{')
+    print(f'  political_strength = {ps}')
+    print(f'  goods = {{')
+    for pop_need, amount in amounts.items():
+        print(f'    popneed_{pop_need} = {amount}')
+    print(f'  }}')
+    print('}\n')
