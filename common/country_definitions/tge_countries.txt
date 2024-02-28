@@ -286,35 +286,35 @@ capital = STATE_HUAUCHINANGO
 #Totonac States
 XLP = { #XALAPA
 color = rgb { 87 207 177 }
-tier = kingdom
+tier = duchy
 country_type = recognized
 cultures = { totonac }
 capital = STATE_XALAPA
 } 
 YHL = { #YOHUALICHAN
 color = rgb { 76 125 109 }
-tier = kingdom
+tier = duchy
 country_type = recognized
 cultures = { totonac }
 capital = STATE_YOHUALICHAN
 } 
 TJN = { #TAJIN
 color = rgb { 91 166 217 }
-tier = kingdom
+tier = duchy
 country_type = recognized
 cultures = { totonac }
 capital = STATE_TAJIN
 }  
 CPL = { #CEMPOALA
 color = rgb { 53 204 179 }
-tier = kingdom
+tier = duchy
 country_type = recognized
 cultures = { totonac }
 capital = STATE_CEMPOALA
 } 
 TEA = { #TEAYO
 color = rgb { 76 165 168 }
-tier = kingdom
+tier = duchy
 country_type = recognized
 cultures = { totonac }
 capital = STATE_TEAYO
