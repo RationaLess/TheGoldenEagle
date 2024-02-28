@@ -95,7 +95,7 @@ popneed_faith = {
 	entry = {
 		goods = amenities
 		
-		weight = 0.5
+		weight = 1
 		max_weight = 1.0 # Maxes out at 80% of supply share
 		min_weight = 0.0
 	}
@@ -207,19 +207,12 @@ popneed_luxury_items = {
 
 
 popneed_art = {
-	default = fine_art 
+	default = amenities 
 	
-	entry = {
-		goods = fine_art 
-		
-		weight = 1
-		max_weight = 4.0 # Maxes out at 80% of supply share
-		min_weight = 0.0
-	}
 	entry = {
 		goods = amenities
 		
-		weight = 0.5
+		weight = 1
 		max_weight = 1.0 # Maxes out at 80% of supply share
 		min_weight = 0.0
 	}

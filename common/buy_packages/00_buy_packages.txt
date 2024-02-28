@@ -29,821 +29,821 @@ wealth_4 = {
 wealth_5 = {
   political_strength = 0.05
   goods = {
-    popneed_basic_food = 79
+    popneed_basic_food = 76
     popneed_crude_items = 56
-    popneed_faith = 53
+    popneed_faith = 56
   }
 }
 
 wealth_6 = {
   political_strength = 0.058
   goods = {
-    popneed_basic_food = 82
-    popneed_crude_items = 62
-    popneed_faith = 57
+    popneed_basic_food = 78
+    popneed_crude_items = 61
+    popneed_faith = 61
   }
 }
 
 wealth_7 = {
   political_strength = 0.066
   goods = {
-    popneed_basic_food = 87
-    popneed_crude_items = 68
-    popneed_faith = 60
+    popneed_basic_food = 81
+    popneed_crude_items = 67
+    popneed_faith = 66
   }
 }
 
 wealth_8 = {
   political_strength = 0.074
   goods = {
-    popneed_basic_food = 91
-    popneed_crude_items = 74
-    popneed_faith = 63
+    popneed_basic_food = 84
+    popneed_crude_items = 73
+    popneed_faith = 71
   }
 }
 
 wealth_9 = {
   political_strength = 0.08199999999999999
   goods = {
-    popneed_basic_food = 89
-    popneed_crude_items = 79
-    popneed_regular_items = 68
-    popneed_faith = 65
+    popneed_basic_food = 83
+    popneed_crude_items = 78
+    popneed_regular_items = 66
+    popneed_faith = 73
   }
 }
 
 wealth_10 = {
   political_strength = 0.09
   goods = {
-    popneed_basic_food = 90
-    popneed_regular_items = 85
-    popneed_faith = 68
-    popneed_standard_clothing = 55
+    popneed_basic_food = 84
+    popneed_regular_items = 82
+    popneed_faith = 76
+    popneed_standard_clothing = 54
   }
 }
 
 wealth_11 = {
   political_strength = 1.8810000000000002
   goods = {
-    popneed_basic_food = 134
-    popneed_regular_items = 129
-    popneed_faith = 80
-    popneed_standard_clothing = 65
+    popneed_basic_food = 121
+    popneed_regular_items = 121
+    popneed_faith = 102
+    popneed_standard_clothing = 64
   }
 }
 
 wealth_12 = {
   political_strength = 3.672
   goods = {
-    popneed_basic_food = 169
-    popneed_regular_items = 179
-    popneed_faith = 91
-    popneed_standard_clothing = 79
+    popneed_basic_food = 152
+    popneed_regular_items = 165
+    popneed_faith = 126
+    popneed_standard_clothing = 75
   }
 }
 
 wealth_13 = {
   political_strength = 5.463
   goods = {
-    popneed_basic_food = 201
-    popneed_regular_items = 233
-    popneed_faith = 101
-    popneed_standard_clothing = 94
+    popneed_basic_food = 180
+    popneed_regular_items = 212
+    popneed_faith = 149
+    popneed_standard_clothing = 89
   }
 }
 
 wealth_14 = {
   political_strength = 7.2540000000000004
   goods = {
-    popneed_basic_food = 230
-    popneed_regular_items = 288
-    popneed_faith = 111
-    popneed_standard_clothing = 109
+    popneed_basic_food = 205
+    popneed_regular_items = 261
+    popneed_faith = 171
+    popneed_standard_clothing = 102
   }
 }
 
 wealth_15 = {
   political_strength = 9.045
   goods = {
-    popneed_basic_food = 253
-    popneed_regular_items = 340
-    popneed_faith = 120
-    popneed_art = 66
-    popneed_standard_clothing = 124
+    popneed_basic_food = 226
+    popneed_regular_items = 308
+    popneed_faith = 190
+    popneed_art = 64
+    popneed_standard_clothing = 116
   }
 }
 
 wealth_16 = {
   political_strength = 11
   goods = {
-    popneed_basic_food = 278
-    popneed_regular_items = 395
-    popneed_faith = 129
-    popneed_art = 84
-    popneed_standard_clothing = 140
+    popneed_basic_food = 248
+    popneed_regular_items = 358
+    popneed_faith = 210
+    popneed_art = 80
+    popneed_standard_clothing = 130
   }
 }
 
 wealth_17 = {
   political_strength = 13
   goods = {
-    popneed_basic_food = 302
-    popneed_regular_items = 451
-    popneed_faith = 139
-    popneed_art = 103
-    popneed_standard_clothing = 157
+    popneed_basic_food = 270
+    popneed_regular_items = 408
+    popneed_faith = 231
+    popneed_art = 97
+    popneed_standard_clothing = 145
   }
 }
 
 wealth_18 = {
   political_strength = 14
   goods = {
-    popneed_basic_food = 310
-    popneed_regular_items = 486
-    popneed_faith = 144
-    popneed_art = 119
-    popneed_standard_clothing = 167
+    popneed_basic_food = 277
+    popneed_regular_items = 441
+    popneed_faith = 241
+    popneed_art = 112
+    popneed_standard_clothing = 155
   }
 }
 
 wealth_19 = {
   political_strength = 16
   goods = {
-    popneed_basic_food = 333
-    popneed_regular_items = 543
-    popneed_faith = 153
-    popneed_art = 139
-    popneed_standard_clothing = 184
+    popneed_basic_food = 298
+    popneed_regular_items = 492
+    popneed_faith = 261
+    popneed_art = 130
+    popneed_standard_clothing = 170
   }
 }
 
 wealth_20 = {
   political_strength = 18
   goods = {
-    popneed_basic_food = 612
-    popneed_faith = 233
-    popneed_art = 236
-    popneed_luxury_items = 162
-    popneed_luxury_food = 108
+    popneed_basic_food = 493
+    popneed_faith = 420
+    popneed_art = 200
+    popneed_luxury_items = 138
+    popneed_luxury_food = 101
   }
 }
 
 wealth_21 = {
   political_strength = 24
   goods = {
-    popneed_basic_food = 687
-    popneed_faith = 258
-    popneed_art = 283
-    popneed_luxury_items = 292
-    popneed_luxury_food = 173
+    popneed_basic_food = 564
+    popneed_faith = 483
+    popneed_art = 242
+    popneed_luxury_items = 246
+    popneed_luxury_food = 158
   }
 }
 
 wealth_22 = {
   political_strength = 29
   goods = {
-    popneed_basic_food = 731
-    popneed_faith = 274
-    popneed_art = 321
-    popneed_luxury_items = 421
-    popneed_luxury_food = 237
+    popneed_basic_food = 610
+    popneed_faith = 526
+    popneed_art = 277
+    popneed_luxury_items = 355
+    popneed_luxury_food = 216
   }
 }
 
 wealth_23 = {
   political_strength = 35
   goods = {
-    popneed_basic_food = 792
-    popneed_faith = 295
-    popneed_art = 367
-    popneed_luxury_items = 566
-    popneed_luxury_food = 306
+    popneed_basic_food = 668
+    popneed_faith = 580
+    popneed_art = 319
+    popneed_luxury_items = 480
+    popneed_luxury_food = 279
   }
 }
 
 wealth_24 = {
   political_strength = 40
   goods = {
-    popneed_basic_food = 830
-    popneed_faith = 310
-    popneed_art = 405
-    popneed_luxury_items = 700
-    popneed_luxury_food = 372
+    popneed_basic_food = 708
+    popneed_faith = 618
+    popneed_art = 354
+    popneed_luxury_items = 598
+    popneed_luxury_food = 340
   }
 }
 
 wealth_25 = {
   political_strength = 46
   goods = {
-    popneed_basic_food = 884
-    popneed_faith = 330
-    popneed_art = 450
-    popneed_luxury_items = 851
-    popneed_luxury_food = 442
+    popneed_basic_food = 760
+    popneed_faith = 667
+    popneed_art = 395
+    popneed_luxury_items = 731
+    popneed_luxury_food = 405
   }
 }
 
 wealth_26 = {
   political_strength = 52
   goods = {
-    popneed_basic_food = 936
-    popneed_faith = 348
-    popneed_art = 495
-    popneed_luxury_items = 1005
-    popneed_luxury_food = 514
+    popneed_basic_food = 809
+    popneed_faith = 714
+    popneed_art = 436
+    popneed_luxury_items = 868
+    popneed_luxury_food = 471
   }
 }
 
 wealth_27 = {
   political_strength = 57
   goods = {
-    popneed_basic_food = 972
-    popneed_faith = 362
-    popneed_art = 532
-    popneed_luxury_items = 1142
-    popneed_luxury_food = 581
+    popneed_basic_food = 844
+    popneed_faith = 749
+    popneed_art = 471
+    popneed_luxury_items = 991
+    popneed_luxury_food = 534
   }
 }
 
 wealth_28 = {
   political_strength = 63
   goods = {
-    popneed_basic_food = 1021
-    popneed_faith = 381
-    popneed_art = 577
-    popneed_luxury_items = 1298
-    popneed_luxury_food = 654
+    popneed_basic_food = 891
+    popneed_faith = 795
+    popneed_art = 512
+    popneed_luxury_items = 1131
+    popneed_luxury_food = 601
   }
 }
 
 wealth_29 = {
   political_strength = 68
   goods = {
-    popneed_basic_food = 1055
-    popneed_faith = 394
-    popneed_art = 615
-    popneed_luxury_items = 1437
-    popneed_luxury_food = 721
+    popneed_basic_food = 925
+    popneed_faith = 829
+    popneed_art = 547
+    popneed_luxury_items = 1257
+    popneed_luxury_food = 664
   }
 }
 
 wealth_30 = {
   political_strength = 74
   goods = {
-    popneed_basic_food = 1103
-    popneed_faith = 412
-    popneed_art = 659
-    popneed_luxury_items = 1595
-    popneed_luxury_food = 794
+    popneed_basic_food = 970
+    popneed_faith = 873
+    popneed_art = 588
+    popneed_luxury_items = 1399
+    popneed_luxury_food = 732
   }
 }
 
 wealth_31 = {
   political_strength = 80
   goods = {
-    popneed_basic_food = 1150
-    popneed_faith = 429
-    popneed_art = 704
-    popneed_luxury_items = 1753
-    popneed_luxury_food = 867
+    popneed_basic_food = 1014
+    popneed_faith = 916
+    popneed_art = 629
+    popneed_luxury_items = 1543
+    popneed_luxury_food = 801
   }
 }
 
 wealth_32 = {
   political_strength = 85
   goods = {
-    popneed_basic_food = 1184
-    popneed_faith = 443
-    popneed_art = 741
-    popneed_luxury_items = 1892
-    popneed_luxury_food = 934
+    popneed_basic_food = 1046
+    popneed_faith = 950
+    popneed_art = 664
+    popneed_luxury_items = 1670
+    popneed_luxury_food = 865
   }
 }
 
 wealth_33 = {
   political_strength = 91
   goods = {
-    popneed_basic_food = 1230
-    popneed_faith = 460
-    popneed_art = 786
-    popneed_luxury_items = 2052
-    popneed_luxury_food = 1008
+    popneed_basic_food = 1090
+    popneed_faith = 993
+    popneed_art = 705
+    popneed_luxury_items = 1814
+    popneed_luxury_food = 934
   }
 }
 
 wealth_34 = {
   political_strength = 96
   goods = {
-    popneed_basic_food = 1263
-    popneed_faith = 474
-    popneed_art = 823
-    popneed_luxury_items = 2191
-    popneed_luxury_food = 1075
+    popneed_basic_food = 1122
+    popneed_faith = 1026
+    popneed_art = 740
+    popneed_luxury_items = 1942
+    popneed_luxury_food = 997
   }
 }
 
 wealth_35 = {
   political_strength = 102
   goods = {
-    popneed_basic_food = 1308
-    popneed_faith = 491
-    popneed_art = 868
-    popneed_luxury_items = 2351
-    popneed_luxury_food = 1149
+    popneed_basic_food = 1164
+    popneed_faith = 1068
+    popneed_art = 781
+    popneed_luxury_items = 2088
+    popneed_luxury_food = 1066
   }
 }
 
 wealth_36 = {
   political_strength = 108
   goods = {
-    popneed_basic_food = 1353
-    popneed_faith = 508
-    popneed_art = 912
-    popneed_luxury_items = 2512
-    popneed_luxury_food = 1223
+    popneed_basic_food = 1206
+    popneed_faith = 1110
+    popneed_art = 822
+    popneed_luxury_items = 2234
+    popneed_luxury_food = 1136
   }
 }
 
 wealth_37 = {
   political_strength = 113
   goods = {
-    popneed_basic_food = 1387
-    popneed_faith = 521
-    popneed_art = 950
-    popneed_luxury_items = 2652
-    popneed_luxury_food = 1290
+    popneed_basic_food = 1238
+    popneed_faith = 1142
+    popneed_art = 857
+    popneed_luxury_items = 2362
+    popneed_luxury_food = 1200
   }
 }
 
 wealth_38 = {
   political_strength = 119
   goods = {
-    popneed_basic_food = 1431
-    popneed_faith = 538
-    popneed_art = 994
-    popneed_luxury_items = 2813
-    popneed_luxury_food = 1364
+    popneed_basic_food = 1279
+    popneed_faith = 1184
+    popneed_art = 898
+    popneed_luxury_items = 2509
+    popneed_luxury_food = 1269
   }
 }
 
 wealth_39 = {
   political_strength = 124
   goods = {
-    popneed_basic_food = 1465
-    popneed_faith = 552
-    popneed_art = 1032
-    popneed_luxury_items = 2952
-    popneed_luxury_food = 1432
+    popneed_basic_food = 1311
+    popneed_faith = 1217
+    popneed_art = 933
+    popneed_luxury_items = 2637
+    popneed_luxury_food = 1333
   }
 }
 
 wealth_40 = {
   political_strength = 130
   goods = {
-    popneed_basic_food = 1509
-    popneed_faith = 569
-    popneed_art = 1076
-    popneed_luxury_items = 3114
-    popneed_luxury_food = 1506
+    popneed_basic_food = 1352
+    popneed_faith = 1258
+    popneed_art = 974
+    popneed_luxury_items = 2785
+    popneed_luxury_food = 1403
   }
 }
 
 wealth_41 = {
   political_strength = 152
   goods = {
-    popneed_basic_food = 1719
-    popneed_faith = 638
-    popneed_art = 1230
-    popneed_luxury_items = 3634
-    popneed_luxury_food = 1692
+    popneed_basic_food = 1542
+    popneed_faith = 1433
+    popneed_art = 1113
+    popneed_luxury_items = 3252
+    popneed_luxury_food = 1573
   }
 }
 
 wealth_42 = {
   political_strength = 175
   goods = {
-    popneed_basic_food = 1936
-    popneed_faith = 710
-    popneed_art = 1391
-    popneed_luxury_items = 4181
-    popneed_luxury_food = 1887
+    popneed_basic_food = 1737
+    popneed_faith = 1614
+    popneed_art = 1258
+    popneed_luxury_items = 3745
+    popneed_luxury_food = 1751
   }
 }
 
 wealth_43 = {
   political_strength = 197
   goods = {
-    popneed_basic_food = 2137
-    popneed_faith = 777
-    popneed_art = 1545
-    popneed_luxury_items = 4711
-    popneed_luxury_food = 2076
+    popneed_basic_food = 1919
+    popneed_faith = 1784
+    popneed_art = 1397
+    popneed_luxury_items = 4222
+    popneed_luxury_food = 1924
   }
 }
 
 wealth_44 = {
   political_strength = 220
   goods = {
-    popneed_basic_food = 2345
-    popneed_faith = 846
-    popneed_art = 1705
-    popneed_luxury_items = 5267
-    popneed_luxury_food = 2274
+    popneed_basic_food = 2106
+    popneed_faith = 1959
+    popneed_art = 1542
+    popneed_luxury_items = 4724
+    popneed_luxury_food = 2104
   }
 }
 
 wealth_45 = {
   political_strength = 242
   goods = {
-    popneed_basic_food = 2539
-    popneed_faith = 911
-    popneed_art = 1858
-    popneed_luxury_items = 5804
-    popneed_luxury_food = 2465
+    popneed_basic_food = 2282
+    popneed_faith = 2125
+    popneed_art = 1681
+    popneed_luxury_items = 5210
+    popneed_luxury_food = 2280
   }
 }
 
 wealth_46 = {
   political_strength = 264
   goods = {
-    popneed_basic_food = 2731
-    popneed_faith = 976
-    popneed_art = 2011
-    popneed_luxury_items = 6344
-    popneed_luxury_food = 2658
+    popneed_basic_food = 2456
+    popneed_faith = 2288
+    popneed_art = 1819
+    popneed_luxury_items = 5699
+    popneed_luxury_food = 2456
   }
 }
 
 wealth_47 = {
   political_strength = 287
   goods = {
-    popneed_basic_food = 2929
-    popneed_faith = 1042
-    popneed_art = 2170
-    popneed_luxury_items = 6910
-    popneed_luxury_food = 2858
+    popneed_basic_food = 2635
+    popneed_faith = 2458
+    popneed_art = 1964
+    popneed_luxury_items = 6212
+    popneed_luxury_food = 2640
   }
 }
 
 wealth_48 = {
   political_strength = 309
   goods = {
-    popneed_basic_food = 3114
-    popneed_faith = 1105
-    popneed_art = 2322
-    popneed_luxury_items = 7456
-    popneed_luxury_food = 3053
+    popneed_basic_food = 2804
+    popneed_faith = 2619
+    popneed_art = 2103
+    popneed_luxury_items = 6707
+    popneed_luxury_food = 2819
   }
 }
 
 wealth_49 = {
   political_strength = 331
   goods = {
-    popneed_basic_food = 3298
-    popneed_faith = 1168
-    popneed_art = 2475
-    popneed_luxury_items = 8004
-    popneed_luxury_food = 3248
+    popneed_basic_food = 2971
+    popneed_faith = 2777
+    popneed_art = 2241
+    popneed_luxury_items = 7204
+    popneed_luxury_food = 2998
   }
 }
 
 wealth_50 = {
   political_strength = 354
   goods = {
-    popneed_basic_food = 3488
-    popneed_faith = 1233
-    popneed_art = 2633
-    popneed_luxury_items = 8578
-    popneed_luxury_food = 3451
+    popneed_basic_food = 3144
+    popneed_faith = 2943
+    popneed_art = 2386
+    popneed_luxury_items = 7725
+    popneed_luxury_food = 3184
   }
 }
 
 wealth_51 = {
   political_strength = 376
   goods = {
-    popneed_basic_food = 3667
-    popneed_faith = 1294
-    popneed_art = 2785
-    popneed_luxury_items = 9130
-    popneed_luxury_food = 3647
+    popneed_basic_food = 3308
+    popneed_faith = 3099
+    popneed_art = 2524
+    popneed_luxury_items = 8227
+    popneed_luxury_food = 3365
   }
 }
 
 wealth_52 = {
   political_strength = 398
   goods = {
-    popneed_basic_food = 3845
-    popneed_faith = 1355
-    popneed_art = 2937
-    popneed_luxury_items = 9684
-    popneed_luxury_food = 3844
+    popneed_basic_food = 3470
+    popneed_faith = 3255
+    popneed_art = 2663
+    popneed_luxury_items = 8731
+    popneed_luxury_food = 3546
   }
 }
 
 wealth_53 = {
   political_strength = 421
   goods = {
-    popneed_basic_food = 4030
-    popneed_faith = 1418
-    popneed_art = 3095
-    popneed_luxury_items = 10263
-    popneed_luxury_food = 4049
+    popneed_basic_food = 3638
+    popneed_faith = 3416
+    popneed_art = 2807
+    popneed_luxury_items = 9259
+    popneed_luxury_food = 3735
   }
 }
 
 wealth_54 = {
   political_strength = 443
   goods = {
-    popneed_basic_food = 4204
-    popneed_faith = 1478
-    popneed_art = 3247
-    popneed_luxury_items = 10820
-    popneed_luxury_food = 4247
+    popneed_basic_food = 3797
+    popneed_faith = 3570
+    popneed_art = 2946
+    popneed_luxury_items = 9766
+    popneed_luxury_food = 3917
   }
 }
 
 wealth_55 = {
   political_strength = 466
   goods = {
-    popneed_basic_food = 4386
-    popneed_faith = 1541
-    popneed_art = 3405
-    popneed_luxury_items = 11403
-    popneed_luxury_food = 4452
+    popneed_basic_food = 3964
+    popneed_faith = 3730
+    popneed_art = 3090
+    popneed_luxury_items = 10297
+    popneed_luxury_food = 4107
   }
 }
 
 wealth_56 = {
   political_strength = 488
   goods = {
-    popneed_basic_food = 4557
-    popneed_faith = 1600
-    popneed_art = 3556
-    popneed_luxury_items = 11963
-    popneed_luxury_food = 4651
+    popneed_basic_food = 4120
+    popneed_faith = 3881
+    popneed_art = 3229
+    popneed_luxury_items = 10808
+    popneed_luxury_food = 4290
   }
 }
 
 wealth_57 = {
   political_strength = 510
   goods = {
-    popneed_basic_food = 4728
-    popneed_faith = 1659
-    popneed_art = 3708
-    popneed_luxury_items = 12524
-    popneed_luxury_food = 4850
+    popneed_basic_food = 4276
+    popneed_faith = 4032
+    popneed_art = 3367
+    popneed_luxury_items = 11320
+    popneed_luxury_food = 4474
   }
 }
 
 wealth_58 = {
   political_strength = 533
   goods = {
-    popneed_basic_food = 4906
-    popneed_faith = 1721
-    popneed_art = 3865
-    popneed_luxury_items = 13111
-    popneed_luxury_food = 5057
+    popneed_basic_food = 4439
+    popneed_faith = 4190
+    popneed_art = 3511
+    popneed_luxury_items = 11855
+    popneed_luxury_food = 4665
   }
 }
 
 wealth_59 = {
   political_strength = 555
   goods = {
-    popneed_basic_food = 5074
-    popneed_faith = 1780
-    popneed_art = 4017
-    popneed_luxury_items = 13674
-    popneed_luxury_food = 5257
+    popneed_basic_food = 4593
+    popneed_faith = 4340
+    popneed_art = 3650
+    popneed_luxury_items = 12370
+    popneed_luxury_food = 4850
   }
 }
 
 wealth_60 = {
   political_strength = 578
   goods = {
-    popneed_basic_food = 5250
-    popneed_faith = 1841
-    popneed_art = 4174
-    popneed_luxury_items = 14263
-    popneed_luxury_food = 5465
+    popneed_basic_food = 4754
+    popneed_faith = 4496
+    popneed_art = 3794
+    popneed_luxury_items = 12907
+    popneed_luxury_food = 5041
   }
 }
 
 wealth_61 = {
   political_strength = 600
   goods = {
-    popneed_basic_food = 5416
-    popneed_faith = 1899
-    popneed_art = 4325
-    popneed_luxury_items = 14829
-    popneed_luxury_food = 5665
+    popneed_basic_food = 4906
+    popneed_faith = 4644
+    popneed_art = 3932
+    popneed_luxury_items = 13424
+    popneed_luxury_food = 5227
   }
 }
 
 wealth_62 = {
   political_strength = 622
   goods = {
-    popneed_basic_food = 5581
-    popneed_faith = 1956
-    popneed_art = 4476
-    popneed_luxury_items = 15395
-    popneed_luxury_food = 5866
+    popneed_basic_food = 5057
+    popneed_faith = 4792
+    popneed_art = 4071
+    popneed_luxury_items = 13942
+    popneed_luxury_food = 5412
   }
 }
 
 wealth_63 = {
   political_strength = 645
   goods = {
-    popneed_basic_food = 5754
-    popneed_faith = 2017
-    popneed_art = 4633
-    popneed_luxury_items = 15986
-    popneed_luxury_food = 6075
+    popneed_basic_food = 5216
+    popneed_faith = 4947
+    popneed_art = 4215
+    popneed_luxury_items = 14483
+    popneed_luxury_food = 5605
   }
 }
 
 wealth_64 = {
   political_strength = 667
   goods = {
-    popneed_basic_food = 5918
-    popneed_faith = 2074
-    popneed_art = 4784
-    popneed_luxury_items = 16554
-    popneed_luxury_food = 6276
+    popneed_basic_food = 5366
+    popneed_faith = 5094
+    popneed_art = 4353
+    popneed_luxury_items = 15002
+    popneed_luxury_food = 5791
   }
 }
 
 wealth_65 = {
   political_strength = 689
   goods = {
-    popneed_basic_food = 6081
-    popneed_faith = 2131
-    popneed_art = 4935
-    popneed_luxury_items = 17123
-    popneed_luxury_food = 6477
+    popneed_basic_food = 5516
+    popneed_faith = 5240
+    popneed_art = 4491
+    popneed_luxury_items = 15523
+    popneed_luxury_food = 5977
   }
 }
 
 wealth_66 = {
   political_strength = 712
   goods = {
-    popneed_basic_food = 6252
-    popneed_faith = 2191
-    popneed_art = 5092
-    popneed_luxury_items = 17717
-    popneed_luxury_food = 6687
+    popneed_basic_food = 5672
+    popneed_faith = 5394
+    popneed_art = 4636
+    popneed_luxury_items = 16066
+    popneed_luxury_food = 6171
   }
 }
 
 wealth_67 = {
   political_strength = 734
   goods = {
-    popneed_basic_food = 6414
-    popneed_faith = 2248
-    popneed_art = 5243
-    popneed_luxury_items = 18287
-    popneed_luxury_food = 6889
+    popneed_basic_food = 5821
+    popneed_faith = 5539
+    popneed_art = 4774
+    popneed_luxury_items = 16588
+    popneed_luxury_food = 6358
   }
 }
 
 wealth_68 = {
   political_strength = 756
   goods = {
-    popneed_basic_food = 6575
-    popneed_faith = 2305
-    popneed_art = 5393
-    popneed_luxury_items = 18857
-    popneed_luxury_food = 7091
+    popneed_basic_food = 5969
+    popneed_faith = 5684
+    popneed_art = 4912
+    popneed_luxury_items = 17111
+    popneed_luxury_food = 6545
   }
 }
 
 wealth_69 = {
   political_strength = 779
   goods = {
-    popneed_basic_food = 6744
-    popneed_faith = 2364
-    popneed_art = 5550
-    popneed_luxury_items = 19453
-    popneed_luxury_food = 7301
+    popneed_basic_food = 6124
+    popneed_faith = 5837
+    popneed_art = 5056
+    popneed_luxury_items = 17656
+    popneed_luxury_food = 6739
   }
 }
 
 wealth_70 = {
   political_strength = 801
   goods = {
-    popneed_basic_food = 6904
-    popneed_faith = 2420
-    popneed_art = 5701
-    popneed_luxury_items = 20025
-    popneed_luxury_food = 7503
+    popneed_basic_food = 6271
+    popneed_faith = 5981
+    popneed_art = 5194
+    popneed_luxury_items = 18180
+    popneed_luxury_food = 6926
   }
 }
 
 wealth_71 = {
   political_strength = 824
   goods = {
-    popneed_basic_food = 7072
-    popneed_faith = 2479
-    popneed_art = 5858
-    popneed_luxury_items = 20621
-    popneed_luxury_food = 7713
+    popneed_basic_food = 6425
+    popneed_faith = 6133
+    popneed_art = 5339
+    popneed_luxury_items = 18726
+    popneed_luxury_food = 7121
   }
 }
 
 wealth_72 = {
   political_strength = 846
   goods = {
-    popneed_basic_food = 7231
-    popneed_faith = 2535
-    popneed_art = 6008
-    popneed_luxury_items = 21194
-    popneed_luxury_food = 7916
+    popneed_basic_food = 6571
+    popneed_faith = 6277
+    popneed_art = 5477
+    popneed_luxury_items = 19251
+    popneed_luxury_food = 7309
   }
 }
 
 wealth_73 = {
   political_strength = 868
   goods = {
-    popneed_basic_food = 7389
-    popneed_faith = 2592
-    popneed_art = 6159
-    popneed_luxury_items = 21767
-    popneed_luxury_food = 8119
+    popneed_basic_food = 6717
+    popneed_faith = 6420
+    popneed_art = 5615
+    popneed_luxury_items = 19777
+    popneed_luxury_food = 7497
   }
 }
 
 wealth_74 = {
   political_strength = 891
   goods = {
-    popneed_basic_food = 7556
-    popneed_faith = 2650
-    popneed_art = 6316
-    popneed_luxury_items = 22365
-    popneed_luxury_food = 8329
+    popneed_basic_food = 6869
+    popneed_faith = 6571
+    popneed_art = 5759
+    popneed_luxury_items = 20325
+    popneed_luxury_food = 7692
   }
 }
 
 wealth_75 = {
   political_strength = 913
   goods = {
-    popneed_basic_food = 7714
-    popneed_faith = 2706
-    popneed_art = 6466
-    popneed_luxury_items = 22939
-    popneed_luxury_food = 8533
+    popneed_basic_food = 7014
+    popneed_faith = 6714
+    popneed_art = 5897
+    popneed_luxury_items = 20852
+    popneed_luxury_food = 7880
   }
 }
 
 wealth_76 = {
   political_strength = 936
   goods = {
-    popneed_basic_food = 7879
-    popneed_faith = 2764
-    popneed_art = 6623
-    popneed_luxury_items = 23538
-    popneed_luxury_food = 8744
+    popneed_basic_food = 7167
+    popneed_faith = 6864
+    popneed_art = 6042
+    popneed_luxury_items = 21401
+    popneed_luxury_food = 8076
   }
 }
 
 wealth_77 = {
   political_strength = 958
   goods = {
-    popneed_basic_food = 8036
-    popneed_faith = 2820
-    popneed_art = 6773
-    popneed_luxury_items = 24113
-    popneed_luxury_food = 8947
+    popneed_basic_food = 7311
+    popneed_faith = 7007
+    popneed_art = 6180
+    popneed_luxury_items = 21928
+    popneed_luxury_food = 8264
   }
 }
 
 wealth_78 = {
   political_strength = 980
   goods = {
-    popneed_basic_food = 8193
-    popneed_faith = 2876
-    popneed_art = 6923
-    popneed_luxury_items = 24688
-    popneed_luxury_food = 9150
+    popneed_basic_food = 7455
+    popneed_faith = 7149
+    popneed_art = 6318
+    popneed_luxury_items = 22456
+    popneed_luxury_food = 8453
   }
 }
 
 wealth_79 = {
   political_strength = 1003
   goods = {
-    popneed_basic_food = 8357
-    popneed_faith = 2934
-    popneed_art = 7080
-    popneed_luxury_items = 25289
-    popneed_luxury_food = 9362
+    popneed_basic_food = 7606
+    popneed_faith = 7299
+    popneed_art = 6462
+    popneed_luxury_items = 23006
+    popneed_luxury_food = 8649
   }
 }
 
 wealth_80 = {
   political_strength = 1025
   goods = {
-    popneed_basic_food = 8513
-    popneed_faith = 2989
-    popneed_art = 7230
-    popneed_luxury_items = 25864
-    popneed_luxury_food = 9565
+    popneed_basic_food = 7750
+    popneed_faith = 7441
+    popneed_art = 6600
+    popneed_luxury_items = 23535
+    popneed_luxury_food = 8837
   }
 }
