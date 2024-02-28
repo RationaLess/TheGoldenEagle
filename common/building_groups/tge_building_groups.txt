@@ -39,8 +39,6 @@ bg_service = {
 	
 	land_usage = urban
 	
-	is_government_funded = yes
-	
 	always_possible = yes	
 	
 	auto_place_buildings = yes	
