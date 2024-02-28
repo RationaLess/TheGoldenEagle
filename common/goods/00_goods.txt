@@ -91,6 +91,16 @@ clothes = {
 	consumption_tax_cost = 300
 }
 
+pottery = {
+	texture = "gfx/interface/icons/goods_icons/porcelain.dds"
+	cost = 30
+	category = staple
+	
+	obsession_chance = 1.0
+	prestige_factor = 5
+	convoy_cost_multiplier = 0.5
+}
+
 furniture = {
 	texture = "gfx/interface/icons/goods_icons/furniture.dds"
 	cost = 40
@@ -130,7 +140,18 @@ services = {
 
 amenities = {
 	texture = "gfx/interface/icons/goods_icons/services.dds"
-	cost = 30
+	cost = 60
+	category = staple
+	tradeable = no
+	
+	prestige_factor = 3
+	
+	consumption_tax_cost = 200
+}
+
+amenities = {
+	texture = "gfx/interface/icons/goods_icons/services.dds"
+	cost = 60
 	category = staple
 	tradeable = no
 	
@@ -151,6 +172,17 @@ worship = {
 	consumption_tax_cost = 200
 }
 
+knowledge = {
+	texture = "gfx/interface/icons/goods_icons/services.dds"
+	cost = 30
+	category = staple
+	tradeable = no
+	local = yes
+	
+	prestige_factor = 3
+	
+	consumption_tax_cost = 200
+}
 
 meat = {
 	texture = "gfx/interface/icons/goods_icons/meat.dds"
@@ -303,7 +335,7 @@ transportation = {
 # LUXURY #
 ##########
 
-pottery = {
+luxury_pottery = {
 	texture = "gfx/interface/icons/goods_icons/porcelain.dds"
 	cost = 80
 	category = luxury

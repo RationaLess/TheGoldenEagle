@@ -86,6 +86,18 @@ popneed_faith = {
 
 	entry = {
 		goods = worship
+		
+		weight = 1
+		max_weight = 1.0
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = amenities
+		
+		weight = 0.5
+		max_weight = 1.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
 	}
 }
 
@@ -112,6 +124,14 @@ popneed_standard_clothing = {
 popneed_regular_items = {
 	default = clothes
 	
+	
+	entry = {
+		goods = pottery
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
 	entry = {
 		goods = clothes
 
@@ -171,7 +191,7 @@ popneed_luxury_items = {
 		min_weight = 0.0
 	}
 	entry = {
-		goods = pottery
+		goods = luxury_pottery
 		
 		weight = 0.5
 		max_weight = 3.0 # Maxes out at 80% of supply share
@@ -197,17 +217,17 @@ popneed_art = {
 		min_weight = 0.0
 	}
 	entry = {
+		goods = amenities
+		
+		weight = 0.5
+		max_weight = 1.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	entry = {
 		goods = pottery
 		
 		weight = 1
 		max_weight = 4.0 # Maxes out at 80% of supply share
-		min_weight = 0.0
-	}
-	entry = {
-		goods = services
-		
-		weight = 0.05
-		max_weight = 1.0 # Maxes out at 80% of supply share
 		min_weight = 0.0
 	}
 }

@@ -9,8 +9,7 @@ settlement_amount = {
 		value = state_population
 		divide = 5000
 		
-		multiply = modifier:country_minor_settlements_per_thousand
-		multiply = modifier:state_minor_settlements_per_thousand
+		#multiply = modifier:country_minor_settlements_per_thousand
 		}
 
 subjects_population = {

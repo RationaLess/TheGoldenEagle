@@ -44,6 +44,53 @@ building_ball_court = {
 	ai_weight = 500
 }
 
+building_zoo = {
+	building_group = bg_utility
+	city_type = city
+	
+	
+	levels_per_mesh = 10
+
+	unlocking_technologies = {
+		great_projects
+	}
+
+	production_method_groups = {
+		pmg_zoo
+	}
+
+	texture = "gfx/interface/icons/building_icons/ballcourt.dds"
+	
+	urbanization = 100
+	
+	required_construction = 8000
+
+	ai_weight = 500
+}
+building_garden = {
+	building_group = bg_utility
+	city_type = city
+	
+	
+	levels_per_mesh = 10
+
+	unlocking_technologies = {
+		architecture
+	}
+
+	production_method_groups = {
+		pmg_garden
+	}
+
+	texture = "gfx/interface/icons/building_icons/ballcourt.dds"
+	
+	urbanization = 100
+	
+	required_construction = 8000
+
+	ai_weight = 500
+}
+
 #building_royal_palace = {
 #	building_group = bg_utility
 #	city_type = city

@@ -1,43 +1,153 @@
 ﻿
 
 
-
-
-
-
-pm_urban_sprawl = {
+pm_disorganized_sprawl = {
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
 	
 	country_modifiers = {
 	
 		workforce_scaled = {
-		country_empire_sprawl_capacity_add = 25
+		country_empire_sprawl_capacity_add = 5
 		}
 	
 	}
 	
 	state_modifiers = {
 		level_scaled = {
-		state_accepted_birth_rate_mult = 0.005
-		state_building_minor_settlements_max_level_add = -1
-		state_infrastructure_add = 20
+		state_infrastructure_add = 5
 		}
 	}
 	
 	building_modifiers = { 
 		workforce_scaled = {
-			goods_output_urban_space_add = 3
+			goods_output_urban_space_add = 1
 		}
 
 		level_scaled = {
-			building_employment_bureaucrats_add = 15
-			building_employment_architects_add = 10
+			building_employment_freemen_add = 50
 		}
 		
 		unscaled = {
 		}
 	}
 }	
+pm_neighbourhood_sprawl = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	unlocking_technologies = { 
+		urban_planning
+	}
+	
+	country_modifiers = {
+	
+		workforce_scaled = {
+		country_empire_sprawl_capacity_add = 10
+		}
+	
+	}
+	
+	state_modifiers = {
+		level_scaled = {
+		state_accepted_birth_rate_mult = 0.002
+		state_building_minor_settlements_max_level_add = -1
+		}
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			goods_input_pottery_add = 0.25
+		
+			goods_output_urban_space_add = 2
+		}
+
+		level_scaled = {
+			building_employment_scholars_add = 25
+			building_employment_freemen_add = 25
+		}
+		
+		unscaled = {
+		}
+	}
+}	
+pm_guild_sprawl = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	unlocking_technologies = { 
+		architecture
+	}
+	
+	country_modifiers = {
+	
+		workforce_scaled = {
+		country_empire_sprawl_capacity_add = 20
+		}
+	
+	}
+	
+	state_modifiers = {
+		level_scaled = {
+		state_accepted_birth_rate_mult = 0.004
+		state_building_minor_settlements_max_level_add = -2
+		}
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			goods_input_pottery_add = 0.5
+		
+			goods_output_urban_space_add = 3
+		}
+
+		level_scaled = {
+			building_employment_architects_add = 25
+			building_employment_scholars_add = 25
+		}
+		
+		unscaled = {
+		}
+	}
+}	
+pm_district_sprawl = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	unlocking_technologies = { 
+		great_projects
+	}
+	
+	country_modifiers = {
+	
+		workforce_scaled = {
+		country_empire_sprawl_capacity_add = 30
+		}
+	
+	}
+	
+	state_modifiers = {
+		level_scaled = {
+		state_accepted_birth_rate_mult = 0.006
+		state_building_minor_settlements_max_level_add = -3
+		}
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			goods_input_pottery_add = 1
+		
+			goods_output_urban_space_add = 4
+		}
+
+		level_scaled = {
+			building_employment_architects_add = 25
+			building_employment_bureaucrats_add = 25
+		}
+		
+		unscaled = {
+		}
+	}
+}	
+
+
+
 pm_urban_poets = {
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
 	
@@ -50,13 +160,12 @@ pm_urban_poets = {
 	
 	building_modifiers = { 
 		workforce_scaled = {
-			
-			goods_output_worship_add = 1
-			goods_output_fine_art_add = 0.5
+			goods_output_knowledge_add = 1
+			goods_output_amenities_add = 1
 		}
 
 		level_scaled = {
-			building_employment_scholars_add = 50
+			building_employment_scholars_add = 25
 		}
 		
 		unscaled = {
@@ -183,6 +292,9 @@ pm_religious_learning = {
 	
 	building_modifiers = { 
 		
+		workforce_scaled = {
+			goods_output_knowledge_add = 1
+			}
 
 		level_scaled = {
 			goods_input_worship_add = 0.25
@@ -218,6 +330,10 @@ pm_royal_universities = {
 			building_employment_scholars_add = 25
 		}
 		
+		workforce_scaled = {
+			goods_output_knowledge_add = 2
+			}
+		
 		unscaled = {
 		}
 	}
@@ -239,6 +355,9 @@ pm_public_universities = {
 	
 	building_modifiers = { 
 		
+		workforce_scaled = {
+			goods_output_knowledge_add = 4
+			}
 
 		level_scaled = {
 			goods_input_worship_add = 1

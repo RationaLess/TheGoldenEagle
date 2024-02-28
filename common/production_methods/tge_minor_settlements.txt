@@ -4,8 +4,7 @@
 	}
 	
 	building_modifiers = {
-		workforce_scaled = { # 51
-			goods_output_services_add = 0.2
+		workforce_scaled = { # 
 			goods_output_worship_add = 0.5
 		}
 		
@@ -29,7 +28,7 @@ pm_minor_home_workshops = {
 	building_modifiers = {
 		workforce_scaled = { # 51
 			goods_output_tools_add = 1.5
-			goods_output_clothes_add = 0.5
+			goods_output_pottery_add = 0.5
 		}
 		
 		level_scaled = {
