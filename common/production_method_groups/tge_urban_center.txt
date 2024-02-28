@@ -3,7 +3,10 @@
 pmg_urban_sprawl = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_urban_sprawl
+		pm_disorganized_sprawl
+		pm_neighbourhood_sprawl
+		pm_guild_sprawl
+		pm_district_sprawl
 	}
 }
 

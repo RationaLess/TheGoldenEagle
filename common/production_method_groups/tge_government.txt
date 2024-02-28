@@ -12,6 +12,18 @@ pmg_ball_court = {
 		pm_ball_court
 	}
 }
+pmg_garden = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_garden
+	}
+}
+pmg_zoo = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_zoo
+	}
+}
 
 pmg_royal_palace = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"

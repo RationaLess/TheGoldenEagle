@@ -161,6 +161,7 @@ pm_ball_court = {
 			goods_input_tools_add = 1
 
 			goods_output_worship_add = 3
+			goods_output_amenities_add = 3
 		}
 		
 		level_scaled = {
@@ -171,6 +172,79 @@ pm_ball_court = {
 		unscaled = {
 			building_freemen_shares_add = 1
 			building_priests_shares_add = 1
+		}
+	}
+}
+
+pm_zoo = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	disallowing_laws = {
+	}
+	
+	country_modifiers = {
+			level_scaled = {
+			country_prestige_add = 25
+			}
+		}
+	
+	state_modifiers = {
+			unscaled = {
+
+				state_migration_pull_mult = 0.2
+			}
+			
+			workforce_scaled = {
+			}
+		}
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_knowledge_add = 5
+			goods_output_amenities_add = 10
+		}
+		
+		level_scaled = {
+			building_employment_freemen_add = 50
+			building_employment_nobles_add = 50
+		}
+		
+		unscaled = {
+			building_nobles_shares_add = 1
+		}
+	}
+}
+pm_garden = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	disallowing_laws = {
+	}
+	
+	country_modifiers = {
+			level_scaled = {
+			country_prestige_add = 10
+			}
+		}
+	
+	state_modifiers = {
+			unscaled = {
+
+				state_pop_qualifications_mult = 0.1
+			}
+			
+			workforce_scaled = {
+			}
+		}
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_knowledge_add = 2
+			goods_output_amenities_add = 5
+		}
+		
+		level_scaled = {
+			building_employment_freemen_add = 50
+			building_employment_nobles_add = 50
+		}
+		
+		unscaled = {
+			building_nobles_shares_add = 1
 		}
 	}
 }
