@@ -1,0 +1,44 @@
+﻿# key = {
+#	texture = "texture path"
+#	video = "video path"
+#	audio = "audio event"
+#
+#	fallback = another_media_alias_key
+#}
+
+# By: Alexedishi
+
+mesoamerica_ballgame = {
+	video = "gfx/event_pictures/mesoamerica_ballgame.bk2"
+	audio = "event:/SFX/Events/unspecific/art_gallery"
+}
+
+mesoamerica_bean_counter = {
+	video = "gfx/event_pictures/mesoamerica_bean_counter.bk2"
+	audio = "event:/SFX/Events/europenorthamerica/rich_and_poor"
+}
+
+mesoamerica_chinampa = {
+	video = "gfx/event_pictures/mesoamerica_chinampa.bk2"
+	audio = "event:/SFX/Events/asia/farmers_market"
+}
+
+mesoamerica_comet_sighted = {
+	video = "gfx/event_pictures/mesoamerica_comet_sighted.bk2"
+	audio = "event:/SFX/Events/misc/1Character_Banner"
+}
+
+#mesoamerica_nahua_starter = {
+#	video = "gfx/event_pictures/mesoamerica_comet_sighted.bk2"
+#	audio = "event:/SFX/Events/misc/1Character_Banner"
+#}
+
+#mesoamerica_jungle_stranger = {
+#	video = "gfx/event_pictures/mesoamerica_comet_sighted.bk2"
+#	audio = "event:/SFX/Events/southamerica/slaves_night"
+#}
+
+mesoamerica_warrior_rally = {
+	video = "gfx/event_pictures/mesoamerica_warrior_rally.bk2"
+	audio = "event:/SFX/Events/europenorthamerica/before_the_battle"
+}

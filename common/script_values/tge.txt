@@ -43,10 +43,11 @@ country_and_subjects_states = {
 				OR = {
 					owner = {
 						is_subject_of = root
-						}
-					owner = root
 					}
-				
+					owner = {
+						this = root
+					}
+				}
 			}
 			add = 1
 		}
