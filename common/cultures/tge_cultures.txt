@@ -1,6 +1,6 @@
 mexica={
 	color= { 230 94 171 }
-	religion = animist
+	religion = aztlanec 
 	traits = { native_heritage nahuatl_speaking anahuac }
 	male_common_first_names={
 		Antonio
@@ -96,7 +96,7 @@ mexica={
 
 nahua={
 	color= { 195 133 120 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = {  native_heritage nahuatl_speaking }
 	male_common_first_names={
 		Antonio
@@ -192,7 +192,7 @@ nahua={
 
 acolhua ={
 	color= { 67 73 145 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage nahuatl_speaking anahuac }
 	male_common_first_names={
 		Antonio
@@ -289,7 +289,7 @@ acolhua ={
 
 tepanec ={
 	color= { 153 142 18 }
-	religion = animist
+	religion = toltec
 	traits = { native_heritage nahuatl_speaking anahuac }
 	male_common_first_names={
 		Antonio
@@ -385,8 +385,8 @@ tepanec ={
 
 otomi ={
 	color= { 18 124 153 }
-	religion = animist
-	traits = { native_heritage oto_manguean anahuac}
+	religion = toltec
+	traits = { native_heritage oto_manguean anahuac }
 	male_common_first_names={
 		Antonio
 		Carlos
@@ -481,7 +481,7 @@ otomi ={
 
 totonac={
 	color= { 107 145 207 }
-	religion = animist
+	religion = totonacan 
 	traits = { native_heritage totonacan_speaking }
 	male_common_first_names={
 		Antonio
@@ -578,7 +578,7 @@ totonac={
 
 mixtec={
 	color= { 56 101 224 }
-	religion = animist
+	religion = otomanguean 
 	traits = { native_heritage oto_manguean }
 	male_common_first_names={
 		placeholder
@@ -600,7 +600,7 @@ mixtec={
 
 zapotec={
 	color= { 127 199 86 }
-	religion = animist
+	religion = otomanguean
 	traits = { native_heritage oto_manguean }
 	male_common_first_names={
 		placeholder
@@ -622,7 +622,7 @@ zapotec={
 
 tlahuica={
 	color= { 66 245 167 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { oaxaca }
 	male_common_first_names={
 		placeholder
@@ -644,7 +644,7 @@ tlahuica={
 
 nonoalca = {
 	color= { 98 57 128 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { oaxaca }
 	male_common_first_names={
 		placeholder
@@ -666,7 +666,7 @@ nonoalca = {
 
 mazahua = {
 	color= { 204 128 61 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { oaxaca }
 	male_common_first_names={
 		placeholder
@@ -689,7 +689,7 @@ mazahua = {
 
 chinantec = {
 	color= { 98 174 189 }
-	religion = animist
+	religion = otomanguean
 	traits = { oaxaca }
 	male_common_first_names={
 		placeholder
@@ -711,7 +711,7 @@ chinantec = {
 
 mazatec = {
 	color= { 98 122 189 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { oaxaca }
 	male_common_first_names={
 		placeholder
@@ -733,7 +733,7 @@ mazatec = {
 
 popoloca = {
 	color= { 176 129 84 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { oaxaca }
 	male_common_first_names={
 		placeholder
@@ -755,7 +755,7 @@ popoloca = {
 
 tepehua = {
 	color= { 156 65 119 }
-	religion = animist
+	religion = totonacan 
 	traits = { native_heritage totonacan_speaking }
 	male_common_first_names={
 		placeholder
@@ -777,7 +777,7 @@ tepehua = {
 
 tlaxcaltec = {
 	color= { 253 255 150 }
-	religion = animist
+	religion = toltec
 	traits = { oaxaca }
 	male_common_first_names={
 		placeholder
@@ -799,7 +799,7 @@ tlaxcaltec = {
 
 mixe = {
 	color= { 110 126 133 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage mixe_zoquean }
 	male_common_first_names={
 		placeholder
@@ -821,7 +821,7 @@ mixe = {
 
 triqui = {
 	color= { 82 45 128 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage }
 	male_common_first_names={
 		placeholder
@@ -843,7 +843,7 @@ triqui = {
 
 tlapanec = {
 	color= { 164 194 43 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage }
 	male_common_first_names={
 		placeholder
@@ -865,7 +865,7 @@ tlapanec = {
 
 amuzgo = {
 	color= { 153 20 51 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage }
 	male_common_first_names={
 		placeholder
@@ -887,7 +887,7 @@ amuzgo = {
 
 huave = {
 	color= { 27 35 107 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage }
 	male_common_first_names={
 		placeholder
@@ -909,7 +909,7 @@ huave = {
 
 pochutec = {
 	color= { 146 196 84 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage }
 	male_common_first_names={
 		placeholder
@@ -931,7 +931,7 @@ pochutec = {
 
 huastec = {
 	color= { 49 135 15 }
-	religion = animist
+	religion = mayan
 	traits = { native_heritage maya_speaking }
 	male_common_first_names={
 		placeholder
@@ -953,7 +953,7 @@ huastec = {
 
 matlatzinca = {
 	color= { 136 115 222 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage }
 	male_common_first_names={
 		placeholder
@@ -975,7 +975,7 @@ matlatzinca = {
 
 purepecha = {
 	color= { 20 117 27 }
-	religion = animist
+	religion = purepecha 
 	traits = { native_heritage }
 	male_common_first_names={
 		placeholder
@@ -997,7 +997,7 @@ purepecha = {
 
 cuitlatec = {
 	color= { 92 94 189 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage }
 	male_common_first_names={
 		placeholder
@@ -1022,7 +1022,7 @@ cuitlatec = {
 
 ciboney = {
 	color= { 181 230 29 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage taino caribbean }
 	male_common_first_names={
 		Ameyro
@@ -1068,7 +1068,7 @@ ciboney = {
 
 ayiti = {
 	color= { 169 126 207 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage taino caribbean }
 	male_common_first_names={
 		Abey
@@ -1142,7 +1142,7 @@ ayiti = {
 
 kalina = {
 	color = { 52 120 25 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage cariban caribbean }
 	male_common_first_names={
 		Cacimar
@@ -1164,7 +1164,7 @@ kalina = {
 
 kalinago = {
 	color = { 163 73 164 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage cariban caribbean }
 	male_common_first_names={
 		placeholder
@@ -1186,7 +1186,7 @@ kalinago = {
 
 ciguayo = {
 	color = { 239 41 51 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage waroid caribbean }
 	male_common_first_names={
 		Caonabo
@@ -1208,7 +1208,7 @@ ciguayo = {
 }
 macorix = {
 	color = { 255 210 225 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage waroid caribbean }
 	male_common_first_names={
 		placeholder
@@ -1230,7 +1230,7 @@ macorix = {
 
 guanahatabey = {
 	color = { 136 0 21 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage waroid caribbean }
 	male_common_first_names={
 		placeholder
@@ -1253,7 +1253,7 @@ guanahatabey = {
 
 putun = {
 	color = { 75 128 106 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage maya_speaking }
 	male_common_first_names={
 		placeholder
@@ -1275,7 +1275,7 @@ putun = {
 
 yucatec = {
 	color = { 34 120 28 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage maya_speaking }
 	male_common_first_names={
 		placeholder
@@ -1297,7 +1297,7 @@ yucatec = {
 
 zoque = {
 	color = { 96 32 179 }
-	religion = animist
+	religion = core_mesoamerican
 	traits = { native_heritage mixe_zoquean }
 	male_common_first_names={
 		placeholder

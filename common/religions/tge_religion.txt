@@ -7,3 +7,57 @@ animist = {
 	}
 	color = { 0.8 0.6 0.4 }
 }
+
+
+
+aztlanec = {
+	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+	traits = {
+		
+	}
+	color = rgb { 100 76 135 }
+}
+core_mesoamerican = {
+	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+	traits = {
+		
+	}
+	color = rgb { 181 76 88 }
+}
+mayan = {
+	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+	traits = {
+		
+	}
+	color = rgb { 110 221 255 }
+}
+purepecha = {
+	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+	traits = {
+		
+	}
+	color = rgb { 214 235 122 }
+}
+toltec = {
+	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+	traits = {
+		
+	}
+	color = rgb { 0 116 179 }
+}
+totonacan = {
+	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+	traits = {
+		
+	}
+	color = rgb { 197 201 191 }
+}
+otomanguean = {
+	texture = "gfx/interface/icons/religion_icons/catholic.dds"
+	traits = {
+		
+	}
+	color = rgb { 245 197 66 }
+}
+
+
