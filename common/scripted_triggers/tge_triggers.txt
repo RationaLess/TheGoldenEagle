@@ -1,0 +1,27 @@
+has_mesoamerican_culture = {
+	OR = {
+		country_has_primary_culture = cu:mexica
+		country_has_primary_culture = cu:nahua
+		country_has_primary_culture = cu:acolhua
+		country_has_primary_culture = cu:tepanec
+		country_has_primary_culture = cu:otomi
+		country_has_primary_culture = cu:totonac
+		country_has_primary_culture = cu:mixtec
+		country_has_primary_culture = cu:zapotec
+		country_has_primary_culture = cu:tlahuica
+		country_has_primary_culture = cu:mazahua
+		country_has_primary_culture = cu:nonoalca
+		country_has_primary_culture = cu:chinantec
+		country_has_primary_culture = cu:mazatec
+		country_has_primary_culture = cu:popoloca
+		country_has_primary_culture = cu:tepehua
+		country_has_primary_culture = cu:mixe
+		country_has_primary_culture = cu:tlapanec
+		country_has_primary_culture = cu:amuzgo
+		country_has_primary_culture = cu:huave
+		country_has_primary_culture = cu:pochutec
+		country_has_primary_culture = cu:matlatzinca
+		country_has_primary_culture = cu:purepecha
+		country_has_primary_culture = cu:cuitlatec
+		}
+	}

@@ -1,0 +1,235 @@
+﻿namespace = character_events
+
+character_events.1001 = { #Eureka Moment (Innovative/Poet becomes Polymath)
+	type = country_event
+	placement = root
+
+	title = character_events.1001.t
+	desc = character_events.1001.d
+	flavor = character_events.1001.f
+
+	duration = 3
+
+	gui_window = event_window_1char_tabloid
+
+	left_icon = scope:university_benefactor
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+		has_technology_researched = academia
+		ig:ig_industrialists = {
+			is_marginal = no
+		}
+		any_scope_state = {
+			is_incorporated = yes
+			has_building = building_urban_center
+			NOT = {
+				has_building = building_university
+			}
+		}
+	}
+
+	immediate = {
+		ig:ig_industrialists = {
+			leader = { 
+				save_scope_as = university_benefactor
+			}
+		}
+		random_scope_state = {
+			limit = {
+				is_incorporated = yes
+				has_building = building_urban_center
+				NOT = {
+					has_building = building_university
+				}
+			}
+			save_scope_as = university_state
+		}
+	}
+
+	option = {
+		default_option = yes
+		name = character_events.2.a
+		scope:university_state = {
+			create_building={
+ 				building="building_university"
+ 				level=1
+ 				reserves=1
+ 			}
+		}
+		scope:university_benefactor.interest_group = {
+			add_modifier = {
+				name = modifier_university_built
+				months = normal_modifier_time
+			}
+		}
+	}
+
+	option = {
+		name = character_events.2.b
+		scope:university_benefactor.interest_group = {
+			add_modifier = {
+				name = modifier_blocked_building_university
+				months = normal_modifier_time
+			}
+		}
+	}
+}
+
+
+
+character_events.1002 = { #Claimant emerges
+	type = country_event
+	placement = root
+	
+	title = character_events.1002.t
+	desc = character_events.1002.d
+	flavor = character_events.1002.f
+
+	cooldown = { months = 600 }
+	
+	event_image = {
+		texture = "gfx/event_pictures/diplomacy_meso.dds"
+	}
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	duration = 3
+	
+	trigger = {
+		has_law = law_type:law_dynastic
+		government_legitimacy < 75
+		
+		ruler = {
+		popularity <= -50
+		
+		}
+		
+		any_character = {
+			popularity >= 50
+			get_loyalty < 0
+			
+			interest_group = {
+				ig_approval < 5
+				}
+			
+			}
+		
+	}
+
+	immediate = {
+		random_character = {
+			limit = {
+				popularity >= 50
+				get_loyalty < 0
+				
+				interest_group = {
+					ig_approval < 5
+					}
+			}
+		save_scope_as = claimant_scope
+		add_variable = claimant
+		}
+		
+		add_journal_entry = { type = je_claimant_faction }
+	}
+
+	option = {
+		name = character_events.1002.a
+		
+		custom_tooltip = {
+			text = character_events.1002.a.tooltip
+			
+			every_scope_character = {
+				limit = {
+					get_loyalty < 20
+					}
+				random_list = {
+					50 = { add_trait = sympathizer }
+					50 = { }
+					}
+			}
+			
+			}
+		
+	}
+}
+
+
+#Quiet Events 
+
+character_events.1100 = { #poetry Positive
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		any_character = {
+			has_trait = poet
+			}
+	}
+	
+	immediate = {
+		random_character = {
+			limit = {
+				has_trait = poet
+				}
+			save_scope_as = poet
+			add_modifier = {
+				name = poetry_lauded
+				months = 240
+				}
+			}
+		post_notification = notification_ev_poetry_name
+	}
+}
+character_events.1101 = { #poetry Positive
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		any_character = {
+			has_trait = poet
+			}
+	}
+	
+	immediate = {
+		random_character = {
+			limit = {
+				has_trait = poet
+				}
+			save_scope_as = poet
+			add_modifier = {
+				name = poetry_panned
+				months = 240
+				}
+			}
+		post_notification = notification_ev_bad_poetry_name
+	}
+}
+character_events.1102 = { #Random Character becomes poet
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		any_character = {
+			count < 5
+			has_trait = poet
+			}
+	}
+	
+	immediate = {
+		random_character = {
+			limit = {
+					NOT = {	has_trait = poet }
+				}
+			save_scope_as = new_poet
+			add_trait = poet
+			}
+		post_notification = notification_ev_new_poet_name
+	}
+}

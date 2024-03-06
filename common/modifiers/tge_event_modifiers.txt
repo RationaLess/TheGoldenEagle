@@ -90,3 +90,14 @@ heartland_reinforced = {
 	country_prestige_mult = -0.2
 	country_military_wages_mult = 0.3
 	}
+	
+poetry_lauded = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
+	
+	character_popularity_add = 20
+	}
+poetry_panned = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	
+	character_popularity_add = -20
+	}

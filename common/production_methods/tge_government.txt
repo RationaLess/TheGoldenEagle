@@ -294,7 +294,7 @@ pm_admin_basic = {
 	country_modifiers = {
 		workforce_scaled = {
 			country_bureaucracy_add = 25
-
+			country_empire_sprawl_capacity_add = 25
 		}
 	}	
 	
@@ -326,6 +326,7 @@ pm_admin_advanced = {
 	country_modifiers = {
 		workforce_scaled = {
 			country_bureaucracy_add = 50
+			country_empire_sprawl_capacity_add = 50
 
 		}
 	}	
@@ -359,6 +360,7 @@ pm_admin_dedicated = {
 	country_modifiers = {
 		workforce_scaled = {
 			country_bureaucracy_add = 100
+			country_empire_sprawl_capacity_add = 100
 
 		}
 	}	

@@ -103,7 +103,29 @@
  je_revolt_mid_tension:"The revolt may escalate."
  je_revolt_low_tension:"The revolt will not escalate."
  
+ #Claimant Faction
+ je_claimant_faction:"Claimant Faction"
+ je_claimant_faction_reason:"A claim has been made for the throne of [SCOPE.GetCountry.GetName] by [Scope.sCharacter('scope_claimant').GetName]. For the duration of this [concept_journal_entry], no hostile #V Character interactions#! can be made against them. A #V progress bar#! representing the power of the claimant faction will change based on various #tooltippable;tooltip:[Country.GetTooltipTag],je_claimant_tooltip_positive pro-claimant#! or #tooltippable;tooltip:[Country.GetTooltipTag],je_claimant_tooltip_negative pro-ruler#! factors.\nIf the progress bar is full, the throne will be taken in a bloodless coup. If a civil war which includes the claimants [concept_interest_group] occurs, it will become a #V Claimant War#!."
+ je_claimant_tooltip_positive: "The following conditions will #V advance#! the #V Progress Bar#! in favor of the claimant:\n•The popularity of [Scope.sCharacter('scope_claimant').GetName]\n•The popularity of [concept_sympathizer] characters\n•Negative [concept_empire_sprawl]\n•Current #V Boldness#! of the claimant"
+ je_claimant_tooltip_negative: "The following conditions will #V deplete#! the #V Progress Bar#! in favor of the reiging ruler:\n•The popularity of [ROOT.GetCountry.GetRuler.GetName]\n•High [concept_legitimacy]\n•Unspent [concept_authority]\n•Positive [concept_empire_sprawl]"
+ je_claimant_protection:"Is not a #V Claimant#!"
  
+ je_claimant_faction_0:"The claimant is cautious."
+ je_claimant_faction_1:"The claimant is quielty scheming."
+ je_claimant_faction_2:"The claimant is swaying people!"
+ je_claimant_faction_3:"The claimant faction is radical!"
+ 
+ 
+ character_events.1002.t:"Pretender Emerges!"
+ character_events.1002.d:"Through the broad discontent regarding [ROOT.GetCountry.GetRuler.GetName] reign, more and more people started viewing [SCOPE.sCharacter('scope_character').GetFullName] as the one fit to rule."
+ character_events.1002.f:"The ceremonies and honorifics of kingship have become dull to courtier and noble alike. The ruling title has been stripped of it's prestige, with many eyeing better candidates than [ROOT.GetCountry.GetRuler.GetName] for the throne..."
+ character_events.1002.a:"We'll see how the situation develops."
+ character_events.1002.a.tooltip:"Random disloyal characters will become [Concept('concept_sympathizer',Sympathizers)]."
+ 
+ concept_sympathizer:"Sympathizer"
+ concept_sympathizer_desc:"Sympathizers are [Concept('concept_character',Characters)] loyal to a claimant rather than the current ruler.\n\nFor as long as the #V Claimant Faction #! [concept_journal_entry] is active, they may sway others to the cause or sabotage the current government. If enough powerful characters end up as sympathizers, the [Concept('concept_ruler',Rulership)] will be taken in a bloodless coup."
+ sympathizer:"Sympathizer"
+ sympathizer_desc:"This character supports the claimant rather than the current ruler."
  
  
  ###STRUGGLES###

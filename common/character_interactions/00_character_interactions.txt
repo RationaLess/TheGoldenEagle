@@ -438,6 +438,10 @@ exile_character = {
 			}
 			has_role = agitator
 		}
+		custom_tooltip = {
+			text = je_claimant_protection
+			NOT = { has_variable = claimant }
+			}
 	}
 
 	effect = {
@@ -579,12 +583,12 @@ exile_character = {
 				add_modifier = {
 					name = in_exile_modifier
 				}
-				every_country = {
-					limit = {
-						has_diplomatic_relevance = scope:exiling_country_scope
-					}
-					post_notification = exile_notification
-				}
+				#every_country = {
+				#	limit = {
+				#		has_diplomatic_relevance = scope:exiling_country_scope
+				#	}
+				#	post_notification = exile_notification
+				#}
 			}
 			else = {
 				add_modifier = {
@@ -1076,6 +1080,10 @@ offer_bribe = {
 				divide = 5
 				}
 			}
+		custom_tooltip = {
+			text = je_claimant_protection
+			NOT = { has_variable = claimant }
+			}
 	}
 
 	effect = {
@@ -1090,6 +1098,7 @@ offer_bribe = {
 			name = bribed
 			months = 120	
 		}
+		remove_trait = sympathizer
 	}
 
 	#cooldown = { months = short_modifier_time }
@@ -1130,7 +1139,10 @@ make_complacent = {
 		custom_tooltip = {
 			text = loyalty_50
 			modifier:character_loyalty_add >= 50
-			
+			}
+		custom_tooltip = {
+			text = je_claimant_protection
+			NOT = { has_variable = claimant }
 			}
 	}
 
@@ -1140,6 +1152,7 @@ make_complacent = {
 			name = politics_influenced
 			months = 120
 			}
+		remove_trait = sympathizer
 	}
 
 	cooldown = { months = short_modifier_time }
@@ -1184,6 +1197,10 @@ execute = {
 			}
 			has_role = agitator
 		}
+		custom_tooltip = {
+			text = je_claimant_protection
+			NOT = { has_variable = claimant }
+			}
 	}
 
 	effect = {
@@ -1333,6 +1350,10 @@ smear_reputation = {
 		Owner = {
 			has_law = law_type:law_unchecked_power
 		}
+		custom_tooltip = {
+			text = je_claimant_protection
+			NOT = { has_variable = claimant }
+			}
 	}
 	
 

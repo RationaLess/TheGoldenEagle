@@ -36,12 +36,12 @@
 	OR = {
 		pop_has_primary_culture = no
 		religion_accepted = no
-		standard_of_living <= 25
+		standard_of_living <= 20
 		}
 	NOT = {
 		is_pop_type = scholars
 		is_pop_type = officers
-	}
+		}
 		
 	}
 	
@@ -54,6 +54,7 @@
 			if = {
 				limit = { 
 					is_pop_type = nobles
+					pop_has_primary_culture = no
 				}
 				value = 100
 			}

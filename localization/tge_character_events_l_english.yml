@@ -1,0 +1,18 @@
+﻿l_english:
+ 
+ 
+ 
+ notification_ev_poetry_name: "[SCOPE.sCharacter('poet').GetFullName] has gained [concept_popularity]"
+ notification_ev_poetry_desc: "[SCOPE.sCharacter('poet').GetFullName] publicly reciting their poems has gained a lot of attention, gaining them popularity in [Root.GetCountry.GetName]."
+ notification_ev_poetry_tooltip: "#header $notification_ev_poetry_name$#!\n$TOOLTIP_DELIMITER$\n$notification_ev_poetry_desc$"
+ notification_ev_bad_poetry_name: "[SCOPE.sCharacter('poet').GetFullName] has lost [concept_popularity]"
+ notification_ev_bad_poetry_desc: "[SCOPE.sCharacter('poet').GetFullName] has had their poems widely criticized, leading to them losing [concept_popularity] in [Root.GetCountry.GetName]."
+ notification_ev_bad_poetry_tooltip: "#header $notification_ev_bad_poetry_name$#!\n$TOOLTIP_DELIMITER$\n$notification_ev_bad_poetry_desc$"
+ notification_ev_new_poet_name: "[SCOPE.sCharacter('poet').GetFullName] has become a #V Poet#!"
+ notification_ev_new_poet_desc: "[SCOPE.sCharacter('poet').GetFullName] has gotten the knack of composing, with him now widely accepted as a #V Poet#!."
+ notification_ev_new_poet_tooltip: "#header $notification_ev_new_poet_name$#!\n$TOOLTIP_DELIMITER$\n$notification_ev_new_poet_desc$"
+
+
+
+ poetry_lauded:"Poetry Lauded"
+ poetry_panned:"Poetry Panned"

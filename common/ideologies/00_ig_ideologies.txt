@@ -2,7 +2,9 @@
 	icon = "gfx/interface/icons/ideology_icons/moralist.dds"
 	
 	lawgroup_human_sacrifice = {
-	law_human_sacrifice = strongly_approve
+	law_political_sacrifice = disapprove
+	law_ritual_sacrifice = strongly_approve
+	law_executions = approve
 	law_human_sacrifice_banned = strongly_disapprove
 	}
 	

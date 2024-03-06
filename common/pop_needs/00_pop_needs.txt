@@ -217,7 +217,7 @@ popneed_art = {
 		min_weight = 0.0
 	}
 	entry = {
-		goods = pottery
+		goods = luxury_pottery
 		
 		weight = 1
 		max_weight = 4.0 # Maxes out at 80% of supply share

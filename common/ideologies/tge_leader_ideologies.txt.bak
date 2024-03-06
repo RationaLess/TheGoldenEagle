@@ -189,8 +189,10 @@ ideology_leader_empathetic = {
 			law_broad_acceptance = strongly_approve
 		}
 	lawgroup_human_sacrifice = {
-		law_human_sacrifice_banned  = strongly_approve
-		law_human_sacrifice = strongly_disapprove
+		law_political_sacrifice = strongly_disapprove
+		law_ritual_sacrifice = disapprove
+		law_executions = neutral
+		law_human_sacrifice_banned = approve
 		}
 	lawgroup_religious_assimilation = {
 		law_forced_conversion = disapprove

@@ -998,3 +998,21 @@ honorable = {
 
 	value = 3
 }
+
+sympathizer = {
+	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/reserved.dds"
+
+	character_modifier = {
+		character_loyalty_add = -20
+	}
+
+	possible = {
+	}
+
+	weight = {
+		value = 0
+	}
+
+	value = 3
+}

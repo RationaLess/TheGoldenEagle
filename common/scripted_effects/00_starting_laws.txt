@@ -17,7 +17,7 @@ effect_starting_laws_mesoamerica_citystate = {
 	
 	activate_law = law_type:law_cultural_primacy
 	activate_law = law_type:law_unchecked_power
-	activate_law = law_type:law_human_sacrifice
+	activate_law = law_type:law_ritual_sacrifice
 	activate_law = law_type:law_communal_worship
 	activate_law = law_type:law_debt_slavery
 	
@@ -40,7 +40,7 @@ effect_starting_laws_mesoamerica_mercenary = {
 	
 	activate_law = law_type:law_cultural_primacy
 	activate_law = law_type:law_unchecked_power
-	activate_law = law_type:law_human_sacrifice
+	activate_law = law_type:law_ritual_sacrifice
 	activate_law = law_type:law_communal_worship
 	activate_law = law_type:law_debt_slavery
 }
