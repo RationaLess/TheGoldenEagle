@@ -14,7 +14,9 @@ on_monthly_pulse_country = {
 		#meiji.13
 	}
 	effect = {
-		onaction_civilization_level_calc = yes
+		#onaction_civilization_level_calc = yes
+		#Civ level on hiatus until further notice. sorry!
+		
 		onaction_protectorate_check = yes
 		
 		
