@@ -18,6 +18,18 @@ TEOTI = {
 }
 
 
+#Tarascan Empire
+TARA = {
+	states = {
+		STATE_TZINTZUNTZAN
+		STATE_ZITAHURAO
+		STATE_TACATZUCARO
+	}
+
+	required_states_fraction = 0.7	
+	
+	ai_will_do = { always = yes }
+}
 
 #Teoatl, Pacific Nahua Formable
 TEOA = {

@@ -3,7 +3,7 @@ POPS = {
 	
 	#Purepecha
 	s:STATE_TZINTZUNTZAN = {
-		region_state:TARA = {
+		region_state:PATZ = {
 			create_pop = {
 				culture = purepecha
 				size = 80000
@@ -11,58 +11,74 @@ POPS = {
 		}
 	}
 	s:STATE_CUITEZO = {
-		region_state:TARA = {
+		region_state:ZACA = {
 			create_pop = {
 				culture = purepecha
 				size = 20000
 				}
 			create_pop = {
-				culture = nahua
-				size = 30000
+				culture = west_nahua
+				size = 10000
+				}
+		}
+		region_state:ACAM = {
+			create_pop = {
+				culture = purepecha
+				size = 15000
+				}
+			create_pop = {
+				culture = west_nahua
+				size = 25000
 				}
 		}
 	}
 	s:STATE_ZITAHURAO = {
-		region_state:TARA = {
+		region_state:ZITA = {
+			create_pop = {
+				culture = purepecha
+				size = 10000
+				}
+			create_pop = {
+				culture = matlatzinca
+				size = 22000
+				}
+			create_pop = {
+				culture = west_nahua
+				size = 11000
+				}
+		}
+		region_state:IHTI = {
 			create_pop = {
 				culture = purepecha
 				size = 15000
 				}
 			create_pop = {
 				culture = matlatzinca
-				size = 35000
-				}
-		}
-		region_state:AXSP = {
-			create_pop = {
-				culture = nahua 
-				size = 11000
-				}
-			create_pop = {
-				culture = matlatzinca	
-				size = 4500
-				}
-			create_pop = {
-				culture = purepecha
-				size = 4500
+				size = 25000
 				}
 		}
 	}
 	s:STATE_AYOTAC = {
-		region_state:TARA = {
+		region_state:TANC = {
 			create_pop = {
-				culture = purepecha
-				size = 8000
+				culture = west_nahua
+				size = 12000
 				}
 			create_pop = {
 				culture = cuitlatec
-				size = 16000
+				size = 12000
 				}
 		}
 		region_state:AYOT = {
 			create_pop = {
 				culture = cuitlatec
 				size = 48000
+				}
+		}
+		region_state:TIQU = {
+			create_pop = {
+				culture = cuitlatec
+				size = 24000
 				}
 		}
 	}
@@ -153,7 +169,7 @@ POPS = {
 	
 	#Micho nahuas
 	s:STATE_TECOMAN = {
-		region_state:TECO = {
+		region_state:ZAPT = {
 			create_pop = {
 				culture = west_nahua
 				size = 65000
@@ -169,7 +185,7 @@ POPS = {
 		}
 	}
 	s:STATE_COAHUAYUTLA = {
-		region_state:COAH = {
+		region_state:ZACT = {
 			create_pop = {
 				culture = west_nahua
 				size = 62500
@@ -177,15 +193,21 @@ POPS = {
 		}
 	}
 	s:STATE_TANCITARO = {
-		region_state:TANC = {
+		region_state:ACOL = {
 			create_pop = {
 				culture = west_nahua
 				size = 42500
 				}
 		}
+		region_state:SAHU = {
+			create_pop = {
+				culture = coca
+				size = 28000
+				}
+		}
 	}
 	s:STATE_TACATZUCARO = {
-		region_state:TCTZ = {
+		region_state:XILT = {
 			create_pop = {
 				culture = west_nahua
 				size = 32500
@@ -200,6 +222,62 @@ POPS = {
 				}
 		}
 	}
+	s:STATE_XALISCO = {
+		region_state:CAXT = {
+			create_pop = {
+				culture = west_nahua
+				size = 26000
+				}
+		}
+		region_state:AUTL = {
+			create_pop = {
+				culture = west_nahua
+				size = 16000
+				}
+			create_pop = {
+				culture = coca
+				size = 10000
+				}
+		}
+		region_state:CUZA = {
+			create_pop = {
+				culture = west_nahua
+				size = 22000
+				}
+		}
+		region_state:XIHU = {
+			create_pop = {
+				culture = west_nahua
+				size = 27000
+				}
+		}
+	}
+	
+	s:STATE_URUAPAN = {
+		region_state:SAYO = {
+			create_pop = {
+				culture = west_nahua
+				size = 22000
+				}
+			create_pop = {
+				culture = coca
+				size = 11000
+				}
+		}
+		region_state:ZINA = {
+			create_pop = {
+				culture = west_nahua
+				size = 28000
+				}
+		}
+		region_state:TECP = {
+			create_pop = {
+				culture = west_nahua
+				size = 22000
+				}
+		}
+	}
+	
 	s:STATE_HUANIMARO = {
 		region_state:HUAN = {
 			create_pop = {

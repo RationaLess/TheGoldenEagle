@@ -532,8 +532,6 @@ tier = duchy
 country_type = recognized
 cultures = { west_nahua }
 capital = STATE_TLACOTEPEC
-
-country_type = decentralized
 } 
 NOCH = { #nochtepec
 color = rgb { 176 102 219 }
@@ -541,8 +539,6 @@ tier = duchy
 country_type = recognized
 cultures = { west_nahua }
 capital = STATE_NOCHTEPEC
-
-country_type = decentralized
 } 
 TPCC = { #Tepecoacuilco
 color = rgb { 170 102 204 }
