@@ -16,6 +16,11 @@
 	possible = {	
 		NOT = { has_war_with = scope:target_country }	
 		infamy < 25
+		is_at_war = no
+		custom_tooltip = {
+			text = empire_sprawl_trigger_positive
+			empire_sprawl_value > 0
+			}
 		scope:target_country = {
 			is_subject_of = prev
 			NOT = {
