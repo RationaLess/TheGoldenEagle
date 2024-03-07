@@ -63,18 +63,20 @@ ideology_leader_statist = {
 	
 	
 	lawgroup_distribution_of_power = {
-			law_dynastic = strongly_disapprove
-			law_meritocratic = approve
-			law_feudal = approve
-			law_elective = disapprove
-		}
+		law_dynastic = strongly_disapprove
+		law_meritocratic = approve
+		law_feudal = approve
+		law_elective = disapprove
+	}
+	
 	lawgroup_land_organization = {
-			law_calpulli_system = approve
-			law_religious_tithes = neutral 
-			law_state_control = strongly_approve
-			law_imperial_land = disapprove
-			law_royal_domains = strongly_disapprove
-		}
+		law_calpulli_system = approve
+		law_religious_tithes = neutral 
+		law_state_control = strongly_approve
+		law_imperial_land = disapprove
+		law_royal_domains = strongly_disapprove
+	
+	}
 	lawgroup_institutionalization = {
 		law_informal_government = neutral 
 		law_assembly_government = neutral
@@ -82,14 +84,13 @@ ideology_leader_statist = {
 		law_dedicated_government = approve
 		law_bureaucratic_government = strongly_approve
 	}
+	
 	lawgroup_development = {
 		law_decentralized_settlements = disapprove 
 		law_urban_centers = disapprove 
 		law_great_projects = neutral
 		law_central_development = strongly_approve
 	}
-	
-	
 	
 	possible = {
 		owner = {
@@ -102,13 +103,11 @@ ideology_leader_statist = {
 				is_interest_group_type = ig_pochteca
 				is_interest_group_type = ig_scholars
 			}
-		}
-		
-		}
+		}	
+	}
 	
 	leader_weight = {
 		value = 100
-		
 		
 		#Happy IGs are more likely to go along with more govt power
 		if = {
@@ -118,11 +117,9 @@ ideology_leader_statist = {
 				}
 			}
 			add = 50
-		}
-		
-		}
-	
+		}	
 	}
+}
 	
 	
 ideology_leader_populist = {
@@ -130,20 +127,21 @@ ideology_leader_populist = {
 	
 	character_ideology = yes
 	
-	
 	lawgroup_distribution_of_power = {
-			law_dynastic = strongly_disapprove
-			law_meritocratic = neutral
-			law_feudal = disapprove
-			law_elective = approve
-		}
+		law_dynastic = strongly_disapprove
+		law_meritocratic = neutral
+		law_feudal = disapprove
+		law_elective = approve
+	}
+	
 	lawgroup_land_organization = {
-			law_calpulli_system = strongly_approve
-			law_religious_tithes = neutral 
-			law_state_control = neutral
-			law_imperial_land = disapprove
-			law_royal_domains = strongly_disapprove
-		}
+		law_calpulli_system = strongly_approve
+		law_religious_tithes = neutral 
+		law_state_control = neutral
+		law_imperial_land = disapprove
+		law_royal_domains = strongly_disapprove
+	}
+	
 	lawgroup_institutionalization = {
 		law_informal_government = neutral 
 		law_assembly_government = neutral
@@ -151,8 +149,6 @@ ideology_leader_populist = {
 		law_dedicated_government = neutral
 		law_bureaucratic_government = disapprove
 	}
-	
-	
 	
 	possible = {
 		owner = {
@@ -166,8 +162,7 @@ ideology_leader_populist = {
 				is_interest_group_type = ig_scholars
 			}
 		}
-		
-		}
+	}
 	
 	leader_weight = {
 		value = 100
@@ -181,11 +176,8 @@ ideology_leader_populist = {
 			}
 			add = 50
 		}
-		
-		
-		}
-	
 	}
+}
 	
 
 ideology_leader_complacent = {
@@ -195,27 +187,26 @@ ideology_leader_complacent = {
 	
 	
 	lawgroup_diplomatic_stance = {
-			law_neutral = strongly_approve 
-			law_appeasing = neutral 
-			law_mercantile = neutral
-			law_bellicose = strongly_disapprove 
-		}
+		law_neutral = strongly_approve 
+		law_appeasing = neutral 
+		law_mercantile = neutral
+		law_bellicose = strongly_disapprove 
+	}
+	
 	lawgroup_crown_authority = {
 		law_unchecked_power = neutral 
 		law_majority_consensus = neutral 
 		law_controlled_courts = neutral
 		law_juidicial_autonomy = neutral
 	}
+	
 	lawgroup_institutionalization = {
-			law_court_government = neutral 
-			law_assembly_government = neutral 
-			law_informal_government = neutral 
-			law_dedicated_government = neutral
-			law_bureaucratic_government = neutral 
-		}
-	
-	
-	
+		law_court_government = neutral 
+		law_assembly_government = neutral 
+		law_informal_government = neutral 
+		law_dedicated_government = neutral
+		law_bureaucratic_government = neutral 
+	}
 	
 	possible = {
 		owner = {
@@ -226,8 +217,8 @@ ideology_leader_complacent = {
 				is_interest_group_type = ig_scholars
 			}
 		}
-		
-		}
+	}
+	
 	leader_weight = {
 		value = 50	
 		
@@ -306,8 +297,7 @@ ideology_leader_complacent = {
 		multiply = 10
 		}
 	}
-	
-	}
+}
 	
 ideology_leader_empathetic = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_humanitarism.dds"
@@ -316,33 +306,34 @@ ideology_leader_empathetic = {
 	
 	
 	lawgroup_diplomatic_stance = {
-			law_neutral = approve 
-			law_appeasing = strongly_approve 
-			law_mercantile = neutral
-			law_bellicose = disapprove 
-		}
+		law_neutral = approve 
+		law_appeasing = strongly_approve 
+		law_mercantile = neutral
+		law_bellicose = disapprove 
+	}
+	
 	lawgroup_cultural_acceptance = {
-			law_encomiendas = strongly_disapprove
-			law_cultural_supremacy = disapprove
-			law_cultural_primacy = neutral
-			law_broad_acceptance = strongly_approve
-		}
+		law_encomiendas = strongly_disapprove
+		law_cultural_supremacy = disapprove
+		law_cultural_primacy = neutral
+		law_broad_acceptance = strongly_approve
+	}
+	
 	lawgroup_human_sacrifice = {
-		law_human_sacrifice_banned  = strongly_approve
+		law_human_sacrifice_banned = strongly_approve
 		law_human_sacrifice = strongly_disapprove
-		}
+	}
+	
 	lawgroup_religious_assimilation = {
 		law_forced_conversion = disapprove
 		law_organized_worship = neutral
 		law_communal_worship = approve
-		}
+	}
+	
 	lawgroup_slavery = {
 		law_slavery_banned = approve
 		law_debt_slavery = strongly_disapprove
-		}
-	
-	
-	
+	}
 	
 	possible = {
 		owner = {
@@ -353,8 +344,7 @@ ideology_leader_empathetic = {
 				is_interest_group_type = ig_warrior_guilds
 			}
 		}
-		
-		}
+	}
 	
 	leader_weight = {
 		value = 0
@@ -366,8 +356,7 @@ ideology_leader_empathetic = {
 				has_law = law_type:law_debt_slavery
 				}
 			}
-		
-		add = 25
+			add = 25
 		}
 		if = {
 			limit = {
@@ -378,17 +367,17 @@ ideology_leader_empathetic = {
 						}
 				}
 			}
-		
-		add = 15
+			add = 15
 		}
 		if = {
 			limit = {
 				owner = {
-				has_law = law_type:law_human_sacrifice
+					NOT = {
+						has_law = law_type:law_human_sacrifice_banned
+					}
 				}
 			}
-		
-		add = 25
+			add = 25
 		}
 		#if = {
 		#	limit = {
@@ -404,14 +393,10 @@ ideology_leader_empathetic = {
 			limit = {
 			has_role = agitator
 			}
-		multiply = 2
+			multiply = 2
 		}
-		
-		
-	
-		}
-	
 	}
+}
 
 
 ideology_leader_urbanist = {
@@ -421,33 +406,33 @@ ideology_leader_urbanist = {
 	
 	
 	lawgroup_institutionalization = {
-			law_court_government = disapprove 
-			law_assembly_government = disapprove 
-			law_informal_government = disapprove 
-			law_dedicated_government = approve
-			law_bureaucratic_government = strongly_approve 
-		}
+		law_court_government = disapprove 
+		law_assembly_government = disapprove 
+		law_informal_government = disapprove 
+		law_dedicated_government = approve
+		law_bureaucratic_government = strongly_approve 
+	}
+	
 	lawgroup_crown_authority = {
 		law_unchecked_power = strongly_disapprove 
 		law_majority_consensus = disapprove 
 		law_controlled_courts = neutral 
 		law_juidicial_autonomy = approve 
-		}
+	}
+	
 	lawgroup_development = {
 		law_mobile_settlements = disapprove 
 		law_ribbon_development = disapprove 
 		law_clustered_communities = neutral
 		law_centralized_urban_centers = approve
 	}
+	
 	lawgroup_crown_authority = {
 		law_unchecked_power = disapprove 
 		law_majority_consensus = disapprove 
 		law_controlled_courts = approve
 		law_juidicial_autonomy = approve
 	}
-	
-	
-	
 	
 	possible = {
 		owner = {
@@ -462,8 +447,7 @@ ideology_leader_urbanist = {
 				is_interest_group_type = ig_scholars
 			}
 		}
-		
-		}
+	}
 	
 	leader_weight = {
 		value = 25
@@ -489,7 +473,7 @@ ideology_leader_urbanist = {
 					}
 				}
 			}
-		add = 175
+			add = 175
 		}
 		# More likely for major powers
 		if = {
@@ -516,34 +500,36 @@ ideology_leader_imperialist = {
 		law_alliance = disapprove
 		law_council = approve
 		law_monarchy = strongly_approve
-		}
+	}
+	
 	lawgroup_diplomatic_stance = {
-			law_neutral = disapprove 
-			law_appeasing = strongly_disapprove 
-			law_mercantile = disapprove
-			law_bellicose = strongly_approve 
-		}
+		law_neutral = disapprove 
+		law_appeasing = strongly_disapprove 
+		law_mercantile = disapprove
+		law_bellicose = strongly_approve 
+	}
+	
 	lawgroup_conquest_doctrine = {
 			law_ritual_warfare = strongly_disapprove
 			law_local_hegemon = disapprove 
 			law_tributary_empire = neutral
 			law_territory_integration = strongly_approve
-		}
+	}
+	
 	lawgroup_land_organization = {
-			law_royal_domains = approve 
-			law_state_control = approve
-			law_religious_tithes = neutral 
-			law_imperial_land = strongly_approve 
-			law_calpulli_system = disapprove 
-		}
+		law_royal_domains = approve 
+		law_state_control = approve
+		law_religious_tithes = neutral 
+		law_imperial_land = strongly_approve 
+		law_calpulli_system = disapprove 
+	}
+	
 	lawgroup_military_reforms = {
-			law_no_standing_army = strongly_disapprove
-			law_warrior_guilds = neutral
-			law_military_education = approve 
-			law_honorary_titles = strongly_approve
-		}
-	
-	
+		law_no_standing_army = strongly_disapprove
+		law_warrior_guilds = neutral
+		law_military_education = approve 
+		law_honorary_titles = strongly_approve
+	}
 	
 	possible = {
 		scope:interest_group = {
@@ -555,8 +541,7 @@ ideology_leader_imperialist = {
 				is_interest_group_type = ig_scholars
 			}
 		}
-		
-		}
+	}
 	
 	leader_weight = {
 		value = 25
@@ -568,7 +553,7 @@ ideology_leader_imperialist = {
 					is_interest_group_type = ig_warrior_guilds
 				}
 			}
-		add = 175
+			add = 175
 		}
 		#Powerful Warrior Guilds help the Imperial cause
 		if = {
@@ -635,11 +620,9 @@ ideology_leader_imperialist = {
 					is_powerful = yes
 				}
 			}
-		multiply = 0
+			multiply = 0
 		}
-	
 	}
-
 }
 
 
@@ -651,26 +634,26 @@ ideology_leader_confederate = {
 	
 	
 	lawgroup_diplomatic_stance = {
-			law_neutral = approve 
-			law_appeasing = strongly_approve 
-			law_mercantile = approve
-			law_bellicose = strongly_disapprove 
-		}
+		law_neutral = approve 
+		law_appeasing = strongly_approve 
+		law_mercantile = approve
+		law_bellicose = strongly_disapprove 
+	}
+	
 	lawgroup_conquest_doctrine = {
-			law_ritual_warfare = neutral
-			law_local_hegemon = approve 
-			law_tributary_empire = neutral
-			law_territory_integration = neutral
-		}
+		law_ritual_warfare = neutral
+		law_local_hegemon = approve 
+		law_tributary_empire = neutral
+		law_territory_integration = neutral
+	}
+	
 	lawgroup_governance_principles = {
 		law_city_state = disapprove 
 		law_alliance = strongly_approve
 		law_council = strongly_approve
 		law_monarchy = strongly_disapprove
-		}
-	
-	
-	
+	}
+
 	possible = {
 		owner = {
 			has_technology_researched = diplomacy
@@ -694,14 +677,11 @@ ideology_leader_confederate = {
 				is_interest_group_type = ig_scholars
 			}
 		}
-		
-		}
+	}
 	
 	leader_weight = {
 		value = 25
-		
 
-		
 		#Ancillaries should aim to establish confederations
 		if = {
 			limit = {

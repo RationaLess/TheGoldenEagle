@@ -1,5 +1,149 @@
-﻿#Random Events
+﻿on_monthly_pulse_country = {
+	on_actions = {
+		tge_monthly_pulse
+	}
+}
+
 on_yearly_pulse_country = {
+	on_actions = {
+		tge_yearly_pulse
+	}
+}
+
+tge_monthly_pulse = {
+	effect = {
+		#onaction_civilization_level_calc = yes
+		#Civ level on hiatus until further notice. sorry!
+		
+		onaction_protectorate_check = yes
+		
+		#Empire Sprawl
+		onaction_empire_sprawl_calc = yes
+		
+		#IG leader loyalty affecting IG
+		every_interest_group = {
+			if = {
+				limit = { has_modifier = leader_loyalty_impact }
+				remove_modifier = leader_loyalty_impact 
+			}
+			add_modifier = {
+				name = leader_loyalty_impact 
+				multiplier = {
+					value = {
+						value = leader.get_loyalty
+						divide = 10
+					}
+				}
+			}
+		}
+	}
+	
+	events = {
+	}
+	
+	#Empire Sprawl Events 
+	random_events = {
+		50 = 0
+		
+		#Critical Sprawl 
+		1 = empire_sprawl.2
+		1 = empire_sprawl.6
+			
+		#High Sprawl 
+		1 = empire_sprawl.1
+		1 = empire_sprawl.3
+		1 = empire_sprawl.4
+		1 = empire_sprawl.5
+	}
+	
+	# Election Events
+	random_events = {
+		100 = 0
+	}
+	
+}
+
+tge_yearly_pulse = {
+	
+	effect = {
+		# IG leader death
+		random_list = {
+			1 = {
+				trigger_event = { id = character_events.100 }
+			}
+			1 = { }
+		}
+		
+		#Imperial Copilot
+		if = {
+			limit = {
+				has_law = law_type:law_bellicose
+				
+				is_diplomatic_play_initiator = no
+				is_diplomatic_play_committed_participant = no
+				is_diplomatic_play_target = no
+				
+				is_subject = no
+				is_ai = yes
+				is_at_war = no
+				
+				NOT = {
+					scaled_debt > 0.25
+					bureaucracy < 0
+					}
+				OR = {
+					infamy < 100
+					empire_sprawl_deficit < 0.25
+					}
+				OR = {
+					has_journal_entry = je_kindling_the_empire
+					has_strategy = ai_strategy_imperial_ambitions
+					}
+				#Valid country exists 
+				any_country = {
+					is_diplomatic_play_committed_participant = no
+					is_ai = yes
+					is_adjacent_to_country = ROOT
+					country_rank < rank_value:major_power
+					NOT = {
+						is_country_type = decentralized
+						is_subject_of = ROOT
+						is_diplomatic_play_enemy_of = root
+						has_truce_with = ROOT
+						}
+					exists = yes
+				}
+			}
+			
+			change_infamy = 1
+			random_country = {
+				limit = {
+					is_diplomatic_play_committed_participant = no
+					is_ai = yes
+					is_adjacent_to_country = ROOT
+					country_rank < rank_value:major_power
+					NOT = {
+						is_country_type = decentralized
+						is_subject_of = ROOT
+						is_diplomatic_play_enemy_of = root
+						has_truce_with = ROOT
+						}
+					}
+					save_scope_as = imperial_copilot_target
+				}
+			}
+			if = {	
+				limit = {
+					NOT = { 
+						has_truce_with = scope:imperial_copilot_target
+					}
+				}
+				create_diplomatic_play = {
+					type = dp_make_tributary
+					target_country = scope:imperial_copilot_target
+				}
+			}
+		}
 	
 	#Random Pool
 	random_events = {
@@ -14,34 +158,15 @@ on_yearly_pulse_country = {
 		
 		#Flavor Events
 		10 = flavor_events.1
-		
-		}
-
 	}
+}
 
-
-on_protectorate = {
-
-	}
-
-
-
+on_protectorate = { }
 
 
 #Empire Sprawl pog
 
-
-on_battle_won = {
-	#events = {
-	#texan_war_of_independence.3
-	#}
-}
-
-
-
-
-
-
+on_battle_won = { }
 
 on_settlements	= {
 	effect = {
