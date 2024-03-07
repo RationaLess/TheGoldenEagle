@@ -1,0 +1,51 @@
+﻿je_harmonious_hegemon = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	group = je_group_foreign_affairs 
+	
+	
+is_shown_when_inactive = {
+		
+		
+		always = yes
+		
+	
+	}
+
+
+possible = { 
+		has_law = law_type:law_appeasing
+		has_technology_researched = politics
+		country_rank = rank_value:great_power
+	}
+
+fail = {
+		OR = {
+			any_country = {
+						capital = {
+							region = root.capital.region
+							}
+							prestige > root.prestige 
+						}
+			infamy >= 50
+			NOT = {
+				has_law = law_type:law_appeasing
+				}
+			}
+			
+			}
+			
+
+immediate = {
+	
+	}
+
+
+modifiers_while_active = {
+		modifier_harmonious_hegemon
+	}
+
+
+}
+
+

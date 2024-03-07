@@ -1,0 +1,100 @@
+﻿je_kindling_the_empire = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	
+	should_be_pinned_by_default = yes
+	
+	group = je_group_internal_affairs 
+	
+is_shown_when_inactive = {
+		
+		always = yes
+	
+	}
+
+
+possible = { 
+		at_war = no
+		is_subject = no
+		has_technology_researched = chain_of_command
+		has_law = law_type:law_bellicose
+		country_rank >= rank_value:major_power
+	
+	}
+
+invalidated = {
+	}
+
+immediate = {
+	
+	set_variable = {
+		name = kindling_empire_invasions
+		value = 0
+		}
+	
+	trigger_event = {
+			id = kindling_the_empire.1
+			popup = yes
+			}
+	}
+
+
+modifiers_while_active = {
+	}
+
+complete = {
+	
+	
+		calc_true_if = {
+			amount >= 2
+			
+			has_law = law_type:law_martial
+			has_law = law_type:law_honorary_titles
+			has_law = law_type:law_imperial_land
+			OR = {
+				has_law = law_type:law_military_education
+				has_law = law_type:law_honorary_titles
+				}
+			}
+		
+			
+			any_country = {
+				count >= 5
+				is_subject_of = ROOT
+				}
+			
+		
+		#custom_tooltip = {
+		#	text = je_kindling_the_empire_invasions
+		#	var:kindling_empire_invasions >= 10
+		#}
+	}
+	
+#progressbar = yes 
+
+current_value = {
+		#value = var:kindling_empire_invasions
+		value = {
+			count = {
+			any_country = {
+					is_subject_of = ROOT
+					}
+			}
+		}
+	}
+	
+goal_add_value = {
+		value = 10
+	}
+
+on_complete = {
+		set_variable = empire_title
+
+		#trigger_event = {
+		#	id = kindling_the_empire.2
+		#	days = 0
+		#}
+	}
+
+}
+
+

@@ -1,0 +1,67 @@
+﻿je_formalize_the_realm = {
+	should_be_pinned_by_default = yes
+	
+	group = je_group_internal_affairs 
+	
+is_shown_when_inactive = {
+		
+		NOT = {
+			has_law = law_type:law_dedicated_government
+			has_law = law_type:law_bureaucratic_government
+			}
+		
+	
+	}
+
+
+possible = { 
+		is_at_war = no
+		has_technology_researched = politics
+		country_rank >= rank_value:major_power
+		OR = {
+			any_interest_group = {
+				is_interest_group_type = ig_scholars
+				is_powerful = yes
+			}
+			literacy_rate > 0.3
+		}
+	
+	}
+
+invalidated = {
+	}
+
+immediate = {
+	
+	trigger_event = {
+			id = formalize_the_realm.1
+			popup = yes
+			}
+	}
+
+
+modifiers_while_active = {
+	}
+
+complete = {
+		OR = {
+			has_law = law_type:law_bureaucratic_government
+			has_law = law_type:law_dedicated_government
+			}
+		OR = {
+			has_law = law_type:law_council
+			has_law = law_type:law_monarchy
+			}
+		
+	}
+
+on_complete = {
+		trigger_event = {
+			id = formalize_the_realm.2
+			days = 0
+		}
+	}
+
+}
+
+

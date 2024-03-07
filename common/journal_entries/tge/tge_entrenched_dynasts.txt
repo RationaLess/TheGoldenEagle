@@ -1,0 +1,88 @@
+﻿je_entrenched_dynasts = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	group = je_group_foreign_affairs 
+	
+	
+	scripted_button = entrenched_dynasts_negotiation_button
+	
+is_shown_when_inactive = {
+		
+		
+		always = yes
+		
+	
+	}
+
+
+possible = { 
+		has_law = law_type:law_dedicated_government
+		country_rank >= rank_value:major_power
+		
+		calc_true_if = {
+		amount > 2
+		
+		has_law = law_type:law_monarchy
+		has_law = law_type:law_royal_domains
+		has_law = law_type:law_dynastic
+		has_law = law_type:law_strict
+		
+		ig:ig_aristocracy = {
+			is_powerful = yes
+			}
+		
+		}
+		
+		
+		
+		
+	}
+
+complete = {
+		OR = {
+			ig:ig_aristocracy = {
+				ig_clout < 0.1
+				is_in_government = no
+				}
+			custom_tooltip = {
+				text = je_entrenched_dynasts_negotiation_trigger
+				has_variable = entrenched_dynasts_negotiation
+			}
+		}
+	}
+
+on_complete = {
+	add_modifier = {
+		name = hands_off_dynasts 
+		months = 240
+		}
+
+	}
+
+fail = {
+	NOT = {
+		OR = {
+			has_law = law_type:law_dedicated_government
+			has_law = law_type:law_bureaucratic_government
+		}
+	}
+}
+
+on_fail = {
+	add_journal_entry = { name = je_entrenched_dynasts }
+	}
+
+
+immediate = {
+	
+	}
+
+
+modifiers_while_active = {
+		modifier_royal_state
+	}
+
+
+}
+
+

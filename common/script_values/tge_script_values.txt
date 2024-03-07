@@ -1,35 +1,31 @@
 ﻿time_elapsed_years = {
 		value = year
 		add = -1428
-		
-		}
+}
 
 settlement_amount = {
-		
-		value = state_population
-		divide = 5000
-		
-		#multiply = modifier:country_minor_settlements_per_thousand
-		}
+	value = state_population
+	divide = 5000
+	
+	#multiply = modifier:country_minor_settlements_per_thousand
+}
 
 subjects_population = {
 	value = 0
 	
-	every_country = {
-		if = {
-			limit = {
-				is_subject_of = root
-			}
-			#add = total_population
-			every_scope_state = {
-				add = {
-					value = state_population
-					multiply = {
-						value = 1
-						add = modifier:state_empire_sprawl_load_population_cost
-						}
-					}
+	every_country = { 
+		limit = {
+			is_subject_of = this
+		}
+		#add = total_population
+		every_scope_state = {
+			add = {
+				value = state_population
+				multiply = {
+					value = 1
+					add = modifier:state_empire_sprawl_load_population_cost
 				}
+			}
 		}
 	}
 }
@@ -37,18 +33,15 @@ subjects_population = {
 country_and_subjects_states = {
 	value = 0  
 	
-	every_state = {
-		if = {
-			limit = {
-				OR = {
-					owner = {
-						is_subject_of = root
-					}
-					owner = {
-						this = root
-					}
-				}
-			}
+	every_scope_state = {
+		add = 1
+	}
+	
+	every_country = {
+		limit = {
+			is_subject_of = this
+		}
+		every_scope_state = {
 			add = 1
 		}
 	}

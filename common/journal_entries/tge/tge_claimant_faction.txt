@@ -1,0 +1,119 @@
+﻿je_claimant_faction = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/generic_icons/in_opposition_icon.dds"
+	group = je_group_internal_affairs 
+	
+	
+is_shown_when_inactive = {
+		
+		
+		always = no
+		
+	
+	}
+
+
+possible = { 
+	
+	}
+
+fail = {
+	
+	scope:scope_claimant = {
+		is_character_alive = no
+		}
+	
+	}
+
+on_monthly_pulse = {
+		
+		###POSITIVE
+		
+
+		change_variable = {
+			name = claimant_faction_fervor
+			add = {
+				value = scope:scope_claimant.popularity
+				divide = 100
+				}
+			add = {
+				value = scope:scope_ruler.popularity
+				divide = 100
+				multiply = -1
+				}
+			add = {
+				value = empire_sprawl_surplus
+				multiply = -1
+				}
+			add = {
+				value = empire_sprawl_deficit
+				}
+			add = {
+				value = produced_authority
+				subtract = authority
+				divide = produced_authority
+				multiply = -1
+				}
+			add = {
+				value = var:claimant_faction_boldness
+				divide = 3
+				}
+		}
+		every_scope_character = {
+			limit = {
+				has_trait = sympathizer
+				}
+				change_variable = {
+					name = claimant_faction_fervor
+					add = {
+						value = scope:scope_claimant.popularity
+						divide = 500
+						}
+				}
+			}
+		
+		
+		
+		
+	}
+		
+
+immediate = {
+	ruler = {
+		save_scope_as = scope_ruler
+		}
+		
+	random_character = {
+		limit = {
+			has_variable = claimant
+			}
+		save_scope_as = scope_claimant
+		}	
+	set_variable = {
+		name = claimant_faction_fervor
+		value = 0
+		}
+	set_value = {
+		name = claimant_faction_boldness
+		value = 0
+		}
+	}
+
+progressbar = yes
+
+current_value = {
+		value = var:claimant_faction_fervor
+	}
+
+	# when the journal entry is activated current_value and goal_add_value are evaluated and added together to determine the goal value
+	goal_add_value = {
+		value = 100
+	}
+
+modifiers_while_active = {
+	}
+
+
+}
+
+

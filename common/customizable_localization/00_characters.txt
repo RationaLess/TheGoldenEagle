@@ -329,19 +329,7 @@ air_ace_noun_loc = {
 	text = {
 		localization_key = ace_wind
 	}
-
-	text = {
-		localization_key = ace_cowboy
-
-		trigger = {
-			OR = {
-				AND = {
-					exists = c:OSE
-					owner = { c:OSE = THIS }
-				}
-			}
-		}
-	}
+	
 }
 
 getSirMadam = {
