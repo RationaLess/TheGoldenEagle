@@ -1,0 +1,500 @@
+﻿POPS = {
+	s:STATE_TENOCHTITLAN = {
+		region_state:ATA = {
+			create_pop = {
+				culture = mexica
+				size = 45000
+				}
+			create_pop = {
+				culture = tepanec				
+				size = 1500
+				}
+			create_pop = {
+				culture = acolhua			
+				size = 8000
+				}
+		}
+		region_state:TTLC = {
+			create_pop = {
+				culture = mexica
+				size = 40000
+				}
+		}
+	}
+	s:STATE_EAST_TEXCOCO = {
+		region_state:ATA = {
+			create_pop = {
+				culture = acolhua
+				size = 80000
+				}
+			create_pop = {
+				culture = mexica
+				size = 7500
+				}
+		}
+		region_state:CUL = {
+			create_pop = {
+				culture = tepanec
+				size = 8500
+				}
+			create_pop = {
+				culture = nahua
+				size = 10000
+				}
+			create_pop = {
+				culture = otomi
+				size = 1000
+				}
+		}
+	}
+	
+	###Azcapotzalco n Vassals
+	s:STATE_WEST_TEXCOCO = {
+		region_state:AZC = {
+			create_pop = {
+				culture = tepanec
+				size = 95000
+				}
+			create_pop = {
+				culture = otomi
+				size = 15500
+				}
+			create_pop = {
+				culture = mexica
+				size = 1000
+				}
+		}
+		region_state:ATA = {
+			create_pop = {
+				culture = tepanec
+				size = 25000
+				}
+			create_pop = {
+				culture = mexica
+				size = 2500
+				}
+		}
+	}
+	#Xaltocan
+	s:STATE_TEOTIHUACAN = {
+		region_state:XAL = {
+			create_pop = {
+				culture = acolhua
+				size = 25000
+				}
+			create_pop = {
+				culture = tepanec
+				size = 1500
+				}
+			create_pop = {
+				culture = otomi
+				size = 1500
+				}
+		}
+	}
+	s:STATE_NORTH_TEXCOCO = {
+		region_state:XAL = {
+			create_pop = {
+				culture = acolhua
+				size = 1500
+				}
+			create_pop = {
+				culture = tepanec
+				size = 45000
+				}
+			create_pop = {
+				culture = otomi
+				size = 5500
+				}
+		}
+		region_state:TZO = {
+			create_pop = {
+				culture = tepanec
+				size = 36000
+				}
+			create_pop = {
+				culture = otomi
+				size = 2000
+				}
+		}
+		region_state:CUA = {
+			create_pop = {
+				culture = tepanec
+				size = 18500
+				}
+			create_pop = {
+				culture = otomi
+				size = 9000
+				}
+		}
+	}
+	s:STATE_XOCHIMILCO = {
+		region_state:XOC = {
+			create_pop = {
+				culture = tepanec
+				size = 40000
+				}
+			create_pop = {
+				culture = nahua
+				size = 8500
+				}
+			create_pop = {
+				culture = otomi
+				size = 3000
+				}
+		}
+	}
+	
+	#OTHER VALLEY OF MEXICO TAGS
+	s:STATE_CHALCO = {
+		region_state:CHA = {
+			create_pop = {
+				culture = nahua
+				size = 65000
+				}
+			create_pop = {
+				culture = acolhua
+				size = 2000
+				}
+			create_pop = {
+				culture = otomi
+				size = 20000
+				}
+		}
+	}
+	s:STATE_OTOMPAN = {
+		region_state:OTP = {
+			create_pop = {
+				culture = otomi
+				size = 26000
+				}
+			create_pop = {
+				culture = acolhua
+				size = 8000
+				}
+			create_pop = {
+				culture = nahua
+				size = 2000
+				}
+		}
+		region_state:METZ = {
+			create_pop = {
+				culture = otomi 
+				size = 20000
+				}
+			create_pop = {
+				culture = nahua
+				size = 8000
+				}
+			create_pop = {
+				culture = huastec
+				size = 4000
+				}
+		}
+		region_state:TCHI = {
+			create_pop = {
+				culture = otomi 
+				size = 26000
+				}
+			create_pop = {
+				culture = huastec
+				size = 13000
+				}
+		}
+		region_state:TZSW = {
+			create_pop = {
+				culture = nahua 
+				size = 11000
+				}
+			create_pop = {
+				culture = otomi
+				size = 4500
+				}
+			create_pop = {
+				culture = huastec
+				size = 4500
+				}
+		}
+	}
+	s:STATE_HUEXOTZINGO = {
+		region_state:HXZ = {
+			create_pop = {
+				culture = nahua
+				size = 45000
+				}
+			create_pop = {
+				culture = acolhua
+				size = 500
+				}
+			create_pop = {
+				culture = otomi
+				size = 5000
+				}
+		}
+	}
+	
+	###Mazahua Tags
+	s:STATE_CUAHNAHUAC = {
+		region_state:CNH = {
+			create_pop = {
+				culture = nahua
+				size = 10000
+				}
+			create_pop = {
+				culture = mazahua
+				size = 25000
+				}
+		}
+	}
+	s:STATE_HUAXTEPEC = {
+		region_state:HXT = {
+			create_pop = {
+				culture = otomi
+				size = 3000
+				}
+			create_pop = {
+				culture = mazahua
+				size = 28000
+				}
+		}
+	}
+	s:STATE_CHOLLOLAN = {
+		region_state:CHO = {
+			create_pop = {
+				culture = otomi
+				size = 1000
+				}
+			create_pop = {
+				culture = nahua
+				size = 12000
+				}
+			create_pop = {
+				culture = mazahua
+				size = 35000
+				}
+		}
+	}
+	
+	#TLAXCALA
+	s:STATE_QUIAHUIZTLAN = {
+		region_state:TLX = {
+			create_pop = {
+				culture = nahua
+				size = 40000
+				}
+			create_pop = {
+				culture = otomi
+				size = 15000
+				}
+			create_pop = {
+				culture = mazahua
+				size = 1000
+				}
+			create_pop = {
+				culture = nahua
+				size = 2000
+				}
+		}
+	}
+	s:STATE_TEPETICPAC = {
+		region_state:TLX = {
+			create_pop = {
+				culture = nahua
+				size = 35500
+				}
+			create_pop = {
+				culture = tepehua
+				size = 4000
+				}
+			create_pop = {
+				culture = otomi
+				size = 20000
+				}
+		}
+	}
+	s:STATE_OCOTELOLCO = {
+		region_state:TLX = {
+			create_pop = {
+				culture = nahua
+				size = 65000
+				}
+			create_pop = {
+				culture = totonac
+				size = 6000
+				}
+			create_pop = {
+				culture = otomi
+				size = 22000
+				}
+		}
+	}
+	s:STATE_TIZATLAN = {
+		region_state:TLX = {
+			create_pop = {
+				culture = nahua
+				size = 47000
+				}
+			create_pop = {
+				culture = popoloca
+				size = 12000
+				}
+			create_pop = {
+				culture = totonac
+				size = 2500
+				}
+		}
+	}
+	
+	
+	#Tepehua Minors
+	
+	s:STATE_TULANCINGO = {
+		region_state:TLC = {
+			create_pop = {
+				culture = tepehua
+				size = 32000
+				}
+			create_pop = {
+				culture = otomi
+				size = 9000
+				}
+		}
+		region_state:TLA = {
+			create_pop = {
+				culture = tepehua
+				size = 25000
+				}
+			create_pop = {
+				culture = nahua
+				size = 9000
+				}
+		}
+		region_state:HCH = {
+			create_pop = {
+				culture = tepehua
+				size = 16000
+				}
+			create_pop = {
+				culture = totonac
+				size = 8000
+				}
+			create_pop = {
+				culture = nahua
+				size = 5000
+				}
+		}
+	}
+	
+	#tlahuica
+	
+	
+	#Nonoalca minors
+	s:STATE_PUEBLA = {
+		region_state:CHI = {
+			create_pop = {
+				culture = nonoalca
+				size = 19000
+				}
+			create_pop = {
+				culture = mazahua
+				size = 1000
+				}
+			create_pop = {
+				culture = nahua
+				size = 1000
+				}
+		}
+		region_state:THI = {
+			create_pop = {
+				culture = tlahuica
+				size = 20000
+				}
+			create_pop = {
+				culture = mazahua
+				size = 1500
+				}
+			create_pop = {
+				culture = nonoalca
+				size = 500
+				}
+		}
+		region_state:TCM = {
+			create_pop = {
+				culture = nonoalca
+				size = 21000
+				}
+			create_pop = {
+				culture = popoloca
+				size = 1500
+				}
+		}
+		region_state:CIU = {
+			create_pop = {
+				culture = nonoalca
+				size = 22000
+				}
+			create_pop = {
+				culture = triqui
+				size = 11000
+				}
+		}
+	}
+	
+	
+	#Tlaltizapan
+	s:STATE_TLALTIZAPAN = {
+		region_state:TH = {
+			create_pop = {
+				culture = popoloca
+				size = 12000
+				}
+			create_pop = {
+				culture = totonac
+				size = 2000
+				}
+		}
+	}
+	
+	
+	#Otomi Minors
+	s:STATE_TOLLAN = {
+		region_state:TULA = {
+			create_pop = {
+				culture = otomi 
+				size = 38000
+				}
+			create_pop = {
+				culture = nahua
+				size = 15000
+				}
+		}
+		region_state:XILO = {
+			create_pop = {
+				culture = otomi 
+				size = 26000
+				}
+			create_pop = {
+				culture = nahua
+				size = 9000
+				}
+		}
+		region_state:XILA = {
+			create_pop = {
+				culture = otomi 
+				size = 24000
+				}
+			create_pop = {
+				culture = huastec
+				size = 15000
+				}
+		}
+	}
+	s:STATE_METZTITLAN = {
+	}
+	s:STATE_TLACHICHILCO = {
+	}
+	s:STATE_XILAPAN = {
+	}
+	
+	
+}

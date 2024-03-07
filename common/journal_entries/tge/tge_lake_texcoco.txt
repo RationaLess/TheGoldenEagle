@@ -1,0 +1,287 @@
+
+je_matters_of_texcoco = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	
+	group = je_group_foreign_affairs
+	
+
+	weight = 5000
+	should_be_pinned_by_default = yes
+	
+	
+	progressbar = yes
+	
+	current_value = {
+			if = {
+				limit = {
+					scope:journal_entry = {
+						goal_value = 0
+					}
+				}
+				value = 0
+			}
+			else = {
+				value = global_var:texcoco_struggle_bar # or whatever it needs to be
+			}
+		}
+		
+	goal_add_value = {
+		value = 100
+	}
+	
+	
+	
+	is_shown_when_inactive = {
+		always = no
+		has_global_variable = texcoco_struggle_start
+		OR = {
+			has_state_in_state_region = STATE_TENOCHTITLAN
+			has_state_in_state_region = STATE_WEST_TEXCOCO
+			has_state_in_state_region = STATE_EAST_TEXCOCO
+			has_state_in_state_region = STATE_NORTH_TEXCOCO
+			has_state_in_state_region = STATE_TEOTIHUACAN
+			has_state_in_state_region = STATE_XOCHIMILCO
+			has_state_in_state_region = STATE_CHALCO
+		}
+	}
+	
+	immediate = {
+		trigger_event = matters_of_texcoco.1
+	}
+
+	possible = {
+		always = yes
+	}
+	
+	fail = {
+	
+	}
+	
+	on_monthly_pulse = {
+		
+		effect = {
+			
+				#Increments or Decrements
+				IF = {
+					limit = {
+						country_has_primary_culture = cu:tepanec
+						}
+					change_global_variable = {
+							name = texcoco_struggle_bar
+							add = {
+								value = var:cultural_influence
+								multiply = total_population
+								divide = 100000
+								}
+						}
+				}
+				
+				IF =  {
+					limit = {
+						OR = {
+							country_has_primary_culture = cu:nahua 
+							country_has_primary_culture = cu:mexica
+							}
+						}
+					change_global_variable = {
+							name = texcoco_struggle_bar
+							add = {
+								value = var:cultural_influence
+								multiply = total_population
+								divide = 100000
+								
+								multiply = -1
+								}
+						}
+				}
+				
+				
+				
+			#Calculating bar change
+			set_global_variable = {
+				name = texcoco_struggle_bar_change
+				value = 0
+				}
+			every_country = {
+					limit = {
+							has_journal_entry = je_matters_of_texcoco
+						}
+					#Increments or Decrements
+					IF = {
+						limit = {
+							country_has_primary_culture = cu:tepanec
+							}
+						change_global_variable = {
+								name = texcoco_struggle_bar_change
+								add = {
+									value = var:cultural_influence
+									multiply = total_population
+									divide = 100000
+									}
+							}
+					}
+					
+					IF =  {
+						limit = {
+							OR = {
+								country_has_primary_culture = cu:nahua 
+								country_has_primary_culture = cu:mexica
+								}
+							}
+						change_global_variable = {
+								name = texcoco_struggle_bar_change
+								add = {
+										
+									value = var:cultural_influence
+									multiply = total_population
+									divide = 100000
+									multiply = -1
+									}
+							}
+					}
+					
+				}
+		
+		}
+		
+		#Losing Events
+		
+		
+		random_events = {
+			50 = 0
+			#10 = matters_of_texcoco.2
+		}
+	}
+	
+	
+	scripted_button = matters_of_texcoco_lay_claims
+	
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_matters_of_texcoco_status_nahua
+				trigger = {
+					global_var:texcoco_struggle_bar < 25
+				}
+			}
+			triggered_desc = {
+				desc = je_matters_of_texcoco_status_tepanec
+				trigger = {
+					global_var:texcoco_struggle_bar > 75
+				}
+			}
+			triggered_desc = {
+				desc = je_matters_of_texcoco_status_fading
+				trigger = {
+					global_var:texcoco_struggle_bar_change <= 0
+				}
+			}
+			triggered_desc = {
+				desc = je_matters_of_texcoco_status_growing
+				trigger = {
+					global_var:texcoco_struggle_bar_change > 0
+				}
+			}
+		}
+	}
+	
+	#Pro Nahua Outcome
+	fail = {
+		custom_tooltip = {
+		global_var:texcoco_struggle_bar <= 0
+		text = matters_of_texcoco_failure_loc
+		}
+	}
+	on_fail = {
+		custom_tooltip = {
+		text = matters_of_texcoco_on_failure_loc
+		
+			every_country = {
+			
+				every_scope_pop = {
+					limit = { culture = cu:tepanec }
+					change_pop_culture = { target = cu:nahua value = 1 }
+				}
+			}
+			every_country = {
+				limit = { country_has_primary_culture = cu:tepanec }
+				add_primary_culture = cu:nahua
+				remove_primary_culture = cu:tepanec
+			}
+		
+		}
+	}
+	#Pro Tepanec Outcome 
+	complete = {
+		custom_tooltip = {
+			global_var:texcoco_struggle_bar >= 100
+			text = matters_of_texcoco_success_loc
+			}
+	}
+	on_complete = {
+		custom_tooltip = {
+		text = matters_of_texcoco_on_success_loc
+		
+		weight = 20000
+		should_be_pinned_by_default = yes
+		
+		IF = {
+			limit = {
+				NOT = { exists = c:TEPA }
+				}
+			any_country = {
+				limit = {
+					country_has_primary_culture = cu:tepanec
+					}
+				save_scope_as = highest_prestige_tepanec
+				}
+				every_country = {
+					limit = {
+						country_has_primary_culture = cu:tepanec
+						}
+					IF = {
+							limit = {
+							prestige > scope:highest_prestige_tepanec.prestige 	
+							}
+							save_scope_as = highest_prestige_tepanec
+						}
+					}
+				scope:highest_prestige_tepanec = {
+					change_tag = TEPA
+					
+					s:STATE_TENOCHTITLAN = {
+						add_claim = c:TEPA
+						}
+					s:STATE_WEST_TEXCOCO = {
+						add_claim = c:TEPA
+						}
+					s:STATE_EAST_TEXCOCO = {
+						add_claim = c:TEPA
+						}
+					s:STATE_NORTH_TEXCOCO = {
+						add_claim = c:TEPA
+						}
+					s:STATE_TEOTIHUACAN = {
+						add_claim = c:TEPA
+						}
+					s:STATE_XOCHIMILCO = {
+						add_claim = c:TEPA
+						}
+					s:STATE_CHALCO = {
+						add_claim = c:TEPA
+						}
+					}			
+					
+				}
+			}
+		
+		}
+	
+	modifiers_while_active = {
+		texcoco_turmoil
+	}
+	
+	}
+	
+	
+	

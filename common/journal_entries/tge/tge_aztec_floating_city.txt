@@ -1,0 +1,43 @@
+je_floating_city = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	
+	group = je_group_internal_affairs
+	
+	possible = {
+		capital = { state_region = s:STATE_TENOCHTITLAN }
+		has_technology_researched = aqueducts
+	}
+	
+	on_yearly_pulse = {
+		random_events = {
+			4 = 0
+			1 = land_reclamation.1
+		}
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+		always = no
+	}
+
+	on_complete = {
+		
+	}
+
+	fail = {
+	}
+
+	on_fail = {
+	}
+
+	progressbar = yes
+
+	status_desc = {
+	
+	}
+
+	weight = 10
+	should_be_pinned_by_default = yes
+}

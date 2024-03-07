@@ -1,0 +1,70 @@
+﻿je_revolt = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	
+	possible = {
+		always = no
+	}
+	
+	immediate = {
+		root = {
+			save_scope_as = root_country
+		}
+		any_country = {
+			limit = {
+				is_subject_of = root
+				is_subject_type = subject_type_tributary
+			}
+			save_scope_as = revolt_country
+		}
+		
+		
+		
+		create_dynamic_country = {
+			origin = revolt_country
+			country_type = recognized
+			tier = kingdom
+			capital = scope:newly_formed_colonial_nation_capital_scope
+			cede_state_trigger = {
+				has_variable = state_to_cede
+			}
+			on_created = { 
+				set_variable = senegal_subject_var
+				set_variable = {
+					name = newly_formed_colonial_nation_var
+					months = 3
+				}
+				every_scope_state = {
+					remove_variable = state_to_cede
+				}
+				activate_law = law_type:law_frontier_colonization
+				activate_law = law_type:law_presidential_republic
+			}
+		}
+		
+		
+		
+		hidden_effect = {
+			
+			create_diplomatic_play = {
+				escalation = 0
+				initiator = scope:revolt_country
+				type = dp_secession
+			
+			}
+			
+		}
+		
+		
+		trigger_event = { id = revolt.0 days = 1 popup = yes }
+		
+		scope:revolt_country = {
+				trigger_event = { id = revolt.1 days = 1 popup = yes }
+			}
+		
+	}
+	
+	
+	weight = 10000
+	should_be_pinned_by_default = yes
+
+}

@@ -7,7 +7,7 @@
 ############
 
 wooden_weapons = {
-	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
+	texture = "gfx/interface/icons/goods_icons/wood_weapons.dds"
 	cost = 40
 	category = military
 	
@@ -15,7 +15,7 @@ wooden_weapons = {
 }
 
 obsidian_weapons = {
-	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
+	texture = "gfx/interface/icons/goods_icons/obsidian_weapons.dds"
 	cost = 75
 	category = military
 	
@@ -27,7 +27,7 @@ obsidian_weapons = {
 ##########
 
 maize = {
-	texture = "gfx/interface/icons/goods_icons/grain.dds"
+	texture = "gfx/interface/icons/goods_icons/maize.dds"
 	cost = 20
 	category = staple
 	
@@ -53,7 +53,7 @@ fish = {
 }
 
 cotton = {
-	texture = "gfx/interface/icons/goods_icons/fabric.dds"
+	texture = "gfx/interface/icons/goods_icons/cotton.dds"
 	cost = 20
 	category = staple
 	
@@ -78,6 +78,16 @@ wood = {
 	consumption_tax_cost = 300
 }
 
+pottery = {
+	texture = "gfx/interface/icons/goods_icons/pottery.dds"
+	cost = 30
+	category = staple
+	
+	obsession_chance = 1.0
+	prestige_factor = 5
+	convoy_cost_multiplier = 0.5
+}
+
 clothes = {
 	texture = "gfx/interface/icons/goods_icons/clothes.dds"
 	cost = 30
@@ -89,16 +99,6 @@ clothes = {
 	convoy_cost_multiplier = 0.5
 	
 	consumption_tax_cost = 300
-}
-
-pottery = {
-	texture = "gfx/interface/icons/goods_icons/porcelain.dds"
-	cost = 30
-	category = staple
-	
-	obsession_chance = 1.0
-	prestige_factor = 5
-	convoy_cost_multiplier = 0.5
 }
 
 furniture = {
@@ -139,19 +139,8 @@ services = {
 }
 
 amenities = {
-	texture = "gfx/interface/icons/goods_icons/services.dds"
-	cost = 60
-	category = staple
-	tradeable = no
-	
-	prestige_factor = 3
-	
-	consumption_tax_cost = 200
-}
-
-amenities = {
-	texture = "gfx/interface/icons/goods_icons/services.dds"
-	cost = 60
+	texture = "gfx/interface/icons/goods_icons/amenities.dds"
+	cost = 30
 	category = staple
 	tradeable = no
 	
@@ -161,7 +150,7 @@ amenities = {
 }
 
 worship = {
-	texture = "gfx/interface/icons/goods_icons/services.dds"
+	texture = "gfx/interface/icons/goods_icons/worship.dds"
 	cost = 30
 	category = staple
 	tradeable = no
@@ -173,7 +162,7 @@ worship = {
 }
 
 knowledge = {
-	texture = "gfx/interface/icons/goods_icons/services.dds"
+	texture = "gfx/interface/icons/goods_icons/knowledge.dds"
 	cost = 30
 	category = staple
 	tradeable = no
@@ -183,6 +172,7 @@ knowledge = {
 	
 	consumption_tax_cost = 200
 }
+
 
 meat = {
 	texture = "gfx/interface/icons/goods_icons/meat.dds"
@@ -218,7 +208,7 @@ fruit = {
 
 
 urban_space = {
-	texture = "gfx/interface/icons/goods_icons/urbanspace.dds"
+	texture = "gfx/interface/icons/goods_icons/urban_space.dds"
 	cost = 20
 	category = industrial
 	tradeable = no
@@ -227,7 +217,7 @@ urban_space = {
 }
 
 clay = {
-	texture = "gfx/interface/icons/goods_icons/gold.dds"
+	texture = "gfx/interface/icons/goods_icons/clay.dds"
 	cost = 20
 	category = industrial
 	tradeable = no
@@ -236,7 +226,7 @@ clay = {
 }
 
 turquoise = {
-	texture = "gfx/interface/icons/goods_icons/dye.dds"
+	texture = "gfx/interface/icons/goods_icons/turquoise.dds"
 	cost = 60
 	category = industrial
 	
@@ -244,7 +234,7 @@ turquoise = {
 }
 
 mudbrick = {
-	texture = "gfx/interface/icons/goods_icons/iron.dds"
+	texture = "gfx/interface/icons/goods_icons/mudbrick.dds"
 	cost = 50
 	category = industrial
 	
@@ -260,7 +250,7 @@ limestone = {
 }
 
 obsidian = {
-	texture = "gfx/interface/icons/goods_icons/coal.dds"
+	texture = "gfx/interface/icons/goods_icons/obsidian.dds"
 	cost = 50
 	category = industrial
 	
@@ -296,7 +286,7 @@ dye = {
 }
 
 animal_skin = {
-	texture = "gfx/interface/icons/goods_icons/meat.dds"
+	texture = "gfx/interface/icons/goods_icons/fabric.dds"
 	cost = 60
 	category = industrial
 	
@@ -306,7 +296,7 @@ animal_skin = {
 }
 
 feathers = {
-	texture = "gfx/interface/icons/goods_icons/silk.dds"
+	texture = "gfx/interface/icons/goods_icons/feathers.dds"
 	cost = 30
 	category = industrial
 	
@@ -336,7 +326,7 @@ transportation = {
 ##########
 
 luxury_pottery = {
-	texture = "gfx/interface/icons/goods_icons/porcelain.dds"
+	texture = "gfx/interface/icons/goods_icons/fine_pottery.dds"
 	cost = 80
 	category = luxury
 	
@@ -371,7 +361,7 @@ luxury_clothes = {
 }
 
 cocoa = {
-	texture = "gfx/interface/icons/goods_icons/coffee.dds"
+	texture = "gfx/interface/icons/goods_icons/cocoa.dds"
 	cost = 50
 	category = luxury
 	
@@ -392,14 +382,14 @@ cocoa = {
 #}
 
 rare_gems = {
-	texture = "gfx/interface/icons/goods_icons/gold.dds"
+	texture = "gfx/interface/icons/goods_icons/rare_gems.dds"
 	cost = 100
 	category = luxury
 	prestige_factor = 5
 }
 
 jewelry = {
-	texture = "gfx/interface/icons/goods_icons/fine_art.dds"
+	texture = "gfx/interface/icons/goods_icons/jewelry.dds"
 	cost = 100
 	category = luxury
 	

@@ -1,0 +1,68 @@
+﻿je_tepaneca_war = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	
+	group = je_group_historical_content
+	
+	complete = {
+		is_subject = no
+		is_at_war = no
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = tepaneca_war.1
+		}
+		
+		set_global_variable = texcoco_struggle_start
+		set_global_variable = {
+			name = texcoco_struggle_bar
+			value = 50
+			}
+		set_global_variable = {
+			name = texcoco_struggle_bar_change
+			value = 0
+			}
+		
+	}
+	
+	fail = {
+		is_subject_of = c:AZC
+	}
+	
+	immediate = {
+			
+		
+	}
+	
+	on_weekly_pulse = {
+		effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_variable = deployed_event
+					}
+				}
+				set_variable = deployed_event
+				every_country = {
+							limit = {
+							has_interest_marker_in_region = region_anahuac
+							}
+						trigger_event = { id = matters_of_texcoco.4 }
+					}
+			}
+		}
+	}
+	
+	is_shown_when_inactive = {
+		always = no
+	}
+
+	possible = {
+		exists = c:ATA
+       	THIS = c:ATA
+			 
+	}
+
+	weight = 10000
+	should_be_pinned_by_default = yes
+}

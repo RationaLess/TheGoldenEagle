@@ -1,1 +1,1 @@
-﻿namespace = regional_events
+﻿
