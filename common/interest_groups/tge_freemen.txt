@@ -3,7 +3,7 @@
 	texture = "gfx/interface/icons/ig_icons/rural_folk.dds"	
 	
 	ideologies = {
-		ideology_communal
+		ideology_sedentary_legacy
 		ideology_mesoamerican_traditions
 	}
 	

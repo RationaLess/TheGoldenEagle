@@ -265,33 +265,41 @@
 	#Tarascan
 	s:STATE_TZINTZUNTZAN = {
 		create_state = {
-			country = c:TARA
+			country = c:PATZ
 			owned_provinces = { "x4A611E" "x5CFE0B" "x6EDD1A" "x759121" "x9C8E0E" "xA1B82E" "xC5E612" "xD08B20" "xD4960A" "xF88307" }
 		}
 	}
 	s:STATE_CUITEZO = {
 		create_state = {
-			country = c:TARA
-			owned_provinces = { "x36652F" "x42E015" "x59321D" "x73CB16" "x74FB07" "x90E70D" "x90FC15" "xA45525" "xC8A528" "xE4860A" "xF8B017" "xF9432B" "xFA821B" }
+			country = c:ZACA
+			owned_provinces = { "x36652F"  "x59321D"  "x74FB07"   "xA45525"  "xF8B017"  "xFA821B" }
+		}
+		create_state = {
+			country = c:ACAM
+			owned_provinces = { "x90E70D" "xF9432B" "x42E015" "x73CB16" "xE4860A" "x90FC15" "xC8A528"  }
 		}
 	}
 	s:STATE_ZITAHURAO = {
 		create_state = {
-			country = c:TARA
-			owned_provinces = { "x379F01" "x42E014" "x44B416" "x558B08" "x71E307" "x76F011" "x87B810" "x9D6525"  "xAC3A1B" "xBA5412" "xBA7C07"  "xFA6101" }
+			country = c:ZITA
+			owned_provinces = { "x379F01"   "x558B08"   "x87B810" "x9D6525"  "xAC3A1B" "xBA5412" "xBA7C07"   }
 		}
 		create_state = {
-			country = c:AXSP
-			owned_provinces = { "xAB6226" "xBAFF0B" }
+			country = c:IHTI
+			owned_provinces = { "x71E307" "x42E014" "x76F011" "x44B416" "xAB6226" "xBAFF0B" "xFA6101"  }
 		}
 	}
 	s:STATE_AYOTAC = {
 		create_state = {
 			country = c:AYOT
-			owned_provinces = { "x36F829"   "x3B920B" "x447817"  "x497209" "x4EA722" "x569721"  "x6EDD06"  "x6F8003" "x719213" "x745706" "x75A806" "x77C612"  "x89950E" "x8D7528" "x8E3723" "x91DF0D"  "x95902A" "x963E27" "x964822" "x96D10D" "x9F4208"  "xA1920C"  "xAAA60F" "xB27020" "xB5620C" "xB5CC21"  "xC2DE22" "xC3BC14" "xCDE821"  "xDA5B1F" "xDB470B" "xDF9F0A" "xE8A828"  "xF0B605" "xF4B029" "xF55819" "xFAB81F" }
+			owned_provinces = { "x36F829"    "x447817"  "x497209" "x4EA722"   "x6EDD06"  "x6F8003" "x719213" "x745706"  "x77C612"  "x89950E" "x8D7528" "x8E3723" "x91DF0D"  "x95902A" "x963E27" "x964822" "x96D10D"   "xA1920C"    "xB5620C"  "xC2DE22"  "xCDE821"  "xDA5B1F" "xDB470B" "xDF9F0A" "xE8A828"  "xF0B605" "xF4B029"   }
 		}
 		create_state = {
-			country = c:TARA
+			country = c:TIQU
+			owned_provinces = { "x75A806" "xB5CC21" "x3B920B" "x9F4208" "xFAB81F" "x569721" "xAAA60F" "xF55819" "xC3BC14" "xB27020" }
+		}
+		create_state = {
+			country = c:TANC
 			owned_provinces = { "xDE5A14" "x5C3C2B" "xF03B1B" "x45BB10" "xD73F2D" "x83A815" "x94B930" "xA5C313" "x39EB1A" "xA0900D" "x3A6F00" "x97A116" "x6EFD11" "xBD8228" }
 		}
 	}
@@ -340,7 +348,7 @@
 	#West Nahuas
 	s:STATE_TECOMAN = {
 		create_state = {
-			country = c:TECO
+			country = c:ZAPT
 			owned_provinces = { "x0C71AE" "x33C911" "x648217" "x72B104" "x785A1D" "x7D3A29" "x8DD312" "x909B1F" "x9F330B" "xA04C06" "xB29218" "xB5E503" "xC09E0F" "xD13D09" "xD44F1D" "xE1880E" "xFA9B2B" }
 		}
 	}
@@ -352,28 +360,60 @@
 	}
 	s:STATE_TACATZUCARO = {
 		create_state = {
-			country = c:TCTZ
+			country = c:XILT
 			owned_provinces = { "x34EC01" "x373910" "x3FE132" "x41442A" "x463429" "x4E7821" "x4FB323" "x66610D" "x66BF2B" "x7D6918" "x89B604" "x99BE03" "xA94A0D" "xAE9A02" "xB1E830" "xB99309" "xD4A510" "xDFBE22" "xE69A04" "xFD332E" "xFF5301" }
 		}
 	}
 	s:STATE_TANCITARO = {
 		create_state = {
-			country = c:TANC
+			country = c:ACOL
 			owned_provinces = { "x353C2E" "x3C8A1E" "x3E9504" "x487C23" "x536C27" "x5CAE19" "x90E71D" "x9F4211" "xA3FD1A" "xA63E1B" "xBEDD0C" "xD7EB27" "xD7F10B" "xDE6018" "xE1E12F" "xE49D1E" "xF29F25" }
+		}
+		create_state = {
+			country = c:SAHU
+			owned_provinces = { "x4BAB0E" "x67411C" "x90D72E" "xA5CC2A" "xA86D0C" "xBCDF32" "xCF9F22" "xD2641C" "xDA542C" "xFAFD1D" "xA5CC2A" }
 		}
 	}
 	s:STATE_URUAPAN = {
 		create_state = {
-			country = c:URUA
-			owned_provinces = { "x34F809" "x36B00A" "x4C5112" "x564429" "x56F319" "x664F2B" "x70DF26" "x73C031" "x7CAE24" "x81BB25" "x998D1D" "x9AAB01" "xA07325" "xA26329" "xA57E0F" "xA5CC2A" "xA8F213" "xADAE1E" "xAF5819" "xC0EB20" "xC2D805" "xC6D425" "xD17131" "xD2AD07" "xDB9B15" "xE1F81E" "xEBF104" "xF1CB1E" "xF6E500" "xF8AB13" "xFE7D0C" }
+			country = c:SAYO
+			owned_provinces = { "x34F809" "x36B00A"  "x564429"  "x664F2B"  "x81BB25" "x998D1D" "x9AAB01" "xA8F213" "xADAE1E"   "xC2D805" "xC6D425"  "xD2AD07" "xDB9B15" "xE1F81E"  "xF1CB1E" "xF8AB13" }
+		}
+		create_state = {
+			country = c:ZINA
+			owned_provinces = { "x4C5112" "xA07325" "x56F319" "xC0EB20" "xFE7D0C"   }
+		}
+		create_state = {
+			country = c:TECP
+			owned_provinces = { "xA57E0F"  "xF6E500" "x73C031" "xD17131" "x70DF26" "x7CAE24" "xEBF104" "xAF5819" "xA26329" }
 		}
 	}
 	s:STATE_COAHUAYUTLA = {
 		create_state = {
-			country = c:COAH
+			country = c:ZACT
 			owned_provinces = { "x35DA05" "x3DDE30" "x4FD910" "x52F719" "x565D31" "x5B671C" "x5CA423" "x68C528" "x6F500F" "x73AC16" "x758608" "x8D5A0E" "x936B19" "x9CB91D" "x9DC025" "xA09407" "xA9642E" "xAF9F07" "xBE4832" "xC3ED2A" "xCCBF0B" "xD14611" "xDC9615" "xE83F1D" "xE8410D" "xF0661F" "xF2A831" }
 		}
 	}
+	s:STATE_XALISCO = {
+		#
+	
+		create_state = {
+			country = c:XIHU
+			owned_provinces = { "xCAB209" "x46F927" "xBFC631" "x5FD830" "xD0C828" "x517331" "x81F70D" "xF0BF0C" "x9A7914" "xD89D2E" "xCF4B12" "xF4CA2C" "x3D8915"  "xE7410E"  }
+			}
+		create_state = {
+			country = c:CAXT
+			owned_provinces = { "x81DC09" "xEC6C23" "xD53C10" "x816F0D" "xF9BD0D" "xC0CF1F" "xB6FC28" "xE97925" "xFCA504" "x599D06" "xF04B2E" "xBEC30B" "xAAAE17" }
+			}
+		create_state = {
+			country = c:CUZA
+			owned_provinces = { "xCCB417" "x78E617" "xD4CC2F" "xBE510A" "xEA6F2F" "x7B4C2D" "x457003" "x686109" "x438C26" "xD3DC19" "x839131" "xDB4C21" }
+			}
+		create_state = {
+			country = c:AUTL
+			owned_provinces = {  "x43C217" "x536F03" "x5DE11C" "x61FF29" "x65CD02"  "x6B8D01" "x6BAB16" "x76AD20" "x77CB1A" "x78BC0F" "x7C7229" "x7F4D1F" "x7FA530"  "x9C3931" "xA5D106" "xA69025"  "xBD5D22"   "xC43302" "xC5540A"   "xCD6A13" "xCE5527"  "xE3B526"  "xEF9807" "xF17132" "xF4852E" "xF8F518" "xF9F314" "xFBF632"  }
+			}
+		}
 	
 	#Cuitlateca
 	

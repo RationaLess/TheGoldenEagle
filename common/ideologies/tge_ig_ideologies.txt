@@ -191,8 +191,8 @@ ideology_warmonger = {
 }
 
 
-ideology_communal = {
-	icon = "gfx/interface/icons/ideology_icons/agrarian.dds"
+ideology_migratory_legacy = {
+	icon = "gfx/interface/icons/ideology_icons/frontier_expansion.dds"
 	
 	priority = 100
 	
@@ -212,13 +212,54 @@ ideology_communal = {
 		law_standardized_coins = disapprove
 	}
 	
-	lawgroup_distribution_of_power = {
-		law_elective = strongly_approve 
-		law_meritocratic = neutral 
-		law_feudal = disapprove 
-		law_dynastic = disapprove
-	
+	lawgroup_development = {
+		law_mobile_settlements = neutral 
+		law_centralized_urban_centers = disapprove
+		law_clustered_communities = approve
+		law_ribbon_development = approve
 	}
+	
+	#lawgroup_distribution_of_power = {
+	#	law_elective = strongly_approve 
+	#	law_meritocratic = neutral 
+	#	law_feudal = disapprove 
+	#	law_dynastic = disapprove
+	#}
+}
+ideology_sedentary_legacy = {
+	icon = "gfx/interface/icons/ideology_icons/agrarian.dds"
+	
+	priority = 100
+	
+	lawgroup_land_organization = {
+		law_royal_domains = approve
+		law_religious_tithes = approve
+		law_imperial_land = disapprove 
+		law_state_control = disapprove
+		law_calpulli_system = disapprove 
+		}
+	
+	lawgroup_currency = {
+		law_barter_economy = strongly_disapprove
+		law_goods_as_currency = neutral
+		law_corvee_labor = neutral 
+		law_regulated_commerce = approve
+		law_standardized_coins = approve
+	}
+	
+	lawgroup_development = {
+		law_mobile_settlements = disapprove 
+		law_centralized_urban_centers = strongly_approve
+		law_clustered_communities = approve
+		law_ribbon_development = approve
+	}
+	
+	#lawgroup_distribution_of_power = {
+	#	law_elective = strongly_approve 
+	#	law_meritocratic = neutral 
+	#	law_feudal = disapprove 
+	#	law_dynastic = disapprove
+	#}
 }
 
 

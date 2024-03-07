@@ -1,7 +1,7 @@
 mexica={
 	color= { 230 94 171 }
 	religion = aztlanec 
-	traits = { native_heritage nahuatl_speaking anahuac }
+	traits = { native_heritage nahuatl_speaking settled_tribe anahuac }
 	male_common_first_names={
 		Antonio
 		Carlos
@@ -97,7 +97,7 @@ mexica={
 nahua={
 	color= { 195 133 120 }
 	religion = core_mesoamerican
-	traits = {  native_heritage nahuatl_speaking }
+	traits = {  native_heritage settled_tribe nahuatl_speaking }
 	male_common_first_names={
 		Antonio
 		Carlos
@@ -189,6 +189,105 @@ nahua={
 	}
 	graphics = generic
 }
+
+
+west_nahua={
+	color= { 126 120 196 }
+	religion = core_mesoamerican
+	traits = {  native_heritage settled_tribe nahuatl_speaking }
+	male_common_first_names={
+		Antonio
+		Carlos
+		Diego
+		Emiliano
+		Emilio
+		Felipe
+		Fernando
+		Francisco
+		Gaspar
+		Hernando
+		Hilario
+		Ignacio
+		Isaac
+		Jacinto
+		Jesus
+		Jose
+		Juan
+		Julio
+		Lorenzo
+		Manuel
+		Marcial
+		Mario
+		Martin_2
+		Natalio
+		Oliverio
+		Pedro
+		Roberto
+		Rodolfo
+		Santiago
+		Victor_2
+	}
+	female_common_first_names = {
+		Antonia
+		Celsa
+		Cleofas
+		Eva
+		Jovita
+		Laureana
+		Margarita
+		Maria
+		Marta
+		Matilde
+		Modesta
+		Ramona
+	}	
+	noble_last_names = {
+		Altamirano
+		Cortes
+		Gonzalez
+		Moyotlan
+		Neri
+		Palafox
+		Salazar
+		Zapata
+	}
+	common_last_names={
+		Ahuactzin
+		Atlanteco
+		Badiano
+		Bernardino
+		Coaguila
+		Coyotl
+		Cuautlaxahue
+		Gutierrez
+		Hernandez
+		Huanitzin
+		Itzel
+		Ixtlilxochitl
+		Jimenez
+		Matlacuahuac
+		Mayahuel
+		Moxo
+		Munoz
+		Nahui
+		Ocelotl
+		Panecatl
+		Tlaxca
+		Tletla
+		Tzehe
+		Valeriano
+		Xaxalpa
+		Xochitl
+		Zapotitla
+		Zicotencatl
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+
 
 acolhua ={
 	color= { 67 73 145 }
@@ -386,7 +485,7 @@ tepanec ={
 otomi ={
 	color= { 18 124 153 }
 	religion = toltec
-	traits = { native_heritage oto_manguean anahuac }
+	traits = { native_heritage oto_manguean settled_tribe anahuac }
 	male_common_first_names={
 		Antonio
 		Carlos
@@ -975,6 +1074,27 @@ matlatzinca = {
 
 purepecha = {
 	color= { 20 117 27 }
+	religion = purepecha 
+	traits = { native_heritage }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+coca = {
+	color= { 78 36 112}
 	religion = purepecha 
 	traits = { native_heritage }
 	male_common_first_names={

@@ -49,6 +49,10 @@
  ideology_statist:0 "Statist"
  ideology_statist_desc:0 "#lore This group wishes to build a strong, enduring government.#!"
  
+ ideology_migratory_legacy:"Migratory Legacy"
+ ideology_populist_desc:0 "#lore The times of mass movement are still within the cultural memory of this group.#!"
+ ideology_sedentary_legacy:"Sedentary Legacy"
+ ideology_populist_desc:0 "#lore As far as anybody is concerned, this group has existed in their homeland since the gods gave them life.#!"
  
  
  ideology_opportunistic:0 "Opportunistic"

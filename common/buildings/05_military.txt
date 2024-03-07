@@ -2,7 +2,7 @@
 
 building_barracks = {
 	building_group = bg_army
-	recruits_combat_unit = combat_unit_regular
+	recruits_combat_unit = yes
 	texture = "gfx/interface/icons/building_icons/building_barracks.dds"
 	city_type = city
 	
@@ -29,6 +29,7 @@ building_barracks = {
 
 building_conscription_center = {
 	building_group = bg_conscription
+	recruits_combat_unit = yes
 	buildable = no
 	expandable = no
 	downsizeable = no

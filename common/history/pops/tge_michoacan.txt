@@ -155,7 +155,7 @@ POPS = {
 	s:STATE_TECOMAN = {
 		region_state:TECO = {
 			create_pop = {
-				culture = nahua
+				culture = west_nahua
 				size = 65000
 				}
 		}
@@ -163,7 +163,7 @@ POPS = {
 	s:STATE_TEPELCATEPEC = {
 		region_state:TECO = {
 			create_pop = {
-				culture = nahua
+				culture = west_nahua
 				size = 60000
 				}
 		}
@@ -171,7 +171,7 @@ POPS = {
 	s:STATE_COAHUAYUTLA = {
 		region_state:COAH = {
 			create_pop = {
-				culture = nahua
+				culture = west_nahua
 				size = 62500
 				}
 		}
@@ -179,7 +179,7 @@ POPS = {
 	s:STATE_TANCITARO = {
 		region_state:TANC = {
 			create_pop = {
-				culture = nahua
+				culture = west_nahua
 				size = 42500
 				}
 		}
@@ -187,7 +187,7 @@ POPS = {
 	s:STATE_TACATZUCARO = {
 		region_state:TCTZ = {
 			create_pop = {
-				culture = nahua
+				culture = west_nahua
 				size = 32500
 				}
 		}
@@ -195,7 +195,7 @@ POPS = {
 	s:STATE_URUAPAN = {
 		region_state:URUA = {
 			create_pop = {
-				culture = nahua
+				culture = west_nahua
 				size = 29000
 				}
 		}
@@ -203,7 +203,7 @@ POPS = {
 	s:STATE_HUANIMARO = {
 		region_state:HUAN = {
 			create_pop = {
-				culture = nahua
+				culture = west_nahua
 				size = 31000
 				}
 		}
@@ -211,7 +211,7 @@ POPS = {
 	s:STATE_MARAVATIO = {
 		region_state:MARA = {
 			create_pop = {
-				culture = nahua
+				culture = west_nahua
 				size = 37000
 				}
 		}
@@ -219,7 +219,7 @@ POPS = {
 	s:STATE_NOCHTEPEC = {
 		region_state:NOCH = {
 			create_pop = {
-				culture = nahua
+				culture = west_nahua
 				size = 7000
 				}
 			create_pop = {
@@ -231,7 +231,7 @@ POPS = {
 	s:STATE_TLACOTEPEC = {
 		region_state:TLTP = {
 			create_pop = {
-				culture = nahua
+				culture = west_nahua
 				size = 25000
 				}
 			create_pop = {

@@ -43,6 +43,20 @@ GLOBAL = {
 		
 		}
 	
+		#Freemen from
+		IF = {
+			limit = {
+				any_primary_culture = {
+					has_discrimination_trait = settled_tribe
+					}	
+			}
+			
+			ig:ig_freemen = {
+				remove_ideology = ideology_sedentary_legacy
+				add_ideology = ideology_migratory_legacy
+				}
+			
+		}
 	
 	}
 	
