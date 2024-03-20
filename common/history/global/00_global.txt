@@ -4,6 +4,9 @@ GLOBAL = {
 	every_country = {
 		onaction_empire_sprawl_calc = yes
 		
+		
+		#Civilization Level JEs
+		
 		set_variable = {
 			name = civilization_value
 			value = 0
@@ -57,6 +60,19 @@ GLOBAL = {
 				}
 			
 		}
+		
+		#Giving the Right Civ Level JE
+		IF = { #Settlement
+			limit = {
+				has_law = law_type:law_tribe
+			}
+			add_journal_entry = { type = je_settlement_civ_level  }
+		}
+		ELSE = { #Urban
+			add_journal_entry = { type = je_urban_civ_level  }
+		}
+		
+		
 	
 	}
 	
@@ -66,6 +82,9 @@ GLOBAL = {
 			multiplier = 100
 			}
 		}
+
+	
+	
 
 	
 	

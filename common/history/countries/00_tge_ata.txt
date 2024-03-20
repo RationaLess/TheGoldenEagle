@@ -109,7 +109,7 @@
 		activate_law = law_type:law_elective
 		actiavte_law = law_type:law_local_hegemon
 		activate_law = law_type:law_military_education
-		activate_law = law_type:law_dedicated_government
+		activate_law = law_type:law_court_government
 		activate_law = law_type:law_calpulli_system
 		activate_law = law_type:law_scholar_societies
 		activate_law = law_type:law_appeasing
@@ -509,10 +509,6 @@
 		effect_starting_technology_mesoamerica_basic = yes
 		effect_starting_laws_mesoamerica_citystate = yes
 		}
-	c:TANC = {
-		effect_starting_technology_mesoamerica_basic = yes
-		effect_starting_laws_mesoamerica_citystate = yes
-		}
 	c:URUA = {
 		effect_starting_technology_mesoamerica_basic = yes
 		effect_starting_laws_mesoamerica_citystate = yes
@@ -543,5 +539,128 @@
 		activate_law = law_type:law_bellicose
 		activate_law = law_type:law_warrior_guilds
 		}
+	c:PATZ = {
+		effect_starting_technology_mesoamerica_medium = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		
+		activate_law = law_type:law_monarchy 
+		activate_law = law_type:law_executions
+		activate_law = law_type:law_majority_consensus
+		}
+	c:PATZ = {
+		effect_starting_technology_mesoamerica_medium = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		
+		activate_law = law_type:law_monarchy 
+		activate_law = law_type:law_executions
+		activate_law = law_type:law_majority_consensus
+		}
+	c:ZACA = {
+		effect_starting_technology_mesoamerica_medium = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		
+		activate_law = law_type:law_monarchy 
+		activate_law = law_type:law_executions
+		activate_law = law_type:law_majority_consensus
+		}
+	c:IHTI = {
+		effect_starting_technology_mesoamerica_medium = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:MARA = {
+		effect_starting_technology_mesoamerica_medium = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:ZITA = {
+		effect_starting_technology_mesoamerica_medium = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:CUTZ = {
+		effect_starting_technology_mesoamerica_medium = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:TIQU = {
+		effect_starting_technology_mesoamerica_medium = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:IHTI = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:ACPC = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:IHTI = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:COTZ = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	c:IHTI = {
+		effect_starting_technology_mesoamerica_basic = yes
+		effect_starting_laws_mesoamerica_citystate = yes
+		}
+	#Tribes
+	c:ACAM = {
+		effect_starting_laws_mesoamerica_tribe = yes 
+		effect_starting_technology_mesoamerica_basic = yes
+		}
+	c:HUAN = {
+		effect_starting_laws_mesoamerica_tribe = yes 
+		effect_starting_technology_mesoamerica_basic = yes
+		}
+	c:ZINA = {
+		effect_starting_laws_mesoamerica_tribe = yes 
+		effect_starting_technology_mesoamerica_basic = yes
+		}
+	c:SAYO = {
+		effect_starting_laws_mesoamerica_tribe = yes 
+		effect_starting_technology_mesoamerica_basic = yes
+		}
+	c:SAHU = {
+		effect_starting_laws_mesoamerica_tribe = yes 
+		effect_starting_technology_mesoamerica_basic = yes
+		}
+	c:AUTL = {
+		effect_starting_laws_mesoamerica_tribe = yes 
+		effect_starting_technology_mesoamerica_basic = yes
+		}
+	c:XIHU = {
+		effect_starting_laws_mesoamerica_tribe = yes 
+		effect_starting_technology_mesoamerica_basic = yes
+		}
+	c:CUZA = {
+		effect_starting_laws_mesoamerica_tribe = yes 
+		effect_starting_technology_mesoamerica_basic = yes
+		}
+	c:CAXT = {
+		effect_starting_laws_mesoamerica_tribe = yes 
+		effect_starting_technology_mesoamerica_basic = yes
+		}
+	c:ZAPT = {
+		effect_starting_laws_mesoamerica_tribe = yes 
+		effect_starting_technology_mesoamerica_basic = yes
+		}
+	c:ACOL = {
+		effect_starting_laws_mesoamerica_tribe = yes 
+		effect_starting_technology_mesoamerica_basic = yes
+		}
+	c:TECO = {
+		effect_starting_laws_mesoamerica_tribe = yes 
+		effect_starting_technology_mesoamerica_basic = yes
+		}
+	c:ZACT = {
+		effect_starting_laws_mesoamerica_tribe = yes 
+		effect_starting_technology_mesoamerica_basic = yes
+		}
+	c:TANC = {
+		effect_starting_laws_mesoamerica_tribe = yes 
+		effect_starting_technology_mesoamerica_basic = yes
+		}
+	
+		
 	
 }

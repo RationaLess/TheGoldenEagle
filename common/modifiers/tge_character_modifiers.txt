@@ -34,3 +34,32 @@ invested_in_skills = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
 	character_loyalty_add = 25
 }
+
+saved_reputation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	character_loyalty_add = 30
+}
+
+
+
+#Reputation
+brave_reputation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
+	character_popularity_add = 20
+}
+blasphemous_reputation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	character_popularity_add = -20
+}
+cowardly_reputation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	character_popularity_add = -20
+}
+legendary_reputation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	character_popularity_add = 40
+}
+terrifying_reputation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	character_popularity_add = -20
+}

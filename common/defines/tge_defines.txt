@@ -93,6 +93,9 @@ NPops = {
 	
 	DEFAULT_POP_TYPE = "freemen"
 
+	
+	INDIVIDUALS_TAXED_PER_TAX_CAPACITY = 1000			# How many pops can be taxed efficiently for each tax capacity
+	
 	ECONOMIC_MIGRATION_STATE_POPULATION_THRESHOLD = 10000				# States with less pops than this have reduced economic emigration numbers to avoid total depopulation
 }
 

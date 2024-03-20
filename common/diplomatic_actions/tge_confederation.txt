@@ -25,7 +25,10 @@
 				is_subject_of = ROOT.overlord
 				}
 			is_adjacent_to_country = root
-			has_law = law_type:law_city_state
+			OR = {
+				has_law = law_type:law_city_state
+				has_law = law_type:law_tribe
+				}
 			NOR = { 
 				is_country_type = decentralized 
 			}

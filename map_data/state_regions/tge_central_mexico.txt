@@ -124,8 +124,8 @@ STATE_OTOMPAN = {
     provinces = { "x33A617" "x35CF28" "x39DD0E" "x485B1F" "x494904" "x4B6103" "x56A031" "x5BF728" "x5D992D" "x637508" "x637B18" "x69E60E" "x6ABA1B" "x6CE70E" "x737832" "x73BB2B" "x73BD04" "x77DD08" "x7C5B10" "x81EE08" "x84C904" "x855F21" "xA24307" "xA5FF04" "xB14416" "xB19F04" "xB1F613" "xB23F04" "xB4EC03" "xB5F326" "xBDBA14" "xBF7B19" "xC74208" "xE16D12" "xF3D61D" "xF44204" "xF8DF20" }
     subsistence_building = "building_gathering_grounds_dyes"
 
+    arable_land = 48
 
-    arable_land = 10
 
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
@@ -140,7 +140,7 @@ STATE_HUAYACOCOTLA = {
 
     subsistence_building = "building_gathering_grounds_marine_goods"
 
-    arable_land = 28
+    arable_land = 49
     arable_resources = { "bg_maize_farms" "bg_cotton_farms" "bg_cocoa" }
     capped_resources = {
         bg_logging = 19
@@ -166,7 +166,7 @@ STATE_TAJIN = {
 STATE_TOTONACAPAN = {
     id = 16
 
-    arable_land = 35
+    arable_land = 60
 
     subsistence_building = "building_gathering_grounds_animal_skin"
     provinces = { "x45F623" "x49B228" "x523A20" "x53BA19" "x556B2D" "x566401" "x61B12D" "x644E21" "x72B820" "x7EDF1A" "x80F917" "x81970C" "x82DE15" "x8A9B04" "x8C9427" "x8DD724" "x8F5929" "x93E22B" "x96851F" "x99921C" "x9A4401" "x9DEC27" "x9EC81A" "xA96B31" "xB3C910" "xB86514" "xB9510A" "xB9DA1B" "xBA4E23" "xC9C31E" "xCEA12D" "xD27D08" "xD48F13" "xD9781A" "xDBCB10" "xDC8B13" "xDDD518" "xE0EF13" "xEECD0B" "xF03E21" "xF64406" "xFB521F" "xFEAB28" }
@@ -259,7 +259,10 @@ STATE_CHOLULA = {
 STATE_TOLLAN = {
     id = 25
     provinces = { "x33EC10" "x34B232" "x39A828" "x3CF009" "x3D6C15" "x3FAB32" "x47F616" "x5F331E" "x615102" "x65861D" "x6ACD0F" "x6BCB08" "x715403" "x885D00" "x91B52C" "x91DD21" "x974F1F" "x98512C" "x9EBC22" "xA7F228" "xA8AA29" "xA9621C" "xACCE14" "xB18D21" "xB4FF06" "xB7DA21" "xC1B023" "xC1C230" "xC97123" "xC9912A" "xCA432A" "xEBD101" "xECA026" "xF0D303" "xF7600F" }
-    arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
+    
+	arable_land = 50
+	
+	arable_resources = { "bg_maize_farms" "bg_cotton_farms" }
     capped_resources = {
         bg_logging = 9
     }

@@ -233,3 +233,107 @@ character_events.1102 = { #Random Character becomes poet
 		post_notification = notification_ev_new_poet_name
 	}
 }
+
+
+character_events.1005 = { #Accused of Nagualism
+	type = country_event
+	placement = root
+
+	title = character_events.1005.t
+	desc = character_events.1005.d
+	flavor = character_events.1005.f
+
+	duration = 3
+
+	event_image = {
+		image = "tension_meso"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		random_scope_character = {
+			limit = {
+				NOT = { has_variable = nagual }
+				}
+			save_scope_as = nagual
+			add_variable = nagual 
+		}
+	}
+
+	option = {
+		default_option = yes
+		name = character_events.1005.a
+		scope:nagual = {
+			add_modifier = {
+				name = terrifying_reputation
+			}
+		}
+	}
+}
+
+character_events.1006 = { #Accused of Sodomy
+	type = country_event
+	placement = root
+
+	title = character_events.1006.t
+	desc = character_events.1006.d
+	flavor = character_events.1006.f
+
+	duration = 3
+
+	event_image = {
+		image = "tension_meso"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		random_scope_character = {
+			limit = {
+				NOT = { has_variable = sodomite }
+				}
+			save_scope_as = sodomite
+			add_variable = sodomite 
+		}
+	}
+
+	option = {
+		default_option = yes
+		name = character_events.1006.a
+		scope:sodomite = {
+			add_modifier = {
+				name = blasphemous_reputation
+			}
+		}
+	}
+	
+	option = {
+		default_option = yes
+		name = character_events.1006.b
+		scope:sodomite = {
+			add_modifier = {
+				name = blasphemous_reputation
+				multiply = 0.5
+			}
+			add_modifier = {
+				name = saved_reputation 
+			}
+		}
+		add_radicals = {
+			value = 0.05
+			}
+	}
+}

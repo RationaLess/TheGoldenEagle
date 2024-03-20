@@ -33,6 +33,11 @@ chain_of_command = {
 		martial_culture
 		vassalage
 	}
+	
+	modifier = {
+		country_institution_military_education_max_investment_add = 1
+	}
+	
 	ai_weight = { 
 	value = 10
 	}
@@ -186,6 +191,11 @@ sailing_ships  = {
 	era = era_5
 	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
 	category = military
+	
+	modifier = {
+		country_institution_colonization_max_investment_add = 1
+	}
+	
 	unlocking_technologies = {
 		shipyards
 		celestial_navigation
@@ -333,6 +343,11 @@ advanced_tactics  = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
 	category = military
+	
+	modifier = {
+		country_institution_military_education_max_investment_add = 1
+	}
+	
 	unlocking_technologies = {
 		chain_of_command
 	}
@@ -348,5 +363,6 @@ guirella_warfare = {
 	}
 	
 	modifier = {
+	country_institution_military_education_max_investment_add = 1
 	}
 }

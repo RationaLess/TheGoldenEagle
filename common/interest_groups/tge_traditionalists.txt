@@ -4,7 +4,6 @@
 	
 	ideologies = {
 		ideology_faith_and_culture
-		ideology_classic_precedent
 	}
 	
 	enable = {

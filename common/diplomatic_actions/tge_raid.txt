@@ -1,0 +1,29 @@
+raid = {
+	requires_approval = no
+	state_selection = second_required
+	is_hostile = yes
+
+	second_state_trigger = {
+		any_neighbouring_state = {
+			owner = root
+			}
+		}
+		
+	effect = {
+		create_incident = {
+			country = scope:target
+			value = 5
+			}
+		random_effect = {
+			50 = {
+			
+				}
+			50 = {
+			
+				}
+			}
+	
+		}
+
+
+}

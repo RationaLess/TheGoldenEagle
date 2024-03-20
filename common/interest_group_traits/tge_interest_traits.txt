@@ -117,7 +117,7 @@ ig_trait_violated_traditions = {
 	max_approval = unhappy
 	
 	modifier = {
-		country_radicals_from_legitimacy_mult = 0.5
+		country_radicals_from_legitimacy_mult = 0.25
 	}
 }
 

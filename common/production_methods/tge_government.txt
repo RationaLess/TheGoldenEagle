@@ -8,6 +8,7 @@ pm_temple_no_sacrifices = {
 	country_modifiers = {
 		workforce_scaled = { 
 			country_prestige_add = 5
+			country_local_civilization_value  = 5
 		}
 	}	
 
@@ -25,6 +26,8 @@ pm_temple_no_sacrifices = {
 			goods_input_tools_add = 1
 
 			goods_output_worship_add = 4
+		
+			country_local_civilization_value  = 5
 		}
 		
 		level_scaled = {
@@ -45,6 +48,7 @@ pm_temple_human_sacrifice = {
 	country_modifiers = {
 		workforce_scaled = { 
 			country_prestige_add = 5
+			country_local_civilization_value  = 5
 		}
 	}
 
@@ -143,6 +147,7 @@ pm_ball_court = {
 	country_modifiers = {
 			level_scaled = {
 			country_prestige_add = 10
+			country_local_civilization_value  = 5
 			}
 		}
 	
@@ -184,6 +189,7 @@ pm_zoo = {
 	country_modifiers = {
 			level_scaled = {
 			country_prestige_add = 25
+			country_local_civilization_value  = 5
 			}
 		}
 	
@@ -220,9 +226,11 @@ pm_garden = {
 	country_modifiers = {
 			level_scaled = {
 			country_prestige_add = 10
+			country_local_civilization_value  = 5
 			}
 		}
 	
+		
 	state_modifiers = {
 			unscaled = {
 

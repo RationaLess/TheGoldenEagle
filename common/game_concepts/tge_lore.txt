@@ -1,0 +1,31 @@
+﻿concept_mesoamerica = {}
+
+concept_mesoamerican_cosmology = {}
+
+concept_nagual = {}
+
+concept_tezcatlipoca = {}
+
+concept_ballgame = {}
+
+concept_feathered_serpent = {}
+
+concept_fifth_sun = {}
+
+concept_chicomoztoc = {}
+
+concept_preclassic = {}
+
+concept_classic = {}
+
+concept_postclassic = {}
+
+concept_nahua = {}
+
+concept_toltec = {}
+
+concept_wayob = {}
+
+concept_chichimeca = {}
+
+concept_aridoamerica = {}

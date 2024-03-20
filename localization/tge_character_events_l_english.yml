@@ -13,6 +13,17 @@
  notification_ev_new_poet_tooltip: "#header $notification_ev_new_poet_name$#!\n$TOOLTIP_DELIMITER$\n$notification_ev_new_poet_desc$"
 
 
-
  poetry_lauded:"Poetry Lauded"
  poetry_panned:"Poetry Panned"
+ 
+ 
+ character_events.1005.t:"Nagual Among Us"
+ character_events.1005.d:"Credible accusations of [Concept('concept_nagual','Nagualism')] have appeared targetting [SCOPE.sCharacter('nagual').GetFullName]."
+ character_events.1005.f:"A dozen eye witnesses have come before the king, but the accounts wary. Was it a canine? Or a jaguar? the humanoid figure was hard to make out in the fog of the night. One thing is certain, however, [SCOPE.sCharacter('nagual').GetFullName] is in touch with their tonal and they are willing to use their power."
+ character_events.1005.a:"Worrying."
+ 
+ character_events.1006.t:"Sodomy Accusations"
+ character_events.1006.d:"[SCOPE.sCharacter('sodomite').GetFullName] has been accused of sodomy."
+ character_events.1006.f:"\"Presented before the court are detailed accounts of, well, 'unorthodox' sexual practices.\""
+ character_events.1006.a:"Disgusting."
+ character_events.1006.b:"Turn a blind eye."

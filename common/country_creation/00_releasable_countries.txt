@@ -4,3 +4,23 @@ TEXC = {
 	
 	ai_will_do = { always = no }
 }
+TPTP = {
+	states = { STATE_TEPETICPAC }
+	
+	ai_will_do = { always = no }
+}
+OTLL = {
+	states = { STATE_OCOTELOLCO }
+	
+	ai_will_do = { always = no }
+}
+TIZA = {
+	states = { STATE_TIZATLAN }
+	
+	ai_will_do = { always = no }
+}
+QUIA = {
+	states = { STATE_QUIAHUIZTLAN }
+	
+	ai_will_do = { always = no }
+}

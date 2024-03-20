@@ -220,7 +220,7 @@ ideology_leader_complacent = {
 	}
 	
 	leader_weight = {
-		value = 50	
+		value = 20	
 		
 		#Angry groups should be more radical 
 		if = {

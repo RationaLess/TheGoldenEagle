@@ -41,7 +41,7 @@ law_majority_consensus = {
 	
 	
 	modifier = {
-			country_civilization_value = 0.01
+			country_civilization_value = 5
 			country_authority_add = 100
 			country_prestige_mult = 0.1
 			country_radicals_from_legitimacy_mult = 0.25
@@ -72,7 +72,7 @@ law_controlled_courts = {
 	
 	
 	modifier = {
-			country_civilization_value = 0.03
+			country_civilization_value = 10
 			state_loyalists_from_sol_change_accepted_culture_mult = 0.15
 
 			country_suppression_ig_attraction_mult = -0.2
@@ -105,7 +105,7 @@ law_juidicial_autonomy = {
 	
 	
 	modifier = {
-			country_civilization_value = 0.05
+			country_civilization_value = 25
 			country_legitimacy_base_add = 5
 			state_loyalists_from_sol_change_accepted_culture_mult = 0.15
 		}

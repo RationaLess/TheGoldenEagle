@@ -3,6 +3,51 @@
 # modifier = {} modifier on country for having adopted this law
 
 
+law_tribe = {
+	group = lawgroup_governance_principles
+	
+	icon = "gfx/interface/icons/law_icons/elder_council.dds"
+	
+	progressiveness = 0
+
+	unlocking_technologies = {
+		city_state
+	}
+
+	modifier = {
+		country_can_raid = yes
+		country_low_penalties_for_empire_sprawl = yes
+		country_authority_add = 100
+		country_legitimacy_headofstate_add = 30
+		country_empire_sprawl_load_mult = 0.5
+	}
+	
+	possible_political_movements = {
+		law_republic
+		law_empire
+		law_council
+	}
+	
+	pop_support = {
+		value = 0	
+		add = {
+			desc = "POP_CHIEFS"
+			if = {
+				limit = { 
+					is_pop_type = chiefs
+				}
+				value = 0.33
+			}
+		}
+	}
+	
+	ai_will_do = {
+		exists = ruler
+		ruler = {
+		}
+	}
+}
+
 law_city_state = {
 	group = lawgroup_governance_principles
 	
@@ -30,10 +75,10 @@ law_city_state = {
 	pop_support = {
 		value = 0	
 		add = {
-			desc = "POP_ARISTOCRATS"
+			desc = "POP_NOBLES"
 			if = {
 				limit = { 
-					is_pop_type = aristocrats
+					is_pop_type = nobles
 				}
 				value = 0.33
 			}
@@ -172,60 +217,6 @@ law_monarchy = {
 		country_legitimacy_headofstate_add = 30
 		country_authority_add = 200
 		country_influence_add = 300
-	}
-	
-	possible_political_movements = {
-		law_republic
-		law_monarchy
-		law_council
-	}
-	
-	pop_support = {
-		value = 0	
-		add = {
-			desc = "POP_ARISTOCRATS"
-			if = {
-				limit = { 
-					is_pop_type = aristocrats
-				}
-				value = 0.33
-			}
-		}
-	}
-	
-	ai_will_do = {
-		exists = ruler
-		ruler = {
-		}
-	}
-}
-
-
-law_dictatorship = {
-	group = lawgroup_governance_principles
-	
-	icon = "gfx/interface/icons/law_icons/single_party_state.dds"
-	
-	progressiveness = 0
-	
-	unlocking_technologies = {
-		kingship
-	}
-	
-	#Cannot be enacted by politics
-	disallowing_laws = {
-		law_city_state
-		law_monarchy 
-		law_council
-		law_alliance
-	}
-
-	modifier = {
-		country_legitimacy_headofstate_add = 40
-		country_authority_add = 300
-		country_legitimacy_ideological_incoherence_mult = 0.5
-		state_radicals_from_sol_change_mult = 0.25
-		interest_group_in_opposition_approval_add = -5
 	}
 	
 	possible_political_movements = {

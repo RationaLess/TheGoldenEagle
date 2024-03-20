@@ -13,3 +13,53 @@ cultures = { acolhua }
 
 capital = STATE_EAST_TEXCOCO
 }
+
+
+TPTP = { #Tepeticpac
+
+color = rgb { 201 250 95 }
+
+tier = duchy
+
+country_type = recognized
+
+cultures = { tlaxcaltec }
+
+capital = STATE_TEPETICPAC
+}
+OTLL = { #Ocotelolco
+
+color = rgb { 28 189 183}
+
+tier = duchy
+
+country_type = recognized
+
+cultures = { tlaxcaltec }
+
+capital = STATE_OCOTELOLCO
+}
+TIZA = { #Tizatlan
+
+color = rgb { 232 205 130 }
+
+tier = duchy
+
+country_type = recognized
+
+cultures = { tlaxcaltec }
+
+capital = STATE_TIZATLAN
+}
+QUIA = { #Quiahuiztlan
+
+color = rgb { 152 80 204 }
+
+tier = duchy
+
+country_type = recognized
+
+cultures = { tlaxcaltec }
+
+capital = STATE_QUIAHUIZTLAN
+}

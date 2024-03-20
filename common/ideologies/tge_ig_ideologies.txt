@@ -439,7 +439,45 @@ ideology_faith_and_culture = {
 
 #Time period
 
-ideology_classic_precedent = {
+
+ideology_sedentary_precedent = {
+	icon = "gfx/interface/icons/ideology_icons/unused/traditionalist.dds"
+	
+	
+	lawgroup_governance_principles = {
+		law_tribe = strongly_approve
+		law_city_state = neutral
+		law_monarchy = neutral 
+		law_council = neutral
+		law_alliance = neutral
+	}
+	
+	lawgroup_institutionalization = {
+		law_informal_government = disapprove
+		law_assembly_government = strongly_approve
+		law_court_government = disapprove
+		law_dedicated_government = disapprove
+		law_bureaucratic_government = strongly_disapprove
+	}
+	
+	lawgroup_currency = {
+		law_barter_economy = approve
+		law_corvee_labor = approve 
+		law_goods_as_currency = approve
+		law_regulated_commerce = strongly_disapproved
+		law_standardized_coins = strongly_disapprove
+	}
+	
+	lawgroup_development = {
+		law_mobile_settlements = disapprove
+		law_ribbon_development = disapprove
+		law_clustered_communities = approve 
+		law_centralized_urban_centers = disapprove
+	}
+	
+}
+
+ideology_urban_precedent = {
 	icon = "gfx/interface/icons/ideology_icons/unused/traditionalist.dds"
 	
 	
@@ -475,7 +513,7 @@ ideology_classic_precedent = {
 	
 }
 
-ideology_postclassic_precedent = {
+ideology_metropolitan_precedent = {
 	icon = "gfx/interface/icons/ideology_icons/unused/traditionalist.dds"
 	
 	lawgroup_governance_principles = {

@@ -116,14 +116,15 @@ onaction_civilization_level_calc = {
 		name = civilization_value_literacy_bonus
 		value = {
 				value = literacy_rate
-				multiply = 0.2
+				multiply = 10
+				#multiply = 0.2
 				}
 		}
 	set_variable = {
 		name = civilization_value_sol_bonus
 		value = {
 				value = average_sol
-				divide = 100
+				#divide = 100
 				}
 		}
 	
@@ -152,7 +153,6 @@ onaction_civilization_level_calc = {
 				divide = var:num_of_states
 				}
 			divide = 100
-			divide = 100
 			}
 		}
 	
@@ -172,9 +172,19 @@ onaction_civilization_level_calc = {
 			#The Modifiers
 			add = modifier:country_civilization_value
 			
+			#Local Civilization Value
+			add = {
+				value = modifier:country_local_civilization_value
+				
+				divide = {
+					value = total_population
+					divide = 100000
+					}
+				
+				}
+			
 			
 			min = 0
-			max = 1
 		}
 	}
 	
@@ -210,55 +220,55 @@ onaction_civilization_level_calc = {
 		remove_modifier = civilization_level_5
 	}
 	
-	#Civilization Level
-	set_variable = {
-		name = civilization_level
-		value = get_civilization_level
-		}
+	##Civilization Level
+	#set_variable = {
+	#	name = civilization_level
+	#	value = get_civilization_level
+	#	}
 	
 	#Applying Modifier
-	IF = {
-		limit = {
-			var:civilization_level = 1 
-		}
-		add_modifier = {
-			name = civilization_level_1
-			}
-	}
-	ELSE_IF = {
-		limit = {
-			var:civilization_level = 2 
-		}
-		
-		add_modifier = {
-			name = civilization_level_2
-			}
-	}
-	ELSE_IF = {
-		limit = {
-			var:civilization_level = 3
-		}
-		
-		add_modifier = {
-			name = civilization_level_3
-			}
-	}
-	ELSE_IF = {
-		limit = {
-			var:civilization_level = 4
-		}
-		add_modifier = {
-			name = civilization_level_4
-			}
-	}
-	ELSE_IF = {
-		limit = {
-			var:civilization_level = 5 
-		}
-		add_modifier = {
-			name = civilization_level_5
-			}
-	}
+	#IF = {
+	#	limit = {
+	#		var:civilization_level = 1 
+	#	}
+	#	add_modifier = {
+	#		name = civilization_level_1
+	#		}
+	#}
+	#ELSE_IF = {
+	#	limit = {
+	#		var:civilization_level = 2 
+	#	}
+	#	
+	#	add_modifier = {
+	#		name = civilization_level_2
+	#		}
+	#}
+	#ELSE_IF = {
+	#	limit = {
+	#		var:civilization_level = 3
+	#	}
+	#	
+	#	add_modifier = {
+	#		name = civilization_level_3
+	#		}
+	#}
+	#ELSE_IF = {
+	#	limit = {
+	#		var:civilization_level = 4
+	#	}
+	#	add_modifier = {
+	#		name = civilization_level_4
+	#		}
+	#}
+	#ELSE_IF = {
+	#	limit = {
+	#		var:civilization_level = 5 
+	#	}
+	#	add_modifier = {
+	#		name = civilization_level_5
+	#		}
+	#}
 	
 	
 	

@@ -124,6 +124,10 @@ lawgroup_colonization = {
 #}
 
 
+lawgroup_education = {
+	law_group_category = human_rights
+	
+}
 
 lawgroup_cultural_acceptance = {
 	law_group_category = human_rights

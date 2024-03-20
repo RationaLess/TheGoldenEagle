@@ -22,7 +22,24 @@
  floating_city_dam_button:"Construct Dam Network"
  floating_city_aqueduct_button_desc:"The periodic flooding of Tenochtitlan is the greatest obstacle to our prosperity. We could divide the lake into several distinct parts to manage the water level, though such an endavour would be a costly mega-project."
  
+ je_mesoamerican_question:"The Mesoamerican Question"
+ je_mesoamerican_question_reason:"Our [concept_nahua] bretheren have long settled and assimilated into #V Anahuac#!. With us having landed at the fringes of the region, we must decide whether to adopt the sedentary [Concept('concept_mesoamerica','Mesoamerican')] way of life or embrace our [concept_chichimeca] roots. Various factors will determine whether the progress bar #tooltippable;tooltip:[Country.GetTooltipTag],je_mesoamerican_question_negative receeds in favor of the Chichimec identity#! or #tooltippable;tooltip:[Country.GetTooltipTag],je_mesoamerican_question_positive advances in favor of the Mesoamerican identity#!."
  
+ je_mesoamerican_question_embraced_identity:"Either #V Identity#! has been #V Embraced#!"
+ je_mesoamerican_question_positive: "The following factors will #V advance#! the #V Progress Bar#!:\n• High [concept_urbanization]\n• High [concept_literacy]\n• [concept_institution] levels\n• Having a non-[GetLawType('law_tribe').GetName] [GetLawGroup('lawgroup_governance_principles').GetName] Law"
+ je_mesoamerican_question_negative: "The following factors will #V deplete#! the #V Progress Bar#!:\n• #V Raiding#!\n• Having an [concept_empire_sprawl] #V deficit#!\n• [concept_infamy]\n• Having the [GetLawType('law_tribe').GetName] Law\n• Having the [GetLawType('law_assembly_government').GetName] Law"
+ 
+ mesoamerican_question_minus_25:"The #V Progess Bar#! is lowered by #V 25#!"
+ mesoamerican_question_plus_25:"The #V Progess Bar#! is increased by #V 25#!"
+ mesoamerican_question_bar_over_90:"The #V Progess Bar#! is over #V 90#!"
+ mesoamerican_question_bar_under_10:"The #V Progess Bar#! is under #V 10#!"
+ 
+ mesoamerican_question_embrace_sedentary_identity_button:"Embrace Sedentary Identity"
+ mesoamerican_question_embrace_tribal_identity_button:"Embrace Tribal Identity"
+ mesoamerican_question_respond_to_purepecha_threat:"Respond to Purepecha threat"
+ mesoamerican_question_respond_to_purepecha_threat_desc:"The existance of Iréchikwa is a threat to our way of life. If we're to persevere in these circumstances, we must change our strategy and seek strength from within..."
+ mesoamerican_question_intermarry_with_west_nahuas:"Intermarry with Anahuac"
+ mesoamerican_question_intermarry_with_west_nahuas_desc:"Even a petty marriage - if secured - would help legitimize us as proper Mesoamerican rulers."
  
  
  
@@ -81,10 +98,27 @@
  
  
  
+ 
+ #Civilization Level
+ je_settlement_civ_level:"Settlement [concept_civilization_level]"
+ je_settlement_civ_level_reason:"Our people have began moving into static settlements, with our society essentialy a collective of such dwellings. Such a way of life comes with great challanges as well as great opportunities.\n$TOOLTIP_DELIMITER$\nAt this civilization level:\n• Our [SCOPE.gsInterestGroup('traditionalists').GetName] have the [GetIdeology('ideology_sedentary_precedent').GetName] [concept_ideology].\n• We will #R Become a  [concept_decentralized_nation]#! if we reach a critical [concept_empire_sprawl] #V deficit#!\n• The [GetIdeology('ideology_leader_urbanist').GetName] and [GetIdeology('ideology_leader_confederate').GetName] [concept_character] [Concept('concept_ideology','Ideologies')] will appear.\n$TOOLTIP_DELIMITER$\nIf we increase our [concept_civilization_value] and fulfill the [concept_journal_entry] #V Requirements#!, we will advance to the #V Metropolitan#! [concept_civilization_level]!"
+ 
+ je_urban_civ_level:"Urban [concept_civilization_level]"
+ je_urban_civ_level_reason:"We are an urban society, with artisans and scholars of all kinds finding refuge in our urban centers. To keep up with our ever increasing needs of our population, we need to develop our institutions further - they are the lifeblood of our empire, of course. \n$TOOLTIP_DELIMITER$\nAt this civilization level:\n• Our [SCOPE.gsInterestGroup('traditionalists').GetName] have the [GetIdeology('ideology_urban_precedent').GetName] [concept_ideology].\n• We will suffer #R Negative Events#! from an [concept_empire_sprawl] #V deficit#!\n• The [GetIdeology('ideology_leader_populist').GetName] and [GetIdeology('ideology_leader_statist').GetName] [concept_character] [Concept('concept_ideology','Ideologies')] will appear.\n$TOOLTIP_DELIMITER$\nIf we increase our [concept_civilization_value] and fulfill the [concept_journal_entry] #V Requirements#!, we will advance to the #V Metropolitan#! [concept_civilization_level]!"
+ 
+ 
+ civilization_value_over_250:"Our [concept_civilization_value] is greater or equal to #V 250#!"
+ civilization_value_over_100:"Our [concept_civilization_value] is greater or equal to #V 100#!"
+ civilization_value_over_50:"Our [concept_civilization_value] is greater or equal to #V 50#!"
+ civilization_value_over_20:"Our [concept_civilization_value] is greater or equal to #V 20#!"
+ 
+ 
  #Other
  je_urbanization_efforts:0 "Urbanization Efforts"
  je_urbanization_efforts_reason:1 "Large urban centers spread their influence through trade, art, commodities and wealth. If we manage to turn our capital into such a metropolis, the old guard will have no choice but to endorse this kind of innovation."
  je_urbanization_efforts_goal:0 "Increase Capital Urban Center level by 10"
+ 
+ 
  
  #Formalize
  je_formalize_the_realm:"Formalize the Realm"

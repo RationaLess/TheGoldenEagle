@@ -1,0 +1,106 @@
+﻿je_mesoamerican_question = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	
+	should_be_pinned_by_default = yes
+	group = je_group_historical_content  
+	
+	is_shown_when_inactive = {	
+		country_has_primary_culture = cu:west_nahua
+		
+		}
+	
+	possible = {
+		country_has_primary_culture = cu:west_nahua
+		has_law = law_type:law_tribe
+	}
+	
+	immediate = {
+		set_variable = {
+			name = mesoamerican_question_identity
+			value = 50
+			}
+		}
+	
+	scripted_button = mesoamerican_question_embrace_sedentary_identity_button
+	scripted_button = mesoamerican_question_embrace_tribal_identity_button
+	scripted_button = mesoamerican_question_intermarry_with_west_nahuas
+	scripted_button = mesoamerican_question_respond_to_purepecha_threat
+	
+	on_monthly_pulse = 	{
+		change_variable = {
+			name = mesoamerican_question_identity
+			add = {
+				value = 0
+				
+				subtract = empire_sprawl_deficit
+				subtract = {
+					value = infamy
+					divide = 100
+					}
+				add = {
+					value = literacy_rate
+					divide = 100
+					}
+				
+				
+				}
+			}
+			#Trigger-Based
+			IF = {
+				limit = {
+					has_law = law_type:law_tribe
+					}
+				change_variable = {
+					name = mesoamerican_question_identity
+					add = -0.25
+					}
+				}
+			ELSE = {
+				change_variable = {
+					name = mesoamerican_question_identity
+					add = 0.25
+					}
+			}
+			IF = {
+				limit = {
+					has_law = law_type:law_assembly_government
+					}
+				change_variable = {
+					name = mesoamerican_question_identity
+					add = -0.25
+					}
+				}
+	
+	}
+	
+	progressbar = yes
+	
+	current_value = {
+		if = {
+			limit = {
+				scope:journal_entry = {
+					goal_value = 0
+				}
+			}
+			value = 0
+		}
+		else = {
+			value = var:mesoamerican_question_identity 
+		}
+	}
+
+	
+	goal_add_value = 100
+
+	fail = {
+		is_subject = yes
+	}
+	
+	complete = {
+		custom_tooltip = {
+		text = je_mesoamerican_question_embraced_identity
+		has_variable je_mesoamerican_question_embraced_identity
+		}
+	}
+	
+}

@@ -75,6 +75,7 @@ organized_worship = {
 	
 	
 	modifier = {
+		country_institution_education_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {
@@ -90,7 +91,8 @@ cosmology = {
 	
 	
 	modifier = {
-		building_temple_throughput_add = 0.2
+		building_temple_throughput_add = 0.1
+		country_institution_education_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {
@@ -203,6 +205,7 @@ specialized_knowledge = {
 	
 	modifier = {
 		state_education_access_add = 0.02	
+		country_institution_education_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {
@@ -218,6 +221,8 @@ writing_system = {
 	
 	
 	modifier = {
+	
+		country_institution_education_max_investment_add = 1
 		state_education_access_add = 0.02
 		}
 	
@@ -235,6 +240,7 @@ education = {
 	
 	modifier = {
 		state_education_access_add = 0.02
+		country_institution_education_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {
@@ -295,6 +301,8 @@ politics = {
 	
 	
 	modifier = {
+		country_institution_education_max_investment_add = 1
+		country_institution_courts_max_investment_add = 2
 		}
 	
 	unlocking_technologies = {
@@ -326,6 +334,7 @@ merchant_guilds = {
 	
 	modifier = {
 		interest_group_ig_merchant_guilds_pop_attraction_mult = 0.25
+		country_institution_finnances_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {
@@ -342,6 +351,7 @@ contracts = {
 	
 	modifier = {
 		country_loan_interest_rate_mult = -0.1
+		country_institution_finnances_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {
@@ -357,6 +367,7 @@ money_lending = {
 	
 	modifier = {
 		country_loan_interest_rate_mult = -0.1
+		country_institution_finnances_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {
@@ -372,6 +383,7 @@ missionaries = {
 	
 	modifier = {
 		building_temple_throughput_add = 0.2
+		country_institution_colonization_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {
@@ -417,6 +429,7 @@ state_bureaucracy = {
 	
 	modifier = {
 		country_empire_sprawl_capacity_mult = 0.2
+		country_institution_courts_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {
@@ -445,6 +458,7 @@ top_down_organization = {
 	
 	
 	modifier = {
+		country_institution_courts_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {
@@ -461,6 +475,7 @@ juidicial_system = {
 	
 	
 	modifier = {
+		country_institution_courts_max_investment_add = 2
 		}
 	
 	unlocking_technologies = {
@@ -476,7 +491,9 @@ philosophy = {
 	
 	
 	modifier = {
-		building_temple_throughput_add = 0.2
+		building_temple_throughput_add = 0.1
+		country_institution_courts_max_investment_add = 1
+		country_institution_education_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {
@@ -491,6 +508,7 @@ colonies = {
 	
 	
 	modifier = {
+		country_institution_colonization_max_investment_add = 3
 		}
 	
 	unlocking_technologies = {
@@ -536,6 +554,7 @@ standardized_currency = {
 	
 	
 	modifier = {
+		country_institution_finnances_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {
@@ -552,6 +571,7 @@ banking = {
 	
 	modifier = {
 		country_loan_interest_rate_mult = -0.3
+		country_institution_finnances_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {

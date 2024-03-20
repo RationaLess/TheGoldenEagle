@@ -1,0 +1,123 @@
+﻿je_settlement_civ_level = {
+	group = je_group_technology
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	
+	should_be_pinned_by_default = yes
+	weight = 100000
+	progressbar = yes
+	
+	immediate = {
+		ig:ig_traditionalists = {
+			save_scope_as = traditionalists
+			add_ideology = ideology_sedentary_precedent
+			}
+		set_variable = {
+			name = civilization_level
+			value = 2
+			}
+	}
+	
+	current_value = {
+		if = {
+			limit = {
+				scope:journal_entry = {
+					goal_value = 0
+				}
+			}
+			value = 0
+		}
+		else = {
+			value = civilization_value
+		}
+	}
+	
+	goal_add_value = 50
+
+	complete = {
+		custom_tooltip = {
+		text = civilization_value_over_50
+		civilization_value >= 50
+		}
+		OR = {
+			has_law = law_type:law_dedicated_government
+			has_law = law_type:law_court_government
+			}
+		NOT = {
+			has_law = law_type:law_tribe
+			}
+	}
+	
+	
+	on_complete = {
+		add_journal_entry = { type = je_urban_civ_level }
+	}
+
+}
+
+je_urban_civ_level = {
+	group = je_group_technology
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	
+	should_be_pinned_by_default = yes
+	weight = 100000
+	progressbar = yes
+	
+	immediate = {
+		ig:ig_traditionalists = {
+			save_scope_as = traditionalists
+			add_ideology = ideology_urban_precedent
+			remove_ideology = ideology_sedentary_precedent
+			}
+		set_variable = {
+			name = civilization_level
+			value = 3
+			}
+	}
+	
+	current_value = {
+		if = {
+			limit = {
+				scope:journal_entry = {
+					goal_value = 0
+				}
+			}
+			value = 0
+		}
+		else = {
+			value = civilization_value
+		}
+	}
+	
+	goal_add_value = 100
+
+	complete = {
+		custom_tooltip = {
+		text = civilization_value_over_100
+		civilization_value >= 100
+		}
+		OR = {
+			has_law = law_type:law_dedicated_government
+			has_law = law_type:law_bureaucratic_government
+			}
+		NOR = {
+			has_law = law_type:law_tribe
+			has_law = law_type:law_city_state
+			}
+	}
+	
+	on_complete = {
+		add_journal_entry = { type = je_metropolitan_civ_level }
+	}
+
+}
+
+
+je_metropolitan_civ_level = {
+	group = je_group_technology
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	
+	should_be_pinned_by_default = yes
+	weight = 100000
+	progressbar = yes
+	
+	}

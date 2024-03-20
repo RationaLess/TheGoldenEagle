@@ -199,3 +199,130 @@ fading_hegemon_foster_loyalty_button = {
 		base = 100
 	}
 }
+
+
+mesoamerican_question_embrace_sedentary_identity_button = {
+	name = "mesoamerican_question_embrace_sedentary_identity_button"
+	desc = "mesoamerican_question_embrace_sedentary_identity_button_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		
+		custom_tooltip = {
+			text = mesoamerican_question_bar_over_90
+			var:mesoamerican_question_identity >= 90
+		}
+	}
+
+	effect = {
+		
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+mesoamerican_question_embrace_tribal_identity_button = {
+	name = "mesoamerican_question_embrace_tribal_identity_button"
+	desc = "mesoamerican_question_embrace_tribal_identity_button_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		
+		custom_tooltip = {
+			text = mesoamerican_question_bar_under_10
+			var:mesoamerican_question_identity <= 10
+		}
+	}
+
+	effect = {
+		
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+mesoamerican_question_respond_to_purepecha_threat = {
+	name = "mesoamerican_question_respond_to_purepecha_threat"
+	desc = "mesoamerican_question_respond_to_purepecha_threat_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		exists = c:TARA
+		
+		hidden_trigger = {
+			NOT = {
+			has_variable = mesoamerican_question_responded_to_purepecha
+			}
+	}
+
+	effect = {
+		activate_law = law_type:law_appeasing
+		custom_tooltip = {
+			text = mesoamerican_question_minus_25
+			change_variablechange_variable = {
+				name = mesoamerican_question_identity
+				add = -25
+				}
+		}
+		every_country = {
+			limit = {
+				capital = { region = sr:region_michhuahcan } 
+				NOT = { country_has_primary_culture = cu:purepecha }
+				NOT = { this = ROOT }
+				}
+				change_relations = {
+					country = root
+					value = 10
+				}
+			}
+		hidden_effect = {
+			add_variable = mesoamerican_question_responded_to_purepecha
+		}
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+mesoamerican_question_intermarry_with_west_nahuas = {
+	name = "mesoamerican_question_intermarry_with_west_nahuas"
+	desc = "mesoamerican_question_intermarry_with_west_nahuas_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		hidden_trigger = {
+			NOT = {
+			has_variable = mesoamerican_question_intermarried
+			}
+		}
+	
+		any_country = {
+			capital = { region = sr:region_anahuac } 
+			relations:ROOT >= relations_threshold:cordial
+		}
+		country_rank >= rank_value:major_power
+	}
+
+	effect = {
+		hidden_effect = {
+			add_variable = mesoamerican_question_intermarried
+		}
+		custom_tooltip = {
+			text = mesoamerican_question_plus_25
+			change_variablechange_variable = {
+				name = mesoamerican_question_identity
+				add = 25
+				}
+		}
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}

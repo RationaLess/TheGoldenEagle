@@ -1,0 +1,21 @@
+﻿ l_english:
+  concept_nagual:"Nagual"
+  concept_nagual_desc:"A Nagual is a person who - in the broader [concept_mesoamerican_cosmology] - has an animal counterpart whom they can assume the form of at night. The nagual are often feared, but are not necessarily evil, sometimes becoming the protectors of their respective communities.\nThe patron of Naguals is the god [concept_tezcatlipoca], who himself can assume the form of a Jaguar."
+  
+  concept_mesoamerican_cosmology:"Mesoamerican Cosmology"
+  concept_mesoamerican_cosmology_desc:"Mesoamerican cosmology is the set of beliefs universally present in [concept_mesoamerica] - although the details differ culture to culture, broad patterns can be seen across the region, such as the [concept_ballgame], the idea of the [Concept('concept_fifth_sun',Cyclical Suns)], or the [concept_feathered_serpent] god.\n\nIn Mesoamerica, mortal life is meant to reflect the divine; ritual sites are always built in adherence to the shape of the greater cosmos, and the gods wish for us to reflect their great plans for the world."
+  
+  concept_mesoamerica:"Mesoamerica"
+  concept_mesoamerica_desc:"Mesoamerica is a cultural and geographical area, placed between the \"Intermediary Area\" of Central America and Aridoamerica. Characterized by highly urbanized settlements, Mesoamerica gave birth to dozens of unique cultures and cults which share a broad [Concept('concept_mesoamerican_cosmology',Cosmological Foundation)], which ofter intermingled with [Concept('concept_chicomoztoc',migratory tribes from the north)]. The mesoamerican #V lingua franca #! is [Concept('concept_nahua',Nahuatl)]"
+  
+  concept_aridoamerica:"Aridoamerica"
+  concept_aridoamerica_desc:""
+  
+  concept_chicomoztoc:"Chicomoztoc"
+  concept_chicomoztoc_desc:"The mythical place of seven caves, known to the Mexicas as 'Aztlan', which gave birth to the seven Nahua tribes which would settle the Valley of Texcoco in the early [concept_postclassic]. The exact location of Chicomoztoc/Aztlan is unknown, but it's speculated to be somewhere in Aridoamerica or further north - the tale corresponds to the historical migration of the [concept_nahua]."
+  
+  concept_nahua:"Nahua"
+  concept_nahua_desc:"The Nahua are a formerly migratory group which has settled Mesoamerica in several waves, from the [concept_classic] up to the [concept_postclassic]. Moving from Aridoamerica to [concept_mesoamerica], they've established themselves as a formidable presence, turning their language, Nahuatl, into the de-facto #V lingua franca #! of the region.\nAlthough it's not certain, the [concept_toltec] are speculated to be of Nahua origin as well."
+  
+  concept_chichimeca:"Chichimeca"
+  concept_chichimeca_desc:"Chichimeca is the term used to describe a collection of semi-nomadic peoples inhabiting [concept_aridoamerica]. Central [Concept('concept_mesoamerica','Mesoamerican') civilization can be attributed to the cultural synthesis resulting from of Chichimeca migrations clashing with the local culture."

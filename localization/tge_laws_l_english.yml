@@ -73,6 +73,12 @@
  lawgroup_governance_principles:0 "Governance Principles"
  lawgroup_governance_principles_desc:0 "The foundational principles and authority by which your country is governed. Determines who the Head of State is."
  
+ 
+ modifier_country_low_penalties_for_empire_sprawl:"Does not suffer from low [concept_empire_sprawl] events"
+ modifier_country_can_raid:"Is able to #V Raid#! Neighbouring Countries"
+ 
+ law_tribe:"Tribe"
+ law_tribe_desc:"Kinship and loyalty are at the center of every tribe, with loyal tribesmen following a leader worthy of loyalty."
  law_city_state:0 "City-State"
  law_city_state_desc:0 "City-States are small realms ruled by governors of individual cities."
  law_council:0 "Council"

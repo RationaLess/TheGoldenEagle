@@ -74,7 +74,8 @@ law_goods_as_currency = {
 	institution = institution_finnances
 	institution_modifier = {
 	
-	country_consumption_tax_cost_mult = -0.05
+	state_tax_capacity_mult = 0.125
+	country_civilization_value = 5
 	}
 	
 	possible_political_movements = {
@@ -124,6 +125,7 @@ law_labor_as_currency = {
 	institution = institution_finnances
 	institution_modifier = {
 	state_working_adult_ratio_add = 0.02
+	state_tax_capacity_mult = 0.125
 	}
 	
 	possible_political_movements = {
@@ -171,6 +173,7 @@ law_regulated_commerce = {
 	institution = institution_finnances
 	institution_modifier = {
 	country_minting_mult = 0.05
+	state_tax_capacity_mult = 0.125
 	}
 	
 	possible_political_movements = {
@@ -216,6 +219,7 @@ law_standardized_coins = {
 	institution = institution_finnances
 	institution_modifier = {
 	country_minting_mult = 0.1
+	state_tax_capacity_mult = 0.125
 	}
 	
 	possible_political_movements = {

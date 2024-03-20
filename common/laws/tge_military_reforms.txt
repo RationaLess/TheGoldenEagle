@@ -76,13 +76,15 @@ law_military_education = {
 		interest_group_ig_armed_forces_pol_str_mult = 0.25
 		state_building_barracks_max_level_add = 50
 		state_building_conscription_center_max_level_add = 25
+		
+		country_institution_military_education_max_investment_add = 2
 	}
 	
 	institution = institution_military_academies 
 	institution_modifier = {
-	interest_group_ig_warrior_guilds_pop_attraction_mult = 0.05
-	building_training_rate_mult = 0.025 
-	state_education_access_add = 0.01
+	building_training_rate_mult = 0.125
+	state_education_access_add = 0.025
+	country_civilization_value = 5
 	}
 
 	pop_support = {
@@ -107,6 +109,8 @@ law_honorary_titles = {
 		interest_group_ig_armed_forces_pol_str_mult = 0.5
 		state_building_barracks_max_level_add = 50
 		state_building_conscription_center_max_level_add = 50
+		
+		country_institution_military_education_max_investment_add = 4
 	}
 	
 	institution = institution_military_academies 
@@ -114,6 +118,7 @@ law_honorary_titles = {
 	interest_group_ig_warrior_guilds_pop_attraction_mult = 0.075
 	building_training_rate_mult = 0.05 
 	state_education_access_add = 0.02
+	civilization_value = 5
 	}
 	
 	possible_political_movements = {

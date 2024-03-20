@@ -38,8 +38,12 @@ country_minor_settlements_per_thousand = {
 
 country_civilization_value = {
 	good = yes
-	percent = yes
 	}
+
+country_local_civilization_value = {
+	good = yes
+	}
+
 	
 building_urban_center_throughput_add = {
 	good = yes
