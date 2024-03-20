@@ -92,8 +92,8 @@ NPops = {
 	LOYALTIES_GAIN_GRACE_PERIOD = "1440.1.1"	# Until this date, only a scaling part of the Radicals and Loyalists gained from SOL changes will be applied
 	
 	DEFAULT_POP_TYPE = "freemen"
-
 	
+	WORKING_ADULT_RATIO_BASE = 0.5
 	INDIVIDUALS_TAXED_PER_TAX_CAPACITY = 1000			# How many pops can be taxed efficiently for each tax capacity
 	
 	ECONOMIC_MIGRATION_STATE_POPULATION_THRESHOLD = 10000				# States with less pops than this have reduced economic emigration numbers to avoid total depopulation
