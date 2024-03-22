@@ -1,4 +1,4 @@
-﻿on_monthly_pulse_country = {
+on_monthly_pulse_country = {
 	on_actions = {
 		tge_monthly_pulse
 	}
@@ -19,22 +19,22 @@ tge_monthly_pulse = {
 		#Empire Sprawl
 		onaction_empire_sprawl_calc = yes
 		
-		#IG leader loyalty affecting IG
-		every_interest_group = {
-			if = {
-				limit = { has_modifier = leader_loyalty_impact }
-				remove_modifier = leader_loyalty_impact 
-			}
-			add_modifier = {
-				name = leader_loyalty_impact 
-				multiplier = {
-					value = {
-						value = leader.get_loyalty
-						divide = 10
-					}
-				}
-			}
-		}
+		#TODO: IG leader loyalty affecting IG
+		#every_interest_group = {
+			#if = {
+			#	limit = { has_modifier = leader_loyalty_impact }
+			#	remove_modifier = leader_loyalty_impact 
+			#}
+			#add_modifier = {
+			#	name = leader_loyalty_impact 
+			#	multiplier = {
+			#		value = {
+			#			value = leader.get_loyalty
+			#			divide = 10
+			#		}
+			#	}
+			#}
+		#}
 	}
 	
 	events = {
