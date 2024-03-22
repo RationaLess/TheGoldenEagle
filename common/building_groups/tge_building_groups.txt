@@ -22,6 +22,18 @@ bg_settlement = {
 	cash_reserves_max = 5000
 }
 
+bg_trader_settlements = {
+	parent_group = bg_settlement 
+	
+	default_building = building_trader_settlement 
+
+	lens = infrastructure
+	
+	urbanization = 50
+	
+	cash_reserves_max = 5000
+}
+
 
 bg_light_industry = {
 	parent_group = bg_manufacturing

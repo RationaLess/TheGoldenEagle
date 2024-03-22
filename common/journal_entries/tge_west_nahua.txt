@@ -99,7 +99,7 @@
 	complete = {
 		custom_tooltip = {
 		text = je_mesoamerican_question_embraced_identity
-		has_variable je_mesoamerican_question_embraced_identity
+		has_variable = je_mesoamerican_question_embraced_identity
 		}
 	}
 	

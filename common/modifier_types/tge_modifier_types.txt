@@ -16,6 +16,12 @@ state_building_minor_settlements_max_level_add = {
 	num_decimals = 0
 }
 
+state_building_trader_settlement_max_level_add = {
+	neutral = yes
+	percent = no
+	num_decimals = 0
+}
+
 interest_group_ig_aristocracy_approval_add = {
 	good = yes
 	percent = no

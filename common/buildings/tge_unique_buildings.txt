@@ -1,0 +1,16 @@
+﻿
+building_trader_settlement = {
+	building_group = bg_trader_settlements 
+	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
+
+	production_method_groups = {
+		pmg_unique_pochteca
+	}
+	
+	
+	has_max_level = yes
+	buildable = no
+	expandable = no
+	downsizeable = no
+	
+}

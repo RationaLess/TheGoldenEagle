@@ -1,7 +1,7 @@
 ﻿namespace = flavor_events
 
 
-#Good Harvest
+#Sacrifical Festival
 flavor_events.1 = {
 	type = country_event
 	placement = scope:harvest_state
@@ -55,3 +55,211 @@ flavor_events.1 = {
 				}
 		}
 }
+
+
+flavor_events.2 = {
+	type = country_event
+	placement = scope:frontier_state
+
+	title = flavor_events.2.t
+	desc = flavor_events.2.d
+	flavor = flavor_events.2.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/mesoamerica_bean_counter.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		var:civilization_level >= 3
+		any_scope_state = {
+			NOT = {
+				has_modifier = foreign_traders_settled
+				}
+			state_region = {
+				OR = {
+						region = sr:region_anahuac 
+						region = sr:region_huaxyacac 
+						region = sr:region_ilhuicaatl 
+						region = sr:region_michhuahcan  
+						region = sr:region_maya_lowlands   
+						region = sr:region_maya_highlands   
+					}
+			}
+		}
+	}
+
+	immediate = {
+		random_scope_state = {
+			save_scope_as = frontier_state
+		}
+		
+		set_variable = {
+			name = ev_num_of_settlements
+			value = {
+				value = total_population
+				divide = 100000
+				}
+		
+			}
+		
+	}
+	
+	
+	option = {
+			name = flavor_events.2.b
+			add_modifier = {
+				name = foreign_goods_shunned
+				months = 120
+				}
+			add_treasury = {
+				value = gold_reserves_limit
+				divide = 100
+				}
+		}
+	
+	option = {
+			name = flavor_events.2.a
+			default_option = yes
+			
+			add_modifier = {
+				name = foreign_goods_welcomed
+				months = 120
+				}
+			scope:frontier_state = {
+				add_modifier = {
+				name = foreign_traders_settled
+				multiplier = var:ev_num_of_settlements
+				}
+				create_pop = {
+						pop_type = merchants
+						culture = nahua
+						size = 200
+					}
+				}
+		}
+		
+}
+
+
+#Play Ball!
+flavor_events.3 = {
+	type = country_event
+	placement = scope:ballin_state
+
+	title = flavor_events.3.t
+	desc = flavor_events.3.d
+	flavor = flavor_events.3.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/mesoamerica_ballgame.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	trigger = {
+		any_scope_building = {
+			is_building_type = building_ball_court
+		}
+	}
+
+	immediate = {
+		random_scope_building = {
+			limit = {
+				is_building_type = building_ball_court
+				}
+			save_scope_as = ball_court
+			state = {
+				save_scope_as = ballin_state
+				}
+		}
+		
+		random_scope_character = {
+			save_scope_as = baller_1
+			}
+		random_scope_character = {
+			limit = {
+				NOT = { this = scope:baller_1 }
+				}
+			save_scope_as = baller_2
+			}
+		
+	}
+
+	option = {
+			name = flavor_events.3.a
+			default_option = yes
+			scope:ballin_state = {
+					add_loyalists = {
+						value = 0.1
+						}
+				}
+			scope:baller_1 = {
+				add_modifier = {
+					name = won_ballgame
+					}
+				}
+			scope:baller_2 = {
+				add_modifier = {
+					name = lost_ballgame
+					}
+				}
+		}
+}
+
+
+#Raiders
+flavor_events.4 = {
+	type = country_event
+	placement = scope:raided_state
+
+	title = flavor_events.4.t
+	desc = flavor_events.4.d
+	flavor = flavor_events.4.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/mesoamerica_warrior_rally.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+		any_scope_state = {
+			market_access < 0.7
+			}
+	}
+
+	immediate = {
+		random_scope_state = {
+				limit = {
+					market_access < 0.7
+					}
+				save_scope_as = raided_state
+				}
+		}
+		
+
+	option = {
+			name = flavor_events.4.a
+			default_option = yes
+			scope:raided_state = {
+					add_radicals = {
+						value = 0.1
+						}
+				add_devastation = 10
+				}
+		}
+	}

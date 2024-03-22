@@ -322,12 +322,16 @@
 				level=2
 				}
 			create_building={
+				building="building_rubber_harvestry"
+				level=1
+				}
+			create_building={
 				building="building_maize_farm"
 				level=3
 				}
 			create_building={
 				building="building_cotton_farm"
-				level=3
+				level=1
 				}
 			}
 		region_state:COT={
@@ -355,12 +359,16 @@
 				level=2
 				}
 			create_building={
+				building="building_rubber_harvestry"
+				level=1
+				}
+			create_building={
 				building="building_maize_farm"
 				level=3
 				}
 			create_building={
 				building="building_cotton_farm"
-				level=3
+				level=1
 				}
 			}
 		}

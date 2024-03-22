@@ -166,8 +166,10 @@ tge_yearly_pulse = {
 		30 = harvest_events.1
 		30 = harvest_events.2
 		
-		#Flavor Events
+		#Mesoamerica Flavor
 		10 = flavor_events.1
+		10 = flavor_events.2
+		
 
 	}
 }

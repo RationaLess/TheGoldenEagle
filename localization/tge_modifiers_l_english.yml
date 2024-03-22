@@ -90,6 +90,8 @@
   modifier_country_empire_sprawl_load_subject_penalty:"[Concept('concept_sprawl_load','$concept_sprawl_load$')] Subject Population Modifier"
   modifier_country_empire_sprawl_load_subject_penalty_desc:"Changes the amount of [Concept('concept_sprawl_load','$concept_sprawl_load$')] obtained from Subject population."
   
+  empire_sprawl_bonus_monthly_loyalists:"You gain #V Monthly [Concept('concept_loyalist','Loyalists')]#!"
+  
   empire_sprawl_bonus:"[Concept('concept_empire_sprawl','$concept_empire_sprawl$')] Bonus"
   empire_sprawl_malus:"[Concept('concept_empire_sprawl','$concept_empire_sprawl$')] Malus"
   

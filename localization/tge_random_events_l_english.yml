@@ -15,12 +15,32 @@
  harvest_events.2.b:"Irrigation could help here!"
  
  
- #Human Sacrifice
+ #Flavor Events
  flavor_events.1.t:0 "Sacrificial Festival"
  flavor_events.1.d:0 "A [SCOPE.sBuilding('sacrifice_building').GetName] in [SCOPE.sState('sacrifice_state').GetName] has recently held an elaborate ceremony involving Human Sacrifice."
  flavor_events.1.f:0 "The crowd erupts into a sacred song and dance as the head priest raises the victims still-beating heart for all to see. Their lifeless body topples down the pyramid stairs, but their soul ascends to sustain the cosmic cycle."
- 
  flavor_events.1.a:0 "Blood for the Blood God!"
+ 
+ flavor_events.2.t:0 "Pochteca at Court"
+ flavor_events.2.d:0 "A group of [Concept('concept_pochteca','Long Distance Traders')] wish to establish a permanent settlement in [SCOPE.sState('frontier_state').GetName]."
+ flavor_events.2.f:0 "A multi-ethnic ensemble of nahuatl-speaking Pochteca have demanded an audience with the King. A particularly hunch-backed man came forward, awkwardly bowing before the throne. \"My lord... We pass through your lands a few times a year, but we grow weary on the road... Perhaps we could establish a pernament base in [SCOPE.sState('frontier_state').GetName], and offer some of our goods to the locals...?\""
+ flavor_events.2.a:0 "Couldn't hurt, I guess..."
+ flavor_events.2.b:0 "Pay the toll and skedaddle."
+ foreign_goods_welcomed:"Foreign Goods Welcomed"
+ foreign_goods_shunned:"Foreign Goods Shunned"
+ foreign_traders_settled:"Foreign Traders Settled"
+ 
+ flavor_events.3.t:0 "Ollamaliztli Politics"
+ flavor_events.3.d:0 "[SCOPE.sCharacter('baller_1').GetFullName] has beat [SCOPE.sCharacter('baller_2').GetFullName] at a game of [Concept('concept_ballgame','Ollamaliztli')], gaining great renown in the process."
+ flavor_events.3.f:0 "Whether wagering money, land or honor, two teams have assembled in [SCOPE.sState('ballin_state').GetName] under men of renown to settle a dispute on the court. After what felt like hours of intense back-and-forth action, [SCOPE.sCharacter('baller_1').GetFullName] has emerged victorious -- leaving [SCOPE.sCharacter('baller_2').GetFullName] with a shame unlike any political blunder could bring."
+ flavor_events.3.a:0 "Beautiful display of prowess."
+ won_ballgame:"Ollamaliztli Victory"
+ lost_ballgame:"Ollamaliztli Loss"
+ 
+ flavor_events.4.t:0 "Raider attack!"
+ flavor_events.4.d:0 "Due to it's low [concept_market_access], [SCOPE.sState('raided_state').GetName] has been the prime spot for raider attacks."
+ flavor_events.4.f:0 "..."
+ flavor_events.4.a:0 "Concerning..."
  
  
  

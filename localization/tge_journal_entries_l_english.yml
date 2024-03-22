@@ -106,11 +106,25 @@
  je_urban_civ_level:"Urban [concept_civilization_level]"
  je_urban_civ_level_reason:"We are an urban society, with artisans and scholars of all kinds finding refuge in our urban centers. To keep up with our ever increasing needs of our population, we need to develop our institutions further - they are the lifeblood of our empire, of course. \n$TOOLTIP_DELIMITER$\nAt this civilization level:\n• Our [SCOPE.gsInterestGroup('traditionalists').GetName] have the [GetIdeology('ideology_urban_precedent').GetName] [concept_ideology].\n• We will suffer #R Negative Events#! from an [concept_empire_sprawl] #V deficit#!\n• The [GetIdeology('ideology_leader_populist').GetName] and [GetIdeology('ideology_leader_statist').GetName] [concept_character] [Concept('concept_ideology','Ideologies')] will appear.\n$TOOLTIP_DELIMITER$\nIf we increase our [concept_civilization_value] and fulfill the [concept_journal_entry] #V Requirements#!, we will advance to the #V Metropolitan#! [concept_civilization_level]!"
  
+ je_metropolitan_civ_level:"Metropolitan [concept_civilization_level]"
+ je_metropolitan_civ_level_reason:"Our urban centers are like anthills - large, productive, seemingly chaotic, and efficient. The city is now more than just a place of shelter - a complete, dignified life can be led without as much as leaving our capital.\n$TOOLTIP_DELIMITER$\nAt this civilization level:\n• Our [SCOPE.gsInterestGroup('traditionalists').GetName] have the [GetIdeology('ideology_metropolitan_precedent').GetName] [concept_ideology].\n• We will suffer #R Negative Events#! from an [concept_empire_sprawl] #V deficit#!\n$TOOLTIP_DELIMITER$\n#V (This is currently the highest [concept_civilization_level], so increasing your [concept_civilization_value] will not grant any additional benefits.)#!"
+ 
  
  civilization_value_over_250:"Our [concept_civilization_value] is greater or equal to #V 250#!"
  civilization_value_over_100:"Our [concept_civilization_value] is greater or equal to #V 100#!"
  civilization_value_over_50:"Our [concept_civilization_value] is greater or equal to #V 50#!"
  civilization_value_over_20:"Our [concept_civilization_value] is greater or equal to #V 20#!"
+ 
+ civilization_level.1.t:"Civilization Level - Metropolitan!"
+ civilization_level.1.d:"After a long period of urbanization and reform, [ROOT.GetCountry.GetName] has reached the #V Metropolitan#! [concept_civilization_level]!"
+ civilization_level.1.f:"A sprawling road network connects our most important settlements, busy with pilgrims and traders even after sunset. The travelers are protected by guards who watch over them both on the road and in our multitudinous outposts, dense as a city of yesteryear. When they do arrive in our urban centers, they will pass through awesome streets, as dense as they are orderly, witnessing grand structures thought impossible by our forebrearers."
+ civilization_level.1.a:"We, the new Toltecs."
+ 
+ civilization_level.2.t:"Civilization Level - Urban!"
+ civilization_level.2.d:"With our settlements growing bigger and centralizing, [ROOT.GetCountry.GetName] has reached the #V Urban#! [concept_civilization_level]!"
+ civilization_level.2.f:"Around us are a dozen tiny mobile settlements, built by those who are afraid of nature and are ready to abandon their homes at a whim. But what we managed to build is a fortress - able to withstand beasts, cataclysmic weather and the full onslaught of our enemies. These walls will defend us, and in turn, we will maintain and grow them until our city is the pride of the known world."
+ civilization_level.2.a:"Nation building starts here."
+ 
  
  
  #Other

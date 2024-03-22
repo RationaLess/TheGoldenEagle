@@ -90,6 +90,17 @@ onaction_empire_sprawl_calc = {
 			name = empire_sprawl_bonus
 			multiplier = empire_sprawl_surplus
 		}
+		
+		
+		#loyalists from Empire Sprawl
+		add_loyalists = {
+			value = {
+				value = 0.001 #0.1% Per month. That's reasonable, right...???
+				
+				multiply = empire_sprawl_surplus
+				}
+			}
+		
 	}
 	ELSE_IF = {
 		limit = {
@@ -102,6 +113,10 @@ onaction_empire_sprawl_calc = {
 			multiplier = empire_sprawl_deficit
 		}
 	}
+	
+	
+	
+	
 
 
 	}

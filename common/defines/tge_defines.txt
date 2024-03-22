@@ -89,7 +89,7 @@ NPolitics = {
 
 NPops = {
 	NUM_WEALTH_LEVELS = 70
-	LOYALTIES_GAIN_GRACE_PERIOD = "1440.1.1"	# Until this date, only a scaling part of the Radicals and Loyalists gained from SOL changes will be applied
+	LOYALTIES_GAIN_GRACE_PERIOD = "1430.1.1"	# Until this date, only a scaling part of the Radicals and Loyalists gained from SOL changes will be applied
 	
 	DEFAULT_POP_TYPE = "freemen"
 	

@@ -94,7 +94,7 @@ ideology_leader_statist = {
 	
 	possible = {
 		owner = {
-			has_technology_researched = politics
+			var:civilization_level >= 3
 		}
 		scope:interest_group = {
 			OR = {
@@ -142,17 +142,17 @@ ideology_leader_populist = {
 		law_royal_domains = strongly_disapprove
 	}
 	
-	lawgroup_institutionalization = {
-		law_informal_government = neutral 
-		law_assembly_government = neutral
-		law_court_government = strongly_approve
-		law_dedicated_government = neutral
-		law_bureaucratic_government = disapprove
-	}
+	#lawgroup_institutionalization = {
+	#	law_informal_government = neutral 
+	#	law_assembly_government = neutral
+	#	law_court_government = strongly_approve
+	#	law_dedicated_government = neutral
+	#	law_bureaucratic_government = disapprove
+	#}
 	
 	possible = {
 		owner = {
-			has_technology_researched = property
+			var:civilization_level >= 3
 		}
 		scope:interest_group = {
 			OR = {
@@ -436,7 +436,7 @@ ideology_leader_urbanist = {
 	
 	possible = {
 		owner = {
-			has_technology_researched = politics
+			var:civilization_level >= 2
 		}
 		
 		scope:interest_group = {
@@ -656,8 +656,9 @@ ideology_leader_confederate = {
 
 	possible = {
 		owner = {
-			has_technology_researched = diplomacy
+			var:civilization_level >= 2
 			OR = {
+				has_law = law_type:law_tribe
 				has_law = law_type:law_city_state
 				has_law = law_type:law_alliance
 				}

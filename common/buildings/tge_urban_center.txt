@@ -13,7 +13,6 @@ building_urban_center = {
 		pmg_urban_sprawl
 		pmg_social_housing
 		pmg_urban_artists
-		pmg_universities
 		
 	}
 	

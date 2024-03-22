@@ -167,12 +167,12 @@ pm_urban_poets = {
 	
 	building_modifiers = { 
 		workforce_scaled = {
-			goods_output_knowledge_add = 1
-			goods_output_amenities_add = 1
+			goods_output_knowledge_add = 2
+			goods_output_amenities_add = 3
 		}
 
 		level_scaled = {
-			building_employment_scholars_add = 25
+			building_employment_scholars_add = 50
 		}
 		
 		unscaled = {
@@ -274,6 +274,8 @@ pm_no_education = {
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
 	
 
+	
+	
 	
 	building_modifiers = { 
 		

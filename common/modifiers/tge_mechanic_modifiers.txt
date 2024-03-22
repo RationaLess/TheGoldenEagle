@@ -13,6 +13,9 @@ empire_sprawl_bonus = {
 	
 	country_authority_mult = 0.5
 	state_market_access_price_impact = 0.25
+	custom_tooltip = {
+		text = empire_sprawl_bonus_monthly_loyalists
+		}
 }
 
 #Minor Settlements

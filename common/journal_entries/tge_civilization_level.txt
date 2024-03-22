@@ -3,7 +3,7 @@
 	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
 	
 	should_be_pinned_by_default = yes
-	weight = 100000
+	weight = 100000000000 #Should be at the top forever always
 	progressbar = yes
 	
 	immediate = {
@@ -50,6 +50,8 @@
 	
 	on_complete = {
 		add_journal_entry = { type = je_urban_civ_level }
+		
+		triggger_event = { id = civilization_level.2 }
 	}
 
 }
@@ -59,7 +61,7 @@ je_urban_civ_level = {
 	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
 	
 	should_be_pinned_by_default = yes
-	weight = 100000
+	weight = 100000000000 #Should be at the top forever always
 	progressbar = yes
 	
 	immediate = {
@@ -108,6 +110,7 @@ je_urban_civ_level = {
 	on_complete = {
 		add_journal_entry = { type = je_metropolitan_civ_level }
 	}
+	triggger_event = { id = civilization_level.1 }
 
 }
 
@@ -117,7 +120,19 @@ je_metropolitan_civ_level = {
 	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
 	
 	should_be_pinned_by_default = yes
-	weight = 100000
+	weight = 100000000000 #Should be at the top forever always
 	progressbar = yes
+	
+	immediate = {
+		ig:ig_traditionalists = {
+			save_scope_as = traditionalists
+			add_ideology = ideology_metropolitan_precedent
+			remove_ideology = ideology_urban_precedent
+			}
+		set_variable = {
+			name = civilization_level
+			value = 4
+			}
+	}
 	
 	}

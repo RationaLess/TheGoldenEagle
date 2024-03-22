@@ -101,3 +101,30 @@ poetry_panned = {
 	
 	character_popularity_add = -20
 	}
+
+
+won_ballgame = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
+	
+	character_popularity_add = 30
+	}
+lost_ballgame = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	
+	character_popularity_add = -30
+	}
+	
+	
+foreign_goods_welcomed = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	interest_group_ig_merchant_guilds_approval_add = -3
+	}
+foreign_goods_shunned = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	interest_group_ig_merchant_guilds_approval_add = 3
+	}
+
+foreign_traders_settled = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_building_trader_settlement_max_level_add = 1
+	}

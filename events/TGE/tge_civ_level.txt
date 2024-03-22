@@ -1,0 +1,94 @@
+﻿namespace = civilization_level
+
+#Urban -> Metropolitan
+civilization_level.1 = {
+	type = country_event
+	placement = capital
+
+	title = civilization_level.1.t
+	desc = civilization_level.1.d
+	flavor = civilization_level.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/mesoamerica_bean_counter.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		
+	}
+
+	immediate = {
+		capital = {
+			save_scope_as = capital_state
+		}
+	}
+
+	option = {
+			name = civilization_level.1.a
+			default_option = yes
+			
+			add_loyalists = {
+				value = 0.25
+				}
+			add_loyalists = {
+				value = 0.25
+				interest_group = ig:ig_scholars
+				}
+			add_loyalists = {
+				value = 0.25
+				interest_group = ig:ig_governors
+				}
+		
+		}
+}
+
+
+#Settlement -> Urban
+civilization_level.2 = {
+	type = country_event
+	placement = capital
+
+	title = civilization_level.2.t
+	desc = civilization_level.2.d
+	flavor = civilization_level.2.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/mesoamerica_bean_counter.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		
+	}
+
+	immediate = {
+		capital = {
+			save_scope_as = capital_state
+		}
+	}
+
+	option = {
+			name = civilization_level.2.a
+			default_option = yes
+			
+			add_loyalists = {
+				value = 0.25
+				}
+			add_loyalists = {
+				value = 0.25
+				interest_group = ig:ig_aristocracy
+				}
+		
+		}
+}

@@ -166,7 +166,7 @@ STATE_TAJIN = {
 STATE_TOTONACAPAN = {
     id = 16
 
-    arable_land = 60
+    arable_land = 80
 
     subsistence_building = "building_gathering_grounds_animal_skin"
     provinces = { "x45F623" "x49B228" "x523A20" "x53BA19" "x556B2D" "x566401" "x61B12D" "x644E21" "x72B820" "x7EDF1A" "x80F917" "x81970C" "x82DE15" "x8A9B04" "x8C9427" "x8DD724" "x8F5929" "x93E22B" "x96851F" "x99921C" "x9A4401" "x9DEC27" "x9EC81A" "xA96B31" "xB3C910" "xB86514" "xB9510A" "xB9DA1B" "xBA4E23" "xC9C31E" "xCEA12D" "xD27D08" "xD48F13" "xD9781A" "xDBCB10" "xDC8B13" "xDDD518" "xE0EF13" "xEECD0B" "xF03E21" "xF64406" "xFB521F" "xFEAB28" }
