@@ -47,7 +47,7 @@ pm_minor_informal_farms = {
 		workforce_scaled = { # 51
 			
 			goods_input_tools_add = 0.25
-			goods_output_maize_add = 2.5
+			goods_output_staple_crop_add = 2.5
 		}
 		
 		level_scaled = {

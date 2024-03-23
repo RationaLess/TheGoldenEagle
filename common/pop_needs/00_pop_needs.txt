@@ -3,11 +3,11 @@
 # max_weight				The maximum weight that can be applied to this good based on market Sell Order share, only meaningful in relation to weight
 # min_weight				The minimum weight that can be applied to this good based on market Sell Order share, only meaningful in relation to weight
 
-popneed_basic_food = {
-	default = maize
+popneed_staple_crop = {
+	default = staple_crop
 
 	entry = {
-		goods = maize
+		goods = staple_crop
 		
 		weight = 1
 		max_supply_share = 1.0
@@ -22,21 +22,21 @@ popneed_basic_food = {
 		min_supply_share = 0.1
 	}
 	
-	entry = {
-		goods = meat
-		
-		weight = 0.5
-		max_supply_share = 0.5
-		min_supply_share = 0.05
-	}
+	#entry = {
+	#	goods = meat
+	#	
+	#	weight = 0.5
+	#	max_supply_share = 0.5
+	#	min_supply_share = 0.05
+	#}
 	
-	entry = {
-		goods = fruit
-		
-		weight = 0.5
-		max_supply_share = 0.5
-		min_supply_share = 0.05
-	}
+	#entry = {
+	#	goods = fruit
+	#	
+	#	weight = 0.5
+	#	max_supply_share = 0.5
+	#	min_supply_share = 0.05
+	#}
 }
 
 popneed_heating = {
@@ -47,11 +47,11 @@ popneed_heating = {
 	}
 }
 
-popneed_crude_items = {
-	default = wood
+popneed_petty_clothesweaving = {
+	default = fabric
 	
 	entry = {
-		goods = wood
+		goods = fabric
 		
 		weight = 1.0
 		max_supply_share = 1.0
@@ -59,18 +59,45 @@ popneed_crude_items = {
 	}
 	
 	entry = {
-		goods = furniture
+		goods = cotton
 		
-		weight = 0.5
+		weight = 0.1
 		max_supply_share = 0.5
+		min_supply_share = 0.05
+	}
+	entry = {
+		goods = animal_skin
+		
+		weight = 0.1
+		max_supply_share = 0.5
+		min_supply_share = 0.05
+	}
+}
+
+popneed_petty_craftsmanship = {
+	default = pottery
+	
+	entry = {
+		goods = pottery
+		
+		weight = 1.0
+		max_supply_share = 0.6
+		min_supply_share = 0.05
+	}
+	
+	entry = {
+		goods = wood
+		
+		weight = 1
+		max_supply_share = 0.6
 		min_supply_share = 0.05
 	}
 	
 	entry = {
 		goods = tools
 		
-		weight = 0.5
-		max_supply_share = 0.5
+		weight = 1
+		max_supply_share = 0.6
 		min_supply_share = 0.05
 	}
 }
@@ -104,7 +131,7 @@ popneed_services = {
 	}
 }
 
-popneed_standard_clothing = {
+popneed_clothing = {
 	default = clothes	
 	
 	entry = {
@@ -112,30 +139,30 @@ popneed_standard_clothing = {
 	}
 }
 
-popneed_regular_items = {
+popneed_items = {
 	default = furniture
 	
 	entry = {
 		goods = furniture
 		
 		weight = 1.0
-		max_supply_share = 1.0
+		max_supply_share = 0.7
 		min_supply_share = 0.1
 	}
 	entry = {
 		goods = pottery
 		
 		weight = 1.0
-		max_supply_share = 1.0
+		max_supply_share = 0.7
 		min_supply_share = 0.1
 	}
-	# entry = {
-	# 	goods = clothes
+	 entry = {
+	 	goods = amenities
 
-	# 	weight = 1.0
-	# 	max_supply_share = 1.0
-	# 	min_supply_share = 0.1
-	# }
+	 	weight = 0.1
+	 	max_supply_share = 0.1
+	 	min_supply_share = 0.01
+	 }
 }
 
 popneed_luxury_food = {
@@ -154,6 +181,13 @@ popneed_luxury_food = {
 		weight = 0.5
 		max_supply_share = 0.5
 		min_supply_share = 0.05
+	}
+	entry = {
+		goods = fruit
+
+		weight = 0.25
+		max_supply_share = 0.25
+		min_supply_share = 0.025
 	}
 	entry = {
 		goods = meat
@@ -181,8 +215,27 @@ popneed_luxury_items = {
 		max_supply_share = 0.5
 		min_supply_share = 0.05
 	}
+}
+
+popneed_culture = {
+	default = poetry
+	
+	entry = {
+		goods = poetry
+		
+		weight = 1.0
+		max_supply_share = 1.0
+		min_supply_share = 0.1
+	}
 	entry = {
 		goods = luxury_pottery
+		
+		weight = 1.0
+		max_supply_share = 1.0
+		min_supply_share = 0.1
+	}
+	entry = {
+		goods = amenities
 		
 		weight = 0.5
 		max_supply_share = 0.5
@@ -190,15 +243,41 @@ popneed_luxury_items = {
 	}
 }
 
-popneed_art = {
-	default = luxury_pottery 
+popneed_comfort = {
+	default = urban_space
 	
 	entry = {
-		goods = luxury_pottery
+		goods = urban_space
 		
 		weight = 1.0
 		max_supply_share = 1.0
 		min_supply_share = 0.1
+	}
+	entry = {
+		goods = amenities
+		
+		weight = 0.5
+		max_supply_share = 0.5
+		min_supply_share = 0.05
+	}
+}
+
+popneed_leisure = {
+	default = obsidian_weapons
+	
+	entry = {
+		goods = obsidian_weapons
+		
+		weight = 1.0
+		max_supply_share = 0.6
+		min_supply_share = 0.06
+	}
+	entry = {
+		goods = wooden_weapons
+		
+		weight = 1.0
+		max_supply_share = 0.6
+		min_supply_share = 0.06
 	}
 	entry = {
 		goods = amenities

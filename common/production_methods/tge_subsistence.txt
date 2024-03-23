@@ -7,7 +7,7 @@
 		workforce_scaled = { # 51
 		
 			goods_output_wood_add = 0.5
-			goods_output_hardwood_add = 0.5
+			goods_output_fabric_add = 1
 			goods_output_fruit_add = 1
 		}
 		

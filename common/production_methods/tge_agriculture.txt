@@ -7,7 +7,31 @@
 		workforce_scaled = { # 51
 			goods_input_tools_add = 1
 			
-			goods_output_maize_add = 15
+			goods_output_staple_crop_add = 10
+		}
+		
+		level_scaled = {
+			building_employment_farmers_add = 900
+		}
+		
+		unscaled = {
+		}
+	}
+}
+
+pm_base_agave_farm = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 51
+			goods_input_tools_add = 1
+			
+			
+			goods_output_staple_crop_add = 4
+			goods_output_intoxicants_add = 2
+			goods_output_fabric_add = 6
 		}
 		
 		level_scaled = {
@@ -28,7 +52,7 @@ pm_base_cotton_farm = {
 		workforce_scaled = { # 51
 			goods_input_tools_add = 1
 		
-			goods_output_cotton_add = 15
+			goods_output_cotton_add = 10
 		}
 		
 		level_scaled = {
@@ -49,7 +73,7 @@ pm_base_chinampa = {
 		workforce_scaled = { # 51
 			goods_input_tools_add = 2
 		
-			goods_output_maize_add = 25 
+			goods_output_staple_crop_add = 20 
 		}
 		
 		level_scaled = {

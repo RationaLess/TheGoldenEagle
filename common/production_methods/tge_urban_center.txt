@@ -167,7 +167,7 @@ pm_urban_poets = {
 	
 	building_modifiers = { 
 		workforce_scaled = {
-			goods_output_knowledge_add = 2
+			goods_output_poetry_add = 2
 			goods_output_amenities_add = 3
 		}
 
