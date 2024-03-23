@@ -92,14 +92,6 @@ onaction_empire_sprawl_calc = {
 		}
 		
 		
-		#loyalists from Empire Sprawl
-		add_loyalists = {
-			value = {
-				value = 0.001 #0.1% Per month. That's reasonable, right...???
-				
-				multiply = empire_sprawl_surplus
-				}
-			}
 		
 	}
 	ELSE_IF = {
@@ -197,6 +189,11 @@ onaction_civilization_level_calc = {
 					}
 				
 				}
+				
+			multiply = {
+				add = 1
+				add = modifier:country_civilization_value_mult
+				}			
 			
 			
 			min = 0

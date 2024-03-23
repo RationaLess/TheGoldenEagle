@@ -1,4 +1,16 @@
-﻿state_building_temple_max_level_add = {
+﻿country_monthly_loyalists_add = {
+	good = yes
+	percent = yes
+	num_decimals = 2
+}
+
+country_monthly_radicals_add = {
+	good = no
+	percent = yes
+	num_decimals = 2
+}
+
+state_building_temple_max_level_add = {
 	good = yes
 	percent = no
 	num_decimals = 0

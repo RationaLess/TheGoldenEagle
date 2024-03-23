@@ -12,6 +12,21 @@ on_yearly_pulse_country = {
 
 tge_monthly_pulse = {
 	effect = {
+		
+		#Monthy loyalist gain
+		add_loyalists = {
+			value = {
+				value = modifier:country_monthly_loyalists_add  #0.001 #0.1% Per month. That's reasonable, right...???
+				}
+			}
+		#Monthly radical gain
+		add_radicals = {
+			value = {
+				value = modifier:country_monthly_radicals_add
+				}
+			}
+		
+	
 		onaction_civilization_level_calc = yes
 		
 		onaction_protectorate_check = yes

@@ -40,6 +40,12 @@ country_civilization_value = {
 	good = yes
 	}
 
+country_civilization_value_mult = {
+	good = yes
+	percent = yes
+	}
+
+
 country_local_civilization_value = {
 	good = yes
 	}

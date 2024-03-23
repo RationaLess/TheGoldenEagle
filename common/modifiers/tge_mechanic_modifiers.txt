@@ -3,9 +3,11 @@
 empire_sprawl_malus = {
     icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	
-	country_civilization_value = -0.2
+	country_civilization_value_mult = -0.5
 	state_market_access_price_impact = -0.25
+	state_construction_mult = -0.5
 	unit_morale_loss_mult = 1
+	country_monthly_radicals_add = 0.01
 }
 
 empire_sprawl_bonus = {
@@ -13,9 +15,7 @@ empire_sprawl_bonus = {
 	
 	country_authority_mult = 0.5
 	state_market_access_price_impact = 0.25
-	custom_tooltip = {
-		text = empire_sprawl_bonus_monthly_loyalists
-		}
+	country_monthly_loyalists_add = 0.001
 }
 
 #Minor Settlements

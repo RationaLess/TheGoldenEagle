@@ -107,13 +107,18 @@
  
  
  concept_civilization_level:"Civilization Level"
- concept_civilization_level_desc:"Civilization Level is a broad measurement of your development. It's based directly on [concept_civilization_value] and is divided into five distinct levels:\n$TOOLTIP_DELIMITER$\n $civilization_level_1_showmodifier$\n$civilization_level_2_showmodifier$\n$civilization_level_3_showmodifier$\n$civilization_level_4_showmodifier$\n$civilization_level_5_showmodifier$"
+ concept_civilization_level_desc:"The Civilization Level of a country is a measurement of how urbanized it is. It is directly based on [concept_civilization_value]. There are five civilization levels:\n \n• #V Nomadic#! being the lowest possible level,\n• #V Settlement#!, requiring #V 10#! [concept_civilization_value],\n• #V Urban#!, requiring #V 50#! [concept_civilization_value],\n• #V Metropolitan#!, requiring #V 100#! [concept_civilization_value],\n• #V Modern#!, requiring #V 250#! [concept_civilization_value].\n$TOOLTIP_DELIMITER$\nEach Civilization Level has it's associated journal entry and unique mechanics."
+ #concept_civilization_level_desc:"Civilization Level is a broad measurement of your development. It's based directly on [concept_civilization_value] and is divided into five distinct levels:\n$TOOLTIP_DELIMITER$\n $civilization_level_1_showmodifier$\n$civilization_level_2_showmodifier$\n$civilization_level_3_showmodifier$\n$civilization_level_4_showmodifier$\n$civilization_level_5_showmodifier$"
  concept_civilization_value:"Civilization Value"
  concept_civilization_value_desc:"Civilization Value is a measurement of the broad institutional and infrastructural development of your [Concept('concept_country','$concept_country$')]. \n$TOOLTIP_DELIMITER$\nIt directly contributes to your [concept_civilization_level], as well as acts as a factor other countries consider when evaluating [Concept('concept_diplomatic_pact','$concept_diplomatic_pacts$')]."
  
  modifier_country_civilization_value:"[concept_civilization_value]"
+ modifier_country_civilization_value_mult:"[concept_civilization_value]"
  cultural_influence_invasion_tributary_enabled:"Can acquire tributaries from [Concept('concept_invasion','Invasions')]"
  cultural_influence_diplo_vassalization_enabled:"Can vassalize other nations"
+ 
+ modifier_country_monthly_loyalists_add:"Monthly [concept_loyalist] gain"
+ modifier_country_monthly_radicals_add:"Monthly [concept_radical] gain"
  
 
  
