@@ -6,6 +6,7 @@ community = {
 	category = society
 	
 	modifier = {
+		market_land_trade_capacity_add = 50
 	}
 }
 

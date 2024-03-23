@@ -171,12 +171,12 @@ law_slave_trade = {
 		}
 	}
 	
-	ai_will_do = {
-		exists = ruler
-		ruler = {
-			has_ideology = ideology:ideology_slaver
-		}
-	}
+	# ai_will_do = {
+	# 	exists = ruler
+	# 	ruler = {
+	# 		has_ideology = ideology:ideology_slaver
+	# 	}
+	# }
 	
 	revolution_state_weight = {
 		value = 1

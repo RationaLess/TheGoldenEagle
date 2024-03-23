@@ -94,6 +94,7 @@ ideology_leader_statist = {
 	
 	possible = {
 		owner = {
+			exists = var:civilization_level
 			var:civilization_level >= 3
 		}
 		scope:interest_group = {
@@ -151,7 +152,8 @@ ideology_leader_populist = {
 	#}
 	
 	possible = {
-		owner = {
+		owner ?= {
+			exists = var:civilization_level
 			var:civilization_level >= 3
 		}
 		scope:interest_group = {
@@ -436,6 +438,7 @@ ideology_leader_urbanist = {
 	
 	possible = {
 		owner = {
+			exists = var:civilization_level
 			var:civilization_level >= 2
 		}
 		
@@ -656,6 +659,7 @@ ideology_leader_confederate = {
 
 	possible = {
 		owner = {
+			exists = var:civilization_level
 			var:civilization_level >= 2
 			OR = {
 				has_law = law_type:law_tribe
