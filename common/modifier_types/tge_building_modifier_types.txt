@@ -182,6 +182,26 @@ goods_input_cocoa_add = {
 	percent = no
 }
 
+goods_output_salt_add = {
+	good = yes
+	percent = no
+} 
+
+goods_input_salt_add = {
+	good = no
+	percent = no
+}
+
+goods_output_spices_add = {
+	good = yes
+	percent = no
+} 
+
+goods_input_spices_add = {
+	good = no
+	percent = no
+}
+
 goods_output_turquoise_add = {
 	good = yes
 	percent = no

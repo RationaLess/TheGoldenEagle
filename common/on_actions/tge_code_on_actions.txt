@@ -67,18 +67,19 @@ tge_monthly_pulse = {
 	}
 
 	#Empire Sprawl Events 
+	#Disabled due to critical un-funnity
 	random_events = {
 		50 = 0
 		
 		#Critical Sprawl 
-		1 = empire_sprawl.2
-		1 = empire_sprawl.6
+		#1 = empire_sprawl.2
+		#1 = empire_sprawl.6
 			
 		#High Sprawl 
-		1 = empire_sprawl.1
-		1 = empire_sprawl.3
-		1 = empire_sprawl.4
-		1 = empire_sprawl.5
+		#1 = empire_sprawl.1
+		#1 = empire_sprawl.3
+		#1 = empire_sprawl.4
+		#1 = empire_sprawl.5
 	}
 	
 	# Election Events

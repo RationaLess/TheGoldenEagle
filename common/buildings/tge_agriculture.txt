@@ -21,6 +21,70 @@
 	terrain_manipulator = farmland_maize
 }
 
+building_three_sisters = {
+	building_group = bg_three_sisters
+	
+	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
+	
+	required_construction = 3000
+	
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		farming
+	}
+	
+	production_method_groups = {
+		pmg_ts_maize
+		pmg_ts_squash
+		pmg_ts_beans
+		pmg_organization
+	}
+
+	
+	terrain_manipulator = farmland_maize
+}
+
+building_agave_farm = {
+	building_group = bg_agave_farms
+	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
+	
+	required_construction = 3000
+
+	unlocking_technologies = {
+		farming
+	}
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_agave_farm
+		pmg_organization
+	}
+}
+
+building_animal_pens = {
+	building_group = bg_animal_pens
+	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
+	
+	required_construction = 3000
+
+	unlocking_technologies = {
+		farming
+	}
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_animal_pens_turkey
+		pmg_animal_pens_xolo
+		pmg_organization
+	}
+}
+
 building_cotton_farm = {
 	building_group = bg_cotton_farms
 	texture = "gfx/interface/icons/building_icons/farm_cotton.dds"

@@ -74,7 +74,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				}
@@ -112,7 +112,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=5
 				reserves=1
 				}
@@ -201,7 +201,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_maize_irrigated_farming" }
@@ -250,7 +250,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_maize_irrigated_farming" }
@@ -289,7 +289,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_maize_irrigated_farming" }
@@ -338,7 +338,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_maize_irrigated_farming" }
@@ -379,7 +379,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_maize_irrigated_farming" }
@@ -420,7 +420,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_maize_irrigated_farming" }
@@ -509,7 +509,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=4
 				reserves=1
 				}
@@ -547,7 +547,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				}
@@ -601,7 +601,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				reserves=1
 				}
@@ -645,7 +645,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=4
 				reserves=1
 				}
@@ -669,7 +669,7 @@
 	s:STATE_TEPEACA={
 		region_state:TTN={
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=4
 				reserves=1
 				}
@@ -691,7 +691,7 @@
 			}
 		region_state:THI={
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=1
 				reserves=1
 				}
@@ -708,7 +708,7 @@
 			}
 		region_state:ICH={
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=1
 				reserves=1
 				}
@@ -732,7 +732,7 @@
 	s:STATE_CHIETLAN={
 		region_state:CHI={
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=1
 				reserves=1
 				}
@@ -751,7 +751,7 @@
 	s:STATE_CHIAUHTLAN={
 		region_state:HXT={
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=1
 				reserves=1
 				}
@@ -765,7 +765,7 @@
 	s:STATE_TECAMACHALCO={
 		region_state:TCM={
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=1
 				reserves=1
 				}
@@ -780,7 +780,7 @@
 	s:STATE_OTOMPAN={
 		region_state:OTP={
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				reserves=1
 				}
@@ -823,7 +823,7 @@
 		
 		region_state:METZ={
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				}
@@ -850,7 +850,7 @@
 			}
 		region_state:TCHI={
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				}
@@ -879,7 +879,7 @@
 	s:STATE_TULANCINGO={
 		region_state:TLC={
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				}
@@ -911,7 +911,7 @@
 			}
 		region_state:TLA={
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=1
 				reserves=1
 				}
@@ -928,7 +928,7 @@
 			}
 		region_state:HCH={
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=1
 				reserves=1
 				}
@@ -950,7 +950,7 @@
 	s:STATE_TEPETICPAC={
 		region_state:TLX={
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=4
 				reserves=1
 				}
@@ -1040,7 +1040,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				reserves=1
 				}
@@ -1094,7 +1094,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				}
@@ -1129,7 +1129,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				}
@@ -1151,7 +1151,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				}
@@ -1173,7 +1173,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				}
@@ -1199,7 +1199,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				}
@@ -1231,7 +1231,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				}
@@ -1263,7 +1263,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				}
@@ -1290,7 +1290,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				}
@@ -1310,7 +1310,7 @@
 	s:STATE_TOLLAN={
 		region_state:TULA={
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				}
@@ -1342,7 +1342,7 @@
 			}
 		region_state:XILO={
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				}
@@ -1369,7 +1369,7 @@
 			}
 		region_state:XILA={
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				reserves=1
 				}

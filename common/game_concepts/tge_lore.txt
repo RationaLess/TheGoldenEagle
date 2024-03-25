@@ -1,5 +1,9 @@
 ﻿concept_mesoamerica = {}
 
+concept_carribean = {}
+
+concept_three_sisters = {}
+
 concept_mesoamerican_cosmology = {}
 
 concept_nagual = {}
@@ -24,7 +28,11 @@ concept_postclassic = {}
 
 concept_nahua = {}
 
+concept_maya = {}
+
 concept_toltec = {}
+
+concept_olmec = {}
 
 concept_wayob = {}
 

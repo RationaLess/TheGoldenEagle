@@ -1,11 +1,19 @@
-pmg_base_clothing_workshop = {
+pmg_clothing_material = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_base_clothing_rudimentary
-		pm_base_clothing_advanced
-		pm_base_clothing_luxury
+		pm_pmg_clothing_material_fabric
+		pm_pmg_clothing_material_cotton
 	}
 }
+pmg_clothing_ornaments = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_clothing_ornaments_none
+		pm_clothing_ornaments_animal_skin
+		pm_clothing_ornaments_feathers
+	}
+}
+
 
 pmg_base_furniture_workshop = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"

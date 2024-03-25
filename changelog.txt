@@ -1,4 +1,15 @@
-Alpha 0.2 - The Characters Update
+Alpha 0.2 - "Three Sisters Update"
 
-
--Added Two Mercenary Companies
+-Added Three Sisters, Animal Pens, Agave farms rural buildings
+-Removed cotton from states which realistically could never farm it
+-Added "lore" nested tooltips, creating a small wiki serving as an introduction to the precolumbian world
+-Completely reworked Pop Needs
+-Reworked Civilization Level into a journal entry, which now requires you to have enough Civilization Value as well as fit specific criteria to ascend to the next level
+-Reworked the setup of west mesoamerica, expanding the map to cover all of the Purepecha empire
+-Improved the user experience around Empire Sprawl
+-Added event videos
+-Added new random "flavor" events
+-Added religions
+-Removed Dictatorship law
+-Trade should no longer be infinitely unprofitable
+-Added Tribe Law for Western Mesoamerican tags and future use in central and north America

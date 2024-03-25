@@ -43,16 +43,17 @@ def get_polstr(n):
 
 # Initialize the pop needs with their level ranges and start amounts
 pop_needs = {
-    'staple_crop': (1, 80, 10),
-    'petty_clothesweaving': (5, 14, 3),
+    'staple_food': (1, 80, 10),
+    'meat': (10, 80, 8),
+    'delicacies': (20, 80, 6),
+    'petty_clothesweaving': (5, 14, 2),
     'petty_craftsmanship': (5, 14, 3),
     'clothing': (10, 24, 5),
     'items': (10, 24, 8),
+    'luxury_items': (20, 80, 10),
     'faith': (5, 80, 7),
     'culture': (15, 80, 7),
     'comfort': (15, 80, 10),
-    'luxury_items': (20, 80, 10),
-    'luxury_food': (20, 80, 9),
     'leisure': (25, 80, 10),
 }
 

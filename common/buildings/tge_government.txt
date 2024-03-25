@@ -59,7 +59,7 @@ building_zoo = {
 		pmg_zoo
 	}
 
-	texture = "gfx/interface/icons/building_icons/ballcourt.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
 	
 	urbanization = 100
 	
@@ -82,7 +82,7 @@ building_garden = {
 		pmg_garden
 	}
 
-	texture = "gfx/interface/icons/building_icons/ballcourt.dds"
+	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
 	
 	urbanization = 100
 	
@@ -136,26 +136,26 @@ building_garden = {
 #	required_construction = 1000
 #}
 
-building_trading_post = {
-	building_group = bg_public_infrastructure
-	city_type = city
-	
-	
-	
-	levels_per_mesh = 10
-
-	unlocking_technologies = {
-		trade_routes
-	}
-
-	production_method_groups = {
-		pmg_trading_post
-	}
-
-	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
-
-	required_construction = 1000
-}
+#building_trading_post = {
+#	building_group = bg_public_infrastructure
+#	city_type = city
+#	
+#	
+#	
+#	levels_per_mesh = 10
+#
+#	unlocking_technologies = {
+#		trade_routes
+#	}
+#
+#	production_method_groups = {
+#		pmg_trading_post
+#	}
+#
+#	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
+#
+#	required_construction = 1000
+#}
 
 
 building_government_administration = {

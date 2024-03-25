@@ -1,17 +1,17 @@
 
 #Clothing
 
-pm_base_clothing_rudimentary = {
+pm_clothing_material_fabric = {
 	texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
 	disallowing_laws = {
 	}
 	
 	building_modifiers = {
 		workforce_scaled = { 
-			goods_input_cotton_add = 2
+			goods_input_fabric_add = 4
 			goods_input_tools_add = 1
 			
-			goods_output_clothes_add = 8
+			goods_output_clothes_add = 6
 		}
 		
 		level_scaled = {
@@ -20,6 +20,83 @@ pm_base_clothing_rudimentary = {
 		
 		unscaled = {
 			building_artisans_shares_add = 10
+		}
+	}
+}
+pm_clothing_material_cotton = {
+	texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_cotton_add = 3
+			goods_input_tools_add = 1
+			
+			goods_output_clothes_add = 12
+		}
+		
+		level_scaled = {
+			building_employment_artisans_add = 100
+		}
+		
+		unscaled = {
+			building_artisans_shares_add = 10
+		}
+	}
+}
+pm_clothing_ornaments_none = {
+	texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+		}
+		
+		level_scaled = {
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_clothing_ornaments_animal_skin = {
+	texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_animal_skin_add = 2
+		}
+		
+		level_scaled = {
+			goods_output_clothes_add = -3
+			goods_output_luxury_clothes_add = 3
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_clothing_ornaments_feathers = {
+	texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_animal_skin_add = 1
+			goods_input_feathers_add = 3
+		}
+		
+		level_scaled = {
+			goods_output_clothes_add = -6
+			goods_output_luxury_clothes_add = 6
+		}
+		
+		unscaled = {
 		}
 	}
 }
@@ -34,7 +111,7 @@ pm_base_clothing_advanced = {
 			goods_input_cotton_add = 3
 			goods_input_animal_skin_add = 1
 			goods_input_tools_add = 1
-			goods_input_knowledge_add = 1
+			#goods_input_knowledge_add = 1
 			
 			goods_output_clothes_add = 6
 			goods_output_luxury_clothes_add = 4
@@ -61,7 +138,7 @@ pm_base_clothing_luxury = {
 			goods_input_animal_skin_add = 2
 			goods_input_feathers_add = 1
 			goods_input_tools_add = 1
-			goods_input_knowledge_add = 2
+			#goods_input_knowledge_add = 2
 			
 			goods_output_clothes_add = 8
 			goods_output_luxury_clothes_add = 8
@@ -187,7 +264,7 @@ pm_base_pottery_painted = {
 		workforce_scaled = {
 			goods_input_tools_add = 1	
 			goods_input_dye_add = 2
-			goods_input_knowledge_add = 1
+			#goods_input_knowledge_add = 1
 
 			
 			goods_output_luxury_pottery_add = 4
@@ -213,7 +290,7 @@ pm_base_pottery_decorated = {
 			goods_input_tools_add = 1	
 			goods_input_dye_add = 2
 			goods_input_rare_gems_add = 1
-			goods_input_knowledge_add = 1
+			#goods_input_knowledge_add = 1
 
 			
 			goods_output_luxury_pottery_add = 8
@@ -264,7 +341,7 @@ pm_base_obsidian_jewelry = {
 		workforce_scaled = {
 			goods_input_tools_add = 1	
 			goods_input_obsidian_add = 1
-			goods_input_knowledge_add = 1
+			#goods_input_knowledge_add = 1
 
 			
 			goods_output_jewelry_add = 6
@@ -288,7 +365,7 @@ pm_base_turquoise_jewelry = {
 		workforce_scaled = {
 			goods_input_tools_add = 1	
 			goods_input_turquoise_add = 1
-			goods_input_knowledge_add = 2
+			#goods_input_knowledge_add = 2
 
 			
 			goods_output_jewelry_add = 9
@@ -313,7 +390,7 @@ pm_base_golden_jewelry = {
 		workforce_scaled = {
 			goods_input_tools_add = 1	
 			goods_input_rare_gems_add = 1
-			goods_input_knowledge_add = 1
+			#goods_input_knowledge_add = 1
 
 			
 			goods_output_jewelry_add = 12

@@ -304,7 +304,7 @@ pm_religious_learning = {
 		workforce_scaled = {
 		
 			goods_input_worship_add = 0.25
-			goods_output_knowledge_add = 1
+			#goods_output_knowledge_add = 1
 			}
 
 		level_scaled = {
@@ -336,7 +336,7 @@ pm_royal_universities = {
 
 		level_scaled = {
 			goods_input_worship_add = 1
-			goods_output_knowledge_add = 2
+			#goods_output_knowledge_add = 2
 		
 			building_employment_scholars_add = 25
 		}
@@ -367,7 +367,7 @@ pm_public_universities = {
 		
 		workforce_scaled = {
 			goods_input_worship_add = 2
-			goods_output_knowledge_add = 3
+			#goods_output_knowledge_add = 3
 			}
 
 		level_scaled = {

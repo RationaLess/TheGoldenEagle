@@ -21,7 +21,7 @@
 				level=2
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=1
 				}
 			create_building={
@@ -54,7 +54,7 @@
 				level=2
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=1
 				}
 			create_building={
@@ -87,7 +87,7 @@
 				level=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=1
 				}
 			create_building={
@@ -126,7 +126,7 @@
 				level=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				}
 			create_building={
@@ -168,7 +168,7 @@
 				level=2
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				}
 			create_building={
@@ -210,7 +210,7 @@
 				level=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				}
 			create_building={
@@ -250,7 +250,7 @@
 				level=3
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				}
 			create_building={
@@ -288,7 +288,7 @@
 				level=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				}
 			create_building={
@@ -326,7 +326,7 @@
 				level=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				}
 			create_building={
@@ -363,7 +363,7 @@
 				level=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				}
 			create_building={
@@ -403,7 +403,7 @@
 				level=2
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				}
 			create_building={
@@ -445,7 +445,7 @@
 				level=2
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				}
 			create_building={
@@ -483,7 +483,7 @@
 				level=2
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				}
 			create_building={
@@ -519,7 +519,7 @@
 				level=2
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				}
 			create_building={
@@ -552,7 +552,7 @@
 				level=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				}
 			}
@@ -577,7 +577,7 @@
 				level=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				}
 			}
@@ -609,7 +609,7 @@
 				level=2
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=3
 				}
 			create_building={
@@ -642,7 +642,7 @@
 				level=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				}
 			create_building={
@@ -673,7 +673,7 @@
 				level=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				}
 			create_building={
@@ -702,7 +702,7 @@
 				level=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				}
 			create_building={
@@ -731,7 +731,7 @@
 				level=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				}
 			create_building={
@@ -763,7 +763,7 @@
 				level=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				}
 			create_building={
@@ -792,7 +792,7 @@
 				level=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=2
 				}
 			create_building={
@@ -821,7 +821,7 @@
 				level=1
 				}
 			create_building={
-				building="building_maize_farm"
+				building="building_three_sisters"
 				level=1
 				}
 			create_building={

@@ -8,14 +8,32 @@
   concept_mesoamerica:"Mesoamerica"
   concept_mesoamerica_desc:"Mesoamerica is a cultural and geographical area, placed between the \"Intermediary Area\" of Central America and Aridoamerica. Characterized by highly urbanized settlements, Mesoamerica gave birth to dozens of unique cultures and cults which share a broad [Concept('concept_mesoamerican_cosmology',Cosmological Foundation)], which ofter intermingled with [Concept('concept_chicomoztoc',migratory tribes from the north)]. The mesoamerican #V lingua franca #! is [Concept('concept_nahua',Nahuatl)]"
   
+  concept_carribean:"Carribean"
+  concept_carribean_desc:""
+  
+  concept_three_sisters:"Three Sisters"
+  concept_three_sisters_desc:"The three sisters - being maize, squash and beans - are companion plants intercropped together throughout the americas, being able to feed large populations even in lower soil quality regions like [concept_mesoamerica]. Not only does this combination provide a balanced diet, it also preserves soil health and lets the individual sisters support each other through the growing process. The maize can act as a trellise for the beans, which in turn fix nitrogen in the soil. Squash, through it's large leaves, is able to stop weeds from growing around the intercrop."
+  
   concept_aridoamerica:"Aridoamerica"
   concept_aridoamerica_desc:""
+  
+  concept_toltec:"Toltec"
+  concept_toltec_desc:""
+  
+  concept_olmec:"Olmec"
+  concept_olmec_desc:""
   
   concept_chicomoztoc:"Chicomoztoc"
   concept_chicomoztoc_desc:"The mythical place of seven caves, known to the Mexicas as 'Aztlan', which gave birth to the seven Nahua tribes which would settle the Valley of Texcoco in the early [concept_postclassic]. The exact location of Chicomoztoc/Aztlan is unknown, but it's speculated to be somewhere in Aridoamerica or further north - the tale corresponds to the historical migration of the [concept_nahua]."
   
+  concept_ballgame:"Mesoamerican Ballgame"
+  concept_ballgame_desc:"The [Concept('concept_mesoamerica','Mesoamerican') Ballgame (also known as Ōllamaliztli) is a sport practiced in Mesoamerica and culturally adjcent regions, such as some parts of the [concept_carribean]. Existing since the times of the ancient [concept_olmec], the ballgame has been a part of public life since immemorial. Because of this, the nature and rules of the game changed over time, while still retaining it's distinct identity.\n\nThe game can be played in any setting, but masoned ball courts were preffered, giving the games social importance, and sometimes ritualistic significance. The most common variant of Ōllamaliztli involved the players hitting the ball back and forth with their hips until one team is no longer able to. There is also evidence of the game being played using batons. Introduced by the [concept_maya] in the [concept_postclassic] were stone goal rings on each end of the court, with some courts having an upper goal ring which could end the match instantly, were the ball to pass through. This innovation spread westward and is now commonplace.\n\nThere are accounts of ritualistic ballgames which end in the sacrifice of the losing team."
+  
   concept_nahua:"Nahua"
   concept_nahua_desc:"The Nahua are a formerly migratory group which has settled Mesoamerica in several waves, from the [concept_classic] up to the [concept_postclassic]. Moving from Aridoamerica to [concept_mesoamerica], they've established themselves as a formidable presence, turning their language, Nahuatl, into the de-facto #V lingua franca #! of the region.\nAlthough it's not certain, the [concept_toltec] are speculated to be of Nahua origin as well."
+  
+  concept_maya:"Maya"
+  concept_maya_desc:""
   
   concept_chichimeca:"Chichimeca"
   concept_chichimeca_desc:"Chichimeca is the term used to describe a collection of semi-nomadic peoples inhabiting [concept_aridoamerica]. Central [Concept('concept_mesoamerica','Mesoamerican') civilization can be attributed to the cultural synthesis resulting from of Chichimeca migrations clashing with the local culture."

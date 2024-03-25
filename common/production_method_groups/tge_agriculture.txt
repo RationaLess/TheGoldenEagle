@@ -5,6 +5,50 @@ pmg_base_maize_farm = {
 	}
 }
 
+
+pmg_ts_maize = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_ts_maize
+	}
+}
+pmg_ts_squash = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_ts_squash
+		pm_ts_squash_alt
+	}
+}
+pmg_ts_beans = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_ts_beans
+		pm_ts_beans_alt
+	}
+}
+pmg_animal_pens_turkey = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_animal_pens_turkey 
+		pm_animal_pens_turkey_alt
+	}
+}
+pmg_animal_pens_xolo = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_animal_pens_xolo
+	}
+}
+
+pmg_base_agave_farm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_base_agave_food
+		pm_base_agave_alcohol
+		pm_base_agave_fabric
+	}
+}
+
 pmg_base_cotton_farm = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {

@@ -27,6 +27,8 @@ bg_trader_settlements = {
 	
 	default_building = building_trader_settlement 
 
+	hires_unemployed_only = no
+
 	lens = infrastructure
 	
 	urbanization = 50
@@ -84,6 +86,31 @@ bg_agriculture = {
 	
 	economy_of_scale_ai_factor = 2.0
 }
+
+bg_agave_farms = {
+	parent_group = bg_agriculture
+	
+	default_building = building_agave_farm
+	
+	cash_reserves_max = 5000
+}
+
+bg_three_sisters = {
+	parent_group = bg_agriculture
+	
+	default_building = building_three_sisters
+	
+	cash_reserves_max = 5000
+}
+
+bg_animal_pens = {
+	parent_group = bg_agriculture
+	
+	default_building = building_animal_pens
+	
+	cash_reserves_max = 5000
+}
+
 
 
 bg_cotton_farms = {

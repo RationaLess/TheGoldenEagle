@@ -25,8 +25,6 @@
   
  
 
- building_temple:"Temple"
- building_temple_lens_option:"Expand $building_temple$"
  building_clothing_workshop:"Clothing Workshop"
  building_clothing_workshop_lens_option:"Expand $building_clothing_workshop$"
  building_furniture_workshop:"Furniture Workshop"
@@ -52,12 +50,23 @@
  building_turquoise_mine:"Turquoise Mines"
  building_turquoise_mine_lens_option:"Expand $building_turquoise_mine$"
  
+ 
+ building_three_sisters:"[concept_three_sisters]"
+ building_three_sisters_lens_option:"Expand $building_three_sisters$"
+ building_agave_farm:"Agave Farms"
+ building_agave_farm_lens_option:"Expand $building_agave_farm$"
  building_cotton_farm:"Cotton Farms"
  building_cotton_farm_lens_option:"Expand $building_cotton_farm$"
  building_cocoa_harvestry:"Cocoa Fields"
  building_cocoa_harvestry_lens_option:"Expand $building_cocoa_harvestry$"
  building_rubber_harvestry:"Rubber Fields"
  building_rubber_harvestry_lens_option:"Expand $building_rubber_harvestry$"
+ 
+ 
+ building_temple:"Temple"
+ building_temple_lens_option:"Expand $building_temple$"
+ building_ball_court:"[Concept('concept_ballgame','Ball Court')]"
+ building_ball_court_lens_option:"Expand $building_ball_court$"
  
  
  building_minor_settlements:"Minor Settlements"

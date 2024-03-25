@@ -3,7 +3,7 @@
 # max_weight				The maximum weight that can be applied to this good based on market Sell Order share, only meaningful in relation to weight
 # min_weight				The minimum weight that can be applied to this good based on market Sell Order share, only meaningful in relation to weight
 
-popneed_staple_crop = {
+popneed_staple_food = {
 	default = staple_crop
 
 	entry = {
@@ -17,26 +17,29 @@ popneed_staple_crop = {
 	entry = {
 		goods = fish
 		
+		weight = 0.2
+		max_supply_share = 1.0
+		min_supply_share = 0.1
+	}
+}
+popneed_meat = {
+	default = meat
+
+	entry = {
+		goods = meat
+		
 		weight = 1
 		max_supply_share = 1.0
 		min_supply_share = 0.1
 	}
 	
-	#entry = {
-	#	goods = meat
-	#	
-	#	weight = 0.5
-	#	max_supply_share = 0.5
-	#	min_supply_share = 0.05
-	#}
-	
-	#entry = {
-	#	goods = fruit
-	#	
-	#	weight = 0.5
-	#	max_supply_share = 0.5
-	#	min_supply_share = 0.05
-	#}
+	entry = {
+		goods = fish
+		
+		weight = 0.5
+		max_supply_share = 1.0
+		min_supply_share = 0.1
+	}
 }
 
 popneed_heating = {
@@ -165,7 +168,7 @@ popneed_items = {
 	 }
 }
 
-popneed_luxury_food = {
+popneed_delicacies = {
 	default = cocoa
 	
 	entry = {
@@ -183,18 +186,25 @@ popneed_luxury_food = {
 		min_supply_share = 0.05
 	}
 	entry = {
-		goods = fruit
-
-		weight = 0.25
-		max_supply_share = 0.25
-		min_supply_share = 0.025
+		goods = salt
+		
+		weight = 0.5
+		max_supply_share = 0.5
+		min_supply_share = 0.05
 	}
 	entry = {
-		goods = meat
+		goods = spices
+		
+		weight = 0.5
+		max_supply_share = 0.5
+		min_supply_share = 0.05
+	}
+	entry = {
+		goods = fruit
 
-		weight = 0.25
-		max_supply_share = 0.25
-		min_supply_share = 0.025
+		weight = 0.5
+		max_supply_share = 0.5
+		min_supply_share = 0.05
 	}
 }
 

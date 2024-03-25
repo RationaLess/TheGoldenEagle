@@ -19,7 +19,188 @@
 	}
 }
 
-pm_base_agave_farm = {
+pm_ts_maize = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 51
+			goods_input_tools_add = 1
+			
+			goods_output_staple_crop_add = 10
+		}
+		
+		level_scaled = {
+			building_employment_farmers_add = 900
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_ts_squash = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+		}
+		
+		level_scaled = {
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_ts_squash_alt = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_staple_crop_add = -1
+			goods_output_pottery_add = 1
+		}
+		
+		level_scaled = {
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_ts_beans = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+		}
+		
+		level_scaled = {
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_ts_beans_alt = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_staple_crop_add = -1
+			goods_output_spices_add = 1
+		}
+		
+		level_scaled = {
+		}
+		
+		unscaled = {
+		}
+	}
+}
+
+#animal pens
+pm_animal_pens_turkey = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 51
+			goods_input_tools_add = 1
+			goods_input_staple_crop_add = 2
+			
+			goods_output_meat_add = 8
+		}
+		
+		level_scaled = {
+			building_employment_farmers_add = 900
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_animal_pens_turkey_alt = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 51
+			goods_input_tools_add = 1
+			goods_input_staple_crop_add = 1
+			
+			goods_output_meat_add = 6
+			goods_output_feathers_add = 1
+		}
+		
+		level_scaled = {
+			building_employment_farmers_add = 900
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_animal_pens_xolo = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_staple_crop_add = 1
+			
+			goods_output_meat_add = 2
+		}
+		
+		level_scaled = {
+		}
+		
+		unscaled = {
+		}
+	}
+}
+
+
+		pm_base_agave_food
+		pm_base_agave_alcohol
+		pm_base_agave_fabric
+#Agave Farm
+pm_base_agave_food = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 51
+			goods_input_tools_add = 1
+			
+			
+			goods_output_staple_crop_add = 6
+			goods_output_intoxicants_add = 1
+			goods_output_fabric_add = 4
+		}
+		
+		level_scaled = {
+			building_employment_farmers_add = 900
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_base_agave_alcohol = {
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	disallowing_laws = {
 	}
@@ -30,8 +211,31 @@ pm_base_agave_farm = {
 			
 			
 			goods_output_staple_crop_add = 4
-			goods_output_intoxicants_add = 2
-			goods_output_fabric_add = 6
+			goods_output_intoxicants_add = 3
+			goods_output_fabric_add = 4
+		}
+		
+		level_scaled = {
+			building_employment_farmers_add = 900
+		}
+		
+		unscaled = {
+		}
+	}
+}
+pm_base_agave_fabric = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 51
+			goods_input_tools_add = 1
+			
+			
+			goods_output_staple_crop_add = 4
+			goods_output_intoxicants_add = 1
+			goods_output_fabric_add = 8
 		}
 		
 		level_scaled = {
@@ -43,6 +247,9 @@ pm_base_agave_farm = {
 	}
 }
 
+
+
+#Cotton Farm
 pm_base_cotton_farm = {
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	disallowing_laws = {

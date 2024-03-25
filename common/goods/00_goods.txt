@@ -179,7 +179,7 @@ knowledge = {
 	cost = 30
 	category = staple
 	tradeable = no
-	local = yes
+	local = no
 	
 	prestige_factor = 3
 	
@@ -387,6 +387,39 @@ luxury_clothes = {
 cocoa = {
 	texture = "gfx/interface/icons/goods_icons/cocoa.dds"
 	cost = 50
+	category = luxury
+	
+	obsession_chance = 1.5
+	prestige_factor = 15
+	
+	traded_quantity = 5
+}
+
+intoxicants = {
+	texture = "gfx/interface/icons/goods_icons/tobacco.dds"
+	cost = 40
+	category = luxury
+	
+	obsession_chance = 1.5
+	prestige_factor = 10
+	
+	traded_quantity = 5
+}
+
+salt = {
+	texture = "gfx/interface/icons/goods_icons/cocoa.dds"
+	cost = 30
+	category = luxury
+	
+	obsession_chance = 1.5
+	prestige_factor = 15
+	
+	traded_quantity = 5
+}
+
+spices = {
+	texture = "gfx/interface/icons/goods_icons/cocoa.dds"
+	cost = 30
 	category = luxury
 	
 	obsession_chance = 1.5
