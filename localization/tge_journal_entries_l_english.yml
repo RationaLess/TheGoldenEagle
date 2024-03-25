@@ -41,7 +41,9 @@
  mesoamerican_question_intermarry_with_west_nahuas:"Intermarry with Anahuac"
  mesoamerican_question_intermarry_with_west_nahuas_desc:"Even a petty marriage - if secured - would help legitimize us as proper Mesoamerican rulers."
  
- 
+ je_sons_of_tariacuri:"Sons of Tariácuri"
+ je_sons_of_tariacuri_reason:"A few hundred after the great hummingbird-god #V Tzintzuuquixu#! has lead us to #V Lake Pátzcuaro#!, our destined home, the great #V Irecha Tariácuri#! has divided his holdings among his sons - [SCOPE.sCountry('patz').GetName] for the brave #V Irepan#!, [SCOPE.sCountry('ihti').GetName] for the wise #V Hiquingare#!, and [SCOPE.sCountry('tzzz').GetName] for the great #V Tanganxoán#!.\n\nWith the brothers in competition, it's only a matter of time until #V Iréchikwa#! is united under a new #V Irecha#!."
+ je_sons_of_tariacuri_formed:"#V Iréchikwa#! has been formed."
  
  je_the_three_hearts:"The Three Hearts"
  je_the_three_hearts_reason:"If we manage to unify the majority of Totonac people under one banner, we will be able to proclaim Totonacapan."

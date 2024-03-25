@@ -111,6 +111,12 @@ bg_animal_pens = {
 	cash_reserves_max = 5000
 }
 
+bg_gathering_grounds = {
+	parent_group = bg_subsistence_agriculture
+
+	
+	hires_unemployed_only = no
+	}
 
 
 bg_cotton_farms = {

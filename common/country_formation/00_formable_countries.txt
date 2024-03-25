@@ -21,12 +21,10 @@ TEOTI = {
 #Tarascan Empire
 TARA = {
 	states = {
-		STATE_TZINTZUNTZAN
-		STATE_ZITAHURAO
-		STATE_TACATZUCARO
+		STATE_PATZCURAO
 	}
 
-	required_states_fraction = 0.7	
+	required_states_fraction = 1	
 	
 	ai_will_do = { always = yes }
 }

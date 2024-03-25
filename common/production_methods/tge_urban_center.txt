@@ -14,7 +14,7 @@ pm_disorganized_sprawl = {
 	
 	state_modifiers = {
 		level_scaled = {
-		state_infrastructure_add = 2
+		state_infrastructure_add = 4
 		}
 	}
 	
@@ -49,7 +49,7 @@ pm_neighbourhood_sprawl = {
 	
 	state_modifiers = {
 		level_scaled = {
-		state_infrastructure_add = 4
+		state_infrastructure_add = 6
 		state_accepted_birth_rate_mult = 0.002
 		state_building_minor_settlements_max_level_add = -1
 		}
@@ -89,7 +89,7 @@ pm_guild_sprawl = {
 	
 	state_modifiers = {
 		level_scaled = {
-		state_infrastructure_add = 6
+		state_infrastructure_add = 8
 		state_accepted_birth_rate_mult = 0.004
 		state_building_minor_settlements_max_level_add = -2
 		}
@@ -129,7 +129,7 @@ pm_district_sprawl = {
 	
 	state_modifiers = {
 		level_scaled = {
-		state_infrastructure_add = 8
+		state_infrastructure_add = 10
 		state_accepted_birth_rate_mult = 0.006
 		state_building_minor_settlements_max_level_add = -3
 		}

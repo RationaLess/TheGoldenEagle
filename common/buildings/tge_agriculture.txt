@@ -79,6 +79,7 @@ building_animal_pens = {
 	levels_per_mesh = 5
 
 	production_method_groups = {
+		pmg_animal_pens_rabbits
 		pmg_animal_pens_turkey
 		pmg_animal_pens_xolo
 		pmg_organization

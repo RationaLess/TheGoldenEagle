@@ -1,0 +1,55 @@
+﻿je_sons_of_tariacuri = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_historical_content
+
+	should_be_pinned_by_default = yes 
+	
+	is_shown_when_inactive = {	
+		country_has_primary_culture = cu:purepecha
+		
+		}
+	
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_PATZCURAO
+			}
+	}
+	
+	immediate = {
+		s:STATE_PATZCURAO = {
+			add_claim = ROOT
+			}
+		c:TZZZ = {
+			save_scope_as = tzzz
+			}
+		c:IHTI = {
+			save_scope_as = ihti
+			}
+		c:PATZ = {
+			save_scope_as = patz
+			}
+		
+		}
+	
+	complete = { 
+		custom_tooltip = {
+			cd:TARA = root.country_definition
+			#this = c:TARA
+			text = je_sons_of_tariacuri_formed
+			}
+		
+		}
+	
+	on_complete = {
+		activate_law = law_type:law_monarchy
+		capital = {
+			add_loyalists_in_state = {
+				value = 0.2
+				culture = cu:purepecha
+				}
+			}
+	
+		}
+
+	}

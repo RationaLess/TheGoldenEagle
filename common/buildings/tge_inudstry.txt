@@ -9,7 +9,8 @@ building_clothing_workshop = {
 	}
 
 	production_method_groups = {
-		pmg_base_clothing_workshop
+		pmg_clothing_material
+		pmg_clothing_ornaments
 		pmg_workshop_type
 	}
 	

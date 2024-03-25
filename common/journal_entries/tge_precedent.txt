@@ -4,7 +4,7 @@ je_urbanization_efforts = {
 
 is_shown_when_inactive = {
 		
-		always = yes
+		always = no
 		
 	}
 

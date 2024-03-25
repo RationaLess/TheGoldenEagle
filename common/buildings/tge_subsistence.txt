@@ -1,7 +1,7 @@
 ﻿############# SUBSISTENCE
 
 building_gathering_grounds = {
-	building_group = bg_subsistence_agriculture
+	building_group = bg_gathering_grounds 
 	texture = "gfx/interface/icons/building_icons/gathering_grounds.dds"
 
 	production_method_groups = {
@@ -17,7 +17,7 @@ building_gathering_grounds = {
 }
 
 building_gathering_grounds_marine_goods = {
-	building_group = bg_subsistence_agriculture
+	building_group = bg_gathering_grounds 
 	texture = "gfx/interface/icons/building_icons/gathering_grounds.dds"
 
 	production_method_groups = {
@@ -34,7 +34,7 @@ building_gathering_grounds_marine_goods = {
 }
 
 building_gathering_grounds_animal_skin = {
-	building_group = bg_subsistence_agriculture
+	building_group = bg_gathering_grounds 
 	texture = "gfx/interface/icons/building_icons/gathering_grounds.dds"
 
 	production_method_groups = {
@@ -51,7 +51,7 @@ building_gathering_grounds_animal_skin = {
 }
 
 building_gathering_grounds_feathers = {
-	building_group = bg_subsistence_agriculture
+	building_group = bg_gathering_grounds 
 	texture = "gfx/interface/icons/building_icons/gathering_grounds.dds"
 
 	production_method_groups = {
@@ -68,7 +68,7 @@ building_gathering_grounds_feathers = {
 }
 
 building_gathering_grounds_dyes = {
-	building_group = bg_subsistence_agriculture
+	building_group = bg_gathering_grounds
 	texture = "gfx/interface/icons/building_icons/gathering_grounds.dds"
 
 	production_method_groups = {

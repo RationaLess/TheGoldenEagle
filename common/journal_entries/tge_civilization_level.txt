@@ -109,8 +109,10 @@ je_urban_civ_level = {
 	
 	on_complete = {
 		add_journal_entry = { type = je_metropolitan_civ_level }
+
+		
+		triggger_event = { id = civilization_level.1 }
 	}
-	triggger_event = { id = civilization_level.1 }
 
 }
 

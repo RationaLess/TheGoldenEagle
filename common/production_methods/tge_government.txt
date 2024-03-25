@@ -27,7 +27,6 @@ pm_temple_no_sacrifices = {
 
 			goods_output_worship_add = 4
 		
-			country_local_civilization_value  = 5
 		}
 		
 		level_scaled = {

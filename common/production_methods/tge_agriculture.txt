@@ -109,7 +109,7 @@ pm_ts_beans_alt = {
 }
 
 #animal pens
-pm_animal_pens_turkey = {
+pm_animal_pens_rabbits = {
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	disallowing_laws = {
 	}
@@ -130,6 +130,22 @@ pm_animal_pens_turkey = {
 		}
 	}
 }
+pm_animal_pens_turkey = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	disallowing_laws = {
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { # 51
+		}
+		
+		level_scaled = {
+		}
+		
+		unscaled = {
+		}
+	}
+}
 pm_animal_pens_turkey_alt = {
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
 	disallowing_laws = {
@@ -137,15 +153,11 @@ pm_animal_pens_turkey_alt = {
 	
 	building_modifiers = {
 		workforce_scaled = { # 51
-			goods_input_tools_add = 1
-			goods_input_staple_crop_add = 1
-			
-			goods_output_meat_add = 6
+			goods_output_meat_add = -2
 			goods_output_feathers_add = 1
 		}
 		
 		level_scaled = {
-			building_employment_farmers_add = 900
 		}
 		
 		unscaled = {
@@ -173,9 +185,6 @@ pm_animal_pens_xolo = {
 }
 
 
-		pm_base_agave_food
-		pm_base_agave_alcohol
-		pm_base_agave_fabric
 #Agave Farm
 pm_base_agave_food = {
 	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"

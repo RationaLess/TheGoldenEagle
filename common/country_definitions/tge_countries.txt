@@ -485,6 +485,14 @@ cultures = { purepecha }
 capital = STATE_TZINTZUNTZAN
 
 } 
+TZZZ = { #Tzintzuntzan 
+color = rgb { 108 171 129 }
+tier = duchy
+country_type = recognized
+cultures = { purepecha }
+capital = STATE_TZINTZUNTZAN
+
+} 
 PATZ = { #Patzacuro 
 color = rgb { 81 105 82 }
 tier = duchy
@@ -496,14 +504,14 @@ ZITA = { #Zitahurao
 color = rgb { 131 171 70 }
 tier = duchy
 country_type = recognized
-cultures = { purepecha }
+cultures = { matlatzinca }
 capital = STATE_TZINTZUNTZAN
 } 
 IHTI = { #Ihuatizo 
 color = rgb { 142 143 86 }
 tier = duchy
 country_type = recognized
-cultures = { west_nahua }
+cultures = { purepecha }
 capital = STATE_TZINTZUNTZAN
 } 
 ZACA = { #Zacapu 

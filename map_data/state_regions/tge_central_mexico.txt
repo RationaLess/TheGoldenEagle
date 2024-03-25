@@ -79,7 +79,7 @@ STATE_XOCHIMILCO = {
     subsistence_building = "building_gathering_grounds_marine_goods"
 
     arable_land = 22
-    arable_resources = { "bg_chinampas"  "bg_agave_farms" "bg_animal_pens" }
+    arable_resources = { "bg_chinampas" "bg_agave_farms" "bg_animal_pens" }
     capped_resources = {
         bg_mudbrick_furnacing = 4
         bg_logging = 9
@@ -183,7 +183,7 @@ STATE_TOTONACAPAN = {
 STATE_TEPETICPAC = {
     id = 18
     provinces = { "x39B41F" "x66C50D" "xB36501" "xCCE428" "xEDC123" }
-    arable_resources = { "bg_three_sisters" "bg_agave_farms"	 "bg_animal_pens" }
+    arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
     arable_land = 13
     capped_resources = {
         bg_logging = 8
@@ -259,10 +259,10 @@ STATE_CHOLULA = {
 STATE_TOLLAN = {
     id = 25
     provinces = { "x33EC10" "x34B232" "x39A828" "x3CF009" "x3D6C15" "x3FAB32" "x47F616" "x5F331E" "x615102" "x65861D" "x6ACD0F" "x6BCB08" "x715403" "x885D00" "x91B52C" "x91DD21" "x974F1F" "x98512C" "x9EBC22" "xA7F228" "xA8AA29" "xA9621C" "xACCE14" "xB18D21" "xB4FF06" "xB7DA21" "xC1B023" "xC1C230" "xC97123" "xC9912A" "xCA432A" "xEBD101" "xECA026" "xF0D303" "xF7600F" }
-    
-	arable_land = 50
-	
-	arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
+
+    arable_land = 50
+
+    arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
     capped_resources = {
         bg_logging = 9
     }
@@ -776,7 +776,7 @@ STATE_TOLUCA_VALLEY = {
     id = 76
     subsistence_building = "building_gathering_grounds_dyes"
     arable_land = 38
-    provinces = { "x52ED0D" "x5F551D" "x61B328" "x6B3508" "x704617" "x709E18" "x747122" "x804E1A" "x824916" "x86602F" "x8CB41C" "x8EE90B" "x916B07" "x92361D" "x93362D" "x973312" "xA6962A" "xA8AB07" "xAB9110" "xB1D217" "xB4AF28" "xB7C10D" "xB7D20A" "xC0B310" "xC2A220" "xC4A501" "xD25216" "xD49028" "xDB9827" "xDF9215" "xEC350F" "xEE3511" "xEFA312" "xF4F228" }
+    provinces = { "x32F526" "x4EB511" "x52ED0D" "x5F551D" "x61B328" "x6B3508" "x704617" "x709E18" "x747122" "x804E1A" "x824916" "x86602F" "x8CB41C" "x8EE90B" "x90F708" "x916B07" "x92361D" "x93362D" "x973312" "x9AF824" "xA6962A" "xA7A112" "xA8AB07" "xAB9110" "xB17E31" "xB1D217" "xB4AF28" "xB7C10D" "xB7D20A" "xBCDD31" "xC0B310" "xC2A220" "xC4A501" "xD25216" "xD49028" "xDB9827" "xDF9215" "xE7F725" "xE98718" "xEC350F" "xEE3511" "xEFA312" "xF4F228" }
     arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
     capped_resources = {
         bg_logging = 32

@@ -3,7 +3,7 @@ objective_crisis_in_the_valley = {
 	background = "gfx/interface/objectives/hegemon_illu.dds"
 	icon = "gfx/interface/icons/objectives/hegemon.dds"
 	
-	recommended_tags = { ATA AZC TLX XAL  }	
+	recommended_tags = { ATA AZC TLX CHO }	
 
 
 	objective_subgoals = {

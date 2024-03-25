@@ -5,7 +5,7 @@
 	
 	building_modifiers = {
 		workforce_scaled = { # 
-			goods_output_worship_add = 0.5
+			goods_output_worship_add = 0.25
 		}
 		
 		level_scaled = {
@@ -27,8 +27,10 @@ pm_minor_home_workshops = {
 	
 	building_modifiers = {
 		workforce_scaled = { # 51
-			goods_output_tools_add = 1.5
-			goods_output_pottery_add = 0.5
+
+			goods_output_tools_add = 0.5
+			goods_output_pottery_add = 0.2
+			goods_output_clothes_add = 0.2
 		}
 		
 		level_scaled = {
@@ -46,8 +48,7 @@ pm_minor_informal_farms = {
 	building_modifiers = {
 		workforce_scaled = { # 51
 			
-			goods_input_tools_add = 0.25
-			goods_output_staple_crop_add = 2.5
+			goods_output_staple_crop_add = 1
 		}
 		
 		level_scaled = {
