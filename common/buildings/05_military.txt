@@ -2,7 +2,7 @@
 
 building_barracks = {
 	building_group = bg_army
-	recruits_combat_unit = yes
+	recruits_combat_units = yes
 	texture = "gfx/interface/icons/building_icons/building_barracks.dds"
 	city_type = city
 	
@@ -15,21 +15,14 @@ building_barracks = {
 	}
 
 	production_method_groups = {
-		pmg_barracks
-		#pmg_primary_weapons
-		#pmg_secondary_weapons
-		#pmg_armor
-		#pmg_supply
+		pmg_training
 	}
 
 	required_construction = construction_cost_very_low
 }
 
-
-
 building_conscription_center = {
 	building_group = bg_conscription
-	recruits_combat_unit = yes
 	buildable = no
 	expandable = no
 	downsizeable = no
@@ -40,7 +33,7 @@ building_conscription_center = {
 	residence_points_per_level = 0
 	city_type = none
 
-	recruits_combat_unit = combat_unit_conscript
+	recruits_combat_units = yes
 	texture = "gfx/interface/icons/building_icons/building_conscription_center.dds"
 
 	production_method_groups = {
@@ -50,7 +43,7 @@ building_conscription_center = {
 
 building_naval_base = {
 	building_group = bg_navy
-	recruits_combat_unit = combat_unit_flotilla
+	recruits_combat_units = yes
 	city_type = port
 	levels_per_mesh = 25
 	
@@ -61,16 +54,13 @@ building_naval_base = {
 	unlocking_technologies = { admiralty }
 	
 	production_method_groups = {
-		pmg_ship_class
-		pmg_escorts
-		pmg_raiders
 		pmg_naval_theory
 	}
 	
 	required_construction = construction_cost_very_low
 	
 	# Can only build naval bases on the coast
-	can_build = {
+	possible = {
 		error_check = {
 			severity = fail
 			is_coastal = yes
