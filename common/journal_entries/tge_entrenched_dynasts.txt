@@ -9,7 +9,9 @@
 is_shown_when_inactive = {
 		
 		
-		always = yes
+		always = no
+
+		#JE is bad
 		
 	
 	}

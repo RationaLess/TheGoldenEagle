@@ -35,26 +35,26 @@ tge_monthly_pulse = {
 		onaction_empire_sprawl_calc = yes
 		
 		#TODO: IG leader loyalty affecting IG
-		every_interest_group = {
-			if = {
-				limit = { has_modifier = leader_loyalty_impact }
-				remove_modifier = leader_loyalty_impact 
-			}
-			
-			set_variable = {
-				name = loyalty_impact_temporary_var
-				value = {
-						value = leader.get_loyalty
-						divide = 10
-					}
-				}
-			
-			add_modifier = {
-				name = leader_loyalty_impact 
-				multiplier = var:loyalty_impact_temporary_var
-			}
-		}
-		remove_variable = loyalty_impact_temporary_var
+		#every_interest_group = {
+		#	if = {
+		#		limit = { has_modifier = leader_loyalty_impact }
+		#		remove_modifier = leader_loyalty_impact 
+		#	}
+		#	
+		#	set_variable = {
+		#		name = loyalty_impact_temporary_var
+		#		value = {
+		#				value = leader.get_loyalty
+		#				divide = 10
+		#			}
+		#		}
+		#	
+		#	add_modifier = {
+		#		name = leader_loyalty_impact 
+		#		multiplier = var:loyalty_impact_temporary_var
+		#	}
+		#}
+		#remove_variable = loyalty_impact_temporary_var
 		
 	}
 	

@@ -39,3 +39,6 @@
   
   concept_chichimeca:"Chichimeca"
   concept_chichimeca_desc:"Chichimeca is the term used to describe a collection of semi-nomadic peoples inhabiting [concept_aridoamerica]. Central [Concept('concept_mesoamerica','Mesoamerican') civilization can be attributed to the cultural synthesis resulting from of Chichimeca migrations clashing with the local culture."
+  
+  concept_postclassic:"Postclassic Era"
+  concept_postclassic_desc:"The Postclassic, starting in #V 900 CE#! and lasting until #V 1519 CE#!, is the last period in the history of [concept_mesoamerica] before contact with the #V Old world#!. It's characterized by the emergence of a middle class, filling new roles created by an increasingly complex social structure, and a nostlagia for the ancient #V [concept_toltec] empire#!, fueling the ambitions of new lords.\n\nThroughout this era, waves of [concept_chichimeca] tribes have arrived north from [concept_chicomoztoc], asserting themserves in the #V Valley of Mexico#!."

@@ -25,6 +25,38 @@ state_minor_settlement_modifier = {
 }
 
 
+#Civ Level
+civ_level_modifier_nomadic = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_theocracy_positive.dds
+	state_expected_sol_mult = -0.3
+	country_weekly_innovation_mult = -0.15
+}
+civ_level_modifier_settlement = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_theocracy_positive.dds
+	state_expected_sol_mult = -0.15
+}
+civ_level_modifier_urban = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_theocracy_positive.dds
+	state_nobles_investment_pool_contribution_add = 0.1
+	country_private_construction_allocation_mult = 0.5
+	country_weekly_innovation_mult = 0.15
+}
+civ_level_modifier_metropolitan = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_theocracy_positive.dds
+	state_expected_sol_mult = 0.15
+	state_nobles_investment_pool_contribution_add = 0.1
+	state_artisans_investment_pool_contribution_add = 0.1
+	country_private_construction_allocation_mult = 0.65
+	country_weekly_innovation_mult = 0.3
+}
+civ_level_modifier_modern = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_theocracy_positive.dds
+	state_expected_sol_mult = 0.3
+	state_nobles_investment_pool_contribution_add = 0.1
+	state_artisans_investment_pool_contribution_add = 0.1
+	country_private_construction_allocation_mult = 0.8
+	country_weekly_innovation_mult = 0.5
+}
 
 
 #Difficulty

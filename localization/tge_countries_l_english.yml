@@ -33,8 +33,9 @@
  HXZ_ADJ:0 "Huexotzinco"
  CHL:0 "Cholula"
  CHL_ADJ:0 "Cholula"
- TIL:"Tilantongo"
- TIL_ADJ:"Tilantongo"
+ TIL:"Nuu Tnoo" 
+ TIL_ADJ:"Nuu Tnoo" 
+ #Formerly "Tilantongo", but we prefer to use the native names, if possible
  THC:0 "Tehuacan"
  THC_ADJ:0 "Tehuacan"
  CXH:0 "Coixtlahuaca"
@@ -250,8 +251,9 @@
  COX_ADJ:"Coixtlahuaca"
  NOX:"Noxchitlan"
  NOX_ADJ:"Noxchitlan"
- DIQ:"Diquiyu"
- DIQ_ADJ:"Diquiyu"
+ DIQ:"Teozacoalco"
+ DIQ_ADJ:"Teozacoalco"
+ #Formerly Diquyu
  YCH:"Yucu Chatuta"
  YCH_ADJ:"Yucu Chatuta"
  TRIQ:"Triqui"

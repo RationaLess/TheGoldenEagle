@@ -15,18 +15,9 @@ subjects_population = {
 	
 	every_country = { 
 		limit = {
-			is_subject_of = this
+			is_subject_of = root
 		}
-		#add = total_population
-		every_scope_state = {
-			add = {
-				value = state_population
-				multiply = {
-					value = 1
-					add = modifier:state_empire_sprawl_load_population_cost
-				}
-			}
-		}
+		add = total_population
 	}
 }
 

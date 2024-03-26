@@ -49,6 +49,9 @@
  je_the_three_hearts_reason:"If we manage to unify the majority of Totonac people under one banner, we will be able to proclaim Totonacapan."
  je_the_three_hearts_goal:"We should use our claims to annex all majority [GetCulture('totonac').GetName] states."
  
+ je_legacy_of_eight_deer:"Legacy of Eight Deer"
+ je_legacy_of_eight_deer_reason:"It has been hundreds of years since the great #V Iya Nacuaa Teyusi Ñaña#! has united the three cities."
+ 
  
  #Imperial
  je_imperial_fervor:"Imperial Fervor"
@@ -106,16 +109,23 @@
  je_settlement_civ_level_reason:"Our people have began moving into static settlements, with our society essentialy a collective of such dwellings. Such a way of life comes with great challanges as well as great opportunities.\n$TOOLTIP_DELIMITER$\nAt this civilization level:\n• Our [SCOPE.gsInterestGroup('traditionalists').GetName] have the [GetIdeology('ideology_sedentary_precedent').GetName] [concept_ideology].\n• We will #R Become a  [concept_decentralized_nation]#! if we reach a critical [concept_empire_sprawl] #V deficit#!\n• The [GetIdeology('ideology_leader_urbanist').GetName] and [GetIdeology('ideology_leader_confederate').GetName] [concept_character] [Concept('concept_ideology','Ideologies')] will now appear.\n$TOOLTIP_DELIMITER$\nIf we increase our [concept_civilization_value] and fulfill the [concept_journal_entry] #V Requirements#!, we will advance to the #V Metropolitan#! [concept_civilization_level]!"
  
  je_urban_civ_level:"Urban [concept_civilization_level]"
- je_urban_civ_level_reason:"We are an urbanized society, with artisans and scholars of all kinds finding refuge in our urban centers. To keep up with the ever increasing needs of our population, we need to develop our institutions further - they are the lifeblood of our empire, of course. \n$TOOLTIP_DELIMITER$\nAt this civilization level:\n• Our [SCOPE.gsInterestGroup('traditionalists').GetName] have the [GetIdeology('ideology_urban_precedent').GetName] [concept_ideology].\n• We will suffer #R 50% Larger Penalties#! from an [concept_empire_sprawl] #V deficit#!\n• The [GetIdeology('ideology_leader_populist').GetName] and [GetIdeology('ideology_leader_statist').GetName] [concept_character] [Concept('concept_ideology','Ideologies')] will now appear.\n$TOOLTIP_DELIMITER$\nIf we increase our [concept_civilization_value] and fulfill the [concept_journal_entry] #V Requirements#!, we will advance to the #V Metropolitan#! [concept_civilization_level]!"
+ je_urban_civ_level_reason:"We are an urbanized society, with artisans and scholars of all kinds finding refuge in our urban centers. To keep up with the ever increasing needs of our population, we need to develop our institutions further - they are the lifeblood of our empire, of course. \n$TOOLTIP_DELIMITER$\nAt this civilization level:\n• Our [SCOPE.gsInterestGroup('traditionalists').GetName] have the [GetIdeology('ideology_urban_precedent').GetName] [concept_ideology].\n• [GetPopType('nobles').GetName] will now [Concept('concept_investment_pool','Invest')]\n• We will suffer #R 50% Larger Penalties#! from an [concept_empire_sprawl] #V deficit#!\n• The [GetIdeology('ideology_leader_populist').GetName] and [GetIdeology('ideology_leader_statist').GetName] [concept_character] [Concept('concept_ideology','Ideologies')] will now appear.\n$TOOLTIP_DELIMITER$\nIf we increase our [concept_civilization_value] and fulfill the [concept_journal_entry] #V Requirements#!, we will advance to the #V Metropolitan#! [concept_civilization_level]!"
  
  je_metropolitan_civ_level:"Metropolitan [concept_civilization_level]"
- je_metropolitan_civ_level_reason:"Our urban centers are like anthills - large, productive, seemingly chaotic, and efficient. The city is now more than just a place of shelter - a complete, dignified life can be led without as much as leaving our capital.\n$TOOLTIP_DELIMITER$\nAt this civilization level:\n• Our [SCOPE.gsInterestGroup('traditionalists').GetName] have the [GetIdeology('ideology_metropolitan_precedent').GetName] [concept_ideology].\n• We will suffer #R Negative Events#! from an [concept_empire_sprawl] #V deficit#!\n$TOOLTIP_DELIMITER$\n#V (This is currently the highest [concept_civilization_level], so increasing your [concept_civilization_value] will not grant any additional benefits.)#!"
+ je_metropolitan_civ_level_reason:"Our urban centers are like anthills - large, productive, seemingly chaotic, and efficient. The city is now more than just a place of shelter - a complete, dignified life can be led without as much as leaving our capital.\n$TOOLTIP_DELIMITER$\nAt this civilization level:\n• Our [SCOPE.gsInterestGroup('traditionalists').GetName] have the [GetIdeology('ideology_metropolitan_precedent').GetName] [concept_ideology].\n• [GetPopType('artisans').GetName] will now [Concept('concept_investment_pool','Invest')]\n• We will suffer #R Negative Events#! from an [concept_empire_sprawl] #V deficit#!\n$TOOLTIP_DELIMITER$\n#V (This is currently the highest [concept_civilization_level], so increasing your [concept_civilization_value] will not grant any additional benefits.)#!"
  
  
  civilization_value_over_250:"Our [concept_civilization_value] is greater or equal to #V 250#!"
  civilization_value_over_100:"Our [concept_civilization_value] is greater or equal to #V 100#!"
  civilization_value_over_50:"Our [concept_civilization_value] is greater or equal to #V 50#!"
  civilization_value_over_20:"Our [concept_civilization_value] is greater or equal to #V 20#!"
+ 
+ civ_level_modifier_nomadic:"Mobile Society"
+ civ_level_modifier_settlement:"Settled Society"
+ civ_level_modifier_urban:"Urban Society"
+ civ_level_modifier_metropolitan:"Advanced Society"
+ civ_level_modifier_modern:"Golden Society"
+ 
  
  civilization_level.1.t:"Civilization Level - Metropolitan!"
  civilization_level.1.d:"After a long period of urbanization and reform, [ROOT.GetCountry.GetName] has reached the #V Metropolitan#! [concept_civilization_level]!"

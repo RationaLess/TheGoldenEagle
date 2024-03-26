@@ -20,6 +20,13 @@
  setting_difficulty_very_hard:1 "Coatl (Very Hard)"
  setting_difficulty_very_hard_desc:0 "AI Nations get various military-related and economic buffs."
  
+ rule_tge_ai_assistance:"#V ([Concept('concept_the_golden_eagle','TGE')])#! AI assistance"
+ setting_ai_assistance_yes:"AI Assistance #V ON#!"
+ setting_ai_assistance_yes_desc:"AI nations will get special events to help them reach plausible outcomes."
+ setting_ai_assistance_no:"AI Assistance #V OFF#!"
+ setting_ai_assistance_no_desc:"AI nations will be on a level playing field with the player."
+ 
+ 
  
  #Select Text
   GENERIC_FLAVOR_TEXT:0 "The Postclassic period is an age of opportunity, advancement, and warfare. What new challenges will the times bring?"

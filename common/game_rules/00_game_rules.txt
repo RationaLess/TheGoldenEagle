@@ -18,6 +18,16 @@
 #	}
 #}
 
+tge_ai_assistance = {
+	default = ai_assistance_yes
+
+	ai_assistance_yes = {
+		flag = ai_assistance_yes
+	}
+	ai_assistance_no = {
+	}
+}
+
 
 achievements = {
 	default = achievements_allowed

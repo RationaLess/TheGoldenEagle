@@ -6,6 +6,11 @@
 	weight = 100000000000 #Should be at the top forever always
 	progressbar = yes
 	
+	
+	modifiers_while_active = {
+		civ_level_modifier_settlement
+	}
+	
 	immediate = {
 		ig:ig_traditionalists = {
 			save_scope_as = traditionalists
@@ -63,6 +68,11 @@ je_urban_civ_level = {
 	should_be_pinned_by_default = yes
 	weight = 100000000000 #Should be at the top forever always
 	progressbar = yes
+	
+	
+	modifiers_while_active = {
+		civ_level_modifier_urban
+	}
 	
 	scripted_button = decision_ballgame_tournament_button
 	
@@ -124,6 +134,11 @@ je_metropolitan_civ_level = {
 	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
 	
 	scripted_button = decision_ballgame_tournament_button
+	
+	
+	modifiers_while_active = {
+		civ_level_modifier_metropolitan
+	}
 	
 	should_be_pinned_by_default = yes
 	weight = 100000000000 #Should be at the top forever always
