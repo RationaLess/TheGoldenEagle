@@ -123,7 +123,7 @@ pm_animal_pens_rabbits = {
 		}
 		
 		level_scaled = {
-			building_employment_farmers_add = 900
+			building_employment_farmers_add = 400
 		}
 		
 		unscaled = {

@@ -27,17 +27,24 @@ base_values = {
 	country_minting_add = 500
 
 	state_tax_capacity_add = 50
-	state_infrastructure_add = 5
+	state_infrastructure_add = 25
 	
 	state_poor_expected_sol = 5
 	state_middle_expected_sol = 10
 	state_rich_expected_sol = 15
 	state_expected_sol_from_literacy = 5
 	
-	state_farmers_investment_pool_contribution_add = 0.0005
-	state_merchants_investment_pool_contribution_add = 0.0015
-	state_artisans_investment_pool_contribution_add = 0.0015
-	state_aristocrats_investment_pool_contribution_add = 0.0005	
+	#state_farmers_investment_pool_contribution_add = 0.0005
+	#state_merchants_investment_pool_contribution_add = 0.0015
+	#state_artisans_investment_pool_contribution_add = 0.0015
+	#state_aristocrats_investment_pool_contribution_add = 0.0005	
+	
+	state_farmers_investment_pool_contribution_add = 0.05
+	state_merchants_investment_pool_contribution_add = 0.05
+	state_artisans_investment_pool_contribution_add = 0.05
+	state_nobles_investment_pool_contribution_add = 0.10
+	country_private_construction_allocation_mult = 0.5
+	
 	
 	state_unincorporated_starting_wages_mult = -0.15 # To balance for unincorporated states not paying taxes
 	
@@ -53,7 +60,7 @@ base_values = {
 	
 	state_urbanization_add = 100
 	
-	country_disable_investment_pool = yes
+	#country_disable_investment_pool = yes
 
 	country_company_throughput_bonus_add = 0.1
 	country_company_construction_efficiency_bonus_add = 0.25

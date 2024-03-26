@@ -51,7 +51,7 @@
 	on_complete = {
 		add_journal_entry = { type = je_urban_civ_level }
 		
-		triggger_event = { id = civilization_level.2 }
+		trigger_event = { id = civilization_level.2 }
 	}
 
 }
@@ -63,6 +63,8 @@ je_urban_civ_level = {
 	should_be_pinned_by_default = yes
 	weight = 100000000000 #Should be at the top forever always
 	progressbar = yes
+	
+	scripted_button = decision_ballgame_tournament_button
 	
 	immediate = {
 		ig:ig_traditionalists = {
@@ -111,7 +113,7 @@ je_urban_civ_level = {
 		add_journal_entry = { type = je_metropolitan_civ_level }
 
 		
-		triggger_event = { id = civilization_level.1 }
+		trigger_event = { id = civilization_level.1 }
 	}
 
 }
@@ -120,6 +122,8 @@ je_urban_civ_level = {
 je_metropolitan_civ_level = {
 	group = je_group_technology
 	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+	
+	scripted_button = decision_ballgame_tournament_button
 	
 	should_be_pinned_by_default = yes
 	weight = 100000000000 #Should be at the top forever always

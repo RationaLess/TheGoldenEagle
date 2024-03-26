@@ -1,5 +1,5 @@
 template hud_elements_alpha {
-	alpha = 1
+	alpha = 0.75
 }
 
 # Note: We are using a slightly modified version of this in outliner_framework:11, update that one as well if this one gets changed

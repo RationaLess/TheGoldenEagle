@@ -62,6 +62,13 @@
  ideology_mercantile:0 "Mercantile"
  ideology_mercantile_desc:0 "#lore This group believes that trade and commercial relations are the best way to go forward for our nation.#!"
 
+ ideology_sedentary_precedent:"Sedentary Precedent"
+ ideology_sedentary_precedent_desc:""
+ ideology_urban_precedent:"Urban Precedent"
+ ideology_urban_precedent_desc:""
+ ideology_metropolitan_precedent:"Metropolitan Precedent"
+ ideology_metropolitan_precedent_desc:""
+
    
   # flavor ideologies
 

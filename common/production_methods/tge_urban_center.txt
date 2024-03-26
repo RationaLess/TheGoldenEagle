@@ -4,6 +4,8 @@
 pm_disorganized_sprawl = {
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
 	
+	ai_weight = 0
+
 	country_modifiers = {
 	
 		workforce_scaled = {
@@ -35,6 +37,9 @@ pm_disorganized_sprawl = {
 pm_neighbourhood_sprawl = {
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
 	
+
+	ai_weight = 200
+
 	unlocking_technologies = { 
 		urban_planning
 	}
@@ -75,6 +80,9 @@ pm_neighbourhood_sprawl = {
 pm_guild_sprawl = {
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
 	
+	
+	ai_weight = 400
+
 	unlocking_technologies = { 
 		architecture
 	}
@@ -115,6 +123,9 @@ pm_guild_sprawl = {
 pm_district_sprawl = {
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
 	
+	
+	ai_weight = 800
+
 	unlocking_technologies = { 
 		great_projects
 	}

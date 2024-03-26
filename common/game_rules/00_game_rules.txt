@@ -1,22 +1,22 @@
-﻿difficulty = {
-	default = difficulty_normal 
-
-	difficulty_easy = {
-		flag = easy_difficulty
-	}
-
-	difficulty_normal = {
-		
-	}
-
-	difficulty_hard = {
-		flag = hard_difficulty
-	}
-
-	difficulty_very_hard = {
-		flag = very_hard_difficulty
-	}
-}
+﻿#difficulty = {
+#	default = difficulty_normal 
+#
+#	difficulty_easy = {
+#		flag = easy_difficulty
+#	}
+#
+#	difficulty_normal = {
+#		
+#	}
+#
+#	difficulty_hard = {
+#		flag = hard_difficulty
+#	}
+#
+#	difficulty_very_hard = {
+#		flag = very_hard_difficulty
+#	}
+#}
 
 
 achievements = {

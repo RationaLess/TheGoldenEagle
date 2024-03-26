@@ -1,0 +1,5 @@
+﻿ l_english:
+  decision_ballgame_tournament_button:"Host [Concept('concept_ballgame','Ōllamaliztli')] Tournament"
+  ballgame_tournament_events:"For the duration of the tournament, various related events may occur."
+  funding_ballgame:"Funding [Concept('concept_ballgame','Ōllamaliztli')] games"
+  ballgame_tournament_held:"Major [Concept('concept_ballgame','Ōllamaliztli')] Tourney"

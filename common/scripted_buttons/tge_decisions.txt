@@ -1,0 +1,50 @@
+decision_ballgame_tournament_button = {
+	name = "decision_ballgame_tournament_button"
+	desc = "decision_ballgame_tournament_button_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		
+			any_scope_building = {
+				is_building_type = building_ball_court
+			}
+			
+			hidden_trigger = {
+				NOT = {
+					has_modifier = funding_ballgame
+					}
+				}
+	}
+
+	effect = {
+	
+		custom_tooltip = { text = ballgame_tournament_events }
+		
+		add_modifier = { name = funding_ballgame
+			months = 12
+			multiplier = {
+				value = 1
+				
+				multiply = {
+					add = 1
+					add = {
+						value = total_population
+						subtract = 200000
+						divide = 50000
+						}
+					}
+				
+				min = 1
+				}
+			}
+		add_modifier = { 
+			name = ballgame_tournament_held
+			months = 12 
+			}
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}

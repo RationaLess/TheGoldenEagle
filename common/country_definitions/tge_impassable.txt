@@ -1,0 +1,8 @@
+
+DCTTXX = { #Texcoco Decentralized
+color = rgb { 88 111 204 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_WEST_TEXCOCO
+} 

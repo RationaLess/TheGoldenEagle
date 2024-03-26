@@ -196,3 +196,13 @@ modifier_funding_codex = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_paper_negative.dds
 	country_expenses_add = 1000
 	}
+
+#Ballgame
+funding_ballgame = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_influence_negative.dds
+	country_expenses_add = 1000
+	}
+ballgame_tournament_held = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_influence_positive.dds
+	country_monthly_loyalists_add = 0.002
+	}

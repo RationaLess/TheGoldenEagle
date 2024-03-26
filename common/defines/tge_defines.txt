@@ -151,3 +151,28 @@ NPops = {
 	POP_GROWTH_SOL_EQUILIBRIUM = @pop_growth_sol_equilibrium	# The Standard of Living where Birthrate and Mortality correspond, after which Mortality diminishes slower
 }
 ### End Pop Growth Constant defines
+
+
+
+
+
+
+
+#TEMPORARY, For the sake of presentability
+NGraphics = {
+	FLAT_MAP_ZOOM_STEP = 0			# At which zoom step to fade to flat map
+	FLAT_MAP_FADE_SPEED = 1
+
+	
+	DISTANCE_FADE_START = 0f								# Height at which to start fading out when zooming in
+	DISTANCE_FADE_END = 0f
+
+		
+	PROVINCE_BORDER_FADE_NEAR = 0
+	PROVINCE_BORDER_FADE_FAR = 0
+	STATE_BORDER_FADE_NEAR = 0
+	STATE_BORDER_FADE_FAR = 0
+	IMPASSABLE_BORDER_FADE_NEAR = 0
+	IMPASSABLE_BORDER_FADE_FAR = 0
+	
+	}

@@ -1,4 +1,6 @@
 ﻿
+
+
 STATE_TENOCHTITLAN = {
     id = 1
     provinces = { "x874607" "xFEF904" }
@@ -111,7 +113,7 @@ STATE_NORTH_TEXCOCO = {
     subsistence_building = "building_gathering_grounds_animal_skin"
     provinces = { "x32F006" "x58E11A" "x7CF603" "x82571C" "x91520A" "x91601D" "xBB5B20" "xC5DF0E" "xCCE416" "xDB7C13" "xF1C320" "xF3BD0E" }
     arable_land = 29
-    arable_resources = { "bg_three_sisters" "bg_cotton_farms" "bg_animal_pens" }
+    arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
     capped_resources = {
         bg_obsidian_mining = 9
         bg_logging = 20
@@ -325,7 +327,7 @@ STATE_TEPEACA = {
 
     subsistence_building = "building_gathering_grounds_feathers"
     provinces = { "x37D62E" "x39571B" "x3CD80B" "x3EA022" "x3F482B" "x3FE810" "x44A818" "x46FB29" "x483900" "x4D4A2D" "x4E6A0A" "x56D51C" "x577B23" "x593806" "x68A725" "x6A5D27" "x77AF26" "x86CD07" "x87721A" "x89B01D" "x8EEE26" "x91C017" "xA7EA24" "xAB4532" "xB6752C" "xBF4424" "xCDDD2E" "xD2B61D" "xDFCC2F" "xE3630C" "xEA321E" "xEAAB26" "xF13C28" "xFBC225" "xFCB30D" }
-    arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
+    arable_resources = { "bg_three_sisters" "bg_animal_pens" }
 
     capped_resources = {
         bg_limestone_mining = 6
@@ -348,7 +350,7 @@ STATE_PUCTLAN = {
 STATE_COATZACOALCO = {
     id = 37
     provinces = { "x37EE1E" "x37EF1E" "x39EB14" "x3FEB27" "x418720" "x43FA15" "x447409" "x48C109" "x49E40C" "x4AD223" "x4D8D2B" "x4EA132" "x4EAF29" "x524B2F" "x52F010" "x5C6526" "x5F3624" "x6C9C19" "x785C29" "x80A602" "x839416" "x8E3E12" "x92FF2C" "x9A532F" "x9C9914" "x9F8504" "xA0FE2C" "xA48226" "xA6391F" "xA7C010" "xAA9500" "xB6A30D" "xBB5311" "xBEDB1B" "xBF4632" "xBFDA13" "xC1C41A" "xC23613" "xC2C41D" "xC4E511" "xC79609" "xC8781E" "xD27310" "xD36730" "xD44309" "xD9AD1B" "xDBED08" "xDEDF13" "xDF4A1C" "xDF8C0E" "xDFC727" "xE45611" "xE8C609" "xEB971B" "xFCA103" }
-    arable_resources = { "bg_three_sisters" "bg_cotton_farms" "bg_rubber" "bg_animal_pens" }
+    arable_resources = { "bg_three_sisters" "bg_cotton_farms" "bg_cocoa" "bg_rubber" "bg_animal_pens" }
     capped_resources = {
         bg_logging = 15
         bg_fishing = 10
@@ -398,7 +400,7 @@ STATE_PAPALOAPAN = {
 
     subsistence_building = "building_gathering_grounds_animal_skin"
     provinces = { "x3A531B" "x3DCE15" "x3F7019" "x436D1B" "x48AD13" "x4AD31F" "x4BFC1B" "x539600" "x58EA12" "x626D19" "x73DE1E" "x74581D" "x764C15" "x83A702" "x83AE14" "x898020" "x89D91F" "x8AE52F" "x8DEF1B" "x955126" "xA1D001" "xA5E917" "xA88715" "xBF8818" "xCC5A2F" "xCC8228" "xD35603" "xD89D0B" "xE0E805" "xE2990B" "xE5B612" "xE96724" "xED7013" "xF1AC2A" "xFD3C28" "xFE5018" }
-    arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
+    arable_resources = { "bg_three_sisters" "bg_cocoa" "bg_animal_pens" }
     capped_resources = {
         bg_limestone_mining = 5
     }
@@ -480,7 +482,7 @@ STATE_COASTAL_MIXTECA = {
     arable_land = 40
     arable_resources = { "bg_three_sisters" "bg_cotton_farms" "bg_animal_pens" }
     capped_resources = {
-        bg_turquoise_mining = 10
+        bg_turquoise_mining = 12
 
     }
     capped_resources = {
@@ -494,14 +496,14 @@ STATE_MIXTECA_ALTA = {
     subsistence_building = "building_gathering_grounds_dyes"
     id = 52
     provinces = { "x344205" "x373619" "x3B6E1C" "x3F8209" "x3FCA07" "x404A14" "x40891C" "x40DA31" "x457004" "x459A0F" "x483D2E" "x49FE08" "x4AE726" "x4C7322" "x4CFE1C" "x518706" "x53E212" "x56E82B" "x63B91D" "x63CB11" "x63EF22" "x6AE531" "x6D7006" "x70971F" "x726421" "x72B02F" "x73790C" "x7B7930" "x7E7A14" "x815E2E" "x858B11" "x86702E" "x86D013" "x87B80A" "x89A526" "x91A806" "x92D81B" "x936824" "x985731" "x99A11C" "x9AF50F" "xA28020" "xA76927" "xA9ED06" "xAB8729" "xAF3A16" "xB18314" "xB46531" "xBABD18" "xBB5114" "xC0AF1F" "xC4650B" "xC95806" "xCC3C17" "xCC7B1F" "xCFE012" "xD16A03" "xD26A17" "xD5D118" "xD74A1A" "xD9F80F" "xDE580B" "xDEDA0F" "xE44F03" "xE55C17" "xEAFF1B" "xEBAF2F" "xECDE2D" "xF56A17" "xF59A1E" "xF97213" "xFD3B1F" }
-    arable_resources = { "bg_three_sisters" "bg_cotton_farms" "bg_animal_pens" }
+    arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
     capped_resources = {
-        bg_turquoise_mining = 1
+        bg_turquoise_mining = 15
     }
     arable_land = 45
     capped_resources = {
         bg_logging = 37
-        bg_gold_mining = 10
+        bg_gold_mining = 12
     }
 }
 
@@ -550,7 +552,7 @@ STATE_TUTUTEPEC = {
     provinces = { "x3CC12A" "x45E607" "x538C1B" "x5AC011" "x5CF024" "x714019" "xA5D82C" "xA6B82E" "xA9840B" "xC1F408" "xCAF72E" "xCFC524" "xDE3606" "xECAC2E" "xECC80A" }
 
     arable_land = 26
-    arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
+    arable_resources = { "bg_three_sisters" "bg_cotton_farms" "bg_animal_pens" }
     capped_resources = {
         bg_turquoise_mining = 2
         bg_logging = 13
@@ -736,8 +738,8 @@ STATE_MITLA = {
     provinces = { "x335830" "x36500F" "x41F222" "x44AF32" "x4A9B0F" "x4AF80C" "x4B7D21" "x4D3B2A" "x4E4D23" "x4E7731" "x50C618" "x53E326" "x609C1E" "x6F4A1C" "x703520" "x71B314" "x845404" "x84970C" "x919831" "x933C2F" "x975C19" "xA36F31" "xAB8A1A" "xAEEF08" "xBA6C0E" "xC1BE29" "xC5352A" "xCB4016" "xE7370C" "xF2F718" "xF58D04" "xFC3219" "xFD652A" }
     subsistence_building = "building_gathering_grounds_animal_skin"
 
-    arable_land = 22
-    arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
+    arable_land = 24
+    arable_resources = { "bg_three_sisters" "bg_cotton_farms" "bg_animal_pens" }
     capped_resources = {
         bg_logging = 14
         bg_fishing = 11
@@ -746,15 +748,15 @@ STATE_MITLA = {
 
 STATE_POCHOTL = {
     id = 73
-    arable_land = 19
+    arable_land = 23
     provinces = { "x32BB1F" "x4AB02D" "x5B451A" "x5C821A" "x78F32E" "x7E6525" "xB5781A" "xB83328" "xBB4B03" "xC3AD14" "xD5F115" "xE28800" "xE5BD05" "xEF5721" "xFAF91A" "xFF6C10" }
-    arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
+    arable_resources = { "bg_three_sisters" "bg_cotton_farms" "bg_animal_pens" }
 
     capped_resources = {
         bg_gold_mining = 3
     }
     capped_resources = {
-        bg_logging = 9
+        bg_logging = 12
         bg_fishing = 9
     }
 }
@@ -775,11 +777,13 @@ STATE_UNUSED_ABABABABBABAB = {
 STATE_TOLUCA_VALLEY = {
     id = 76
     subsistence_building = "building_gathering_grounds_dyes"
-    arable_land = 38
+
     provinces = { "x32F526" "x4EB511" "x52ED0D" "x5F551D" "x61B328" "x6B3508" "x704617" "x709E18" "x747122" "x804E1A" "x824916" "x86602F" "x8CB41C" "x8EE90B" "x90F708" "x916B07" "x92361D" "x93362D" "x973312" "x9AF824" "xA6962A" "xA7A112" "xA8AB07" "xAB9110" "xB17E31" "xB1D217" "xB4AF28" "xB7C10D" "xB7D20A" "xBCDD31" "xC0B310" "xC2A220" "xC4A501" "xD25216" "xD49028" "xDB9827" "xDF9215" "xE7F725" "xE98718" "xEC350F" "xEE3511" "xEFA312" "xF4F228" }
+    arable_land = 38
     arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
     capped_resources = {
         bg_logging = 32
+        bg_limestone_mining = 16
     }
 }
 
@@ -816,7 +820,7 @@ STATE_HUASTECAPAN = {
     id = 83
     subsistence_building = "building_gathering_grounds_animal_skin"
     provinces = { "x3D4722" "x426721" "x43DA27" "x445B17" "x49E70F" "x4C7D09" "x4DFF1F" "x55B313" "x575F1C" "x5CD931" "x664015" "x677025" "x6B9F1E" "x6CCC1C" "x72F914" "x77CC12" "x784A04" "x793A2C" "x7BC310" "x7EEA0B" "x7F7C29" "x80B617" "x82BC14" "x8FD629" "x92FB1E" "x97FF2F" "x9DEE1E" "xA09F28" "xA5B716" "xA66F0B" "xA83904" "xAA4A02" "xAA5C27" "xACAC29" "xB3B112" "xB5E100" "xB84904" "xB9CA1F" "xBAC008" "xBEE81E" "xC28426" "xC7531D" "xC8B602" "xCBD207" "xCC600E" "xCC8C2F" "xD0FE2F" "xD28001" "xD2C805" "xD4CE22" "xD66330" "xDB3308" "xDDCE08" "xDE432F" "xE17522" "xE6E119" "xE93A17" "xE96931" "xEFD322" "xF14307" "xFA3513" }
-    arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
+    arable_resources = { "bg_three_sisters" "bg_animal_pens" "bg_cotton_farms" }
 
     capped_resources = {
         bg_logging = 35
@@ -969,6 +973,12 @@ STATE_XALISCO = {
     id = 163
     provinces = { "x3D8915" "x438C26" "x43C217" "x457003" "x46F927" "x517331" "x536F03" "x599D06" "x5DE11C" "x5FD830" "x61FF29" "x65CD02" "x686109" "x6B8D01" "x6BAB16" "x76AD20" "x77CB1A" "x78BC0F" "x78E617" "x7B4C2D" "x7C7229" "x7F4D1F" "x7FA530" "x816F0D" "x81DC09" "x81F70D" "x839131" "x9A7914" "x9C3931" "xA5D106" "xA69025" "xAAAE17" "xB6FC28" "xBD5D22" "xBE510A" "xBEC30B" "xBFC631" "xC0CF1F" "xC43302" "xC5540A" "xCAB209" "xCCB417" "xCD6A13" "xCE5527" "xCF4B12" "xD0C828" "xD3DC19" "xD4CC2F" "xD53C10" "xD89D2E" "xDB4C21" "xE3B526" "xE7410E" "xE97925" "xEA6F2F" "xEC6C23" "xEF9807" "xF04B2E" "xF0BF0C" "xF17132" "xF4852E" "xF4CA2C" "xF8F518" "xF9BD0D" "xF9F314" "xFBF632" "xFCA504" }
     arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
+    arable_land = 25
+    capped_resources = {
+        bg_logging = 16
+        bg_turquoise_mining = 4
+        bg_fishing = 12
+    }
 }
 
 STATE_MAZATLAN = {
@@ -1006,6 +1016,7 @@ STATE_COAHUILTECAN = {
     provinces = { "x356B17" "x376A22" "x3B971A" "x3DCD18" "x447128" "x4C6C05" "x54E81D" "x564527" "x573F15" "x576709" "x5A9730" "x5B9411" "x617532" "x61E702" "x67A110" "x6D3928" "x703518" "x73771C" "x73B506" "x75602C" "x793B02" "x81B90C" "x82F32C" "x89F520" "x8AA814" "x8BE009" "x8C3D1C" "x8DAF1D" "x8DB012" "x8EC410" "x90B229" "x917022" "x929231" "x938807" "x95B527" "x96C800" "x98B500" "x9B8019" "x9BD221" "x9CCF17" "xA2DF32" "xA34F2F" "xA58526" "xA79008" "xA8930A" "xACD22F" "xB49F1D" "xB4E91F" "xB6F628" "xB79803" "xB8F430" "xBAD700" "xBEF42D" "xC1EC03" "xC33C0F" "xC37520" "xC38422" "xCE9525" "xE06916" "xE0B02E" "xE13A06" "xE2991F" "xE2BB04" "xE49F1C" "xE8890D" "xEDCE1F" "xEDDA09" "xF2CC21" "xF4AB18" "xF9650F" "xFFAC28" }
     arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
 }
+
 
 
 

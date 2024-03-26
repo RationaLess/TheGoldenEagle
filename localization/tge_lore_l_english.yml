@@ -11,6 +11,8 @@
   concept_carribean:"Carribean"
   concept_carribean_desc:""
   
+  decision_ballgame_tournament_button:"Host [Concept('concept_ballgame','Ōllamaliztli')] Tournament"
+  
   concept_three_sisters:"Three Sisters"
   concept_three_sisters_desc:"The three sisters - being maize, squash and beans - are companion plants intercropped together throughout the americas, being able to feed large populations even in lower soil quality regions like [concept_mesoamerica]. Not only does this combination provide a balanced diet, it also preserves soil health and lets the individual sisters support each other through the growing process. The maize can act as a trellise for the beans, which in turn fix nitrogen in the soil. Squash, through it's large leaves, is able to stop weeds from growing around the intercrop."
   

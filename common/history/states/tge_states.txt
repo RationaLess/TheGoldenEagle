@@ -308,10 +308,6 @@
 	
 	##South Nahua
 	s:STATE_TLACOTEPEC = {
-		create_state = {
-			country = c:TLTP
-			owned_provinces = { "x3BC930" "x3DA520" "x4DD913" "x4EBE13" "x50EF25" "x5F3922" "x66B530" "x8E5132" "x97E71D" "x9A7419" "xAA6821" "xC7A632" "xECFC0C" "xEF8105" "xF1E623" }
-		}
 	}
 	s:STATE_ACAPOLCO = {
 		create_state = {
@@ -320,16 +316,8 @@
 		}
 	}
 	s:STATE_TIXTLA = {
-		create_state = {
-			country = c:TXTL
-			owned_provinces = { "x44890A" "x52582A" "x5B591C" "x5DAD18" "x62D130" "x664D28" "x7EE904" "x965D09" "x9D8309" "xB0D925" "xC19025" "xC9660E" "xCF5005" "xDDEC1E" "xE36307" "xF0A42B" "xF8E52E" }
-		}
 	}
 	s:STATE_NOCHTEPEC = {
-		create_state = {
-			country = c:NOCH
-			owned_provinces = { "x464701" "x4F7907" "x52341C" "x52500E" "x608720" "x69912E" "x9B6A0E" "xA1EA32" "xA47525" "xBBEA09" "xBF8925" "xD7EE11" "xE55608" "xE9960F" "xEB7207" "xFA902B" }
-		}
 	}
 	s:STATE_HUANIMARO = {
 		create_state = {
@@ -414,12 +402,29 @@
 	
 	#Cuitlateca
 	
-	s:STATE_NOCHISTLAN = {
-		create_state = {
-			country = c:NCHI
-			owned_provinces = { "x35981A" "x42D01D" "x43FE1B" "x446228" "x47662E" "x4DCD32" "x4FDF2C" "x51652A" "x6CE305" "x82E722" "x83B319" "x83B819" "x87BA12" "x89412D" "x8B9822" "x90C605" "x98A324" "x99D818" "x9DE710" "x9F451F" "xA35D21" "xB8F412" "xC1E000" "xC54C01" "xC6D82F" "xDC4C1D" "xF1FD21" "xF6AE30" }
+	s:STATE_GUERRERO = {
+			create_state = {
+				country = c:NCHI
+				owned_provinces = { "x35981A" "x42D01D" "x43FE1B" "x446228" "x47662E" "x4DCD32" "x4FDF2C" "x51652A" "x6CE305" "x82E722" "x83B319" "x83B819" "x87BA12" "x89412D" "x8B9822" "x90C605" "x98A324" "x99D818" "x9DE710" "x9F451F" "xA35D21" "xB8F412" "xC1E000" "xC54C01" "xC6D82F" "xDC4C1D" "xF1FD21" "xF6AE30" }
+			}
+			create_state = {
+				country = c:TXTL
+				owned_provinces = { "x44890A" "x52582A" "x5B591C" "x5DAD18" "x62D130" "x664D28" "x7EE904" "x965D09" "x9D8309" "xB0D925" "xC19025" "xC9660E" "xCF5005" "xDDEC1E" "xE36307" "xF0A42B" "xF8E52E" }
+			}
+			create_state = {
+				country = c:TLTP
+				owned_provinces = { "x3BC930" "x3DA520" "x4DD913" "x4EBE13" "x50EF25" "x5F3922" "x66B530" "x8E5132" "x97E71D" "x9A7419" "xAA6821" "xC7A632" "xECFC0C" "xEF8105" "xF1E623" }
+			}
+			create_state = {
+				country = c:NOCH
+				owned_provinces = { "x464701" "x4F7907" "x52341C" "x52500E" "x608720" "x69912E" "x9B6A0E" "xA1EA32" "xA47525" "xBBEA09" "xBF8925" "xD7EE11" "xE55608" "xE9960F" "xEB7207" "xFA902B" }
+			}
+			create_state = {
+				country = c:CUTZ
+				owned_provinces = { "x37941F" "x38E31D" "x424B02" "x546403" "x61CC2B" "x71472F" "x818515" "x84682A" "x88660B" "x95AF32" "x95D025" "x9E8518" "xA64E1B" "xA66110" "xD06A2B" "xD1C012" "xD2EF31" "xD44E1C" "xF37A02" "xF64815" "xFCA604" }
+			}
 		}
-	}
+	
 	s:STATE_IXTAPA = {
 		create_state = {
 			country = c:IXTP
@@ -431,10 +436,6 @@
 	#matlatzinca
 	
 	s:STATE_CUTZAMALA = {
-		create_state = {
-			country = c:CUTZ
-			owned_provinces = { "x37941F" "x38E31D" "x424B02" "x546403" "x61CC2B" "x71472F" "x818515" "x84682A" "x88660B" "x95AF32" "x95D025" "x9E8518" "xA64E1B" "xA66110" "xD06A2B" "xD1C012" "xD2EF31" "xD44E1C" "xF37A02" "xF64815" "xFCA604" }
-		}
 	}
 	s:STATE_TOLUCA_VALLEY = {
 		create_state = {
@@ -478,11 +479,11 @@
 		}
 		create_state = {
 			country = c:TCHI
-			owned_provinces = { "x35CF28" "x494904" "x4B6103" "x5BF728" "x5D992D" "x637B18"  "x73BD04"  "xA24307" "xA5FF04" "xB19F04" "xC74208" "xE16D12" "xF3D61D" "xF44204" }
+			owned_provinces = { "x35CF28" "x494904" "x4B6103" "x5BF728" "x5D992D" "x637B18"  "x73BD04"  "xA24307" "xA5FF04" "xB19F04" "xC74208" "xE16D12" "xF3D61D" "xF44204" "x6ABA1B" "x77DD08" }
 		}
 		create_state = {
 			country = c:TZSW
-			owned_provinces = { "x6ABA1B" "x77DD08" }
+			owned_provinces = {  }
 		}
 		create_state = {
 			country = c:METZ

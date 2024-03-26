@@ -305,23 +305,23 @@
 		activate_law = law_type:law_mercantile
 		}
 	c:NDC = {
-		effect_starting_technology_mesoamerica_rudimentary = yes
+		effect_starting_technology_mesoamerica_basic = yes
 		effect_starting_laws_mesoamerica_citystate = yes
 		}
 	c:THP = {
-		effect_starting_technology_mesoamerica_rudimentary = yes
+		effect_starting_technology_mesoamerica_basic = yes
 		effect_starting_laws_mesoamerica_citystate = yes
 		}
 	c:ICH = {
-		effect_starting_technology_mesoamerica_rudimentary = yes
+		effect_starting_technology_mesoamerica_basic = yes
 		effect_starting_laws_mesoamerica_citystate = yes
 		}
 	c:TXT = {
-		effect_starting_technology_mesoamerica_rudimentary = yes
+		effect_starting_technology_mesoamerica_basic = yes
 		effect_starting_laws_mesoamerica_citystate = yes
 		}
 	c:TTP = {
-		effect_starting_technology_mesoamerica_rudimentary = yes
+		effect_starting_technology_mesoamerica_basic = yes
 		effect_starting_laws_mesoamerica_citystate = yes
 		}
 	c:AYO = {

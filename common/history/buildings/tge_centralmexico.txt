@@ -6,7 +6,7 @@
 		region_state:ATA={
 			create_building={
 				building="building_government_administration"
-				level=5
+				level=3
 				reserves=1
 				}
 			create_building={
@@ -30,8 +30,13 @@
 				reserves=1
 				}
 			create_building={
-				building="building_cotton_farm"
-				level=3
+				building="building_animal_pens"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_agave_farm"
+				level=2
 				reserves=1
 				}
 			create_building={
@@ -40,11 +45,11 @@
 				}
 			create_building={
 				building="building_logging_camp"
-				level=3
+				level=1
 				}
 			create_building={
 				building="building_mudbrick_furnace"
-				level=2
+				level=1
 				}
 			create_building={
 				building="building_fishing_village"
@@ -52,7 +57,7 @@
 				}
 			create_building={
 				building="building_construction_sector"
-				level=2
+				level=1
 				}
 			}
 		}
@@ -65,7 +70,7 @@
 				}
 			create_building={
 				building="building_logging_camp"
-				level=4
+				level=1
 				reserves=1
 				}
 			create_building={
@@ -84,8 +89,13 @@
 				reserves=1
 				}
 			create_building={
-				building="building_cotton_farm"
-				level=2
+				building="building_animal_pens"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_agave_farm"
+				level=1
 				reserves=1
 				}
 			create_building={
@@ -117,7 +127,7 @@
 				reserves=1
 				}
 			create_building={
-				building="building_cotton_farm"
+				building="building_animal_pens"
 				level=2
 				reserves=1
 				}
@@ -142,20 +152,18 @@
 				reserves=1
 				}
 			create_building={
-				building="building_cotton_farm"
+				building="building_agave_farm"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_cotton_irrigated_farming" }
 				}
 			create_building={
 				building="building_logging_camp"
-				level=4
+				level=1
 				reserves=1
 				}
 			create_building={
 				building="building_jewelry"
-				level=3
-				activate_production_methods = {  }
+				level=2
 				}
 		}
 		region_state:AZC={
@@ -207,10 +215,14 @@
 				activate_production_methods={ "pm_maize_irrigated_farming" }
 				}
 			create_building={
-				building="building_cotton_farm"
+				building="building_animal_pens"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_cotton_irrigated_farming" }
+				}
+			create_building={
+				building="building_agave_farm"
+				level=1
+				reserves=1
 				}
 			create_building={
 				building="building_ball_court"
@@ -251,13 +263,12 @@
 				}
 			create_building={
 				building="building_three_sisters"
-				level=3
+				level=2
 				reserves=1
-				activate_production_methods={ "pm_maize_irrigated_farming" }
 				}
 			create_building={
-				building="building_cotton_farm"
-				level=2
+				building="building_agave_farm"
+				level=1
 				reserves=1
 				}
 		}
@@ -290,13 +301,18 @@
 				}
 			create_building={
 				building="building_three_sisters"
-				level=3
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_maize_irrigated_farming" }
 				}
 			create_building={
-				building="building_cotton_farm"
-				level=3
+				building="building_animal_pens"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_agave_farm"
+				level=1
 				reserves=1
 				}
 		}
@@ -329,7 +345,7 @@
 				}
 			create_building={
 				building="building_logging_camp"
-				level=2
+				level=1
 				reserves=1
 				}
 			create_building={
@@ -344,8 +360,13 @@
 				activate_production_methods={ "pm_maize_irrigated_farming" }
 				}
 			create_building={
-				building="building_cotton_farm"
-				level=3
+				building="building_animal_pens"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_agave_farm"
+				level=2
 				reserves=1
 				}
 		}
@@ -370,7 +391,7 @@
 				}
 			create_building={
 				building="building_logging_camp"
-				level=3
+				level=1
 				reserves=1
 				}
 			create_building={
@@ -380,7 +401,7 @@
 				}
 			create_building={
 				building="building_three_sisters"
-				level=3
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_maize_irrigated_farming" }
 				}
@@ -416,18 +437,22 @@
 				}
 			create_building={
 				building="building_fishing_village"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_chinampa"
 				level=2
 				reserves=1
 				}
 			create_building={
-				building="building_three_sisters"
-				level=3
+				building="building_animal_pens"
+				level=1
 				reserves=1
-				activate_production_methods={ "pm_maize_irrigated_farming" }
 				}
 			create_building={
-				building="building_cotton_farm"
-				level=2
+				building="building_agave_farm"
+				level=1
 				reserves=1
 				}
 		}
@@ -460,7 +485,12 @@
 				}
 			create_building={
 				building="building_chinampa"
-				level=3
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_animal_pens"
+				level=1
 				reserves=1
 				}
 			create_building={
@@ -510,17 +540,22 @@
 				}
 			create_building={
 				building="building_three_sisters"
-				level=4
+				level=3
 				reserves=1
 				}
 			create_building={
-				building="building_cotton_farm"
+				building="building_animal_pens"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_agave_farm"
 				level=2
 				reserves=1
 				}
 			create_building={
 				building="building_logging_camp"
-				level=2
+				level=1
 				reserves=1
 				}
 			create_building={
@@ -548,6 +583,16 @@
 				}
 			create_building={
 				building="building_three_sisters"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_animal_pens"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_agave_farm"
 				level=2
 				reserves=1
 				}
@@ -606,6 +651,16 @@
 				reserves=1
 				}
 			create_building={
+				building="building_animal_pens"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_agave_farm"
+				level=1
+				reserves=1
+				}
+			create_building={
 				building="building_tooling_workshop"
 				level=2
 				reserves=1
@@ -641,12 +696,22 @@
 				}
 			create_building={
 				building="building_logging_camp"
-				level=2
+				level=1
 				reserves=1
 				}
 			create_building={
 				building="building_three_sisters"
-				level=4
+				level=3
+				reserves=1
+				}
+			create_building={
+				building="building_animal_pens"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_agave_farm"
+				level=1
 				reserves=1
 				}
 			create_building={
@@ -670,7 +735,17 @@
 		region_state:TTN={
 			create_building={
 				building="building_three_sisters"
-				level=4
+				level=3
+				reserves=1
+				}
+			create_building={
+				building="building_animal_pens"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_limestone_mine"
+				level=1
 				reserves=1
 				}
 			create_building={
@@ -692,6 +767,11 @@
 		region_state:THI={
 			create_building={
 				building="building_three_sisters"
+				level=3
+				reserves=1
+				}
+			create_building={
+				building="building_animal_pens"
 				level=1
 				reserves=1
 				}
@@ -709,12 +789,17 @@
 		region_state:ICH={
 			create_building={
 				building="building_three_sisters"
+				level=3
+				reserves=1
+				}
+			create_building={
+				building="building_animal_pens"
 				level=1
 				reserves=1
 				}
 			create_building={
-				building="building_cotton_farm"
-				level=1
+				building="building_pottery"
+				level=2
 				reserves=1
 				}
 			create_building={
@@ -785,6 +870,11 @@
 				reserves=1
 				}
 			create_building={
+				building="building_animal_pens"
+				level=1
+				reserves=1
+				}
+			create_building={
 				building="building_tooling_workshop"
 				level=2
 				reserves=1
@@ -828,6 +918,11 @@
 				reserves=1
 				}
 			create_building={
+				building="building_animal_pens"
+				level=1
+				reserves=1
+				}
+			create_building={
 				building="building_tooling_workshop"
 				level=1
 				reserves=1
@@ -852,6 +947,11 @@
 			create_building={
 				building="building_three_sisters"
 				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_animal_pens"
+				level=1
 				reserves=1
 				}
 			create_building={
@@ -884,6 +984,11 @@
 				reserves=1
 				}
 			create_building={
+				building="building_animal_pens"
+				level=1
+				reserves=1
+				}
+			create_building={
 				building="building_clothing_workshop"
 				level=2
 				reserves=1
@@ -896,6 +1001,11 @@
 			create_building={
 				building="building_obsidian_mine"
 				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_pottery"
+				level=2
 				reserves=1
 				}
 			create_building={
@@ -912,6 +1022,16 @@
 		region_state:TLA={
 			create_building={
 				building="building_three_sisters"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_agave_farm"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_obsidian_mine"
 				level=1
 				reserves=1
 				}
@@ -929,6 +1049,16 @@
 		region_state:HCH={
 			create_building={
 				building="building_three_sisters"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_animal_pens"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_obsidian_mine"
 				level=1
 				reserves=1
 				}
@@ -1134,6 +1264,11 @@
 				reserves=1
 				}
 			create_building={
+				building="building_agave_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
 				building="building_tooling_workshop"
 				level=1
 				reserves=1
@@ -1156,6 +1291,11 @@
 				reserves=1
 				}
 			create_building={
+				building="building_agave_farm"
+				level=1
+				reserves=1
+				}
+			create_building={
 				building="building_tooling_workshop"
 				level=1
 				reserves=1
@@ -1175,6 +1315,11 @@
 			create_building={
 				building="building_three_sisters"
 				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_animal_pens"
+				level=1
 				reserves=1
 				}
 			create_building={
