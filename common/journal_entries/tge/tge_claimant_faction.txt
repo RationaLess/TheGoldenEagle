@@ -1,4 +1,4 @@
-﻿je_claimant_faction = {
+﻿je_claimant_faction_old = {
 	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/generic_icons/in_opposition_icon.dds"
 	group = je_group_internal_affairs 

@@ -19,6 +19,11 @@ new_to_politics = {
 	character_loyalty_add = 50
 }
 
+discontented = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_influence_negative.dds
+	character_loyalty_add = -20
+}
+
 ruined_reputation = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
 	character_loyalty_add = -20
@@ -47,6 +52,14 @@ brave_reputation = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
 	character_popularity_add = 20
 }
+pious_reputation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_theocracy_positive.dds
+	character_popularity_add = 20
+}
+wise_reputation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	character_popularity_add = 20
+}
 blasphemous_reputation = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
 	character_popularity_add = -20
@@ -55,11 +68,79 @@ cowardly_reputation = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
 	character_popularity_add = -20
 }
-legendary_reputation = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	character_popularity_add = 40
+dim_reputation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	character_popularity_add = -20
 }
 terrifying_reputation = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
 	character_popularity_add = -20
 }
+
+deviant_in_government = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_theocracy_negative.dds
+	interest_group_approval_add = -3
+	}
+
+deviant_in_government = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_theocracy_negative.dds
+	interest_group_approval_add = -3
+	}
+
+festival_host = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_theocracy_positive.dds
+	character_popularity_add = 40
+	}
+
+newfound_religious_fervor = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_theocracy_negative.dds
+	interest_group_ig_traditionalists_pop_attraction_mult = 0.5
+	}
+
+spearheaded_research = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_engineer_positive.dds
+	character_popularity_add = 40
+	character_loyalty_add = 10
+	}
+
+military_research_boon = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_engineer_positive.dds
+	country_military_tech_research_speed_mult = 0.5
+	}
+
+engineering_research_boon = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_engineer_positive.dds
+	country_production_tech_research_speed_mult = 0.5
+	}
+
+civic_research_boon = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_engineer_positive.dds
+	country_society_tech_research_speed_mult = 0.5
+	}
+
+research_stalled = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_engineer_negative.dds
+	country_weekly_innovation_mult = -0.5
+	}
+
+construction_charter = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_engineer_positive.dds
+	character_popularity_add = 30
+	character_loyalty_add = 20
+	}
+
+construction_doubled = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_engineer_positive.dds
+	state_construction_mult = 0.15
+	}
+
+
+radical_ig = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_bureaucracy_negative.dds
+	interest_group_approval_add = -15
+	}
+
+loyalist_ig = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_bureaucracy_positive.dds
+	interest_group_approval_add = 10
+	}

@@ -17,7 +17,7 @@ character_events.1001 = { #Eureka Moment (Innovative/Poet becomes Polymath)
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
 
-	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	icon = "gfx/interface/icons/event_icons/event_newspaper_tge.dds"
 
 	trigger = {
 		has_technology_researched = academia
@@ -252,7 +252,7 @@ character_events.1005 = { #Accused of Nagualism
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
 
-	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	icon = "gfx/interface/icons/event_icons/event_newspaper_tge.dds"
 
 	trigger = {
 	}
@@ -295,7 +295,7 @@ character_events.1006 = { #Accused of Sodomy
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
 
-	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	icon = "gfx/interface/icons/event_icons/event_newspaper_tge.dds"
 
 	trigger = {
 	}
@@ -303,6 +303,7 @@ character_events.1006 = { #Accused of Sodomy
 	immediate = {
 		random_scope_character = {
 			limit = {
+				NOT = { has_role = ruler }
 				NOT = { has_variable = sodomite }
 				}
 			save_scope_as = sodomite
@@ -326,7 +327,7 @@ character_events.1006 = { #Accused of Sodomy
 		scope:sodomite = {
 			add_modifier = {
 				name = blasphemous_reputation
-				multiply = 0.5
+				multiplier = 0.5
 			}
 			add_modifier = {
 				name = saved_reputation 
@@ -336,4 +337,519 @@ character_events.1006 = { #Accused of Sodomy
 			value = 0.05
 			}
 	}
+}
+
+character_events.1007 = { #Fornicated with a slave
+	type = country_event
+	placement = root
+
+	title = character_events.1007.t
+	desc = character_events.1007.d
+	flavor = character_events.1007.f
+
+	duration = 3
+
+	gui_window = event_window_1char_tabloid
+
+	left_icon = scope:character
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper_tge.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		random_scope_character = {
+			limit = {
+				NOT = { 
+					has_role = ruler
+					has_trait = child
+					OR = {
+						has_trait = bigoted
+						has_trait = reserved
+						}
+					}
+				}
+			save_scope_as = character
+		}
+	}
+
+	option = {
+		default_option = yes
+		name = character_events.1007.a
+		scope:character = {
+			add_modifier = {
+				name = blasphemous_reputation
+			}
+		}
+	}
+	
+	option = {
+		default_option = yes
+		name = character_events.1007.b
+		scope:character = {
+			add_modifier = {
+				name = blasphemous_reputation
+				multiplier = 0.5
+			}
+			add_modifier = {
+				name = saved_reputation 
+			}
+		}
+		ig:ig_traditionalists = {
+			add_modifier = {
+				name = deviant_in_government
+				months = 120
+				}
+			}
+	}
+	
+	
+}
+
+
+character_events.1008 = { #Festival
+	type = country_event
+	placement = root
+
+	title = character_events.1008.t
+	desc = character_events.1008.d
+	flavor = character_events.1008.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/festival_meso.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper_tge.dds"
+
+	trigger = {
+		var:civilization_level >= 3
+		any_scope_character = {
+			limit = {
+				has_role = politician
+				OR = {
+					has_trait = ambitious
+					has_trait = pious
+					}
+				}
+			}
+	}
+
+	immediate = {
+		random_scope_character = {
+			limit = {
+				has_role = politician
+				OR = {
+					has_trait = ambitious
+					has_trait = pious
+					}
+				}
+			save_scope_as = character
+		}
+	}
+
+	option = {
+		default_option = yes
+		name = character_events.1008.a
+		add_loyalists = {
+			value = 0.05
+			}
+		scope:character = {
+			add_modifier = {
+				name = festival_host
+			}
+		}
+		add_modifier = {
+				name = newfound_religious_fervor
+				months = 240
+			}
+	}
+	
+}
+
+
+character_events.1009 = { #Researcher
+	type = country_event
+	placement = root
+
+	title = character_events.1009.t
+	desc = character_events.1009.d
+	flavor = character_events.1009.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/mesoamerica_bean_counter.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper_tge.dds"
+
+	trigger = {
+		var:civilization_level >= 3
+		has_researchable_technology = yes
+	}
+
+	immediate = {
+		random_scope_character = {
+			limit = {
+				has_role = politician
+				}
+			save_scope_as = character
+		}
+	}
+
+	option = {
+		default_option = yes
+		name = character_events.1009.a
+		scope:character = {
+			add_modifier = {
+				name = spearheaded_research
+			}
+		}
+		random_list = {
+			20 = {
+				add_modifier = {
+					name = military_research_boon
+					months = 240
+					}
+				}
+			20 = {
+				add_modifier = {
+					name = civic_research_boon
+					months = 240
+					}
+				}
+			20 = {
+				add_modifier = {
+					name = engineering_research_boon
+					months = 240
+					}
+				}
+			40 = {
+				add_modifier = {
+					name = research_stalled
+					months = 240
+					}
+				}
+			}
+		random_list = {
+			90 = { }
+			10 = {
+				scope:character = {
+					add_trait = polymath
+					}
+				}
+			}
+		
+		
+	}
+	option = {
+		default_option = yes
+		name = character_events.1009.b
+		
+		scope:character = {
+			add_modifier = {
+				name = discontented
+				}
+			}
+		
+	}
+	
+}
+
+character_events.1010 = { #Generalist Gaming
+	type = country_event
+	placement = root
+
+	title = character_events.1010.t
+	desc = character_events.1010.d
+	flavor = character_events.1010.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/mesoamerica_bean_counter.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper_tge.dds"
+
+	trigger = {
+		var:civilization_level >= 3
+		any_scope_character = {
+			OR = {
+						has_trait = persistent
+						has_trait = arrogant
+					}
+			}
+	
+	}
+
+	immediate = {
+		random_scope_character = {
+			limit = {
+				has_role = politician
+				OR = {
+						has_trait = persistent
+						has_trait = arrogant
+					}
+				}
+			save_scope_as = character
+		}
+	}
+
+	option = {
+		default_option = yes
+		name = character_events.1010.a
+		scope:character = {
+			add_modifier = {
+				name = construction_charter
+			}
+		}
+		add_modifier = {
+			name = construction_doubled
+			months = 240
+		}
+		add_radicals = {
+				value = 0.1
+				interest_group = ig:ig_governors
+			}
+		
+	}
+	option = {
+		default_option = yes
+		name = character_events.1010.b
+		
+		scope:character = {
+			add_modifier = {
+				name = discontented
+				}
+			}
+		
+	}
+	
+}
+
+character_events.1011 = { #Disloyal IG
+	type = country_event
+	placement = root
+
+	title = character_events.1011.t
+	desc = character_events.1011.d
+	flavor = character_events.1011.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/mesoamerica_warrior_rally.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	#on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper_tge.dds"
+
+	trigger = {
+		any_scope_character = {
+			get_loyalty <= -50
+			has_role = politican
+			NOT = {
+				has_role = ruler
+				has_role = heir
+				}
+			this.interest_group = {
+				is_marginal = no
+				
+				NOT = { has_modifier = radical_ig }
+				}
+			}
+	
+	}
+
+	immediate = {
+		random_scope_character = {
+			limit = {
+				has_role = politician
+				get_loyalty <= -50
+				
+					NOT = {
+						has_role = ruler
+						has_role = heir
+						}
+				
+				this.interest_group = {
+					is_marginal = no
+					NOT = { has_modifier = radical_ig }
+					}
+				
+				}
+			save_scope_as = character
+			
+			this.interest_group = {
+				save_scope_as = ig
+				}
+		}
+	}
+
+	option = {
+		default_option = yes
+		name = character_events.1011.a
+		scope:ig = {
+				hidden_effect = {
+				remove_modifier = radical_ig
+				remove_modifier = loyalist_ig
+				}
+				add_modifier = {
+					name = radical_ig
+					months = 120
+				}
+			}
+		
+	}
+	
+}
+
+character_events.1012 = { #Loyal IG
+	type = country_event
+	placement = root
+
+	title = character_events.1012.t
+	desc = character_events.1012.d
+	flavor = character_events.1012.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/diplomacy_meso.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	#on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper_tge.dds"
+
+	trigger = {
+		any_scope_character = {
+			get_loyalty >= 50
+			has_role = politican
+			NOT = {
+				has_role = ruler
+				has_role = heir
+				}
+			this.interest_group = {
+				is_marginal = no
+				
+				NOT = { has_modifier = loyalist_ig }
+				}
+			}
+	
+	}
+
+	immediate = {
+		random_scope_character = {
+			limit = {
+				has_role = politician
+				get_loyalty >= -50
+				
+					NOT = {
+						has_role = ruler
+						has_role = heir
+						}
+				
+				this.interest_group = {
+					is_marginal = no
+					NOT = { has_modifier = loyalist_ig }
+					}
+				
+				}
+			save_scope_as = character
+			
+			this.interest_group = {
+				save_scope_as = ig
+				}
+		}
+	}
+
+	option = {
+		default_option = yes
+		name = character_events.1012.a
+		scope:ig = {
+				hidden_effect = {
+				remove_modifier = radical_ig
+				remove_modifier = loyalist_ig
+				}
+				add_modifier = {
+					name = loyalist_ig
+					months = 120
+				}
+			}
+		
+	}
+	
+}
+
+
+
+character_events.1013 = { #Neutral IG
+	type = country_event
+	placement = root
+
+	title = character_events.1013.t
+	desc = character_events.1013.d
+	flavor = character_events.1013.f
+
+	duration = 3
+
+	event_image = {
+		texture = "gfx/event_pictures/diplomacy_meso.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	#on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper_tge.dds"
+
+	trigger = {
+		any_interest_group = {
+			OR = {
+				has_modifier = loyalist_ig
+				has_modifier = radical_ig
+				}
+			}
+	}
+
+	immediate = {
+		random_interest_group = {
+			limit = {
+				OR = {
+					has_modifier = loyalist_ig
+					has_modifier = radical_ig
+					}
+				}
+			save_scope_as = ig
+			}
+	}
+
+	option = {
+		default_option = yes
+		name = character_events.1013.a
+		scope:ig = {
+				custom_tooltip = {
+				text = character_events.1013.tooltip
+				remove_modifier = radical_ig
+				remove_modifier = loyalist_ig
+				}
+			}
+	}
+	
 }

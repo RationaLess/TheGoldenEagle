@@ -1,0 +1,78 @@
+﻿je_council_of_music = {
+	icon = "gfx/interface/icons/goods_icons/knowledge.dds"
+
+	group = je_group_internal_affairs
+
+	should_be_pinned_by_default = yes 
+	
+	is_shown_when_inactive = {	
+		var:civilization_level >= 3
+		
+		}
+	
+	possible = {
+		any_scope_character = {
+			has_role = politician
+			has_trait = polymath
+			popularity >= 100
+		}	
+	}
+
+	}
+	
+je_golden_reign = {
+	icon = "gfx/interface/icons/generic_icons/employed.dds"
+
+	group = je_group_internal_affairs
+
+	should_be_pinned_by_default = yes 
+	
+	is_shown_when_inactive = {	
+		always = yes
+		}
+	
+	possible = {
+		pop_loyalist_fraction >= 0.2
+		ruler = {
+			popularity >= 100
+		}	
+	}
+
+	}
+	
+je_dark_reign = {
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	group = je_group_internal_affairs
+
+	should_be_pinned_by_default = yes 
+	
+	is_shown_when_inactive = {	
+		always = yes
+		}
+	
+	possible = {
+		pop_radical_fraction >= 0.2
+		ruler = {
+			popularity <= -100
+		}	
+	}
+
+	}
+	
+je_claimant_faction = {
+	icon = "gfx/interface/icons/military_icons/attrition.dds"
+
+	group = je_group_crises 
+
+	should_be_pinned_by_default = yes 
+	
+	is_shown_when_inactive = {	
+		always = yes
+		}
+	
+	possible = {
+		always = no	
+	}
+
+	}

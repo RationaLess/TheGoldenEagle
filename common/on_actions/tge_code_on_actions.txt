@@ -65,10 +65,30 @@ tge_monthly_pulse = {
 	random_events = {
 		100 = 0
 
-		#Character Events
+		#Loyalty Mechanics - should trigger often first
+		999 = character_events.1011
+		999 = character_events.1012
+		999 = character_events.1013
+		
+		#Character Events - Personal Situations
 		10 = character_events.1005
 		10 = character_events.1006
+		10 = character_events.1007
 		10 = character_events.1102
+		
+		#Character Events - Administration
+		
+		#Character Events - Matters of the Realm
+		
+		#Character Events - Characters Doing Stuff
+		10 = character_events.1008
+		10 = character_events.1009
+		10 = character_events.1010
+		
+		#Character Events - Ruler
+		
+		#Character Events - Heir
+		
 
 	}
 

@@ -129,6 +129,6 @@
  modifier_character_loyalty_add:"[concept_loyalty]"
  modifier_character_loyalty_add_desc:"The [concept_loyalty] of a character."
  concept_loyalty:"Loyalty"
- concept_loyalty_desc:"The loyalty of a character represents how willing they are to serve the state rather than their own interest. The loyalty of [concept_interest_group] leaders will impact their [concept_approval].\n\nDisloyal characters can and will act against the state."
+ concept_loyalty_desc:"The loyalty of a character represents how willing they are to serve the state rather than their own interest. The loyalty of [concept_interest_group] leaders will impact their [concept_approval].\n\nCharacters with Loyalty above #V 50#! will try to help the state, while characters below #V -50#! will try to sabotage it."
  CHARACTER_LOYALTY:"[GetModifier.GetFullEntryDescFor('character_loyalty_add')]"
  

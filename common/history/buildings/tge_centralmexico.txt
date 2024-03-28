@@ -1085,6 +1085,21 @@
 				reserves=1
 				}
 			create_building={
+				building="building_agave_farm"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_animal_pens"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_pottery"
+				level=2
+				reserves=1
+				}
+			create_building={
 				building="building_tooling_workshop"
 				level=2
 				reserves=1
@@ -1096,7 +1111,7 @@
 				}
 			create_building={
 				building="building_temple"
-				level=1
+				level=2
 				reserves=1
 				}
 				
