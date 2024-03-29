@@ -7,6 +7,9 @@
   "tags" : [],
   "relationships" : [],
   "game_custom_data" : {
+    "replace_paths" : [
+      "common/journal_entries"
+    ],
     "multiplayer_synchronized" : true
   }
 }
