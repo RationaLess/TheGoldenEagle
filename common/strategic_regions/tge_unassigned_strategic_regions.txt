@@ -1,0 +1,8 @@
+﻿#TODO assign them states then delete this
+
+region_unassigned = {
+	graphical_culture = "meso"
+	capital_province = xD2CA25 
+	map_color = rgb{ 255 255 255 } 
+	states = { STATE_UNASSIGNED }
+}

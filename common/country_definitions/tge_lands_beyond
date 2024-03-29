@@ -1,0 +1,14 @@
+﻿#Temporary nation for undevved states
+#TODO remove this once all states are assigned
+
+ZZZ = { #Axolotl Spears Guild
+
+	color = rgb { 255 255 255 }
+
+	tier = hegemon
+
+	country_type = decentralized
+
+	capital = STATE_UNASSIGNED
+
+}
