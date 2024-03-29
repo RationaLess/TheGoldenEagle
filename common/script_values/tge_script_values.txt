@@ -13,11 +13,14 @@ settlement_amount = {
 subjects_population = {
 	value = 0
 	
-	every_country = { 
-		limit = {
-			is_subject_of = root
+	if = {
+		limit = { exists = root }
+		every_country = { 
+			limit = {
+				is_subject_of = root
+			}
+			add = total_population
 		}
-		add = total_population
 	}
 }
 
