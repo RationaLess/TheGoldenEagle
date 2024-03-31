@@ -52,3 +52,8 @@ mesoamerica_warrior_rally = {
 	video = "gfx/event_pictures/mesoamerica_warrior_rally.bk2"
 	audio = "event:/SFX/Events/europenorthamerica/before_the_battle"
 }
+
+northamerica_canoe_expedition = {
+	video = "gfx/event_pictures/northamerica_canoe_expedition.bk2"
+	audio = "event:/SFX/Events/unspecific/whaling"
+}

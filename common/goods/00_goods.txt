@@ -27,7 +27,7 @@ obsidian_weapons = {
 ##########
 
 staple_crop = {
-	texture = "gfx/interface/icons/goods_icons/maize.dds"
+	texture = "gfx/interface/icons/goods_icons/staple_crops.dds"
 	cost = 20
 	category = staple
 	
@@ -185,8 +185,9 @@ knowledge = {
 	
 	consumption_tax_cost = 200
 }
+
 poetry = {
-	texture = "gfx/interface/icons/goods_icons/knowledge.dds"
+	texture = "gfx/interface/icons/goods_icons/poetry.dds"
 	cost = 30
 	category = staple
 	tradeable = no
@@ -361,7 +362,7 @@ luxury_pottery = {
 
 
 marine_goods = {
-	texture = "gfx/interface/icons/goods_icons/fish.dds"
+	texture = "gfx/interface/icons/goods_icons/marine_goods.dds"
 	cost = 50
 	category = luxury
 	
@@ -396,7 +397,7 @@ cocoa = {
 }
 
 intoxicants = {
-	texture = "gfx/interface/icons/goods_icons/tobacco.dds"
+	texture = "gfx/interface/icons/goods_icons/intoxicants.dds"
 	cost = 40
 	category = luxury
 	
@@ -407,7 +408,7 @@ intoxicants = {
 }
 
 salt = {
-	texture = "gfx/interface/icons/goods_icons/cocoa.dds"
+	texture = "gfx/interface/icons/goods_icons/salt.dds"
 	cost = 30
 	category = luxury
 	
@@ -418,7 +419,7 @@ salt = {
 }
 
 spices = {
-	texture = "gfx/interface/icons/goods_icons/cocoa.dds"
+	texture = "gfx/interface/icons/goods_icons/spices.dds"
 	cost = 30
 	category = luxury
 	
