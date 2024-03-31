@@ -24,7 +24,7 @@
 building_three_sisters = {
 	building_group = bg_three_sisters
 	
-	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
+	texture = "gfx/interface/icons/building_icons/farm_three_sisters.dds"
 	
 	required_construction = 3000
 	
@@ -48,7 +48,7 @@ building_three_sisters = {
 
 building_agave_farm = {
 	building_group = bg_agave_farms
-	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
+	texture = "gfx/interface/icons/building_icons/farm_agave.dds"
 	
 	required_construction = 3000
 
@@ -67,7 +67,7 @@ building_agave_farm = {
 
 building_animal_pens = {
 	building_group = bg_animal_pens
-	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
+	texture = "gfx/interface/icons/building_icons/farm_animal_pen.dds"
 	
 	required_construction = 3000
 

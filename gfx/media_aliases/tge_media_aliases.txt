@@ -29,16 +29,31 @@ mesoamerica_comet_sighted = {
 }
 
 #mesoamerica_nahua_starter = {
-#	video = "gfx/event_pictures/mesoamerica_comet_sighted.bk2"
+#	video = "gfx/event_pictures/mesoamerica_nahua_starter.bk2"
 #	audio = "event:/SFX/Events/misc/1Character_Banner"
 #}
 
-#mesoamerica_jungle_stranger = {
-#	video = "gfx/event_pictures/mesoamerica_comet_sighted.bk2"
-#	audio = "event:/SFX/Events/southamerica/slaves_night"
-#}
+mesoamerica_jungle_stranger = {
+	video = "gfx/event_pictures/mesoamerica_jungle_stranger.bk2"
+	audio = "event:/SFX/Events/southamerica/slaves_night"
+}
+
+mesoamerica_public_debate = {
+	video = "gfx/event_pictures/mesoamerica_public_debate.bk2"
+	audio = "event:/SFX/Events/asia/politician_parliament_motion"
+}
+
+mesoamerica_ruler_speaking = {
+	video = "gfx/event_pictures/mesoamerica_ruler_speaking.bk2"
+	audio = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+}
 
 mesoamerica_warrior_rally = {
 	video = "gfx/event_pictures/mesoamerica_warrior_rally.bk2"
 	audio = "event:/SFX/Events/europenorthamerica/before_the_battle"
+}
+
+northamerica_canoe_expedition = {
+	video = "gfx/event_pictures/northamerica_canoe_expedition.bk2"
+	audio = "event:/SFX/Events/unspecific/whaling"
 }

@@ -59,7 +59,7 @@ building_zoo = {
 		pmg_zoo
 	}
 
-	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
+	texture = "gfx/interface/icons/building_icons/zoo.dds"
 	
 	urbanization = 100
 	
@@ -82,7 +82,7 @@ building_garden = {
 		pmg_garden
 	}
 
-	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
+	texture = "gfx/interface/icons/building_icons/garden.dds"
 	
 	urbanization = 100
 	
