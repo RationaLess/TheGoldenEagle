@@ -1,4 +1,4 @@
-pmg_clothing_material = {
+﻿pmg_clothing_material = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_clothing_material_fabric

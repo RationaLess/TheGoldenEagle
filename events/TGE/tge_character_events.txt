@@ -246,7 +246,7 @@ character_events.1005 = { #Accused of Nagualism
 	duration = 3
 
 	event_image = {
-		image = "tension_meso"
+		video = "gfx/event_pictures/mesoamerica_jungle_stranger.bk2"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -255,6 +255,7 @@ character_events.1005 = { #Accused of Nagualism
 	icon = "gfx/interface/icons/event_icons/event_newspaper_tge.dds"
 
 	trigger = {
+		has_game_rule = fantasy_events_enabled
 	}
 
 	immediate = {
@@ -730,7 +731,7 @@ character_events.1012 = { #Loyal IG
 	duration = 3
 
 	event_image = {
-		texture = "gfx/event_pictures/diplomacy_meso.dds"
+		video = "gfx/event_pictures/mesoamerica_public_debate.bk2"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -811,7 +812,7 @@ character_events.1013 = { #Neutral IG
 	duration = 3
 
 	event_image = {
-		texture = "gfx/event_pictures/diplomacy_meso.dds"
+		video = "gfx/event_pictures/mesoamerica_public_debate.bk2"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -851,5 +852,835 @@ character_events.1013 = { #Neutral IG
 				}
 			}
 	}
+	
+}
+
+character_events.1014 = { #Duties Neglected
+	type = country_event
+	placement = root
+
+	title = character_events.1014.t
+	desc = character_events.1014.d
+	flavor = character_events.1014.f
+
+	duration = 3
+
+	gui_window = event_window_1char_tabloid
+
+	left_icon = scope:ruler
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper_tge.dds"
+
+	trigger = {
+		ruler = {
+			get_loyalty <= -50
+			}
+		NOT = { has_modifier = neglectful_leader }
+	}
+
+	immediate = {
+		random_scope_character = {
+			limit = {
+					has_role = ruler
+				}
+			save_scope_as = ruler
+		}
+	}
+
+	option = { #I suck :(
+		default_option = yes
+		name = character_events.1014.a
+		
+		hidden_effect = {
+			remove_modifier = attentive_leader
+			remove_modifier = neglectful_leader
+			}
+		
+		add_modifier = {
+			name = neglectful_leader
+			months = 120
+			}
+		}
+	}
+	
+character_events.1015 = { #Based? Based on what?
+	type = country_event
+	placement = root
+
+	title = character_events.1015.t
+	desc = character_events.1015.d
+	flavor = character_events.1015.f
+
+	duration = 3
+
+	gui_window = event_window_1char_tabloid
+
+	left_icon = scope:ruler
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper_tge.dds"
+
+	trigger = {
+		ruler = {
+			get_loyalty >= 50
+			}
+		NOT = { has_modifier = attentive_leader }
+	}
+
+	immediate = {
+		random_scope_character = {
+			limit = {
+					has_role = ruler
+				}
+			save_scope_as = ruler
+		}
+	}
+
+	option = { #I suckn't :)
+		default_option = yes
+		name = character_events.1015.a
+		
+		hidden_effect = {
+			remove_modifier = attentive_leader
+			remove_modifier = neglectful_leader
+			}
+		
+		add_modifier = {
+			name = attentive_leader
+			months = 120
+		}
+	}
+	
+	}
+	
+	
+
+character_events.1016 = { #I am an Oracle!
+	type = country_event
+	placement = root
+
+	title = character_events.1016.t
+	desc = character_events.1016.d
+	flavor = character_events.1016.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/mesoamerica_comet_sighted.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper_tge.dds"
+
+	trigger = {
+		has_game_rule = fantasy_events_enabled
+		
+		any_scope_character = {
+			OR = {
+				has_trait = pious
+				has_modifier = pious_reputation
+				}
+			NOT = { has_modifier = blasphemous_reputation }
+			}
+		
+	}
+
+	immediate = {
+		random_scope_character = {
+				limit = {
+				OR = {
+					has_trait = pious
+					has_modifier = pious_reputation
+					}
+				NOT = { has_modifier = blasphemous_reputation }
+				}
+			save_scope_as = oracle
+		}
+	}
+
+	option = {
+		default_option = yes
+		name = character_events.1016.a
+		
+		random_list = {
+		
+			40 = {
+					scope:oracle = {
+						add_trait = oracle
+					}
+				}
+			20 = {
+					scope:oracle = {
+						add_modifier = {
+							name = blasphemous_reputation
+							}
+					}
+				}
+		
+		}
+	}
+	option = {
+		default_option = yes
+		name = character_events.1016.b
+		random_list = {
+		
+			20 = {
+					scope:oracle = {
+						add_trait = oracle
+					}
+				}
+			40 = {
+					scope:oracle = {
+						add_modifier = {
+							name = blasphemous_reputation
+							}
+					}
+				}
+		
+		}
+	}
+}
+
+
+character_events.1017 = { #The duel
+	type = country_event
+	placement = root
+
+	title = character_events.1017.t
+	desc = character_events.1017.d
+	flavor = character_events.1017.f
+
+	duration = 3
+
+	gui_window = event_window_2char
+
+	left_icon = scope:duel_participant_1
+	right_icon = scope:duel_participant_2
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/2Characters"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+		NOT = { has_variable = duels_banned }
+		any_scope_character = {
+			is_busy = no
+			is_ruler = no
+			NOT = {
+				has_trait = cautious
+			}
+			age >= 18
+			count >= 2
+		}
+	}
+
+	immediate = {
+		random_scope_character = {
+			limit = {
+				is_busy = no
+				is_ruler = no
+				NOT = {
+					has_trait = cautious
+				}
+				age >= 18
+			}
+			save_scope_as = duel_participant_1
+		}
+
+		random_scope_character = {
+			limit = {
+				is_busy = no
+				is_ruler = no
+				NOT = { this = scope:duel_participant_1 }
+				NOT = {
+					has_trait = cautious
+				}
+				age >= 18
+			}
+			save_scope_as = duel_participant_2
+		}
+	}
+
+	option = { #Duel
+		default_option = yes
+
+		name = character_events.1017.a
+
+		random_list = {
+			50 = {
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								age >= 50
+							}
+						}
+						add = -10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								age >= 60
+							}
+						}
+						add = -5
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								age >= 70
+							}
+						}
+						add = -10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								has_trait = bandit
+							}
+						}
+						add = 10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								has_trait = wounded
+							}
+						}
+						add = -10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								has_trait = beetle_ear
+							}
+						}
+						add = -5
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								has_trait = kidney_stones
+							}
+						}
+						add = -5
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								has_trait = shellshocked
+							}
+						}
+						add = -5
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								has_role = general
+							}
+						}
+						add = -5
+					}
+				}
+				scope:duel_participant_1 = {
+					kill_character = yes
+				}
+				scope:duel_participant_2 = {
+					add_modifier = brave_reputation
+					}
+			}
+			50 = {
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								age >= 50
+							}
+						}
+						add = -10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								age >= 60
+							}
+						}
+						add = -5
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								age >= 70
+							}
+						}
+						add = -10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								has_trait = bandit
+							}
+						}
+						add = 10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								has_trait = wounded
+							}
+						}
+						add = -10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								has_trait = beetle_ear
+							}
+						}
+						add = -5
+					}
+				}
+
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								has_trait = kidney_stones
+							}
+						}
+						add = -5
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								has_trait = shellshocked
+							}
+						}
+
+						add = -5
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								has_role = general
+							}
+						}
+						add = 10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								has_role = admiral
+							}
+						}
+						add = 10
+					}
+				}
+				scope:duel_participant_1 = {
+					add_modifier = brave_reputation
+					}
+				scope:duel_participant_2 = {
+					kill_character = yes
+				}
+			}
+		}
+	}
+	
+}
+
+
+character_events.1018 = { #The literalist duel
+	type = country_event
+	placement = root
+
+	title = character_events.1018.t
+	desc = character_events.1018.d
+	flavor = character_events.1018.f
+
+	duration = 3
+
+	
+	event_image = {
+		video = "gfx/event_pictures/mesoamerica_public_debate.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/2Characters"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+		any_scope_character = {
+			is_busy = no
+			is_ruler = no
+			NOT = {
+				has_trait = senile
+			}
+			age >= 18
+			count >= 2
+		}
+	}
+
+	immediate = {
+		random_scope_character = {
+			limit = {
+				is_busy = no
+				is_ruler = no
+				NOT = {
+					has_trait = senile
+				}
+				age >= 18
+			}
+			save_scope_as = duel_participant_1
+		}
+
+		random_scope_character = {
+			limit = {
+				is_busy = no
+				is_ruler = no
+				NOT = { this = scope:duel_participant_1 }
+				NOT = {
+					has_trait = senile
+				}
+				age >= 18
+			}
+			save_scope_as = duel_participant_2
+		}
+	}
+
+	option = { #Duel
+		default_option = yes
+
+		name = character_events.1018.a
+
+		random_list = {
+			50 = {
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								age >= 50
+							}
+						}
+						add = -10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								age >= 60
+							}
+						}
+						add = -5
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								age >= 70
+							}
+						}
+						add = -10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								has_trait = innovative
+							}
+						}
+						add = 10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								has_trait = melancholic
+							}
+						}
+						add = 10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								has_trait = romantic
+							}
+						}
+						add = 10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								has_trait = tactful
+							}
+						}
+						add = 10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								has_trait = wrathful
+							}
+						}
+						add = -10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								has_trait = poet
+							}
+						}
+						add = 20
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								has_trait = literary
+							}
+						}
+						add = 10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								has_trait = erudite
+							}
+						}
+						add = 10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_1 = {
+								has_trait = polymath
+							}
+						}
+						add = 10
+					}
+				}
+				
+				scope:duel_participant_1 = {
+					add_modifier = wise_reputation
+					
+					random_list = {
+						1 = { add_trait = poet }
+						1 = { add_trait = erudite }
+						1 = { add_trait = literary }
+						1 = { add_trait = polymath }
+						}
+					
+				}
+				scope:duel_participant_2 = {
+					add_modifier = dim_reputation
+					random_list = {
+						1 = 0
+						1 = { add_trait = melancholic  }
+						}
+					
+					}
+			}
+			50 = {
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								age >= 50
+							}
+						}
+						add = -10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								age >= 60
+							}
+						}
+						add = -5
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								age >= 70
+							}
+						}
+						add = -10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								has_trait = innovative
+							}
+						}
+						add = 10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								has_trait = melancholic
+							}
+						}
+						add = 10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								has_trait = romantic
+							}
+						}
+						add = 10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								has_trait = tactful
+							}
+						}
+						add = 10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								has_trait = wrathful
+							}
+						}
+						add = -10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								has_trait = poet
+							}
+						}
+						add = 20
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								has_trait = literary
+							}
+						}
+						add = 10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								has_trait = erudite
+							}
+						}
+						add = 10
+					}
+				}
+				modifier = {
+					if = {
+						limit = {
+							scope:duel_participant_2 = {
+								has_trait = polymath
+							}
+						}
+						add = 10
+					}
+				}
+				
+				
+				scope:duel_participant_2 = {
+					add_modifier = wise_reputation
+					
+					random_list = {
+						1 = { add_trait = poet }
+						1 = { add_trait = erudite }
+						1 = { add_trait = literary }
+						1 = { add_trait = polymath }
+						}
+					
+				}
+				scope:duel_participant_1 = {
+					add_modifier = dim_reputation
+					random_list = {
+						1 = 0
+						1 = { add_trait = melancholic  }
+						}
+					
+					}
+			}
+		}
+	}
+
 	
 }

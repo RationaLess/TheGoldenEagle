@@ -4,7 +4,6 @@
 
 	production_methods = {
 		pm_wooden_buildings
-		pm_limestone_buildings
-		pm_mudbrick_buildings
+		pm_stone_buildings 
 	}
 }

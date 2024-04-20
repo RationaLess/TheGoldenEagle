@@ -1,4 +1,7 @@
-﻿aztec_empire = {
+﻿
+
+
+gov_nahua_council = { #Altepetl
 	transfer_of_power = hereditary
 	male_ruler = "RULER_TITLE_HUEY_TLATOANI"
 	female_ruler = "RULER_TITLE_HUEY_TLATOANI"
@@ -7,16 +10,31 @@
 	female_heir = "RULER_TITLE_PRINCESS" # Empty on purpose
 	
 	
+	on_government_type_change = {
+		change_to_hereditary = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_hereditary = yes
+	}
 	
 	possible = {
-		has_law = law_type:law_empire
-		
-		exists = c:ATA
-		c:ATA = ROOT
+		has_law = law_type:law_council
+		capital = {
+			state_region = {
+				OR = {
+						region = sr:region_anahuac 
+						region = sr:region_huaxyacac 
+						region = sr:region_ilhuicaatl 
+						region = sr:region_michhuahcan  
+						region = sr:region_maya_lowlands   
+						region = sr:region_maya_highlands   
+					}
+				}
+			}
 	}
 }
 
-aztec_confederation = {
+gov_nahua_alliance = { #Altepetl
 	transfer_of_power = hereditary
 	male_ruler = "RULER_TITLE_HUEY_TLATOANI"
 	female_ruler = "RULER_TITLE_HUEY_TLATOANI"
@@ -25,65 +43,80 @@ aztec_confederation = {
 	female_heir = "RULER_TITLE_PRINCESS" # Empty on purpose
 	
 	
+	on_government_type_change = {
+		change_to_hereditary = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_hereditary = yes
+	}
 	
 	possible = {
-		has_law = law_type:law_confederate
-		has_law = law_type:law_council 
-		
-		exists = c:ATA
-		c:ATA = ROOT
+		has_law = law_type:law_alliance
+		capital = {
+			state_region = {
+				OR = {
+						region = sr:region_anahuac 
+						region = sr:region_huaxyacac 
+						region = sr:region_ilhuicaatl 
+						region = sr:region_michhuahcan  
+						region = sr:region_maya_lowlands   
+						region = sr:region_maya_highlands   
+					}
+				}
+			}
 	}
 }
 
-private_army = { #Altepetl
-	transfer_of_power = dictatorial
-	male_ruler = "RULER_TITLE_HUEY_TLATOANI"
-	female_ruler = "RULER_TITLE_HUEY_TLATOANI"
-
-	male_heir = "RULER_TITLE_PRINCE" # Empty on purpose
-	female_heir = "RULER_TITLE_PRINCESS" # Empty on purpose
-	
-	
-	
-	possible = {
-		has_law = law_type:law_assembly_government
-		has_law = law_type:law_martial_rule
-		has_law = law_type:law_warrior_guilds
-	
-	
-	}
-}
-
-altepetl = { #Altepetl
+gov_nahua_city_state = { #Altepetl
 	transfer_of_power = hereditary
-	male_ruler = "RULER_TITLE_HUEY_TLATOANI"
-	female_ruler = "RULER_TITLE_HUEY_TLATOANI"
+	male_ruler = "RULER_TITLE_TLATOANI"
+	female_ruler = "RULER_TITLE_TLATOANI"
 
 	male_heir = "RULER_TITLE_PRINCE" # Empty on purpose
 	female_heir = "RULER_TITLE_PRINCESS" # Empty on purpose
 	
 	
+	on_government_type_change = {
+		change_to_hereditary = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_hereditary = yes
+	}
 	
 	possible = {
-	has_law = law_type:law_city_state
-	
-	
-	
+		has_law = law_type:law_city_state
+		capital = {
+			state_region = {
+				OR = {
+						region = sr:region_anahuac 
+						region = sr:region_huaxyacac 
+						region = sr:region_ilhuicaatl 
+						region = sr:region_michhuahcan  
+						region = sr:region_maya_lowlands   
+						region = sr:region_maya_highlands   
+					}
+				}
+			}
 	}
 }
 
 #I assume this is the default 
-nahua_city_state = { #Altepetl
+gov_assembly = {
 	transfer_of_power = hereditary
-	male_ruler = "RULER_TITLE_HUEY_TLATOANI"
-	female_ruler = "RULER_TITLE_HUEY_TLATOANI"
+	male_ruler = "ELDER"
+	female_ruler = "ELDER"
 
 	male_heir = "RULER_TITLE_PRINCE" # Empty on purpose
 	female_heir = "RULER_TITLE_PRINCESS" # Empty on purpose
 	
 	
+	on_government_type_change = {
+		change_to_hereditary = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_hereditary = yes
+	}
 	
 	possible = {
 	}
 }
-

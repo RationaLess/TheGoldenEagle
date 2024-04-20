@@ -69,9 +69,37 @@
  character_events.1012.f:"This has happened due to [SCOPE.sCharacter('character').GetHerHis] high [concept_loyalty]."
  character_events.1012.a:"Good."
  
- 
  character_events.1013.t:"[SCOPE.gsInterestGroup('ig').GetName] turns Neutral"
  character_events.1013.d:"With no ally or enemy of [ROOT.GetCountry.GetName] spearheading the [SCOPE.gsInterestGroup('ig').GetName], their [concept_approval] has returned to normal."
  character_events.1013.f:"Until a leader with a high or low enough [concept_loyalty] leads them, the [concept_approval] of [SCOPE.gsInterestGroup('ig').GetName] will only be impacted by [concept_ideology]."
  character_events.1013.a:"Noted."
  character_events.1013.tooltip:"The [concept_interest_group] loses any modifier from [concept_politician] [concept_loyalty]."
+ 
+ character_events.1014.t:"Selfish [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]"
+ character_events.1014.d:"Being [Concept('concept_loyalty','Loyal')] to nobody but themselves, [ROOT.GetCountry.GetRuler.GetFullName] has squandered [ROOT.GetCountry.GetRuler.GetHerHis] [concept_legitimacy] in the eyes of many."
+ character_events.1014.f:"Ah, the throne room is empty once more. Our great [ROOT.GetCountry.GetRuler.GetTitle] is busy rotting in a hedonistic spiral, away from anything resembling their duties. When will someone worthy claim the throne?!"
+ character_events.1014.a:"The damage has been done."
+ 
+ character_events.1015.t:"Selfless [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]"
+ character_events.1015.d:"Many are surprised by just how [Concept('concept_loyalty','comitted to their duties')] [ROOT.GetCountry.GetRuler.GetFullName] is, with [ROOT.GetCountry.GetRuler.GetHerHim] being seen by most as [Concept('concept_legitimacy','worthy of the throne')]."
+ character_events.1015.f:"Glory to the [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]!\nOur gracious and noble [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]!\nYour Majesty, under your reign\nWe will honour your word, your way!"
+ character_events.1015.a:"Long live the [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]."
+
+ character_events.1016.t:"The Medium"
+ character_events.1016.d:"[SCOPE.sCharacter('oracle').GetFullName] has declared themselves a medium capable of conversing with the gods."
+ character_events.1016.f:"Every prediction they make comes true, and every man they warn suffers. [SCOPE.sCharacter('oracle').GetFullName] is a force worth taking seriously, and we should do so before it is too late."
+ character_events.1016.a:"A religious figure in the making!"
+ character_events.1016.b:"A fraud, and nothing more."
+ oracle:"Oracle"
+ oracle_desc:"This character can seemingly converse with the gods."
+ 
+ character_events.1017.t:0 "The Duel"
+ character_events.1017.d:0 "[SCOPE.sCharacter('duel_participant_1').GetFullName] has challenged [SCOPE.sCharacter('duel_participant_2').GetFullName] to a duel to the death."
+ character_events.1017.f:1 "Tensions between the two have been boiling for months, with physical conflict seemingly inevitable now. A bloodbath is nigh, the prize being either glory or dismemberment."
+ character_events.1017.a:0 "Let them fight."
+ character_events.1017.b:0 "We should stop it."
+ 
+ character_events.1018.t:0 "The War of Words"
+ character_events.1018.d:0 "[SCOPE.sCharacter('duel_participant_1').GetFullName] has challenged [SCOPE.sCharacter('duel_participant_2').GetFullName] to a literary debate."
+ character_events.1018.f:1 "\"If the things these men are doing to our mother tongue was heard by the scholars of the realm, they would surely be tainted forever. But the only ones whom can hear are the crowd. And the crowd? The crowd demands blood.\""
+ character_events.1018.a:0 "Let them bicker."

@@ -1,4 +1,4 @@
-on_monthly_pulse_country = {
+﻿on_monthly_pulse_country = {
 	on_actions = {
 		tge_monthly_pulse
 	}
@@ -75,6 +75,7 @@ tge_monthly_pulse = {
 		10 = character_events.1006
 		10 = character_events.1007
 		10 = character_events.1102
+		10 = character_events.1016 
 		
 		#Character Events - Administration
 		
@@ -84,6 +85,7 @@ tge_monthly_pulse = {
 		10 = character_events.1008
 		10 = character_events.1009
 		10 = character_events.1010
+		10 = character_events.1017
 		
 		#Character Events - Ruler
 		

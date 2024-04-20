@@ -1,0 +1,15 @@
+﻿#Mercenary Companies
+
+
+CREX = { #Cortez' Expedition
+
+color = rgb { 238 255 84 }
+
+tier = duchy
+
+country_type = recognized
+
+cultures = { nahua }
+
+capital = STATE_ZITAHURAO
+}

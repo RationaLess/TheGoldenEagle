@@ -1,0 +1,94 @@
+﻿building_clothing_workshop = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/workshop_clothing.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		textile_working
+	}
+
+	production_method_groups = {
+		pmg_clothing_material
+		pmg_clothing_ornaments
+		pmg_workshop_type
+	}
+	
+	required_construction = 2000
+}
+
+building_furniture_workshop = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/workshop_furniture.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		woodworking
+	}
+
+	production_method_groups = {
+		pmg_base_furniture_workshop
+		pmg_workshop_type
+	}
+	
+	required_construction = 2000
+}
+
+building_tooling_workshop = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/workshop_tooling.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		tooling
+	}
+
+	production_method_groups = {
+		pmg_base_tooling_workshop
+		pmg_workshop_type
+	}
+	
+	ai_value = 2000
+	
+	required_construction = 2000
+}
+
+building_jewelry = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/workshop_jewelry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		jewelries 
+	}
+
+	production_method_groups = {
+		pmg_base_jewelry
+		pmg_workshop_type
+	}
+	
+	
+	required_construction = 2000
+}
+
+building_pottery = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/workshop_pottery.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		pottery
+	}
+
+	production_method_groups = {
+		pmg_base_pottery
+		pmg_workshop_type
+	}
+	
+	
+	required_construction = 2000
+}

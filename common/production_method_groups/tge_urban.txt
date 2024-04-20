@@ -1,0 +1,83 @@
+﻿pmg_housing_maintenance = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_housing_maintenance
+	}
+}
+pmg_housing_quality = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_housing_quality_standard
+		pm_housing_quality_notable
+		pm_housing_quality_enriched
+		pm_housing_quality_luxurious
+	}
+}
+
+pmg_housing_petty_crafting = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_housing_petty_crafting
+	}
+}
+pmg_housing_petty_weaving = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_housing_petty_weaving_fabric
+		pm_housing_petty_weaving_cotton
+	}
+}
+pmg_housing_petty_potting = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_housing_petty_potting
+	}
+}
+
+
+pmg_workshop_clothing_material = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_clothing_material_fabric
+		pm_workshop_clothing_material_cotton
+	}
+}
+pmg_workshop_clothing_ornaments = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_clothing_ornaments_none
+		pm_workshop_clothing_ornaments_animal_skin
+		pm_workshop_clothing_ornaments_feathers
+	}
+}
+pmg_workshop_tooling = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_tooling_wood
+		pm_workshop_tooling_obsidian
+	}
+}
+pmg_workshop_pottery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_pottery_basic
+		pm_workshop_pottery_painted
+		pm_workshop_pottery_decorated
+	}
+}
+
+pmg_workshop_jewelry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_wooden_jewelry
+		pm_workshop_obsidian_jewelry
+		pm_workshop_turquoise_jewelry
+		pm_workshop_golden_jewelry
+	}
+	
+pmg_foundry_weaponsmithing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_foundry_weaponsmithing_wooden
+		pm_foundry_weaponsmithing_obsidian
+	}

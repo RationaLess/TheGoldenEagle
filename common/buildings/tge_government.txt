@@ -1,4 +1,4 @@
-building_temple = {
+﻿building_temple = {
 	building_group = bg_faith
 	city_type = city
 	
@@ -15,7 +15,7 @@ building_temple = {
 
 	texture = "gfx/interface/icons/building_icons/temple.dds"
 
-	required_construction = 8000
+	required_construction = 5000
 
 	ai_weight = 1000
 }
@@ -39,12 +39,12 @@ building_ball_court = {
 	
 	urbanization = 100
 	
-	required_construction = 8000
+	required_construction = 5000
 
 	ai_weight = 500
 }
 
-building_zoo = {
+building_resort = {
 	building_group = bg_utility
 	city_type = city
 	
@@ -56,18 +56,20 @@ building_zoo = {
 	}
 
 	production_method_groups = {
-		pmg_zoo
+		pmg_resort
 	}
 
 	texture = "gfx/interface/icons/building_icons/zoo.dds"
 	
 	urbanization = 100
 	
-	required_construction = 8000
+	required_construction = 5000
 
 	ai_weight = 500
 }
-building_garden = {
+
+
+building_library = {
 	building_group = bg_utility
 	city_type = city
 	
@@ -75,21 +77,87 @@ building_garden = {
 	levels_per_mesh = 10
 
 	unlocking_technologies = {
-		architecture
 	}
 
 	production_method_groups = {
-		pmg_garden
+		pmg_library
 	}
 
-	texture = "gfx/interface/icons/building_icons/garden.dds"
+	texture = "gfx/interface/icons/building_icons/university.dds"
 	
 	urbanization = 100
 	
-	required_construction = 8000
+	required_construction = 5000
 
-	ai_weight = 500
 }
+
+
+building_market = {
+	building_group = bg_utility
+	city_type = city
+	
+	
+	levels_per_mesh = 10
+
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_market
+	}
+
+	texture = "gfx/interface/icons/building_icons/zoo.dds"
+	
+	urbanization = 100
+	
+	required_construction = 5000
+}
+
+
+building_road = {
+	building_group = bg_public_infrastructure
+	city_type = city
+	
+	
+	
+	levels_per_mesh = 10
+
+	unlocking_technologies = {
+		trade_routes
+	}
+
+	production_method_groups = {
+		pmg_road
+	}
+
+	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
+
+	required_construction = 5000
+}
+
+#building_garden = {
+#	building_group = bg_utility
+#	city_type = city
+#	
+#	
+#	levels_per_mesh = 10
+#
+#	unlocking_technologies = {
+#		architecture
+#	}
+#
+#	production_method_groups = {
+#		pmg_garden
+#	}
+#
+#	texture = "gfx/interface/icons/building_icons/garden.dds"
+#	
+#	urbanization = 100
+#	
+#	required_construction = 5000
+#
+#	ai_weight = 500
+#}
 
 #building_royal_palace = {
 #	building_group = bg_utility
@@ -136,26 +204,6 @@ building_garden = {
 #	required_construction = 1000
 #}
 
-#building_trading_post = {
-#	building_group = bg_public_infrastructure
-#	city_type = city
-#	
-#	
-#	
-#	levels_per_mesh = 10
-#
-#	unlocking_technologies = {
-#		trade_routes
-#	}
-#
-#	production_method_groups = {
-#		pmg_trading_post
-#	}
-#
-#	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
-#
-#	required_construction = 1000
-#}
 
 
 building_government_administration = {
@@ -174,5 +222,5 @@ building_government_administration = {
 
 	texture = "gfx/interface/icons/building_icons/administration.dds"
 
-	required_construction = 1000
+	required_construction = 2000
 }

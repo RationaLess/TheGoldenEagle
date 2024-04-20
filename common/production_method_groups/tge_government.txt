@@ -12,10 +12,10 @@ pmg_ball_court = {
 		pm_ball_court
 	}
 }
-pmg_garden = {
+pmg_resort = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_garden
+		pm_resort
 	}
 }
 pmg_zoo = {
@@ -32,7 +32,7 @@ pmg_royal_palace = {
 	}
 }
 
-pmg_market_base = {
+pmg_market = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_market
@@ -62,4 +62,16 @@ pmg_trade_center = {
 	}
 }
 
+pmg_library = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_library
+	}
+}
 
+pmg_road = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_road
+	}
+}

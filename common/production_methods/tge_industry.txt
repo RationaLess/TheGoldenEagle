@@ -1,4 +1,4 @@
-
+﻿
 #Clothing
 
 pm_clothing_material_fabric = {

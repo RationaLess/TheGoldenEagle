@@ -144,3 +144,19 @@ loyalist_ig = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_bureaucracy_positive.dds
 	interest_group_approval_add = 10
 	}
+
+neglectful_leader = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_bureaucracy_negative.dds
+	country_legitimacy_base_add = -20
+	}
+
+attentive_leader = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_bureaucracy_positive.dds
+	country_legitimacy_base_add = 20
+	}
+
+tarnished_honor_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_bowandarrow_negative.dds
+	character_popularity_add = -25
+	character_loyalty_add = -25
+	}

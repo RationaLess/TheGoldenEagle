@@ -1,4 +1,21 @@
 ﻿
+bg_faith = {
+	parent_group = bg_government
+	category = urban
+	
+	cash_reserves_max = 5000
+	
+	can_use_slaves = yes
+
+	urbanization = 100
+}
+
+bg_utility = {
+	parent_group = bg_government
+	category = urban
+
+	urbanization = 100
+}
 
 #Automatic
 bg_settlement = {
@@ -21,6 +38,19 @@ bg_settlement = {
 	
 	cash_reserves_max = 5000
 }
+
+bg_ruins = {
+	parent_group = bg_government
+	category = urban
+	
+	always_possible = no
+	
+	cash_reserves_max = 0
+
+	urbanization = 0
+}
+
+
 
 bg_trader_settlements = {
 	parent_group = bg_settlement 
@@ -150,21 +180,6 @@ bg_rubber = {
 }
 
 
-bg_faith = {
-	parent_group = bg_government
-	
-	cash_reserves_max = 5000
-	
-	can_use_slaves = yes
-
-	urbanization = 100
-}
-
-bg_utility = {
-	parent_group = bg_government
-	
-	urbanization = 100
-}
 
 #Mining
 

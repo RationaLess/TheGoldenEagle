@@ -88,18 +88,17 @@ pm_market = {
 	
 	country_modifiers = {
 		workforce_scaled = {
-				country_empire_sprawl_capacity_add = 100
 			}
 		}
 	
 	state_modifiers = {
 		workforce_scaled = {
-				state_infrastructure_add = 25
+				state_infrastructure_add = 10
 			}
 		}
 	building_modifiers = {
 		workforce_scaled = { 
-			goods_input_tools_add = 1
+			goods_input_urban_space_add = 2
 		}
 		
 		level_scaled = {
@@ -401,6 +400,75 @@ pm_trade_center = {
 	building_modifiers = { 
 		level_scaled = {
 			building_employment_merchants_add = 100
+		}
+	}
+}
+
+
+pm_library = {
+	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	disallowing_laws = {
+	}
+	
+	country_modifiers = {
+		workforce_scaled = { 
+		}
+	}	
+
+	state_modifiers = {
+		level_scaled = {
+		country_weekly_innovation_add = 2
+		}
+		unscaled = {
+		state_education_access_add = 0.05
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_worship_add = 2
+
+		
+		}
+		
+		level_scaled = {
+			building_employment_scholars_add = 100
+		}
+		
+		unscaled = {
+		building_scholars_shares_add = 1
+		}
+	}
+}
+
+
+pm_road = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	disallowing_laws = {
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+				country_empire_sprawl_capacity_add = 50
+			}
+		}
+	
+	state_modifiers = {
+		workforce_scaled = {
+				state_infrastructure_add = 25
+			}
+		}
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_brick_add = 1
+		}
+		
+		level_scaled = {
+			building_employment_architects_add = 25
+		}
+		
+		unscaled = {
+		building_architects_shares_add = 1
 		}
 	}
 }

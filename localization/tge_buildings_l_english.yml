@@ -53,6 +53,8 @@
  
  building_three_sisters:"[concept_three_sisters]"
  building_three_sisters_lens_option:"Expand $building_three_sisters$"
+ building_animal_pens:"Animal Pens"
+ building_animal_pens_lens_option:"Expand $building_animal_pens$"
  building_agave_farm:"Agave Farms"
  building_agave_farm_lens_option:"Expand $building_agave_farm$"
  building_cotton_farm:"Cotton Farms"
@@ -65,6 +67,10 @@
  
  building_temple:"Temple"
  building_temple_lens_option:"Expand $building_temple$"
+ building_garden:"Garden"
+ building_garden_lens_option:"Expand $building_garden$"
+ building_zoo:"Zoo"
+ building_zoo_lens_option:"Expand $building_zoo$"
  building_ball_court:"[Concept('concept_ballgame','Ball Court')]"
  building_ball_court_lens_option:"Expand $building_ball_court$"
  

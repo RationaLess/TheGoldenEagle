@@ -133,6 +133,6 @@ STATE_GUERRERO = {
     arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
     capped_resources = {
         bg_logging = 16
-		bg_limestone_mining = 4
+        bg_limestone_mining = 4
     }
 }

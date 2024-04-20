@@ -999,6 +999,41 @@ honorable = {
 	value = 3
 }
 
+oracle = {
+	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/lunatic.dds"
+
+	character_modifier = {
+		character_popularity_add = 15
+	}
+
+	command_modifier = {
+	}
+
+	country_modifier = {
+	}
+
+	agitator_modifier = {
+	}
+
+	interest_group_modifier = {
+	}
+
+	possible = {
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+	weight = {
+		value = 0
+	}
+
+	replace = {
+		trait_child
+	}
+
+	value = 3
+}
+
 sympathizer = {
 	type = personality
 	texture = "gfx/interface/icons/character_trait_icons/reserved.dds"

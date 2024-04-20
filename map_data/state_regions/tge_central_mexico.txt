@@ -60,12 +60,10 @@ STATE_TEOTIHUACAN = {
         bg_obsidian_mining = 5
     }
 }
-
 # STATE_AZCAPOTZALCO = {
 #     id = 5
 #     provinces = {}
 #     subsistence_building = "building_gathering_grounds_marine_goods"
-
 #     arable_land = 25
 #     arable_resources = { "bg_three_sisters" "bg_agave_farms" "bg_animal_pens" }
 #     capped_resources = {
@@ -248,7 +246,6 @@ STATE_HUEXOTZINGO = {
     }
 
 }
-
 # STATE_CHOLULA = {
 #     id = 24
 #     provinces = {}
@@ -269,7 +266,6 @@ STATE_TOLLAN = {
         bg_logging = 9
     }
 }
-
 # STATE_XILOTEPEC = {
 #     id = 26
 #     provinces = {}
@@ -381,7 +377,6 @@ STATE_CHIAUHTLAN = {
         bg_logging = 7
     }
 }
-
 # STATE_TECAMACHALCO = {
 #     id = 41
 #     provinces = {}
@@ -418,7 +413,6 @@ STATE_MIXTECA_BAJA = {
         bg_logging = 32
     }
 }
-
 # STATE_TEOTITLAN = {
 #     id = 44
 #     provinces = {}
@@ -431,7 +425,6 @@ STATE_MIXTECA_BAJA = {
 #     }
 # }
 
-
 # STATE_ICHCATLAN = {
 #     id = 46
 #     provinces = {}
@@ -440,7 +433,6 @@ STATE_MIXTECA_BAJA = {
 #         bg_logging = 7
 #     }
 # }
-
 
 # STATE_POPULOCAS = {
 #     id = 48
@@ -516,13 +508,11 @@ STATE_HUAMELULPAN = {
         bg_logging = 5
     }
 }
-
 # STATE_TILANTONGO = {
 #     id = 54
 #     provinces = {}
 #     arable_resources = { "bg_three_sisters" "bg_cotton_farms" }
 #     subsistence_building = "building_gathering_grounds_animal_skin"
-
 #     capped_resources = {
 #         bg_gold_mining = 2
 #     }
@@ -573,11 +563,9 @@ STATE_ZAACHILA = {
         bg_logging = 15
     }
 }
-
 # STATE_HUATULCO = {
 #     id = 58
 #     provinces = {}
-
 #     arable_land = 22
 #     arable_resources = { "bg_three_sisters" "bg_cotton_farms" }
 #     capped_resources = {
@@ -597,7 +585,6 @@ STATE_TEHUANTEPEC = {
         bg_fishing = 29
     }
 }
-
 # STATE_ALOTEPEC = {
 #     id = 60
 #     provinces = {}
@@ -606,7 +593,6 @@ STATE_TEHUANTEPEC = {
 #         bg_logging = 6
 #     }
 # }
-
 # STATE_COATLICAMAC = {
 #     id = 61
 #     provinces = {}
@@ -615,7 +601,6 @@ STATE_TEHUANTEPEC = {
 #         bg_logging = 11
 #     }
 # }
-
 # STATE_COPAYATONAC = {
 #     id = 62
 #     provinces = {}
@@ -624,7 +609,6 @@ STATE_TEHUANTEPEC = {
 #         bg_logging = 9
 #     }
 # }
-
 # STATE_YUKU_CHATUTA = {
 #     id = 63
 #     provinces = {}
@@ -634,22 +618,18 @@ STATE_TEHUANTEPEC = {
 #         bg_logging = 8
 #     }
 # }
-
 # STATE_CASANDOO = {
 #     id = 64
 #     provinces = {}
-
 #     arable_land = 16
 #     arable_resources = { "bg_three_sisters" "bg_cotton_farms" }
 #     capped_resources = {
 #         bg_logging = 8
 #     }
 # }
-
 # STATE_PINOTEPA = {
 #     id = 65
 #     provinces = {}
-
 #     arable_land = 24
 #     arable_resources = { "bg_three_sisters" "bg_cotton_farms" }
 #     capped_resources = {
@@ -660,7 +640,6 @@ STATE_TEHUANTEPEC = {
 #         bg_logging = 8
 #     }
 # }
-
 # STATE_DIQUIYU = {
 #     id = 66
 #     provinces = {}
@@ -714,7 +693,6 @@ STATE_LAMBITYECO = {
         bg_logging = 8
     }
 }
-
 # STATE_TOTONTEPEC = {
 #     id = 70
 #     provinces = {}
@@ -723,7 +701,6 @@ STATE_LAMBITYECO = {
 #         bg_logging = 7
 #     }
 # }
-
 # STATE_GUICHICOVI = {
 #     id = 71
 #     provinces = {}
@@ -768,7 +745,6 @@ STATE_POCHOTL = {
 #         bg_logging = 5
 #     }
 # }
-
 # STATE_UNUSED_ABABABABBABAB = {
 #     id = 75
 #     provinces = {}
@@ -806,7 +782,6 @@ STATE_METZTITLAN = {
         bg_logging = 12
     }
 }
-
 # STATE_TLACHICHILCO = {
 #     id = 82
 #     provinces = {}
@@ -834,7 +809,6 @@ STATE_IXACTEPEC = {
     provinces = {}
     arable_resources = { "bg_three_sisters" "bg_cotton_farms" }
 }
-
 # STATE_OLUZUAMA = {
 #     id = 85
 #     provinces = {}
@@ -843,7 +817,6 @@ STATE_IXACTEPEC = {
 #         bg_logging = 9
 #     }
 # }
-
 # STATE_SABITINO = {
 #     id = 86
 #     provinces = {}
@@ -852,7 +825,6 @@ STATE_IXACTEPEC = {
 #         bg_logging = 9
 #     }
 # }
-
 # STATE_BALCON_DE_MOCTEZUMA = {
 #     id = 87
 #     provinces = {}

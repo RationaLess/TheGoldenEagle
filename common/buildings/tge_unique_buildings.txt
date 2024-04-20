@@ -14,3 +14,19 @@ building_trader_settlement = {
 	downsizeable = no
 	
 }
+
+
+building_ruins = {
+	building_group = bg_ruins
+	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
+
+	production_method_groups = {
+		pmg_ruins
+	}
+	
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
+	
+}

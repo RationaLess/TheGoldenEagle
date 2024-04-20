@@ -28,3 +28,23 @@
 		}
 	}
 }
+
+pm_ruins = {
+	texture = "gfx/interface/icons/production_method_icons/home_workshops.dds"
+	disallowing_laws = {
+	}
+	
+	state_modifiers = {
+		level_scaled = {
+			state_infrastructure_add = -1
+			state_colony_growth_speed_mult = 0.02
+		}
+	}
+
+	building_modifiers = {
+		
+		level_scaled = {
+			state_building_minor_settlements_max_level_add = -1
+		}
+	}
+}

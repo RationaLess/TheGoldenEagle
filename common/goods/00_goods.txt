@@ -14,9 +14,9 @@ wooden_weapons = {
 	prestige_factor = 5
 }
 
-obsidian_weapons = {
+bladed_weapons = {
 	texture = "gfx/interface/icons/goods_icons/obsidian_weapons.dds"
-	cost = 75
+	cost = 50
 	category = military
 	
 	prestige_factor = 5
@@ -253,6 +253,14 @@ clay = {
 turquoise = {
 	texture = "gfx/interface/icons/goods_icons/turquoise.dds"
 	cost = 60
+	category = industrial
+	
+	prestige_factor = 5
+}
+
+brick = {
+	texture = "gfx/interface/icons/goods_icons/mudbrick.dds"
+	cost = 40
 	category = industrial
 	
 	prestige_factor = 5
