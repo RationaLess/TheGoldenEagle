@@ -6,7 +6,7 @@ texticon = {
   iconsize = {
     texture = "gfx/logo64.dds"
     size = { 25 25 }
-    offset = { 0 0 }
-    fontsize = 15
+    offset = { 0 7 }
+    fontsize = 16
   }
 }
