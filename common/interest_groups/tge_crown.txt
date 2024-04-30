@@ -1,78 +1,66 @@
-﻿ig_ancillaries = {
-	color = hsv{ 0.65 0.54 0.52 }
-	texture = "gfx/interface/icons/ig_icons/petty_bourgeoisie.dds"
+﻿ig_crown = {
+	color = rgb { 76 211 245 }
+	texture = "gfx/interface/icons/ig_icons/crown.dds"
 	
 	ideologies = {
-		
-		ideology_confederation_builders
-		ideology_lesser_lords
-		ideology_inclusionary
+		ideology_absolutist
 	}
-
+	
 	enable = {
 		always = yes
 	}
 	
-	traits = {
-		ig_trait_strong_and_united
-		ig_trait_diplomatic_outreach
-		ig_trait_exercising_autonomy
-	}	
 	
 	on_enable = {
-		
-		ig:ig_ancillaries = {
-					set_ig_trait = ig_trait:ig_trait_strong_and_united
-					set_ig_trait = ig_trait:ig_trait_diplomatic_outreach
-					set_ig_trait = ig_trait:ig_trait_exercising_autonomy
-				}
+
+		ig:ig_aristocracy = {
+			set_ig_trait = ig_trait:ig_trait_elitism
+			set_ig_trait = ig_trait:ig_trait_dynastic_outreach
+			set_ig_trait = ig_trait:ig_trait_foreign_envy
+		}
+
+
+
 
 		}
-	on_disable = {}	
+	on_disable = {}
 	on_character_ig_membership = {}
 	
 	pop_potential = {
-		
-	OR = {
-		pop_has_primary_culture = no
-		religion_accepted = no
-		standard_of_living <= 20
-		}
-	NOT = {
-		is_pop_type = scholars
-		is_pop_type = officers
-		is_pop_type = chiefs
-		}
-		
+			pop_loyalist_fraction > 0
+			
+		NOT = {
+			is_pop_type = chiefs
+			}
 	}
 	
 	pop_weight = {
 		value = 100
 		
-		
-		add = {
-			desc = "POP_NOBLES"
-			if = {
-				limit = { 
-					is_pop_type = nobles
-					pop_has_primary_culture = no
-				}
-				value = 100
-			}
-		}
-		add = {
-			desc = "MINORITY_CULTURE"
-			if = {
-				limit = {
-					pop_has_primary_culture = no
-				}
-			}
-			value = 200
+		multiply = {
+			desc = "LOYALTY_OF_POP"
+			value = 1
+			add = pop_loyalist_fraction
+			multiply = 2
 		}
 		
-		 
-
-
+		multiply = {
+			desc = "MONARCH_POPULARITY"
+			owner = {
+				ruler = {
+					value = popularity
+					multiply = 0.0025
+					add = 1
+					max = 1.25
+					min = 0.75
+				}
+			}
+		}	
+		
+		
+		
+		
+		
 		multiply = {
 			desc = "LEADER_POPULARITY"
 			scope:interest_group = {
@@ -84,20 +72,34 @@
 					min = 0.75
 				}
 			}
-		}		
+		}	
+		multiply = {
+			desc = "NO_MONARCHY"
+			value = 1.0
+
+			if = {
+				limit = {
+					owner = {
+						has_law = law_type:law_elective
+					}
+				}
+				value = 0.05
+			}
+		}
+		
 		
 	}
-
+	
 	monarch_weight = {
-		value = 0
-	}	
+		value = 2.0
+	}
 	
 	commander_weight = {
-		value = 1.0
+		value = 2.0
 	}	
 	
 	noble_chance = {
-		value = 0.1
+		value = 1.0
 	}
 	
 	female_commander_chance = {	
@@ -115,7 +117,7 @@
 				
 			}
 			add = {
-				value = 0.1
+				value = 0.05
 			}
 		}
 
@@ -127,7 +129,7 @@
 				
 			}
 			add = {
-				value = 0.1
+				value = 0.05
 			}
 		}
 
@@ -139,7 +141,7 @@
 				
 			}
 			add = {
-				value = 0.1
+				value = 0.05
 			}
 		}
 	}
@@ -147,7 +149,7 @@
 	# The chance that a commander belonging to this IG takes over leadership when it changes
 	# scope:character is the most popular commander in the IG
 	commander_leader_chance = {
-		value = 0.25
+		value = 0.5
 		if = {
 			limit = {
 				exists = scope:character
@@ -160,3 +162,4 @@
 		}
 	}
 }
+

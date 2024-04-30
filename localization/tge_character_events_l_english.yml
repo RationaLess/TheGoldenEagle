@@ -103,3 +103,23 @@
  character_events.1018.d:0 "[SCOPE.sCharacter('duel_participant_1').GetFullName] has challenged [SCOPE.sCharacter('duel_participant_2').GetFullName] to a literary debate."
  character_events.1018.f:1 "\"If the things these men are doing to our mother tongue was heard by the scholars of the realm, they would surely be tainted forever. But the only ones whom can hear are the crowd. And the crowd? The crowd demands blood.\""
  character_events.1018.a:0 "Let them bicker."
+ 
+ character_events.1020.t:"A Throne to Mock"
+ character_events.1020.d:0 "[SCOPE.sCharacter('slandering_character').GetFullName] of the [SCOPE.gsInterestGroup('ig').GetName] is leveraging his [concept_popularity] to slander our [concept_ruler] [SCOPE.sCharacter('slandered_character').GetFullName]"
+ character_events.1020.f:0 "Such open and direct hostility is largely unheard of in [ROOT.GetCountry.GetName], but it seems like [SCOPE.sCharacter('slandering_character').GetFullName] was pushed just a step too far to tolerate the state of affairs."
+ character_events.1020.a:"[SCOPE.sCharacter('slandered_character').GetFullName] will take the fall."
+ character_events.1020.b:"The whole dynasty is to blame..."
+ 
+ 
+ #Deification
+ deify_ruler_warning_1:"@warning! #R This may lower our diplomatic relations with #V pious co-religionists#!!"
+ deify_ruler_warning_2:"@warning! #R This may lower or increase the [concept_loyalty] of [Concept('concept_character','characters')] based on their #V personality#!!"
+ god_king:"God-King"
+ god_king_desc:"Behold! You are seeing a diety in the flesh! Sent to us by the higher powers, they are a force to be reckoned with."
+ je_god_among_men:"God among Men"
+ character_events.1019.t:"God among Men"
+ character_events.1019.d:"[SCOPE.sCharacter('deified').GetFullName] has been declared a living god."
+ character_events.1019.f:"A thick mist created by incense dispersed from atop the ziggurat. With [SCOPE.sCharacter('deified').GetHerHis] every odd step, the ground shook, and with every even step, the world had turned silent. The chosen waded through the ritual fog, step by step, in sync with the chant of the priests, closer and closer to the last heart waiting between them and their rightful place in the cosmos."
+ character_events.1019.a:"I am one with Ometeotl."
+ 
+ 

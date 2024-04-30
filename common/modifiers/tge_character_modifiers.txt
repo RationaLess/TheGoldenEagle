@@ -76,7 +76,7 @@ terrifying_reputation = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
 	character_popularity_add = -20
 }
-
+####################
 deviant_in_government = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_theocracy_negative.dds
 	interest_group_approval_add = -3
@@ -159,4 +159,23 @@ tarnished_honor_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_bowandarrow_negative.dds
 	character_popularity_add = -25
 	character_loyalty_add = -25
+	}
+
+supporter_of_deification = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_theocracy_positive.dds
+	character_loyalty_add = 25
+	}
+opposer_of_deification = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_theocracy_negative.dds
+	character_loyalty_add = -25
+	}
+
+slandered_by_influential_politician = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	character_popularity_add = -40
+	}
+
+ruler_slandered = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	interest_group_pop_attraction_mult = -0.5
 	}

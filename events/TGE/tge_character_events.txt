@@ -216,14 +216,14 @@ character_events.1102 = { #Random Character becomes poet
 	hidden = yes
 	
 	trigger = {
-		any_character = {
+		any_scope_character = {
 			count < 5
 			has_trait = poet
 			}
 	}
 	
 	immediate = {
-		random_character = {
+		random_scope_character = {
 			limit = {
 					NOT = {	has_trait = poet }
 				}
@@ -588,6 +588,7 @@ character_events.1010 = { #Generalist Gaming
 	trigger = {
 		var:civilization_level >= 3
 		any_scope_character = {
+				has_role = politician
 			OR = {
 						has_trait = persistent
 						has_trait = arrogant
@@ -663,10 +664,10 @@ character_events.1011 = { #Disloyal IG
 	trigger = {
 		any_scope_character = {
 			get_loyalty <= -50
-			has_role = politican
+			has_role = politician
 			NOT = {
-				has_role = ruler
-				has_role = heir
+				is_ruler = yes
+				is_heir = yes
 				}
 			this.interest_group = {
 				is_marginal = no
@@ -684,8 +685,8 @@ character_events.1011 = { #Disloyal IG
 				get_loyalty <= -50
 				
 					NOT = {
-						has_role = ruler
-						has_role = heir
+						is_ruler = yes
+						is_heir = yes
 						}
 				
 				this.interest_group = {
@@ -742,10 +743,10 @@ character_events.1012 = { #Loyal IG
 	trigger = {
 		any_scope_character = {
 			get_loyalty >= 50
-			has_role = politican
+			has_role = politician
 			NOT = {
-				has_role = ruler
-				has_role = heir
+				is_ruler = yes
+				is_heir = yes
 				}
 			this.interest_group = {
 				is_marginal = no
@@ -763,8 +764,8 @@ character_events.1012 = { #Loyal IG
 				get_loyalty >= -50
 				
 					NOT = {
-						has_role = ruler
-						has_role = heir
+						is_ruler = yes
+						is_heir = yes
 						}
 				
 				this.interest_group = {
@@ -826,6 +827,14 @@ character_events.1013 = { #Neutral IG
 				has_modifier = loyalist_ig
 				has_modifier = radical_ig
 				}
+			
+			leader = {
+				NOT = {
+					get_loyalty > 50
+					get_loyalty < -50
+					}
+				}
+				
 			}
 	}
 
@@ -835,6 +844,12 @@ character_events.1013 = { #Neutral IG
 				OR = {
 					has_modifier = loyalist_ig
 					has_modifier = radical_ig
+					}
+				leader = {
+					NOT = {
+						get_loyalty > 50
+						get_loyalty < -50
+						}
 					}
 				}
 			save_scope_as = ig
@@ -1682,5 +1697,216 @@ character_events.1018 = { #The literalist duel
 		}
 	}
 
+	
+}
+
+
+
+character_events.1019 = { #Deified
+	type = country_event
+	placement = root
+
+	title = character_events.1019.t
+	desc = character_events.1019.d
+	flavor = character_events.1019.f
+
+	duration = 3
+
+	
+	gui_window = event_window_1char_tabloid
+
+	left_icon = scope:deified
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/goods_icons/worship.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		ruler = {
+			save_scope_as = deified
+		}
+		
+		
+		
+		#Disapproval
+		every_scope_character = {
+			limit = {
+				NOT = {
+					is_ruler = yes
+					is_heir = yes
+					}
+				
+				calc_true_if = {
+					amount >= 2
+					
+					get_loyalty <= 0 
+					get_loyalty <= -25
+					has_trait = cautious
+					has_trait = reserved
+					has_trait = pious
+					has_modifier = wise_reputation
+					}
+				}
+			add_modifier = opposer_of_deification
+			}
+		
+		
+		#Approval
+		every_scope_character = {
+			limit = {
+				NOT = {
+					is_ruler = yes
+					is_heir = yes
+					}
+				
+				
+				calc_true_if = {
+					amount >= 2
+				
+					get_loyalty >= 25 
+					get_loyalty >= 75
+					has_trait = romantic
+					has_trait = melancholic
+					has_modifier = blasphemous_reputation
+					}
+				}
+			add_modifier = opposer_of_deification
+			}
+			
+		#And then some random changes to top
+		
+		every_scope_character = {
+			limit = {
+				NOT = {
+					is_ruler = yes
+					is_heir = yes
+					has_modifier = opposer_of_deification
+					has_modifier = supporter_of_deification
+					}
+				}
+			random_list = {
+				50 = {
+				
+				}
+				25 = {
+					add_modifier = supporter_of_deification
+				}
+				25 = {
+					add_modifier = opposer_of_deification
+				}
+				}
+			}
+		
+		
+		
+	}
+
+	option = {
+		default_option = yes
+		name = character_events.1019.a
+		
+		kill_population = {
+			value = 1
+			}
+		
+	}
+	
+}
+
+
+character_events.1020 = { #Disloyal Politician slandering you
+	type = country_event
+	placement = root
+
+	title = character_events.1020.t
+	desc = character_events.1020.d
+	flavor = character_events.1020.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/mesoamerica_public_debate.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	#on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper_tge.dds"
+
+	trigger = {
+		any_scope_character = {
+			has_role = politician 
+			NOT = {
+				is_ruler = yes
+				is_heir = yes
+				}
+			popularity >= 50
+			get_loyalty <= -50
+			
+			interest_group = {
+				is_marginal = no
+				}
+				
+			}
+		ruler = {
+			NOT  = { has_modifier = slandered_by_influential_politician }
+			}
+	}
+
+	immediate = {
+		random_scope_character = {
+			limit = {
+				has_role = politician 
+				NOT = {
+					is_ruler = yes
+					is_heir = yes
+					}
+				popularity >= 50
+				get_loyalty <= -50
+				
+				interest_group = {
+					is_marginal = no
+					}
+					
+				}
+			save_scope_as = slandering_character	
+			interest_group = { save_scope_as = slanderer_ig }
+			}
+		ruler = {
+			save_scope_as = slandered_character
+			}
+	}
+
+	option = {
+		default_option = yes
+		name = character_events.1020.a
+		
+		ruler = {
+			add_modifier = {
+				name = slandered_by_influential_politician
+				multiplier = 1
+				}
+			}
+	}
+	option = {
+		name = character_events.1020.b
+		
+		ruler = {
+			add_modifier = {
+				name = slandered_by_influential_politician
+				multiplier = 0.5
+				}
+			}
+		ig:ig_crown = {
+			add_modifier = {
+				name = ruler_slandered
+				months = 120
+				}
+			}
+	}
 	
 }

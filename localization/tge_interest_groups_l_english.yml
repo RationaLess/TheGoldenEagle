@@ -35,6 +35,14 @@
  ig_governors_only_icon:0 "@trade_unionists!"
  ig_governors_desc:0 "Bureaucrats, administrators, and other men whose interest aligns with the state government."
  
+ ig_crown:"Crown"
+ ig_crown_only_icon:"@crown!"
+ ig_crown_desc:"Those who believe politics is entirely a matter of the crown, and those whose interests rest within preserving the monarchy."
+ 
+ ig_tribe:"Tribes"
+ ig_tribe_only_icon:"@tribe!"
+ ig_tribe_desc:"Those following the bonds of kinship."
+  
  ig_tlatelolco:0 "Tlatelolco"
  ig_tlatelolco_only_icon:0 "@industrialists!"
  ig_tlatelolco_desc:0 "Being the 'sister city' of Tenochtitlan, Tlatelolco enjoys a relative level of independence, possessing its own government and influencing politics of the alliance."

@@ -1,0 +1,39 @@
+﻿### skill Traits
+
+
+god_king = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/erudite.dds"
+
+	character_modifier = {
+		character_popularity_add = 50
+		character_loyalty_add = -25
+	}
+
+	country_modifier = {
+		country_society_weekly_innovation_mult = 0.2
+		country_prestige_mult = 0.25
+		country_infamy_decay_mult = 0.5
+		country_influence_add = 200
+	}
+
+	agitator_modifier = {
+	}
+
+	command_modifier = {
+	}
+
+	interest_group_modifier = {
+		interest_group_pop_attraction_mult = 0.3
+	}
+
+	weight = {
+		value = 0
+	}
+
+	possible = {
+	}
+
+	replace = {
+	}
+}

@@ -26,7 +26,7 @@
  setting_ai_assistance_no:"AI Assistance #V OFF#!"
  setting_ai_assistance_no_desc:"AI nations will be on a level playing field with the player."
  
- rule_tge_fantasy_events:"#V ([Concept('concept_the_golden_eagle','TGE')])#! Fantasy Events"
+ rule_tge_fantasy_events:"@tge_icon! Fantasy Events"
  setting_fantasy_events_enabled:"Fantasy Events #V ON#!"
  setting_fantasy_events_enabled_desc:"Implausible and mythological events can occur."
  setting_fantasy_events_disabled:"Fantasy Events #V OFF#!"
@@ -71,6 +71,11 @@
     
     #Decrees
     decree_excavate_ruins:"Excavate [concept_ruins]"
-    decree_excavate_ruins_tt:"You will send archeologists to investigate the [concept_ruins], finding whatever #V secrets#! or #V treasures#! they hold."
+    modifier_state_excavate_ruins:"You will send archeologists to investigate the [concept_ruins], finding whatever #V secrets#! or #V treasures#! they hold."
     decree_remove_ruins:"Remove [concept_ruins]"
-    decree_remove_ruins_tt:"Every month, a level of [concept_ruins] will be removed."
+    modifier_state_remove_ruins:"Every month, a level of [concept_ruins] will be removed."
+    
+    
+    
+    
+    TGE_DISCORD_INVITE:"Join the TGE discord!\n#V bKUUuT9FVn#!"

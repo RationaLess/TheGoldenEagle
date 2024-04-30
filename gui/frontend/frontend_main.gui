@@ -56,7 +56,9 @@ widget = {
 		#	loop = yes
 		#}
 	}
-
+	
+	
+	
 	widget = {
 		parentanchor = center
 		size = { 1920 1080 }
@@ -663,15 +665,27 @@ widget = {
 					}
 				}
 			}
+			textbox = {
+					parentanchor = center|bottom
+					raw_text = "TGE_DISCORD_INVITE"
+					autoresize = yes
+					align = center|nobaseline
+					elide = right
+					fontsize_min = 30
+				}
 		}
 	}
-
+	
+	
+				
+	
 	flowcontainer = {
 		scale = "[ScaleToFitElementInside('(int32)1920', '(int32)1080')]"
 		parentanchor = right|bottom
 		position = { -15 -15 }
 		spacing = 15
-
+		
+		
 		button_icon_round_big_action = {
 			parentanchor = vcenter
 			size = { 60 60 }
@@ -687,7 +701,9 @@ widget = {
 				size = { 60% 45% }
 			}
 		}
-
+		
+		
+		
 		clickable_version_number = {
 			parentanchor = vcenter
 			using = tooltip_above

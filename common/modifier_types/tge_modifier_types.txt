@@ -208,6 +208,14 @@ interest_group_ig_governors_pop_attraction_mult = {
 }
 
 
+state_remove_ruins = {
+	neutral = yes
+	boolean = yes
+}
+state_excavate_ruins = {
+	neutral = yes
+	boolean = yes
+}
 
 country_can_raid = {
 	neutral = yes

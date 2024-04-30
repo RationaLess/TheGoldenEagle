@@ -1,4 +1,4 @@
-﻿ig_traditionalists = {
+﻿ig_faithful = {
 	color = hsv{ 0.50 0.30 0.67 }
 	texture = "gfx/interface/icons/ig_icons/devout.dds"
 	
@@ -31,7 +31,6 @@
 	pop_potential = {
 		OR = {
 			is_pop_type = priests
-			is_pop_type = chiefs
 			is_pop_type = nobles
 		}
 	}	

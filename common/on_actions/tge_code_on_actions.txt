@@ -63,7 +63,7 @@ tge_monthly_pulse = {
 	
 	#Random Events 
 	random_events = {
-		100 = 0
+		500 = 0
 
 		#Loyalty Mechanics - should trigger often first
 		999 = character_events.1011
@@ -86,6 +86,7 @@ tge_monthly_pulse = {
 		10 = character_events.1009
 		10 = character_events.1010
 		10 = character_events.1017
+		10 = character_events.1020
 		
 		#Character Events - Ruler
 		

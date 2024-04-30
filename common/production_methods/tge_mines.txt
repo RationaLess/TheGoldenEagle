@@ -32,7 +32,7 @@ pm_limestone_mining = {
 			goods_input_tools_add = 2
 			
 			
-			goods_output_bricks_add = 6
+			goods_output_brick_add = 6
 		}
 		
 		level_scaled = {
@@ -98,7 +98,7 @@ pm_mudbrick_furnacing = {
 			goods_input_tools_add  = 2
 			
 			
-			goods_output_bricks_add = 9
+			goods_output_brick_add = 9
 		}
 		
 		level_scaled = {

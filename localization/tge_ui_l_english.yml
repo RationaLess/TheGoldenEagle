@@ -71,4 +71,6 @@
   commission_codex:"Commission Codex"
   commission_codex_tooltip:[Character.GetFullName] will be tasked with creating a Codex for us, resulting in various boons of our choice."
   
+  deify_ruler:"Deify Ruler"
+  
   #LOYALTY_BREAKDOWN:1 "#header [Character.GetFullName]#! has #v [LabelingHelper.GetLabelForPopularityCFixedPoint(Character.GetPopularity)]#! ([Character.GetPopularity|0+=]) [concept_popularity][ConcatIfNeitherEmpty('\n$TOOLTIP_DELIMITER$\n', Character.GetPopularityDesc)]"

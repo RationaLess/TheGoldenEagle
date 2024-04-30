@@ -1,5 +1,5 @@
-﻿ideology_royalist = {
-	icon = "gfx/interface/icons/ideology_icons/unused/royalist.dds"
+﻿ideology_absolutist = {
+	icon = "gfx/interface/icons/ideology_icons/oligarchic.dds"
 	
 	lawgroup_governance_principles = {
 		law_monarchy = strongly_approve
@@ -8,24 +8,55 @@
 		law_alliance = disapprove
 	}
 	lawgroup_distribution_of_power = {
-		law_dynastic = strongly_approve
-		law_feudal = approve 
-		law_elective = strongly_disapprove
+		law_dynastic = neutral
+		law_royal = approve 
+		law_elective = disapprove
+		law_kinship = strongly_disapprove
+		law_martial_rule = strongly_disapprove
+		law_religious_rule = neutral
+		law_mercantile_rule = strongly_disapprove
 	}
 	lawgroup_institutionalization = {
-		law_informal_government = disapprove
-		law_assembly_government = neutral
-		law_bureaucratic_government = strongly_disapprove
-		law_court_government = strongly_approve
+		law_informal_government = strongly_disapprove
+		law_assembly_government = disapprove
+		law_court_government = neutral
 		law_dedicated_government = approve
+		law_bureaucratic_government = strongly_approve
 	}
-	
-	
 	lawgroup_crown_authority = {
 		law_unchecked_power = strongly_approve
 		law_majority_consensus = approve 
 		law_controlled_courts = neutral
 		law_juidicial_autonomy = disapprove
+	}
+	lawgroup_land_organization = {
+		law_royal_domains = approve
+		law_imperial_land = approve
+		law_religious_tithes = neutral 
+		law_calpulli_system = neutral
+		law_state_control = strongly_approve 
+	}
+
+}
+
+ideology_blood_privilege = {
+	icon = "gfx/interface/icons/ideology_icons/unused/royalist.dds"
+	
+	lawgroup_distribution_of_power = {
+		law_dynastic = strongly_approve
+		law_royal = disapprove 
+		law_elective = disapprove
+		law_kinship = neutral
+		law_martial_rule = disapprove
+		law_religious_rule = neutral
+		law_mercantile_rule = disapprove
+	}
+	lawgroup_institutionalization = {
+		law_informal_government = strongly_disapprove
+		law_assembly_government = disapprove
+		law_court_government = strongly_approve
+		law_dedicated_government = approve
+		law_bureaucratic_government = disapprove
 	}
 	
 	lawgroup_land_organization = {
@@ -37,6 +68,43 @@
 	}
 
 }
+
+ideology_ties_that_bind = {
+	icon = "gfx/interface/icons/ideology_icons/unused/social_democrat.dds"
+	
+	lawgroup_governance_principles = {
+		law_tribe = strongly_approve
+		law_monarchy = strongly_disapprove
+		law_city_state = neutral
+		law_council = approve
+		law_alliance = approve
+	}
+	lawgroup_distribution_of_power = {
+		law_dynastic = disapprove
+		law_royal = strongly_disapprove 
+		law_elective = approve
+		law_kinship = strongly_approve
+		law_martial_rule = neutral
+		law_religious_rule = neutral
+		law_mercantile_rule = disapprove
+	}
+	lawgroup_institutionalization = {
+		law_informal_government = approve
+		law_assembly_government = approve
+		law_court_government = disapprove
+		law_dedicated_government = strongly_disapprove
+		law_bureaucratic_government = strongly_disapprove
+	}
+	
+	lawgroup_social_mobility = {
+		law_strict = strongly_disapprove
+		law_cultural = strongly_approve
+		law_martial = approve
+		law_meritocratic = approve
+		}	
+	
+}
+
 
 ideology_lesser_lords = {
 	icon = "gfx/interface/icons/ideology_icons/moralist.dds"

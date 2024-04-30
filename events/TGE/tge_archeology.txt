@@ -1,0 +1,106 @@
+﻿namespace = archeology
+
+
+
+archeology.1 = { #Unimpressive site
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+	}
+	
+	immediate = {
+		random_scope_state = {
+			limit = {
+				has_decree = decree_excavate_ruins
+				}
+			save_scope_as = excavation_state
+			
+			}
+		post_notification = post_archeology_empty_ruins
+	}
+}
+archeology.2 = { #Money
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+	}
+	
+	immediate = {
+		random_scope_state = {
+			limit = {
+				has_decree = decree_excavate_ruins
+				}
+			save_scope_as = excavation_state
+			
+			}
+		post_notification = post_archeology_ruins_money
+	}
+}
+archeology.3 = { #More sites...?
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+	}
+	
+	immediate = {
+		random_scope_state = {
+			limit = {
+				has_decree = decree_excavate_ruins
+				}
+			save_scope_as = excavation_state
+			
+			}
+		post_notification = post_archeology_ruins_expanded
+	}
+}
+
+archeology.69 = {
+	type = country_event
+	placement = capital
+
+	title = archeology.2.t
+	desc = archeology.2.d
+	flavor = archeology.2.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/mesoamerica_bean_counter.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		
+	}
+
+	immediate = {
+		capital = {
+			save_scope_as = capital_state
+		}
+	}
+
+	option = {
+			name = archeology.1.a
+			default_option = yes
+			
+			add_loyalists = {
+				value = 0.25
+				}
+			add_loyalists = {
+				value = 0.25
+				interest_group = ig:ig_scholars
+				}
+			add_loyalists = {
+				value = 0.25
+				interest_group = ig:ig_governors
+				}
+		
+		}
+}
+

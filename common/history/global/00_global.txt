@@ -72,7 +72,11 @@ GLOBAL = {
 			add_journal_entry = { type = je_urban_civ_level  }
 		}
 		
-		
+	
+		#Every Country should start with at least some loyalists
+		add_loyalists = {
+			value = 0.5
+			}
 	
 	}
 	

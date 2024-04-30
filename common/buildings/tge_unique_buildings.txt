@@ -28,5 +28,31 @@ building_ruins = {
 	buildable = no
 	expandable = no
 	downsizeable = no
+}
+
+building_ruins_teotihuacan = {
+	building_group = bg_ruins
+	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
+
+	production_method_groups = {
+		pmg_ruins
+	}
 	
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
+}
+building_ruins_tollan = {
+	building_group = bg_ruins
+	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
+
+	production_method_groups = {
+		pmg_ruins
+	}
+	
+	
+	buildable = no
+	expandable = no
+	downsizeable = no
 }

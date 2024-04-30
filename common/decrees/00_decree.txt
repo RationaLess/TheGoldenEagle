@@ -289,11 +289,19 @@ decree_excavate_ruins = {
 		state_colony_growth_speed_mult = -0.5
 		state_construction_mult = -0.25
 		state_education_access_add = 0.2
-		custom_tooltip = {
-			text = decree_excavate_ruins_tt
+		state_excavate_ruins = yes
+		
+	}
+	
+	valid = {
+		state_has_building_group_levels = {
+			type = bg_ruins
+			value > 0 
 			}
 	}
+	
 	unlocking_technologies = {
+		specialized_knowledge
 	}
 	cost = 100
 	
@@ -302,20 +310,25 @@ decree_excavate_ruins = {
 	}
 }
 
-decree_remove_ruins = {
-	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"			
-	modifier = {
-		state_construction_mult = 0.1
-		state_colony_growth_speed_mult = 0.2
-		custom_tooltip = {
-			text = decree_remove_ruins_tt
-			}
-	}
-	unlocking_technologies = {
-	}
-	cost = 100
-	
-	ai_weight = {
-		value = 0
-	}
-}
+#decree_remove_ruins = {
+#	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"			
+#	modifier = {
+#		state_construction_mult = 0.1
+#		state_colony_growth_speed_mult = 0.2
+#		state_remove_ruins = yes
+#	}
+#	
+#	
+#	valid = {
+#		has_building = building_ruins
+#	}
+#	
+#	unlocking_technologies = {
+#		quarrying
+#	}
+#	cost = 100
+#	
+#	ai_weight = {
+#		value = 0
+#	}
+#}

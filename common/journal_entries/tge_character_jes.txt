@@ -76,3 +76,23 @@ je_claimant_faction = {
 	}
 
 	}
+	
+	
+je_god_among_men = {
+	icon = "gfx/interface/icons/goods_icons/worship.dds"
+
+	group = je_group_internal_affairs 
+
+	should_be_pinned_by_default = yes 
+	
+	is_shown_when_inactive = {	
+		always = no
+		}
+	
+	possible = {
+	}
+
+
+
+
+	}

@@ -10,18 +10,13 @@
 				reserves=1
 				}
 			create_building={
-				building="building_tooling_workshop"
-				level=5
+				building="building_workshops"
+				level=3
 				reserves=1
 				}
 			create_building={
 				building="building_temple"
 				level=4
-				reserves=1
-				}
-			create_building={
-				building="building_clothing_workshop"
-				level=5
 				reserves=1
 				}
 			create_building={
@@ -38,10 +33,6 @@
 				building="building_agave_farm"
 				level=2
 				reserves=1
-				}
-			create_building={
-				building="building_pottery"
-				level=3
 				}
 			create_building={
 				building="building_logging_camp"
@@ -64,7 +55,17 @@
 	s:STATE_EAST_TEXCOCO={
 		region_state:ATA={
 			create_building={
-				building="building_clothing_workshop"
+				building="building_ruins"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_workshops"
+				level=3
+				reserves=1
+				}
+			create_building={
+				building="building_urban_housing"
 				level=2
 				reserves=1
 				}
@@ -74,18 +75,8 @@
 				reserves=1
 				}
 			create_building={
-				building="building_furniture_workshop"
-				level=3
-				reserves=1
-				}
-			create_building={
 				building="building_three_sisters"
 				level=2
-				reserves=1
-				}
-			create_building={
-				building="building_clothing_workshop"
-				level=3
 				reserves=1
 				}
 			create_building={
@@ -168,6 +159,22 @@
 		}
 		region_state:AZC={
 			
+			
+			create_building={
+				building="building_ruins"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_workshops"
+				level=3
+				reserves=1
+				}
+			create_building={
+				building="building_urban_housing"
+				level=2
+				reserves=1
+				}
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -179,23 +186,8 @@
 				reserves=1
 				}
 			create_building={
-				building="building_clothing_workshop"
-				level=6
-				reserves=1
-				}
-			create_building={
 				building="building_jewelry"
 				level=4
-				reserves=1
-				}
-			create_building={
-				building="building_furniture_workshop"
-				level=3
-				reserves=1
-				}
-			create_building={
-				building="building_tooling_workshop"
-				level=5
 				reserves=1
 				}
 			create_building={
@@ -373,19 +365,23 @@
 	}
 	s:STATE_TEOTIHUACAN={
 		region_state:XAL={
-		
+			create_building={
+				building="building_ruins"
+				level=5
+				reserves=1
+				}
+			create_building={
+				building="building_ruins_teotihuacan"
+				level=1
+				reserves=1
+				}
 			create_building={
 				building="building_temple"
 				level=2
 				reserves=1
 				}
 			create_building={
-				building="building_furniture_workshop"
-				level=2
-				reserves=1
-				}
-			create_building={
-				building="building_tooling_workshop"
+				building="building_workshops"
 				level=2
 				reserves=1
 				}
@@ -405,6 +401,8 @@
 				reserves=1
 				activate_production_methods={ "pm_maize_irrigated_farming" }
 				}
+				
+			
 		}
 	}
 	s:STATE_XOCHIMILCO={
@@ -1100,8 +1098,13 @@
 				reserves=1
 				}
 			create_building={
-				building="building_tooling_workshop"
+				building="building_urban_housing"
 				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_workshops"
+				level=1
 				reserves=1
 				}
 			create_building={
@@ -1119,8 +1122,20 @@
 		}
 	s:STATE_TIZATLAN={
 		region_state:TLX={
+		
+			
+			create_building={
+				building="building_ruins"
+				level=2
+				reserves=1
+				}
 			create_building={
 				building="building_government_administration"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_workshops"
 				level=2
 				reserves=1
 				}
@@ -1140,23 +1155,13 @@
 				reserves=1
 				}
 			create_building={
-				building="building_furniture_workshop"
-				level=2
-				reserves=1
-				}
-			create_building={
 				building="building_market"
-				level=1
+				level=2
 				reserves=1
 				}
 			create_building={
 				building="building_temple"
 				level=2
-				reserves=1
-				}
-			create_building={
-				building="building_tooling_workshop"
-				level=4
 				reserves=1
 				}
 			create_building={
@@ -1169,6 +1174,16 @@
 	s:STATE_OCOTELOLCO={
 		region_state:TLX={
 			
+			create_building={
+				building="building_urban_housing"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_workshops"
+				level=3
+				reserves=1
+				}
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -1190,11 +1205,6 @@
 				reserves=1
 				}
 			create_building={
-				building="building_clothing_workshop"
-				level=4
-				reserves=1
-				}
-			create_building={
 				building="building_cotton_farm"
 				level=2
 				reserves=1
@@ -1210,11 +1220,6 @@
 				reserves=1
 				}
 			create_building={
-				building="building_tooling_workshop"
-				level=2
-				reserves=1
-				}
-			create_building={
 				building="building_construction_sector"
 				level=2
 				reserves=1
@@ -1223,14 +1228,30 @@
 		}
 	s:STATE_QUIAHUIZTLAN={
 		region_state:TLX={
+			
+			create_building={
+				building="building_ruins"
+				level=2
+				reserves=1
+				}
 			create_building={
 				building="building_temple"
 				level=2
 				reserves=1
 				}
 			create_building={
-				building="building_furniture_workshop"
-				level=3
+				building="building_market"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_urban_housing"
+				level=2
+				reserves=1
+				}
+			create_building={
+				building="building_workshops"
+				level=4
 				reserves=1
 				}
 			create_building={
@@ -1246,11 +1267,6 @@
 			create_building={
 				building="building_ball_court"
 				level=1
-				reserves=1
-				}
-			create_building={
-				building="building_tooling_workshop"
-				level=3
 				reserves=1
 				}
 			create_building={
@@ -1475,17 +1491,27 @@
 				reserves=1
 				}
 			create_building={
-				building="building_tooling_workshop"
+				building="building_ruins"
+				level=5
+				reserves=1
+				}
+			create_building={
+				building="building_ruins_tollan"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_urban_housing"
+				level=1
+				reserves=1
+				}
+			create_building={
+				building="building_workshops"
 				level=1
 				reserves=1
 				}
 			create_building={
 				building="building_cotton_farm"
-				level=1
-				reserves=1
-				}
-			create_building={
-				building="building_clothing_workshop"
 				level=1
 				reserves=1
 				}

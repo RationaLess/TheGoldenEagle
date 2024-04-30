@@ -172,10 +172,9 @@ pm_housing_petty_potting = {
 	
 	building_modifiers = {
 		workforce_scaled = { 
-			goods_input_cotton_add = 1
 			
 			
-			goods_output_clothes_add = 6
+			goods_output_pottery_add = 1
 		}
 		
 		level_scaled = {

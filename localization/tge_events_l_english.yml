@@ -190,3 +190,8 @@
  #[SCOPE.sState('capital_state').GetName]
  #[SCOPE.gsInterestGroup('urbanist_one_ig').GetName]
  #[SCOPE.gsInterestGroup('urbanist_two_ig').GetName]
+ 
+ #Archeology
+ post_archeology_empty_ruins:"A #V level#! of [concept_ruins] in [SCOPE.sState('excavation_state').GetName] has been #V cleared#! #B without#! any significant #V discoveries#!."
+ post_archeology_ruins_money:"A #V level#! of [concept_ruins] in [SCOPE.sState('excavation_state').GetName] has been #V cleared#!, with [ROOT.GetCountry.GetName] receiving a small sum of money."
+ post_archeology_ruins_expanded:"The [concept_ruins] in [SCOPE.sState('excavation_state').GetName] have proved larger than expected, with us discovering #V additional sites#!."
