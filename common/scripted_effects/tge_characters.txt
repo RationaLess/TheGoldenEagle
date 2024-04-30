@@ -1,0 +1,9 @@
+﻿
+# Starting techs for texcoco nations
+
+#effect_character_wages_verylow = {
+#	set_variable = {
+#		name = character_wages
+#		value = 1
+#		}
+#	}

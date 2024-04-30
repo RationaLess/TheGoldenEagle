@@ -792,7 +792,7 @@ types commander_panel_types
 								}
 								blockoverride "single_text_entry" {}
 							}	
-							
+								
 							
 							character_stats_entry = {
 								datacontext = "[CommanderPanel.AccessCharacter]" #"[Character]"
@@ -828,6 +828,56 @@ types commander_panel_types
 								}
 								blockoverride "single_text_entry" {}
 							}
+							
+							
+							#PERSONAL FUNDS
+							character_stats_entry = {
+
+								#tooltip = "PERSONAL_WEALTH_BREAKDOWN"
+
+								minimumsize = { 100 65 }
+
+								blockoverride "animation" {
+									name = commander_panel_show
+									on_finish = "[PdxGuiTriggerAllAnimations('character_panel_stat')]"
+								}
+
+								blockoverride "icon_texture" {
+									texture = "gfx/interface/icons/topbar/income_power_icon.dds"
+								}
+
+								blockoverride "double_entry_label" {
+									text = "PERSONAL_WEALTH"
+								}
+								blockoverride "double_entry_value" {
+									#raw_text = "[Character.MakeScope.GetVariableSystem.ScriptValue('get_personal_wealth')|+*]"
+									#raw_text = "[Character.MakeScopeGetVariable('personal_wealth').GetValue|+*]"
+									raw_text = "[Character.MakeScope.GetVariable('personal_wealth').GetValue|+*]"
+								}
+								blockoverride "single_text_entry" {
+								
+									bad_progressbar_horizontal = {
+									
+										tooltip = "PERSONAL_WEALTH_CORRUPTION"
+										name = "credit_progressbar"
+										position = { 50 25 }
+										size = { 150 10 }
+										blockoverride "values" {
+											value = "[Character.MakeScope.GetVariable('personal_wealth').GetValue]"
+											min = 0  
+											max = "[Character.GetCountry.MakeScope.ScriptValue('tge_wealth_corruption_bar_max')]"
+											
+											#max = "[Character.GetCountry.ScriptValue('tge_wealth_corruption_bar_max')]"
+										}
+									}
+								
+								}
+								
+								
+							}
+							
+							
+							
 
 							### AGE
 							character_stats_entry = {

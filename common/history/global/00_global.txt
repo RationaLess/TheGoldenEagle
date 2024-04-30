@@ -77,6 +77,16 @@ GLOBAL = {
 		add_loyalists = {
 			value = 0.5
 			}
+		#Variable Set Up
+		set_variable = {
+			name = character_wages
+			value = 3
+			}
+		set_variable = {
+			name = commander_wages
+			value = 3
+			}
+
 	
 	}
 	

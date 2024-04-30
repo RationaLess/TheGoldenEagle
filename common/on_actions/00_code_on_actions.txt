@@ -48,6 +48,19 @@ on_monthly_pulse_character = {
 			remove_trait = trait_child
 			add_random_trait = personality
 		}
+		#Gain Some Money if you're popular
+		change_variable = {
+			name = personal_wealth
+			add = {
+				value = popularity
+				multiply = 10
+				
+				min = 0
+				}
+			
+			}
+	
+	
 	}
 }
 on_yearly_pulse_character = {}
@@ -152,6 +165,8 @@ on_diplomatic_play_started = {}
 
 # Root = Character
 on_character_creation = {
+	on_actions = {
+	}
 }
 
 # Root = Character

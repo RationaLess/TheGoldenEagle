@@ -1,0 +1,149 @@
+﻿tge_character_wages_verylow = {
+    scope = country
+    effect = {
+        set_variable = {
+		name = character_wages
+		value = 1
+		}
+		
+		remove_modifier = verylow_character_wages
+		remove_modifier = low_character_wages
+		remove_modifier = medium_character_wages
+		remove_modifier = high_character_wages
+		remove_modifier = veryhigh_character_wages
+		
+		add_modifier = verylow_character_wages
+		
+    }
+	
+	is_shown = {
+		NOT = { var:character_wages = 1 }
+	}
+}
+showmodifier_verylow_character_wages = {
+	effect = {
+		add_modifier = {
+			name = verylow_character_wages
+		}
+	}
+}
+
+tge_character_wages_low = {
+    scope = country
+    effect = {
+        set_variable = {
+		name = character_wages
+		value = 2
+		}
+		remove_modifier = verylow_character_wages
+		remove_modifier = low_character_wages
+		remove_modifier = medium_character_wages
+		remove_modifier = high_character_wages
+		remove_modifier = veryhigh_character_wages
+		
+		add_modifier = low_character_wages
+		
+    }
+	
+	
+	is_valid = {
+		NOT = {var:character_wages = 2 }
+	}
+}
+showmodifier_low_character_wages = {
+	effect = {
+		add_modifier = {
+			name = low_character_wages
+		}
+	}
+}
+
+tge_character_wages_medium = {
+    scope = country
+    effect = {
+        set_variable = {
+		name = character_wages
+		value = 3
+		}
+		
+		remove_modifier = verylow_character_wages
+		remove_modifier = low_character_wages
+		remove_modifier = medium_character_wages
+		remove_modifier = high_character_wages
+		remove_modifier = veryhigh_character_wages
+		
+		add_modifier = medium_character_wages
+    }
+	
+	
+	is_valid = {
+		NOT = {var:character_wages = 3 }
+	}
+}
+showmodifier_medium_character_wages = {
+	effect = {
+		add_modifier = {
+			name = medium_character_wages
+		}
+	}
+}
+
+
+tge_character_wages_high = {
+    scope = country
+    effect = {
+        set_variable = {
+		name = character_wages
+		value = 4
+		}
+		
+		remove_modifier = verylow_character_wages
+		remove_modifier = low_character_wages
+		remove_modifier = medium_character_wages
+		remove_modifier = high_character_wages
+		remove_modifier = veryhigh_character_wages
+		
+		add_modifier = high_character_wages
+    }
+	
+	
+	is_valid = {
+		NOT = { var:character_wages = 4 }
+	}
+}
+showmodifier_high_character_wages = {
+	effect = {
+		add_modifier = {
+			name = high_character_wages
+		}
+	}
+}
+tge_character_wages_veryhigh = {
+    scope = country
+    effect = {
+        set_variable = {
+		name = character_wages
+		value = 5
+		}
+		
+		remove_modifier = verylow_character_wages
+		remove_modifier = low_character_wages
+		remove_modifier = medium_character_wages
+		remove_modifier = high_character_wages
+		remove_modifier = veryhigh_character_wages
+		
+		add_modifier = veryhigh_character_wages
+    }
+	
+	
+	is_valid = {
+		NOT = {var:character_wages = 5 }
+	}
+}
+showmodifier_veryhigh_character_wages = {
+	effect = {
+		add_modifier = {
+			name = veryhigh_character_wages
+		}
+	}
+}

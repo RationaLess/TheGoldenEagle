@@ -577,93 +577,94 @@ types budget
 							}
 
 							blockoverride "second_line" {}
-
+				
 							blockoverride "text_money" {
-								raw_text = "#N @money!-[GetPlayer.PredictGovernmentWagesExpenses|D-]"
-								using = government_wages_expense_tooltip_with_graph
+								raw_text = "#N @money!-[GetPlayer.MakeScope.ScriptValue('get_total_character_wage_payment')|D-]"
+								#raw_text = #"get_total_character_wage_payment  "#"#N @money!-[GetPlayer.PredictGovernmentWagesExpenses|D-]"
+								#using = government_wages_expense_tooltip_with_graph
 							}
 
 							blockoverride "button_1_click" {
-								onclick = "[Execute(GetPlayer.SetGovernmentWageLevelVeryLow)]"
-								enabled = "[GetPlayer.HasGovernmentWages]"
+								onclick = "[GetScriptedGui('tge_character_wages_verylow').Execute(GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+								
 							}
 							
 							blockoverride "button_2_click" {
-								onclick = "[Execute(GetPlayer.SetGovernmentWageLevelLow)]"
-								enabled = "[GetPlayer.HasGovernmentWages]"
+								onclick = "[GetScriptedGui('tge_character_wages_low').Execute(GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 							}									
 
 							blockoverride "button_3_click" {
-								onclick = "[Execute(GetPlayer.SetGovernmentWageLevelMedium)]"
-								enabled = "[GetPlayer.HasGovernmentWages]"
+								onclick = "[GetScriptedGui('tge_character_wages_medium').Execute(GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 							}
 
 							blockoverride "button_4_click" {
-								onclick = "[Execute(GetPlayer.SetGovernmentWageLevelHigh)]"
-								enabled = "[GetPlayer.HasGovernmentWages]"
+								onclick = "[GetScriptedGui('tge_character_wages_high').Execute(GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 							}
 							
 							blockoverride "button_5_click" {
-								onclick = "[Execute(GetPlayer.SetGovernmentWageLevelVeryHigh)]"
-								enabled = "[GetPlayer.HasGovernmentWages]"
+								onclick = "[GetScriptedGui('tge_character_wages_veryhigh').Execute(GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 							}
 
 							blockoverride "tooltip_1" {
-								tooltip = "[GetPlayer.GetGovernmentWageLevelDescVeryLow]"
+								tooltip = "VERYLOW_CHARACTER_WAGES_TOOLTIP"
 							}
 							blockoverride "tooltip_2" {
-								tooltip = "[GetPlayer.GetGovernmentWageLevelDescLow]"
+								tooltip = "LOW_CHARACTER_WAGES_TOOLTIP"
 							}
 							blockoverride "tooltip_3" {
-								tooltip = "[GetPlayer.GetGovernmentWageLevelDescMedium]"
+								tooltip = "MEDIUM_CHARACTER_WAGES_TOOLTIP"
 							}
 							blockoverride "tooltip_4" {
-								tooltip = "[GetPlayer.GetGovernmentWageLevelDescHigh]"
+								tooltip = "HIGH_CHARACTER_WAGES_TOOLTIP"
 							}
 							blockoverride "tooltip_5" {
-								tooltip = "[GetPlayer.GetGovernmentWageLevelDescVeryHigh]"
+								tooltip = "VERYHIGH_CHARACTER_WAGES_TOOLTIP"
 							}									
 
 							blockoverride "setvisible_very_low" {
-								visible = "[Not(IsValid(GetPlayer.SetGovernmentWageLevelVeryLow))]"
+								
+							
+								visible =  no #"[Not(GetScriptedGui('tge_is_at_character_wages_verylow').IsShown( GuiScope.SetRoot(Country.MakeScope).End))]"
 							}
+							
 							blockoverride "setvisible_very_low_2" {
-								visible = "[IsValid(GetPlayer.SetGovernmentWageLevelVeryLow)]"
+							
+								visible = "[GetScriptedGui('tge_is_at_character_wages_verylow').IsShown( GuiScope.SetRoot(Country.MakeScope).End)]"
 							}
 
 							blockoverride "setvisible_low" {
-								visible = "[Not(IsValid(GetPlayer.SetGovernmentWageLevelLow))]"
+								visible =  no #"[Not(GetScriptedGui('tge_character_wages_low').IsValid( GuiScope.SetRoot(Country.MakeScope).End))]"
 							}
 							blockoverride "setvisible_low_2" {
-								visible = "[IsValid(GetPlayer.SetGovernmentWageLevelLow)]"
+								visible = "[GetScriptedGui('tge_character_wages_low').IsValid( GuiScope.SetRoot(Country.MakeScope).End)]"
 							}
 
 							blockoverride "setvisible_medium" {
-								visible = "[Not(IsValid(GetPlayer.SetGovernmentWageLevelMedium))]"
+								visible = no
 							}
 							blockoverride "setvisible_medium_2" {
-								visible = "[IsValid(GetPlayer.SetGovernmentWageLevelMedium)]"
+								visible = "[GetScriptedGui('tge_character_wages_medium').IsValid( GuiScope.SetRoot(Country.MakeScope).End)]"
 							}
 
 							blockoverride "setvisible_high" {
-								visible = "[Not(IsValid(GetPlayer.SetGovernmentWageLevelHigh))]"
+								visible = no
 							}
 							blockoverride "setvisible_high_2" {
-								visible = "[IsValid(GetPlayer.SetGovernmentWageLevelHigh)]"
+								visible = "[GetScriptedGui('tge_character_wages_high').IsValid( GuiScope.SetRoot(Country.MakeScope).End)]"
 							}
 
 							blockoverride "setvisible_very_high" {
-								visible = "[Not(IsValid(GetPlayer.SetGovernmentWageLevelVeryHigh))]"
+								visible = no
 							}
 							blockoverride "setvisible_very_high_2" {
-								visible = "[IsValid(GetPlayer.SetGovernmentWageLevelVeryHigh)]"
+								visible = "[GetScriptedGui('tge_character_wages_veryhigh').IsValid( GuiScope.SetRoot(Country.MakeScope).End)]"
 							}
 						}
 						
 						tax_exp_frame_coin = {
 
 							blockoverride "text_upper" {
-								text = "BUDGET_GENERAL_WAGES"
+								text = "BUDGET_COMMANDER_WAGES"
 							}
 
 							blockoverride "second_line" {}

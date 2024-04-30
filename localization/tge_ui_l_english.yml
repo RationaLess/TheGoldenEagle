@@ -74,3 +74,20 @@
   deify_ruler:"Deify Ruler"
   
   #LOYALTY_BREAKDOWN:1 "#header [Character.GetFullName]#! has #v [LabelingHelper.GetLabelForPopularityCFixedPoint(Character.GetPopularity)]#! ([Character.GetPopularity|0+=]) [concept_popularity][ConcatIfNeitherEmpty('\n$TOOLTIP_DELIMITER$\n', Character.GetPopularityDesc)]"
+  
+  BUDGET_CHARACTER_WAGES:"[concept_character_wages]"
+  concept_character_wages:"Character Wages"
+  concept_character_wages_desc:"[concept_character] #V Wages#! are paid weekly to [Concept('concept_politician', 'Politicians')], proportionally to the [concept_clout] of the [concept_interest_group] they lead. This goes directly into a characters [concept_personal_wealth]. The amount given is based on the [concept_gdp] of a nation.\n\nUnlike [concept_interest_group] leaders, the [concept_ruler] and [concept_heir] are granted flat but significant sums."
+  
+  VERYLOW_CHARACTER_WAGES_TOOLTIP:"[GetScriptedGui('showmodifier_verylow_character_wages').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+  LOW_CHARACTER_WAGES_TOOLTIP:"[GetScriptedGui('showmodifier_low_character_wages').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+  MEDIUM_CHARACTER_WAGES_TOOLTIP:"[GetScriptedGui('showmodifier_medium_character_wages').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+  HIGH_CHARACTER_WAGES_TOOLTIP:"[GetScriptedGui('showmodifier_high_character_wages').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+  VERYHIGH_CHARACTER_WAGES_TOOLTIP:"[GetScriptedGui('showmodifier_veryhigh_character_wages').ExecuteTooltip( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+  
+  
+  BUDGET_COMMANDER_WAGES:"[concept_commander_wages]"
+  concept_commander_wages:"Commander Wages"
+  concept_commander_wages_desc:"#V Commander Wages#! are paid weekly to [Concept('concept_general', 'Generals')] and [Concept('concept_admiral', 'Admirals')] proportionally to their [concept_rank]. This goes directly into a characters [concept_personal_wealth]. The amount given is based on the [concept_power_projection] of a nation as well as the amount of elligible [Concept('concept_character', 'Characters')]."
+  
+  

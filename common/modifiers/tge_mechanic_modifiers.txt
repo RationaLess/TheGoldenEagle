@@ -186,3 +186,43 @@ civilization_level_5 = {
 	country_weekly_innovation_max_add = 100
 	building_urban_center_throughput_add = 0.4
 }
+
+verylow_character_wages = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_authority_negative.dds
+	
+	country_politician_loyalty_add = -25
+	country_legitimacy_headofstate_add = -10
+	country_character_wages_mult = -0.3
+}
+low_character_wages = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_authority_negative.dds
+	
+	country_politician_loyalty_add = -10
+	country_legitimacy_headofstate_add = -5
+	country_character_wages_mult = -0.15
+}
+medium_character_wages = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_authority_negative.dds
+	
+	country_politician_loyalty_add = 0
+	country_character_wages_mult = 0
+}
+high_character_wages = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_authority_positive.dds
+	
+	country_politician_loyalty_add = 10
+	country_legitimacy_headofstate_add = 5
+	country_character_wages_mult = 0.15
+}
+veryhigh_character_wages = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_authority_positive.dds
+	
+	country_politician_loyalty_add = 25
+	country_legitimacy_headofstate_add = 10
+	country_character_wages_mult = 0.3
+}
+paying_character_wages = {
+  	  icon = gfx/interface/icons/timed_modifier_icons/modifier_authority_positive.dds
+
+	country_expenses_add = 100
+	}

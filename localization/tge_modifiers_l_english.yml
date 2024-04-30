@@ -132,6 +132,14 @@
  concept_loyalty_desc:"The loyalty of a character represents how willing they are to serve the state rather than their own interest. The loyalty of [concept_interest_group] leaders will impact their [concept_approval].\n\nCharacters with Loyalty above #V 50#! will try to help the state, while characters below #V -50#! will try to sabotage it.\n\n#V Disloyal#! [Concept('concept_ruler','Rulers')] can cause you to lose [concept_legitimacy], while #V Loyal#! rulers can cause you to gain it."
  CHARACTER_LOYALTY:"[GetModifier.GetFullEntryDescFor('character_loyalty_add')]"
  
+ modifier_character_loyalty_add:"[concept_loyalty]"
+ modifier_character_loyalty_add_desc:"The [concept_loyalty] of a character."
+ 
+ PERSONAL_WEALTH:"[concept_personal_wealth]"
+ PERSONAL_WEALTH_CORRUPTION:"Very high [concept_personal_wealth] can cauase a character to become #V Corrupt#!, causing them to lose [concept_loyalty].\n\nIf this progress bar reaches at least #V 50%#! (The equivalent of 10% of our [concept_gold_reserves] limit), the character will gain a [concept_loyalty] #V penalty#! which will increase the fuller the bar is."
+ concept_personal_wealth:"Personal Wealth"
+ concept_personal_wealth_desc:"[Concept('concept_character','Characters')] will earn their #V Personal wealth#! through their [concept_popularity], [concept_character_wages], or [concept_commander_wages].\n\nHigh personal welth tends to lead to [Concept('concept_loyalty','Disloyalty')]."
+ 
  concept_ruins:"Ruins"
  concept_ruins_desc:"Ruins are a type of [concept_building] present in a [concept_state] representing the material vestiges of past civilizations. They can appear through events which destroy urban buildings, but a great many of them exist by #V 1428#!.\n\nThey can be excavated through the #V Excavate Ruins#! [concept_decree] which can lead to unique events, or in the cases of [concept_major_sites], unique #V Archeology#! [Concept('concept_journal_entry','Journal Entries')]."
  bg_ruins:"[concept_ruins]"

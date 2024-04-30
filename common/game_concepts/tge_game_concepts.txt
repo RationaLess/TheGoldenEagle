@@ -21,3 +21,9 @@ concept_codex = {}
 concept_ruins = {}
 
 concept_major_sites = {}
+
+concept_personal_wealth = {}
+
+concept_character_wages = {}
+
+concept_commander_wages = {}

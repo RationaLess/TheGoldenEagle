@@ -62,6 +62,21 @@ building_temple_throughput_add = {
 	}
 
 
+country_politician_loyalty_add = {
+	good = yes
+	}
+country_commander_loyalty_add = {
+	good = yes
+	}
+country_character_wages_mult = {
+	good = no
+	percent = yes
+	}
+country_commander_wages_mult = {
+	good = no
+	percent = yes
+	}
+
 character_loyalty_add = {
 	good = yes
 	}

@@ -275,3 +275,44 @@ is_loyal = {
 	
 	
 }
+
+
+
+tge_wealth_corruption_bar_max = {
+
+	value = {
+		value = gold_reserves_limit
+		divide = 10
+		}
+}
+
+
+get_character_wage_payment_mult = {
+	
+	value = {
+		value = {
+			value = root.gdp
+			
+			divide = 500000
+			
+			min = 0.5
+			}
+			
+		multiply = {
+			value = 1
+			add = modifier:country_character_wages_mult 	
+			}
+		}
+	
+		
+	
+	}
+	
+get_total_character_wage_payment = {
+	
+	value = {
+		value = 100
+		multiply = get_character_wage_payment_mult
+		}
+	
+	}
