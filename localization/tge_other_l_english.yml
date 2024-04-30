@@ -26,12 +26,14 @@
  setting_ai_assistance_no:"AI Assistance #V OFF#!"
  setting_ai_assistance_no_desc:"AI nations will be on a level playing field with the player."
  
- rule_tge_fantasy_events:"@tge_icon! Fantasy Events"
+ rule_tge_fantasy_events:"[Concept('concept_the_golden_eagle','$concept_the_golden_eagle_icon$')] Fantasy Events"
  setting_fantasy_events_enabled:"Fantasy Events #V ON#!"
  setting_fantasy_events_enabled_desc:"Implausible and mythological events can occur."
  setting_fantasy_events_disabled:"Fantasy Events #V OFF#!"
  setting_fantasy_events_disabled_desc:"Events will be strictly plausible and worldly."
  
+ concept_the_golden_eagle_icon: "@tge_icon!"
+
  
  
  #Select Text
