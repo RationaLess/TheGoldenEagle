@@ -9,3 +9,14 @@ texticon = {
     fontsize = 20
   }
 }
+
+#EMPIRE SPRAWL ICON
+texticon = {
+  icon = tge_empire_sprawl_icon
+	iconsize = {
+		texture = "gfx/interface/icons/texticons/empire_sprawl_texticon.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 18
+	}
+}
