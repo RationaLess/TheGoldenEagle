@@ -1,6 +1,6 @@
 ﻿the_golden_eagle = {
 	possible = {
-		this = c:ATA
+		c:ATA ?= this
 	}
 	happened = {
 		custom_tooltip = {
@@ -15,15 +15,15 @@ the_three_hearts = {
 		country_has_primary_culture = cu:totonac
 	}
 	happened = {
-		this = c:TRHR
+		c:TRHR ?= this
 	}
 }
 
 triumph_of_nezahuacoyotl = {
 	possible = {
-		this = c:TEXC
+		c:TEXC ?= this
 	}
 	happened = {
-		this = c:TEOT
+		c:TEOT ?= this
 	}
 }

@@ -264,7 +264,7 @@ character_events.1005 = { #Accused of Nagualism
 				NOT = { has_variable = nagual }
 				}
 			save_scope_as = nagual
-			add_variable = nagual 
+			set_variable = nagual 
 		}
 	}
 
@@ -308,7 +308,7 @@ character_events.1006 = { #Accused of Sodomy
 				NOT = { has_variable = sodomite }
 				}
 			save_scope_as = sodomite
-			add_variable = sodomite 
+			set_variable = sodomite 
 		}
 	}
 

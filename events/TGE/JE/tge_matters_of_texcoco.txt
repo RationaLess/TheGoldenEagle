@@ -263,21 +263,18 @@ matters_of_texcoco.2 = {
 				has_war_with = ROOT
 			}
 		}
-		
-	
 	}
 
 	immediate = {
-	
-	random_country = {
-				limit = {
+		random_country = {
+			limit = {
 				has_journal_entry = je_matters_of_texcoco 
 				NOT = { this = root }
 				NOT = {
 					has_law = law_type:law_bellicose
 					has_war_with = ROOT
-					}
 				}
+			}
 			save_scope_as = their_country 
 			ig:ig_aristocracy = {
 				save_scope_as = their_nobles
@@ -286,79 +283,79 @@ matters_of_texcoco.2 = {
 				}
 			}
 		}
-	
+		
 		ig:ig_aristocracy = {
-				save_scope_as = our_nobles
-				leader = {
-					save_scope_as = our_noble_leader
-				}
+			save_scope_as = our_nobles
+			leader = {
+				save_scope_as = our_noble_leader
 			}
+		}
 	}
 
 	option = { #accept
-			name = matters_of_texcoco.2.a
-			default_option = yes
-			change_infamy = -2
-			create_truce = {
-				country =  scope:their_country
-				months = 12
-				}
-			
-			change_relations = {
-				country =  scope:their_country
-				value = 20
-				}
-			
-			ai_chance = {
-				base = 25
-				}	
+		name = matters_of_texcoco.2.a
+		default_option = yes
+		change_infamy = -2
+		create_truce = {
+			country =  scope:their_country
+			months = 12
 		}
+			
+		change_relations = {
+			country =  scope:their_country
+			value = 20
+		}
+			
+		ai_chance = {
+			base = 25
+		}	
+	}
 	option = { #deny
-			name = matters_of_texcoco.2.b
+		name = matters_of_texcoco.2.b
 
-			ai_chance = {
-				base = 25
-				}	
-		}
+		ai_chance = {
+			base = 25
+		}	
+	}
 	option = { #sacrifice lmao
-			name = matters_of_texcoco.2.c
-			trigger = {
-				has_law = law_type:law_human_sacrifice
-				}
-			
-			
-			add_modifier = {
-				name = blood_for_the_blood_god
-				months = 120
-				}
-			change_relations = {
-				country = scope:their_country
-				value = -30
-				}
-			create_incident = {
-				country = scope:their_country
-				value = 5
-				}
-			
-			custom_tooltip = {
-				text = effect_texcoco_struggle_advance_5
-				effect_texcoco_struggle_advance_5
-				
-				set_variable = texcoco_struggle_sacrificed_diplomat
-				}
-			
-			
-			ai_chance = {
-				base = 0
-				
-				modifier = {
-					trigger = {
-						has_law = law_type:law_bellicose
-						}
-					add = 100
-					}
-				}	
+		name = matters_of_texcoco.2.c
+		trigger = {
+			has_law = law_type:law_human_sacrifice
 		}
+			
+			
+		add_modifier = {
+			name = blood_for_the_blood_god
+			months = 120
+		}
+		change_relations = {
+			country = scope:their_country
+			value = -30
+		}
+		create_incident = {
+			country = scope:their_country
+			value = 5
+		}
+			
+		custom_tooltip = {
+			text = effect_texcoco_struggle_advance_5
+			effect_texcoco_struggle_advance_5 = yes
+			
+			set_variable = texcoco_struggle_sacrificed_diplomat
+		}
+			
+			
+		ai_chance = {
+			base = 0
+				
+			modifier = {
+				trigger = {
+					has_law = law_type:law_bellicose
+					}
+				add = 100
+			}
+		}	
+	}
 
 }
 

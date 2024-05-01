@@ -281,7 +281,7 @@ mesoamerican_question_respond_to_purepecha_threat = {
 				}
 			}
 		hidden_effect = {
-			add_variable = mesoamerican_question_responded_to_purepecha
+			set_variable = mesoamerican_question_responded_to_purepecha
 		}
 	}
 
