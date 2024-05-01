@@ -32,13 +32,14 @@ je_golden_reign = {
 		}
 	
 	possible = {
-		pop_loyalist_fraction >= 0.2
+		loyalist_fraction = {
+			value >= 0.2
+		}
 		ruler = {
 			popularity >= 100
 		}	
 	}
-
-	}
+}
 	
 je_dark_reign = {
 	icon = "gfx/interface/icons/event_icons/event_skull.dds"
@@ -52,13 +53,14 @@ je_dark_reign = {
 		}
 	
 	possible = {
-		pop_radical_fraction >= 0.2
+		radical_fraction = {
+			value >= 0.2
+		}
 		ruler = {
 			popularity <= -100
-		}	
+		}
 	}
-
-	}
+}
 	
 je_claimant_faction = {
 	icon = "gfx/interface/icons/military_icons/attrition.dds"

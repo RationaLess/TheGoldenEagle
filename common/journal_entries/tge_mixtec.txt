@@ -8,10 +8,10 @@
 	is_shown_when_inactive = {	
 		country_has_primary_culture = cu:mixtec
 		
-		}
+	}
 	
 	possible = {
-		country_rank >= rank_value:rank_major_power
+		country_rank >= rank_value:major_power
 	}
 
 
@@ -19,4 +19,4 @@
 
 
 
-	}
+}

@@ -1240,8 +1240,8 @@ execute = {
 				add = {
 					value = scope:relevant_ig.ig_clout
 					multiply = 50
-					}
 				}
+			}
 			ruler = {
 				add_modifier = {
 					name = tyranny
@@ -1249,13 +1249,12 @@ execute = {
 					multiplier = {
 						value = 1
 						add = {
-							value = scope:relevant_ig.ig_clout
+							value = root.scope:relevant_ig.ig_clout
 							multiply = 10
-							}
 						}
+					}
 				}
 			}
-			
 		}
 	}
 
