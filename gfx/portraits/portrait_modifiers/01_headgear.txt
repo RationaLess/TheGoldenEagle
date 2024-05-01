@@ -79,7 +79,7 @@
             modifier = {
                 add = 1000
                 ruler_clothes_trigger = yes
-                scope:character = {
+                scope:character ?= {
                     is_ruler = yes
                     OR = {
                         culture = cu:comanche
