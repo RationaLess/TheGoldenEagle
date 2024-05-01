@@ -49,16 +49,16 @@ on_monthly_pulse_character = {
 			add_random_trait = personality
 		}
 		#Gain Some Money if you're popular
-		change_variable = {
-			name = personal_wealth
-			add = {
-				value = popularity
-				multiply = 10
-				
-				min = 0
-				}
-			
-			}
+		#change_variable = {
+		#	name = personal_wealth
+		#	add = {
+		#		value = popularity
+		#		multiply = 10
+		#		
+		#		min = 0
+		#		}
+		#	
+		#	}
 	
 	
 	}

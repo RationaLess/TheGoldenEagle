@@ -19,22 +19,27 @@ on_character_creation = {
 
 tge_on_character_creation = {
 	
-	set_variable = {
-		name = personal_wealth
-		value = {
+	effect = {
+		set_variable = {
+			name = personal_wealth
+			value = 1
+			}
+		change_variable = {
+			name = personal_wealth 
 			value = {
-				value = owner.gold_reserves_limit
-				divide = 20
-				}
-			multiply = {
-				this.interest_group = {
-					value = ig_clout
+				value = {
+					value = home_country.gold_reserves_limit
+					divide = 20
+					}
+				multiply = {
+					this.interest_group = {
+						value = ig_clout
+						}
 					}
 				}
-			}
-		}	
-	
-	
+			}		
+			
+		}
 	}
 
 tge_monthly_pulse = {
@@ -88,11 +93,11 @@ tge_monthly_pulse = {
 			#When I was coding this, I was listening to SilvaGunner's Shakeover in order to keep myself awake. What is the shakeover, you may ask? well, it's just video game music with the Harlem Shake stapled onto it. It's really stupid. It really contributed to the feeling of losing my marbles as i attempt to code this mechanic, though. If you want to find yourself in the same headspace as I am right now writing this, go look for Title Screen (Alternative Version) - CrazyBus
 			#Edit: The very next song in the playlist is a remix that is even more grating to the ears. Maybe there is no god
 		
-		remove_modifier = paying_character_wages
-		add_modifier = {
-			name = paying_character_wages 
-			multiplier = get_character_wage_payment_mult
-			}
+			remove_modifier = paying_character_wages
+			add_modifier = {
+				name = paying_character_wages 
+				multiplier = get_character_wage_payment_mult
+				}
 		every_scope_character = {
 			limit = {
 				has_role = politician
@@ -110,26 +115,26 @@ tge_monthly_pulse = {
 					}
 				}
 			}
-		ruler = {
-			change_variable = {
-				name = personal_wealth
-				add = {
-					value = get_total_character_wage_payment
-					multiply = 0.2
-					multiply = 4
-					}
-				}
-			}
-		heir = {
-			change_variable = {
-				name = personal_wealth
-				add = {
-					value = get_total_character_wage_payment
-					multiply = 0.05
-					multiply = 4
-					}
-				}
-			}
+		#ruler = {
+		#	change_variable = {
+		#		name = personal_wealth
+		#		add = {
+		#			value = get_total_character_wage_payment
+		#			multiply = 0.2
+		#			multiply = 4
+		#			}
+		#		}
+		#	}
+		#heir = {
+		#	change_variable = {
+		#		name = personal_wealth
+		#		add = {
+		#			value = get_total_character_wage_payment
+		#			multiply = 0.05
+		#			multiply = 4
+		#			}
+		#		}
+		#	}
 		
 		
 	}
