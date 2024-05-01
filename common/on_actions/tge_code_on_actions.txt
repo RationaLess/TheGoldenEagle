@@ -204,15 +204,15 @@ tge_yearly_pulse = {
 				NOT = {
 					scaled_debt > 0.25
 					bureaucracy < 0
-					}
+				}
 				OR = {
 					infamy < 100
 					empire_sprawl_deficit < 0.25
-					}
+				}
 				OR = {
 					has_journal_entry = je_kindling_the_empire
 					has_strategy = ai_strategy_imperial_ambitions
-					}
+				}
 				#Valid country exists 
 				any_country = {
 					is_diplomatic_play_committed_participant = no
@@ -224,7 +224,7 @@ tge_yearly_pulse = {
 						is_subject_of = ROOT
 						is_diplomatic_play_enemy_of = root
 						has_truce_with = ROOT
-						}
+					}
 					exists = yes
 				}
 			}
@@ -241,10 +241,9 @@ tge_yearly_pulse = {
 						is_subject_of = ROOT
 						is_diplomatic_play_enemy_of = root
 						has_truce_with = ROOT
-						}
 					}
-					save_scope_as = imperial_copilot_target
 				}
+				save_scope_as = imperial_copilot_target
 			}
 			if = {	
 				limit = {
@@ -257,7 +256,8 @@ tge_yearly_pulse = {
 					target_country = scope:imperial_copilot_target
 				}
 			}
-		}
+		}	
+	}
 	
 	#Random Pool
 	random_events = {
