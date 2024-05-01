@@ -3,13 +3,15 @@
 rudimentary_tools = {
 	# Unlocks Tooling Workshops
 	era = era_1
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	texture = "gfx/interface/icons/invention_icons/rudimentary_tools.dds"
+	# Glyph "huictli" from the Codex Mendoza, meaning "digging stick" or a simple farming tool
 	category = production
 }
 
 animal_husbandry = {
 	era = era_1
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	texture = "gfx/interface/icons/invention_icons/animal_husbandry.dds"
+	# Glyph "coyamet" from the Codex Mendoza, meaning "peccary;" derived from the place name Ixcoyamec
 	category = production
 }
 
@@ -18,7 +20,8 @@ animal_husbandry = {
 farming = {
 	#
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	texture = "gfx/interface/icons/invention_icons/farming.dds"
+	# Glyph "toctli" from the Codex Mendoza, meaning "maize plant"
 	category = production
 
 	unlocking_technologies = {
@@ -30,7 +33,8 @@ farming = {
 artisanship = {
 	#
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	texture = "gfx/interface/icons/invention_icons/artisanship.dds"
+	# Glyph "cuauhxinqui" from the Codex Mendoza, meaning "carpenter"
 	category = production
 
 	unlocking_technologies = {
@@ -41,7 +45,8 @@ artisanship = {
 woodworking = {
 	#
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	texture = "gfx/interface/icons/invention_icons/woodworking.dds"
+	# Glyph "Cuauhximalpan" from the Codex Mendoza, placename derived from tree + cut/saw OR "to work wood" + pan (locative)
 	category = production
 	
 	modifier = {
@@ -56,7 +61,8 @@ woodworking = {
 tooling = {
 	#
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	texture = "gfx/interface/icons/invention_icons/tooling.dds"
+	# Glyph "tepoztli" from the Codex Mendoza, meaning "metal tool"
 	category = production
 
 	unlocking_technologies = {
@@ -67,7 +73,8 @@ tooling = {
 pottery = {
 	#
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	texture = "gfx/interface/icons/invention_icons/pottery.dds"
+	# Glyph "conchiuhqui" from Matrícula de Huexotzinco, meaning "potter" derived from ceramic pot + to make
 	category = production
 
 	unlocking_technologies = {
@@ -111,7 +118,8 @@ urban_planning = {
 quarrying = {
 	#
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	texture = "gfx/interface/icons/invention_icons/quarrying.dds"
+	# Glyph "tlatecqui" from the Codex Mendoza, constructed from "cut" + "jade" -> "one who cuts things" -> stone-worker
 	category = production
 
 	unlocking_technologies = {

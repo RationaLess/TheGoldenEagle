@@ -42,7 +42,7 @@ city_state = {
 
 record_keeping = {
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/record_keeping.dds"
 	category = society
 	
 	
