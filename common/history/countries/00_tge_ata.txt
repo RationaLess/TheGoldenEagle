@@ -158,10 +158,10 @@
 		effect_starting_technology_mesoamerica_basic = yes
 		effect_starting_laws_mesoamerica_citystate = yes
 		}
-	c:TLH = {
-		effect_starting_technology_mesoamerica_basic = yes
-		effect_starting_laws_mesoamerica_citystate = yes
-		}
+#	c:TLH = {
+#		effect_starting_technology_mesoamerica_basic = yes
+#		effect_starting_laws_mesoamerica_citystate = yes
+#	}
 	c:HCH = {
 		effect_starting_technology_mesoamerica_basic = yes
 		effect_starting_laws_mesoamerica_citystate = yes
