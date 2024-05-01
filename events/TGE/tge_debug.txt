@@ -16,5 +16,7 @@ tge_debug.1 = {
 				value = tge_starting_wealth_value
 			}
 		}
+		
+		tge_error_prevention_effect = yes
 	}
 }

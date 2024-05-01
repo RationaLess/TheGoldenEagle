@@ -133,7 +133,7 @@ character_events.1002 = { #Claimant emerges
 					}
 			}
 		save_scope_as = claimant_scope
-		add_variable = claimant
+		set_variable = claimant
 		}
 		
 		add_journal_entry = { type = je_claimant_faction }

@@ -85,18 +85,14 @@ gov_nahua_city_state = { #Altepetl
 	
 	possible = {
 		has_law = law_type:law_city_state
-		capital = {
-			state_region = {
-				OR = {
-						region = sr:region_anahuac 
-						region = sr:region_huaxyacac 
-						region = sr:region_ilhuicaatl 
-						region = sr:region_michhuahcan  
-						region = sr:region_maya_lowlands   
-						region = sr:region_maya_highlands   
-					}
-				}
-			}
+		OR = {
+			root.capital.region = sr:region_anahuac
+			root.capital.region = sr:region_huaxyacac
+			root.capital.region = sr:region_ilhuicaatl
+			root.capital.region = sr:region_michhuahcan
+			root.capital.region = sr:region_maya_lowlands
+			root.capital.region = sr:region_maya_highlands
+		}
 	}
 }
 

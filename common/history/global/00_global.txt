@@ -1,10 +1,8 @@
 ﻿# This is executed last among all history
 GLOBAL = {
-	tge_error_prevention_effect = yes
-	
+
 	every_country = {
 		onaction_empire_sprawl_calc = yes
-		
 		
 		#Civilization Level JEs
 		

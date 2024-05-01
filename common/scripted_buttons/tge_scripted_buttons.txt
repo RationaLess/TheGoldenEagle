@@ -256,8 +256,9 @@ mesoamerican_question_respond_to_purepecha_threat = {
 		
 		hidden_trigger = {
 			NOT = {
-			has_variable = mesoamerican_question_responded_to_purepecha
+				has_variable = mesoamerican_question_responded_to_purepecha
 			}
+		}
 	}
 
 	effect = {
@@ -289,6 +290,7 @@ mesoamerican_question_respond_to_purepecha_threat = {
 		base = 100
 	}
 }
+
 mesoamerican_question_intermarry_with_west_nahuas = {
 	name = "mesoamerican_question_intermarry_with_west_nahuas"
 	desc = "mesoamerican_question_intermarry_with_west_nahuas_desc"
@@ -311,7 +313,7 @@ mesoamerican_question_intermarry_with_west_nahuas = {
 
 	effect = {
 		hidden_effect = {
-			add_variable = mesoamerican_question_intermarried
+			set_variable = mesoamerican_question_intermarried
 		}
 		custom_tooltip = {
 			text = mesoamerican_question_plus_25
