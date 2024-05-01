@@ -1,0 +1,20 @@
+﻿namespace = tge_debug
+
+
+#A new Project
+tge_debug.1 = {
+	type = country_event
+	hidden = yes
+
+	immediate = {
+		every_character = {
+			limit = {
+				NOT = { has_variable = personal_wealth }
+			}
+			set_variable = {
+				name = personal_wealth
+				value = tge_starting_wealth_value
+			}
+		}
+	}
+}

@@ -76,16 +76,16 @@ GLOBAL = {
 		#Every Country should start with at least some loyalists
 		add_loyalists = {
 			value = 0.5
-			}
+		}
 		#Variable Set Up
 		set_variable = {
 			name = character_wages
 			value = 3
-			}
+		}
 		set_variable = {
 			name = commander_wages
 			value = 3
-			}
+		}
 
 	
 	}
@@ -94,11 +94,9 @@ GLOBAL = {
 		add_modifier = {
 			name = state_minor_settlement_modifier
 			multiplier = 100
-			}
 		}
+	}
 
-	
-	
 
 	
 	
@@ -117,5 +115,14 @@ GLOBAL = {
 	set_global_variable = {
 		name = number_of_mega_eruptions
 		value = 0
+	}
+
+	
+	#Adds personal wealth to all characters
+	random_country = {
+		trigger_event = {
+			id = tge_debug.1
+			days = 1
+		}
 	}
 }

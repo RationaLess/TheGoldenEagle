@@ -313,6 +313,24 @@ get_total_character_wage_payment = {
 	value = {
 		value = 100
 		multiply = get_character_wage_payment_mult
-		}
-	
 	}
+	
+}
+
+tge_change_wealth_character = {
+	value = get_total_character_wage_payment
+	multiply = interest_group.ig_clout
+	multiply = 4
+}
+
+tge_starting_wealth_value = {
+	if = {
+		limit = { exists = owner }
+		value = owner.gold_reserves_limit
+		divide = 20
+		multiply = interest_group.ig_clout
+	}
+	else = {
+		value = 0
+	}
+}
