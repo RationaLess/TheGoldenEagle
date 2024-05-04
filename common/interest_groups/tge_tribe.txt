@@ -13,10 +13,10 @@
 	
 	on_enable = {
 
-		ig:ig_aristocracy = {
-			set_ig_trait = ig_trait:ig_trait_elitism
-			set_ig_trait = ig_trait:ig_trait_dynastic_outreach
-			set_ig_trait = ig_trait:ig_trait_foreign_envy
+		ig:ig_tribe = {
+			set_ig_trait = ig_trait:ig_trait_hidden_enemies
+			set_ig_trait = ig_trait:ig_trait_pacification
+			set_ig_trait = ig_trait:ig_trait_mutual_aid
 		}
 
 

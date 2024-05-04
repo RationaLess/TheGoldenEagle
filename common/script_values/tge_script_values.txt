@@ -254,6 +254,9 @@ get_loyalty = {
 	
 	value = modifier:character_loyalty_add
 	
+	add = owner.modifier:country_politician_loyalty_add
+
+
 	
 	min = -100
 	max = 100
@@ -291,9 +294,9 @@ get_character_wage_payment_mult = {
 	
 	value = {
 		value = {
-			value = root.gdp
+			value = root.prestige
 			
-			divide = 500000
+			divide = 250
 			
 			min = 0.5
 			}
@@ -319,8 +322,16 @@ get_total_character_wage_payment = {
 
 tge_change_wealth_character = {
 	value = get_total_character_wage_payment
+	
 	multiply = interest_group.ig_clout
 	multiply = 4
+
+	add = {
+		value = popularity
+		multiply = 10
+		min = 0
+		max = 1000
+		}
 }
 
 tge_starting_wealth_value = {

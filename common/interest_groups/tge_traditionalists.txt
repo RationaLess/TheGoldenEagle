@@ -18,7 +18,7 @@
 	
 	on_enable = {
 		
-		ig:ig_traditionalists = {
+		ig:ig_faithful = {
 					set_ig_trait = ig_trait:ig_trait_religious_fervor
 					set_ig_trait = ig_trait:ig_trait_uniting_sermons
 					set_ig_trait = ig_trait:ig_trait_violated_traditions

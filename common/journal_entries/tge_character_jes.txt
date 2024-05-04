@@ -88,13 +88,26 @@ je_god_among_men = {
 	should_be_pinned_by_default = yes 
 	
 	is_shown_when_inactive = {	
-		always = no
+		always = yes
 		}
 	
 	possible = {
 	}
 
+	}
 
+je_reign_of_kindness = {
+	icon = "gfx/interface/icons/generic_icons/unused/owe_obligation.dds"
 
+	group = je_group_internal_affairs 
+
+	should_be_pinned_by_default = yes 
+	
+	is_shown_when_inactive = {	
+		always = yes
+		}
+	
+	possible = {
+	}
 
 	}

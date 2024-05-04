@@ -26,7 +26,7 @@ ig_trait_dynastic_outreach = {
 	}
 }
 
-ig_trait_elitism = {
+ig_trait_levy_withheld = {
 	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
 
 	# type is for display order
@@ -35,7 +35,8 @@ ig_trait_elitism = {
 	max_approval = unhappy
 	
 	modifier = {
-		state_radicals_from_discrimination_mult = 0.5
+		#state_radicals_from_discrimination_mult = 0.5
+		country_can_declare_diplomatic_demands = no
 	}
 }
 
@@ -104,7 +105,7 @@ ig_trait_uniting_sermons = {
 	min_approval = happy
 	
 	modifier = {
-		state_loyalists_from_sol_change_mult = 0.2
+		country_legitimacy_ideological_incoherence_mult = -0.15
 	}
 }
 
@@ -325,5 +326,89 @@ ig_trait_local_resistance = {
 	
 	modifier = {
 		state_working_adult_ratio_add = -0.05
+	}
+}
+
+
+#Crown
+ig_trait_divine_ordainment = {
+	icon = "gfx/interface/icons/ig_trait_icons/be_fruitful_and_multiply.dds"
+
+	# type is for display order
+	type = in_government
+
+	min_approval = loyal
+	
+	modifier = {
+		country_authority_add = 100
+	}
+}
+
+ig_trait_worthy_of_submission = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = happy
+
+	min_approval = happy
+	
+	modifier = {
+		country_character_wages_mult = -0.1
+		country_commander_wages_mult = -0.1
+	}
+}
+
+ig_trait_endangered_succession = {
+	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
+
+	# type is for display order
+	type = unhappy
+
+	max_approval = unhappy
+	
+	modifier = {
+		country_prestige_mult = -0.25
+	}
+}
+
+
+#Crown
+ig_trait_mutual_aid = {
+	icon = "gfx/interface/icons/ig_trait_icons/be_fruitful_and_multiply.dds"
+
+	# type is for display order
+	type = in_government
+
+	min_approval = loyal
+	
+	modifier = {
+		country_monthly_loyalists_add  = 0.0005
+	}
+}
+
+ig_trait_pacification = {
+	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
+
+	# type is for display order
+	type = happy
+
+	min_approval = happy
+	
+	modifier = {
+		country_tension_decay_mult = 0.2
+	}
+}
+
+ig_trait_hidden_enemies = {
+	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
+
+	# type is for display order
+	type = unhappy
+
+	max_approval = unhappy
+	
+	modifier = {
+		state_colony_growth_speed_mult = -0.25
+		country_empire_sprawl_load_mult = 0.1
 	}
 }

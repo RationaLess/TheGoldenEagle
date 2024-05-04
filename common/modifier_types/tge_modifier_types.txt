@@ -10,6 +10,12 @@ country_monthly_radicals_add = {
 	num_decimals = 2
 }
 
+country_can_declare_diplomatic_demands = {
+	good = yes
+	boolean = yes
+}
+
+
 state_building_temple_max_level_add = {
 	good = yes
 	percent = no
@@ -226,3 +232,4 @@ country_low_penalties_for_empire_sprawl = {
 	neutral = yes
 	boolean = yes
 }
+

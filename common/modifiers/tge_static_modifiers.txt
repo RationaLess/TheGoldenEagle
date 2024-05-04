@@ -78,6 +78,8 @@ base_values = {
 	country_subsidies_all = yes
 
 	state_conscription_rate_add = 0.2
+
+	country_can_declare_diplomatic_demands = yes
 	
 }
 
