@@ -125,7 +125,6 @@
 		}
 	}
 	
-	
 	#TOTONAC
 	s:STATE_TOTONACAPAN = {
 		add_homeland = totonac
