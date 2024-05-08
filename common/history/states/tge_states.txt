@@ -80,7 +80,7 @@
 		}
 		create_state = {
 			country = c:TZO
-			owned_provinces = { "x32F006" "x58E11A" "xC5DF0E" }
+			owned_provinces = {"x32F006" "x58E11A" "xC5DF0E" }
 		}
 	}
 	s:STATE_XOCHIMILCO = {
@@ -131,37 +131,20 @@
 	
 		create_state = {
 			country = c:XLP
-			owned_provinces = { "xB9DA1B" "x61B12D" "x8C9427" "x9A4401" "xD9781A" }
-		}
-		create_state = {
-			country = c:CHTO
-			owned_provinces = { "x8DC520" "xCEA12D" "xB9510A" "x644E21" }
+			owned_provinces = { "x72B820" "x8F5929" "x99921C" "x9DEC27" "xF64406" "xFEAB28" }
 		}
 		create_state = {
 			country = c:COT
-			owned_provinces = { "x38F500" "x70E622" "x72B820" "x9DEC27" "xF64406" "x8F5929" }
+			owned_provinces = { "x61B12D" "x644E21" "x8C9427" "xB9510A" "xB9DA1B" "xCEA12D" "xD9781A" }
 		}
 		create_state = {
 			country = c:HUT
-			owned_provinces = { "x49B228" "x53BA19" "x556B2D" "x566401" "x80F917" "x8DD724" "x93E22B" "xA96B31" "xB3C910" "xBA4E23" "xDC8B13" "xE0EF13" "xF03E21" "xFB521F" }
+			owned_provinces = { "x45F623" "x49B228" "x53BA19" "x556B2D" "x566401" "x80F917" "x8DD724" "x93E22B" "xA96B31" "xB3C910" "xBA4E23" "xC9C31E" "xDC8B13" "xE0EF13" "xEECD0B" "xF03E21" "xFB521F" }
 		}
 		create_state = {
 			country = c:CPL
-			owned_provinces = { "xC9C31E" "x566401" "x45F623" "xEECD0B" "x7EDF1A" "xB86514" }
+			owned_provinces = { "x523A20" "x7EDF1A" "x81970C" "x82DE15" "x8A9B04" "x96851F" "x9A4401" "x9EC81A" "xB86514" "xD27D08" "xD48F13" "xDBCB10" "xDDD518" }
 		}
-		create_state = {
-			country = c:NAUT
-			owned_provinces = { "xD27D08" "x8A9B04" }
-		}
-		create_state = {
-			country = c:HUEY
-			owned_provinces = { "xDDD518" "x9EC81A" "x9EC81A" "x523A20" "x9DEC27" }
-		}
-		create_state = {
-			country = c:QUHU
-			owned_provinces = { "xDBCB10" "x72C021" "x81970C" "xD48F13" "x82DE15" }
-		}
-		
 	}
 	
 	s:STATE_HUAYACOCOTLA = {
@@ -169,59 +152,18 @@
 	
 		create_state = {
 			country = c:YHL
-			owned_provinces = { "xEE9A13" "xDC3628" "x99921C" "xFEAB28" }
-		}
-		create_state = {
-			country = c:TETP
-			owned_provinces = { "xE8A316" "x888120" "x7CD800" }
+			owned_provinces = { "x7CD800" "x888120" "x9D8C02" "xB95D04" "xBEB40F" "xCCDD31" "xEE9A13" }
 		}
 		create_state = {
 			country = c:TJN
-			owned_provinces = { "x51D21F" "xA3EA20" }
+			owned_provinces = { "x51D21F" "x64902F" "x66982D" "x674F2E" "x685008" "x6AA306" "xA3EA20" "xC3752F" "xCEBB15" "xEFB930" "xF19424" }
 		}
 		create_state = {
 			country = c:TEA
-			owned_provinces = { "x7C8613"  }
-		}
-		
-		create_state = {
-			country = c:OCEL
-			owned_provinces = { "x6C7216" "x825813" "xF6E213" }
-		}
-		create_state = {
-			country = c:TUCH
-			owned_provinces = { "x6B5725" "xC6E72A" "x749326" }
-		}
-		
-		create_state = {
-			country = c:PAPA
-			owned_provinces = { "xEFB930" "x6AA306" "x66982D"  }
-		}
-		create_state = {
-			country = c:CIHU
-			owned_provinces = { "xF19424" "xE1BE2F"  "xBDB521" }
-		}
-		create_state = {
-			country = c:ATLN
-			owned_provinces = { "xCEBB15" "x674F2E" "x685008"	 }
-		}
-		create_state = {
-			country = c:TUZP
-			owned_provinces = { "xBEB40F" "xCCDD31" "x9D8C02" "xC1AA2D"  }
-		}
-		create_state = {
-			country = c:XONT
-			owned_provinces = { "xB95D04" "x96851F"  }
-		}
-		create_state = {
-			country = c:MISA
-			owned_provinces = { "xBDCC1A" "x959819" "xE5A011" "x64902F"  }
-		}
-		create_state = {
-			country = c:HUAC
-			owned_provinces = { "xF44204" "x74B912" "xC3752F" "x49AB22"  }
+			owned_provinces = { "x6B5725" "x6C7216" "x749326" "x825813" "xC6E72A" "xF6E213" }
 		}
 	}
+	
 	
 	###POPOLUCA
 	s:STATE_PUCTLAN = {
@@ -537,7 +479,11 @@
 		}
 		create_state = {
 			country = c:TCHI
-			owned_provinces = { "x35CF28" "x494904" "x4B6103" "x5BF728" "x5D992D" "x637B18"  "x73BD04"  "xA24307" "xA5FF04" "xB19F04" "xC74208" "xE16D12" "xF3D61D"  "x6ABA1B" "x77DD08" }
+			owned_provinces = { "x35CF28" "x494904" "x4B6103" "x5BF728" "x5D992D" "x637B18"  "x73BD04"  "xA24307" "xA5FF04" "xB19F04" "xC74208" "xE16D12" "xF3D61D" "xF44204" "x6ABA1B" "x77DD08" }
+		}
+		create_state = {
+			country = c:TZSW
+			owned_provinces = {  }
 		}
 		create_state = {
 			country = c:METZ
@@ -559,10 +505,12 @@
 			country = c:IXAC
 			owned_provinces = { "x6CCC1C" "x7EEA0B" "x7F7C29" "x92FB1E" "x97FF2F" "xA09F28" "xAA4A02" "xB3B112" "xCC8C2F" "xD0FE2F" "xD2C805" "xD4CE22" "xD66330" "xE6E119" "xE93A17" "xF14307" "xFA3513" }
 		}
-		create_state = {
-			country = c:MIET
-			owned_provinces = { "xC24725" }
-		}
 	}
+	
+	
+	
+	
+	
+	
 	
 }

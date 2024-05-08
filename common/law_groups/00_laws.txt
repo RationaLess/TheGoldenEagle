@@ -40,13 +40,6 @@ lawgroup_institutionalization = {
 }
 
 
-lawgroup_crown_authority = {
-	law_group_category = power_structure
-	
-	progressive_movement_chance = 1
-	regressive_movement_chance = 1
-}
-
 #lawgroup_citizenship = {
 #	law_group_category = power_structure
 #	
