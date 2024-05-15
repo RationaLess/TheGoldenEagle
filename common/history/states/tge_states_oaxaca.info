@@ -1,4 +1,6 @@
-﻿STATES = {
+﻿#temporarily disabled
+
+STATES = {
 	
 	#MIXTEC NATIONS
 
@@ -102,81 +104,6 @@
 	}
 	
 	
-	##MAYA
-
-	
-	s:STATE_XICALANGO = {
-		create_state = {
-			country = c:ACAL
-			owned_provinces = { "xD97907" "x51B115" "xC59F2E" "x7D490D" "xF24917" "x7E9104" "x94371F" "xBD7D2B" }
-		}
-		create_state = {
-			country = c:XICA
-			owned_provinces = { "x40E202" "x483C13" "xF17D05" "xA33402" "xE7BE2B" "x9EB028" "x565A2E" "xC2D222" "xCDB322" "x378001" "x3A7113" "xE5AE1F" "xE8671E" "xD78A29"}
-		}
-	}
-	s:STATE_PETEN = {
-		create_state = {
-			country = c:ITZK
-			owned_provinces = { "xAE3D23" "xBFA101" "x459F11" "xAFBA1A" "xD1B506" "xF05D22" }
-		}
-		create_state = {
-			country = c:PALE
-			owned_provinces = { "x617E0C" "xAAF015" "x5C8122" "xB9AC03" "x987021" "xBF9521" "xF8EB0A" "xFDEC1F" "x46EC0A" "x8B6E05" }
-		}
-	}
-	s:STATE_CAMPECHE = {
-		create_state = {
-			country = c:TIXC
-			owned_provinces = { "xBA5C22" "x6EB523" "x799C29" "x8DC122" "x977302" "xFE8A30" "xB96330" }
-		}
-		create_state = {
-			country = c:CHKA
-			owned_provinces = { "x97F71A" "x8DD728" "xBDB205" "xC5A329" "x445F22" }
-		}
-		create_state = {
-			country = c:KAPO
-			owned_provinces = { "xE7C314" "x6ECA13" "xCF6D06" "xB07232" "x97C30F" "x8AA015" "x873B02" "xB74828" "x47E51D" "xA94B2A" }
-		}
-	}
-	s:STATE_YUCATAN = {
-		create_state = {
-			country = c:MAYP
-			owned_provinces = { "xFD4E26" "x875F0A" "x4DB70C" "x81F414" "xE2DD22" "x396316" "x81A706" "xA76126" "x81A706" "x783703" "x5AF329" "x9DD512" "x94D02D" "x46C12E" "xC14507" }
-		}
-		create_state = {
-			country = c:AHCA
-			owned_provinces = {"x34B71E" "x36CD03" "x386C1D" "x423F05" "x549101" "x426A09" "x93461D" "xAFE816" "xCCFE15" "xCDF81A" "xD43F32" "xEAC429" "xECD70B" "xEDFF1D" "xF0B201" "xF36924" "xF5CA31" "xFC4626" }
-			}
-		create_state = {
-			country = c:CHAK
-			owned_provinces = { "xA6B00B" "xE7D108" "xD65130" }
-		}
-		create_state = {
-			country = c:CEHP
-			owned_provinces = { "xB37D03" "xA1A51C" "xE5FE28"  }
-		}
-		create_state = {
-			country = c:HOCA
-			owned_provinces = { "xEBC21D" "x83C026" "xCEB905" "x9F6E29" "x325032" "xADC320" "xEBB921" "xC25D24" "x6DBF31" "xA5880E" "x6FA428" "xA4952C"  }
-		}
-		create_state = {
-			country = c:AKCH
-			owned_provinces = { "xBC4D2F" "xC08928" "x9B6823" "xD2331B" "xACB926"  }
-		}
-		create_state = {
-			country = c:CHIK
-			owned_provinces = { "x8AD014" "xB6DC26" "xACB926" "xF84C2A" "xD5641E" "xB4A01B" "x6DFE26" "xD7352E" "x683F2D" "xF43824" "x963300" "xDE4804" "x9AA511" "x39430A" "x466D0C"  }
-		}
-		create_state = {
-			country = c:KUPU
-			owned_provinces = { "x829111" "x44A92E" "xF66B17" "xACCD12" "x5DA702" "xC2D42D" "x69FD2B" "xDEE51B" "x815027" "x4B9D1D" "x4B9D1D" "xA7EB06" "x557A16" "x5EB20B" "x67660D" "xFAB631"  }
-		}
-		create_state = {
-			country = c:COCO
-			owned_provinces = { "x966D0A" "xC7DA1B" "xA25309" "xBA7F02" "x7ED414" "x93580F" "xBA7F02"  }
-		}
-	}
 	
 	###OTHER
 	

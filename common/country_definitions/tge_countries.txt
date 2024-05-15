@@ -77,6 +77,71 @@ cultures = { tepanec }
 capital = STATE_TEXCOCO
 }
 
+TLAH = { #Tlahuac
+color = rgb { 138 112 41 }
+tier = principality
+country_type = recognized
+cultures = { tepanec }
+capital = STATE_TEXCOCO
+}
+XOYO = { #Xoyoacan
+color = rgb { 203 161 214 }
+tier = principality
+country_type = recognized
+cultures = { tepanec }
+capital = STATE_TEXCOCO
+}
+TEPE = { #Tepeayac
+color = rgb { 166 144 66 }
+tier = principality
+country_type = recognized
+cultures = { tepanec }
+capital = STATE_TEXCOCO
+}
+OTLA = { #Oltazpan
+color = rgb { 50 35 148 }
+tier = principality
+country_type = recognized
+cultures = { tepanec }
+capital = STATE_TEXCOCO
+}
+CITL = { #Citlaltepec
+color = rgb { 112 186 171 }
+tier = principality
+country_type = recognized
+cultures = { tepanec }
+capital = STATE_TEXCOCO
+}
+TIZA = { #Tizayocan
+color = rgb { 152 123 168 }
+tier = principality
+country_type = recognized
+cultures = { tepanec }
+capital = STATE_TEXCOCO
+}
+CHNT = { #Chiconautla
+color = rgb { 43 0 25 }
+tier = principality
+country_type = recognized
+cultures = { tepanec }
+capital = STATE_TEXCOCO
+}
+CHIH = { #Chimalhuacan
+color = rgb { 176 161 97 }
+tier = principality
+country_type = recognized
+cultures = { tepanec }
+capital = STATE_TEXCOCO
+}
+CUAU = { #Cuautla
+color = rgb { 173 107 71 }
+tier = principality
+country_type = recognized
+cultures = { nahua }
+capital = STATE_TEXCOCO
+}
+
+
 ###OTHER VALLEY OF MEXICO TAGS
 
 #Otompan
@@ -154,6 +219,94 @@ cultures = { nahua }
 
 capital = STATE_CUAUHNAHUAC
 }
+
+TLTZ = { #Tlatizapan
+color = rgb { 94 90 173 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_CUAUHNAHUAC
+}
+YTZC = { #Yutzucan
+color = rgb { 157 89 194 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_CUAUHNAHUAC
+}
+APAN = { #Apan (lol)
+color = rgb { 107 56 143 }
+tier = duchy
+country_type = recognized
+cultures = { otomi }
+capital = STATE_CUAUHNAHUAC
+}
+CPLP = { #Calpullapan
+color = rgb { 130 110 186 }
+tier = duchy
+country_type = recognized
+cultures = { otomi }
+capital = STATE_CUAUHNAHUAC
+}
+CPLP = { #Calpullapan
+color = rgb { 130 110 186 }
+tier = duchy
+country_type = recognized
+cultures = { otomi }
+capital = STATE_CUAUHNAHUAC
+}
+TLIL = { #Tliliuhtepec
+color = rgb { 140 58 17 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_CUAUHNAHUAC
+}
+TPAC = { #Tepeacac
+color = rgb { 156 59 161 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_CUAUHNAHUAC
+}
+ACCC = { #Acacacatlan
+color = rgb { 147 121 217 }
+tier = duchy
+country_type = recognized
+cultures = { tepehua }
+capital = STATE_CUAUHNAHUAC
+}
+TONP = { #Tonalapan
+color = rgb { 232 172 7 }
+tier = duchy
+country_type = recognized
+cultures = { totonac }
+capital = STATE_CUAUHNAHUAC
+}
+OCUI = { #Ocuituco
+color = rgb { 186 101 86 }
+tier = duchy
+country_type = recognized
+cultures = { mazahua }
+capital = STATE_CUAUHNAHUAC
+}
+AXOC = { #Axochiapan
+color = rgb { 171 66 48 }
+tier = duchy
+country_type = recognized
+cultures = { mazahua }
+capital = STATE_CUAUHNAHUAC
+}
+CUER = { #Cuernavarca
+color = rgb { 163 60 60 }
+tier = duchy
+country_type = recognized
+cultures = { mazahua }
+capital = STATE_CUAUHNAHUAC
+}
+
+
+
 
 ##SOUTH
 
@@ -236,6 +389,30 @@ capital = STATE_CHOLULA
 
 ACT = { #Acatlan
 color = rgb { 153 225 51 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_ACATLAN
+} 
+
+PIAX = { #Piaxtla
+color = rgb { 133 106 156 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_ACATLAN
+} 
+
+IXIT = { #Ixitlan
+color = rgb { 172 184 121 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_ACATLAN
+} 
+
+YANH = { #Yanhuitlan
+color = rgb { 128 91 171 }
 tier = duchy
 country_type = recognized
 cultures = { nahua }
@@ -332,13 +509,6 @@ tier = duchy
 country_type = recognized
 cultures = { totonac }
 capital = STATE_HUATUSCO
-} 
-HUAC = { #HUAUCHINANGO
-color = rgb { 50 74 168 }
-tier = duchy
-country_type = recognized
-cultures = { totonac }
-capital = STATE_TOTONACAPAN
 } 
 HUAC = { #HUAUCHINANGO
 color = rgb { 50 74 168 }
@@ -461,8 +631,85 @@ capital = STATE_HUASTECAPAN
 } 
 
 
+#Tepeaca
 
-
+AHUI = { #Ahuilizapan
+color = rgb { 194 222 160 }
+tier = duchy
+country_type = recognized
+cultures = { chochontin }
+capital = STATE_TEPEACA
+}
+ZONO = { #Zonocolica
+color = rgb { 170 118 181 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_TEPEACA
+}
+CUET = { #Cuetlaxtlan
+color = rgb { 173 142 69 }
+tier = duchy
+country_type = recognized
+cultures = { popoloca }
+capital = STATE_TEPEACA
+}
+TEJA = { #Tejao
+color = rgb { 171 179 54 }
+tier = duchy
+country_type = recognized
+cultures = { mazatec }
+capital = STATE_TEPEACA
+}
+ASTT = { #Astatlan
+color = rgb { 219 224 137 }
+tier = duchy
+country_type = recognized
+cultures = { mazatec }
+capital = STATE_TEPEACA
+}
+MICC = { #Miccoaztoc
+color = rgb { 186 189 140 }
+tier = duchy
+country_type = recognized
+cultures = { mazatec }
+capital = STATE_TEPEACA
+}
+PPLT = { #Papaloticpac
+color = rgb { 108 145 189 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_TEPEACA
+}
+TANH = { #Tanha
+color = rgb { 204 204 120 }
+tier = duchy
+country_type = recognized
+cultures = { chochontin }
+capital = STATE_TEPEACA
+}
+TOTP = { #Tototepec
+color = rgb { 163 124 163 }
+tier = duchy
+country_type = recognized
+cultures = { chinantec }
+capital = STATE_TEPEACA
+}
+ATEX = { #Atexcal
+color = rgb { 67 84 71 }
+tier = duchy
+country_type = recognized
+cultures = { chochontin }
+capital = STATE_TEPEACA
+}
+CONO = { #Conotepec
+color = rgb { 64 84 80 }
+tier = duchy
+country_type = recognized
+cultures = { chochontin }
+capital = STATE_TEPEACA
+}
 
 
 
@@ -512,9 +759,9 @@ capital = STATE_TECALCO
 
 NDC = { #NDACHIJAN
 color = rgb { 252 182 76 }
-tier = kingdom
+tier = duchy
 country_type = recognized
-cultures = { popoloca }
+cultures = { chochontin }
 capital = STATE_TECALO
 } 
 
@@ -543,6 +790,14 @@ capital = STATE_TEHUIPANCO
 #Tuxtepec
 TXT = { #TUXTEPEC
 color = rgb { 100 166 76 }
+tier = kingdom
+country_type = recognized
+cultures = { chinantec }
+capital = STATE_TUXTEPEC
+} 
+
+CHIN = { #Chinantlan
+color = rgb { 166 103 161 }
 tier = kingdom
 country_type = recognized
 cultures = { chinantec }
@@ -1045,9 +1300,321 @@ capital = STATE_CHIAPAS
 country_type = decentralized
 }
 
+#Tavasco States 
+MIXI = { #Mixistlan
+color = rgb { 217 215 178 }
+tier = duchy
+country_type = recognized
+cultures = { mixe }
+capital = STATE_MIXISTLAN
+} 
+AZCC = { #Azcaccan
+color = rgb { 186 209 155 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+} 
+AGAL = { #Agaltepec
+color = rgb { 190 147 201 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+} 
+AGAL = { #Agaltepec
+color = rgb { 114 173 158 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+} 
+ACOZ = { #Acozpan
+color = rgb { 143 181 148 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+} 
+TLCT = { #Tlapanicytlan
+color = rgb { 183 191 122 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+} 
+QUHT = { #Quauhutla
+color = rgb { 143 169 201 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+} 
+NOPI = { #Nopila
+color = rgb { 158 186 161 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+} 
+TOZT = { #Toztlan
+color = rgb { 173 115 78 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+} 
+XAYC = { #Xayaco
+color = rgb { 161 71 14 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+} 
+XAYC = { #Xayaco
+color = rgb { 169 212 110 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+}
+TSCH = { #Tesechoapan
+color = rgb { 245 207 176 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+}
+CHIP = { #Chilapan
+color = rgb { 179 237 255 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+}
+ICPP = { #Itzachapalapahn
+color = rgb { 103 112 115 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+}
+CCTT = { #Cuahquetzaltepec
+color = rgb { 150 179 217 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+}
+LOBA = { #Lobani
+color = rgb { 162 126 214 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+}
+YICV = { #Yiacvetze
+color = rgb { 169 181 196 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+}
+COCA = { #Cocamaloa
+color = rgb { 119 144 181 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+}
+CTZC = { #Cotzocon
+color = rgb { 173 160 219 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+}
+YMTT = { #Yamatlatlan
+color = rgb { 176 189 166 }
+tier = duchy
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+}
+TXCT = { #Tlaxcotaliapan
+color = rgb { 187 196 145 }
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+}
+SOCA = { #Socauuhtla
+color = rgb { 206 186 222 }
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+}
+MICH = { #Michapan
+color = rgb { 108 163 160 }
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+}
+CHAC = { #Chacalpan
+color = rgb { 207 201 124 }
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+}
+XALT = { #Xaltepec
+color = rgb { 138 207 191 }
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+}
+JALT = { #Jaltipan	
+color = rgb { 119 163 217 }
+country_type = recognized
+cultures = { nahua }
+capital = STATE_MIXISTLAN
+}
+
+
+#Tehuantepec States
+
+TEH = { #TEHUANTEPEC
+color = rgb { 171 53 53 }
+tier = duchy
+country_type = recognized
+cultures = { huave }
+capital = STATE_TEHUANTEPEC
+} 
+CHTL = { #Chocohuitl
+color = rgb { 201 135 109 }
+tier = duchy
+country_type = recognized
+cultures = { huave }
+capital = STATE_TEHUANTEPEC
+} 
+MPAC = { #Mpachtepec
+color = rgb { 219 175 158 }
+tier = duchy
+country_type = recognized
+cultures = { huave }
+capital = STATE_TEHUANTEPEC
+} 
+XCNC = { #Xoconusco
+color = rgb { 219 175 158 }
+tier = duchy
+country_type = recognized
+cultures = { huave }
+capital = STATE_TEHUANTEPEC
+} 
+HUIZ = { #Huiztlan
+color = rgb { 181 169, 89 }
+tier = duchy
+country_type = recognized
+cultures = { huave }
+capital = STATE_TEHUANTEPEC
+} 
+MACA = { #Macatlan
+color = rgb { 158 58 82 }
+tier = duchy
+country_type = recognized
+cultures = { huave }
+capital = STATE_TEHUANTEPEC
+} 
+TOPI = { #Topiltepec
+color = rgb { 156 186 172 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TEHUANTEPEC
+} 
+ASTA = { #Astata
+color = rgb { 136 192 219 }
+tier = duchy
+country_type = recognized
+cultures = { chontal }
+capital = STATE_TEHUANTEPEC
+} 
+GUIS = { #Guisii
+color = rgb { 112 127 156 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TEHUANTEPEC
+} 
+XOCH = { #Xochitlan
+color = rgb { 82 92 86 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TEHUANTEPEC
+} 
+TLAC = { #Tlacotepec 2!
+color = rgb { 73 138 99 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TEHUANTEPEC
+} 
+TTLN = { #Teotitlan 2!
+color = rgb { 128 176 147 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TEHUANTEPEC
+} 
+CHIM = { #Chimalpa
+color = rgb { 116 140 126 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TEHUANTEPEC
+} 
+AZTA = { #Aztatlan
+color = rgb { 196 214 159 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TEHUANTEPEC
+} 
+TECZ = { #Tepecuazotlan
+color = rgb { 155 163 122 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TEHUANTEPEC
+} 
+TLLL = { #Tlacolulita
+color = rgb { 127 167 186 }
+tier = duchy
+country_type = recognized
+cultures = { chontal }
+capital = STATE_TEHUANTEPEC
+} 
+
 
 
 #Maya States
+TAVA = { #Tavasco
+color = rgb { 43 107 186 }
+tier = kingdom
+country_type = recognized
+cultures = { chontal }
+capital = STATE_XICALANGO
+
+} 
+
+XONU = { 
+color = rgb { 144 173 152 }
+tier = duchy
+country_type = recognized
+cultures = { putun }
+capital = STATE_XICALANGO
+
+}
+
 POTO = { #potonchan
 color = rgb { 182 207 138 }
 tier = duchy
@@ -1061,7 +1628,7 @@ XICA = { #xicalango
 color = rgb { 115 171 63 }
 tier = duchy
 country_type = recognized
-cultures = { putun }
+cultures = { nahua }
 capital = STATE_XICALANGO
 
 country_type = decentralized
@@ -1213,3 +1780,244 @@ capital = STATE_YUCATAN
 
 country_type = decentralized
 } 
+
+#Oaxaca
+
+YCYO = { #Yucu Yoo
+color = rgb { 114 145  194 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+} 
+YCET = { #Yucu Eetuvui
+color = rgb { 73 158 173 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+AYUU = { #Ayuu
+color = rgb { 59 80 84 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+YTCN = { #Yutacanu
+color = rgb { 46 49 84 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+AYZP = { #Ayotzinapan
+color = rgb { 107 110 201 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+TLXI = { #Tlaxyaco
+color = rgb { 82 83 117 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+TLXA = { #Tlaxiaco #There are two. Don't ask me. I don't know either.
+color = rgb { 158 65 57 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+TEOZ = { #Teoazacoalco
+color = rgb { 97 71 14 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+NOCX = { #Nochixtlan
+color = rgb { 51 51 51}
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+PUTL = { #Putla
+color = rgb { 158 141 176 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+NSIN = { #Naisinuu
+color = rgb { 94 130 168 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+CHIC = { #Chicahuaxtla
+color = rgb { 42 115 81 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+IHUL = { #Ihualtepec
+color = rgb { 135 163 114 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+HUMX = { #Huamuxtitlan
+color = rgb { 75 107 163}
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+SUCH = { #Suchiquilazala
+color = rgb { 161 155 56 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+TONA = { #Tonala
+color = rgb { 240 240 240 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+ATEP = { #Atepec
+color = rgb { 194 130 130 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+ATLA = { #Atlauca
+color = rgb { 168 207 163 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+CICL = { #Cuicatlan
+color = rgb { 110 128 138 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_TUTUTEPEC
+}
+NUND = { #Nuu Ndaya
+color = rgb { 55 148 179 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+NUDC = { #Nuu Ndecu
+color = rgb { 59 191 178 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+YCNA = { #Yucu Nana
+color = rgb { 140 155 163 }
+tier = duchy
+country_type = recognized
+cultures = { mixtec }
+capital = STATE_TUTUTEPEC
+}
+LAMB = { #Lambityeco
+color = rgb { 232 255 130 }
+tier = kingdom
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TUTUTEPEC
+}
+MITL = { #Mitla
+color = rgb { 105 143 86 }
+tier = kingdom
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TUTUTEPEC
+}
+DAIN = { #Dainizu
+color = rgb { 101 161 146 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TUTUTEPEC
+}
+YXLT = { #Yaxitza
+color = rgb { 128 128 48 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TUTUTEPEC
+}
+ATEP = { #Atepec
+color = rgb { 198 227 179 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TUTUTEPEC
+}
+QUHE = { #Quiahuechi
+color = rgb { 88 138 55 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TUTUTEPEC
+}
+HUAT = { #Huatulco
+color = rgb { 53 122 7 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TUTUTEPEC
+}
+CHLP = { #Chontalpa
+color = rgb { 168 201 145 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TUTUTEPEC
+}
+CHLP = { #Chontalpa
+color = rgb { 168 201 145 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TUTUTEPEC
+}
+TANT = { #Tantatze
+color = rgb { 112 117 87 }
+tier = duchy
+country_type = recognized
+cultures = { zapotec }
+capital = STATE_TUTUTEPEC
+}
+AYZU = { #Ayozu
+color = rgb { 191 112 92 }
+tier = duchy
+country_type = recognized
+cultures = { tlapanec }
+capital = STATE_TUTUTEPEC
+}
+CUAH = { #Cuahuitlan
+color = rgb { 214 137 96 }
+tier = duchy
+country_type = recognized
+cultures = { tlapanec }
+capital = STATE_TUTUTEPEC
+}

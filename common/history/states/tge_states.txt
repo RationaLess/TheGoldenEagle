@@ -14,116 +14,256 @@
 			owned_provinces = { "xFEF904" }
 		}
 	}
-	s:STATE_EAST_TEXCOCO = {
-		add_homeland = acolhua
-	
-		create_state = {
-			country = c:ATA
-			owned_provinces = { "x4C9612" "x86C325" "xA4ED1F" "xDF5609" "xECD00B" "xEEC231" "xF2AE14" }
-		}
-		create_state = {
-			country = c:CUL
-			owned_provinces = { "x53980B" "x86EF26" "xC36421" "xF93B22" }
-		}
-	}
 	s:STATE_WEST_TEXCOCO = {
-		add_homeland = tepanec
-	
-		create_state = {
-			country = c:ATA
-			owned_provinces = { "x8C8415" }
-		}
-		create_state = {
-			country = c:AZC
-			owned_provinces = { "x884100" "x94EC2A" "xAE4C07" "xB27C22" "xB79A14" "xF0392E" "xF5FF2D" }
-		}
-	}
-	
-	#Tlaxcala
-	s:STATE_TEPETICPAC = {
-	
-		create_state = {
+			create_state = {
+				country = c:ATA
+				owned_provinces = { "x55D609" "xEEC231" "x493C26" "x86C325" "xDF5609" "xECD00B" "x4C9612"  }
+			}
+			create_state = {
+				country = c:AZC
+				owned_provinces = { "x8C8415" "xD58020" "xB4AF28" "xB27C22" "xAE4C07"  }
+			}
+			create_state = {
+				country = c:TOLU
+				owned_provinces = { "xDF9215" "x86602F" "x8EE90B" "xF4F228" "x61B328" "x704617"  }
+			}
+			create_state = {
+				country = c:CHO
+				owned_provinces = { "x6D8709" "x603404" "xBFD618" "x5B4B0C" "x9EC819" "xA44C0F" "x7ACE09" }
+			}
+			create_state = {
+				country = c:CUL
+				owned_provinces = { "xF93B22" "x53980B" "x86EF26" "xC36421"  }
+			}
+			create_state = {
+				country = c:CHA
+				owned_provinces = { "xA75C1C" "xF6CA1A" "x4AC832" "x78740D" "x3FF61E" "x934826" "x98420A" "x326120" "x63552F" }
+			}
+			create_state = {
+				country = c:HXT
+				owned_provinces = { "x5C850A" "xBAFB12" "x653317" "xAEC70E" "x657B29" "xB6EB2A" "x6ED707" }
+			}
+			create_state = {
+				country = c:TLAH
+				owned_provinces = { "x6C7802"  }
+			}
+			create_state = {
+				country = c:CHNT
+				owned_provinces = { "x798032"  }
+			}
+			create_state = {
+				country = c:TEOTI
+				owned_provinces = { "xFEB62C" "xC74015" "xD05F1C" }
+			}
+			create_state = {
+				country = c:TZO
+				owned_provinces = { "xC5DF0E" "x7CF603" }
+			}
+			create_state = {
+				country = c:XAL
+				owned_provinces = { "x3DEA10" "x52BC2D" }
+			}
+			create_state = {
+				country = c:CUA
+				owned_provinces = { "x32F006" "xCCE416" }
+			}
+			create_state = {
+				country = c:CITL
+				owned_provinces = { "xDB7C13" }
+			}
+			create_state = {
+				country = c:OTLA
+				owned_provinces = { "xB79A14" "x884100" }
+			}
+			create_state = {
+				country = c:XOYO
+				owned_provinces = { "xE06C00" "x50CF18" "x57F111" }
+			}
+			create_state = {
+				country = c:XOC
+				owned_provinces = { "xB8AD05" "x783721" "x715907" "xEC5111" "x4E780C" }
+			}
+			create_state = {
+				country = c:TEPE
+				owned_provinces = { "x94EC2A" }
+			}
+			create_state = {
+				country = c:TIZA
+				owned_provinces = { "x91520A" }
+			}
+			
+			create_state = {
+				country = c:HXZ
+				owned_provinces = { "x66C50D" "x35C309" "x41A50F" "xD2CB26" "x76A51E"  "xA7B30A" "xA4ED1F" "x326120" "x69752F" "x466128"  }
+			}
+			create_state = {
+				country = c:TCL
+				owned_provinces = { "xAD6420" "x495431" "x4E6A0A" "xBF4424" "x89B01D"   }
+			}
+			create_state = {
+				country = c:CHI
+				owned_provinces = { "xF83D2B" "xF54310" "xA35B11" "x4A642E" "x4B7D2C"   }
+			}
+			create_state = {
+				country = c:CNH
+				owned_provinces = { "xB7C102" "xEFFC23" "x72602C" "x3CEF1D" "x464701" "x4EBE13" "x63B716" "x5F3922" "x8F452C" "xDB6F13"  }
+			}
+			create_state = {
+				country = c:TLTZ
+				owned_provinces = { "xAA6E29" "xE67231" "x459E14" "x459E14" "xDC330D" "xE67231" "xE2812C" "x5F3922" "x8F452C" "xDB6F13"  }
+			}
+			create_state = {
 			country = c:TLX
 			owned_provinces = { "x39B41F" "x66C50D" "xB36501" "xCCE428" "xEDC123" }
-		}
-	}
-	s:STATE_OCOTELOLCO = {
-		create_state = {
-			country = c:TLX
-			owned_provinces = { "x3D8E20" "x686F18" "x7C7E32" "x845827" "x8D3223" "xC4980D" "xD73D28" "xDFF105" "xEFB51B" }
-		}
-	}
-	s:STATE_TIZATLAN = {
-		create_state = {
-			country = c:TLX
-			owned_provinces = { "x88DF02" "xA7A40D" "xC2412A" "xC3662D" "xD0522D" "xE33922" "xE56614" "xE6FB1D" "xF14D19" }
-		}
-	}
-	s:STATE_QUIAHUIZTLAN = {
-		create_state = {
-			country = c:TLX
-			owned_provinces = { "x35C309" "x4EAB04" "x5B4B0C" "xA44C0F" "xDEC502" "xEAC702" }
-		}
-	}
+				}
+			create_state = {
+				country = c:TLX
+				owned_provinces = { "x3D8E20" "x686F18" "x7C7E32" "x845827" "x8D3223" "xC4980D" "xD73D28" "xDFF105" "xEFB51B" "x57F302" "xA45A1A" "x42920A" }
+			}
+			create_state = {
+				country = c:TLX
+				owned_provinces = { "x88DF02" "xA7A40D" "xC2412A" "xC3662D" "xD0522D" "xE33922" "xE56614" "xE6FB1D" "xF14D19" }
+			}
+			create_state = { 
+				country = c:TLX 
+				owned_provinces = { "x35C309" "xEAC702" "x88DF02" "xE33922" "x4EAB04" "xDEC502"  }
+				}
+			create_state = {
+				country = c:YTZC 
+				owned_provinces = { "xEBCA0A" "x689B0C" "xB0FE0B" "xB0FE0B"  }
+				}
+			create_state = {
+				country = c:CPLP
+				owned_provinces = { "xF2AE14" "xA4ED1F" "xBAC631" }
+				}
+			create_state = {
+				country = c:APAN
+				owned_provinces = { "x934120" "x8C6D12" "x735B13" "x33BA19" }
+				}
+			create_state = {
+				country = c:TLIL
+				owned_provinces = { "xD0C314" "x488010" "xD64928"  }
+				}
+			create_state = {
+				country = c:TTN
+				owned_provinces = { "xE6FB1D" "xD0522D" "x68A725" "xF14D19" "xE3630C"  }
+				}
+			create_state = {
+				country = c:TPAC
+				owned_provinces = { "xBFD618" "x3CD80B"  }
+				}
+			create_state = {
+				country = c:ACCC
+				owned_provinces = { "xCE4822" "x5D9725" "x92C40D" "x473C2C"  }
+				}
+			create_state = {
+				country = c:TONP
+				owned_provinces = { "x786630" "x588809" "xF7582A"  }
+				}
+			create_state = {
+				country = c:AXOC
+				owned_provinces = { "x67430E" "xE48A19" "xAEDB1E"  }
+				}
+			create_state = {
+				country = c:CUER
+				owned_provinces = { "xD8D904" "x428209" "x4C7506" "x7DA109" "x969A24" "x67831F"  }
+				}
+			create_state = {
+				country = c:CUAU
+				owned_provinces = { "x773109" "x6D2D06" "x582402"  }
+				}
+				
 	
-	#Azcapotzalco & Subjects
-	s:STATE_AZCAPOTZALCO = {
-	}
-	s:STATE_NORTH_TEXCOCO = {
-		create_state = {
-			country = c:CUA
-			owned_provinces = { "x7CF603" "xCCE416" "xDB7C13" "xF1C320" }
 		}
-		create_state = {
-			country = c:XAL
-			owned_provinces = { "x82571C" "x91520A" "x91601D" "xBB5B20" "xF3BD0E" }
+		
+		S:STATE_TEPEACA = {
+			create_state = {
+			country = c:NDC
+			owned_provinces = { "x3FE810" "x593806" "x6A5D27" "xE0E805" "x74581D" }
+			}
+			create_state = {
+			country = c:AHUI
+			owned_provinces = { "xB6752C" "xDFCC2F" "x91C017" "xFBC225" }
+			}
+			create_state = {
+			country = c:TCM
+			owned_provinces = { "x46FB29" "x577B23" }
+			}
+			create_state = {
+			country = c:CHTO
+			owned_provinces = { "x77AF26" "xA7EA24" "x3EA022" "x4D4A2D" "x44A818" }
+			}
+			create_state = {
+			country = c:CUET
+			owned_provinces = { "x3F482B" "x87721A" "xDC8B13" }
+			}
+			create_state = {
+			country = c:TEJA
+			owned_provinces = { "x483900" "x56D51C" "x86CD07" "xFCB30D" "xEAAB26" "xF67028" "x37E929" "x91E82A" }
+			}
+			create_state = {
+			country = c:THP
+			owned_provinces = { "x37D62E" "x73DE1E" "x626D19" "x955126" "x58EA12" }
+			}
+			create_state = {
+			country = c:TCM
+			owned_provinces = { "x46FB29" "x39571B" "x577B23" }
+			}
+			create_state = {
+			country = c:TTP
+			owned_provinces = { "xBF8818" "x83AE14" "x4BFC1B" "x89D91F" "xED7013"  }
+			}
+			create_state = {
+			country = c:CHIN
+			owned_provinces = { "xE5B612" "xA88715"   }
+			}
+			create_state = {
+			country = c:TANT
+			owned_provinces = { "xD9BC12" "xDB380B" "x8E4812"  }
+			}
+			create_state = {
+			country = c:ZONO
+			owned_provinces = { "xF13C28" "xAB4532" "xEA321E"  }
+			}
+			create_state = {
+			country = c:YCNA
+			owned_provinces = { "xA7CD0E" "x32F217" "x407E16"  }
+			}
+			create_state = {
+			country = c:PPLT
+			owned_provinces = { "xFFBD15" "xA3692E" "x70381F" "xEE7B27"  }
+			}
+			create_state = {
+			country = c:TANH
+			owned_provinces = { "xD67C11" "xE96724" "xF1AC2A"  }
+			}
+			create_state = {
+			country = c:ASTT
+			owned_provinces = { "xE2F61A" "x40C410"   }
+			}
+			create_state = {
+			country = c:MICC
+			owned_provinces = { "xCC8228" "xCC5A2F"  }
+			}
+			create_state = {
+			country = c:ICH
+			owned_provinces = { "xD89D0B" "x3A531B" "xD2B61D" "x8EEE26"  }
+			}
+			create_state = {
+			country = c:TOTP
+			owned_provinces = { "xD35603" "x436D1B" "x4AD31F" "x3F7019"  }
+			}
+			create_state = {
+			country = c:ATEX
+			owned_provinces = { "x70D20B" "x4D8401"   }
+			}
+			create_state = {
+			country = c:CONO
+			owned_provinces = { "xCDDD2E" "x82A008" }
+			}
 		}
-		create_state = {
-			country = c:TZO
-			owned_provinces = { "x32F006" "x58E11A" "xC5DF0E" }
-		}
-	}
-	s:STATE_XOCHIMILCO = {
-		create_state = {
-			country = c:XOC
-			owned_provinces = { "x50CF18" "x55D609" "x57F111" "x5C850A" "x715907" "x783721" "xB8AD05" "xD58020" "xE06C00" }
-		}
-	}
-	s:STATE_TEOTIHUACAN = {
-		create_state = {
-			country = c:XAL
-			owned_provinces = { "x3DEA10" "x52BC2D" "x798032" "xFEB62C" }
-		}
-	}
-	s:STATE_CHALCO  = {
-		create_state = {
-			country = c:CHA
-			owned_provinces = { "x3FF61E" "x4AC832" "x6C7802" "x78740D" "x934826" "x98420A" "xA75C1C" "xBAFB12" "xF6CA1A" }
-		}
-	}
 	
 	
-	#Other Valley of Mexico Tags
-	s:STATE_HUEXOTZINGO = {
-		create_state = {
-			country = c:HXZ
-			owned_provinces = { "x326120" "x41A50F" "x466128" "x63552F" "x76A51E" "x9EC819" "xA7B30A" "xD2CB26" }
-		}
-	}
-	s:STATE_TULANCINGO = {
-		create_state = {
-			country = c:TLC
-			owned_provinces = { "x33BA19" "x493C26" "x5D9725" "xC74015" "xD05F1C" }
-		}
-		create_state = {
-			country = c:TLA
-			owned_provinces = { "x42920A" "x735B13" "x8C6D12" "x934120" "xBAC631" "xCE4822" "xD0C314" }
-		}
-		create_state = {
-			country = c:HCH
-			owned_provinces = { "x473C2C" "x488010" "x57F302" "x92C40D" "xA45A1A" "xD64928" }
-		}
-	}
 	
 	
 	#TOTONAC
@@ -132,11 +272,7 @@
 	
 		create_state = {
 			country = c:XLP
-			owned_provinces = { "xB9DA1B" "x61B12D" "x8C9427" "x9A4401" "xD9781A" }
-		}
-		create_state = {
-			country = c:CHTO
-			owned_provinces = { "x8DC520" "xCEA12D" "xB9510A" "x644E21" }
+			owned_provinces = { "xB9DA1B" "x61B12D" "x8C9427" "x9A4401" "xD9781A" "x8DC520" "xCEA12D" "xB9510A" "x644E21" }
 		}
 		create_state = {
 			country = c:COT
@@ -144,11 +280,11 @@
 		}
 		create_state = {
 			country = c:HUT
-			owned_provinces = { "x49B228" "x53BA19" "x556B2D" "x566401" "x80F917" "x8DD724" "x93E22B" "xA96B31" "xB3C910" "xBA4E23" "xDC8B13" "xE0EF13" "xF03E21" "xFB521F" }
+			owned_provinces = { "x566401" "x80F917" "xA96B31" "xB3C910" "xBA4E23" "xE0EF13" "xF03E21" "xFB521F" }
 		}
 		create_state = {
 			country = c:CPL
-			owned_provinces = { "xC9C31E" "x566401" "x45F623" "xEECD0B" "x7EDF1A" "xB86514" }
+			owned_provinces = { "xC9C31E" "x8DD724" "x566401" "x45F623" "xEECD0B" "x7EDF1A" "xB86514" }
 		}
 		create_state = {
 			country = c:NAUT
@@ -161,6 +297,14 @@
 		create_state = {
 			country = c:QUHU
 			owned_provinces = { "xDBCB10" "x72C021" "x81970C" "xD48F13" "x82DE15" }
+		}
+		create_state = {
+			country = c:QUHT
+			owned_provinces = { "x53BA19" "x49B228" "x93E22B" }
+		}
+		create_state = {
+			country = c:TLCT
+			owned_provinces = { "x556B2D" "xC4B020"  }
 		}
 		
 	}
@@ -200,7 +344,7 @@
 		}
 		create_state = {
 			country = c:CIHU
-			owned_provinces = { "xF19424" "xE1BE2F"  "xBDB521" }
+			owned_provinces = { "xF19424" "xE1BE2F" "x6E6532" "xBDB521" }
 		}
 		create_state = {
 			country = c:ATLN
@@ -228,30 +372,203 @@
 	s:STATE_PUCTLAN = {
 		create_state = {
 			country = c:PUC
-			owned_provinces = { "x37E929" "x415425" "x415427" "x53EA2B" "x64D210" "x6B7020" "x6C352E" "x91E82A" "x92C41C" "x9B4127" "xB2B41C" "xBB8614" "xC4B020" "xC7AD29" "xD7D029" "xDAF802" "xE1F70A" "xF3401C" "xF4A127" "xF67028" }
+			owned_provinces = { "xC7AD29" "xDAF802" "x92C41C" "xF4A127" "xE1F70A" }
 		}
 		create_state = {
-			country = c:TXT
-			owned_provinces = {  "x52E014" "x73E931" "x8E6A04" "x9A4B20" "xC05608" "xD4DF28" "xDE3807" }
+			country = c:CCTT
+			owned_provinces = {  "x52E014" "x73E931" "x6FC420" "x8E6A04" "x9A4B20" "xC05608" "xD4DF28" "xDE3807" }
 		}
 		create_state = {
 			country = c:AYO
-			owned_provinces = {  "x6FC420" "x74A104" "x86351C""xA19000" "xB17720"  "xF07D19" "xFB690B" "xFF5815" }
+			owned_provinces = {  "x8AE52F" "x8DEF1B" "xFB690B" "x74A104" "xBB8614" }
+		}
+		create_state = {
+			country = c:ACOZ
+			owned_provinces = {  "x53EA2B" }
+		}
+		create_state = {
+			country = c:NOPI
+			owned_provinces = {  "x415427" "x6C352E" "xF3401C" }
+		}
+		create_state = {
+			country = c:TOZT
+			owned_provinces = {  "xD7D029" "xA5E917" "x6B7020" }
+		}
+		create_state = {
+			country = c:XAYC
+			owned_provinces = {  "x764C15" "x48AD13" }
+		}
+		create_state = {
+			country = c:LOBA
+			owned_provinces = {  "xF4FE2A" "xDCEB30" "xA1CA0E" "xFBEC21" }
+		}
+		create_state = {
+			country = c:COAT
+			owned_provinces = {  "x96F10B" "xC0A514" "xE3AE13" "x8ABA06" "x98F420" "x7AE206" "x33FC0E" "xD4890E" "xDE6C03" "xF2F718" "xE8A600" "xDE6C03" "xC2441B" "x8CDF28" "x61FC22" }
+		}
+		create_state = {
+			country = c:CTZC
+			owned_provinces = {  "x9E5D02" "x80A602" "xBF4632" }
+		}
+		create_state = {
+			country = c:YICV
+			owned_provinces = {  "x4AD223" "xC0D50B" "xE45611" "xD4B010" }
+		}
+		create_state = {
+			country = c:COCA
+			owned_provinces = {  "xBFDA13" "xDE3807" "x9A4B20" "x8E6A04" }
+		}
+		create_state = {
+			country = c:YMTT
+			owned_provinces = {  "xD27310" "xD9AD1B" "x52F010" "xDEDF13" "xE8C609" "x4D8D2B" "xC1C41A" }
+		}
+		create_state = {
+			country = c:SOCA
+			owned_provinces = {  "xD44309" "xFCA103" }
+		}
+		create_state = {
+			country = c:MICH
+			owned_provinces = {  "x447409" "x6C9C19" "xBEDB1B" }
+		}
+		create_state = {
+			country = c:TXCT
+			owned_provinces = {  "x92FF2C" "x5F3624" "x5F3624" "xB17720" "xA19000" "xDFC727" }
+		}
+		create_state = {
+			country = c:TSCH
+			owned_provinces = {  "x86351C" "x64D210" "xB2B41C" }
+		}
+		create_state = {
+			country = c:CHIP
+			owned_provinces = {  "x415425" "x9B4127" }
+		}
+		create_state = {
+			country = c:ICPP
+			owned_provinces = {  "xFF5815" "xF07D19" "xDF4A1C" }
+		}
+		create_state = {
+			country = c:AGAL
+			owned_provinces = {  "x3FEB27" "xB6A30D" }
+		}
+		create_state = {
+			country = c:AGAL
+			owned_provinces = {  "xC23613" "xD36730" }
+		}
+		create_state = {
+			country = c:AZCC
+			owned_provinces = {  "x48C109" "xA6391F" }
 		}
 	}
+	
+	s:STATE_TEHUANTEPEC = {
+		create_state = {
+				country = c:TEH
+				owned_provinces = {  "x8EA720" "x919013" "x449830" "xFAE11C" "x576A0F" }
+			}
+		create_state = {
+				country = c:CHTL
+				owned_provinces = {  "xEEAA14" "x34A015" "x8AC92B" "x7DA012" }
+			}
+		create_state = {
+				country = c:MPAC
+				owned_provinces = {  "x6C992E" "xCE6A04" }
+			}
+		create_state = {
+				country = c:XCNC
+				owned_provinces = {  "x813315" "x82B72B" "xB7B400" "x9D3B17" "xA86409" "xC5DE1D" "x706613" "xEB991E" }
+			}
+		create_state = {
+				country = c:HUIZ
+				owned_provinces = {  "x693803" "xD9911B"  }
+			}
+		create_state = {
+				country = c:MACA
+				owned_provinces = {  "x757C21" "xC86923" }
+			}
+		create_state = {
+				country = c:TOPI
+				owned_provinces = {  "x4D3B2A" "x84970C" "xF58D04" }
+			}
+		create_state = {
+				country = c:ASTA
+				owned_provinces = {  "x4B7D21" "xCB4016" "xAB8A1A" "x50C618"  "xA36F31" "x71B314" "x53E326"  }
+			}
+		create_state = {
+				country = c:TTLN
+				owned_provinces = {  "x89F30B" "xA38702" }
+			}
+		create_state = {
+				country = c:TECZ
+				owned_provinces = {  "x9A3908" "xD4C132" }
+			}
+		create_state = {
+				country = c:AZTA
+				owned_provinces = {  "x75D21C" "xB3CE19" }
+			}
+		create_state = {
+				country = c:CHIM
+				owned_provinces = {  "xC17010" "x32972E" }
+			}
+		create_state = {
+				country = c:TLAC
+				owned_provinces = {  "x369125" "xE2E22A" }
+			}
+		create_state = {
+				country = c:XOCH
+				owned_provinces = {  "x993B28" "x64732A" }
+			}
+		create_state = {
+				country = c:GUIS
+				owned_provinces = {  "xF44A2F" "x4E7731" "x406A03" }
+			}
+		create_state = {
+				country = c:TLLL
+				owned_provinces = {  "x36500F" "x845404" "x703520" "x6F4A1C" }
+			}
+		}
+	
+	s:STATE_COATZACOALCO = {
+			create_state = {
+				country = c:COTZ
+				owned_provinces = {  "x785C29" "x9C9914" "xA0FE2C" }
+			}
+			create_state = {
+				country = c:XALT
+				owned_provinces = {  "x4EA132" "x9A532F" "x39EB14" }
+			}
+			create_state = {
+				country = c:JALT
+				owned_provinces = {  "xAA9500" "x4EAF29"  }
+			}
+			create_state = {
+				country = c:TAVA
+				owned_provinces = {  "xEB971B" "x418720" "x98A82E" "x555606"  }
+			}
+		}
+	s:STATE_MIXISTLAN = {
+			create_state = {
+				country = c:MIXI
+				owned_provinces = {  "x88CD10" "x47542B" "x843E1A" }
+			}
+			create_state = {
+				country = c:TAVA
+				owned_provinces = {  "x88CD10" "x3F941E" "x53ED1C" "x818C26" "x9A5C2B" "xF2FD07" "xB45F05" "x93AA09" "x47450B"  }
+			}
+		}
+	
 	s:STATE_TEPEACA = {
-		create_state = {
-			country = c:TCL
-			owned_provinces = { "x39571B" "x3FE810" "x46FB29" "x577B23" "x593806" "x6A5D27" "x89B01D" "xBF4424" "xCDDD2E" }
-		}
-		create_state = {
-			country = c:ICH
-			owned_provinces = { "x3EA022" "x3F482B" "x483900" "x4D4A2D" "x56D51C" "x86CD07" "x87721A" "x8EEE26" "xA7EA24" "xAB4532" "xD2B61D" "xEA321E" "xEAAB26" "xFCB30D" }
-		}
-		create_state = {
-			country = c:TTN
-			owned_provinces = { "x37D62E" "x3CD80B" "x44A818" "x4E6A0A" "x68A725" "x77AF26" "x91C017" "xB6752C" "xDFCC2F" "xE3630C" "xF13C28" "xFBC225" }
-		}
+		#create_state = {
+		#	country = c:TCL
+		#	owned_provinces = { "x39571B" "x3FE810" "x46FB29" "x577B23" "x593806" "x6A5D27" "x89B01D" "xBF4424" "xCDDD2E" }
+		#}
+		#create_state = {
+		#	country = c:ICH
+		#	owned_provinces = { "x3EA022" "x3F482B" "x483900" "x4D4A2D" "x56D51C" "x86CD07" "x87721A" "x8EEE26" "xA7EA24" "xAB4532" "xD2B61D" "xEA321E" "xEAAB26" "xFCB30D" }
+		#}
+		#create_state = {
+		#	country = c:TTN
+		#	owned_provinces = { "x37D62E" "x3CD80B" "x44A818" "x4E6A0A" "x68A725" "x77AF26" "x91C017" "xB6752C" "xDFCC2F" "xE3630C" "xF13C28" "xFBC225" }
+		#}
 	}
 	#s:STATE_NDACHIJAN = {
 	#	create_state = {
@@ -262,61 +579,42 @@
 	
 	###MAZATEC
 	s:STATE_PAPALOAPAN = {
-		create_state = {
-			country = c:TTP
-			owned_provinces = { "x48AD13" "x4BFC1B" "x764C15" "x83AE14" "x89D91F" "x8AE52F" "x8DEF1B" "xA5E917" "xA88715" "xD89D0B" "xED7013" }
-		}
-		create_state = {
-			country = c:THP
-			owned_provinces = { "x3A531B" "x58EA12" "x626D19" "x73DE1E" "x74581D" "x898020" "x955126" "xCC5A2F" "xCC8228" "xE0E805" "xE96724" "xF1AC2A" "xFE5018" }
-		}
-		create_state = {
-			country = c:TEOT
-			owned_provinces = { "x3DCE15" "x3F7019" "x436D1B" "x4AD31F" "x539600" "x83A702" "xA1D001" "xBF8818" "xD35603" "xE2990B" "xE5B612" "xFD3C28" }
-		}
+		#create_state = {
+		#	country = c:TTP
+		#	owned_provinces = { "x48AD13" "x4BFC1B" "x764C15" "x83AE14" "x89D91F" "x8AE52F" "x8DEF1B" "xA5E917" "xA88715" "xD89D0B" "xED7013" }
+		#}
+		#create_state = {
+		#	country = c:THP
+		#	owned_provinces = { "x3A531B" "x58EA12" "x626D19" "x73DE1E" "x74581D" "x898020" "x955126" "xCC5A2F" "xCC8228" "xE0E805" "xE96724" "xF1AC2A" "xFE5018" }
+		#}
+		#create_state = {
+		#	country = c:TEOT
+		#	owned_provinces = { "x3DCE15" "x3F7019" "x436D1B" "x4AD31F" "x539600" "x83A702" "xA1D001" "xBF8818" "xD35603" "xE2990B" "xE5B612" "xFD3C28" }
+		#}
 	}
 	###CHINANTEC
 	s:STATE_TUXTEPEC = {
 	}
 	
-	#South of Tenochtitlan
-	s:STATE_CUAHNAHUAC = {
-		create_state = {
-			country = c:CNH
-			owned_provinces = { "x3CEF1D" "x4E780C" "x63B716" "x72602C" "x8F452C" "xB7C102" "xDB6F13" "xEC5111" "xEFFC23" }
-		}
-	}
-	s:STATE_HUAXTEPEC = {
-		create_state = {
-			country = c:HXT
-			owned_provinces = { "x4C7506" "x653317" "x657B29" "x67831F" "x6ED707" "xAEC70E" "xAEDB1E" "xB6EB2A" "xD8D904" }
-		}
-	}
-	s:STATE_CHOLLOLAN = {
-		create_state = {
-			country = c:CHO
-			owned_provinces = { "x495431" "x603404" "x67430E" "x689B0C" "x69752F" "x6D8709" "x7ACE09" "xAD6420" "xBFD618" "xE48A19" }
-		}
-	}
 	
 	###Nonoalca
 	s:STATE_PUEBLA = {
-		create_state = {
-			country = c:CHI
-			owned_provinces = { "x42960E" "x4B7D2C" "x4D8401" "x70D20B" "x82A008" "xA35B11" "xB0FE0B" "xEBCA0A" "xF3E42A" "xF54310" "xF83D2B" }
-		}
-		create_state = {
-			country = c:TCM
-			owned_provinces = { "x32F217" "x3BA212" "x407E16" "x4DA71C" "x705018" "x94BA2A" "x953E26" "xA0F719" "xD67C11" }
-		}
-		create_state = {
-			country = c:CIU
-			owned_provinces = { "x4CDB02" "x8BC12D" "x95C409" "x967B21" "x9EE825" "xB3C421" "xB8D324" "xB96630" "xC35A24" "xC9C416" "xE2C931" "xF4D925" }
-		}
-		create_state = {
-			country = c:THI
-			owned_provinces = { "x428209" "x459E14" "x4A642E" "x588809" "x786630" "x7DA109" "x969A24" "xAA6E29" "xDC330D" "xE2812C" "xE67231" "xF7582A" }
-		}
+		#create_state = {
+		#	country = c:CHI
+		#	owned_provinces = { "x42960E" "x4B7D2C" "x4D8401" "x70D20B" "x82A008" "xA35B11" "xB0FE0B" "xEBCA0A" "xF3E42A" "xF54310" "xF83D2B" }
+		#}
+		#create_state = {
+		#	country = c:TCM
+		#	owned_provinces = { "x32F217" "x3BA212" "x407E16" "x4DA71C" "x705018" "x94BA2A" "x953E26" "xA0F719" "xD67C11" }
+		#}
+		#create_state = {
+		#	country = c:CIU
+		#	owned_provinces = { "x4CDB02" "x8BC12D" "x95C409" "x967B21" "x9EE825" "xB3C421" "xB8D324" "xB96630" "xC35A24" "xC9C416" "xE2C931" "xF4D925" }
+		#}
+		#create_state = {
+		#	country = c:THI
+		#	owned_provinces = { "x428209" "x459E14" "x4A642E" "x588809" "x786630" "x7DA109" "x969A24" "xAA6E29" "xDC330D" "xE2812C" "xE67231" "xF7582A" }
+		#}
 	}
 	
 	
@@ -349,18 +647,18 @@
 		#}
 	}
 	s:STATE_AYOTAC = {
-		create_state = {
-			country = c:AYOT
-			owned_provinces = { "x36F829"    "x447817"  "x497209" "x4EA722"   "x6EDD06"  "x6F8003" "x719213" "x745706"  "x77C612"  "x89950E" "x8D7528" "x8E3723" "x91DF0D"  "x95902A" "x963E27" "x964822" "x96D10D"   "xA1920C"    "xB5620C"  "xC2DE22"  "xCDE821"  "xDA5B1F" "xDB470B" "xDF9F0A" "xE8A828"  "xF0B605" "xF4B029"   }
-		}
-		create_state = {
-			country = c:TIQU
-			owned_provinces = { "x75A806" "xB5CC21" "x3B920B" "x9F4208" "xFAB81F" "x569721" "xAAA60F" "xF55819" "xC3BC14" "xB27020" }
-		}
-		create_state = {
-			country = c:TANC
-			owned_provinces = { "xDE5A14" "x5C3C2B" "xF03B1B" "x45BB10" "xD73F2D" "x83A815" "x94B930" "xA5C313" "x39EB1A" "xA0900D" "x3A6F00" "x97A116" "x6EFD11" "xBD8228" }
-		}
+		#create_state = {
+		#	country = c:AYOT
+		#	owned_provinces = { "x36F829"    "x447817"  "x497209" "x4EA722"   "x6EDD06"  "x6F8003" "x719213" "x745706"  "x77C612"  "x89950E" "x8D7528" "x8E3723" "x91DF0D"  "x95902A" "x963E27" "x964822" "x96D10D"   "xA1920C"    "xB5620C"  "xC2DE22"  "xCDE821"  "xDA5B1F" "xDB470B" "xDF9F0A" "xE8A828"  "xF0B605" "xF4B029"   }
+		#}
+		#create_state = {
+		#	country = c:TIQU
+		#	owned_provinces = { "x75A806" "xB5CC21" "x3B920B" "x9F4208" "xFAB81F" "x569721" "xAAA60F" "xF55819" "xC3BC14" "xB27020" }
+		#}
+		#create_state = {
+		#	country = c:TANC
+		#	owned_provinces = { "xDE5A14" "x5C3C2B" "xF03B1B" "x45BB10" "xD73F2D" "x83A815" "x94B930" "xA5C313" "x39EB1A" "xA0900D" "x3A6F00" "x97A116" "x6EFD11" "xBD8228" }
+		#}
 	}
 	
 	
@@ -433,10 +731,10 @@
 		}
 	}
 	s:STATE_COAHUAYUTLA = {
-		create_state = {
-			country = c:ZACT
-			owned_provinces = { "x35DA05" "x3DDE30" "x4FD910" "x52F719" "x565D31" "x5B671C" "x5CA423" "x68C528" "x6F500F" "x73AC16" "x758608" "x8D5A0E" "x936B19" "x9CB91D" "x9DC025" "xA09407" "xA9642E" "xAF9F07" "xBE4832" "xC3ED2A" "xCCBF0B" "xD14611" "xDC9615" "xE83F1D" "xE8410D" "xF0661F" "xF2A831" }
-		}
+		#create_state = {
+		#	country = c:ZACT
+		#	owned_provinces = { "x35DA05" "x3DDE30" "x4FD910" "x52F719" "x565D31" "x5B671C" "x5CA423" "x68C528" "x6F500F" "x73AC16" "x758608" "x8D5A0E" "x936B19" "x9CB91D" "x9DC025" "xA09407" "xA9642E" "xAF9F07" "xBE4832" "xC3ED2A" "xCCBF0B" "xD14611" "xDC9615" "xE83F1D" "xE8410D" "xF0661F" "xF2A831" }
+		#}
 	}
 	s:STATE_XALISCO = {
 		#
@@ -462,33 +760,33 @@
 	#Cuitlateca
 	
 	s:STATE_GUERRERO = {
-			create_state = {
-				country = c:NCHI
-				owned_provinces = { "x35981A" "x42D01D" "x43FE1B" "x446228" "x47662E" "x4DCD32" "x4FDF2C" "x51652A" "x6CE305" "x82E722" "x83B319" "x83B819" "x87BA12" "x89412D" "x8B9822" "x90C605" "x98A324" "x99D818" "x9DE710" "x9F451F" "xA35D21" "xB8F412" "xC1E000" "xC54C01" "xC6D82F" "xDC4C1D" "xF1FD21" "xF6AE30" }
-			}
-			create_state = {
-				country = c:TXTL
-				owned_provinces = { "x44890A" "x52582A" "x5B591C" "x5DAD18" "x62D130" "x664D28" "x7EE904" "x965D09" "x9D8309" "xB0D925" "xC19025" "xC9660E" "xCF5005" "xDDEC1E" "xE36307" "xF0A42B" "xF8E52E" }
-			}
-			create_state = {
-				country = c:TLTP
-				owned_provinces = { "x3BC930" "x3DA520" "x4DD913" "x4EBE13" "x50EF25" "x5F3922" "x66B530" "x8E5132" "x97E71D" "x9A7419" "xAA6821" "xC7A632" "xECFC0C" "xEF8105" "xF1E623" }
-			}
-			create_state = {
-				country = c:NOCH
-				owned_provinces = { "x464701" "x4F7907" "x52341C" "x52500E" "x608720" "x69912E" "x9B6A0E" "xA1EA32" "xA47525" "xBBEA09" "xBF8925" "xD7EE11" "xE55608" "xE9960F" "xEB7207" "xFA902B" }
-			}
-			create_state = {
-				country = c:CUTZ
-				owned_provinces = { "x37941F" "x38E31D" "x424B02" "x546403" "x61CC2B" "x71472F" "x818515" "x84682A" "x88660B" "x95AF32" "x95D025" "x9E8518" "xA64E1B" "xA66110" "xD06A2B" "xD1C012" "xD2EF31" "xD44E1C" "xF37A02" "xF64815" "xFCA604" }
-			}
+			#create_state = {
+			#	country = c:NCHI
+			#	owned_provinces = { "x35981A" "x42D01D" "x43FE1B" "x446228" "x47662E" "x4DCD32" "x4FDF2C" "x51652A" "x6CE305" "x82E722" "x83B319" "x83B819" "x87BA12" "x89412D" "x8B9822" "x90C605" "x98A324" "x99D818" "x9DE710" "x9F451F" "xA35D21" "xB8F412" "xC1E000" "xC54C01" "xC6D82F" "xDC4C1D" "xF1FD21" "xF6AE30" }
+			#}
+			#create_state = {
+			#	country = c:TXTL
+			#	owned_provinces = { "x44890A" "x52582A" "x5B591C" "x5DAD18" "x62D130" "x664D28" "x7EE904" "x965D09" "x9D8309" "xB0D925" "xC19025" "xC9660E" "xCF5005" "xDDEC1E" "xE36307" "xF0A42B" "xF8E52E" }
+			#}
+			#create_state = {
+			#	country = c:TLTP
+			#	owned_provinces = { "x3BC930" "x3DA520" "x4DD913" "x4EBE13" "x50EF25" "x5F3922" "x66B530" "x8E5132" "x97E71D" "x9A7419" "xAA6821" "xC7A632" "xECFC0C" "xEF8105" "xF1E623" }
+			#}
+			#create_state = {
+			#	country = c:NOCH
+			#	owned_provinces = { "x464701" "x4F7907" "x52341C" "x52500E" "x608720" "x69912E" "x9B6A0E" "xA1EA32" "xA47525" "xBBEA09" "xBF8925" "xD7EE11" "xE55608" "xE9960F" "xEB7207" "xFA902B" }
+			#}
+			#create_state = {
+			#	country = c:CUTZ
+			#	owned_provinces = { "x37941F" "x38E31D" "x424B02" "x546403" "x61CC2B" "x71472F" "x818515" "x84682A" "x88660B" "x95AF32" "x95D025" "x9E8518" "xA64E1B" "xA66110" "xD06A2B" "xD1C012" "xD2EF31" "xD44E1C" "xF37A02" "xF64815" "xFCA604" }
+			#}
 		}
 	
 	s:STATE_IXTAPA = {
-		create_state = {
-			country = c:IXTP
-			owned_provinces = { "x34C603" "x393432" "x3EC528" "x424927" "x4BF30B" "x4E6E1F" "x51A719" "x55B02B" "x5BE328" "x6DCB04" "x747128" "x80E51E" "x9C702F" "x9D8A29" "xB45923" "xD4CC12" "xEFB02F" "xF76623" "xFFF531" }
-		}
+		#create_state = {
+		#	country = c:IXTP
+		#	owned_provinces = { "x34C603" "x393432" "x3EC528" "x424927" "x4BF30B" "x4E6E1F" "x51A719" "x55B02B" "x5BE328" "x6DCB04" "x747128" "x80E51E" "x9C702F" "x9D8A29" "xB45923" "xD4CC12" "xEFB02F" "xF76623" "xFFF531" }
+		#}
 	}
 	
 	
@@ -497,73 +795,342 @@
 	s:STATE_CUTZAMALA = {
 	}
 	s:STATE_TOLUCA_VALLEY = {
-		create_state = {
-			country = c:TOLU
-			owned_provinces = { "x61B328" "x704617" "x8CB41C" "x8EE90B" "x92361D" "xB1D217" "xB4AF28" "xB7D20A" "xC0B310" "xD25216" "xEC350F" "xEFA312" }
-		}
-		create_state = {
-			country = c:TAXI
-			owned_provinces = { "x5F551D" "x709E18" "x747122" "x804E1A" "x824916" "x86602F" "x973312" "xA8AB07" "xB7C10D" "xC2A220" "xDB9827" "xF4F228" }
-		}
-		create_state = {
-			country = c:CAIX
-			owned_provinces = { "x52ED0D" "x6B3508" "x916B07" "x93362D" "xA6962A" "xAB9110" "xC4A501" "xD49028" "xDF9215" "xEE3511" }
-		}
-		create_state = {
-			country = c:MARA
-			owned_provinces = { "x32F526" "x4EB511" "x90F708" "x9AF824" "xA7A112" "xB17E31" "xBCDD31" "xE7F725" "xE98718" }
-		}
+	#	create_state = {
+	#		country = c:TOLU
+	#		owned_provinces = { "x61B328" "x704617" "x8CB41C" "x8EE90B" "x92361D" "xB1D217" "xB4AF28" "xB7D20A" "xC0B310" "xD25216" "xEC350F" "xEFA312" }
+	#	}
+	#	create_state = {
+	#		country = c:TAXI
+	#		owned_provinces = { "x5F551D" "x709E18" "x747122" "x804E1A" "x824916" "x86602F" "x973312" "xA8AB07" "xB7C10D" "xC2A220" "xDB9827" "xF4F228" }
+	#	}
+	#	create_state = {
+	#		country = c:CAIX
+	#		owned_provinces = { "x52ED0D" "x6B3508" "x916B07" "x93362D" "xA6962A" "xAB9110" "xC4A501" "xD49028" "xDF9215" "xEE3511" }
+	#	}
+	#	create_state = {
+	#		country = c:MARA
+	#		owned_provinces = { "x32F526" "x4EB511" "x90F708" "x9AF824" "xA7A112" "xB17E31" "xBCDD31" "xE7F725" "xE98718" }
+	#	}
 	}
 	
 	
 	#Otomis
 	s:STATE_TOLLAN = {
-		create_state = {
-			country = c:TULA
-			owned_provinces = { "x33EC10" "x5F331E" "x974F1F" "x9EBC22" "xC97123" "xEBD101" "xF7600F" }
-		}
-		create_state = {
-			country = c:XILA
-			owned_provinces = { "x39A828" "x3CF009" "x3D6C15" "x715403" "x885D00" "xB18D21" "xB4FF06" "xB7DA21" "xC1C230" "xCA432A" "xF0D303" }
-		}
-		create_state = {
-			country = c:XILO
-			owned_provinces = { "x3FAB32" "x615102" "x91B52C" "x91DD21" "x98512C" "xA8AA29" "xA9621C" "xACCE14" "xC9912A" }
-		}
+		#create_state = {
+		#	country = c:TULA
+		#	owned_provinces = { "x33EC10" "x5F331E" "x974F1F" "x9EBC22" "xC97123" "xEBD101" "xF7600F" }
+		#}
+		#create_state = {
+		#	country = c:XILA
+		#	owned_provinces = { "x39A828" "x3CF009" "x3D6C15" "x715403" "x885D00" "xB18D21" "xB4FF06" "xB7DA21" "xC1C230" "xCA432A" "xF0D303" }
+		#}
+		#create_state = {
+		#	country = c:XILO
+		#	owned_provinces = { "x3FAB32" "x615102" "x91B52C" "x91DD21" "x98512C" "xA8AA29" "xA9621C" "xACCE14" "xC9912A" }
+		#}
 	}
 	s:STATE_OTOMPAN = {
-		create_state = {
-			country = c:OTP
-			owned_provinces = { "x39DD0E" "x73BB2B" "x84C904" "xB4EC03" "xB5F326" }
-		}
-		create_state = {
-			country = c:TCHI
-			owned_provinces = { "x35CF28" "x494904" "x4B6103" "x5BF728" "x5D992D" "x637B18"  "x73BD04"  "xA24307" "xA5FF04" "xB19F04" "xC74208" "xE16D12" "xF3D61D"  "x6ABA1B" "x77DD08" }
-		}
-		create_state = {
-			country = c:METZ
-			owned_provinces = { "x33A617" "x485B1F" "x56A031" "x637508" "x69E60E" "x6CE70E" "x737832" "x7C5B10" "x81EE08" "x855F21" "xB14416" "xB1F613" "xB23F04" "xBDBA14" "xBF7B19" "xF8DF20" }
-		}
+		#create_state = {
+		#	country = c:OTP
+		#	owned_provinces = { "x39DD0E" "x73BB2B" "x84C904" "xB4EC03" "xB5F326" }
+		#}
+		#create_state = {
+		#	country = c:TCHI
+		#	owned_provinces = { "x35CF28" "x494904" "x4B6103" "x5BF728" "x5D992D" "x637B18"  "x73BD04"  "xA24307" "xA5FF04" "xB19F04" "xC74208" "xE16D12" "xF3D61D"  "x6ABA1B" "x77DD08" }
+		#}
+		#create_state = {
+		#	country = c:METZ
+		#	owned_provinces = { "x33A617" "x485B1F" "x56A031" "x637508" "x69E60E" "x6CE70E" "x737832" "x7C5B10" "x81EE08" "x855F21" "xB14416" "xB1F613" "xB23F04" "xBDBA14" "xBF7B19" "xF8DF20" }
+		#}
 	}
 	
 	
 	#Huastecs
 	s:STATE_HUASTECAPAN = {
+		#create_state = {
+		#	country = c:TUXP
+		#	owned_provinces = { "x445B17" "x55B313" "x664015" "x72F914" "x793A2C" "x7BC310" "xA5B716" "xA66F0B" "xA83904" "xAA5C27" "xACAC29" "xB84904" "xB9CA1F" "xBAC008" "xBEE81E" "xCC600E" "xDDCE08" "xE17522" }
+		#}
+		#create_state = {
+		#	country = c:OLUZ
+		#	owned_provinces = { "x3D4722" "x426721" "x43DA27" "x49E70F" "x4C7D09" "x4DFF1F" "x575F1C" "x5CD931" "x677025" "x6B9F1E" "x77CC12" "x784A04" "x80B617" "x82BC14" "x8FD629" "x9DEE1E" "xB5E100" "xC28426" "xC7531D" "xC8B602" "xCBD207" "xD28001" "xDB3308" "xDE432F" "xE96931" "xEFD322" }
+		#}create_state = {
+		#	country = c:IXAC
+		#	owned_provinces = { "x6CCC1C" "x7EEA0B" "x7F7C29" "x92FB1E" "x97FF2F" "xA09F28" "xAA4A02" "xB3B112" "xCC8C2F" "xD0FE2F" "xD2C805" "xD4CE22" "xD66330" "xE6E119" "xE93A17" "xF14307" "xFA3513" }
+		#}
+		#create_state = {
+		#	country = c:MIET
+		#	owned_provinces = { "xC24725" }
+		#}
+	}
+	
+	
+	
+	##MAYA
+
+	
+	s:STATE_XICALANGO = {
+		
 		create_state = {
-			country = c:TUXP
-			owned_provinces = { "x445B17" "x55B313" "x664015" "x72F914" "x793A2C" "x7BC310" "xA5B716" "xA66F0B" "xA83904" "xAA5C27" "xACAC29" "xB84904" "xB9CA1F" "xBAC008" "xBEE81E" "xCC600E" "xDDCE08" "xE17522" }
+			country = c:TAVA
+			owned_provinces = { "xA33402" "x378001" "x3A7113" "xC2D222" "xE7BE2B" "x9EB028" "x565A2E" "x76EC26" "xC3B82D" "x986E1B" "x8CC318" "x607101" "xE0840C" "xE85922" "x754D2E" "xDA5913" "xEF7D23" "xCDB322" "x55841A" "x408029"  }
 		}
 		create_state = {
-			country = c:OLUZ
-			owned_provinces = { "x3D4722" "x426721" "x43DA27" "x49E70F" "x4C7D09" "x4DFF1F" "x575F1C" "x5CD931" "x677025" "x6B9F1E" "x77CC12" "x784A04" "x80B617" "x82BC14" "x8FD629" "x9DEE1E" "xB5E100" "xC28426" "xC7531D" "xC8B602" "xCBD207" "xD28001" "xDB3308" "xDE432F" "xE96931" "xEFD322" }
-		}create_state = {
-			country = c:IXAC
-			owned_provinces = { "x6CCC1C" "x7EEA0B" "x7F7C29" "x92FB1E" "x97FF2F" "xA09F28" "xAA4A02" "xB3B112" "xCC8C2F" "xD0FE2F" "xD2C805" "xD4CE22" "xD66330" "xE6E119" "xE93A17" "xF14307" "xFA3513" }
+			country = c:ACAL
+			owned_provinces = { "xD97907" "x51B115" "xC59F2E" "xF24917" "x7E9104" "xBD7D2B" "x40E202" "x94371F" "x7D490D" }
 		}
 		create_state = {
-			country = c:MIET
-			owned_provinces = { "xC24725" }
+			country = c:XICA
+			owned_provinces = { "x483C13" "xF17D05" "x3A7113" }
+		}
+		create_state = {
+			country = c:XONU
+			owned_provinces = { "xE5AE1F" "xE8671E" "xD78A29" }
+		}
+	}
+	s:STATE_PETEN = {
+		create_state = {
+			country = c:ITZK
+			owned_provinces = { "xAE3D23" "xBFA101" "x459F11" "xAFBA1A" "xD1B506" "xF05D22" }
+		}
+		create_state = {
+			country = c:PALE
+			owned_provinces = { "x617E0C" "xAAF015" "x5C8122" "xB9AC03" "x987021" "xBF9521" "xF8EB0A" "xFDEC1F" "x46EC0A" "x8B6E05" }
+		}
+	}
+	s:STATE_CAMPECHE = {
+		create_state = {
+			country = c:TIXC
+			owned_provinces = { "xBA5C22" "x6EB523" "x799C29" "x8DC122" "x977302" "xFE8A30" "xB96330" }
+		}
+		create_state = {
+			country = c:CHKA
+			owned_provinces = { "x97F71A" "x8DD728" "xBDB205" "xC5A329" "x445F22" }
+		}
+		create_state = {
+			country = c:KAPO
+			owned_provinces = { "xE7C314" "x6ECA13" "xCF6D06" "xB07232" "x97C30F" "x8AA015" "x873B02" "xB74828" "x47E51D" "xA94B2A" }
+		}
+	}
+	s:STATE_YUCATAN = {
+		create_state = {
+			country = c:MAYP
+			owned_provinces = { "xFD4E26" "x875F0A" "x4DB70C" "x81F414" "xE2DD22" "x396316" "x81A706" "xA76126" "x81A706" "x783703" "x5AF329" "x9DD512" "x94D02D" "x46C12E" "xC14507" }
+		}
+		create_state = {
+			country = c:AHCA
+			owned_provinces = {"x34B71E" "x36CD03" "x386C1D" "x423F05" "x549101" "x426A09" "x93461D" "xAFE816" "xCCFE15" "xCDF81A" "xD43F32" "xEAC429" "xECD70B" "xEDFF1D" "xF0B201" "xF36924" "xF5CA31" "xFC4626" }
+			}
+		create_state = {
+			country = c:CHAK
+			owned_provinces = { "xA6B00B" "xE7D108" "xD65130" }
+		}
+		create_state = {
+			country = c:CEHP
+			owned_provinces = { "xB37D03" "xA1A51C" "xE5FE28"  }
+		}
+		create_state = {
+			country = c:HOCA
+			owned_provinces = { "xEBC21D" "x83C026" "xCEB905" "x9F6E29" "x325032" "xADC320" "xEBB921" "xC25D24" "x6DBF31" "xA5880E" "x6FA428" "xA4952C"  }
+		}
+		create_state = {
+			country = c:AKCH
+			owned_provinces = { "xBC4D2F" "xC08928" "x9B6823" "xD2331B" "xACB926"  }
+		}
+		create_state = {
+			country = c:CHIK
+			owned_provinces = { "x8AD014" "xB6DC26" "xACB926" "xF84C2A" "xD5641E" "xB4A01B" "x6DFE26" "xD7352E" "x683F2D" "xF43824" "x963300" "xDE4804" "x9AA511" "x39430A" "x466D0C"  }
+		}
+		create_state = {
+			country = c:KUPU
+			owned_provinces = { "x829111" "x44A92E" "xF66B17" "xACCD12" "x5DA702" "xC2D42D" "x69FD2B" "xDEE51B" "x815027" "x4B9D1D" "x4B9D1D" "xA7EB06" "x557A16" "x5EB20B" "x67660D" "xFAB631"  }
+		}
+		create_state = {
+			country = c:COCO
+			owned_provinces = { "x966D0A" "xC7DA1B" "xA25309" "xBA7F02" "x7ED414" "x93580F" "xBA7F02"  }
 		}
 	}
 	
+	
+	#Mixtec 
+	s:STATE_TUTUTEPEC = {
+		create_state = {
+			country = c:YDZ
+			owned_provinces = { "xC3AD14" "xFAF91A" "xB83328" "xEF5721" "x5CF024" "xDE3606" "x45E607" "x5AC011" "xA9840B" "xA5D82C" "xC1F408" "xECC80A" "x3EAD2D" "x70DB2B" "x4A9B07" "xD45A0F" "xF79E05" "xB4BB18" "xF13F22" "x84421A" "x9F362C" "xB4EE02" "xD09C32" "xEFA80C" "xD73528" "x4A6F22" "xE44319" "x9F362C" "xD4D00E"   }
+		}
+		create_state = {
+			country = c:TLAP
+			owned_provinces = { "xA9ED06" "xC0AF1F" "xF97213" "x459A0F" "x50620F" "x50620F" "xB18314" "xA76927" "xAF3A16" "x7E7A14" "x91A806" "x9AF50F" "xECDE2D" "x6D7006" "xEBAF2F" "xA28020" }
+			}
+		create_state = {
+			country = c:YCYO
+			owned_provinces = { "xB7D81B" "xB7D81B" "xF8AF00" "x63EF22" "xAB8729" "x8C3720" }
+			}
+		create_state = {
+			country = c:TIL
+			owned_provinces = { "xD5B70B" "x3EF81A" "x3EF81A" "xAD3C1D" "x33910D" "x43490B" }
+			}
+		create_state = {
+			country = c:YCET
+			owned_provinces = { "xF49C15" "xFDF222" "x4E8108" "x36F818" "x4F7326" }
+			}
+		create_state = {
+			country = c:YCH
+			owned_provinces = { "xDEDA0F" "x3FCA07" "x8BC12D" "xE2C931" "xF4D925"  "xB96630" }
+			}
+		create_state = {
+			country = c:AYUU
+			owned_provinces = { "x3CC12A" "x78F32E" "x5B451A"  }
+			}
+		create_state = {
+			country = c:LAMB
+			owned_provinces = { "x788F00" "x8BB51A" "xC89932" "x52372B" "x789700" "x708410" "x48C728" "xD6B500" "x848B31" "xACFF09" "x58382D" "xB8AA05" "x4A9B0F" "x71A821" "xBB4B03" "x44AF32"   }
+			}
+		create_state = {
+			country = c:MITL
+			owned_provinces = { "xD6C71D" "xAEEF08" "x335830" "xA05B2D" "x439824" "x7DEE18" "xC8A90E" "x469226" "x98431A" "x933C2F" "x919831" "x975C19" "xE7370C" "x41F222" "x46C204"  }
+			}
+		create_state = {
+			country = c:ZAA
+			owned_provinces = { "xBF7B2F" "x538C1B" "x714019" "xA6B82E" "xFF6C10" "xD5F115" "x32BB1F" "x5C821A" "xA3D818" "xCFC524" "xECAC2E" "x328A1C" "xF4932D" "x7E6525" "x705C1C" "x705C1C" "x3EC902" "x999C2B" "xE4D30D" "x5D5C23" "xE69213" "xAFD207" "xBD6A2E" "xB74617"   "x9A7F09" "xCAF72E" "xC1BE29" "xC5352A" }
+		}
+		create_state = {
+			country = c:YTCN
+			owned_provinces = { "xDE4427" "x4CA025" "x34AF21" "x91CE19"    }
+			}
+		create_state = {
+			country = c:AMUZ
+			owned_provinces = { "xB2F707" "x41DD1D" "xDF382D" "xDF382D" "x3FE901" "x89C122"  }
+			}
+		create_state = {
+			country = c:AYZP
+			owned_provinces = { "xFD3B1F" "x92D81B" "x99A11C" "x483D2E" "xB46531"   }
+			}
+		create_state = {
+			country = c:TLXI
+			owned_provinces = { "x936824" "xD16A03" "x6AE531"   }
+			}
+		create_state = {
+			country = c:TLXA
+			owned_provinces = { "xD74A1A" "xC95806" "x3B6E1C"   }
+			}
+		create_state = {
+			country = c:TEOZ
+			owned_provinces = { "xB99804" "xB99804" "xDCDE10" "xFB390A"   }
+			}
+		create_state = {
+			country = c:PUTL
+			owned_provinces = { "x938720" "xBEB22F" "x4CAC1A"  }
+			}
+		create_state = {
+			country = c:NOCX
+			owned_provinces = { "x6B3B20" "xA6C11F" "x7A3E05"  }
+			}
+		create_state = {
+			country = c:DAIN
+			owned_provinces = { "x8AF805" "x84CE10" "x738506"  "x3B5209" "xBE7822" "xE7B010"  }
+			}
+		create_state = {
+			country = c:YXLT
+			owned_provinces = { "x34901B" "xB6FB0F" "x7CE417"  }
+			}
+		create_state = {
+			country = c:AYTL
+			owned_provinces = { "x5B6C09" "x476530" "x45661C" "xAE670B" "x78F632" "xDEF810" "xE34608" "xF2FC2A" }
+			}
+		create_state = {
+			country = c:AYZU
+			owned_provinces = { "xF7BE2B" "x589710" "xF9BE02" "x718A0E" }
+			}
+		create_state = {
+			country = c:CUAH
+			owned_provinces = { "xF4CD29" "x676C28" "x8D5519" "xAE9307" "xB8BE1F" }
+			}
+		create_state = {
+			country = c:NUND
+			owned_provinces = { "xEAFF1B" "x985731" "xD9F80F" }
+			}
+		create_state = {
+			country = c:NUDC
+			owned_provinces = { "x86702E" "x53E212" "x376419" "xA7AE0D" }
+			}
+		create_state = {
+			country = c:NSIN
+			owned_provinces = { "x56E82B" "xE55C17" }
+			}
+		create_state = {
+			country = c:CHIC
+			owned_provinces = { "x518706" "x344205" }
+			}
+		create_state = {
+			country = c:IHUL
+			owned_provinces = { "x49FE08" "x404A14" "x7B7930" "xF56A17" "xC4650B" }
+			}
+		create_state = {
+			country = c:SUCH
+			owned_provinces = { "xCC7B1F" "x63CB11" "x63B91D" "x86D013" "x89A526" "x40DA31" }
+			}
+		create_state = {
+			country = c:HUMX
+			owned_provinces = { "xB8D324" "x95C409" "x967B21" }
+			}
+		create_state = {
+			country = c:AYOT
+			owned_provinces = { "x726421" "xCC3C17" }
+			}
+		create_state = {
+			country = c:ACT
+			owned_provinces = { "x3BA212" "x4DA71C" "xA0F719" "x953E26" "xBD550B" }
+			}
+		create_state = {
+			country = c:PIAX
+			owned_provinces = { "x705018" "xC35A24" "xF3E42A" "x42960E" "x94BA2A" }
+			}
+		create_state = {
+			country = c:IXIT
+			owned_provinces = { "xCAAC20" "x845212" }
+			}
+		create_state = {
+			country = c:YANH
+			owned_provinces = { "xE44F03" "x504A09" "x457004" "x3F7B1C" "x903631" "x379510" "xFEF308" }
+			}
+		create_state = {
+			country = c:COX
+			owned_provinces = { "xC19120" "x62DA0E" "x8AEC28" "x538515" }
+			}
+		create_state = {
+			country = c:TEOT
+			owned_provinces = { "x517B2D" "x539600" "xA1D001" "xE2990B" "xFE5018" "x3DCE15" "x898020" }
+			}
+		create_state = {
+			country = c:QUHE
+			owned_provinces = { "xE28800" "x4E4D23"  }
+			}
+		create_state = {
+			country = c:HUAT
+			owned_provinces = { "xE5BD05" "x4AB02D" "xB5781A" "xBA6C0E" "x4AF80C" "x609C1E" "xFC3219" "xA36F31" "xFD652A" }
+			}
+		create_state = {
+			country = c:CHLP
+			owned_provinces = { "x71B314" "x53E326" "xAB8A1A" "x50C618" } 
+			}
+		create_state = {
+			country = c:TONA
+			owned_provinces = { "xBABD18" "x4AE726" "xDE580B" }
+			}
+		create_state = {
+			country = c:ATEP
+			owned_provinces = { "xA6E601" "x4CD412" "xE0EE00" }
+			}
+		create_state = {
+			country = c:ATLA
+			owned_provinces = { "xB2A417" }
+			}
+		create_state = {
+			country = c:CICL
+			owned_provinces = { "xFC3C21" "xFD3C28" "x83A702" }
+			}
+	}
+	
+
 }

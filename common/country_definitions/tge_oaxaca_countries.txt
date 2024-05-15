@@ -94,19 +94,12 @@ cultures = { zapotec }
 capital = STATE_ALOTEPEC
 } 
 
-TEH = { #TEHUANTEPEC
-color = rgb { 74 143 40 }
-tier = duchy
-country_type = recognized
-cultures = { zapotec }
-capital = STATE_TEHUANTEPEC
-} 
 
 TEOT = { #TEOTITLAN
 color = rgb { 92 204 118 }
 tier = duchy
 country_type = recognized
-cultures = { zapotec }
+cultures = { chochontin }
 capital = STATE_TEOTITLAN
 } 
 
