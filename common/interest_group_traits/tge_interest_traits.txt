@@ -36,7 +36,7 @@ ig_trait_levy_withheld = {
 	
 	modifier = {
 		#state_radicals_from_discrimination_mult = 0.5
-		country_can_declare_diplomatic_demands = no
+		country_forbidden_from_declaring_diplomatic_demands = yes
 	}
 }
 

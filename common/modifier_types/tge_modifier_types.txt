@@ -166,7 +166,7 @@ interest_group_ig_scholars_approval_add = {
 	num_decimals = 0
 }
 
-interest_group_ig_scholars__pol_str_mult = {
+interest_group_ig_scholars_pol_str_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
@@ -213,6 +213,40 @@ interest_group_ig_governors_pop_attraction_mult = {
 	percent = yes
 }
 
+interest_group_ig_faithful_approval_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_faithful_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_faithful_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+}
+
+interest_group_ig_crown_approval_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+interest_group_ig_crown_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
+interest_group_ig_crown_pop_attraction_mult = {
+	neutral = yes
+	percent = yes
+}
+
 
 state_remove_ruins = {
 	neutral = yes
@@ -227,6 +261,12 @@ country_can_raid = {
 	neutral = yes
 	boolean = yes
 }
+
+country_forbidden_from_declaring_diplomatic_demands = {
+	bad = yes
+	boolean = yes
+}
+
 
 country_low_penalties_for_empire_sprawl = {
 	neutral = yes

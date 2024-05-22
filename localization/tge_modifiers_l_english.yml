@@ -16,12 +16,12 @@
   modifier_interest_group_ig_aristocracy_approval_add:2 "$ig_variant_aristocracy$ [concept_approval]"
   modifier_interest_group_ig_aristocracy_approval_add_desc:2 "A bonus or penalty to the total [concept_approval] of the $ig_variant_aristocracy$ [concept_interest_group]"
   
-  modifier_interest_group_ig_traditionalists_pop_attraction_mult:1 "$ig_variant_traditionalists$ Pop Attraction"
-  modifier_interest_group_ig_traditionalists_pop_attraction_mult_desc:1 "A bonus or penalty to the how attracted Pops are to the $ig_variant_traditionalists$ [concept_interest_group]"
-  modifier_interest_group_ig_traditionalists_pol_str_mult:2 "$ig_variant_traditionalists$ [concept_political_strength]"
-  modifier_interest_group_ig_traditionalists_pol_str_mult_desc:2 "A bonus or penalty to the total [concept_political_strength] of the $ig_variant_traditionalists$ [concept_interest_group]"
-  modifier_interest_group_ig_traditionalists_approval_add:2 "$ig_variant_traditionalists$ [concept_approval]"
-  modifier_interest_group_ig_traditionalists_approval_add_desc:2 "A bonus or penalty to the total [concept_approval] of the $ig_variant_traditionalists$ [concept_interest_group]"
+  modifier_interest_group_ig_faithful_pop_attraction_mult:1 "$ig_variant_faithful$ Pop Attraction"
+  modifier_interest_group_ig_faithful_pop_attraction_mult_desc:1 "A bonus or penalty to the how attracted Pops are to the $ig_variant_faithful$ [concept_interest_group]"
+  modifier_interest_group_ig_faithful_pol_str_mult:2 "$ig_variant_faithful$ [concept_political_strength]"
+  modifier_interest_group_ig_faithful_pol_str_mult_desc:2 "A bonus or penalty to the total [concept_political_strength] of the $ig_variant_faithful$ [concept_interest_group]"
+  modifier_interest_group_ig_faithful_approval_add:2 "$ig_variant_faithful$ [concept_approval]"
+  modifier_interest_group_ig_faithful_approval_add_desc:2 "A bonus or penalty to the total [concept_approval] of the $ig_variant_faithful$ [concept_interest_group]"
   
   modifier_interest_group_ig_ancillaries_pop_attraction_mult:1 "$ig_variant_ancillaries$ Pop Attraction"
   modifier_interest_group_ig_ancillaries_pop_attraction_mult_desc:1 "A bonus or penalty to the how attracted Pops are to the $ig_variant_ancillaries$ [concept_interest_group]"
@@ -43,6 +43,28 @@
   modifier_interest_group_ig_governors_pol_str_mult_desc:2 "A bonus or penalty to the total [concept_political_strength] of the $ig_variant_elites$ [concept_interest_group]"
   modifier_interest_group_ig_governors_approval_add:2 "$ig_variant_elites$ [concept_approval]"
   modifier_interest_group_ig_governors_approval_add_desc:2 "A bonus or penalty to the total [concept_approval] of the $ig_variant_elites$ [concept_interest_group]"
+  
+  modifier_interest_group_ig_crown_pop_attraction_mult:1 "$ig_variant_crown$ Pop Attraction"
+  modifier_interest_group_ig_crown_pop_attraction_mult_desc:1 "A bonus or penalty to the how attracted Pops are to the $ig_variant_crown$ [concept_interest_group]"
+  modifier_interest_group_ig_crown_pol_str_mult:2 "$ig_variant_crown$ [concept_political_strength]"
+  modifier_interest_group_ig_crown_pol_str_mult_desc:2 "A bonus or penalty to the total [concept_political_strength] of the $ig_variant_crown$ [concept_interest_group]"
+  modifier_interest_group_ig_crown_approval_add:2 "$ig_variant_crown$ [concept_approval]"
+  modifier_interest_group_ig_crown_approval_add_desc:2 "A bonus or penalty to the total [concept_approval] of the $ig_variant_crown$ [concept_interest_group]"
+  
+  modifier_interest_group_ig_freemen_pop_attraction_mult:1 "$ig_variant_freemen$ Pop Attraction"
+  modifier_interest_group_ig_freemen_pop_attraction_mult_desc:1 "A bonus or penalty to the how attracted Pops are to the $ig_variant_freemen$ [concept_interest_group]"
+  modifier_interest_group_ig_freemen_pol_str_mult:2 "$ig_variant_freemen$ [concept_political_strength]"
+  modifier_interest_group_ig_freemen_pol_str_mult_desc:2 "A bonus or penalty to the total [concept_political_strength] of the $ig_variant_freemen$ [concept_interest_group]"
+  modifier_interest_group_ig_freemen_approval_add:2 "$ig_variant_freemen$ [concept_approval]"
+  modifier_interest_group_ig_freemen_approval_add_desc:2 "A bonus or penalty to the total [concept_approval] of the $ig_variant_freemen$ [concept_interest_group]"
+  
+  modifier_interest_group_ig_tribes_pop_attraction_mult:1 "$ig_variant_tribes$ Pop Attraction"
+  modifier_interest_group_ig_tribes_pop_attraction_mult_desc:1 "A bonus or penalty to the how attracted Pops are to the $ig_variant_tribes$ [concept_interest_group]"
+  modifier_interest_group_ig_tribes_pol_str_mult:2 "$ig_variant_tribes$ [concept_political_strength]"
+  modifier_interest_group_ig_tribes_pol_str_mult_desc:2 "A bonus or penalty to the total [concept_political_strength] of the $ig_variant_tribes$ [concept_interest_group]"
+  modifier_interest_group_ig_tribes_approval_add:2 "$ig_variant_tribes$ [concept_approval]"
+  modifier_interest_group_ig_tribes_approval_add_desc:2 "A bonus or penalty to the total [concept_approval] of the $ig_variant_tribes$ [concept_interest_group]"
+  
   
   
   

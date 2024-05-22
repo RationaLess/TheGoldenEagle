@@ -49,7 +49,7 @@
 			}
 			create_state = {
 				country = c:CHNT
-				owned_provinces = { "x798032"  }
+				owned_provinces = {   }
 			}
 			create_state = {
 				country = c:TEOTI
@@ -61,7 +61,7 @@
 			}
 			create_state = {
 				country = c:XAL
-				owned_provinces = { "x3DEA10" "x52BC2D" }
+				owned_provinces = { "x3DEA10" "x52BC2D" "x798032" }
 			}
 			create_state = {
 				country = c:CUA
