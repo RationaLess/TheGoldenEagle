@@ -424,7 +424,6 @@ STATE_MIXTECA_BAJA = {
 #         bg_logging = 8
 #     }
 # }
-
 # STATE_ICHCATLAN = {
 #     id = 46
 #     provinces = {}
@@ -433,7 +432,6 @@ STATE_MIXTECA_BAJA = {
 #         bg_logging = 7
 #     }
 # }
-
 # STATE_POPULOCAS = {
 #     id = 48
 #     provinces = {}
