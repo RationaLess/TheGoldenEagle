@@ -1,0 +1,79 @@
+﻿je_debug_huastec_consolidate = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_historical_content
+
+	should_be_pinned_by_default = yes 
+	
+	is_shown_when_inactive = {	
+		
+		
+		OR = {
+			this = c:TOOL
+			this = c:YAXU
+			this = c:LETU
+			this = c:NAKA
+			this = c:MICI
+			this = c:AKAL
+			this = c:CTTP
+			this = c:TNTI
+			this = c:TMHU
+			this = c:KAMB
+			this = c:YTTT
+			this = c:WXKP
+			this = c:TZPT
+			this = c:PTTP
+			this = c:KUBT
+			this = c:ULUL
+			this = c:WAYL
+			this = c:TMXM
+			this = c:KOWA
+			}
+		
+		}
+	
+	possible = {
+		is_player = no
+		has_game_rule = hypothetical_tags_historical_only
+	}
+	
+	immediate = {
+		if = {
+		
+			limit = {
+				NOT = { exists = c:TNEK }
+			}
+	
+			change_tag = TNEK
+			}
+		
+		annex = c:TOOL
+		annex = c:YAXU
+		annex = c:LETU
+		annex = c:NAKA
+		annex = c:MICI
+		annex = c:AKAL
+		annex = c:CTTP
+		annex = c:TNTI
+		annex = c:TMHU
+		annex = c:KAMB
+		annex = c:YTTT
+		annex = c:WXKP
+		annex = c:TZPT
+		annex = c:PTTP
+		annex = c:KUBT
+		annex = c:ULUL
+		annex = c:WAYL
+		annex = c:TMXM
+		annex = c:KOWA
+		annex = c:TNTY
+		
+		set_country_type = decentralized
+		}
+	
+	complete = { 
+		this = c:TNEK
+		}
+	
+
+	}

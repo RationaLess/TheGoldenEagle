@@ -32,6 +32,32 @@
  setting_fantasy_events_disabled:"Fantasy Events #V OFF#!"
  setting_fantasy_events_disabled_desc:"Events will be strictly plausible and worldly."
  
+ rule_tge_colonialism_timeframe:"[Concept('concept_the_golden_eagle','$concept_the_golden_eagle_icon$')] Colonial Timeframe"
+ setting_tge_colonialism_timeframe_accelerated:"#V Accelerated#!"
+ setting_tge_colonialism_timeframe_accelerated_desc:"Contact with the Old World will occur #R 50 years sooner #!."
+ setting_tge_colonialism_timeframe_historical:"#V Historical#!"
+ setting_tge_colonialism_timeframe_historical_desc:"Contact with the Old World will occur #V at the historical time #!."
+ setting_tge_colonialism_timeframe_delayed:"#V Delayed#!"
+ setting_tge_colonialism_timeframe_delayed_desc:"Contact with the Old World will occur #green 50 years later #!."
+ setting_tge_colonialism_timeframe_disabled:"#V Disabled#!"
+ setting_tge_colonialism_timeframe_disabled_desc:"the Old World is simply a subject of myth and legend."
+ 
+ rule_tge_colonial_powers:"[Concept('concept_the_golden_eagle','$concept_the_golden_eagle_icon$')] Colonial Powers"
+ setting_tge_colonial_powers_dynamic:"#V Dynamic#!"
+ setting_tge_colonial_powers_dynamic_desc:"The set of possible Old World colonizers will be #V Randomly Chosen #!."
+ setting_tge_colonial_powers_oriental:"#V Oriental#!"
+ setting_tge_colonial_powers_oriental_desc:"The set of possible Old World colonizers will only come from the #V West Coast #!."
+ setting_tge_colonial_powers_occidental:"#V Occidental#!"
+ setting_tge_colonial_powers_occidental_desc:"The set of possible Old World colonizers will only come from the #V East Coast #!."
+ setting_tge_colonial_powers_historical:"#V Historical#!"
+ setting_tge_colonial_powers_historical_desc:"The set of possible Old World colonizers will be #V Historical#!."
+ 
+ rule_tge_hypothetical_tags:"[Concept('concept_the_golden_eagle','$concept_the_golden_eagle_icon$')] Hypothetical Tags"
+ setting_hypothetical_tags_allowed:"#V Hypothetical Tags Allowed#!"
+ setting_hypothetical_tags_allowed_desc:"Hypothetical, ahistorical tags will appear on the map to improve the simulation and game balance."
+ setting_hypothetical_tags_historical_only:"#V Historical Tags Only#!"
+ setting_hypothetical_tags_historical_only_desc:"Non-historical tags will be consolidated into broad cultural tags. @warning! #R This will negatively impact game balance. #!"
+ 
  concept_the_golden_eagle_icon: "@tge_icon!"
 
  

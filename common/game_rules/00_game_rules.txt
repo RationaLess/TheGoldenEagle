@@ -38,7 +38,7 @@ tge_colonialism_timeframe = {
 tge_colonial_powers = {
 	default = tge_colonial_powers_dynamic
 	
-	tge_colonialism_timeframe_accelerated = {
+	tge_colonial_powers_dynamic = {
 		flag = tge_colonial_powers_dynamic
 	}
 	tge_colonial_powers_oriental= {
@@ -74,15 +74,14 @@ tge_fantasy_events = {
 }
 
 
+tge_hypothetical_tags = {
+	default = hypothetical_tags_allowed 
 
-achievements = {
-	default = achievements_allowed
-
-	achievements_allowed = {
+	hypothetical_tags_allowed = {
 	}
 
-	achievements_blocked = {
-		flag = blocks_achievements
+	hypothetical_tags_historical_only = {
+		flag = hypothetical_tags_historical_only 
 	}
 }
 
