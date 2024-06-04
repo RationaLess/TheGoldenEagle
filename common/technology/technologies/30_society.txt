@@ -6,7 +6,6 @@ community = {
 	category = society
 	
 	modifier = {
-		market_land_trade_capacity_add = 50
 	}
 }
 
@@ -25,36 +24,6 @@ religion = {
 }
 
 
-city_state = {
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		}
-	
-	unlocking_technologies = {
-		record_keeping
-	}
-}
-
-
-record_keeping = {
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		state_education_access_add = 0.02
-		}
-	
-	unlocking_technologies = {
-		religion
-	}
-}
-
 discourse = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
@@ -69,23 +38,8 @@ discourse = {
 	}
 }
 
-organized_worship = {
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		country_institution_education_max_investment_add = 1
-		}
-	
-	unlocking_technologies = {
-		record_keeping
-	}
-}
 
-
-cosmology = {
+astrology = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = society
@@ -97,76 +51,11 @@ cosmology = {
 		}
 	
 	unlocking_technologies = {
-		organized_worship
-	}
-}
-
-trade_routes = {
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		country_influence_add = 50
-		state_infrastructure_mult = 0.05
-		}
-	
-	unlocking_technologies = {
-		city_state
-		documentation
-	}
-}
-
-property = {
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		}
-	
-	unlocking_technologies = {
-		code_of_laws
+		religion
 	}
 }
 
 callendar_system = {
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		}
-	
-	unlocking_technologies = {
-		cosmology
-	}
-}
-
-
-
-
-markets = {
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		country_institution_finnances_max_investment_add = 2
-		}
-	
-	unlocking_technologies = {
-		property
-		trade_routes
-	}
-}
-
-
-mathematics = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = society
@@ -176,111 +65,12 @@ mathematics = {
 		}
 	
 	unlocking_technologies = {
-		markets
-	}
-}
-
-
-diplomacy = {
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		}
-	
-	unlocking_technologies = {
-		city_state
-		code_of_laws
-	}
-}
-
-
-
-specialized_knowledge = {
-	era = era_3
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		state_education_access_add = 0.02	
-		country_institution_education_max_investment_add = 1
-		}
-	
-	unlocking_technologies = {
+		astronomy
 		mathematics
-		writing_system
 	}
 }
 
-writing_system = {
-	era = era_3
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-	
-		country_institution_education_max_investment_add = 1
-		state_education_access_add = 0.02
-		}
-	
-	unlocking_technologies = {
-		callendar_system
-		markets
-	}
-}
-
-education = {
-	era = era_3
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		state_education_access_add = 0.02
-		country_institution_education_max_investment_add = 1
-		}
-	
-	unlocking_technologies = {
-		specialized_knowledge
-	}
-}
-
-syncretism = {
-	era = era_3
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		building_temple_throughput_add = 0.2
-		}
-	
-	unlocking_technologies = {
-		diplomacy
-		cosmology
-	}
-}
-
-theocracy = {
-	era = era_3
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		building_temple_throughput_add = 0.2
-		}
-	
-	unlocking_technologies = {
-		syncretism
-	}
-}
-
-code_of_laws = {
+statecraft = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = society
@@ -294,25 +84,51 @@ code_of_laws = {
 	}
 }
 
-
-politics = {
+organized_religion = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = society
 	
 	
 	modifier = {
-		country_institution_education_max_investment_add = 1
-		country_institution_courts_max_investment_add = 2
 		}
 	
 	unlocking_technologies = {
-		writing_system
+		inheritance
 	}
 }
 
 
-supremacy = {
+mathematics = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		astrology
+	}
+}
+
+
+hard_sciences = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		mathematics
+	}
+}
+
+civic_planning = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = society
@@ -322,80 +138,58 @@ supremacy = {
 		}
 	
 	unlocking_technologies = {
-		politics
+		hard_sciences
 	}
 }
 
-
-merchant_guilds = {
+soft_sciences = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = society
 	
 	
 	modifier = {
-		interest_group_ig_merchant_guilds_pop_attraction_mult = 0.25
-		country_institution_finnances_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {
-		markets
+		astronomy
 	}
 }
 
+censuses = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		soft_sciences
+		record_keeping
+	}
+}
 
-contracts = {
+diplomacy = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = society
 	
 	
 	modifier = {
-		country_loan_interest_rate_mult = -0.1
-		country_institution_finnances_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {
-		merchant_guilds
-	}
-}
-
-money_lending = {
-	era = era_4
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		country_loan_interest_rate_mult = -0.1
-		country_institution_finnances_max_investment_add = 1
-		}
-	
-	unlocking_technologies = {
-		contracts
-	}
-}
-
-missionaries = {
-	era = era_4
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		building_temple_throughput_add = 0.2
-		country_institution_colonization_max_investment_add = 1
-		}
-	
-	unlocking_technologies = {
-		theocracy
+		statecraft
 	}
 }
 
 
 
-advanced_medicine = {
-	era = era_5
+
+inheritance = {
+	era = era_3
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = society
 	
@@ -404,12 +198,12 @@ advanced_medicine = {
 		}
 	
 	unlocking_technologies = {
-		specialized_knowledge
+		statecraft
 	}
 }
 
 astronomy = {
-	era = era_3
+	era = era_2
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = society
 	
@@ -418,27 +212,11 @@ astronomy = {
 		}
 	
 	unlocking_technologies = {
-		specialized_knowledge
+		astrology
 	}
 }
 
-state_bureaucracy = {
-	era = era_4
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		country_empire_sprawl_capacity_mult = 0.2
-		country_institution_courts_max_investment_add = 1
-		}
-	
-	unlocking_technologies = {
-		politics
-	}
-}
-
-proto_democracy = {
+education_system = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = society
@@ -448,42 +226,12 @@ proto_democracy = {
 		}
 	
 	unlocking_technologies = {
-		politics
-	}
-}
-
-top_down_organization = {
-	era = era_4
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		country_institution_courts_max_investment_add = 1
-		}
-	
-	unlocking_technologies = {
-		feudal_structure
-		state_bureaucracy
+		hard_sciences
+		organized_religion
 	}
 }
 
 
-juidicial_system = {
-	era = era_4
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		country_institution_courts_max_investment_add = 2
-		}
-	
-	unlocking_technologies = {
-		politics
-		contracts
-	}
-}
 
 philosophy = {
 	era = era_4
@@ -498,85 +246,269 @@ philosophy = {
 		}
 	
 	unlocking_technologies = {
-		education
-	}
-}
-
-colonies = {
-	era = era_5
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		country_institution_colonization_max_investment_add = 3
-		}
-	
-	unlocking_technologies = {
-		top_down_organization
-		missionaries
+		education_system
 	}
 }
 
 
-group_identity = {
-	era = era_5
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		}
-	
-	unlocking_technologies = {
-		proto_democracy
-		philosophy
-	}
-}
-
-egalitarianism = {
-	era = era_5
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
-	category = society
-	
-	
-	modifier = {
-		}
-	
-	unlocking_technologies = {
-		group_identity
-	}
-}
-
-standardized_currency = {
+esotericism = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = society
 	
 	
 	modifier = {
-		country_institution_finnances_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {
-		money_lending
-		state_bureaucracy	
+		organized_religion
+		dialectic
 	}
 }
 
-banking = {
+adaptive_religion = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		esotericism
+		absolutism
+	}
+}
+
+rule_of_law = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		inheritance
+	}
+}
+
+
+poetry = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		discourse
+	}
+}
+
+dialectic  = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		poetry
+	}
+}
+
+absolutism = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		rule_of_law
+	}
+}
+
+labor_conscription = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		absolutism
+		civic_planning
+	}
+}
+
+archeology = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		soft_sciences
+	}
+}
+
+scientific_method = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		archeology
+		surgery
+	}
+}
+
+surgery = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		hard_sciences
+	}
+}
+
+inoculation = {
 	era = era_5
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = society
 	
 	
 	modifier = {
-		country_loan_interest_rate_mult = -0.3
-		country_institution_finnances_max_investment_add = 1
 		}
 	
 	unlocking_technologies = {
-		standardized_currency	
+		surgery
+	}
+}
+
+record_keeping = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		callendar_system
+		inheritance
+	}
+}
+
+detailed_timekeeping = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		record_keeping
+	}
+}
+
+standardized_language = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		record_keeping
+		poetry
+	}
+}
+
+written_language = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		standardized_language
+	}
+}
+
+republicanism = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		diplomacy
+		poetry
+	}
+}
+
+devolved_governance = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		republicanism
+	}
+}
+
+proto_nationalism = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	
+	modifier = {
+		}
+	
+	unlocking_technologies = {
+		devolved_governance
+		standardized_language
 	}
 }
 

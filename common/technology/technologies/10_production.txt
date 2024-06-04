@@ -13,6 +13,19 @@ animal_husbandry = {
 	category = production
 }
 
+trade_routes = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = production
+	
+	
+	modifier = {
+		market_land_trade_capacity_add = 50
+		}
+	
+	unlocking_technologies = {
+	}
+}
 
 
 farming = {
@@ -27,6 +40,23 @@ farming = {
 	}
 }
 
+
+markets = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = production
+	
+	
+	modifier = {
+		country_institution_finnances_max_investment_add = 2
+		}
+	
+	unlocking_technologies = {
+		property
+		trade_routes
+	}
+}
+
 artisanship = {
 	#
 	era = era_2
@@ -34,7 +64,7 @@ artisanship = {
 	category = production
 
 	unlocking_technologies = {
-		tooling
+		woodworking
 	}
 }
 
@@ -53,14 +83,70 @@ woodworking = {
 	}
 }
 
-tooling = {
-	#
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+merchant_guilds = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = production
-
+	
+	
+	modifier = {
+		interest_group_ig_merchant_guilds_pop_attraction_mult = 0.25
+		country_institution_finnances_max_investment_add = 1
+		}
+	
 	unlocking_technologies = {
-		woodworking
+		markets
+		artisanship
+	}
+}
+
+
+contracts = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = production
+	
+	
+	modifier = {
+		country_loan_interest_rate_mult = -0.1
+		country_institution_finnances_max_investment_add = 1
+		}
+	
+	unlocking_technologies = {
+		merchant_guilds
+	}
+}
+
+
+money_lending = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = production
+	
+	
+	modifier = {
+		country_loan_interest_rate_mult = -0.1
+		country_institution_finnances_max_investment_add = 1
+		}
+	
+	unlocking_technologies = {
+		contracts
+	}
+}
+
+standardized_currency = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = production
+	
+	
+	modifier = {
+		country_institution_finnances_max_investment_add = 1
+		}
+	
+	unlocking_technologies = {
+		money_lending
+		basic_metallurgy		
 	}
 }
 
@@ -103,8 +189,8 @@ urban_planning = {
 	}
 	
 	unlocking_technologies = {
-		farming
-		tooling
+		markets
+		artisanship
 	}
 }
 
@@ -115,7 +201,7 @@ quarrying = {
 	category = production
 
 	unlocking_technologies = {
-		tooling
+		woodworking
 	}
 }
 
@@ -180,7 +266,6 @@ jewelries = {
 	category = production
 
 	unlocking_technologies = {
-		pottery
 		artisanship
 	}
 }
@@ -211,6 +296,18 @@ luxury_clothing = {
 	unlocking_technologies = {
 		textile_working
 		guild_development
+	}
+}
+
+papermaking = {
+	#
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
+	category = production
+
+	unlocking_technologies = {
+		guild_development
+		money_lending
 	}
 }
 
@@ -351,6 +448,7 @@ basic_machining = {
 
 	unlocking_technologies = {
 		metal_tooling
+		papermaking
 	}
 }
 
@@ -361,7 +459,6 @@ silk_mills = {
 	category = production
 
 	unlocking_technologies = {
-		metal_tooling
 		luxury_clothing
 		basic_machining
 	}
@@ -379,24 +476,7 @@ steam_engine = {
 }
 
 
-
-artisan_holdings = {
-	#
-	era = era_3
-	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
-	category = production
-
-	modifier = {
-		country_private_construction_allocation_mult = 0.15
-	}
-
-	unlocking_technologies = {
-		obsidian_working
-		jewelries
-	}
-}
-
-guild_development = {
+guild_holdings = {
 	#
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/enclosure.dds"
@@ -408,7 +488,7 @@ guild_development = {
 	}
 	
 	unlocking_technologies = {
-		artisan_holdings
+		urban_planning
 	}
 }
 
