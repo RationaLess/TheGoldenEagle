@@ -938,6 +938,68 @@ country_type = recognized
 cultures = { purepecha }
 capital = STATE_CUITEZO
 } 
+ZPCR = { #Zinapicurao 
+color = rgb { 195 209 174 }
+tier = duchy
+country_type = recognized
+cultures = { purepecha }
+capital = STATE_CUITEZO
+} 
+ADCT = { #Adoctuin 
+color = rgb { 165 200 212 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_CUITEZO
+} 
+UCAR = { #Ucareo 
+color = rgb { 154 214 207 }
+tier = duchy
+country_type = recognized
+cultures = { matlatzinca }
+capital = STATE_CUITEZO
+} 
+TZMZ = { #Tzinmizeo 
+color = rgb { 92 98 107 }
+tier = duchy
+country_type = recognized
+cultures = { matlatzinca }
+capital = STATE_CUITEZO
+} 
+HARI = { #Haripareo 
+color = rgb { 138 150 132}
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_CUITEZO
+} 
+JUNG = { #Jungapeo 
+color = rgb { 152 171 167 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_CUITEZO
+} 
+TFTA = { #Tafetan 
+color = rgb { 180 208 212 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_CUITEZO
+} 
+TUZA = { #Tuzantlan 
+color = rgb { 171 207 198 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_CUITEZO
+} 
+
+
+
+
+
+
 
 
 
@@ -1250,6 +1312,122 @@ country_type = recognized
 cultures = { cuitlatec }
 capital = STATE_ACAPOLCO
 } 
+CHAT = { #Cihuatlan
+color = rgb { 200 201 127 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_ACAPOLCO
+} 
+AXPT = { #Axapotecan
+color = rgb { 7 217 154 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_ACAPOLCO
+} 
+XLCH = { #Xolochiuhyan
+color = rgb { 206 214 154 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_ACAPOLCO
+} 
+XTCT = { #Ximtecotlan
+color = rgb { 191 214 133 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_ACAPOLCO
+} 
+PTTL = { #Petetlan
+color = rgb { 208 169 232 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_ACAPOLCO
+} 
+XHAC = { #Xihuacan
+color = rgb { 167 183 219 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_ACAPOLCO
+} 
+IZTP = { #Iztapan
+color = rgb { 190 196 145 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_ACAPOLCO
+} 
+XIUH = { #Xiuhtlan
+color = rgb { 168 157 126 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_ACAPOLCO
+} 
+APPL = { #Apanpalco
+color = rgb { 189 122 119 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_ACAPOLCO
+} 
+COHU = { #Coahuyatla
+color = rgb { 189 168 145 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_ACAPOLCO
+} 
+CUES = { #Cueso
+color = rgb { 201 204 163 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_ACAPOLCO
+} 
+CUZR = { #Cuzaru
+color = rgb { 199 181 115 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_ACAPOLCO
+} 
+TTGE = { #Tetengueo
+color = rgb { 180 212 157 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_ACAPOLCO
+} 
+ZCTR = { #Zicaytaran
+color = rgb { 191 145 126 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_ACAPOLCO
+} 
+CHUR = { #Churmuco
+color = rgb { 214 198 154 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_ACAPOLCO
+} 
+HUCA = { #Huacana
+color = rgb { 235 143 196 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_ACAPOLCO
+} 
+
+
+
+
 
 #matlatzinca
 CUTZ = { #Cutzamala
@@ -2514,5 +2692,169 @@ color = rgb { 217 212 126 }
 tier = duchy
 country_type = recognized
 cultures = { tlapanec }
+capital = STATE_TUTUTEPEC
+}
+
+CHIL = { #Chilapan 2
+color = rgb { 212 170 163 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_TUTUTEPEC
+}
+ZOMP = { #Zompanco
+color = rgb { 207 141 130 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_TUTUTEPEC
+}
+OLNL = { #Olinalan
+color = rgb { 209 185 157 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_TUTUTEPEC
+}
+TCZT = { #Tlacozauhtitlan
+color = rgb { 209 195 157 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_TUTUTEPEC
+}
+ATNC = { #Atenanco
+color = rgb { 219 176 151 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_TUTUTEPEC
+}
+MOCH = { #Mochitlan
+color = rgb { 159 143 204 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_TUTUTEPEC
+}
+TPCL = { #Tepecuacuilco
+color = rgb { 153 184 196 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_TUTUTEPEC
+}
+CTZL = { #Cuetzallan
+color = rgb { 192 194 178 }
+tier = duchy
+country_type = recognized
+cultures = { cuitlatec }
+capital = STATE_TUTUTEPEC
+}
+
+
+CUZA = { #Cuzamala
+color = rgb { 169 151 184 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_TUTUTEPEC
+}
+BAPA = { #Bapacurao
+color = rgb { 166 136 191 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_TUTUTEPEC
+}
+TLCP = { #Tlachapa
+color = rgb { 160 144 173 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_TUTUTEPEC
+}
+TLTL = { #Tlatlayan
+color = rgb { 124 101 143 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_TUTUTEPEC
+}
+TLTL = { #Tlatlayan
+color = rgb { 124 101 143 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_TUTUTEPEC
+}
+TCHP = { #Tlachichilpa
+color = rgb { 103 133 123 }
+tier = duchy
+country_type = recognized
+cultures = { matlatzinca }
+capital = STATE_TUTUTEPEC
+}
+AMAT = { #Amatepec
+color = rgb { 136 168 165 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_TUTUTEPEC
+}
+OZTO = { #Oztoman
+color = rgb { 153 152 156 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_TUTUTEPEC
+}
+TPHL = { #Tlapehala
+color = rgb { 245 200 137 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_TUTUTEPEC
+}
+CHCP = { #Chilachapa
+color = rgb { 169 206 209 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_TUTUTEPEC
+}
+IXCT = { #Ixcatepoan
+color = rgb { 173 190 222 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_TUTUTEPEC
+}
+YOAL = { #Yoallan
+color = rgb { 217 187 184 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_TUTUTEPEC
+}
+ZEET = { #Zeetoba
+color = rgb { 232 181 176 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_TUTUTEPEC
+}
+ZEET = { #Zeetoba
+color = rgb { 232 181 176 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
+capital = STATE_TUTUTEPEC
+}
+ZIPT = { #Zicapotzalco
+color = rgb { 214 204 176 }
+tier = duchy
+country_type = recognized
+cultures = { west_nahua }
 capital = STATE_TUTUTEPEC
 }
