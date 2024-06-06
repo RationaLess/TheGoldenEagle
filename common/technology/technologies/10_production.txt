@@ -414,7 +414,6 @@ mass_deforestation = {
 	
 	unlocking_technologies = {
 		great_projects
-		metal_tooling
 	}
 }
 

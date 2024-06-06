@@ -167,7 +167,6 @@ censuses = {
 	
 	unlocking_technologies = {
 		soft_sciences
-		record_keeping
 	}
 }
 
@@ -226,7 +225,7 @@ education_system = {
 		}
 	
 	unlocking_technologies = {
-		hard_sciences
+		rule_of_law
 		organized_religion
 	}
 }
@@ -267,7 +266,7 @@ esotericism = {
 }
 
 adaptive_religion = {
-	era = era_4
+	era = era_5
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = society
 	
@@ -292,6 +291,7 @@ rule_of_law = {
 	
 	unlocking_technologies = {
 		inheritance
+		diplomacy
 	}
 }
 
@@ -321,6 +321,7 @@ dialectic  = {
 	
 	unlocking_technologies = {
 		poetry
+		soft_sciences
 	}
 }
 
@@ -350,6 +351,7 @@ labor_conscription = {
 	unlocking_technologies = {
 		absolutism
 		civic_planning
+		record_keeping
 	}
 }
 
@@ -368,7 +370,7 @@ archeology = {
 }
 
 scientific_method = {
-	era = era_4
+	era = era_5
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = society
 	
@@ -406,7 +408,7 @@ inoculation = {
 		}
 	
 	unlocking_technologies = {
-		surgery
+		scientific_method
 	}
 }
 
@@ -440,7 +442,7 @@ detailed_timekeeping = {
 }
 
 standardized_language = {
-	era = era_4
+	era = era_5
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = society
 	
@@ -449,8 +451,7 @@ standardized_language = {
 		}
 	
 	unlocking_technologies = {
-		record_keeping
-		poetry
+		education_system
 	}
 }
 
@@ -469,7 +470,7 @@ written_language = {
 }
 
 republicanism = {
-	era = era_3
+	era = era_4
 	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
 	category = society
 	
@@ -478,8 +479,7 @@ republicanism = {
 		}
 	
 	unlocking_technologies = {
-		diplomacy
-		poetry
+		rule_of_law
 	}
 }
 
