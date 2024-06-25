@@ -1,0 +1,22 @@
+﻿POWER_BLOCS = {
+	#c:GBR = {
+	#	create_power_bloc = {
+	#		name = BRITISH_EMPIRE
+	#		map_color = hsv{ 0.99  0.7  0.9 }
+	#
+	#		founding_date = 1784.5.12 # Treaty of Paris (1783) comes into effect
+	#		identity = identity_sovereign_empire
+	#		principle = principle_vassalization_1
+	#
+	#		# subjects are automatically part of the bloc
+	#	}
+	#	if = {
+	#		limit = {
+	#			has_dlc_feature = power_bloc_features
+	#		}
+	#		power_bloc = {
+	#			add_principle = principle_colonial_offices_2
+	#		}
+	#	}
+	#}	
+}

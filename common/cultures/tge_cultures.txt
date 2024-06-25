@@ -1,4 +1,4 @@
-mexica={
+﻿mexica={
 	color= { 230 94 171 }
 	religion = aztlanec 
 	traits = { native_heritage nahuatl_speaking settled_tribe anahuac }
@@ -89,7 +89,7 @@ mexica={
 		Zicotencatl
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -185,7 +185,7 @@ nahua={
 		Zicotencatl
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -282,7 +282,7 @@ west_nahua={
 		Zicotencatl
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -380,7 +380,7 @@ acolhua ={
 		Zicotencatl
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -477,7 +477,7 @@ tepanec ={
 		Zicotencatl
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -573,7 +573,7 @@ otomi ={
 		Zicotencatl
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -669,7 +669,7 @@ totonac={
 		Zicotencatl
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -692,7 +692,7 @@ mixtec={
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -714,7 +714,7 @@ zapotec={
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -736,7 +736,7 @@ tlahuica={
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -758,7 +758,7 @@ nonoalca = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -780,7 +780,7 @@ mazahua = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -803,7 +803,7 @@ chinantec = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -825,7 +825,7 @@ mazatec = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -847,7 +847,7 @@ popoloca = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -869,7 +869,7 @@ tepehua = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -891,7 +891,7 @@ tlaxcaltec = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -913,7 +913,7 @@ mixe = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -935,7 +935,7 @@ triqui = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -957,7 +957,7 @@ tlapanec = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -979,7 +979,7 @@ amuzgo = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1001,7 +1001,7 @@ huave = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1023,7 +1023,7 @@ pochutec = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1045,7 +1045,7 @@ huastec = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1067,7 +1067,7 @@ matlatzinca = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1089,7 +1089,7 @@ purepecha = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1110,7 +1110,7 @@ coca = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1132,7 +1132,7 @@ cuitlatec = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1181,7 +1181,7 @@ ciboney = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1255,7 +1255,7 @@ ayiti = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1277,7 +1277,7 @@ kalina = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1299,7 +1299,7 @@ kalinago = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1322,7 +1322,7 @@ ciguayo = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1343,7 +1343,7 @@ macorix = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1365,7 +1365,7 @@ guanahatabey = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1388,7 +1388,7 @@ putun = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1410,7 +1410,7 @@ yucatec = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1432,7 +1432,7 @@ zoque = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
@@ -1455,7 +1455,7 @@ chochontin = {
 		placeholder
 	}
 	ethnicities = {
-		1 = native_american
+		1 = mesoamerican
 	}
 	graphics = generic
 }
