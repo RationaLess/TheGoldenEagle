@@ -1,0 +1,30 @@
+﻿
+no_portrait_trigger = {
+	exists = c:TUR
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				owner = {
+					#c:TUR = this
+				}
+			}
+		}
+
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				owner = {
+					#c:TUR = this
+				}
+			}
+		}
+		
+	}
+	
+}
+
+
+show_test_model = {
+	show_test_model = yes
+}

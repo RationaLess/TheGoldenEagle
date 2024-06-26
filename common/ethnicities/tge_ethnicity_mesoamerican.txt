@@ -1,0 +1,7 @@
+﻿﻿mesoamerican = {
+	template = "ethnicity_template"
+
+	character_base = {
+		1 = { name = gene_character_base range = { 0.0 1.0 } }
+	}
+}

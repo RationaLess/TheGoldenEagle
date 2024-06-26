@@ -1,82 +1,144 @@
 ﻿country_empire_sprawl_capacity_add = {
-	good = yes
+	color = good
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 country_empire_sprawl_capacity_mult = {
-	good = yes
+	color = good
 	percent = yes
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 country_empire_sprawl_load = {
-	good = no
+	color = bad
+	game_data={
+		ai_value=0
+	}
 }
 
 country_empire_sprawl_load_mult = {
-	good = no
+	color = bad
 	percent = yes
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 country_empire_sprawl_load_subject_penalty = {
-	neutral = yes
+	color = neutral
 	percent = yes
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 state_empire_sprawl_load_population_cost = {
-	good = no
+	color = bad
 	percent = yes
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 country_minor_settlements_per_thousand = {
-	neutral = yes
-	num_decimals = 2
+	color = neutral
+	decimals = 2
+	game_data={
+		ai_value=0
+	}
 }
 
 country_civilization_value = {
-	good = yes
+	color = good
+	decimals = 2
+	game_data={
+		ai_value=0
+	}
 	}
 
 country_civilization_value_mult = {
-	good = yes
+	color = good
 	percent = yes
+	decimals = 2
+	game_data={
+		ai_value=0
+	}
 	}
 
 
 country_local_civilization_value = {
-	good = yes
+	color = good
+	decimals = 2
+	game_data={
+		ai_value=0
+	}
 	}
 
 	
 building_urban_center_throughput_add = {
-	good = yes
+	color = good
 	percent = yes
+	decimals = 2
+	game_data={
+		ai_value=0
+	}
 	}
 	
 building_temple_throughput_add = {
 	percent = yes
-	good = yes
+	color = good
+	decimals = 2
+	game_data={
+		ai_value=0
+	}
 	}
 
 
 country_politician_loyalty_add = {
-	good = yes
+	color = good
+	decimals = 2
+	game_data={
+		ai_value=0
+	}
 	}
 country_commander_loyalty_add = {
-	good = yes
+	color = good
+	decimals = 2
+	game_data={
+		ai_value=0
+	}
 	}
 country_character_wages_mult = {
-	good = no
+	color = bad
 	percent = yes
+	decimals = 2
+	game_data={
+		ai_value=0
+	}
 	}
 country_commander_wages_mult = {
-	good = no
+	color = bad
 	percent = yes
+	decimals = 2
+	game_data={
+		ai_value=0
+	}
 	}
 
 character_loyalty_add = {
-	good = yes
+	color = good
+	
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 	}

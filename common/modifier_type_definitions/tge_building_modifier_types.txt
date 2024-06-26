@@ -1,330 +1,531 @@
 ﻿goods_output_staple_crop_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_staple_crop_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_maize_mult = {
-	good = yes
-	percent = yes 
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 	}
 
 goods_output_cotton_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_cotton_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_intoxicants_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_intoxicants_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_urban_space_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_urban_space_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_wooden_weapons_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 goods_input_wooden_weapons_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_bladed_weapons_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 goods_input_bladed_weapons_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_obsidian_weapons_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 goods_input_obsidian_weapons_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 
 goods_output_services_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_services_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_fine_art_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_fine_art_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_worship_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_worship_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_obsidian_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_obsidian_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_pottery_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_pottery_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_luxury_pottery_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_luxury_pottery_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_clothes_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_clothes_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_luxury_clothes_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_luxury_clothes_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_brick_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_brick_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_mudbrick_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_mudbrick_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_limestone_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_limestone_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_rubber_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }  
 
 goods_input_clay_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_clay_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_rubber_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_cocoa_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_cocoa_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_salt_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_salt_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_spices_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_spices_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_turquoise_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_turquoise_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_amenities_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_amenities_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_knowledge_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_knowledge_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 goods_output_poetry_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 goods_input_poetry_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_furniture_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_furniture_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_rare_gems_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_rare_gems_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_feathers_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_feathers_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_animal_skin_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_animal_skin_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_marine_goods_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_marine_goods_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }
 
 goods_output_jewelry_add = {
-	good = yes
-	percent = no
+	color = good
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 } 
 
 goods_input_jewelry_add = {
-	good = no
-	percent = no
+	color = bad
+	decimals = 1
+	game_data={
+		ai_value=0
+	}
 }

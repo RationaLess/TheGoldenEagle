@@ -1,275 +1,419 @@
 ﻿country_monthly_loyalists_add = {
-	good = yes
+	color = good
 	percent = yes
-	num_decimals = 2
+	decimals = 2
+	game_data={
+		ai_value=0
+	}
 }
 
 country_monthly_radicals_add = {
-	good = no
+	color = bad
 	percent = yes
-	num_decimals = 2
+	decimals = 2
+	game_data={
+		ai_value=0
+	}
 }
 
 country_can_declare_diplomatic_demands = {
-	good = yes
+	color = good
 	boolean = yes
+	game_data={
+		ai_value=0
+	}
 }
 
 
 state_building_temple_max_level_add = {
-	good = yes
+	color = good
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 state_building_market_max_level_add = {
-	good = yes
+	color = good
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 state_building_minor_settlements_max_level_add = {
-	neutral = yes
+	color = neutral
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 state_building_trader_settlement_max_level_add = {
-	neutral = yes
+	color = neutral
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_aristocracy_approval_add = {
-	good = yes
+	color = good
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_aristocracy_pol_str_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_aristocracy_pop_attraction_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_ancillaries_approval_add = {
-	good = yes
+	color = good
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_ancillaries_pol_str_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_ancillaries_pop_attraction_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_wise_men_approval_add = {
-	good = yes
+	color = good
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_wise_men_pol_str_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_wise_men_pop_attraction_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_tlatelolco_approval_add = {
-	good = yes
+	color = good
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_tlatelolco_pol_str_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_tlatelolco_pop_attraction_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_merchant_guilds_approval_add = {
-	good = yes
+	color = good
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_merchant_guilds_pol_str_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_merchant_guilds_pop_attraction_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_warrior_guilds_approval_add = {
-	good = yes
+	color = good
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_warrior_guilds_pol_str_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_warrior_guilds_pop_attraction_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_traditionalists_approval_add = {
-	good = yes
+	color = good
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_traditionalists_pol_str_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_traditionalists_pop_attraction_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
+	game_data={
+		ai_value=0
+	}
 }
 
 
 interest_group_ig_scholars_approval_add = {
-	good = yes
+	color = good
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_scholars_pol_str_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_scholars_pop_attraction_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
+	game_data={
+		ai_value=0
+	}
 }
 
 
 
 interest_group_ig_freemen_approval_add = {
-	good = yes
+	color = good
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_freemen_pol_str_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_freemen_pop_attraction_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_governors_approval_add = {
-	good = yes
+	color = good
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_governors_pol_str_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_governors_pop_attraction_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_faithful_approval_add = {
-	good = yes
+	color = good
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_faithful_pol_str_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_faithful_pop_attraction_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_crown_approval_add = {
-	good = yes
+	color = good
 	percent = no
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_crown_pol_str_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
-	num_decimals = 0
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
 }
 
 interest_group_ig_crown_pop_attraction_mult = {
-	neutral = yes
+	color = neutral
 	percent = yes
+	game_data={
+		ai_value=0
+	}
 }
 
 
 state_remove_ruins = {
-	neutral = yes
+	color = neutral
 	boolean = yes
+	game_data={
+		ai_value=0
+	}
 }
 state_excavate_ruins = {
-	neutral = yes
+	color = neutral
 	boolean = yes
+	game_data={
+		ai_value=0
+	}
 }
 
 country_can_raid = {
-	neutral = yes
+	color = neutral
 	boolean = yes
+	game_data={
+		ai_value=0
+	}
 }
 
 country_forbidden_from_declaring_diplomatic_demands = {
-	bad = yes
+	color = bad
 	boolean = yes
+	game_data={
+		ai_value=0
+	}
 }
 
 
 country_low_penalties_for_empire_sprawl = {
-	neutral = yes
+	color = neutral
 	boolean = yes
+	game_data={
+		ai_value=0
+	}
 }
 
