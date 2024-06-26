@@ -108,8 +108,8 @@ pm_mudbrick_furnacing = {
 		}
 		
 		unscaled = {
-		building_aristocrat_shares_add = 2
-		building_merchant_shares_add = 1
+
+
 		}
 	}
 }

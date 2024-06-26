@@ -17,6 +17,7 @@ building_minor_settlements = {
 	downsizeable = no
 	
 	
+	ownership_type = self
 	
 	min_raise_to_hire = 0.30
 	slaves_role = peasants

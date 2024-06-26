@@ -16,6 +16,7 @@
 	texture = "gfx/interface/icons/building_icons/temple.dds"
 
 	required_construction = 5000
+	ownership_type = self
 
 	ai_weight = 1000
 }
@@ -40,6 +41,7 @@ building_ball_court = {
 	urbanization = 100
 	
 	required_construction = 5000
+	ownership_type = self
 
 	ai_weight = 500
 }
@@ -64,6 +66,7 @@ building_resort = {
 	urbanization = 100
 	
 	required_construction = 5000
+	ownership_type = self
 
 	ai_weight = 500
 }
@@ -88,6 +91,7 @@ building_library = {
 	urbanization = 100
 	
 	required_construction = 5000
+	ownership_type = self
 
 }
 
@@ -111,6 +115,7 @@ building_market = {
 	urbanization = 100
 	
 	required_construction = 5000
+	ownership_type = self
 }
 
 
@@ -133,6 +138,7 @@ building_road = {
 	texture = "gfx/interface/icons/building_icons/placeholder Copy.dds"
 
 	required_construction = 5000
+	ownership_type = self
 }
 
 #building_garden = {
@@ -223,4 +229,5 @@ building_government_administration = {
 	texture = "gfx/interface/icons/building_icons/administration.dds"
 
 	required_construction = 2000
+	ownership_type = self
 }

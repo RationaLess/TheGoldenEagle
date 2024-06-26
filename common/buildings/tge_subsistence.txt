@@ -13,7 +13,7 @@ building_gathering_grounds = {
 	expandable = no
 	downsizeable = no
 	min_raise_to_hire = 0.30
-	#slaves_role = freemen
+	ownership_type = self
 }
 
 building_gathering_grounds_marine_goods = {
@@ -30,7 +30,7 @@ building_gathering_grounds_marine_goods = {
 	expandable = no
 	downsizeable = no
 	min_raise_to_hire = 0.30
-	#slaves_role = freemen
+	ownership_type = self
 }
 
 building_gathering_grounds_animal_skin = {
@@ -47,7 +47,7 @@ building_gathering_grounds_animal_skin = {
 	expandable = no
 	downsizeable = no
 	min_raise_to_hire = 0.30
-	#slaves_role = freemen
+	ownership_type = self
 }
 
 building_gathering_grounds_feathers = {
@@ -64,7 +64,7 @@ building_gathering_grounds_feathers = {
 	expandable = no
 	downsizeable = no
 	min_raise_to_hire = 0.30
-	#slaves_role = freemen
+	ownership_type = self
 }
 
 building_gathering_grounds_dyes = {
@@ -81,5 +81,5 @@ building_gathering_grounds_dyes = {
 	expandable = no
 	downsizeable = no
 	min_raise_to_hire = 0.30
-	#slaves_role = freemen
+	ownership_type = self
 }

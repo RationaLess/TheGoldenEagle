@@ -38,7 +38,7 @@ pm_tribute = {
 		}
 		
 		unscaled = {
-			building_aristocrats_shares_add = 5
+
 		}
 	}
 }

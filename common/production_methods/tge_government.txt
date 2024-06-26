@@ -34,7 +34,7 @@ pm_temple_no_sacrifices = {
 		}
 		
 		unscaled = {
-		building_priests_shares_add = 1
+
 		}
 	}
 }
@@ -74,7 +74,7 @@ pm_temple_human_sacrifice = {
 		
 		unscaled = {
 		state_loyalists_from_sol_change_accepted_religion_mult = 0.2
-		building_priests_shares_add = 1
+
 		building_freemen_mortality_mult = 5
 		building_slaves_mortality_mult = 5
 		}
@@ -106,7 +106,7 @@ pm_market = {
 		}
 		
 		unscaled = {
-		building_merchants_shares_add = 1
+
 		}
 	}
 }
@@ -132,7 +132,7 @@ pm_trading_post = {
 		}
 		
 		unscaled = {
-		building_bureaucrats_shares_add = 1
+
 		}
 	}
 }
@@ -173,8 +173,8 @@ pm_ball_court = {
 		}
 		
 		unscaled = {
-			building_freemen_shares_add = 1
-			building_priests_shares_add = 1
+
+
 		}
 	}
 }
@@ -212,7 +212,7 @@ pm_zoo = {
 		}
 		
 		unscaled = {
-			building_nobles_shares_add = 1
+
 		}
 	}
 }
@@ -250,7 +250,7 @@ pm_garden = {
 		}
 		
 		unscaled = {
-			building_nobles_shares_add = 1
+
 		}
 	}
 }
@@ -436,7 +436,7 @@ pm_library = {
 		}
 		
 		unscaled = {
-		building_scholars_shares_add = 1
+
 		}
 	}
 }
@@ -468,7 +468,7 @@ pm_road = {
 		}
 		
 		unscaled = {
-		building_architects_shares_add = 1
+
 		}
 	}
 }

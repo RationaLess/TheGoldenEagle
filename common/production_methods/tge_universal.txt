@@ -13,8 +13,8 @@
 			building_employment_nobles_add = 50
 		}
 		unscaled = {
-			building_chiefs_shares_add = 5
-			building_nobles_shares_add = 5
+
+
 		}
 	}
 }
@@ -34,9 +34,9 @@ pm_org_city = {
 			building_employment_priests_add = 50
 		}
 		unscaled = {
-			building_nobles_shares_add = 6
-			building_priests_shares_add = 2
-			building_workforce_shares_add = 2
+
+
+
 			
 			building_throughput_add = 0.05
 		}
@@ -61,8 +61,8 @@ pm_org_calpulli = {
 			building_employment_freemen_add = 50
 		}
 		unscaled = {
-			building_workforce_shares_add = 4
-			building_nobles_shares_add = 6
+
+
 			
 			building_throughput_add = 0.1
 		}
@@ -84,7 +84,7 @@ pm_org_dynasty = {
 			building_employment_nobles_add = 100
 		}
 		unscaled = {
-			building_nobles_shares_add = 8
+
 			
 			building_throughput_add = 0.15
 		}
@@ -107,8 +107,8 @@ pm_org_religious = {
 			building_employment_priests_add = 50
 		}
 		unscaled = {
-			building_nobles_shares_add = 8
-			building_priests_shares_add = 4
+
+
 			
 			building_throughput_add = 0.15
 		}
@@ -131,8 +131,8 @@ pm_org_imperial = {
 			building_employment_officers_add = 50
 		}
 		unscaled = {
-			building_nobles_shares_add = 6
-			building_officers_shares_add = 4
+
+
 			
 			building_throughput_add = 0.15
 		}
@@ -157,9 +157,9 @@ pm_org_state = {
 			building_employment_bureaucrats_add = 50
 		}
 		unscaled = {
-			building_government_shares_add = 6
-			building_bureaucrats_shares_add = 4
-			building_nobles_shares_add = 2
+
+
+
 			
 			building_throughput_add = 0.25
 		}

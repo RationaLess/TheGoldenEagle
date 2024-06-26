@@ -8,7 +8,6 @@ building_fishing_village = {
 
 	production_method_groups = {
 		pmg_fishing
-		pmg_organization
 	}
 	
 	can_build = {
@@ -17,4 +16,6 @@ building_fishing_village = {
 			is_sea_adjacent = yes
 		}
 	}
+	
+	ownership_type = self
 }

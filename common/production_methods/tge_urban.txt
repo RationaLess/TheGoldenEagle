@@ -16,7 +16,7 @@ pm_housing_maintenance = {
 		}
 		
 		unscaled = {
-			building_architects_shares_add = 10
+
 		}
 	}
 }
@@ -204,7 +204,7 @@ pm_workshop_clothing_material_fabric = {
 		}
 		
 		unscaled = {
-			building_artisans_shares_add = 10
+
 		}
 	}
 }
@@ -226,7 +226,7 @@ pm_workshop_clothing_material_cotton = {
 		}
 		
 		unscaled = {
-			building_artisans_shares_add = 10
+
 		}
 	}
 }
@@ -476,7 +476,7 @@ pm_foundry_weaponsmithing_wooden = {
 		}
 		
 		unscaled = {
-			building_artisans_shares_add = 10
+
 		}
 	}
 }
@@ -504,7 +504,7 @@ pm_foundry_weaponsmithing_obsidian = {
 		}
 		
 		unscaled = {
-			building_artisans_shares_add = 10
+
 		}
 	}
 }

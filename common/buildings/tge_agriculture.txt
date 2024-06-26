@@ -14,7 +14,6 @@
 	
 	production_method_groups = {
 		pmg_base_maize_farm
-		pmg_organization
 	}
 
 	
@@ -39,7 +38,6 @@ building_three_sisters = {
 		pmg_ts_maize
 		pmg_ts_squash
 		pmg_ts_beans
-		pmg_organization
 	}
 
 	
@@ -61,7 +59,6 @@ building_agave_farm = {
 
 	production_method_groups = {
 		pmg_base_agave_farm
-		pmg_organization
 	}
 }
 
@@ -82,7 +79,6 @@ building_animal_pens = {
 		pmg_animal_pens_rabbits
 		pmg_animal_pens_turkey
 		pmg_animal_pens_xolo
-		pmg_organization
 	}
 }
 
@@ -101,7 +97,6 @@ building_cotton_farm = {
 
 	production_method_groups = {
 		pmg_base_cotton_farm
-		pmg_organization
 	}
 }
 
@@ -122,7 +117,6 @@ building_chinampa = {
 	
 	production_method_groups = {
 		pmg_base_chinampa
-		pmg_organization
 	}
 
 	required_construction = construction_cost_low
@@ -148,7 +142,6 @@ building_cocoa_harvestry = {
 	
 	production_method_groups = {
 		pmg_base_cocoa
-		pmg_organization
 	}
 }
 
@@ -168,6 +161,5 @@ building_rubber_harvestry = {
 	
 	production_method_groups = {
 		pmg_base_rubber
-		pmg_organization
 	}
 }

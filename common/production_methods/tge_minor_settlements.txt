@@ -14,8 +14,8 @@
 		}
 		
 		unscaled = {
-		building_nobles_shares_add = 3
-		building_chiefs_shares_add = 1
+
+
 		}
 	}
 }

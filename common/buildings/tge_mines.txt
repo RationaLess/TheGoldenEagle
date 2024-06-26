@@ -11,8 +11,8 @@
 
 	production_method_groups = {
 		pmg_logging
-		pmg_organization
 	}
+	ownership_type = self
 }
 
 building_obsidian_mine = {
@@ -28,8 +28,8 @@ building_obsidian_mine = {
 
 	production_method_groups = {
 		pmg_obsidian_mining
-		pmg_organization
 	}
+	ownership_type = self
 }
 
 building_limestone_mine = {
@@ -45,8 +45,8 @@ building_limestone_mine = {
 
 	production_method_groups = {
 		pmg_limestone_mining
-		pmg_organization
 	}
+	ownership_type = self
 }
 
 building_gold_mine = {
@@ -62,8 +62,8 @@ building_gold_mine = {
 
 	production_method_groups = {
 		pmg_gold_mining
-		pmg_organization
 	}
+	ownership_type = self
 }
 
 building_turquoise_mine = {
@@ -79,8 +79,8 @@ building_turquoise_mine = {
 
 	production_method_groups = {
 		pmg_turquoise_mining
-		pmg_organization
 	}
+	ownership_type = self
 }
 
 building_mudbrick_furnace = {
@@ -96,6 +96,6 @@ building_mudbrick_furnace = {
 
 	production_method_groups = {
 		pmg_mudbrick_furnacing
-		pmg_organization
 	}
+	ownership_type = self
 }

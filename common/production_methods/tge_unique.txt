@@ -24,7 +24,7 @@
 		}
 		
 		unscaled = {
-		building_workforce_shares_add = 1
+
 		}
 	}
 }
