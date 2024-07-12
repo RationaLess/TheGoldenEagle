@@ -1862,6 +1862,13 @@ country_type = recognized
 cultures = { huastec }
 capital = STATE_OLUZUAMA
 } 
+TZP = { #Tezpotlan
+color = rgb { 145 184 106 }
+tier = duchy
+country_type = recognized
+cultures = { huastec }
+capital = STATE_OLUZUAMA
+} 
 ULUL = { #Mululultoc
 color = rgb { 135 148 121 }
 tier = duchy

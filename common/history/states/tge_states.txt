@@ -3,7 +3,7 @@
 	#Aztec Triple Alliance
 
 	s:STATE_TENOCHTITLAN = {
-		add_homeland = mexica
+		add_homeland = cu:mexica
 		
 		create_state = {
 			country = c:ATA
@@ -272,7 +272,7 @@
 	
 	#TOTONAC
 	s:STATE_TOTONACAPAN = {
-		add_homeland = totonac
+		add_homeland = cu:totonac
 	
 		create_state = {
 			country = c:XLP
@@ -314,7 +314,7 @@
 	}
 	
 	s:STATE_HUAYACOCOTLA = {
-		add_homeland = totonac
+		add_homeland = cu:totonac
 	
 		create_state = {
 			country = c:YHL
@@ -596,9 +596,7 @@
 		#	owned_provinces = { "x3DCE15" "x3F7019" "x436D1B" "x4AD31F" "x539600" "x83A702" "xA1D001" "xBF8818" "xD35603" "xE2990B" "xE5B612" "xFD3C28" }
 		#}
 	}
-	###CHINANTEC
-	s:STATE_TUXTEPEC = {
-	}
+	
 	
 	
 	###Nonoalca

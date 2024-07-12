@@ -19,3 +19,77 @@ building_fishing_village = {
 	
 	ownership_type = self
 }
+
+building_palace_estates = {
+	building_group = bg_manor_houses
+	city_type = farm
+	levels_per_mesh = 10
+
+	lens = infrastructure
+
+	texture = "gfx/interface/icons/building_icons/building_manor_houses.dds"
+
+	production_method_groups = {
+		pmg_ownership_building_manor_house
+		pmg_additional_ownership_building_manor_house
+	}
+
+	investment_scores = {		
+	}
+
+	buildable = no
+	expandable = no
+	downsizeable = no
+	ownership_type = other
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_temple_sites = {
+	building_group = bg_manor_houses
+	city_type = farm
+	levels_per_mesh = 10
+
+	lens = infrastructure
+
+	texture = "gfx/interface/icons/building_icons/building_manor_houses.dds"
+
+	production_method_groups = {
+		pmg_ownership_building_manor_house
+		pmg_additional_ownership_building_manor_house
+	}
+
+	investment_scores = {		
+	}
+
+	buildable = no
+	expandable = no
+	downsizeable = no
+	ownership_type = other
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_merchant_guild = {
+	building_group = bg_financial_districts
+	city_type = city
+	levels_per_mesh = 10
+
+	lens = infrastructure
+
+	texture = "gfx/interface/icons/building_icons/building_financial_district.dds"
+
+	production_method_groups = {
+		pmg_ownership_building_financial_district
+	}
+	
+	investment_scores = {
+	}
+
+	buildable = no
+	expandable = no
+	downsizeable = no
+	ownership_type = other
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}

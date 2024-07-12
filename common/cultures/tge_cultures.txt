@@ -1050,6 +1050,28 @@ huastec = {
 	graphics = generic
 }
 
+chontal = {
+	color= { 49 135 15 }
+	religion = mayan
+	traits = { native_heritage maya_speaking }
+	male_common_first_names={
+		placeholder
+	}
+	female_common_first_names = {
+		placeholder
+	}	
+	noble_last_names = {
+		placeholder
+	}
+	common_last_names={
+		placeholder
+	}
+	ethnicities = {
+		1 = mesoamerican
+	}
+	graphics = generic
+}
+
 matlatzinca = {
 	color= { 136 115 222 }
 	religion = core_mesoamerican

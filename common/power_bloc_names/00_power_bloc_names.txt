@@ -1,0 +1,15 @@
+﻿##### generic and near-generic power bloc names ####
+
+great_alliance = {
+	trigger = {
+		always = yes
+	}
+}
+
+grand_coalition = {
+	trigger = {
+		always = yes
+	}
+}
+
+
